@@ -17,4 +17,4 @@ tags:
     - obit
 ---
 
-Missed this news until Jasmine told me yesterday. I obviously don’t remember his ’70 match, but I remember being intrigued and puzzled in ’92 about the circus around him, and powerfully moved in ’93 by \[Searching for Bobby Fischer\](http://www.imdb.com/title/tt0108065/). The canonical suffering genius. A light went out.
+Missed this news until Jasmine told me yesterday. I obviously don’t remember his ’70 match, but I remember being intrigued and puzzled in ’92 about the circus around him, and powerfully moved in ’93 by [Searching for Bobby Fischer](http://www.imdb.com/title/tt0108065/). The canonical suffering genius. A light went out.

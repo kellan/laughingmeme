@@ -20,4 +20,4 @@ tags:
     - wikipedia
 ---
 
-I feel like I should win a prize, just added a (kind of weak) article to Wikipedia that had 9 incoming links. \[Wikipedia\](http://wikipedia.org) should allow you to browse by “Most in demand articles”. (though perhaps it should have been a disambiguation page)
+I feel like I should win a prize, just added a (kind of weak) article to Wikipedia that had 9 incoming links. [Wikipedia](http://wikipedia.org) should allow you to browse by “Most in demand articles”. (though perhaps it should have been a disambiguation page)

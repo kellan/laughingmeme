@@ -22,8 +22,8 @@ tags:
     - web2.0
 ---
 
-Jeff has been \[rolling out the APIs at Newscloud\](http://blog.newscloud.com/2006/10/newscloud\_relea.html), 51 and counting with code samples, and documentation. Everything you need to remix your own community collaborative news “vertical” (in valleyspeak), Digg-a-like, or simply progressive news aggregator.
+Jeff has been [rolling out the APIs at Newscloud](http://blog.newscloud.com/2006/10/newscloud\_relea.html), 51 and counting with code samples, and documentation. Everything you need to remix your own community collaborative news “vertical” (in valleyspeak), Digg-a-like, or simply progressive news aggregator.
 
-A whole pack of the crew from Anyday/Palm just shipped \[Helium\](http://www.helium.com/), newest entry in the paid writers community space, built on a slick Rails backend. But really, get better stock photos if you want to give the “made of people” feel. (see \[Flickr: Creative Commons\](http://flickr.com/creativecommons))
+A whole pack of the crew from Anyday/Palm just shipped [Helium](http://www.helium.com/), newest entry in the paid writers community space, built on a slick Rails backend. But really, get better stock photos if you want to give the “made of people” feel. (see [Flickr: Creative Commons](http://flickr.com/creativecommons))
 
-And \[Blaine\](http://romeda.org) has \[soft launched\](http://twitter.com/ev/statuses/47929) \[Jabber\](http://jabber.org) integration for \[Twitter\](http://twitter.com). Also a stream oriented XML webservice. (did I just repeat myself?)
+And [Blaine](http://romeda.org) has [soft launched](http://twitter.com/ev/statuses/47929) [Jabber](http://jabber.org) integration for [Twitter](http://twitter.com). Also a stream oriented XML webservice. (did I just repeat myself?)

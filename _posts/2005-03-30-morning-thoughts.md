@@ -22,6 +22,6 @@ tags:
 
 I’m going through an interesting life/work phase (dear god, let it be a phase), where I seem to be able to spend all day on the phone/email and still not talk with half the people I’m supposed to talk with. Exhausting, how do power communicators, though professionally highly connected nodes, do it?
 
-But today, “Today!”, he says, “We write code!” (having just finished off a coder’s breakfast of a bagel, lots of egg and cheese \[coding has high protein requirements\], and a pot of coffee)
+But today, “Today!”, he says, “We write code!” (having just finished off a coder’s breakfast of a bagel, lots of egg and cheese [coding has high protein requirements], and a pot of coffee)
 
-Today’s thought: <cite>\[It’s all spinning wheels and self doubt until the first pot of coffee.\](http://www.decafbad.com/blog/2005/03/07/quickorama)</cite>
+Today’s thought: <cite>[It’s all spinning wheels and self doubt until the first pot of coffee.](http://www.decafbad.com/blog/2005/03/07/quickorama)</cite>

@@ -23,4 +23,4 @@ tags:
     - osx
 ---
 
-Picture Framer (with Flickr) is the first Dashboard widget I use regularily. And \[ToDo Tracker\](http://www.monkeybusinesslabs.com/software-todotracker.html) is the second.
+Picture Framer (with Flickr) is the first Dashboard widget I use regularily. And [ToDo Tracker](http://www.monkeybusinesslabs.com/software-todotracker.html) is the second.

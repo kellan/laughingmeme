@@ -23,4 +23,4 @@ tags:
     - semweb
 ---
 
-\[Everybody’s\](http://www.jroller.com/page/obie?entry=finally\_activerdf) \[talking\](http://del.icio.us/url/be939a09f4c9bbc05b15ec2c29cc5894) \[about\](http://www.semergence.com/archives/2006/03/07/13/05/14/) it, anyone using it?
+[Everybody’s](http://www.jroller.com/page/obie?entry=finally\_activerdf) [talking](http://del.icio.us/url/be939a09f4c9bbc05b15ec2c29cc5894) [about](http://www.semergence.com/archives/2006/03/07/13/05/14/) it, anyone using it?

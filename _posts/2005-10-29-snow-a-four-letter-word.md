@@ -30,6 +30,6 @@ no is the only part of the word that I heard,
 call me morbid or absurd"
 ```
 
-– with apologies to \[Cake\](http://www.cakemusic.com/) (\[boston+snow\](http://laughingmeme.org/tag/boston+snow))
+– with apologies to [Cake](http://www.cakemusic.com/) ([boston+snow](http://laughingmeme.org/tag/boston+snow))
 
 \*\*update 2005-11-1: \*\* In fairness to Boston, every day since has been stunningly beautiful, sunny and 70 degrees. Supremely odd weather to have after getting several inches of snow.

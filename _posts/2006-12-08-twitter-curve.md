@@ -24,13 +24,13 @@ tags:
     - twitter
 ---
 
-First congrats to the \[Obvious\](http://obvious.com/) kids (assuming any of you survived your \[wild bacchanalia of vegetarian and raw foods\](http://twitter.com/ev/statuses/818673) last night), you’ve made the big time!
+First congrats to the [Obvious](http://obvious.com/) kids (assuming any of you survived your [wild bacchanalia of vegetarian and raw foods](http://twitter.com/ev/statuses/818673) last night), you’ve made the big time!
 
-You’ve got a \[*Kathy Sierra* graph named after you\](http://headrush.typepad.com/creating*passionate*users/2006/12/httpwww37signal.html)!
+You’ve got a [*Kathy Sierra* graph named after you](http://headrush.typepad.com/creating*passionate*users/2006/12/httpwww37signal.html)!
 
 [![](http://headrush.typepad.com/photos/uncategorized/twittercurve.jpg)](http://headrush.typepad.com/creating_passionate_users/2006/12/httpwww37signal.html)
 
-And she is talking about \[Continuous Partial Attention\](http://continuouspartialattention.jot.com/WikiHome), which is also fascinating. But I think she is wrong about Brain 2.0 not being here yet.
+And she is talking about [Continuous Partial Attention](http://continuouspartialattention.jot.com/WikiHome), which is also fascinating. But I think she is wrong about Brain 2.0 not being here yet.
 
 ### Brain 2.0
 
@@ -44,18 +44,18 @@ That’s why email and feed readers can be so distracting, they slip past our in
 
 Bad mornings are the ones where I sit at home compulsively unbolding things hoping that somewhere in there there will be the gem of connection and stimuli that gets me out the door.
 
-So we have an activity which consumes a huge amount of time, and delivers low grade rewards \[intermittently\](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html).
+So we have an activity which consumes a huge amount of time, and delivers low grade rewards [intermittently](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html).
 
 ### Twitter
 
 [![](http://laughingmeme.org/img/twitter_friends.png)](http://twitter.com)
 
-And thats where \[Twitter\](http://twitter.com) comes in. I have Twitter going to IM (the excellent \[Adium\](http://www.adiumx.com/)). Messages appear at the top left of my screen almost in my peripheral vision, and fade away quickly with no intervention needed (thank you \[Growl\](http://growl.info/)), a quick squirt of connection without requiring agency.
+And thats where [Twitter](http://twitter.com) comes in. I have Twitter going to IM (the excellent [Adium](http://www.adiumx.com/)). Messages appear at the top left of my screen almost in my peripheral vision, and fade away quickly with no intervention needed (thank you [Growl](http://growl.info/)), a quick squirt of connection without requiring agency.
 
-IM is \[supposed to be asynchronous\](http://www.zephoria.org/thoughts/archives/2006/11/07/what*i*mean\_whe.html), but at that the same time you need someone to occasionally \[make “eye contact” with you\](http://interconnected.org/notes/2003/09/glancing/) to know you aren’t howling in the void, and Twit provides that, its stream of updates providing presence, and occasional directed response.
+IM is [supposed to be asynchronous](http://www.zephoria.org/thoughts/archives/2006/11/07/what*i*mean\_whe.html), but at that the same time you need someone to occasionally [make “eye contact” with you](http://interconnected.org/notes/2003/09/glancing/) to know you aren’t howling in the void, and Twit provides that, its stream of updates providing presence, and occasional directed response.
 
 ### MySpace Hating
 
 [![](http://laughingmeme.org/img/thanks_fo_da_add.gif)](http://www.justcomments.com/Thanks-For-The-Add.html)
 
-Social software as monolithic web destinations is going to go away over the next 5 years (with the exception of course of \[certain photo sharing sites\](http://flickr.com)). Right now tools like MySpace are structured around the very adolescent desire to make friendship and community a public and performative act, with everyone else piling on due to the network effect. Adults for the most part, don’t need, don’t want, and don’t have time to participate in the continuos and elaborate preening rituals. We’ll want tools that allow us to build tight knit groups, with low cost communication, asynchronous connection, and social discovery. They might look something like Twitter.
+Social software as monolithic web destinations is going to go away over the next 5 years (with the exception of course of [certain photo sharing sites](http://flickr.com)). Right now tools like MySpace are structured around the very adolescent desire to make friendship and community a public and performative act, with everyone else piling on due to the network effect. Adults for the most part, don’t need, don’t want, and don’t have time to participate in the continuos and elaborate preening rituals. We’ll want tools that allow us to build tight knit groups, with low cost communication, asynchronous connection, and social discovery. They might look something like Twitter.

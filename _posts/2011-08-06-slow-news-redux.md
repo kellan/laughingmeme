@@ -12,7 +12,7 @@ categories:
 
 Just a quick follow up. Got a ton of good feedback on last weekends “Slow News” post, in the comments on that post, and over at G+.
 
-Some of my favorite comments where from \[Mike Migurski\](http://mike.teczno.com/). Apparently his Google Plus account has been deleted. To say this tarnishes G+ for me is putting it mildly.
+Some of my favorite comments where from [Mike Migurski](http://mike.teczno.com/). Apparently his Google Plus account has been deleted. To say this tarnishes G+ for me is putting it mildly.
 
 But to summarize the feedback which hasn’t been expunged, folks recommended:
 

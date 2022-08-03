@@ -23,4 +23,4 @@ tags:
     - photos
 ---
 
-With that kind of celebrity endorsement is it any wonder I wear a \[Chrome\](http://chromebags.com) bag?
+With that kind of celebrity endorsement is it any wonder I wear a [Chrome](http://chromebags.com) bag?

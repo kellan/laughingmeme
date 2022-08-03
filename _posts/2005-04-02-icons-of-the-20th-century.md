@@ -20,6 +20,6 @@ tags:
     - history
 ---
 
-Ken MacLeod, \[A canticle for Wojtyla\](http://kenmacleod.blogspot.com/2005*04*01*kenmacleod*archive.html#111244984688908712), on the \[Dalai Lama\](http://en.wikipedia.org/wiki/Dalai*lama), \[Nelson Mandela\](http://en.wikipedia.org/wiki/Nelson*Mandela), \[Karol Jozef Wojtyla\](http://en.wikipedia.org/wiki/Pope*John*Paul*II), and \[Fidel Castro\](http://en.wikipedia.org/wiki/Fidel*castro):
+Ken MacLeod, [A canticle for Wojtyla](http://kenmacleod.blogspot.com/2005*04*01*kenmacleod*archive.html#111244984688908712), on the [Dalai Lama](http://en.wikipedia.org/wiki/Dalai*lama), [Nelson Mandela](http://en.wikipedia.org/wiki/Nelson*Mandela), [Karol Jozef Wojtyla](http://en.wikipedia.org/wiki/Pope*John*Paul*II), and [Fidel Castro](http://en.wikipedia.org/wiki/Fidel*castro):
 
 > …four old men with their roots in the Cold War, of which they are the last men standing… inchoate figureheads of a global humanism. It’s a measure of the strangeness of the New World Order that they all, in very contradictory ways, have become icons of its discontents.

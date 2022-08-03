@@ -22,6 +22,6 @@ tags:
     - web2.0
 ---
 
-Erik Benson’s awesome \[Morale-O-Meter\](http://morale.erikbenson.com/) is now publicly available! My favorite tool since \[Allconsuming\](http://allconsuming.net/) (or maybe LoB). Just don’t stab to close to \[Buzz\](http://weblog.scifihifi.com/), \[that man is wild\](http://flickr.com/photos/ldandersen/157346796/). (like you needed a webapp to tell you that)
+Erik Benson’s awesome [Morale-O-Meter](http://morale.erikbenson.com/) is now publicly available! My favorite tool since [Allconsuming](http://allconsuming.net/) (or maybe LoB). Just don’t stab to close to [Buzz](http://weblog.scifihifi.com/), [that man is wild](http://flickr.com/photos/ldandersen/157346796/). (like you needed a webapp to tell you that)
 
 **update:** So I’m confused, when entering hours slept for a day, is that the hours you woke up with, or the hours you ended the day with? Or maybe just the hours that occured during the 24 hour period. How can I be sure my reporting is accurate!!?!

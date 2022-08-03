@@ -24,4 +24,4 @@ tags:
     - programming
 ---
 
-See also \[Pattern Oriented Softare Arch., vol 2\](http://www.amazon.com/gp/product/0471606952/104-8840841-5744769?v=glance&amp;n=283155) for good enterprise event patterns
+See also [Pattern Oriented Softare Arch., vol 2](http://www.amazon.com/gp/product/0471606952/104-8840841-5744769?v=glance&amp;n=283155) for good enterprise event patterns

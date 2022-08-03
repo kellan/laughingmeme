@@ -12,9 +12,9 @@ categories:
 
 I told myself at the 6 month mark of fun employment I’d publish my notes about what I’d been up to. I missed that. Did some yak shaving. Having a couple of different blog redesigns in various stages, and another long post about my (awesome) experience at Recurse and building a database.
 
-But it was my birthday this weekend, so I published some quick half formed thoughts on \[what I’ve been researching about\](http://laughingmeme.org/2018/11/12/what-im-up-to/), mostly around climate change lately.
+But it was my birthday this weekend, so I published some quick half formed thoughts on [what I’ve been researching about](http://laughingmeme.org/2018/11/12/what-im-up-to/), mostly around climate change lately.
 
-The other thing I’ve been doing is teaching engineering leadership (though I lost \[my partner in crime\](http://www.camilletalk.com/) from my last sabbatical to gainful employment). I’m on record believing that we radically under invest in training technical leaders, a problem that is compounded by the fact that CTO and the various related technical leader roles are among those that change most dramatically as a company scales.
+The other thing I’ve been doing is teaching engineering leadership (though I lost [my partner in crime](http://www.camilletalk.com/) from my last sabbatical to gainful employment). I’m on record believing that we radically under invest in training technical leaders, a problem that is compounded by the fact that CTO and the various related technical leader roles are among those that change most dramatically as a company scales.
 
 So in the spirit of half formed thoughts, a few conversations that come up frequently talking to engineering leaders and founders.
 

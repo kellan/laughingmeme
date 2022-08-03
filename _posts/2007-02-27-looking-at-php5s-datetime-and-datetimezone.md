@@ -19,17 +19,17 @@ tags:
     - timezone
 ---
 
-Looking over the \[PHP5.2 changelog\](http://www.php.net/ChangeLog-5.php) I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone.
+Looking over the [PHP5.2 changelog](http://www.php.net/ChangeLog-5.php) I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone.
 
 There is something fundamentally brash, brazen even, to releasing a class named DateTime. As a calendar geek I imagine upon seeing “new DateTime()” I feel something akin to what an old thespian feels when they see a company putting on a production of the Scottish play — it’s a decidedly mixed emotion. But I’m going to bump my way through learning how to use this new DateTime lib, bringing **all my preconceptions** about how it should work. The odds of this being interesting to you is probably nil unless you’re in one or two very small cliques, feel free to read on, or browse away.
 
-I’m primarily working in PHP4 right now, so my first step was to grab a copy of \[MAMP 1.5b\](http://www.mamp.info/en/home.php) getting me a nice PHP5.2 sandbox to play with.
+I’m primarily working in PHP4 right now, so my first step was to grab a copy of [MAMP 1.5b](http://www.mamp.info/en/home.php) getting me a nice PHP5.2 sandbox to play with.
 
-The new objects are \[documented here\](http://www.php.net/manual/en/ref.datetime.php), apparently there are functional equivalents for each of the object methods, and they use the \[PECL timezomedb\](http://pecl.php.net/package/timezonedb/).
+The new objects are [documented here](http://www.php.net/manual/en/ref.datetime.php), apparently there are functional equivalents for each of the object methods, and they use the [PECL timezomedb](http://pecl.php.net/package/timezonedb/).
 
 Hey! timezonedb! First fence cleared! A timezone database compiled into a native format based on Olson is the *one true solution*, and I can update it independently, the most recent release being based on 2007b. Sweet.
 
-\[Constructor\](http://php.net/manual/en/function.date-create.php) takes an initialization string that it passes to \[strtotime()\](http://php.net/manual/en/function.strtotime.php), and an optional DateTimeZone obj. Defaults to “now”
+[Constructor](http://php.net/manual/en/function.date-create.php) takes an initialization string that it passes to [strtotime()](http://php.net/manual/en/function.strtotime.php), and an optional DateTimeZone obj. Defaults to “now”
 
 ```
 $date = new DateTime();
@@ -40,7 +40,7 @@ echo $date . "\n";
 
 Oops, no `__toString()` method defined. You’ll need to use the `format()` instance method. If you end up using the DateTime objects, you’ll be seeing a lot of `format()`, more on that in a bit.
 
-`format()` uses the \[date() formatting strings\](http://php.net/manual/en/function.date.php) (not the `strftime` format strings). Also takes a number of useful constants, most usefully your pal and mine RFC3339 (aka W3CDTF aka Dublin Core/Atom date format).
+`format()` uses the [date() formatting strings](http://php.net/manual/en/function.date.php) (not the `strftime` format strings). Also takes a number of useful constants, most usefully your pal and mine RFC3339 (aka W3CDTF aka Dublin Core/Atom date format).
 
 ```
 echo $date->format(DATE_RFC3339) . "\n";
@@ -50,7 +50,7 @@ echo $date->format(DATE_RFC3339) . "\n";
 
 Note: thats a constant, if you pass in the string ‘DATE\_RFC3339’, and you’ll get odd looking results.
 
-Here we can see the default constructor sets both the time and a timezone — correctly, for the moment, identifying my timezone as `America/New_York`. That’s somewhat contentious behaviour, some people will tell you that dates with unspecified timezones should either be in UTC or be “floating”, divorced from any timezone. Why? At least in part because across platforms and boxes timezone guessing is going to be non-deterministic — the script that worked when you ran it locally on your Mac laptop in New York, might fail on your ISP’s servers. You get a hint of this reading over the timezone guessing rules on \[`date_default_timezone_get`\](http://php.net/date*default*timezone\_get). There is also the fact that I’m currently moving at about 400mph and will be in a different timezone real soon now. However you can set the default to something reasonable in a script, or in the php.ini. (consider this my recommendation)
+Here we can see the default constructor sets both the time and a timezone — correctly, for the moment, identifying my timezone as `America/New_York`. That’s somewhat contentious behaviour, some people will tell you that dates with unspecified timezones should either be in UTC or be “floating”, divorced from any timezone. Why? At least in part because across platforms and boxes timezone guessing is going to be non-deterministic — the script that worked when you ran it locally on your Mac laptop in New York, might fail on your ISP’s servers. You get a hint of this reading over the timezone guessing rules on [`date_default_timezone_get`](http://php.net/date*default*timezone\_get). There is also the fact that I’m currently moving at about 400mph and will be in a different timezone real soon now. However you can set the default to something reasonable in a script, or in the php.ini. (consider this my recommendation)
 
 ```
 date_default_timezone_set('UTC');
@@ -72,9 +72,9 @@ Siiiigh. Not smart enough to cast strings into TimeZone objects (holds true for 
 
 ### Working with DateTimeZone, All Hail Olson
 
-I mentioned briefly earlier that PHP is now shipping with an extension timezonedb, which is a compiled version of the \[Olson database\](http://en.wikipedia.org/wiki/Zoneinfo). The Olson database is a massive, largely volunteer effort to catalog the various timezones both in use, and those that have been in the past. Time is a political issue, \[particularly day light savings\](http://laughingmeme.org/2005/04/04/daylight-saving-sucks-war-time/), and as such the rules governing it are arbitrary, whimsical, and subject to frequent change. (p.s. gotten a panicked memo yet about new daylight savings compliance for March 11th? No? Where did you say you worked?)
+I mentioned briefly earlier that PHP is now shipping with an extension timezonedb, which is a compiled version of the [Olson database](http://en.wikipedia.org/wiki/Zoneinfo). The Olson database is a massive, largely volunteer effort to catalog the various timezones both in use, and those that have been in the past. Time is a political issue, [particularly day light savings](http://laughingmeme.org/2005/04/04/daylight-saving-sucks-war-time/), and as such the rules governing it are arbitrary, whimsical, and subject to frequent change. (p.s. gotten a panicked memo yet about new daylight savings compliance for March 11th? No? Where did you say you worked?)
 
-Note: Olson also uses a longer form of the zone names then we usually see in the U.S., this is to combat ambiguity. See \[Appendix H\](http://www.php.net/manual/en/timezones.php) for a list of timezone names, including some \[handy shortcuts\](http://www.php.net/manual/en/timezones.others.php).
+Note: Olson also uses a longer form of the zone names then we usually see in the U.S., this is to combat ambiguity. See [Appendix H](http://www.php.net/manual/en/timezones.php) for a list of timezone names, including some [handy shortcuts](http://www.php.net/manual/en/timezones.others.php).
 
 ```
 $tz = new DateTimeZone('America/New_York');
@@ -129,7 +129,7 @@ echo $tz_nyc->getOffset(new DateTime('2007-03-11 2:00')) . "\n";
 
 ```
 
-**Yay!** They got the memo about \[U.S. Energy Policy Act of 2005\](http://en.wikipedia.org/wiki/Energy*Policy*Act*of*2005).
+**Yay!** They got the memo about [U.S. Energy Policy Act of 2005](http://en.wikipedia.org/wiki/Energy*Policy*Act*of*2005).
 
 ### The Basics: Accessors and Mutators
 
@@ -154,7 +154,7 @@ dow:    $date->format('l'); // Sunday
 
 … etc …
 
-So now you have accessors for the full range of \[date() formatting strings\](http://php.net/manual/en/function.date.php). You just have to jump through a hope.
+So now you have accessors for the full range of [date() formatting strings](http://php.net/manual/en/function.date.php). You just have to jump through a hope.
 
 Pretty much the only accessor is `getTimezone()`
 
@@ -334,13 +334,13 @@ echo "select between " . $start->format(DATE_RFC3339) . " and " . $end->format(D
 
 Awkward, but it gets the job done.
 
-At least the relative date format is super flexible and expressive. As far as I know the closest thing to documentation is from the \[GNU tar manual on date input formats\](http://www.gnu.org/software/tar/manual/html*node/tar*109.html). (just like CVS) Btw. if you ever want nightmares, take a look at the `scan` method in PHP’s parse\_date.c and be thankful that isn’t your job to maintain ![:)](http://lm.local/wp-includes/images/smilies/simple-smile.png)
+At least the relative date format is super flexible and expressive. As far as I know the closest thing to documentation is from the [GNU tar manual on date input formats](http://www.gnu.org/software/tar/manual/html*node/tar*109.html). (just like CVS) Btw. if you ever want nightmares, take a look at the `scan` method in PHP’s parse\_date.c and be thankful that isn’t your job to maintain ![:)](http://lm.local/wp-includes/images/smilies/simple-smile.png)
 
 ### Date Math: Comparison and Differences
 
 Beyond adding deltas (“+7 days”), the other common date math is comparing two datetimes, to find out which is more recent, and getting the difference between them. DateTime supports no methods for comparing two datetimes. The simplest solution for doing comparison is to compare epoch seconds.
 
-**Note:** This method only works for dates that can be represented by epoch seconds. PHP uses a signed int for epoch seconds, so the range is limited by the size of the max int on your platform. Generally you get approximately 138 years, 1901 to 2038. There are other schemes besides epoch seconds for mapping dates to an easily comparable number; \[MJDs\](http://en.wikipedia.org/wiki/Julian\_day), and \[Tai time\](http://cr.yp.to/proto/utctai.html) being two. See also *Rheingold &amp; Dershowitz 1997*
+**Note:** This method only works for dates that can be represented by epoch seconds. PHP uses a signed int for epoch seconds, so the range is limited by the size of the max int on your platform. Generally you get approximately 138 years, 1901 to 2038. There are other schemes besides epoch seconds for mapping dates to an easily comparable number; [MJDs](http://en.wikipedia.org/wiki/Julian\_day), and [Tai time](http://cr.yp.to/proto/utctai.html) being two. See also *Rheingold &amp; Dershowitz 1997*
 
 ```
 $d1 = new DateTime("today");
@@ -352,7 +352,7 @@ if ($d1->format('U') < $d2->format('U')) {
 
 ```
 
-If you’re going to be comparing a large number of dates you might consider a memoization technique like the \[Schwartzian transform\](http://en.wikipedia.org/wiki/Schwartzian\_transform).
+If you’re going to be comparing a large number of dates you might consider a memoization technique like the [Schwartzian transform](http://en.wikipedia.org/wiki/Schwartzian\_transform).
 
 We can get the difference in seconds using the same hack of casting to epochs.
 

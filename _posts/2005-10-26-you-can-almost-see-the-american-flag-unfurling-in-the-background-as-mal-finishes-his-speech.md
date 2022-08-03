@@ -28,4 +28,4 @@ tags:
     - whedon
 ---
 
-the always excellent \[Killing Train\](http://www.killingtrain.com) on how *Serenity* moved away from *Firefly’s* anti-imperialist roots
+the always excellent [Killing Train](http://www.killingtrain.com) on how *Serenity* moved away from *Firefly’s* anti-imperialist roots

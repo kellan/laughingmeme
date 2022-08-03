@@ -21,4 +21,4 @@ tags:
     - torture
 ---
 
-If you weren’t already turned off by \[GoDaddy’s\](http://www.bobparsons.com/CloseGitmoNowayThinkourinterrogationmethodsaretoughPrisonersintheMiddleEasttalkquickHereswhyt.html) creepy name, disgusting ads, crooked business practices, or lousy product, their CEO is also \[pro-torture\](http://www.bobparsons.com/CloseGitmoNowayThinkourinterrogationmethodsaretoughPrisonersintheMiddleEasttalkquickHereswhyt.html)
+If you weren’t already turned off by [GoDaddy’s](http://www.bobparsons.com/CloseGitmoNowayThinkourinterrogationmethodsaretoughPrisonersintheMiddleEasttalkquickHereswhyt.html) creepy name, disgusting ads, crooked business practices, or lousy product, their CEO is also [pro-torture](http://www.bobparsons.com/CloseGitmoNowayThinkourinterrogationmethodsaretoughPrisonersintheMiddleEasttalkquickHereswhyt.html)

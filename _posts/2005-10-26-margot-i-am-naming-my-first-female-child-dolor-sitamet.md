@@ -24,4 +24,4 @@ tags:
     - st
 ---
 
-The fact that that sounds like an excellent idea is probably a sign I shouldn’t be having kids. (also a touch \[goth\](http://www.answers.com/dolor))
+The fact that that sounds like an excellent idea is probably a sign I shouldn’t be having kids. (also a touch [goth](http://www.answers.com/dolor))

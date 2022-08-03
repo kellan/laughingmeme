@@ -22,13 +22,13 @@ tags:
     - syndication
 ---
 
-**My favorite \[Google calendar\](http://calendar.google.com) feature**: Daily Agenda, a daily email overview of the days events. Though when you’re in there looking at the nofitications tab you’ll notice no notifications via IM support. (even for those of us using Jabber/GTalk)
+**My favorite [Google calendar](http://calendar.google.com) feature**: Daily Agenda, a daily email overview of the days events. Though when you’re in there looking at the nofitications tab you’ll notice no notifications via IM support. (even for those of us using Jabber/GTalk)
 
 **Least favorite**: Search public calendars is wrong wrong wrong, not the least because it shows me calendars for 2005.
 
 Feels more done then recent Google releases, but what will make it is the GMail integration. (or break it if we all migrate away from GMail at some point)
 
-**Bonus**: a new Google syndication namespace with event elements: \[http://schemas.google.com/g/2005\](http://schemas.google.com/g/2005)
+**Bonus**: a new Google syndication namespace with event elements: [http://schemas.google.com/g/2005](http://schemas.google.com/g/2005)
 
 ```
 <gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>

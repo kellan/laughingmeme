@@ -23,10 +23,10 @@ tags:
     - urban
 ---
 
-Matt Webb has a fascinating observation that the \[dot com boom was shaped fundamentally by the physical reality of SF\](http://interconnected.org/home/2005/06/08/i*caught*sight\_of)
+Matt Webb has a fascinating observation that the [dot com boom was shaped fundamentally by the physical reality of SF](http://interconnected.org/home/2005/06/08/i*caught*sight\_of)
 
 > Visiting San Francisco for the first time in 2001, it all snapped into place. Here was a city cross-hatched by freeways that each felt just a little too dangerous to walk under. Coupled with a lack of decent public transportation, it meant there were loads of communities slightly too small to support really big stores or specialist shops. I was seeing, in short, a city in which home delivery made a ton of sense: pet supplies, groceries, late night snacks…
 
-I don’t know if its true, but its a neat idea. Someone get \[Mike Davis\](http://en.wikipedia.org/wiki/Mike\_Davis) on the case!
+I don’t know if its true, but its a neat idea. Someone get [Mike Davis](http://en.wikipedia.org/wiki/Mike\_Davis) on the case!
 
 It is also kind of funny because I think of San Francisco as small, approachable city, that is relatively easy to get around, or to get from one side to the other. (Bay to Breakers anyone?) At least compared to other American cities.

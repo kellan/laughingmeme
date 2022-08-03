@@ -24,7 +24,7 @@ Caffeine abuse is much like getting a tattoo or piercing, mild forms of self abu
 
 Which is really a tangent from what I started to write about. I’m sitting in 1369, and some woman just came in, clearly a regular. She didn’t even have to order, the counter person (the one with the tattooed arms. the name David sticks in my head?) confirmed she wanted the usual:
 
-> “7 shots – 4 shots, this much \[about an inch and a half\] steamed milk, and 3 more shots”.  
+> “7 shots – 4 shots, this much [about an inch and a half] steamed milk, and 3 more shots”.  
 >  She grinned, “Exactly right”.
 
 That is just scary! But I’m kind of jealous because I think they gave it to her on the house.

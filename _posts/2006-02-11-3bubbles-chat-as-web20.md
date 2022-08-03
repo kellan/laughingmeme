@@ -24,4 +24,4 @@ tags:
     - web2.0
 ---
 
-I was pitched on an Ajax chat startup lately, and thought it was the dumbest idea I’d ever heard. Synchronous, flat, memory-less, noisy communication is a step forward? I don’t get it. (though \[Jeremie\](http://jeremie.com/blog/) is a nice guy and deserves to succeed)
+I was pitched on an Ajax chat startup lately, and thought it was the dumbest idea I’d ever heard. Synchronous, flat, memory-less, noisy communication is a step forward? I don’t get it. (though [Jeremie](http://jeremie.com/blog/) is a nice guy and deserves to succeed)

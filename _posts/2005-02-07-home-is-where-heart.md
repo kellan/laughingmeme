@@ -16,4 +16,4 @@ raw_content:
     - '[Home is many things](http://www.google.com/search?q=%22home+is%22+%2Bwhere+-heart&btnG=Search), but I\''d like to propose a new definition, that home is where you\''re relaxed enough that your body will let go and let you get really sick. Ugh.  Good to be home.'
 ---
 
-\[Home is many things\](http://www.google.com/search?q=%22home+is%22+%2Bwhere+-heart&amp;btnG=Search), but I’d like to propose a new definition, that home is where you’re relaxed enough that your body will let go and let you get really sick. Ugh. Good to be home.
+[Home is many things](http://www.google.com/search?q=%22home+is%22+%2Bwhere+-heart&amp;btnG=Search), but I’d like to propose a new definition, that home is where you’re relaxed enough that your body will let go and let you get really sick. Ugh. Good to be home.

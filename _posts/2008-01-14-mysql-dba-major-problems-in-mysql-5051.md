@@ -17,4 +17,4 @@ tags:
     - scalability
 ---
 
-See also \[DO NOT USE O\_DIRECT with EXT3\](http://mysqldba.blogspot.com/2008/01/do-not-use-odirect-with-ext3.html)
+See also [DO NOT USE O\_DIRECT with EXT3](http://mysqldba.blogspot.com/2008/01/do-not-use-odirect-with-ext3.html)

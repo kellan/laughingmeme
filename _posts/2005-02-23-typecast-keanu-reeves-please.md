@@ -21,4 +21,4 @@ tags:
 
 I never read *Hellblazer*, so I only know Gaiman’s interpretation of John Constantine, but if there was ever a character who seemed less clueless then Constantine, and less appropriate to be played as if he were suffering a lobotomy, I can’t think of it now.
 
-So while Keanu is a brilliant choice as drug addled view point character of gorgeous looking \[Scanner Darkly\](http://movies.yahoo.com/movies/feature/ascannerdarklyqt1.html) (\[via\](http://www.marginalia.org/log/archives/a*scanner*darkly\_trailer.html)), what the hell were they thinking casting him as \[Constantine\](http://www.apple.com/trailers/wb/constantine/tvspot/)?
+So while Keanu is a brilliant choice as drug addled view point character of gorgeous looking [Scanner Darkly](http://movies.yahoo.com/movies/feature/ascannerdarklyqt1.html) ([via](http://www.marginalia.org/log/archives/a*scanner*darkly\_trailer.html)), what the hell were they thinking casting him as [Constantine](http://www.apple.com/trailers/wb/constantine/tvspot/)?

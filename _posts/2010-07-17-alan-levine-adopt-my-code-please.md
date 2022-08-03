@@ -14,4 +14,4 @@ tags:
     - magpie
 ---
 
-Alan is looking for someone to take over \[Feed2JS\](http://feed2js.org/).
+Alan is looking for someone to take over [Feed2JS](http://feed2js.org/).

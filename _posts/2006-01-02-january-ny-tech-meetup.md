@@ -24,4 +24,4 @@ tags:
     - web
 ---
 
-7pm, at \[Eyebeam\](http://www.eyebeam.org/), see you there.
+7pm, at [Eyebeam](http://www.eyebeam.org/), see you there.

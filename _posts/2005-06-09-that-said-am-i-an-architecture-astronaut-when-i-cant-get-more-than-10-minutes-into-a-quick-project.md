@@ -21,4 +21,4 @@ tags:
     - quotable
 ---
 
-without already starting to digress into building a reusable framework. \[Um, yeah\]
+without already starting to digress into building a reusable framework. [Um, yeah]

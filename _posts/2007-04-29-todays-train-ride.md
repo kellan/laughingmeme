@@ -16,4 +16,4 @@ I caught CalTrain from San Jose to San Francisco today. Two things about the rid
 2. At several points someone who was not 5 years old got on the intercom and gave news update about the “MacArthur Maze blaze”. I’m trying to think of what other items have ever been newsworthy enough for the conductor to share en route and very very few come to mind. We are a culture that takes freeways very seriously.
 
 [![MacArthur Max collpase scene](http://farm1.static.flickr.com/171/477217134_623a186232.jpg)](http://www.flickr.com/photos/pixieclipx/477217134/ "Photo Sharing")  
-originally uploaded by \[pixieclipx\](http://flickr.com/photos/pixieclipx/)
+originally uploaded by [pixieclipx](http://flickr.com/photos/pixieclipx/)

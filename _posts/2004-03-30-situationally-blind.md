@@ -18,6 +18,6 @@ raw_content:
 
 Learned a new phrase, “situationally blind”, which seems to be [Richard Chassell](http://www.rattlesnake.com/) term for:
 
-> people, such as car drivers, who should not be looking at your blog \[or reading email\] while driving – [Single Input — Multiple Outputs](http://www.rattlesnake.com/notions/multiple-output-preview.html) ([via](http://tbray.org/ongoing/When/200x/2004/03/30/InputModes))
+> people, such as car drivers, who should not be looking at your blog [or reading email] while driving – [Single Input — Multiple Outputs](http://www.rattlesnake.com/notions/multiple-output-preview.html) ([via](http://tbray.org/ongoing/When/200x/2004/03/30/InputModes))
 
 At first I thought it might be a common term that I had never heard before, but a quick Google search shows its in exclusively by projects like Emacspeak, and textinfo, which confirms for me Chassell’s coinage. Its a useful term. 

@@ -10,17 +10,17 @@ categories:
     - Uncategorized
 ---
 
-Regarding \[Twitter’s recent changes\](http://blog.twitter.com/2012/01/tweets-still-must-flow.html):
+Regarding [Twitter’s recent changes](http://blog.twitter.com/2012/01/tweets-still-must-flow.html):
 
 > *Starting today, we give ourselves the ability to reactively withhold content from users in a specific country — while keeping it available in the rest of the world. We have also built in a way to communicate transparently to users when content is withheld, and why.*
 
-I mostly agree with Simon’s \[excellent post on his experience of adding this feature Flickr, and I18N in the broader Yahoo context\](http://tum.hitherto.net/post/16596051373/what-you-need-to-know-about-twitters-new-filters), summarized as:
+I mostly agree with Simon’s [excellent post on his experience of adding this feature Flickr, and I18N in the broader Yahoo context](http://tum.hitherto.net/post/16596051373/what-you-need-to-know-about-twitters-new-filters), summarized as:
 
 > *(1) Online companies have (and should have) little to no power to alter a country’s laws. (2) Online companies have an obligation to follow the law in places where they do business. (3) The revolution will not be Twitter-fied (4) The internet transcends borders; most laws do not. (5) Assumptions of malice are generally misguided, moreso in the face of opposing evidence*
 
 I’m also **deeply** appreciative that he took the time to write it.
 
-I also mostly agree with \[Blaine’s related assertion\](https://twitter.com/#!/blaine/status/163210429575868416)
+I also mostly agree with [Blaine’s related assertion](https://twitter.com/#!/blaine/status/163210429575868416)
 
 > *Twitter is a corporation, not a radical or even progressive platform. The internet, though, is.*
 
@@ -41,7 +41,7 @@ I was never comfortable with the line we walked at Flickr, it felt like we accep
 Additionally Simon, and Heather, and others who actively shaped our international policy were:
 
 1. Transparent with our community that we were doing it
-2. Transparent when content was being hidden and why (for country restrictions or DMCA or whatnot).\[1\]
+2. Transparent when content was being hidden and why (for country restrictions or DMCA or whatnot).[1]
 
 If you’re going to do per country filtering, I can’t think of two better principles to put in place, and these are the principles that Twitter mentioned in their blog post.
 

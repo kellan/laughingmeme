@@ -21,11 +21,11 @@ tags:
     - stats
 ---
 
-Still frustrated and disappointed that \[MeasureMap\](http://measuremap.com) has gone away, even if it never went as \[far as I wanted it to go\](http://laughingmeme.org/articles/2005/11/22/measuremap-alpha-review).
+Still frustrated and disappointed that [MeasureMap](http://measuremap.com) has gone away, even if it never went as [far as I wanted it to go](http://laughingmeme.org/articles/2005/11/22/measuremap-alpha-review).
 
-Finally got around to trying out \[Google Analytics\](http://www.google.com/analytics/), maybe I’m doing it wrong, but I’m bored by it. Doesn’t answer \[the questions I’m interested in\](http://laughingmeme.org/articles/2005/11/22/measuremap-alpha-review), though it did flag the interesting statistic that 94% of my visitors are “first time visitors”, which I imagine could also be dubbed the “I’ve got full content feeds” usage profile.
+Finally got around to trying out [Google Analytics](http://www.google.com/analytics/), maybe I’m doing it wrong, but I’m bored by it. Doesn’t answer [the questions I’m interested in](http://laughingmeme.org/articles/2005/11/22/measuremap-alpha-review), though it did flag the interesting statistic that 94% of my visitors are “first time visitors”, which I imagine could also be dubbed the “I’ve got full content feeds” usage profile.
 
-I guess I try \[Mint\](http://haveamint.com) next, though the demos don’t look like a lot more then a (very) pretty face on my old \[analog\](http://www.analog.cx/) install, and $30 seems a bit much to pay for that. And really I think stats for blogs need a domain specific package. But there seems to be an active plugin community around Mint which is promising.
+I guess I try [Mint](http://haveamint.com) next, though the demos don’t look like a lot more then a (very) pretty face on my old [analog](http://www.analog.cx/) install, and $30 seems a bit much to pay for that. And really I think stats for blogs need a domain specific package. But there seems to be an active plugin community around Mint which is promising.
 
 Sigh.
 

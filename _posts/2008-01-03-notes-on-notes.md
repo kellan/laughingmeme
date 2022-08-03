@@ -16,7 +16,7 @@ tags:
 
 Twitter tells my story tonight, “Online for the first time in 8 days with anything ‘richer; then a mobile phone.” Followed shortly by, “Feeling like a junkie who fell off the band wagon. Sleep pushed aside to catch up on the Web.”
 
-And part of catching up on the Web, is reading Webb’s \[wrapping up 2007\](http://interconnected.org/home/2007/12/28/wrapping*up*2007). These are my notes towards imaginary blog posts that I felt compelled to scrawl down reading his notes toward imaginary essays. Most of them are contrary, even though I’m a \[known Matt Webb fan\](http://laughingmeme.org/?s=webb).
+And part of catching up on the Web, is reading Webb’s [wrapping up 2007](http://interconnected.org/home/2007/12/28/wrapping*up*2007). These are my notes towards imaginary blog posts that I felt compelled to scrawl down reading his notes toward imaginary essays. Most of them are contrary, even though I’m a [known Matt Webb fan](http://laughingmeme.org/?s=webb).
 
 **1**
 
@@ -56,7 +56,7 @@ Making ideas a thing is an idea I think I’m going spend a chunk of 2008 thinki
 
 Social software is getting better at groups already. Love Matt’s ideas of common knowledge/shared culture as credentials for accessing capabilities. Already playing with a bit of this in casual privacy hacking side project, going to look at it harder now for Web2Expo casual privacy talk.
 
-That said group forming is already a irreducible part of what makes social software successful, when it is successful. (are \[Andy’s\](http://waxy.org) slides on the importance of out of band spaces and groups available anywhere?)
+That said group forming is already a irreducible part of what makes social software successful, when it is successful. (are [Andy’s](http://waxy.org) slides on the importance of out of band spaces and groups available anywhere?)
 
 Lately been thinking about groups online in the context of “trim tabbing”. They only work for a subset of people for any given topic/activity/context but those people are the owns who lends a bit of their own humanity to imbue your non-existent place with meaningfulness, gravity, and inevitability. (online spaces are either inevitable, or non-existent)
 

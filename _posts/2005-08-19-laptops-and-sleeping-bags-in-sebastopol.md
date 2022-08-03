@@ -20,10 +20,10 @@ tags:
     - odeo
 ---
 
-Heading up to Sebastopol in a few hours with the Odeo contingent, be back Sunday evening, in time to do some prep for \[Extreme Usability\](http://www.flossusability.org/) on Monday.
+Heading up to Sebastopol in a few hours with the Odeo contingent, be back Sunday evening, in time to do some prep for [Extreme Usability](http://www.flossusability.org/) on Monday.
 
-Interestingly I first met the wonderful/crazy folks behind \[Extreme Usability\](http://www.flossusability.org/) (and many of my close friends and colleagues), at \[Ruckus’\](http://ruckus.org/index.php) TechToolbox, a (radical) geek camp out, hosted in Sebastapol, a little over 3 years ago, less then 20 miles from the \[O’Reilly’s\](http://ora.com) campus.
+Interestingly I first met the wonderful/crazy folks behind [Extreme Usability](http://www.flossusability.org/) (and many of my close friends and colleagues), at [Ruckus’](http://ruckus.org/index.php) TechToolbox, a (radical) geek camp out, hosted in Sebastapol, a little over 3 years ago, less then 20 miles from the [O’Reilly’s](http://ora.com) campus.
 
 Clearly the spiritual progenitor of FooCamp ![:)](http://lm.local/wp-includes/images/smilies/simple-smile.png)
 
-*update:* Some notes to come soon, but first \[FLOSS\](http://www.flossusability.org/). In the mean time, check out the \[Foocamp aggregator\](http://www.superblog.org/planet/foocamp2005/)
+*update:* Some notes to come soon, but first [FLOSS](http://www.flossusability.org/). In the mean time, check out the [Foocamp aggregator](http://www.superblog.org/planet/foocamp2005/)

@@ -22,4 +22,4 @@ tags:
     - web
 ---
 
-Who knew? (besides \[Phil\](http://weblog.philringnalda.com) of course)
+Who knew? (besides [Phil](http://weblog.philringnalda.com) of course)

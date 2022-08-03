@@ -19,4 +19,4 @@ tags:
     - personal
 ---
 
-Did I lend you my copy of \[Cloud Atlas\](http://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256)? Can I get it back?
+Did I lend you my copy of [Cloud Atlas](http://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256)? Can I get it back?

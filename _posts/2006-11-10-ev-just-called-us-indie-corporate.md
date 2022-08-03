@@ -22,4 +22,4 @@ tags:
     - Work
 ---
 
-Um, I think thats a positive. (relatively) And yeah, \[Dunstan\](http://twitter.com/dunstan/statuses/62284), woo!
+Um, I think thats a positive. (relatively) And yeah, [Dunstan](http://twitter.com/dunstan/statuses/62284), woo!

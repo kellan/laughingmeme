@@ -32,38 +32,38 @@ tags:
 
 For years I’ve wanted a decent website where I can manage my relationship with books. (not especially complicated, but voluminous)
 
-For a while there was largely nothing, then there was \[Allconsuming\](http://laughingmeme.org/tag/allconsuming) which was wonderful, but slowly died, and went dark before being re-incarnated in the mold of a \[43x tool\](http://43.allconsuming.net). And I have this memory of there being a nifty little $14/mo tool, back in the days when I didn’t pay for websites, but I wasn’t able to find it.
+For a while there was largely nothing, then there was [Allconsuming](http://laughingmeme.org/tag/allconsuming) which was wonderful, but slowly died, and went dark before being re-incarnated in the mold of a [43x tool](http://43.allconsuming.net). And I have this memory of there being a nifty little $14/mo tool, back in the days when I didn’t pay for websites, but I wasn’t able to find it.
 
-Last Fall, I started sketching down notes towards building my own, and in the intervening year its become an interestingly crowded space. (who knew so many other people felt the pull) Even in the 6 weeks since I first started jotting down sites for this blog post, the space has evolved with \[LibraryThing\](http://librarything.com) coming out solidly on top as the most active: most actively developed, most actively used, and most \[actively engaged developer\](http://www.librarything.com/blog/).
+Last Fall, I started sketching down notes towards building my own, and in the intervening year its become an interestingly crowded space. (who knew so many other people felt the pull) Even in the 6 weeks since I first started jotting down sites for this blog post, the space has evolved with [LibraryThing](http://librarything.com) coming out solidly on top as the most active: most actively developed, most actively used, and most [actively engaged developer](http://www.librarything.com/blog/).
 
 That said, in a cursory search (mostly of my del.icio.us links) I turned up 5 other very similar services
 
-- \[Allconsuming\](http://43.allconsuming.net): the Next Generation
-- \[Bibliophil\](http://bibliophil.org/default.php)
-- \[Books We Like\](http://bookswelike.net/) – “activist e-commerce and collective intelligence”
-- \[Listal\](http://www.listal.com/) – where “all” is defined as DVDs, Books, Music, and Games
-- \[Reader2\](http://reader2.com/) – repurposing of the \[MyProgs\](http://myprogs.net/) codebase
+- [Allconsuming](http://43.allconsuming.net): the Next Generation
+- [Bibliophil](http://bibliophil.org/default.php)
+- [Books We Like](http://bookswelike.net/) – “activist e-commerce and collective intelligence”
+- [Listal](http://www.listal.com/) – where “all” is defined as DVDs, Books, Music, and Games
+- [Reader2](http://reader2.com/) – repurposing of the [MyProgs](http://myprogs.net/) codebase
 
-Also the \[Bookshelf\](http://bookshelf.ning.com) example app from \[24L\](http://ning.com), and the intersting related services \[What Should I Read Next?\](http://whatshouldireadnext.com/), and \[Library Elf\](http://www.libraryelf.com/)
+Also the [Bookshelf](http://bookshelf.ning.com) example app from [24L](http://ning.com), and the intersting related services [What Should I Read Next?](http://whatshouldireadnext.com/), and [Library Elf](http://www.libraryelf.com/)
 
 None of them are quite there yet, and I want more, more, **more**!
 
 ### LibraryThing
 
-- So like I said, \[LT\]\[lt\] is rocking out in terms of development and growth. When I first found it, it lacked \[import\](http://www.librarything.com/blog/2005/10/universal-import-filesand-now-web.php), \[ratings\](http://www.librarything.com/blog/2005/10/book-rating-added-no-pencil-required.php), and \[feeds\](http://www.librarything.com/blog/2005/10/one-rss-feed-made-so-what-rss-do-you.php). Wow.
-- Additionally the search is amazingly comprehensive, fast, and accurate. Search is where LibraryThing originally shined, and it blows every other service out of the water. \[LT\]\[lt\] was the only service to successfully come up with \[“Someone Comes to Town, Someone Leaves Town”\](http://www.craphound.com/someone/) when I searched for “someone comes”. Which is good, because there is no way I’m typing in full titles. (just re-tested, and \[Allconsuming\]\[ac\] which wasn’t finding **anything** last time I checked, also came up with the correct results)
+- So like I said, [LT][lt] is rocking out in terms of development and growth. When I first found it, it lacked [import](http://www.librarything.com/blog/2005/10/universal-import-filesand-now-web.php), [ratings](http://www.librarything.com/blog/2005/10/book-rating-added-no-pencil-required.php), and [feeds](http://www.librarything.com/blog/2005/10/one-rss-feed-made-so-what-rss-do-you.php). Wow.
+- Additionally the search is amazingly comprehensive, fast, and accurate. Search is where LibraryThing originally shined, and it blows every other service out of the water. [LT][lt] was the only service to successfully come up with [“Someone Comes to Town, Someone Leaves Town”](http://www.craphound.com/someone/) when I searched for “someone comes”. Which is good, because there is no way I’m typing in full titles. (just re-tested, and [Allconsuming][ac] which wasn’t finding **anything** last time I checked, also came up with the correct results)
 - Surprisingly zippy.
 - One-click export. Sweet.
 
 ### LibraryThings: The Downside
 
 - No per-tag feeds, apparently on the todo list, but I **need** per feed tags.
-- No feed of reviews, also on the todo list, but I’m simply not willing to create content without an RSS feed. (which is why I’ve \[stopped writing $0.02 reviews\](http://laughingmeme.org/articles/2005/01/15/a-few-more-thoughts-on-netflix-friends) on \[Netflix\](http://netflix.com))
+- No feed of reviews, also on the todo list, but I’m simply not willing to create content without an RSS feed. (which is why I’ve [stopped writing $0.02 reviews](http://laughingmeme.org/articles/2005/01/15/a-few-more-thoughts-on-netflix-friends) on [Netflix](http://netflix.com))
 - Feeds lack anything beyond basic data. No structured meta-data (authors, isbn/asin, cover art, etc), so very limited usefulness.
-- One dimensional tags. (no \[tag combos\](http://laughingmeme.org/articles/2005/01/20/tagging-isn-t-classifying-and-other-uses-of-tags))
+- One dimensional tags. (no [tag combos](http://laughingmeme.org/articles/2005/01/20/tagging-isn-t-classifying-and-other-uses-of-tags))
 - Ugly, and awkward. Totally in the eye of the beholder, but I find the interface consistently confusing and awkward to use. I only have a handful of books in my catalog, but already its feeling unmanageable. Not a designer, so I can’t do much more then complain.
 - One comment/review per book, meaning you can’t use it to blog your ongoing experience with a book. One of my use cases for a book service is that I can use it to power a book blog.
-- Uses frames!?!?? In this day and age? Meaning it can’t be the that \[“definitive URI for books”\](http://laughingmeme.org/articles/2003/01/04/a-definitive-uri-for-books) that I keep looking for.
+- Uses frames!?!?? In this day and age? Meaning it can’t be the that [“definitive URI for books”](http://laughingmeme.org/articles/2003/01/04/a-definitive-uri-for-books) that I keep looking for.
 
 ### Listal
 
@@ -81,7 +81,7 @@ None of them are quite there yet, and I want more, more, **more**!
 
 ### Bookshelf
 
-I thought I was going to like \[Bookshelf\]\[bookshelf\]. I love the concept of the \[Ning “Pivot”\](http://www.ning.com/pivot), if not the implementation. Unfortunately \[Bookshelf\]\[bookshelf\] is **very** slow, and buggy. I dived into the code (I can do that with Ning, whoohoo!!!), and unfortunately rather then the domain specific langauge for building social webapps I expected to find, I just found a messy of PHP code. ![:(](http://lm.local/wp-includes/images/smilies/frownie.png)
+I thought I was going to like [Bookshelf][bookshelf]. I love the concept of the [Ning “Pivot”](http://www.ning.com/pivot), if not the implementation. Unfortunately [Bookshelf][bookshelf] is **very** slow, and buggy. I dived into the code (I can do that with Ning, whoohoo!!!), and unfortunately rather then the domain specific langauge for building social webapps I expected to find, I just found a messy of PHP code. ![:(](http://lm.local/wp-includes/images/smilies/frownie.png)
 
 ### What I Still Want/Need/Dream About
 
@@ -91,15 +91,15 @@ I wrote down a list of things I wanted a while back, and LT is converging on it 
 
 I need more feeds. Per tag feeds allow for intelligent interaction with the site. Beyond topical tags, functional tags (e.g. \*to:read) allow me to syndicate the information out in useful ways
 
-And richer feeds please. E.g. if you can’t syndicate the cover art give me the necessary metadata so I can pull it from \[AWS\](http://www.amazon.com/gp/aws/landing.html).
+And richer feeds please. E.g. if you can’t syndicate the cover art give me the necessary metadata so I can pull it from [AWS](http://www.amazon.com/gp/aws/landing.html).
 
 #### More data and Webservices
 
 And note, I’m happy with my primary webservice being a feed, but I need richer way to interact with the data before I can make it work for me.
 
-I’d like to be able to hook this up to my local library (auto-request books flagged \*to:read), \[Upcoming\](http://upcoming.org), and \[Amazon\](http://amazon.com).
+I’d like to be able to hook this up to my local library (auto-request books flagged \*to:read), [Upcoming](http://upcoming.org), and [Amazon](http://amazon.com).
 
-Plus I should be able to power my involvement in \[What to Read Next\]\[wtfn\]/\[Books We Like\]\[bwl\]/innovative new service from within \[LT\]\[lt\] (or at least with my LT data)
+Plus I should be able to power my involvement in [What to Read Next][wtfn]/[Books We Like][bwl]/innovative new service from within [LT][lt] (or at least with my LT data)
 
 #### More Pivots
 
@@ -107,7 +107,7 @@ I’d like author, and ratings smooshed down into the tag namespace. So I can br
 
 #### Insta-Community
 
-I love the idea of \[integrating a forum into the site\](http://www.librarything.com/blog/2005/11/how-to-do-librarything-forum.php). And really integrating it.
+I love the idea of [integrating a forum into the site](http://www.librarything.com/blog/2005/11/how-to-do-librarything-forum.php). And really integrating it.
 
 1. Allow people to start new threads from a book page
 2. Tag those threads with the book
@@ -118,12 +118,12 @@ I love the idea of \[integrating a forum into the site\](http://www.librarything
 
 #### Book Scanning
 
-Ala \[Monster’s Delicious\](http://www.delicious-monster.com/)
+Ala [Monster’s Delicious](http://www.delicious-monster.com/)
 
 What would be involved I wonder if writing a simple app/Firefox plugin to scan barcodes using something like an iSight or a CueCat, and have it post the data to a URL?
 
 #### Blue Sky: Peerflix for Books?
 
-Like \[Bookcrossing\](http://www.bookcrossing.com/) for books you want to get back someday.
+Like [Bookcrossing](http://www.bookcrossing.com/) for books you want to get back someday.
 
-**update:** Also \[Stuffopolis\](http://www.stuffopolis.com/), and \[Douban\](http://beta.douban.com/)
+**update:** Also [Stuffopolis](http://www.stuffopolis.com/), and [Douban](http://beta.douban.com/)

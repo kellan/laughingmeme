@@ -19,4 +19,4 @@ categories:
     - mobile
 ---
 
-just hit \[Techcrunch\](http://www.techcrunch.com/2006/02/23/mabber-mobile-instant-messaging/). Congrats.
+just hit [Techcrunch](http://www.techcrunch.com/2006/02/23/mabber-mobile-instant-messaging/). Congrats.

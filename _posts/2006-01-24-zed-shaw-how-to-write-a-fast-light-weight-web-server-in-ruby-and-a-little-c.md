@@ -23,4 +23,4 @@ tags:
     - web
 ---
 
-Sounds similar to \[JAWS\](http://www.dre.vanderbilt.edu/JAWS/) (at least circa 1999). I’m going to take a look at \[Ragel\](http://www.elude.ca/ragel/)
+Sounds similar to [JAWS](http://www.dre.vanderbilt.edu/JAWS/) (at least circa 1999). I’m going to take a look at [Ragel](http://www.elude.ca/ragel/)

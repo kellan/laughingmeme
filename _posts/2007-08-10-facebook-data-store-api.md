@@ -18,8 +18,8 @@ tags:
     - storage
 ---
 
-When I \[heard\](http://snarfed.org/space/facebook%20data%20store%20api%20thoughts) that \[f.bk\](http://facebook.com) had a new \[Data Store API\](http://wiki.developers.facebook.com/index.php/Data*Store*API\_documentation) was thinking “Wow! That’s actually hard!”.
+When I [heard](http://snarfed.org/space/facebook%20data%20store%20api%20thoughts) that [f.bk](http://facebook.com) had a new [Data Store API](http://wiki.developers.facebook.com/index.php/Data*Store*API\_documentation) was thinking “Wow! That’s actually hard!”.
 
 But if you read it closer you’ll notice the operations map to what can de done in memcache (down to transactions are handled via atomic auto-increments) with a bit of cleverness, and some persistence. (pun intended) Still a nice step towards making developing f.bk apps a bit less eye-pokey-outty
 
-Everyone is building the giant hash table in the \[clouds\](http://www.sriramkrishnan.com/blog/2007/08/open-source-and-scratching-itches-in.html).
+Everyone is building the giant hash table in the [clouds](http://www.sriramkrishnan.com/blog/2007/08/open-source-and-scratching-itches-in.html).

@@ -30,7 +30,7 @@ Tim mentions a few of the same types of feeds I was thinking of, misses a couple
 
 ### Weather
 
-Or at least sort of. I did have a brief go at producing an RSS feed of the weather, and last night, as lightning struck all around, and great thunder claps, pealed and rumbled on and on like bombs detonating, their sound waves rattling my winds, and setting off all the car alarms of the apartment building next door, I revived the project. (long rambling thoughts on RSS weather service \[see: insomnia-induced\]. **includes running code!**)
+Or at least sort of. I did have a brief go at producing an RSS feed of the weather, and last night, as lightning struck all around, and great thunder claps, pealed and rumbled on and on like bombs detonating, their sound waves rattling my winds, and setting off all the car alarms of the apartment building next door, I revived the project. (long rambling thoughts on RSS weather service [see: insomnia-induced]. **includes running code!**)
 
 ### A Quick Spec
 

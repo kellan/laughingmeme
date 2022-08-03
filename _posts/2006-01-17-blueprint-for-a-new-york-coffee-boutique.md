@@ -22,11 +22,11 @@ tags:
     - vancouver
 ---
 
-![](http://www.tonx.org/gallery/albums/album01/CIMG3191.thumb.jpg)Tony has a bit from this morning’s \[Brazilian auction\](http://tonx.org/archives/68)
+![](http://www.tonx.org/gallery/albums/album01/CIMG3191.thumb.jpg)Tony has a bit from this morning’s [Brazilian auction](http://tonx.org/archives/68)
 
 > When the digital smoke cleared, the last bidder standing was the coalition of Australia’s Instaurator and Vince Piccolo of Vancouver’s Caffe Artigiano paying a record-demolishing $49.75 a pound (about $79,000 for the 12 bags).
 > 
-> A bold move that will have some scratching their heads, but Vince and his crew plan on selling the coffee exclusively via their recently obtained \[Clover\](http://cloverequipment.com/) at $5 a cup.
+> A bold move that will have some scratching their heads, but Vince and his crew plan on selling the coffee exclusively via their recently obtained [Clover](http://cloverequipment.com/) at $5 a cup.
 
 I’ve been pondering that a kiosk specializing in exactly this kind of thing, would probably be smash hit in Manhattan.
 

@@ -16,4 +16,4 @@ tags:
     - ssc
 ---
 
-Good blog post on \[Social Source Commons\](http://socialsourcecommons.org/) (and related projects)
+Good blog post on [Social Source Commons](http://socialsourcecommons.org/) (and related projects)

@@ -24,4 +24,4 @@ tags:
     - web2.0
 ---
 
-Z. is playing a very serious game of chicken with Viacom, but wow. **update \[2006/03/28\]** Yes \[other people have heard it\](http://www.techcrunch.com/2006/03/28/facebook-is-doing-the-skype-dance/)
+Z. is playing a very serious game of chicken with Viacom, but wow. **update [2006/03/28]** Yes [other people have heard it](http://www.techcrunch.com/2006/03/28/facebook-is-doing-the-skype-dance/)

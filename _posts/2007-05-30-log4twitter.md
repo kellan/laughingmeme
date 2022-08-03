@@ -15,4 +15,4 @@ tags:
     - twitter
 ---
 
-I suppose this was inevitable for certain idiosyncratically distinct values of inevitable. (Though Josh makes a \[good use case argument \](http://www.stonecottage.com/josh/archives/001507.html))
+I suppose this was inevitable for certain idiosyncratically distinct values of inevitable. (Though Josh makes a [good use case argument ](http://www.stonecottage.com/josh/archives/001507.html))

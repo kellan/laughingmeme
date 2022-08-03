@@ -20,4 +20,4 @@ I always feel a little guilty about this weblog, afterall I seem to be in the sh
 
 Which is why you should all be reading [Media Geek](http://www.mediageek.org). Also AaronSW seems to be back from his hiatus with a few [thoughts about media consolidation.](http://www.aaronsw.com/weblog/cat_politics)
 
-(hmmm, “blog as escape” is probably why I also haven’t blogged some of the really rotten things that have happened this week, like getting mugged\[I’m fine\], or bleeding gums \[separate incident\]. Self knowledge, better late then never)
+(hmmm, “blog as escape” is probably why I also haven’t blogged some of the really rotten things that have happened this week, like getting mugged[I’m fine], or bleeding gums [separate incident]. Self knowledge, better late then never)

@@ -23,13 +23,13 @@ tags:
     - Work
 ---
 
-I have never in my entire life cared about traffic. I don’t drive, I don’t commute, my *long* commute in Seattle only took 20 minutes to walk because the line at \[Lighthouse Roasters\](http://www.lighthouseroasters.com/) was so long.
+I have never in my entire life cared about traffic. I don’t drive, I don’t commute, my *long* commute in Seattle only took 20 minutes to walk because the line at [Lighthouse Roasters](http://www.lighthouseroasters.com/) was so long.
 
 Now I find myself *painfully* aware of the ins and outs, and more strangely the cardiovascular health of the Bay Areas freeway systems. Major clogs and blockages have serious impacts on my plans.
 
 So um, how do people track this stuff? Presumably there is some sort feed, or maybe SMS notification I sign up for customized to roads I care about?
 
-I hear we \[map traffic\](http://maps.yahoo.com/traffic) here at \[CorporateHQ\](http://yahoo.com), which I guess would be fine if traffic fascinated me and I wanted to monitor it all day, but really I don’t have the attention for that, and I was thinking about something a little bit more interrupt driven, and targeted.
+I hear we [map traffic](http://maps.yahoo.com/traffic) here at [CorporateHQ](http://yahoo.com), which I guess would be fine if traffic fascinated me and I wanted to monitor it all day, but really I don’t have the attention for that, and I was thinking about something a little bit more interrupt driven, and targeted.
 
 Anyone got a suggestion?
 

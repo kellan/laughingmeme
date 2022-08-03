@@ -23,7 +23,7 @@ tags:
 
 [![Fire Eagle](http://farm2.static.flickr.com/1420/556779076_6a44ca0cd7.jpg)](http://www.flickr.com/photos/benward/556779076/ "Fire Eagle by Ben Ward, on Flickr")
 
-Other folks are talking about and writing about the long germinating, launched in beta, location broker from Yahoo’s Brickhouse, \[Fire Eagle\](http://fireeagle.com).
+Other folks are talking about and writing about the long germinating, launched in beta, location broker from Yahoo’s Brickhouse, [Fire Eagle](http://fireeagle.com).
 
 I wanted to call out just a couple of the cool, and non-intuitve decisions they made.
 
@@ -37,8 +37,8 @@ Its a service for sharing your data with friends (or services, or your toaster),
 
 ### Cares about privacy and ease of use
 
-\[Ninja privacy\](http://blog.wesabe.com/2007/05/14/super-ninja-privacy-techniques-in-insecure-magazine/) is built in. But you don’t have to care. The TOS requires developers to discuss how the data is used. And privacy levels are front and center. And from day one data is delete-able, and in fact data is flushed on a regular basis.
+[Ninja privacy](http://blog.wesabe.com/2007/05/14/super-ninja-privacy-techniques-in-insecure-magazine/) is built in. But you don’t have to care. The TOS requires developers to discuss how the data is used. And privacy levels are front and center. And from day one data is delete-able, and in fact data is flushed on a regular basis.
 
 ### Built on OAuth
 
-\[Yay!\](http://fireeagle.yahoo.net/developer/documentation/app*auth*types)
+[Yay!](http://fireeagle.yahoo.net/developer/documentation/app*auth*types)

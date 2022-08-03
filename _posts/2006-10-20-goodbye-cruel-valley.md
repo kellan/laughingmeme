@@ -25,4 +25,4 @@ Good friends will be missed (we’re working on dragging them up to the city wit
 
 At that point I hope I’ll actually have the time to catch up with all the folks here in the city whom I haven’t caught up with in the 6 months since I’ve been here.
 
-(In other news \[yoink is up\](http://flickr.com/photos/stewart/267309246/), \[and the rapture is imminent\](http://flickr.com/photos/kevincollins/267613517/))
+(In other news [yoink is up](http://flickr.com/photos/stewart/267309246/), [and the rapture is imminent](http://flickr.com/photos/kevincollins/267613517/))

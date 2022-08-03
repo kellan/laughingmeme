@@ -21,4 +21,4 @@ tags:
     - security
 ---
 
-Like I’ve said \[before\](http://laughingmeme.org/category/godaddy), like you need another reason not to use GoDaddy, especially if you’re doing anything political or controversial in nature.
+Like I’ve said [before](http://laughingmeme.org/category/godaddy), like you need another reason not to use GoDaddy, especially if you’re doing anything political or controversial in nature.

@@ -24,7 +24,7 @@ Review touches on a few of my concerns:
 
 What I’ve always liked about the iBooks was they felt solid, my Vaio is soso on this account and the TiBooks feel like they are going to shatter if you look at then cross-eyed. Having played with the 17in Aluminum (no 12in in stock yet) I have to say, even that felt small, but in a good way. > *4. I like the keyboard a lot…*
 
-Keyboards are super super important. I live and die by my keyboard. My Vaio still has my favorite keyboard ever (except the keys are wearing out), but I like the feel of the Aluminum’s keyboard as well. > *6. IT GETS HOT. \[emphasis not added\]*
+Keyboards are super super important. I live and die by my keyboard. My Vaio still has my favorite keyboard ever (except the keys are wearing out), but I like the feel of the Aluminum’s keyboard as well. > *6. IT GETS HOT. [emphasis not added]*
 
 Umm, I wonder how that compares to say the old G3 laptops getting hot? I sit for hours and hours with my laptop on my lap (imagine), I need to not end up like that guy in Switzerland. > *7. It is VERY quiet.*
 

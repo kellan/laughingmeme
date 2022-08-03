@@ -19,12 +19,12 @@ tags:
     - ruby
 ---
 
-You’re still welcome to come even if you haven’t RSVP’ed yet. Here is a note I sent out to the \[Boston Ruby meetup\](http://ruby.meetup.com/58/) list
+You’re still welcome to come even if you haven’t RSVP’ed yet. Here is a note I sent out to the [Boston Ruby meetup](http://ruby.meetup.com/58/) list
 
-> Hi all, So we’re on for meeting up this Thursday at \[Toscanini’s in Central Sq. at 7pm.\]\[1\] I’ve received several out of band RSVPs so currently I’m expecting 4-5 people (but it may be just me and irb.rb for company).
+> Hi all, So we’re on for meeting up this Thursday at [Toscanini’s in Central Sq. at 7pm.][1] I’ve received several out of band RSVPs so currently I’m expecting 4-5 people (but it may be just me and irb.rb for company).
 > 
 > No firm agenda as yet for our inaugural meeting, except to get a sense of community, interest level, and available resources. I imagine as we get a sense of interest we’ll be able to plan a bit more, maybe arrange for talks, etc. Folks are encouraged to bring questions, news, and show and tell.
 > 
-> Oh, and I’ll be the guy with blond curly hair, and the \[PickAxe\] \[2\] book out on the table.
+> Oh, and I’ll be the guy with blond curly hair, and the [PickAxe] [2] book out on the table.
 > 
 > See you Thursday, -kellan

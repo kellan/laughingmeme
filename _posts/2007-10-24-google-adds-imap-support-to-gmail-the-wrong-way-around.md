@@ -16,4 +16,4 @@ tags:
     - imap
 ---
 
-I don’t \[want\](http://laughingmeme.org/2004/11/10/gmail-imap/) to be able to check my GMail account with the current crop of terrible IMAP desktop clients, I want to be able to check my IMAP account with GMail!
+I don’t [want](http://laughingmeme.org/2004/11/10/gmail-imap/) to be able to check my GMail account with the current crop of terrible IMAP desktop clients, I want to be able to check my IMAP account with GMail!

@@ -24,4 +24,4 @@ tags:
     - web
 ---
 
-I first saw “the best blonde joke” meme on \[LJ\](http://laughingmeme.org) about 4 months ago, but according to this comment it originated on message boards over 3 years ago. (nipping in the bud any desire to do a \[meme autopsy\](http://laughingmeme.org/articles/2004/04/18/page-23-sentence-5-an-autopsy)
+I first saw “the best blonde joke” meme on [LJ](http://laughingmeme.org) about 4 months ago, but according to this comment it originated on message boards over 3 years ago. (nipping in the bud any desire to do a [meme autopsy](http://laughingmeme.org/articles/2004/04/18/page-23-sentence-5-an-autopsy)

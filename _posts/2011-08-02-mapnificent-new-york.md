@@ -12,4 +12,4 @@ categories:
     - Aside
 ---
 
-How far I can get from my house, in 20 minutes, on public transportation. Nicely done. (via \[swissmiss\](http://www.swiss-miss.com/2011/08/mapnificient.html?utm*source=feedburner&amp;utm*medium=feed&amp;utm*campaign=Feed%3A+Swissmiss+%28swissmiss%29&amp;utm*content=Google+Reader))
+How far I can get from my house, in 20 minutes, on public transportation. Nicely done. (via [swissmiss](http://www.swiss-miss.com/2011/08/mapnificient.html?utm*source=feedburner&amp;utm*medium=feed&amp;utm*campaign=Feed%3A+Swissmiss+%28swissmiss%29&amp;utm*content=Google+Reader))

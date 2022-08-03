@@ -25,4 +25,4 @@ tags:
     - sqlite
 ---
 
-The embedded database of choice just got more interesting. What would you do with an embedded , searchable database in Firefox? (\[via\](http://www.franklinmint.fm/blog/archives/000894.html))
+The embedded database of choice just got more interesting. What would you do with an embedded , searchable database in Firefox? ([via](http://www.franklinmint.fm/blog/archives/000894.html))

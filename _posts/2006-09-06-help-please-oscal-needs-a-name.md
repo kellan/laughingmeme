@@ -21,11 +21,11 @@ tags:
     - oscal
 ---
 
-\[OSCal\](http://oscal.quxx.info/) needs a name.
+[OSCal](http://oscal.quxx.info/) needs a name.
 
-I never liked OSCal, but I couldn’t argue with the late night logic of “OScal – the OSCON Calendar” on the grounds of simplicity. And I might be talked into “OSCal – the \[EuroOSCON\](http://conferences.oreillynet.com/euos2006/) calendar”, but we all draw the line at “OSCal – the \[RailsConf Europe\](http://europe.railsconf.org/) calendar”.
+I never liked OSCal, but I couldn’t argue with the late night logic of “OScal – the OSCON Calendar” on the grounds of simplicity. And I might be talked into “OSCal – the [EuroOSCON](http://conferences.oreillynet.com/euos2006/) calendar”, but we all draw the line at “OSCal – the [RailsConf Europe](http://europe.railsconf.org/) calendar”.
 
-Plus we’ll be open sourcing it as soon as \[Rabble\](http://anarchogeek.com) or I get a free moment, at which point the name gets really silly.
+Plus we’ll be open sourcing it as soon as [Rabble](http://anarchogeek.com) or I get a free moment, at which point the name gets really silly.
 
 So, um, help? **Good names needed.** (not to mention short domains)
 
@@ -35,7 +35,7 @@ Concepts I’ve been playing with: conference, event, calendar, social, schedule
 
 ### ONU – OSCal is Not Unix?
 
-Best I came up with was “decafe” for “decentralized calendar for events”, which had potential except nobody likes decafe (and \[decafbad.com\](http://decafbad.com) was already taken).
+Best I came up with was “decafe” for “decentralized calendar for events”, which had potential except nobody likes decafe (and [decafbad.com](http://decafbad.com) was already taken).
 
 Not that I suggest you limit your creativity to the rather unfortunate geek tendency towards acronyms, short, pronounceable, and easy to understand when read over a loud speaker at the front of a echoing conference hall.
 

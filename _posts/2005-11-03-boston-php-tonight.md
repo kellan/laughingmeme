@@ -19,4 +19,4 @@ tags:
     - php
 ---
 
-Been meaning to make it to \[Boston PHP\](http://www.bostonphp.org/) all year, and while \[tonight’s topic\](http://www.bostonphp.org/index.php?option=com\_extcalendar&amp;Itemid=33&amp;extmode=view&amp;extid=3) doesn’t look terribly compelling, better late then never.
+Been meaning to make it to [Boston PHP](http://www.bostonphp.org/) all year, and while [tonight’s topic](http://www.bostonphp.org/index.php?option=com\_extcalendar&amp;Itemid=33&amp;extmode=view&amp;extid=3) doesn’t look terribly compelling, better late then never.

@@ -21,4 +21,4 @@ tags:
     - photos
 ---
 
-Though there was a bit of talking about you know, computers, and stuff. In other news I think digital cameras have broken down SF’s \[few remaining social norms\](http://valleywag.com/tech/geeks-gone-wild/geeks-gone-wild-bathtub-full-of-designers-156909.php)
+Though there was a bit of talking about you know, computers, and stuff. In other news I think digital cameras have broken down SF’s [few remaining social norms](http://valleywag.com/tech/geeks-gone-wild/geeks-gone-wild-bathtub-full-of-designers-156909.php)

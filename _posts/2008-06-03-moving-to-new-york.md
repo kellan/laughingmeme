@@ -21,6 +21,6 @@ Some of you have heard, some of you haven’t, but Jasmine and I are getting up 
 
 The plan is to go on working for Flickr, and fly back to SF once a month or so. So if you could plan your camps/parties/meetups/conferences accordingly that would be swell.
 
-Looking forward to seeing you all on the East Coast. (And while we haven’t really gotten a feel for the new apartment \[in Williamsburg\], its looking like we might even have something resembling a guest room.)
+Looking forward to seeing you all on the East Coast. (And while we haven’t really gotten a feel for the new apartment [in Williamsburg], its looking like we might even have something resembling a guest room.)
 
 We’ll be driving back via the not most direct route (which will surprise no one who knows us) that takes us past the Grand Canyon, Austin, and New Orleans. (thats as far as the map I’m looking at goes) So any suggestions for anything from sights, to food, to places to stay, to good people along those stretches, to great audiobooks to fill up empty bits in the road are all appreciated.

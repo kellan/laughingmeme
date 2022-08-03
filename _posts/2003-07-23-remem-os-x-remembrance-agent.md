@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-agents, an idea whose time has come \[no emacs\]
+agents, an idea whose time has come [no emacs]

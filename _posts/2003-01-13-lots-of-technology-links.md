@@ -34,4 +34,4 @@ Display a directory of thumbmails with ` display 'vid:*' RET` (can be slow) via 
 Joi Ito: [mail2entry](http://joi.ito.com/archives/2002/12/26/mail2entry_script_for_mt_moblog.html)script.  
 [Simple and Powerful Text Formatting](http://www.sixapart.com/log/2002/12/simple_and_powe.shtml): Generalized output filters in next version of MT. ### Milton
 
-This quote has been tormenting me for weeks. It was Milton who said it. <cite>Sweetest Shakespeare, fancy’s child, warbl\[ing\] his native woodnotes wild</cite>
+This quote has been tormenting me for weeks. It was Milton who said it. <cite>Sweetest Shakespeare, fancy’s child, warbl[ing] his native woodnotes wild</cite>

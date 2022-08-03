@@ -21,7 +21,7 @@ tags:
     - news
 ---
 
-> *[Some experts have questioned the value of the \[Google News\] service, arguing it fails to rank news reports on the basis of quality.](http://news.bbc.co.uk/1/hi/technology/2278042.stm)*
+> *[Some experts have questioned the value of the [Google News] service, arguing it fails to rank news reports on the basis of quality.](http://news.bbc.co.uk/1/hi/technology/2278042.stm)*
 
 [Google News](http://news.google.com) seems to be an overview of the daily news much like the [Yahoo News](http://news.yahoo.com), but it works totally different. Rather then a hand selected list of appropriate news stories, Google draws from a wide list of news sources(much wider then would normally be acceptable to a media company), and uses its indexing technologies to list both: the hottest, most relevant breaking news, and to find related background material, and opposing views. This has the BBC notably alarmed. It could simply be that they don’t rank high enough in the results, but I think its more then that. This service breaks down the monopoly on view point. It allows a wide range of interested (like [SF IMC](http://sf.indymedia.org)) to have a voice, and by its very nature undermines the conscious and unconscious censorship which lies at the very heart of the media making, consensus manufacturing machine.
 

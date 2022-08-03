@@ -23,4 +23,4 @@ tags:
     - webapp
 ---
 
-Not a reference to the \[ORM patent case\](http://technocrat.net/d/2006/6/30/5032). Rather an ode to AR’s serialization backdoor. Amazing how much win you can get for swapping a bit of a purity. We use this technique extensively with <acronym title="Social Source Commons">SSC</acronym>. (serialization that is, though trading on purity as well, truth be told)
+Not a reference to the [ORM patent case](http://technocrat.net/d/2006/6/30/5032). Rather an ode to AR’s serialization backdoor. Amazing how much win you can get for swapping a bit of a purity. We use this technique extensively with <acronym title="Social Source Commons">SSC</acronym>. (serialization that is, though trading on purity as well, truth be told)

@@ -22,7 +22,7 @@ tags:
     - web2.0
 ---
 
-Ted says \[RSS aggregators are the killer app\](http://www.sauria.com/blog/computers/internet/microcontent/1227), killer in the sense that they are
+Ted says [RSS aggregators are the killer app](http://www.sauria.com/blog/computers/internet/microcontent/1227), killer in the sense that they are
 
 > the app that does so much that it consumes all available CPU, memory, network, and disk.
 
@@ -32,6 +32,6 @@ He goes on to say
 
 Funny, I’m following this trend to opposite end of the curve. I’ve been noticing lately that I spend less and less time using anything other then my standalone browser, Firefox. Once I’ve got a decent coding environment built in, pretty much the only external apps will become ssh and chat. Functionally Firefox is very close to becoming my operating system. (though in practice I still prefer running it on platforms other then Windows)
 
-While the news has been full of the problems with network based and centralized services (see \[Preshrunk\](http://preshrunk.info/2005/02/paris-made-me-change-my-number.php) or \[Schneier\](http://www.schneier.com/blog/archives/2005/02/tmobile*hack*1.html)), their nativeness suggests that perhaps some of the problems Ted is seeing are an impedance mismatch.
+While the news has been full of the problems with network based and centralized services (see [Preshrunk](http://preshrunk.info/2005/02/paris-made-me-change-my-number.php) or [Schneier](http://www.schneier.com/blog/archives/2005/02/tmobile*hack*1.html)), their nativeness suggests that perhaps some of the problems Ted is seeing are an impedance mismatch.
 
-And a quick, semi-related tip, if you’re setting up several people on \[FoF\](http://minutillo.com/steve/feedonfeeds/), consider setting up a shared cache directory to get some economies of scale.
+And a quick, semi-related tip, if you’re setting up several people on [FoF](http://minutillo.com/steve/feedonfeeds/), consider setting up a shared cache directory to get some economies of scale.

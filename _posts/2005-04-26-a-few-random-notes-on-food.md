@@ -18,9 +18,9 @@ tags:
     - boston
 ---
 
-Grabbed an early dinner at Tamarind Bay this Sunday. It was as good as \[promised\](http://www.bostonphoenix.com/boston/food\_drink/dining/documents/04122412.asp), really excellent, richly seasoned, interesting takes on traditional Indian fare, and cheaper then expected. Get the Lalla mussa dal. And the interior design got Jasmine’s stamp of approval.
+Grabbed an early dinner at Tamarind Bay this Sunday. It was as good as [promised](http://www.bostonphoenix.com/boston/food\_drink/dining/documents/04122412.asp), really excellent, richly seasoned, interesting takes on traditional Indian fare, and cheaper then expected. Get the Lalla mussa dal. And the interior design got Jasmine’s stamp of approval.
 
-Walking across Winthrop Square, I also visited \[Upstairs on the Square\](http://www.upstairsonthesquare.com/index.php) last week. As a \[party of 8\](http://del.icio.us/kellan/techdinner) we had the veranda to ourselves, which I recommend if you can swing it. Upstairs was also as good as promised (get egg custard appetizer), though rather more expensive then expected. (might have been the 5 bottles of wine).
+Walking across Winthrop Square, I also visited [Upstairs on the Square](http://www.upstairsonthesquare.com/index.php) last week. As a [party of 8](http://del.icio.us/kellan/techdinner) we had the veranda to ourselves, which I recommend if you can swing it. Upstairs was also as good as promised (get egg custard appetizer), though rather more expensive then expected. (might have been the 5 bottles of wine).
 
 5 bottles which while quite good, I didn’t enjoy as much as we’ve lately been enjoying the Stone Hedge 2002 Chardonnay from TJ’s.
 

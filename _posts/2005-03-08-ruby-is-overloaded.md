@@ -19,4 +19,4 @@ tags:
     - ruby
 ---
 
-Searching for notes on a project I’m working on with \[Ruby\](http://lotusmedia.org) I’m finding stuff on \[Rails\](http://rubyonrails.org). Searching for a \[pingback\](http://www.hixie.ch/specs/pingback/pingback) impl. in \[Ruby\](http://www.ruby-lang.org/), I’m finding \[Sam\](http://www.intertwingly.net/blog/).
+Searching for notes on a project I’m working on with [Ruby](http://lotusmedia.org) I’m finding stuff on [Rails](http://rubyonrails.org). Searching for a [pingback](http://www.hixie.ch/specs/pingback/pingback) impl. in [Ruby](http://www.ruby-lang.org/), I’m finding [Sam](http://www.intertwingly.net/blog/).

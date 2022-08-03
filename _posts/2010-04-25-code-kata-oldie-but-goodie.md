@@ -14,4 +14,4 @@ tags:
     - programming
 ---
 
-Back in 2007 the Pragmatic Programmers posted a series of code kata in the style of \[Are you one of the 10%\](http://reprog.wordpress.com/2010/04/19/are-you-one-of-the-10-percent/). Probably worth re-visiting if you’ve never done them.
+Back in 2007 the Pragmatic Programmers posted a series of code kata in the style of [Are you one of the 10%](http://reprog.wordpress.com/2010/04/19/are-you-one-of-the-10-percent/). Probably worth re-visiting if you’ve never done them.

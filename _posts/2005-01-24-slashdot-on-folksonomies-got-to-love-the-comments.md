@@ -23,4 +23,4 @@ tags:
     - slashdot
 ---
 
-‘Now I know what the \[non-techie\] in my life feels like when they read slashdot’
+‘Now I know what the [non-techie] in my life feels like when they read slashdot’

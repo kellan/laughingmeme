@@ -22,4 +22,4 @@ tags:
     - tips
 ---
 
-\[Kara\](http://flickr.com/photos/karacanal/) and \[Amit’s\](http://flickr.com/photos/superamit/) new project is off to a great start.
+[Kara](http://flickr.com/photos/karacanal/) and [Amit’s](http://flickr.com/photos/superamit/) new project is off to a great start.

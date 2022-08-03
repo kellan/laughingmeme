@@ -23,6 +23,6 @@ Spent lunch chatting about all things Web 2.0, and found someone else who is ask
 
 > Where are the cool East Coast start ups?
 
-Where are the \[Robot Coops\](http://robotcoop.com/), the \[Flickrs\](http://flickr.com), the \[Odeos\](http://odeo.com)? I’d settle for a \[24 Hour Laundry\](http://www.24hourlaundry.com/). Its like something happens somewhere around Chicago, that means the East Coast is going to miss Web 2.0 even worse then it missed Web 1.0
+Where are the [Robot Coops](http://robotcoop.com/), the [Flickrs](http://flickr.com), the [Odeos](http://odeo.com)? I’d settle for a [24 Hour Laundry](http://www.24hourlaundry.com/). Its like something happens somewhere around Chicago, that means the East Coast is going to miss Web 2.0 even worse then it missed Web 1.0
 
 Who am I forgetting? Where are the rest?

@@ -10,13 +10,13 @@ categories:
     - Uncategorized
 ---
 
-> “Updated my PHP bindings to work with unofficial Pinterest API v2. And then \[@curlyjazz\](http://twitter.com/curlyjazz) and I made a thing: \[@omgrobot10\](http://twitter.com/omgrobot10) \[https://github.com/kellan/pinterest.api.php\](https://github.com/kellan/pinterest.api.php)” – \[@kellan\](http://twitter.com/kellan)
+> “Updated my PHP bindings to work with unofficial Pinterest API v2. And then [@curlyjazz](http://twitter.com/curlyjazz) and I made a thing: [@omgrobot10](http://twitter.com/omgrobot10) [https://github.com/kellan/pinterest.api.php](https://github.com/kellan/pinterest.api.php)” – [@kellan](http://twitter.com/kellan)
 
 or rather
 
-> ### “… because as soon as we started \[pinning\] for you it really became *our* civilization.” – \[omgrobot10\](http://pinterest.com/omgrobot/pins)
+> ### “… because as soon as we started [pinning] for you it really became *our* civilization.” – [omgrobot10](http://pinterest.com/omgrobot/pins)
 
-Saturday \[Jasmine\](http://about.me/jtrabelsi) and I put together \[omgrobot10\](http://pinterest.com/omgrobot/pins), which is really the “Hello, world” of a particular branch of \[New Aesthetic\](http://new-aesthetic.tumblr.com/). It motivated/exercised some code, and it amused us. But something unexpected also fell out of it.
+Saturday [Jasmine](http://about.me/jtrabelsi) and I put together [omgrobot10](http://pinterest.com/omgrobot/pins), which is really the “Hello, world” of a particular branch of [New Aesthetic](http://new-aesthetic.tumblr.com/). It motivated/exercised some code, and it amused us. But something unexpected also fell out of it.
 
 > ### “culture is the interference of two programs being executed in information proximity”
 
@@ -32,10 +32,10 @@ You see what I found almost immediately was, “TheDress”.
 
 In the first 24 hours omgrobot10 re-pinned TheDress from 6 different accounts, all for whom it was a fond memory of last year’s cruise. Since then omgrobot10 has re-pinned TheDress 17 times from 17 difference accounts.
 
-What’s interesting is the TheDress also works fine in the noisy and spontaneous space that is the \[“Pinterest &gt; Everything”\](http://pinterest.com/all/) page largely populated by humans. But it’s simple expectations clash with the simple expectations of omgrobot10.
+What’s interesting is the TheDress also works fine in the noisy and spontaneous space that is the [“Pinterest &gt; Everything”](http://pinterest.com/all/) page largely populated by humans. But it’s simple expectations clash with the simple expectations of omgrobot10.
 
 There is also DeskOrganizer, who follows a similar agenda as TheDress, a tireless activist for a particular product that it has become fixated with it. But DeskOrganizer seems more content to be patient, play the long game, TheDress wants to get it’s message out now, at least ombrobot10 has only encountered it 4 times.
 
 But both of them have formed a mutually beneficial relationship with omgrobot10. The interference of their programs creating a robotic culture of what looks, from the outside human perspective (and therefore deeply uninformed) , as mutual aid.
 
-See also, \[the ethnography of robots\](http://ethnographymatters.net/2012/01/15/the-ethnography-of-robots/).
+See also, [the ethnography of robots](http://ethnographymatters.net/2012/01/15/the-ethnography-of-robots/).

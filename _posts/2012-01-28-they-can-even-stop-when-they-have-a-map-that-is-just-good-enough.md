@@ -15,9 +15,9 @@ tags:
     - software
 ---
 
-There’s a hilarious answer to the question \[Why are software development task estimations regularly off by a factor of 2-3?\](http://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3) floating around now. Hilarious, deeply knowing, but not terrible accurate or actionable.
+There’s a hilarious answer to the question [Why are software development task estimations regularly off by a factor of 2-3?](http://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3) floating around now. Hilarious, deeply knowing, but not terrible accurate or actionable.
 
-But buried in the comments was this gem from \[Neil K\](http://brevity.org/), which I’m going to quote, in it’s entirety, for truth (Neil has, after all, seen more sausage getting made at more of the places whose tools you use then nearly anyone):
+But buried in the comments was this gem from [Neil K](http://brevity.org/), which I’m going to quote, in it’s entirety, for truth (Neil has, after all, seen more sausage getting made at more of the places whose tools you use then nearly anyone):
 
 > *This is really good, but if I can offer a suggestion — the analogy could be even more apt with a slight shift. Currently it only shows how people go wrong when they develop software in a naive way — by starting at the beginning, and coding each step to final quality, in order. The story, as written now, makes it look like writing software is just an impossible slog and nobody can do it.*
 > 

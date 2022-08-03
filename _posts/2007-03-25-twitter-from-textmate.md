@@ -18,4 +18,4 @@ tags:
     - twitter
 ---
 
-Every since I heard about this, I’ve been thinking this could be adapated to be actually useful if instead of Twitter it posted to snippets site, like \[pastie\](http://pastie.caboo.se/) or \[pastebin\](http://pastebin.com/)
+Every since I heard about this, I’ve been thinking this could be adapated to be actually useful if instead of Twitter it posted to snippets site, like [pastie](http://pastie.caboo.se/) or [pastebin](http://pastebin.com/)

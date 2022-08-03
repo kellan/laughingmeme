@@ -22,4 +22,4 @@ tags:
     - web2.0
 ---
 
-at \[Soflow\](http://soflow.com)
+at [Soflow](http://soflow.com)

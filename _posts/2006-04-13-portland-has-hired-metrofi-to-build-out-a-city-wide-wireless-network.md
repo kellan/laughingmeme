@@ -23,4 +23,4 @@ tags:
     - wifi
 ---
 
-Odd that Portland of all places would go this route given the success of \[Personal Telco\](http://wiki.personaltelco.net) community wireless.
+Odd that Portland of all places would go this route given the success of [Personal Telco](http://wiki.personaltelco.net) community wireless.

@@ -22,4 +22,4 @@ tags:
     - magpie
 ---
 
-Also \[WamPad\](http://wampad/rss), a mobile feed reader. Both powered by Magpie.
+Also [WamPad](http://wampad/rss), a mobile feed reader. Both powered by Magpie.

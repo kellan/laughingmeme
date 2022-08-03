@@ -17,4 +17,4 @@ tags:
     - semweb
 ---
 
-I’m on record as a microformat fan — they’re an awesome low impact largely social hack — appropriate technology for a world without APIs. That said I’ve been hesitant to add them to Flickr for the reason that APIs are **better**: better for us, better for you and I would hate to confuse people about this. That said \[Operator\](https://addons.mozilla.org/en-US/firefox/addon/4106) is the compelling counter argument, and why I’ve been sprinkling microformats and RDFa around the site lately.
+I’m on record as a microformat fan — they’re an awesome low impact largely social hack — appropriate technology for a world without APIs. That said I’ve been hesitant to add them to Flickr for the reason that APIs are **better**: better for us, better for you and I would hate to confuse people about this. That said [Operator](https://addons.mozilla.org/en-US/firefox/addon/4106) is the compelling counter argument, and why I’ve been sprinkling microformats and RDFa around the site lately.

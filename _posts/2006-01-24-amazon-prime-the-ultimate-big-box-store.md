@@ -21,10 +21,10 @@ tags:
 
 Does anyone know if there is a way to limit your searches on Amazon to *only* items available for Amazon Prime?
 
-(And to clarify I’m aggressive about buying books from local independents, but the ability to notice “Hey, we’re going to need a new toilet brush soon”, and have a nifty OXO designed one show up two days later is killer. Kind of like the mass transit version of driving out to a big box store \[or so I like to delude myself\])
+(And to clarify I’m aggressive about buying books from local independents, but the ability to notice “Hey, we’re going to need a new toilet brush soon”, and have a nifty OXO designed one show up two days later is killer. Kind of like the mass transit version of driving out to a big box store [or so I like to delude myself])
 
-**update:** \[Lady Dr. Cutie TroublerMaker\](http://proactivebusybody.com/) (pronouced “Abby”) points out an \[AskMefi\](http://ask.metafilter.com/mefi/30124) thread on exactly this topic.
+**update:** [Lady Dr. Cutie TroublerMaker](http://proactivebusybody.com/) (pronouced “Abby”) points out an [AskMefi](http://ask.metafilter.com/mefi/30124) thread on exactly this topic.
 
 The answer is “no” (or rather **“NO”**), but the suggested work around is to include the term “Amazon” in your searches.
 
-I am also reminded that we have the \[creative madman\](http://www.kokogiak.com/) behind \[Amazon Light \](http://www.kokogiak.com/amazon/)right here in Boston, and I should take this to him, so, um, \[Alan\](http://www.kokogiak.com/), any help?
+I am also reminded that we have the [creative madman](http://www.kokogiak.com/) behind [Amazon Light ](http://www.kokogiak.com/amazon/)right here in Boston, and I should take this to him, so, um, [Alan](http://www.kokogiak.com/), any help?

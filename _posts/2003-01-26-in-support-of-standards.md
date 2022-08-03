@@ -29,7 +29,7 @@ In ensuring discussion all sorts of wonderfully capitalist metaphors about accur
 
 1. Help people produce valid feeds. XML::RSS was one of the biggest offenders in this regard. It actively worked against people, unescaping their HTML entities, and not re-escaping this. This has been fixed in the next release.
 2. Give helpful error messages when parsing fails. In the long term it would be nice to port the [RSS Validator](http://feeds.archive.org/validator/) to be part of the toolkit to tell people **exactly** whats wrong with the feed. Feed consumers might be more outspoken if they knew why the feed broke and whose fault it was. Despite [my minor gripes](http://laughingmeme.org/archives/000290.html#000290) about it, the RSS Validator is a very powerful tool.
-3. Until we port the Validator, perhaps when RSS hits a parsing error, we can say. > `RSS parsing error on line 345, column 12` \[like we do now, plus\]   
+3. Until we port the Validator, perhaps when RSS hits a parsing error, we can say. > `RSS parsing error on line 345, column 12` [like we do now, plus]   
     > `For more info on why parsing failed see: http://feeds.archive.org/validator/check?url=http://someurl/index.rdf`
 4. Now that XML::RSS has a [webpage](http://perl-rss.sf.net), we should be putting up articles, and links to articles showing best practice, and talking about pitfalls.
 5. Other ideas?

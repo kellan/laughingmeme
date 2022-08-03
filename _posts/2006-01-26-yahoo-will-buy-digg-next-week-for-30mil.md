@@ -23,4 +23,4 @@ tags:
     - yahoo
 ---
 
-Dear god it can’t be worth that much. Somehow Digg has always seemed soooo boring, traffic numbers aside. \[Or not\](http://thomashawk.com/2006/01/yahoo-buying-digg-not-anytime-soon.html)
+Dear god it can’t be worth that much. Somehow Digg has always seemed soooo boring, traffic numbers aside. [Or not](http://thomashawk.com/2006/01/yahoo-buying-digg-not-anytime-soon.html)

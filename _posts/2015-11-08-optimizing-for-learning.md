@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 ---
 
-I gave two similar keynotes back to back in San Francisco in September. One at \[Github Universe\](http://githubuniverse.com/), and one at the \[Code for America Summit\](https://www.codeforamerica.org/summit/). I felt like I was bit rusty after taking over two years off to focus on the inward facing work at Etsy, but folks enjoyed them.
+I gave two similar keynotes back to back in San Francisco in September. One at [Github Universe](http://githubuniverse.com/), and one at the [Code for America Summit](https://www.codeforamerica.org/summit/). I felt like I was bit rusty after taking over two years off to focus on the inward facing work at Etsy, but folks enjoyed them.
 
 This is the CfA version:
 

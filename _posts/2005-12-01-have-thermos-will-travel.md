@@ -26,4 +26,4 @@ tags:
 
 > You’re part of a very small group for whom its reasonable for a San Francisco coffee shop to consider a Brooklyn coffee shop competition.
 
-\[Rabble\](http://anarchogeek.com), on the rather grumpy reception from \[the kiosk\](http://www.flickr.com/photos/dogmilque/sets/859715/) to my excitement about \[Cafe Grumpy\](http://cafegrumpy.com/).
+[Rabble](http://anarchogeek.com), on the rather grumpy reception from [the kiosk](http://www.flickr.com/photos/dogmilque/sets/859715/) to my excitement about [Cafe Grumpy](http://cafegrumpy.com/).

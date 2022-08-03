@@ -22,4 +22,4 @@ tags:
 
 This is the idea I’ve been trying to place with again, really starting just this week, rejecting the consensus about how to blog that’s emerged over the last couple years, and holds up Digg-ability and Techcrunch-i-tude as good indicators. Dan, of course, said it better.
 
-It’s probably an indicator of slipping into my dotage, but a new stray link and I’m happily back wandering through those early archives, even my own, having stumbled across a \[rather odd review of the rather minor Ruled Britannia, circa 2003\](http://laughingmeme.org/2003/03/26/ruled-britannia/) earlier this evening.
+It’s probably an indicator of slipping into my dotage, but a new stray link and I’m happily back wandering through those early archives, even my own, having stumbled across a [rather odd review of the rather minor Ruled Britannia, circa 2003](http://laughingmeme.org/2003/03/26/ruled-britannia/) earlier this evening.

@@ -21,7 +21,7 @@ tags:
     - web2.0
 ---
 
-Reading the \[NYTimes Friendster post mortem\](http://www.nytimes.com/2006/10/15/business/yourmoney/15friend.html?\_r=1&amp;pagewanted=all) , its 4 pages long, but the following paragraph jumped out at me as the most important.
+Reading the [NYTimes Friendster post mortem](http://www.nytimes.com/2006/10/15/business/yourmoney/15friend.html?\_r=1&amp;pagewanted=all) , its 4 pages long, but the following paragraph jumped out at me as the most important.
 
 > Many people working at Friendster sneered at MySpace. The holy grail at Friendster — and the cause of most of its technical problems — was its closed system: users at Friendster could view only the profiles of those on a relatively short chain of acquaintances. By contrast, MySpace was open, and therefore much simpler from a technological standpoint; anybody could look at anyone else’s profile.
 

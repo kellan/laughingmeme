@@ -26,16 +26,16 @@ tags:
     - nyc
 ---
 
-I’ve been telling myself that someday I’m going to make it to \[Scott’s\](http://scott.heiferman.com/) \[NY New Tech Meetup\](http://newtech.meetup.com/1/), ever since he mentioned it \[this Summer\](http://wiki.oreillynet.com/foocamp05/index.cgi).
+I’ve been telling myself that someday I’m going to make it to [Scott’s](http://scott.heiferman.com/) [NY New Tech Meetup](http://newtech.meetup.com/1/), ever since he mentioned it [this Summer](http://wiki.oreillynet.com/foocamp05/index.cgi).
 
 But boy do I wish I was going tonight apparently there will be a demo of
 
 > Firefly (decision-support application)
 
-Um, you mean like \[Pattie Maes’\](http://web.media.mit.edu/~pattie/) \[Firefly\](http://wired-vig.wired.com/wired/archive/5.12/maes.html?topic=&amp;topic\_set=), that hottest, sexiest, most buzzworthy, proto-dotcom spin off of the \[Media Lab\](http://www.media.mit.edu/)? (complete with rockstar founder). The one that was \[bought, and killed by Microsoft\](http://www.wired.com/news/culture/0,1284,21243,00.html)?
+Um, you mean like [Pattie Maes’](http://web.media.mit.edu/~pattie/) [Firefly](http://wired-vig.wired.com/wired/archive/5.12/maes.html?topic=&amp;topic\_set=), that hottest, sexiest, most buzzworthy, proto-dotcom spin off of the [Media Lab](http://www.media.mit.edu/)? (complete with rockstar founder). The one that was [bought, and killed by Microsoft](http://www.wired.com/news/culture/0,1284,21243,00.html)?
 
 Of course, now in our wiser, more cynical age, who would be dumb enough to pour their metadata into a closed system? To trust a company to safeguard the gates of their community?
 
 Just kidding.
 
-Also demoing: \[apap.us\](http://apap.us), \[locl.us\](http://locl.us) and \[movie.us\](http://movie.us) (Apparently **.us** has arrived. Or at least someone is hoping so.)
+Also demoing: [apap.us](http://apap.us), [locl.us](http://locl.us) and [movie.us](http://movie.us) (Apparently **.us** has arrived. Or at least someone is hoping so.)

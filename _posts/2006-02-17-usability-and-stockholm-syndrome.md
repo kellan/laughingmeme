@@ -21,4 +21,4 @@ tags:
 
 Going home, and working with my grandmother on her computer is always an eye opening experience. I think it’s the only time I get any real insight into how computers should actually work, or how much time I spend working for my computer versus my computer working for me. Trite I’m sure, but I’m floored every time I do it, and floored again when I think of the energy I spend justifying (largely to myself) how computers work.
 
-This morning I realized how arbitrary the distinction between photos you’ve downloaded from your camera, and photos you’ve been emailed by friends is. (and by extension photos out in the ether) Why can’t you find them all in \[iPhoto\](http://apple.com/iphoto)?
+This morning I realized how arbitrary the distinction between photos you’ve downloaded from your camera, and photos you’ve been emailed by friends is. (and by extension photos out in the ether) Why can’t you find them all in [iPhoto](http://apple.com/iphoto)?

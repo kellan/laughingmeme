@@ -21,4 +21,4 @@ tags:
     - sf
 ---
 
-First bar I’ve closed in SF. With \[Matt\](http://hackdiary.com), \[Margot\](http://catsarebetter.resist.ca/), \[Aaron\](http://aaronland.info), and \[Blaine\](http://romeda.org). Good N’ght.
+First bar I’ve closed in SF. With [Matt](http://hackdiary.com), [Margot](http://catsarebetter.resist.ca/), [Aaron](http://aaronland.info), and [Blaine](http://romeda.org). Good N’ght.

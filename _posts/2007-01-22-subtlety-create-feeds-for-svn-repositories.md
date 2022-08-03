@@ -19,4 +19,4 @@ tags:
     - syndication
 ---
 
-Finally a Suversion replacement for my aging \[cvs2rss\](http://laughingmeme.org/cvs2rss) script. You don’t have to maintain the repository for it to work, and no more install Trac just to get a feed! (\[via\](http://simonwillison.net/))
+Finally a Suversion replacement for my aging [cvs2rss](http://laughingmeme.org/cvs2rss) script. You don’t have to maintain the repository for it to work, and no more install Trac just to get a feed! ([via](http://simonwillison.net/))

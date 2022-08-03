@@ -14,15 +14,15 @@ tags:
 
 [![open gate](http://farm1.static.flickr.com/65/202901029_f8c317a645.jpg)](http://www.flickr.com/photos/justinlincoln/202901029/ "Photo Sharing")
 
-A new feature got launched this week, \[content filters\](http://flickr.com/help/filters/). (no not \[**those** filtrs\](http://flickr.com/photos/straup/tags/filtr/), alas). And for a feature that quietly, but seriously rocks, it got kind of a “meh” response from the blog community at large.
+A new feature got launched this week, [content filters](http://flickr.com/help/filters/). (no not [**those** filtrs](http://flickr.com/photos/straup/tags/filtr/), alas). And for a feature that quietly, but seriously rocks, it got kind of a “meh” response from the blog community at large.
 
-Partially the \[official blog post\](http://blog.flickr.com/flickrblog/2007/03/introducing\_fil.html) is a bit <acronym title="Too long, didn't read">TLDR</acronym> (hey, its complicated!), but more to the point I don’t think we’re culturally prepared for progress on issues like censorship — things are supposed to only get worse.
+Partially the [official blog post](http://blog.flickr.com/flickrblog/2007/03/introducing\_fil.html) is a bit <acronym title="Too long, didn't read">TLDR</acronym> (hey, its complicated!), but more to the point I don’t think we’re culturally prepared for progress on issues like censorship — things are supposed to only get worse.
 
 So let me put it this way
 
 ### Upload your screenshots!
 
-Your \[SL\](http://secondlife.com/) avatars, your historical anthropology of web design, your worst-UI-evar samples.
+Your [SL](http://secondlife.com/) avatars, your historical anthropology of web design, your worst-UI-evar samples.
 
 ### Upload your art!
 

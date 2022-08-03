@@ -21,4 +21,4 @@ tags:
 > 
 > Sincerely, Your past self
 
-Thinking a visit to \[Tommy’s\](http://www.tommystequila.com/) is in order one of these days. Anyone interested?
+Thinking a visit to [Tommy’s](http://www.tommystequila.com/) is in order one of these days. Anyone interested?

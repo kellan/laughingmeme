@@ -16,4 +16,4 @@ tags:
     - 'silicon alley'
 ---
 
-Wondering if I should add my early ’99 recollections of Alley parties, getting backed into a corner by painfully geeky \[HotJobs\](http://hotjobs.com) nerds (HotJobs used to have real live nerds working for them!) who wanted to convince me that BSD was the one true TCP/IP stack, and escaping to the roof only to find \[Spring Streeters\](http://nerve.com) doing lines of coke over Bryant Park. Something tells me that isn’t what \[Fred\](http://www.avc.com/) is looking for.
+Wondering if I should add my early ’99 recollections of Alley parties, getting backed into a corner by painfully geeky [HotJobs](http://hotjobs.com) nerds (HotJobs used to have real live nerds working for them!) who wanted to convince me that BSD was the one true TCP/IP stack, and escaping to the roof only to find [Spring Streeters](http://nerve.com) doing lines of coke over Bryant Park. Something tells me that isn’t what [Fred](http://www.avc.com/) is looking for.

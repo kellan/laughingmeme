@@ -12,13 +12,13 @@ tags:
     - scaling
 ---
 
-Just read Ian Wilkes’ \[What Second Life can teach your datacenter about scaling Web apps\](http://arstechnica.com/business/data-centers/2010/02/what-second-life-can-teach-all-companies-about-scaling-web-apps.ars/) article.
+Just read Ian Wilkes’ [What Second Life can teach your datacenter about scaling Web apps](http://arstechnica.com/business/data-centers/2010/02/what-second-life-can-teach-all-companies-about-scaling-web-apps.ars/) article.
 
 It’s packed full of really great radically pragmatic advice. Go read it. Couple of times I literally shouted out “Yes!”, so I pulled a few choice quotes out.
 
 > *herein lies a trap for smaller ones: the belief that you can “do it right the first time.”*
 
-Wanted to jump up and down when I read this. Building it “right” the first time is one of the best guarantees of failure I know. \[Scaling is always a catch up game\](http://laughingmeme.org/2007/04/12/twitter-ruby-and-scaling/).
+Wanted to jump up and down when I read this. Building it “right” the first time is one of the best guarantees of failure I know. [Scaling is always a catch up game](http://laughingmeme.org/2007/04/12/twitter-ruby-and-scaling/).
 
 > *a recurring billing system needs to touch each user annually, and the product is only available to Internet users in the US and Europe, and by the biggest estimates will achieve no more than 10% penetration, then it needs to handle about 2-3 events per second (1bn \* 75% \* 10% / (365 \* 86,400)). Conversely, a chat system with a similar userbase averaging 10 messages/day, concentrated during work hours, might need to handle 20,000 messages per second or more.*
 
@@ -34,7 +34,7 @@ So true! Abstractions kill.
 
 > *the ultimate solution is typically to partition databases into horizontal slices of the data set (typically by user), but this approach can be very expensive to implement.*
 
-Not sure why partitioning is thought of as so expensive. It’s annoying, and \[not for the lazy\](http://laughingmeme.org/2009/09/29/try-coding-dear-boy/), but it’s not that difficult/expensive.
+Not sure why partitioning is thought of as so expensive. It’s annoying, and [not for the lazy](http://laughingmeme.org/2009/09/29/try-coding-dear-boy/), but it’s not that difficult/expensive.
 
 > *Instrument, propagate, and isolate errors*
 

@@ -19,9 +19,9 @@ tags:
     - rss
 ---
 
-I swear I get closer to walking away from RSS 1.0 every day and not looking back. If Userland RSS wasn’t such a freak show I’d be gone already. One of my greatest frustrations with RSS 1.0 has been the refusal for **years** to add an equivalent to the \[Atom link construct\](http://www.mnot.net/drafts/draft-nottingham-atom-format-02.html), on the grounds that RDF already provides this. You just can’t add it to your feeds today, or even tomorrow.
+I swear I get closer to walking away from RSS 1.0 every day and not looking back. If Userland RSS wasn’t such a freak show I’d be gone already. One of my greatest frustrations with RSS 1.0 has been the refusal for **years** to add an equivalent to the [Atom link construct](http://www.mnot.net/drafts/draft-nottingham-atom-format-02.html), on the grounds that RDF already provides this. You just can’t add it to your feeds today, or even tomorrow.
 
-The thread recently re-emerged \[mod\_link deprecated\](http://groups.yahoo.com/group/rss-dev/message/6950), and Ken’s \[postscript today\](http://groups.yahoo.com/group/rss-dev/message/6954) for me really sums up the rss-dev’s working groups total disinterest in non-RDF solutions, and lack of commitment to running code.
+The thread recently re-emerged [mod\_link deprecated](http://groups.yahoo.com/group/rss-dev/message/6950), and Ken’s [postscript today](http://groups.yahoo.com/group/rss-dev/message/6954) for me really sums up the rss-dev’s working groups total disinterest in non-RDF solutions, and lack of commitment to running code.
 
 > P.S. I understand that a follow-on discussion could happen about what constitutes a “generic link”, but the protracted discussion on atom-syntax resolved that there’s no such thing as a “generic link”, it’s just that some people feel more comfortable “extending” a syntax at a bottlneck point where they believe they don’t have to create a namespace or URI and new XML elements. RDF says, “get past it, it’s simpler when you do”.
 

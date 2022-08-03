@@ -30,7 +30,7 @@ Except for reasons I can’t fathom Reader isn’t including my tags in the Shar
 
 ### For Our Sins
 
-Casting around a bit for a solution, I noticed the “Email” button, which allows me to send a link via email, along with a short note, and so \[“Email to del.icio.us”\](http://laughingmeme.org/code/email*to*del.pl.txt) was born.
+Casting around a bit for a solution, I noticed the “Email” button, which allows me to send a link via email, along with a short note, and so [“Email to del.icio.us”](http://laughingmeme.org/code/email*to*del.pl.txt) was born.
 
 Super quick and dirty Perl script that:
 

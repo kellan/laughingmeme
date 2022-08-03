@@ -25,6 +25,6 @@ tags:
     - tags
 ---
 
-Some tags I check when trying to figure out who someone is/what their story is: \[me\](http://www.flickr.com/photos/tags/me/), \[friends\](http://del.icio.us/tag/friends), \[work\](http://flickr.com/photos/tags/work/), \[home\](http://del.icio.us/tag/home), \[weather\](http://del.icio.us/tag/weather), \[craigslist\](http://del.icio.us/tag/craigslist). Also a quick visual scan for place names.
+Some tags I check when trying to figure out who someone is/what their story is: [me](http://www.flickr.com/photos/tags/me/), [friends](http://del.icio.us/tag/friends), [work](http://flickr.com/photos/tags/work/), [home](http://del.icio.us/tag/home), [weather](http://del.icio.us/tag/weather), [craigslist](http://del.icio.us/tag/craigslist). Also a quick visual scan for place names.
 
 Even folks who’ve managed to stay fairly anonymous leak a lot of info in their tags.

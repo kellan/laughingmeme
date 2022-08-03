@@ -21,4 +21,4 @@ tags:
     - wow
 ---
 
-Unscheduled \[Bloglines\](http://bloglines.com) downtime, and \[WoW’s\](http://www.worldofwarcraft.com/) weekly 7 hours of scheduled downtime is pushing 12 with no end in sight. (and they’re \[homepage is even down\](http://flickr.com/photos/kellan/127190801/))
+Unscheduled [Bloglines](http://bloglines.com) downtime, and [WoW’s](http://www.worldofwarcraft.com/) weekly 7 hours of scheduled downtime is pushing 12 with no end in sight. (and they’re [homepage is even down](http://flickr.com/photos/kellan/127190801/))

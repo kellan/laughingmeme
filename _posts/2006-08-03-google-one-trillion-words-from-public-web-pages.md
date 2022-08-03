@@ -23,4 +23,4 @@ tags:
     - web
 ---
 
-note to self, revisit \[Hadoop\](http://lucene.apache.org/hadoop/)
+note to self, revisit [Hadoop](http://lucene.apache.org/hadoop/)

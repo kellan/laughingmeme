@@ -25,4 +25,4 @@ tags:
     - xml
 ---
 
-thats what \[410 (Gone)\](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) is for.
+thats what [410 (Gone)](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) is for.

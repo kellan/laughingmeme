@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-\[O\]peration \[I\]raqi \[L\]iberation
+[O]peration [I]raqi [L]iberation

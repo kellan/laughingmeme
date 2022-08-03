@@ -24,4 +24,4 @@ tags:
     - yahoo
 ---
 
-“This isn’t just a clever use of Del.icio.us by a savvy member of the \[corporate media\]”. WP is certainly my first choice on the rather short list of “newspaper whom will be relevant in 20 years”. I wonder if this is Y!’s influence?
+“This isn’t just a clever use of Del.icio.us by a savvy member of the [corporate media]”. WP is certainly my first choice on the rather short list of “newspaper whom will be relevant in 20 years”. I wonder if this is Y!’s influence?

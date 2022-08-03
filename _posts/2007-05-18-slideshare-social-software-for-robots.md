@@ -21,4 +21,4 @@ Blaine and my slides from XTech07. (Oh, and SlideShare needs co-presenter featur
 
 <object data="https://s3.amazonaws.com:443/slideshare/ssplayer.swf?id=50713&doc=social-software-for-robots-13992" height="348" type="application/x-shockwave-flash" width="425"><param name="movie" value="https://s3.amazonaws.com:443/slideshare/ssplayer.swf?id=50713&doc=social-software-for-robots-13992"></param></object>
 
-\[More XTech ’07 slides\](http://www.slideshare.net/tag/xtech2007).
+[More XTech ’07 slides](http://www.slideshare.net/tag/xtech2007).

@@ -17,4 +17,4 @@ tags:
     - sf
 ---
 
-Coffee spiked with \[mate\](http://en.wikipedia.org/wiki/Yerba\_mate) is intriguing. But they’re charging premium coffee prices for pre-ground coffee of unspecified origin. Plus lifestyle appropriation bullshit like, “self-styled anarchist, caffeine addict, and conspiracy theorist known only as The Roaster” is just offensive.
+Coffee spiked with [mate](http://en.wikipedia.org/wiki/Yerba\_mate) is intriguing. But they’re charging premium coffee prices for pre-ground coffee of unspecified origin. Plus lifestyle appropriation bullshit like, “self-styled anarchist, caffeine addict, and conspiracy theorist known only as The Roaster” is just offensive.

@@ -20,4 +20,4 @@ tags:
     - travel
 ---
 
-Next 3 trains leaving, nifty $1.40 vs. \[$1.81 driving\](http://maps.google.com/help/faq*transit.html#drive*cost\_estimate), accurate walking directions. Very nice. Congrats to \[Gregor\](http://greg.abstrakt.ch/) and the whole team
+Next 3 trains leaving, nifty $1.40 vs. [$1.81 driving](http://maps.google.com/help/faq*transit.html#drive*cost\_estimate), accurate walking directions. Very nice. Congrats to [Gregor](http://greg.abstrakt.ch/) and the whole team

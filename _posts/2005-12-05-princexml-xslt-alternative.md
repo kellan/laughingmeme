@@ -21,7 +21,7 @@ tags:
     - xml
 ---
 
-I’ve had a todo item “Check out \[PrinceXML\](http://www.princexml.com/)” since seeing it mentioned in ALA’s \[Printing a Book with CSS\](http://www.alistapart.com/articles/boom).
+I’ve had a todo item “Check out [PrinceXML](http://www.princexml.com/)” since seeing it mentioned in ALA’s [Printing a Book with CSS](http://www.alistapart.com/articles/boom).
 
 So I got so far as figuring out it wasn’t opensource, and seeing that the price was $349 dollars. Definitely makes me think I should probably shuffle that “Learn XSL” up the todo list again.
 

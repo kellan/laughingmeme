@@ -19,4 +19,4 @@ tags:
     - webkit
 ---
 
-Simple wrapper around WebKit just for GMail. Giving GMail a dedicated process makes it happier, and makes Firefox happier. (\[via\](http://webkit.pbwiki.com/ExistingProjects))
+Simple wrapper around WebKit just for GMail. Giving GMail a dedicated process makes it happier, and makes Firefox happier. ([via](http://webkit.pbwiki.com/ExistingProjects))

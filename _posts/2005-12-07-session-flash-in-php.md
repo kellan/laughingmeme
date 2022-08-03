@@ -22,4 +22,4 @@ tags:
     - webdev
 ---
 
-Doing some PHP hacking tonight, I was missing Rails’ “flash”. So I coded up a quick and dirty implementation of the read-once session \[status notification pattern\](http://blog.ianbicking.org/web-application-patterns-status-notification.html). \[The code\](http://laughingmeme.org/code/flash.inc.php.txt)
+Doing some PHP hacking tonight, I was missing Rails’ “flash”. So I coded up a quick and dirty implementation of the read-once session [status notification pattern](http://blog.ianbicking.org/web-application-patterns-status-notification.html). [The code](http://laughingmeme.org/code/flash.inc.php.txt)

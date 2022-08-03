@@ -19,4 +19,4 @@ tags:
     - 'post relational'
 ---
 
-\[We\](http://flickr.com) use this pattern so often we have \[libraries\](http://flickr.com/search/?q=flickrhq%20backfill&amp;w=all&amp;m=tags) to make it easier.
+[We](http://flickr.com) use this pattern so often we have [libraries](http://flickr.com/search/?q=flickrhq%20backfill&amp;w=all&amp;m=tags) to make it easier.

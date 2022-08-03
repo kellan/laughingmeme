@@ -12,7 +12,7 @@ categories:
 
 [![](http://33.media.tumblr.com/08f8b0500bc638374e5f6576dfde1d5c/tumblr_inline_njwfl9YSA01sse0zu.png)](https://www.kickstarter.com/projects/keyboardio/the-model-01-an-heirloom-grade-keyboard-for-seriou)
 
-I’m super excited about the \[Keyboardio Model 01\](http://www.keyboard.io/), and glad to see their \[Kickstarer is live\](https://www.kickstarter.com/projects/keyboardio/the-model-01-an-heirloom-grade-keyboard-for-seriou) (\[go back it now!\](https://www.kickstarter.com/projects/keyboardio/the-model-01-an-heirloom-grade-keyboard-for-seriou)), even if I squirm to see my bits in the video. Given that I recorded nearly an hour of video about my experience using the keyboard, I tend to think the best bits of the interview didn’t make it into the their final draft.
+I’m super excited about the [Keyboardio Model 01](http://www.keyboard.io/), and glad to see their [Kickstarer is live](https://www.kickstarter.com/projects/keyboardio/the-model-01-an-heirloom-grade-keyboard-for-seriou) ([go back it now!](https://www.kickstarter.com/projects/keyboardio/the-model-01-an-heirloom-grade-keyboard-for-seriou)), even if I squirm to see my bits in the video. Given that I recorded nearly an hour of video about my experience using the keyboard, I tend to think the best bits of the interview didn’t make it into the their final draft.
 
 Here are some more thoughts
 

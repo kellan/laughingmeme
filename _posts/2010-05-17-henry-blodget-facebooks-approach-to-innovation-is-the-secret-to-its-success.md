@@ -23,8 +23,8 @@ Blodget gets the headline right, and nearly everything else wrong.
 
 I’m really surprised we aren’t seeing more people writing and talking about what I see as Facebook’s key competitive advantage: It’s a data driven company, which is nimble enough to act on that data.
 
-When I look at the Facebook engineering culture I see the \[best parts of what we’ve done at Flickr\](http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr), scaled up in a way I didn’t think was possible.
+When I look at the Facebook engineering culture I see the [best parts of what we’ve done at Flickr](http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr), scaled up in a way I didn’t think was possible.
 
-And when you look at the work \[the data team\](http://www.facebook.com/data) is doing (which you can get a sense of by the \[tools they throw off\](http://www.facebook.com/pages/Hive/43928506208)), you know that Facebook’s innovation is being tested, put through it’s paces, and extensively analyzed before most of us are aware of it.
+And when you look at the work [the data team](http://www.facebook.com/data) is doing (which you can get a sense of by the [tools they throw off](http://www.facebook.com/pages/Hive/43928506208)), you know that Facebook’s innovation is being tested, put through it’s paces, and extensively analyzed before most of us are aware of it.
 
 This is a unique combination.

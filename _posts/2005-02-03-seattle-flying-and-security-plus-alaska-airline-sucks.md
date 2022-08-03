@@ -27,9 +27,9 @@ Back at security I was able to observe what appeared to by a list of people who 
 
 ### Related posts
 
-- \[Special treatment\](http://laughingmeme.org/archives/002181.html#002181) 2004/07/10
-- \[A few thoughts on life in the 21st century\](http://laughingmeme.org/archives/000954.html#000954) 2003/07/08
-- \[Made it home\](http://laughingmeme.org/archives/000810.html#000810) 2003/05/30
+- [Special treatment](http://laughingmeme.org/archives/002181.html#002181) 2004/07/10
+- [A few thoughts on life in the 21st century](http://laughingmeme.org/archives/000954.html#000954) 2003/07/08
+- [Made it home](http://laughingmeme.org/archives/000810.html#000810) 2003/05/30
 
 ### Seattle
 

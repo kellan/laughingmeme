@@ -20,4 +20,4 @@ tags:
     - sf
 ---
 
-Tomorrow morning, \[Cafe International\](http://www.yelp.com/biz/6iR0zBfiup79DErYKAXY0Q). Sometime around 8am. See you there?
+Tomorrow morning, [Cafe International](http://www.yelp.com/biz/6iR0zBfiup79DErYKAXY0Q). Sometime around 8am. See you there?

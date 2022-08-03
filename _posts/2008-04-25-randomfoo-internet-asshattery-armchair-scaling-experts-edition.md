@@ -21,4 +21,4 @@ tags:
     - upcoming
 ---
 
-I miss \[Leonard\](http://randomfoo.net), \[Gordon\](http://getluky.net), and \[Andy\](http://waxy.org). But now that they’ve dispersed from \[Big Purple\](http://yahoo.com) it’s nice to see all three of them schooling the internet in what *real* tech reporting might look like. You almost forget how bad it’s gotten until you see someone with a clue do it. Talk about amateur hour being over.
+I miss [Leonard](http://randomfoo.net), [Gordon](http://getluky.net), and [Andy](http://waxy.org). But now that they’ve dispersed from [Big Purple](http://yahoo.com) it’s nice to see all three of them schooling the internet in what *real* tech reporting might look like. You almost forget how bad it’s gotten until you see someone with a clue do it. Talk about amateur hour being over.

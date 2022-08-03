@@ -20,4 +20,4 @@ tags:
     - rails
 ---
 
-\[Evan’s\](http://www.anarchogeek.com/) shiny new \[Rails\](http://rubyonrails.org/) app, \[Odeo\](http://odeo.com) is has \[been announced\](http://www.anarchogeek.com/archives/000494.html). Looks like they weren’t quite ready to open the flood gates, but probably sometime today. Record audio over the phone or directly on the website, tag it, and collect found audio into channels for syncing. And its a non-\[todo list app\](http://laughingmeme.org/archives/002730.html) for Rails.
+[Evan’s](http://www.anarchogeek.com/) shiny new [Rails](http://rubyonrails.org/) app, [Odeo](http://odeo.com) is has [been announced](http://www.anarchogeek.com/archives/000494.html). Looks like they weren’t quite ready to open the flood gates, but probably sometime today. Record audio over the phone or directly on the website, tag it, and collect found audio into channels for syncing. And its a non-[todo list app](http://laughingmeme.org/archives/002730.html) for Rails.

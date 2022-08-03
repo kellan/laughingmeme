@@ -23,4 +23,4 @@ tags:
     - sf
 ---
 
-The person next to me at \[Mission Creek\](http://www.yelp.com/biz/TFOFOzBVy8K96Qq9zwa3hA) is pinging 4.2.2.2; some day I’d love to see a sociololgy paper on the spread of 4.2.2.2
+The person next to me at [Mission Creek](http://www.yelp.com/biz/TFOFOzBVy8K96Qq9zwa3hA) is pinging 4.2.2.2; some day I’d love to see a sociololgy paper on the spread of 4.2.2.2

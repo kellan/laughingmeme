@@ -20,4 +20,4 @@ According to [quinn](http://www.ambiguous.org/archive.php3/2003/04/3#quinn200343
 
 > that the [saturn cafe](http://www.saturncafe.com/) of santa cruz, california is temporarily changing the name of their fries to “Fuck George Bush Fries,” with 5% of the profits going to the impeachment fund.
 
-Anyone who is home want to check in to this, see if its an April Fools? Unfortunately 3000 miles is a long way to go to check on a joke. (and get a mud pie) **update**: \[Aidan\](http://http://livejournal.com/users/sedesdraconis) took \[pictures\](http://www.sedesdraconis.com/index.cgi?Features/Impeach)
+Anyone who is home want to check in to this, see if its an April Fools? Unfortunately 3000 miles is a long way to go to check on a joke. (and get a mud pie) **update**: [Aidan](http://http://livejournal.com/users/sedesdraconis) took [pictures](http://www.sedesdraconis.com/index.cgi?Features/Impeach)

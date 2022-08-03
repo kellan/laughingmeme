@@ -14,4 +14,4 @@ tags:
     - 'noticings nyc'
 ---
 
-Currently I’m the only one, with Web 2.0 Expo is going on I thought there would be more. \[Play in New York is currently very sparse\](http://www.flickr.com/search/?e=2459115&amp;ss=2&amp;w=all&amp;q=noticings%3A%3D&amp;m=text). The \[bespoke uploadr\](http://noticin.gs/iphone) may help.
+Currently I’m the only one, with Web 2.0 Expo is going on I thought there would be more. [Play in New York is currently very sparse](http://www.flickr.com/search/?e=2459115&amp;ss=2&amp;w=all&amp;q=noticings%3A%3D&amp;m=text). The [bespoke uploadr](http://noticin.gs/iphone) may help.

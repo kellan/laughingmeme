@@ -16,8 +16,8 @@ tags:
     - 'social graph'
 ---
 
-\[Online Community Summit\](http://www.forumone.com/content/calendar/detail/2121/) pre-meetings kick off today, through the 5th.
+[Online Community Summit](http://www.forumone.com/content/calendar/detail/2121/) pre-meetings kick off today, through the 5th.
 
-Then \[CommunityNext\](http://www.communitynext.com/) runs the 5th and 6th.
+Then [CommunityNext](http://www.communitynext.com/) runs the 5th and 6th.
 
-While \[Graphic Social Patterns\](http://graphingsocial.com/) will be on the 7th, 8th, and 9th
+While [Graphic Social Patterns](http://graphingsocial.com/) will be on the 7th, 8th, and 9th

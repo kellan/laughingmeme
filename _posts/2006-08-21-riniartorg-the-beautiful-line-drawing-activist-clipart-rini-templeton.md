@@ -21,4 +21,4 @@ tags:
     - art
 ---
 
-Via \[looking for Rini Templeton\](http://backspace.com/notes/links/2006/08/looking*for*rini\_templeton.php)
+Via [looking for Rini Templeton](http://backspace.com/notes/links/2006/08/looking*for*rini\_templeton.php)

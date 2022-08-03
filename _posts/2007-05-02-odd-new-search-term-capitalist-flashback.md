@@ -18,4 +18,4 @@ tags:
     - search
 ---
 
-Over the last two weeks I’ve seen a slow, but steadily growing set of people finding \[a 4 year old blog post\](http://laughingmeme.org/2003/06/04/a-new-mac-laptop/) with the search term “capitalist flashback”. Odd.
+Over the last two weeks I’ve seen a slow, but steadily growing set of people finding [a 4 year old blog post](http://laughingmeme.org/2003/06/04/a-new-mac-laptop/) with the search term “capitalist flashback”. Odd.

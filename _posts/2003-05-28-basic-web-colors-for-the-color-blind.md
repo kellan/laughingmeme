@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-Or otherwise color challenged \[like me\]
+Or otherwise color challenged [like me]

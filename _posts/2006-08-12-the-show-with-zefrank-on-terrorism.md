@@ -21,4 +21,4 @@ tags:
     - video
 ---
 
-also zefrank on the \[democratization of aesthetics\](http://www.zefrank.com/theshow/archives/2006/07/071406.html#). wow
+also zefrank on the [democratization of aesthetics](http://www.zefrank.com/theshow/archives/2006/07/071406.html#). wow

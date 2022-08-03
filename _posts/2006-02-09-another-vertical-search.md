@@ -21,4 +21,4 @@ tags:
     - winter
 ---
 
-I’m sure if I could ever get \[Zillow\](http://zillow.com) to load it could be interesting, and for many out there I’m sure \[HealthLine\](http://www.healthline.com/) is useful, but would someone hurry up and launch a vertical search that allows me to find hotel rooms with fireplaces or better yet cabins with woodstoves? (In other news, unseasonably warm or not, I’m tired of New England winter)
+I’m sure if I could ever get [Zillow](http://zillow.com) to load it could be interesting, and for many out there I’m sure [HealthLine](http://www.healthline.com/) is useful, but would someone hurry up and launch a vertical search that allows me to find hotel rooms with fireplaces or better yet cabins with woodstoves? (In other news, unseasonably warm or not, I’m tired of New England winter)

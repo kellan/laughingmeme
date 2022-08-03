@@ -20,6 +20,6 @@ tags:
     - yahoo
 ---
 
-\[Les\](http://decafbad.com/blog/) is going to be \[joining del.icio.us\](http://decafbad.com/blog/2006/06/24/go-west-young-man) here in the happy valley, while Hugo has left the W3C(!?!?!) to \[join as well\](http://larve.net/people/hugo/2005/blog/2006/06/24/moving-on-to-new-things/).
+[Les](http://decafbad.com/blog/) is going to be [joining del.icio.us](http://decafbad.com/blog/2006/06/24/go-west-young-man) here in the happy valley, while Hugo has left the W3C(!?!?!) to [join as well](http://larve.net/people/hugo/2005/blog/2006/06/24/moving-on-to-new-things/).
 
 (And soon, we’ll return to some non-Yahoo-centric blogging)

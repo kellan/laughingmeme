@@ -18,4 +18,4 @@ tags:
     - sf
 ---
 
-Also a \[nice fluffy piece on farmers’ markets\](http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/06/27/FDGFMQJFG61.DTL) from this morning’s Chron.
+Also a [nice fluffy piece on farmers’ markets](http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/06/27/FDGFMQJFG61.DTL) from this morning’s Chron.

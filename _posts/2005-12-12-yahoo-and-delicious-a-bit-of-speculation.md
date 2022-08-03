@@ -26,12 +26,12 @@ tags:
     - yahoo
 ---
 
-So the \[Yahoo acquisition of del.icio.us\](http://blog.del.icio.us/blog/2005/12/yahoo.html) hit every tech blog on the planet this weekend, and hardly needs more rehashing. But a couple of ideas I haven’t seen elsewhere from one of my mailing lists.
+So the [Yahoo acquisition of del.icio.us](http://blog.del.icio.us/blog/2005/12/yahoo.html) hit every tech blog on the planet this weekend, and hardly needs more rehashing. But a couple of ideas I haven’t seen elsewhere from one of my mailing lists.
 
 It was pointed out that
 
-> \[Yahoo\] recently hired \[all the IBM people\](http://research.yahoo.com/publication.shtml) that worked at the \[WebFountain\](http://www.almaden.ibm.com/webfountain/) project.
+> [Yahoo] recently hired [all the IBM people](http://research.yahoo.com/publication.shtml) that worked at the [WebFountain](http://www.almaden.ibm.com/webfountain/) project.
 
-And that the \[del.icio.us\]\[del\] database of tagged website would be an awfully juicy source of data to start analyzing. Yahoo is the obvious player to build post-search interfaces, browsable and discoverable like Yahoo of old, but this time built to Web-scale.
+And that the [del.icio.us][del] database of tagged website would be an awfully juicy source of data to start analyzing. Yahoo is the obvious player to build post-search interfaces, browsable and discoverable like Yahoo of old, but this time built to Web-scale.
 
-Meanwhile is anyone watching the \[Flock’s\](http://www.flock.com/) future? What with its APIs to Yahoo’s Flickr, Yahoo’s del.icio.us, and integrated editor for \[all those new MT blogs\](http://www.techcrunch.com/2005/12/12/yahoo-teams-with-moveable-type/). Just a thought.
+Meanwhile is anyone watching the [Flock’s](http://www.flock.com/) future? What with its APIs to Yahoo’s Flickr, Yahoo’s del.icio.us, and integrated editor for [all those new MT blogs](http://www.techcrunch.com/2005/12/12/yahoo-teams-with-moveable-type/). Just a thought.

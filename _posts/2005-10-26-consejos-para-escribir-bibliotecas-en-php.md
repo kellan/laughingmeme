@@ -22,4 +22,4 @@ tags:
     - translation
 ---
 
-\[A Few Tips\](http://laughingmeme.org/articles/2003/08/05/a-few-tips-for-writing-useful-libraries-in-php) translated into Spanish
+[A Few Tips](http://laughingmeme.org/articles/2003/08/05/a-few-tips-for-writing-useful-libraries-in-php) translated into Spanish

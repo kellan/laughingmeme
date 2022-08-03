@@ -23,7 +23,7 @@ tags:
     - yahoo
 ---
 
-Presumably the \[new del.icio.us feature “Your Network”\](http://blog.del.icio.us/blog/2006/04/its*made*out*of.html) is just the start of a roll out as it falls a bit short of the \[hope and promise\](http://laughingmeme.org/articles/2005/10/26/del-icio-us-actually-getting-social) from Joshua’s \[talk at Berkman last year\](http://www.hyperorg.com/blogger/mtarchive/berkman*joshuas\_news.html).
+Presumably the [new del.icio.us feature “Your Network”](http://blog.del.icio.us/blog/2006/04/its*made*out*of.html) is just the start of a roll out as it falls a bit short of the [hope and promise](http://laughingmeme.org/articles/2005/10/26/del-icio-us-actually-getting-social) from Joshua’s [talk at Berkman last year](http://www.hyperorg.com/blogger/mtarchive/berkman*joshuas\_news.html).
 
 Two most critical missing features \* tags from my network (otherwise I just have a new link stream to drown in) \* what did my network think of this link? (as an API!)
 

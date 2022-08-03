@@ -17,4 +17,4 @@ tags:
     - interestingness
 ---
 
-10 minute app to provide some content while my blog was down this week. Uses the new \[“media type” hooks\](http://flickr.com/groups/api/discuss/72157604450378243/) in the Flickr API.
+10 minute app to provide some content while my blog was down this week. Uses the new [“media type” hooks](http://flickr.com/groups/api/discuss/72157604450378243/) in the Flickr API.

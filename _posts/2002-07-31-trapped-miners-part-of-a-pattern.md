@@ -20,7 +20,7 @@ I didn’t watch all the triumphant rescue clips on TV, though I’ve been heari
 
 The WSWS covers the story well, with [interesting coverage](http://www.wsws.org/articles/2002/jul2002/mine-j29_prn.shtml) that looks at the accident in context.
 
-> Since opening\[less then 2 years ago\], Quecreek has been cited 26 times for safety violations, but has been only fined $859. Of the 26 citations, 16 were levied in 2001 and were considered “significant and substantial.”
+> Since opening[less then 2 years ago], Quecreek has been cited 26 times for safety violations, but has been only fined $859. Of the 26 citations, 16 were levied in 2001 and were considered “significant and substantial.”
 
 > Over the past two decades, however, the government has spearheaded a ruthless offensive by the coal and energy companies to dismantle the past gains of the mine workers, especially as they impact workersâ€™ health and safety, and the leadership of the United Mineworkers of America (UMWA) has collaborated in this assault.
 

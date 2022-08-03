@@ -35,7 +35,7 @@ Found a note talking about wepapp theory, and how Java’s real strength was the
 
 Found notes to myself on a talk by Joseph Stiglitz to go back and read his work on transparency and information exchange (sounds relevant to large scale anarchist organizing) Interesting quote:
 
-> On my last day \[with President Clinton\] I announced that, ‘Now with the domestic economy so well under control I could embark on the modest dream of a world without poverty’. Amazing optimism but almost forgivable at the time. 3 years into the Bush presidency such hope is a mockery, as reckless tax cuts, and military spending have fatally undermined generations of work on poverty reduction and justice.
+> On my last day [with President Clinton] I announced that, ‘Now with the domestic economy so well under control I could embark on the modest dream of a world without poverty’. Amazing optimism but almost forgivable at the time. 3 years into the Bush presidency such hope is a mockery, as reckless tax cuts, and military spending have fatally undermined generations of work on poverty reduction and justice.
 
  Not supported by a lot of theory coming out these days that say Bush is the symptom of the collapse of America’s economic strength and its subsequent disinterest in participating in the rule of multi-lateral elitism which had characterized globalization through the colonial and early post colonial periods. ### Weather and RSS
 

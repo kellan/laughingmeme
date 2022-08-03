@@ -22,4 +22,4 @@ tags:
     - microformats
 ---
 
-Also \[NYTimes 100 notable of 2005\](http://www.nytimes.com/2005/12/04/books/review/notable-books2005.html?ei=5090&amp;en=6ae392627118dab6&amp;ex=1291352400&amp;adxnnl=1&amp;partner=rssuserland&amp;emc=rss&amp;pagewanted=all&amp;adxnnlx=1133384816-L6BPmMLbe3gqUEXYsfPWeQ). Now if people would offer these lists as \[XOXO\](http://microformats.org/wiki/xoxo), then you could build one-click add to \[Lists of Bests\](http://www.listsofbests.com/) or some such.
+Also [NYTimes 100 notable of 2005](http://www.nytimes.com/2005/12/04/books/review/notable-books2005.html?ei=5090&amp;en=6ae392627118dab6&amp;ex=1291352400&amp;adxnnl=1&amp;partner=rssuserland&amp;emc=rss&amp;pagewanted=all&amp;adxnnlx=1133384816-L6BPmMLbe3gqUEXYsfPWeQ). Now if people would offer these lists as [XOXO](http://microformats.org/wiki/xoxo), then you could build one-click add to [Lists of Bests](http://www.listsofbests.com/) or some such.

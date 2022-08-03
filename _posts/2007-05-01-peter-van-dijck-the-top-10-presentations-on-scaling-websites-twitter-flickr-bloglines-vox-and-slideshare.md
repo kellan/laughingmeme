@@ -16,4 +16,4 @@ tags:
     - slides
 ---
 
-All hosted on \[SlideShare\](http://www.slideshare.net/); by some of my favorite people.
+All hosted on [SlideShare](http://www.slideshare.net/); by some of my favorite people.

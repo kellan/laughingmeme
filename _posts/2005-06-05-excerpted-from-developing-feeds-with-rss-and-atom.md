@@ -23,8 +23,8 @@ tags:
     - syndication
 ---
 
-\[Ben Hammersley on Magpie\](http://www.webreference.com/programming/rss\_atom/)
+[Ben Hammersley on Magpie](http://www.webreference.com/programming/rss\_atom/)
 
-> The most popular parser in PHP, and arguably the most popular in use on the Web right now, is Kellan Elliott-McCrea’s \[MagpieRSS\](http://magpierss.sf.net). As I write this, it stands at version 0.7, a low number indicative of modesty rather than product immaturity. MagpieRSS is a very refined product indeed.
+> The most popular parser in PHP, and arguably the most popular in use on the Web right now, is Kellan Elliott-McCrea’s [MagpieRSS](http://magpierss.sf.net). As I write this, it stands at version 0.7, a low number indicative of modesty rather than product immaturity. MagpieRSS is a very refined product indeed.
 
-Thanks \[Ben\](http://www.benhammersley.com/)!
+Thanks [Ben](http://www.benhammersley.com/)!

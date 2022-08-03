@@ -18,7 +18,7 @@ raw_content:
 
 Found an ongoing series on Seattle’s bountiful bubble tea options. So far they’re all concentrated on the Ave., but a future visit to the ID is promised.
 
-- [WOW Bubble Tea](http://www.students.washington.edu/mlm3/archives/2004_03.html#000064), “capitalistic Christians who want to take over the world with their \[soft rock\] music”, and serve bubble tea apparently.
+- [WOW Bubble Tea](http://www.students.washington.edu/mlm3/archives/2004_03.html#000064), “capitalistic Christians who want to take over the world with their [soft rock] music”, and serve bubble tea apparently.
 - [Pochi Tea Station](http://www.students.washington.edu/mlm3/archives/2004_03.html#000063) – recommended (though mixed), and with WiFi, might be necessary to make a visit in name of [public service.](http://seattle.wifimug.org) (Though it will have to wait until I get back, as I’ll be spending most of next week at the [Junebug](http://laughingmeme.org/archives/001368.html#001368))
 - [Gingko Tea](http://www.students.washington.edu/mlm3/archives/2004_03.html#000060) gets savaged. I can’t comment on the previous owners being a newcomer, but the current owner has always struck me more as eccentric then unfriendly, and they do a very good taro bubble tea.
 

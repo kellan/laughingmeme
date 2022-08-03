@@ -15,4 +15,4 @@ tags:
     - kyte
 ---
 
-This is the product of Thumbjive acquisition 6 months ago — \[NYTimes article\](http://www.nytimes.com/2007/04/30/technology/30social.html) doesn’t mention similarity to Radar is because the same person built it. Congrats Joseph!
+This is the product of Thumbjive acquisition 6 months ago — [NYTimes article](http://www.nytimes.com/2007/04/30/technology/30social.html) doesn’t mention similarity to Radar is because the same person built it. Congrats Joseph!

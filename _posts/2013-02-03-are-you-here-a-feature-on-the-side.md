@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 ---
 
-I was talking with \[Aaron\](http://www.aaronland.info/weblog/) and \[Blackman\](https://github.com/blackmad) a week or so ago about the state of reverse geocoding. This is the business of turning a lat/long into a named place. Besides a neat party trick it turns out that named places have a few benefits over floating point pairs.
+I was talking with [Aaron](http://www.aaronland.info/weblog/) and [Blackman](https://github.com/blackmad) a week or so ago about the state of reverse geocoding. This is the business of turning a lat/long into a named place. Besides a neat party trick it turns out that named places have a few benefits over floating point pairs.
 
 1. while technically the space is infinite and the lat/long space is finite, in practice the names we use to call places converge rapidly to a very small set (in any given region), and for whatever reason (natural or historical) seem to have an affinity for being hierarchical. Both good properties for clustering, compression, and discovery.
 2. humans don’t tend to think in floating point pairs.
@@ -30,4 +30,4 @@ Plus, it’s just dumb that a 100mil+ people carry GPS device in their pockets a
 
 ### Anyway, here’s the pitch
 
-Are you shipping a location based mobile app? Would you like to increase engagement? Consider adding a quiz to your app asking people whether they’re in Williamsburg or Northside? Are they in the Bay Area or the East Bay? Is this the Burlingame or the Pennisula? And then publish that aggregated data. People love quizzes, \[Flickr released a piece of software for turning those answers into shapefiles\](https://github.com/straup/Clustr), the answers change over time, and paying someone for this info is silly. But seriously, if you’re presenting people geographic data, ask them sometime if you’re getting it right.
+Are you shipping a location based mobile app? Would you like to increase engagement? Consider adding a quiz to your app asking people whether they’re in Williamsburg or Northside? Are they in the Bay Area or the East Bay? Is this the Burlingame or the Pennisula? And then publish that aggregated data. People love quizzes, [Flickr released a piece of software for turning those answers into shapefiles](https://github.com/straup/Clustr), the answers change over time, and paying someone for this info is silly. But seriously, if you’re presenting people geographic data, ask them sometime if you’re getting it right.

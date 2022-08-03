@@ -22,4 +22,4 @@ Which is why it was disheartening today to order an iced coffee at Espresso Roya
 
 For the record the alternative is to cold brew the coffee. Sort of like sun tea, but different. Instead of using hot water, which when chilled will turn bitter, you use cool water, a coarse grind, and a much longer steeping period. (overnight works well, as goes one of those big, food grade white buckets if you’ve got a drinking problem)
 
-(several people have nagged me that “I’m giving away the secret”, I’m not, this much is, or at least should be \[hence the post\] common knowledge. For a **perfect** cup, the devil is in the details)
+(several people have nagged me that “I’m giving away the secret”, I’m not, this much is, or at least should be [hence the post] common knowledge. For a **perfect** cup, the devil is in the details)

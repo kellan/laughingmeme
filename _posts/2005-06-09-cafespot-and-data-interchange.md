@@ -26,6 +26,6 @@ tags:
 
 > CafeSpot, a social guide to independent cafes, coffee shops, restaurants and more.
 
-So the obvious question is, how does this project benefit from and share data with other projects like \[Delocator\](http://laughingmeme.org/archives/002912.html) or \[WifiMug\](http://wifimug.org)?
+So the obvious question is, how does this project benefit from and share data with other projects like [Delocator](http://laughingmeme.org/archives/002912.html) or [WifiMug](http://wifimug.org)?
 
 Someone should *really* get together and coordinate a data interchange format/protocol/consensus.

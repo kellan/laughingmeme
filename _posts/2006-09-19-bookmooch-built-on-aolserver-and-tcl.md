@@ -20,4 +20,4 @@ tags:
     - bookmooch
 ---
 
-People I respect have been doing this for years, but I always think, “Programming is hard enough, why make it into performance art?” (\[via\](http://www.jsequeira.com/blog/))
+People I respect have been doing this for years, but I always think, “Programming is hard enough, why make it into performance art?” ([via](http://www.jsequeira.com/blog/))

@@ -17,4 +17,4 @@ tags:
     - security
 ---
 
-Blog chronicling the new field of exploiting 3rd party FB apps security vulnerabilities. (via \[aaron\](http://aaronland.info))
+Blog chronicling the new field of exploiting 3rd party FB apps security vulnerabilities. (via [aaron](http://aaronland.info))

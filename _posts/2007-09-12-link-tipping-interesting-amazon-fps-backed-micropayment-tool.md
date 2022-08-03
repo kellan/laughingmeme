@@ -20,4 +20,4 @@ tags:
     - social
 ---
 
-For promoting/sharing links. (via \[rafe\](http://rc3.org))
+For promoting/sharing links. (via [rafe](http://rc3.org))

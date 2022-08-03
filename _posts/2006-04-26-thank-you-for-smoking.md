@@ -19,4 +19,4 @@ tags:
     - personal
 ---
 
-We saw \[Thank You for Smoking\](http://www.imdb.com/title/tt0427944/) last night. Quite possibly my favorite movie since \[Wag the Dog\](http://www.imdb.com/title/tt0120885/). Great stuff.
+We saw [Thank You for Smoking](http://www.imdb.com/title/tt0427944/) last night. Quite possibly my favorite movie since [Wag the Dog](http://www.imdb.com/title/tt0120885/). Great stuff.

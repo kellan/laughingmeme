@@ -28,7 +28,7 @@ A page from 1997 [predicting the year of occupation of Iraq](http://web.archive.
 
 > CONSPIRACY THEORY   
 >   
-> … After the Cold War was over, low oil prices made it difficult for the Saudis — and oilman President George Bush’s \[Sr.\] friends — to make ends meet because OPEC members were cheating on quotas.   
+> … After the Cold War was over, low oil prices made it difficult for the Saudis — and oilman President George Bush’s [Sr.] friends — to make ends meet because OPEC members were cheating on quotas.   
 >   
 > The obvious solution to OPEC cheating was to sequester an entire country: Iraq. In order for our scheme to work, Saddam would have to remain in power and the UN would have to embargo his oil. That’s exactly what we did.   
 >   

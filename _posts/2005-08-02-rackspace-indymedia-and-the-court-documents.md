@@ -18,6 +18,6 @@ raw_content:
 
 We may never know what the Rackspace was thinking, but at least due to the diligent work of the EFF we know that Rackspace responded irresponsibly, dishonestly, and disproportionately when they yanked 20 IMCs (and the BLAG Linux project) offline last Fall, and then continued to lie about and cover up the facts of the case.
 
-See the \[EFF’s ongoing coverage\](http://www.eff.org/Censorship/Indymedia/), \[Jebba’s photo response\](http://jebba.blagblagblag.org/?p=174), and \[Evan’s sum up\](http://anarchogeek.com/articles/2005/08/01/ahimsa-indymedia-documents-unsealed).
+See the [EFF’s ongoing coverage](http://www.eff.org/Censorship/Indymedia/), [Jebba’s photo response](http://jebba.blagblagblag.org/?p=174), and [Evan’s sum up](http://anarchogeek.com/articles/2005/08/01/ahimsa-indymedia-documents-unsealed).
 
-The short version: Don’t use \[Rackspace\](http://www.rackspace.com) or \[ServerBeach\](http://serverbeach.com/) if you value your data, your time, or your hardware.
+The short version: Don’t use [Rackspace](http://www.rackspace.com) or [ServerBeach](http://serverbeach.com/) if you value your data, your time, or your hardware.

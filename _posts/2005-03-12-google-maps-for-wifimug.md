@@ -23,12 +23,12 @@ tags:
 
 Some days the whole Ajax/Web 2.0 thingy feels like just so much buzz and hype from us geek set who never managed to learn Flash, and other days you’re smacked in the face by the power of it all.
 
-For example Lattice’s \[Hacking Google Maps for Caffeine and Wireless\](http://romeda.org/index.php?p=52), inserts custom data into the \[Google Maps\](http://google.com/maps) data stream to produce zoom-able, pan-able maps of \[Vancouver\]\[van\], \[Seattle\]\[sea\], and \[Boston\]\[bos\] enriched with information about the locations of wireless coffee shops. We’ve only begun to explore the surface of what sort of metadata you can insert into the stream, and what other services you could build on top it, but the potential is just a little mind blowing. (actually to hell with the potential, I find the current incarnation a little mind blowing as well)
+For example Lattice’s [Hacking Google Maps for Caffeine and Wireless](http://romeda.org/index.php?p=52), inserts custom data into the [Google Maps](http://google.com/maps) data stream to produce zoom-able, pan-able maps of [Vancouver][van], [Seattle][sea], and [Boston][bos] enriched with information about the locations of wireless coffee shops. We’ve only begun to explore the surface of what sort of metadata you can insert into the stream, and what other services you could build on top it, but the potential is just a little mind blowing. (actually to hell with the potential, I find the current incarnation a little mind blowing as well)
 
-Go for it, take a virtual caffeine tour of \[Vancouver\](http://vancouver.wifimug.org/map.html), marvel at the \[Capitol Hill wireless coffee shop scene\]\[sea\] which is rightfully the 8th wonder of the world, zoom way way out to survey our \[Boston options\]\[bos\]
+Go for it, take a virtual caffeine tour of [Vancouver](http://vancouver.wifimug.org/map.html), marvel at the [Capitol Hill wireless coffee shop scene][sea] which is rightfully the 8th wonder of the world, zoom way way out to survey our [Boston options][bos]
 
 One of the big question marks is Google’s support for this, as they could break it with an eyeblink. (as they did with simple XML output from Google Maps) Lattice has an interesting point on that:
 
 > Now, considering that all requests to Google are being performed by the usersâ€™ browser, and Iâ€™m just injecting some JavaScript, it smells a lot like AutoLink
 
-I’m not sure how well that argument would fly at corporate head quarters, but I would suggest that there is run for a serious \[long wake\](http://headrush.typepad.com/creating*passionate*users/) play, and they should ponder long and hard before moving.
+I’m not sure how well that argument would fly at corporate head quarters, but I would suggest that there is run for a serious [long wake](http://headrush.typepad.com/creating*passionate*users/) play, and they should ponder long and hard before moving.

@@ -25,7 +25,7 @@ tags:
 
 [Google Groups 2](http://groups-beta.google.com/) (nee DejaNews) is in beta, and available for play.
 
-Among the new features is revival of the option for users to create new groups, putting then squarely in competition with [YahooGroups](http://groups.yahoo.com/). (btw if you control both the mailing list and the mail account this opens up some cool possibilities, the most boring of which is keeping only a single copy of a message instead of one per subscribers \[stuff we chatted about in the context of [Riseup](http://riseup.net)\])
+Among the new features is revival of the option for users to create new groups, putting then squarely in competition with [YahooGroups](http://groups.yahoo.com/). (btw if you control both the mailing list and the mail account this opens up some cool possibilities, the most boring of which is keeping only a single copy of a message instead of one per subscribers [stuff we chatted about in the context of [Riseup](http://riseup.net)])
 
 ### Now with Atom
 

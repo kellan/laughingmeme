@@ -21,10 +21,10 @@ tags:
     - flickr
 ---
 
-Anyone else heard the rumor that \[Bloglines\](http://bloglines.com) has been bought? No announcement on \[Mark’s blog\](http://wingedpig.com), or to the internal list. Word on the street is they were purchased by [Ask Jeeves](http://www.ask.com/), who has always been decidedly third rate. Alas.
+Anyone else heard the rumor that [Bloglines](http://bloglines.com) has been bought? No announcement on [Mark’s blog](http://wingedpig.com), or to the internal list. Word on the street is they were purchased by [Ask Jeeves](http://www.ask.com/), who has always been decidedly third rate. Alas.
 
 **update**: [some confirmation](http://napsterization.org/stories/archives/000397.html), and yes [lots of people have heard it](http://www.technorati.com/cosmos/search.html?rank=&url=http%3A%2F%2Fnapsterization.org%2Fstories%2Farchives%2F000397.html)
 
 **update 2**: I’m also hearing that (http://www.flickr.com) has fallen off the wagon (at the insistences of their funders), and will be going to Yahoo. Wonder how long till we see something on the [flickr blog](http://blog.flickr.com/)
 
-**update 3**: \[Mark on the acquisition\](http://www.wingedpig.com/archives/000191.html). No one else seems to have an independent source for the flickr rumor, but I’m sticking to it (I’ve heard a figure, but that seems confidential)
+**update 3**: [Mark on the acquisition](http://www.wingedpig.com/archives/000191.html). No one else seems to have an independent source for the flickr rumor, but I’m sticking to it (I’ve heard a figure, but that seems confidential)

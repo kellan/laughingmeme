@@ -19,15 +19,15 @@ tags:
 
 [![](http://laughingmeme.org/img/pmog.jpg)](http://bud.com/members/Kellan)
 
-Okay \[PMOG\](http://bud.com/) is **super** early in its life, but it intrigues me on a couple of levels (not the least of which is the \[engaging archetype art\](http://bud.com/images/promo/poster-lg.jpg)).
+Okay [PMOG](http://bud.com/) is **super** early in its life, but it intrigues me on a couple of levels (not the least of which is the [engaging archetype art](http://bud.com/images/promo/poster-lg.jpg)).
 
 However there are some things about it which are broken. Not surprising in and of itself, but in the process of trying to report said broken-ness I ran into a larger problem.
 
 No community space.
 
-There is a Google Group but it’s a moderated announce only kind of thing (HINT: thats what you’re blog is for!) not a public discussion space. No message boards, no wiki (though presumably we could start one, \[Twitter Fan\](http://twitter.pbwiki.com/) style), no groups.
+There is a Google Group but it’s a moderated announce only kind of thing (HINT: thats what you’re blog is for!) not a public discussion space. No message boards, no wiki (though presumably we could start one, [Twitter Fan](http://twitter.pbwiki.com/) style), no groups.
 
-Someone needs to see \[Andy’s\](http://waxy.org) talk about group forming, social software, and out of band spaces.
+Someone needs to see [Andy’s](http://waxy.org) talk about group forming, social software, and out of band spaces.
 
 Especially for a game, a social game, an experimental game.
 

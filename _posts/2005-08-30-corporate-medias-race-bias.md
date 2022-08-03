@@ -25,6 +25,6 @@ tags:
     - st
 ---
 
-\[White people find things. Black people loot things.\](http://nielsenhayden.com/makinglight/archives/006681.html)
+[White people find things. Black people loot things.](http://nielsenhayden.com/makinglight/archives/006681.html)
 
-And from the archives \[The Invisible Whiteness of Beer Riots\](http://www.alternet.org/story/12479/)
+And from the archives [The Invisible Whiteness of Beer Riots](http://www.alternet.org/story/12479/)

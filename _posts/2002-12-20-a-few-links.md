@@ -20,6 +20,6 @@ raw_content:
 
 ### Philip Pullman &amp; Brin Too
 
-When people tell me they love Harry Potter, I suggest Philip Pullman. Afterall Pullman, like Rowling is a British author writing childrens books that have broad appeal. What I fail to mention is I secretly hope that reading Pullman’s Dark Matter series will ruin people for more bland fare. The Guardian’s [overview of Philip Pullman](http://books.guardian.co.uk/authors/author/0,5917,-184,00.html). Plus [David Brin on Tolkien](http://www.salon.com/ent/feature/2002/12/17/tolkien_brin/index.html). \[[via morelikethis](http://www.whump.com/moreLikeThis/link/03230)\] ### cc
+When people tell me they love Harry Potter, I suggest Philip Pullman. Afterall Pullman, like Rowling is a British author writing childrens books that have broad appeal. What I fail to mention is I secretly hope that reading Pullman’s Dark Matter series will ruin people for more bland fare. The Guardian’s [overview of Philip Pullman](http://books.guardian.co.uk/authors/author/0,5917,-184,00.html). Plus [David Brin on Tolkien](http://www.salon.com/ent/feature/2002/12/17/tolkien_brin/index.html). [[via morelikethis](http://www.whump.com/moreLikeThis/link/03230)] ### cc
 
 [Creative Commons](http://www.creativecommons.org) launched, with a [nifty flash intro](http://mirrors.creativecommons.org/) that suffers only from being narrated by the Christopher Lydon. 

@@ -27,6 +27,6 @@ Noticeable in its absence is a CVS checkins feed, but that is [rather easy to so
 
 Also Sourceforge is looking for the ultimate Web guru to move to that hell hole which is Fremont. If you have
 
-> 5+ years of development experience on high end, high volume websites (3+ million page views a day) \[and\] as a vast level of knowledge of Internet technologies: PHP, PostgreSQL, MYSQL, DB2, Linux, PERL, Apache, LDAP, Mailman. A flare for design / UI is a bonus. \[*ed. you can say that again!*\]
+> 5+ years of development experience on high end, high volume websites (3+ million page views a day) [and] as a vast level of knowledge of Internet technologies: PHP, PostgreSQL, MYSQL, DB2, Linux, PERL, Apache, LDAP, Mailman. A flare for design / UI is a bonus. [*ed. you can say that again!*]
 
 …and are willing to live in Fremont, then you should apply! I want someone I know working there.  

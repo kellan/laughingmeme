@@ -17,4 +17,4 @@ tags:
     - struts
 ---
 
-Along with the \[creator of Ant\](http://duncandavidson.com/), this is the slow but undeniable momentum. Nice work after \[3 years\](http://www.loudthinking.com/posts/10-three-years-with-ruby-on-rails)
+Along with the [creator of Ant](http://duncandavidson.com/), this is the slow but undeniable momentum. Nice work after [3 years](http://www.loudthinking.com/posts/10-three-years-with-ruby-on-rails)

@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-Quick scan of the doucment index for LM turns up: seem and particularly \[several spellings\] as canidates for crutch words.
+Quick scan of the doucment index for LM turns up: seem and particularly [several spellings] as canidates for crutch words.

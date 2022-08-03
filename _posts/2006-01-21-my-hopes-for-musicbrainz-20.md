@@ -24,10 +24,10 @@ tags:
     - tagging
 ---
 
-![](http://metabrainz.org/images/mb-banner.png)The \[post on BB today\](http://www.boingboing.net/2006/01/21/nonprofit*alternativ.html) reminded me of \[MusicBrainz\](http://musicbrainz.org/). I’m still \_patiently waiting* for \[MusicBrainz to add support for arbitrary, user-contributed, emergent flat classification\](http://laughingmeme.org/articles/2005/08/03/tagging-music). (i.e. what the rest of us calling “tagging”, but that term is overloaded for audio files.)
+![](http://metabrainz.org/images/mb-banner.png)The [post on BB today](http://www.boingboing.net/2006/01/21/nonprofit*alternativ.html) reminded me of [MusicBrainz](http://musicbrainz.org/). I’m still \_patiently waiting* for [MusicBrainz to add support for arbitrary, user-contributed, emergent flat classification](http://laughingmeme.org/articles/2005/08/03/tagging-music). (i.e. what the rest of us calling “tagging”, but that term is overloaded for audio files.)
 
-My original desire was driven by the desire to build playlists by mood, or theme (‘electronic’, ‘sensual’, ‘dark’), but since then \[Pandora\](http://laughingmeme.org/articles/2006/01/07/pandora-and-the-vector-of-personalization) has launched and showed us another set of axes to explore (‘mild rhythmic syncopation’, ‘extensive vamping’).
+My original desire was driven by the desire to build playlists by mood, or theme (‘electronic’, ‘sensual’, ‘dark’), but since then [Pandora](http://laughingmeme.org/articles/2006/01/07/pandora-and-the-vector-of-personalization) has launched and showed us another set of axes to explore (‘mild rhythmic syncopation’, ‘extensive vamping’).
 
-I think the ability to hang a variety of arbitrary data off of the MusicBrainz model would kill \[CDDB\](http://www.gracenote.com) deader then a stake through the heart, and at the same time creating a platform where its easier to collaborate in public then in silos. Tagging is just the first, easiest to under form that might take. Got to use all that lovely RDF to some purpose!
+I think the ability to hang a variety of arbitrary data off of the MusicBrainz model would kill [CDDB](http://www.gracenote.com) deader then a stake through the heart, and at the same time creating a platform where its easier to collaborate in public then in silos. Tagging is just the first, easiest to under form that might take. Got to use all that lovely RDF to some purpose!
 
-Tom’s \[Phonetags\](http://www.plasticbag.org/archives/2005/09/how*to*build*on*bubbleup\_folksonomies.shtml) is useful prior art.
+Tom’s [Phonetags](http://www.plasticbag.org/archives/2005/09/how*to*build*on*bubbleup\_folksonomies.shtml) is useful prior art.

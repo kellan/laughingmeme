@@ -22,7 +22,7 @@ tags:
     - winter
 ---
 
-\[Les\](http://decafbad.com/blog/2005/10/31/sundown) and \[Russell\](http://www.russellbeattie.com/notebook/1008668.html) are talking about how much the lack of light this time of year sucks. (Russell living in the Bay Area has got a lot of nerve, but whatever) Here is my strategy.
+[Les](http://decafbad.com/blog/2005/10/31/sundown) and [Russell](http://www.russellbeattie.com/notebook/1008668.html) are talking about how much the lack of light this time of year sucks. (Russell living in the Bay Area has got a lot of nerve, but whatever) Here is my strategy.
 
 Rise early. No really, keep your body on daylight savings time as long as possible whatever it takes (cutting the caffeine at 3, night caps, exercise) but get to bed early, and get up to catch that early morning light. Once you’re up bathe in it, go for walks, open all the curtains, you get the idea.
 

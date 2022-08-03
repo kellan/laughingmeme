@@ -22,4 +22,4 @@ tags:
     - st
 ---
 
-Nothing quite like the hangover from one of \[Mako and Mika’s\](http://www.acetarium.com/) famous sushi and \[Debian\](http://debian.org) parties.
+Nothing quite like the hangover from one of [Mako and Mika’s](http://www.acetarium.com/) famous sushi and [Debian](http://debian.org) parties.

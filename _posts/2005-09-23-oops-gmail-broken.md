@@ -26,7 +26,7 @@ We all laud Flickr for its human and quirk on screen voice. However there is a c
 
 > Oops…the system was unable to perform your operation
 
-If you’re broken, you’re broken, don’t try to soften the blow with cutesy “Oops”. Funny the first time, tolerable maybe the 5th time, but now that I’ve seen that damn message thousands of times I personally want to shoot the person who wrote it. Somewhere, somehow I’m going to find some time to do an evaluation of \[RoundCube\](http://www.roundcube.net/) (I hear speed works great for working all night?), and figure out what would be required to add “conversation” support. Because this is just unacceptable.
+If you’re broken, you’re broken, don’t try to soften the blow with cutesy “Oops”. Funny the first time, tolerable maybe the 5th time, but now that I’ve seen that damn message thousands of times I personally want to shoot the person who wrote it. Somewhere, somehow I’m going to find some time to do an evaluation of [RoundCube](http://www.roundcube.net/) (I hear speed works great for working all night?), and figure out what would be required to add “conversation” support. Because this is just unacceptable.
 
 I think I’d summarize this as a design maxim:
 

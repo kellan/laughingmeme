@@ -25,9 +25,9 @@ Heard muttered in the standing room only crowd after Jason Fried’s keynote, �
 HJ: “Do you love the Internet?”  
 EF: “I love the Internet, but it still has to go home in the morning.”
 
-\[Aaron Boodman\](http://youngpup.net) on why web developers don’t care about “making it work in Win/IE.”  
+[Aaron Boodman](http://youngpup.net) on why web developers don’t care about “making it work in Win/IE.”  
 “It’s hurt us enough, and we want to hurt it back.”
 
 “Live blogging SxSW is rather besides the point.”
 
-“This is what life should always be like!” (ambiguous in context, either in reference to the wall to wall, don’t stop partying with 3000 of your closest friends, or on the prevalence of \[dodgeball\](http://dodgeball.com/) to organize much of it)
+“This is what life should always be like!” (ambiguous in context, either in reference to the wall to wall, don’t stop partying with 3000 of your closest friends, or on the prevalence of [dodgeball](http://dodgeball.com/) to organize much of it)

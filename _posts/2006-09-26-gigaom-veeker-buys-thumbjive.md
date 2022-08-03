@@ -22,4 +22,4 @@ tags:
     - startup
 ---
 
-Congrats \[Joseph\](http://joseph.elliott.name/) and Daniel! See also \[decentral.tv\](http://decentral.tv/)
+Congrats [Joseph](http://joseph.elliott.name/) and Daniel! See also [decentral.tv](http://decentral.tv/)

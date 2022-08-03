@@ -22,6 +22,6 @@ tags:
     - typo
 ---
 
-Comments should now properly refresh on \[Firefox 1.5rc2\](http://www.mozilla.org/projects/firefox/) (also fixed for any other browser that was deciding that `$('commentList').lastChild` means the smattering of whitespace between a closing `</li>` and the closing `</ol>`)
+Comments should now properly refresh on [Firefox 1.5rc2](http://www.mozilla.org/projects/firefox/) (also fixed for any other browser that was deciding that `$('commentList').lastChild` means the smattering of whitespace between a closing `</li>` and the closing `</ol>`)
 
-Also turned off the html filtering for comments which was acting as a “make ugly” flag. (\[BlueCloth\](http://www.deveiate.org/projects/BlueCloth) seems to be finicky and difficult compared to \[Markdown\](http://daringfireball.net/projects/markdown/) implementations I’ve used before, and \[RedCloth\](http://www.whytheluckystiff.net/ruby/redcloth/) claims to do Markdown, but didn’t when I tested it)
+Also turned off the html filtering for comments which was acting as a “make ugly” flag. ([BlueCloth](http://www.deveiate.org/projects/BlueCloth) seems to be finicky and difficult compared to [Markdown](http://daringfireball.net/projects/markdown/) implementations I’ve used before, and [RedCloth](http://www.whytheluckystiff.net/ruby/redcloth/) claims to do Markdown, but didn’t when I tested it)

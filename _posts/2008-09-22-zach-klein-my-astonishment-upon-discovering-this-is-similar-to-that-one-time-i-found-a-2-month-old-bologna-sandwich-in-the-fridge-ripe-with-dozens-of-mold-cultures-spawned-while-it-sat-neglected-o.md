@@ -16,4 +16,4 @@ tags:
     - toto
 ---
 
-My work here is \[done\](http://valleywag.com/5053098/naive-new-yorker-goes-hunting-for-bear).
+My work here is [done](http://valleywag.com/5053098/naive-new-yorker-goes-hunting-for-bear).

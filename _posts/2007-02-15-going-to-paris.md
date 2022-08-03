@@ -13,4 +13,4 @@ tags:
     - xtech
 ---
 
-\[Blaine\](http://romeda.org/) and my talk on “Social Software for Robots” got accepted to \[XTech 2007\](2007.xtech.org). See you in Paris.
+[Blaine](http://romeda.org/) and my talk on “Social Software for Robots” got accepted to [XTech 2007](2007.xtech.org). See you in Paris.

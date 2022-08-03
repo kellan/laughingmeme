@@ -24,7 +24,7 @@ tags:
     - unconference
 ---
 
-\[BarCamp NYC\](http://barcamp.org/index.cgi?BarCampNYC) is next weekend, and with it the East Coast gets its inaugral un-conference. (\[FooCamp\](http://wiki.oreillynet.com/foocamp05/index.cgi), \[BarCamp\](http://barcamp.org/index.cgi?BarCampPaloAlto2005), and \[MindCamp\](http://seattlemind.com/) all being West Coast affairs, and \[Amsterdam\](http://barcamp.org/index.cgi?BarCampAmsterdam) being spiritually closer to the West Coast then anywhere on the Atlantic Seaboard I’m thinking)
+[BarCamp NYC](http://barcamp.org/index.cgi?BarCampNYC) is next weekend, and with it the East Coast gets its inaugral un-conference. ([FooCamp](http://wiki.oreillynet.com/foocamp05/index.cgi), [BarCamp](http://barcamp.org/index.cgi?BarCampPaloAlto2005), and [MindCamp](http://seattlemind.com/) all being West Coast affairs, and [Amsterdam](http://barcamp.org/index.cgi?BarCampAmsterdam) being spiritually closer to the West Coast then anywhere on the Atlantic Seaboard I’m thinking)
 
 Registration is open, attendance is free, accomodation is urban camping.
 

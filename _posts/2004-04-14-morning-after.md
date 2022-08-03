@@ -50,4 +50,4 @@ Does that mean all the stumbling, and bumbling answers where to questions he alr
 
 [I hadn’t supposed any appreciable confidence in the President’s ability remained in me, but…](http://msnbc.msn.com/id/3449870/)
 
-> My heart sank when the President said, “I’m sure something will pop into my head here in the midst of this press conference, with all the pressure of trying to come up with \[an\] answer, but it hadn’t yet.” Has ever a President uttered more demoralizing words in the course of seeking to reassure Americans and the world? (“I am not a crook,” maybe.)
+> My heart sank when the President said, “I’m sure something will pop into my head here in the midst of this press conference, with all the pressure of trying to come up with [an] answer, but it hadn’t yet.” Has ever a President uttered more demoralizing words in the course of seeking to reassure Americans and the world? (“I am not a crook,” maybe.)

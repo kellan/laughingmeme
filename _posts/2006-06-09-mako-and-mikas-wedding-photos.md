@@ -22,4 +22,4 @@ tags:
     - wedding
 ---
 
-\[via BB\](http://www.boingboing.net/2006/06/08/hackers*wedding*vows.html)
+[via BB](http://www.boingboing.net/2006/06/08/hackers*wedding*vows.html)

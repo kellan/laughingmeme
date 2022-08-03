@@ -24,4 +24,4 @@ tags:
     - ruby
 ---
 
-No regular expressions, **no instance variables**, no packages/namespacing, no public/private/protected!?!!? Clearly he got his hands on an unreleased alpha from 1987. But that doesn’t explain his concern that Ruby will drive up your electrical bill. It’s *got* to be a troll. I blame \[why\](http://whytheluckystiff.net/).
+No regular expressions, **no instance variables**, no packages/namespacing, no public/private/protected!?!!? Clearly he got his hands on an unreleased alpha from 1987. But that doesn’t explain his concern that Ruby will drive up your electrical bill. It’s *got* to be a troll. I blame [why](http://whytheluckystiff.net/).

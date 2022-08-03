@@ -21,4 +21,4 @@ tags:
     - typo
 ---
 
-\[Phil\](http://weblog.philringnalda.com/) finally convinced me that I wasn’t going to get the Firefox team to break the DOM standard in the name of elegant code, so I’ve gone ahead and added the two line Javascript fix for the comment refreshing effect. Let me know if you see more problems. (after you’ve done a force reload to make sure you have the latest typo.js)
+[Phil](http://weblog.philringnalda.com/) finally convinced me that I wasn’t going to get the Firefox team to break the DOM standard in the name of elegant code, so I’ve gone ahead and added the two line Javascript fix for the comment refreshing effect. Let me know if you see more problems. (after you’ve done a force reload to make sure you have the latest typo.js)

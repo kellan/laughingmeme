@@ -19,7 +19,7 @@ tags:
     - quotable
 ---
 
-The [EZLN](http://www.ezln.org) is re-engaging with a new effort at encuentro. Their [7 thoughts](http://chiapas.mediosindependientes.org/display.php3?article_id=105293) \[[es](http://chiapas.mediosindependientes.org/display.php3?article_id=105279)\] are fascinating. (via [Anarchogeek](http://www.anarchogeek.com)) Its part of a project to foster a global dialogue, not a global agreement, a set of common questions, not answers. This ties in with a discussion I was having recently that noted that discussions of strategy, and vision in US activism so often get stuck in a few rhetorical ruts, like the non-violence question, as if this is the only thing that needs to be discussed, and result in the whole revolutionary projects horizon being tightly proscribed. This sort of thinking is an antidote.
+The [EZLN](http://www.ezln.org) is re-engaging with a new effort at encuentro. Their [7 thoughts](http://chiapas.mediosindependientes.org/display.php3?article_id=105293) [[es](http://chiapas.mediosindependientes.org/display.php3?article_id=105279)] are fascinating. (via [Anarchogeek](http://www.anarchogeek.com)) Its part of a project to foster a global dialogue, not a global agreement, a set of common questions, not answers. This ties in with a discussion I was having recently that noted that discussions of strategy, and vision in US activism so often get stuck in a few rhetorical ruts, like the non-violence question, as if this is the only thing that needs to be discussed, and result in the whole revolutionary projects horizon being tightly proscribed. This sort of thinking is an antidote.
 
 A few pharses that have stuck with me:
 

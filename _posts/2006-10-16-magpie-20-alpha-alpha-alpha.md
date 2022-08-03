@@ -30,7 +30,7 @@ Alpha means its broken, there are missing features (many of which are actually i
 
 So um, yeah, as of yet no documentation. That said I’ve included the classic `magpie_simple.php` script, unchanged except for the require statement. For really simple scripts that is all that is required.
 
-Grab the \[current code, Magpie 2.0-alpha-PR1\](http://laughingmeme.org/code/magpie2.0-alpha-preview-1.tar.gz). This isn’t its final home, but I am taking this opportunity to finally break free of Sourceforge which has been a long standing goal.
+Grab the [current code, Magpie 2.0-alpha-PR1](http://laughingmeme.org/code/magpie2.0-alpha-preview-1.tar.gz). This isn’t its final home, but I am taking this opportunity to finally break free of Sourceforge which has been a long standing goal.
 
 (I know, we all prefer a good `var_dump()` plus source reading to docs, but their current non-existence won’t continue)
 
@@ -40,7 +40,7 @@ There were three over-arching design goals in this rewrite, plus a slew of secon
 
 #### 1. Support new namespaces and elements, easily
 
-Rather then go on trying to push the universal rules for mapping unknown elements to datastructures (the Magpie 1.0 approach) I’ve focused on making it simple to register custom parsing logic, and having intelligent defaults. (aka more like what \[Feedparser.py\](http://feedparser.org/) does) I expect that we’ll handle most known namespaces in short order, and barring another total upheaval of the landscape ala the \[Pie/Atom project\](http://www.intertwingly.net/wiki/pie/) should sit us in good stead as feed use continues to become more sophisticated.
+Rather then go on trying to push the universal rules for mapping unknown elements to datastructures (the Magpie 1.0 approach) I’ve focused on making it simple to register custom parsing logic, and having intelligent defaults. (aka more like what [Feedparser.py](http://feedparser.org/) does) I expect that we’ll handle most known namespaces in short order, and barring another total upheaval of the landscape ala the [Pie/Atom project](http://www.intertwingly.net/wiki/pie/) should sit us in good stead as feed use continues to become more sophisticated.
 
 #### 2. Pluggable components
 
@@ -76,7 +76,7 @@ For simple stuff, you’re scripts should go on working. There is still a 1 func
     foreach ($item['dc']['subjects'] as $subj) { ... }
     ```
 - Atom 1.0 support modulo known issues.
-- Tests. Most of them based on \[Mark’s FP tests\](http://feedparser.org/tests/). More added all the time. Currently not distributing with Magpie as I haven’t really figured out the license issues.
+- Tests. Most of them based on [Mark’s FP tests](http://feedparser.org/tests/). More added all the time. Currently not distributing with Magpie as I haven’t really figured out the license issues.
 - Confusing new licensing. Stated goal is to license under a dual GPL/BSD license. That means you get to choose if you’re using the software under the GPL, or the BSD. In addition you can upgrade your license to GPL from BSD (as you can with any BSD licensed software) merely by wishing it to be so.
 - Lots more, really.
 

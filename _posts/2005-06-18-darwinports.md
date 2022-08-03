@@ -20,8 +20,8 @@ tags:
     - osx
 ---
 
-I realized recently that I had given up on \[Fink\](http://fink.sf.net) months ago, and have been building everything from source for a while now. I’m comfortable with apt-pinning and regularly scare my sysadmin friends by running frankenstein Debian systems, but I’ve never figured out Fink, and it never seems to have the package I want in the release I’m using.
+I realized recently that I had given up on [Fink](http://fink.sf.net) months ago, and have been building everything from source for a while now. I’m comfortable with apt-pinning and regularly scare my sysadmin friends by running frankenstein Debian systems, but I’ve never figured out Fink, and it never seems to have the package I want in the release I’m using.
 
-Woke up this morning and realized that I had a long todo list for the weekend, and so of course I decided to switch over to using \[DarwinPorts\](http://darwinports.opendarwin.org/).
+Woke up this morning and realized that I had a long todo list for the weekend, and so of course I decided to switch over to using [DarwinPorts](http://darwinports.opendarwin.org/).
 
 So far, so good.

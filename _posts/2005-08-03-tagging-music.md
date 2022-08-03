@@ -18,9 +18,9 @@ tags:
     - tagging
 ---
 
-While Erik suffers from tagging indecision over the every critical \[“how do I tag lunch?”\](http://erikbenson.typepad.com/mu/2005/07/tag*me*conflict.html) question, I suffer from a more prosaic question, how do I tag music?
+While Erik suffers from tagging indecision over the every critical [“how do I tag lunch?”](http://erikbenson.typepad.com/mu/2005/07/tag*me*conflict.html) question, I suffer from a more prosaic question, how do I tag music?
 
-\[MusicBrainz\](http://musicbrainz.org/) could really distinguish itself, if it could provide a commons where I could tag/discover music metadata like the rich mood/genre info you can find from \[AllMusic\](http://www.allmusic.com/).
+[MusicBrainz](http://musicbrainz.org/) could really distinguish itself, if it could provide a commons where I could tag/discover music metadata like the rich mood/genre info you can find from [AllMusic](http://www.allmusic.com/).
 
 Anyone have a solution for me? In particular a solution that doesn’t involve me having to tag all my music myself?
 

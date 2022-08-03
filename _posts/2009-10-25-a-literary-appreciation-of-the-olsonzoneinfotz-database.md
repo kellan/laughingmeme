@@ -17,4 +17,4 @@ tags:
     - udell
 ---
 
-I’m a card carrying member of the Olson fan club, but it’s still great reading see Jon’s love note. <acronym title="Arthur David Olson">ADO</acronym> has a posse. (actually I only have 5 posts tagged \[olson\](http://laughingmeme.org/tag/olson/), while I have 7 posts tagged \[udell\](http://laughingmeme.org/tag/udell/) )
+I’m a card carrying member of the Olson fan club, but it’s still great reading see Jon’s love note. <acronym title="Arthur David Olson">ADO</acronym> has a posse. (actually I only have 5 posts tagged [olson](http://laughingmeme.org/tag/olson/), while I have 7 posts tagged [udell](http://laughingmeme.org/tag/udell/) )

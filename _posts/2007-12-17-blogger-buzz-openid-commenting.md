@@ -17,4 +17,4 @@ tags:
     - openid
 ---
 
-Congrats to \[Eric\](http://vedana.net), \[Pete\](http://www.grogmaster.com/), \[John\](http://journals.aol.com/panzerjohn/abstractioneer), and the rest of the Blogger crew! OpenID commenting is out of Labs, and live across the entirety of Blogger. Nice to see more large RPs coming online.
+Congrats to [Eric](http://vedana.net), [Pete](http://www.grogmaster.com/), [John](http://journals.aol.com/panzerjohn/abstractioneer), and the rest of the Blogger crew! OpenID commenting is out of Labs, and live across the entirety of Blogger. Nice to see more large RPs coming online.

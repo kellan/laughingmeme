@@ -20,10 +20,10 @@ tags:
     - wireless
 ---
 
-Boing Boing has a [post](http://www.boingboing.net/2005/09/20/linuxbased_handheld_.html "Linux-based handheld that's open, powerful and cheap") \[Linux-based handheld\](http://www.gpx2.co.uk/) that’s “open, powerful and cheap”
+Boing Boing has a [post](http://www.boingboing.net/2005/09/20/linuxbased_handheld_.html "Linux-based handheld that's open, powerful and cheap") [Linux-based handheld](http://www.gpx2.co.uk/) that’s “open, powerful and cheap”
 
 > It can play games. It can play your Movies. It can play your music. It can view photos. It can read Ebooks. It runs on just 2 AA batteries
 
 Only question is expandability? Can I add a wireless card, a pigtail, and maybe a GSM module?
 
-In other news, I’m off to \[VON\](http://www.von.com/) today.
+In other news, I’m off to [VON](http://www.von.com/) today.

@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-Republicans tend to disproportionately concentrate themselves in \[flammable\] altitudes and ecologies.
+Republicans tend to disproportionately concentrate themselves in [flammable] altitudes and ecologies.

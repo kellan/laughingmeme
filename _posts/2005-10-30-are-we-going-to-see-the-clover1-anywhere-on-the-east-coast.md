@@ -24,4 +24,4 @@ tags:
     - victrola
 ---
 
-\[Tonx\](http://www.victrolacoffee.net/archives/2005/10/the-clover/), also \[Stumptown\](http://godshot.blogspot.com/2005*10*23*godshot*archive.html#113043215016455773)
+[Tonx](http://www.victrolacoffee.net/archives/2005/10/the-clover/), also [Stumptown](http://godshot.blogspot.com/2005*10*23*godshot*archive.html#113043215016455773)

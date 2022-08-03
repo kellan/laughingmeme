@@ -16,7 +16,7 @@ raw_content:
     - "[Google Maps](http://google.com/maps) just rolled in Keyhole, to add satellite images to make an already amazing service jaw dropping.\n\nHey, thats my house! (where the red arrow is, not the thing that looks like a castle)\n\n<a href=\\\"http://laughingmeme.org/img/home_from_space.jpg\\\" style=\\\"margin:auto;\\\"><img alt=\\\"home_from_space.jpg\\\" src=\\\"http://laughingmeme.org/img/home_from_space-thumb.jpg\\\" width=\\\"300\\\" height=\\\"275\\\" border=\\\"0\\\" /></a>\n\n(actually we\\'re about 2 doors down from where the arrow is, but damn close)"
 ---
 
-\[Google Maps\](http://google.com/maps) just rolled in Keyhole, to add satellite images to make an already amazing service jaw dropping.
+[Google Maps](http://google.com/maps) just rolled in Keyhole, to add satellite images to make an already amazing service jaw dropping.
 
 Hey, thats my house! (where the red arrow is, not the thing that looks like a castle)
 

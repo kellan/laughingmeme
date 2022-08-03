@@ -16,4 +16,4 @@ tags:
     - friends
 ---
 
-Gus learns of the plight of the nomadic bibliophile. As someone who has moved more often then I care to admit: \[ebooks!\](http://laughingmeme.org/2002/09/30/i-want-my-ebook/) Its the only way. Oh, and congrats to Linden Labs.
+Gus learns of the plight of the nomadic bibliophile. As someone who has moved more often then I care to admit: [ebooks!](http://laughingmeme.org/2002/09/30/i-want-my-ebook/) Its the only way. Oh, and congrats to Linden Labs.

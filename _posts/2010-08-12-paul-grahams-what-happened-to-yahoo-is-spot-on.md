@@ -12,4 +12,4 @@ categories:
     - Aside
 ---
 
-Though I think we got close to changing it in the early days after the Flickr/Upcoming/Delicious acquisitions. See also \[Success hides problems\](http://blogs.hbr.org/cs/2010/08/what*google*could*learn*from\_p.html)
+Though I think we got close to changing it in the early days after the Flickr/Upcoming/Delicious acquisitions. See also [Success hides problems](http://blogs.hbr.org/cs/2010/08/what*google*could*learn*from\_p.html)

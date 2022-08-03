@@ -18,6 +18,6 @@ raw_content:
 
 [Slashdot](http://slashdot.org/comments.pl?sid=39777&cid=4244075) on whether IE is feature complete with Mozilla.
 
-- **Mouse Gestures** – Is Mickey \[ Â°OÂ° \] sticking his middle finger up enough of a “mouse gesture”?
+- **Mouse Gestures** – Is Mickey [ Â°OÂ° ] sticking his middle finger up enough of a “mouse gesture”?
 - **Tabbed Browsing** – Maximize IE, and your taskbar becomes a tab bar.
 - **Pop-up Blocking** – Press Ctrl+W real quick

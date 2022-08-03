@@ -26,9 +26,9 @@ A lazy web request (or jet-lagged web as the case may be)
 
 Is NetNewsWire still where its at for OSX desktop aggregators? I’ve been away from the desktop so long I don’t even know the players.
 
-Do any of the aggregators do pre-fetching/offline-ing like NewsMonster did back in the old days? (Or did MarkP perhaps \[nip that line of development in the bud?\](http://64.233.161.104/search?q=cache:6L65joMjOokJ:diveintomark.org/archives/2003/02/20/robotstxt*support*for*uberaggregators+robotstxt*support*for*uberaggregators&amp;hl=en&amp;lr=&amp;client=firefox-a&amp;strip=1)?) Something, you know, for long train rides?
+Do any of the aggregators do pre-fetching/offline-ing like NewsMonster did back in the old days? (Or did MarkP perhaps [nip that line of development in the bud?](http://64.233.161.104/search?q=cache:6L65joMjOokJ:diveintomark.org/archives/2003/02/20/robotstxt*support*for*uberaggregators+robotstxt*support*for*uberaggregators&amp;hl=en&amp;lr=&amp;client=firefox-a&amp;strip=1)?) Something, you know, for long train rides?
 
-Are there open source clients that sync with the \[NewsGator API\](http://blogs.newsgator.com/newsgator\_api/), and run on Linux or do only NewsGator products sync with NewsGator?
+Are there open source clients that sync with the [NewsGator API](http://blogs.newsgator.com/newsgator\_api/), and run on Linux or do only NewsGator products sync with NewsGator?
 
 Also want a host of other attention based/sensitive features, but to brain fried to put those into words. In the mean time I think the reading list will under go serious (if perhaps temporary) winnowing.
 

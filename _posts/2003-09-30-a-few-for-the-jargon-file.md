@@ -24,7 +24,7 @@ Silence. “You mean, ‘blah’?”
 
 I had never thought of “blah” as geek speak, but with my newly heightened awareness, I have to concede that it is.
 
-Geekier still, I’ve caught myself referring to being “pegged for time”, or just “pegged”. (this is in the CPU sense of the word, and not that other sense \[see: Dan Savage\]).
+Geekier still, I’ve caught myself referring to being “pegged for time”, or just “pegged”. (this is in the CPU sense of the word, and not that other sense [see: Dan Savage]).
 
 And lastly, while I was confirming that the Jargon File has neither of these idioms, is generally out of date, and whose interest is largely as a historical document, I discovered the [Mozilla Jargon file](http://www.mozilla.org/docs/jargon.html).
 

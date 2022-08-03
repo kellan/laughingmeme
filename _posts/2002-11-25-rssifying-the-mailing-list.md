@@ -94,7 +94,7 @@ Discussion of [creating an RSS feed](http://groups.yahoo.com/group/rss-dev/messa
 
 The PHP mailing lists are available [as RSS feeds](http://news.php.net/group.php?group=php.dev&format=rss), unfortunately here again, they aren’t very useful RSS feeds, with the From information stuck into a &lt;mailto:&gt; tag in the &lt;description&gt; tag. Odd.
 
-Yahoogroups (formerly eGroups) provides RSS feeds for the lists (e.g. RSS-DEV\[18\] they host, see the [original announcement on FoRK](http://www.xent.com/FoRK-archive/april00/0808.html
+Yahoogroups (formerly eGroups) provides RSS feeds for the lists (e.g. RSS-DEV[18] they host, see the [original announcement on FoRK](http://www.xent.com/FoRK-archive/april00/0808.html
 ))
 
 Mail-archive.com makes a simple RSS 0.9 feed available for each list, for example [mod\_perl’s RSS](http://www.mail-archive.com/modperl%40apache.org/maillist.rdf)

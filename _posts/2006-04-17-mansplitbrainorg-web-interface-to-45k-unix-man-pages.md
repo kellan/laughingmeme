@@ -24,4 +24,4 @@ tags:
     - unix
 ---
 
-Clean URLs and design, user contributions. Nicely done, every documentation set should be so lucky. (from the creator of the excellent \[dokuWiki\](http://wiki.splitbrain.org/wiki:dokuwiki), uses his \[MTC\](http://www.splitbrain.org/projects/my*two*cents) comment system)
+Clean URLs and design, user contributions. Nicely done, every documentation set should be so lucky. (from the creator of the excellent [dokuWiki](http://wiki.splitbrain.org/wiki:dokuwiki), uses his [MTC](http://www.splitbrain.org/projects/my*two*cents) comment system)

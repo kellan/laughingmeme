@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-Death to copper! \[via benhammersly\]
+Death to copper! [via benhammersly]

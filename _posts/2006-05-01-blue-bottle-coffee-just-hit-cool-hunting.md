@@ -22,4 +22,4 @@ tags:
     - sanfran
 ---
 
-Of course I used to listen to them before they got popular, and \[Steve\](http://flickr.com/photos/dogmilque/) was still the front man
+Of course I used to listen to them before they got popular, and [Steve](http://flickr.com/photos/dogmilque/) was still the front man

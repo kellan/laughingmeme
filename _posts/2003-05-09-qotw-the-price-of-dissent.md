@@ -16,4 +16,4 @@ raw_content:
     - 'rabble: \"anybody want fuckthefbi.org? it\''s going up for renewal [today] and i don\''t feel like paying the 10 bucks to keep it\"'
 ---
 
-rabble: “anybody want fuckthefbi.org? it’s going up for renewal \[today\] and i don’t feel like paying the 10 bucks to keep it”
+rabble: “anybody want fuckthefbi.org? it’s going up for renewal [today] and i don’t feel like paying the 10 bucks to keep it”

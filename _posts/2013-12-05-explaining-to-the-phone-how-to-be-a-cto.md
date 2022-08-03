@@ -14,7 +14,7 @@ The other morning I was sitting stuck in traffic … which an odd experience in 
 
 Back to the story.
 
-I was sitting stuck in traffic, and the last thing I’d seen before being stuck in traffic was the question, \[“How do I learn enough to become a good CTO?”\](https://twitter.com/jackdanger/status/408080182256222208)
+I was sitting stuck in traffic, and the last thing I’d seen before being stuck in traffic was the question, [“How do I learn enough to become a good CTO?”](https://twitter.com/jackdanger/status/408080182256222208)
 
 So below is the first blog post I ever tried to write via Siri. I thought about leaving in all the misidentified words, but the point wasn’t comedy. It still came out quite brief and almost certainly incomplete and incoherent:
 
@@ -30,4 +30,4 @@ Software development scales non-linearly with clarity and excitement so your job
 
 That’s how you learn to be a CTO.
 
-And now that I’m typing this in to a textbox here on web, I’ll add, \[get good at managing your psychology\](http://laughingmeme.org/2013/07/16/surviving-being-senior-management/)
+And now that I’m typing this in to a textbox here on web, I’ll add, [get good at managing your psychology](http://laughingmeme.org/2013/07/16/surviving-being-senior-management/)

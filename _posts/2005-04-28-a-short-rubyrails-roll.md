@@ -18,13 +18,13 @@ raw_content:
 
 Not exhaustive, or definitive, but I’ve put together a short list of Ruby/Rails feeds which I find useful. They’re biased heavily towards mono-focused topical blogs, blogs with code, as I already have other sources for monitoring the general web chatter.
 
-- \[RedHanded\](http://redhanded.hobix.com)
-- \[Ruby Weekly News\](http://www.rubyweeklynews.org)
-- \[Riding Rails\](http://weblog.rubyonrails.com)
-- \[Loud Thinking\](http://www.loudthinking.com/)
-- \[too-biased\](http://blog.leetsoft.com/)
-- \[fivesevensix\](http://www.fivesevensix.com/)
-- \[Oakland Cutlery\](http://blog.oaklandcutlery.com)
-- \[Pind’s Blog\](http://www.pinds.com/blog/)
-- \[Robby on Rails\](http://www.robbyonrails.com/)
-- \[Home Made\](http://sean.treadway.info/)
+- [RedHanded](http://redhanded.hobix.com)
+- [Ruby Weekly News](http://www.rubyweeklynews.org)
+- [Riding Rails](http://weblog.rubyonrails.com)
+- [Loud Thinking](http://www.loudthinking.com/)
+- [too-biased](http://blog.leetsoft.com/)
+- [fivesevensix](http://www.fivesevensix.com/)
+- [Oakland Cutlery](http://blog.oaklandcutlery.com)
+- [Pind’s Blog](http://www.pinds.com/blog/)
+- [Robby on Rails](http://www.robbyonrails.com/)
+- [Home Made](http://sean.treadway.info/)

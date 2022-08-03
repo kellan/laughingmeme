@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-pageprint, gecko based thumbnailer behind \[Webthumb\](http://bluga.net/webthumb/) is in \[public SVN\](http://svn.op-en.org/listing.php?repname=pageprint&amp;path=%2F&amp;sc=0).
+pageprint, gecko based thumbnailer behind [Webthumb](http://bluga.net/webthumb/) is in [public SVN](http://svn.op-en.org/listing.php?repname=pageprint&amp;path=%2F&amp;sc=0).

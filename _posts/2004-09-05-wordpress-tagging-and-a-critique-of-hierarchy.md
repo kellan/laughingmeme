@@ -42,7 +42,7 @@ Here is the [patch](/code/wordpress-smart-tags.patch), I built it against [night
 
 And this is “only the brave and resourceful” territory, you should feel comfortable applying a patch, and inserting new options manually. Feedback on how to organize the code to make it a better WP citizen would be great, though it is unlikely to produce short term results.
 
-(And yes this is apropos of an eventual shift to WordPress, just as soon as I have some free time \[plus I want to do a re-design as part of the move\])
+(And yes this is apropos of an eventual shift to WordPress, just as soon as I have some free time [plus I want to do a re-design as part of the move])
 
 ### Next Steps
 

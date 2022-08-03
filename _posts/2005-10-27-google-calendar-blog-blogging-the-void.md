@@ -21,4 +21,4 @@ tags:
     - google
 ---
 
-See also \[Google Calendar = GoogleBase + ?\](http://scottmace.typepad.com/imanager/2005/10/google\_calendar.html)
+See also [Google Calendar = GoogleBase + ?](http://scottmace.typepad.com/imanager/2005/10/google\_calendar.html)

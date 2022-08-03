@@ -21,7 +21,7 @@ tags:
     - rss
 ---
 
-Now that we’ve got the security release out of the way, its time to move on top something a little more interesting. I finally got a chance to add a **huge** patch from \[RadGeek\](http://radgeek.org/) (of \[FeedWordPress\](http://projects.radgeek.com/feedwordpress/) fame) that adds:
+Now that we’ve got the security release out of the way, its time to move on top something a little more interesting. I finally got a chance to add a **huge** patch from [RadGeek](http://radgeek.org/) (of [FeedWordPress](http://projects.radgeek.com/feedwordpress/) fame) that adds:
 
 - uniform access to attributes
 - support for repeating elements
@@ -29,7 +29,7 @@ Now that we’ve got the security release out of the way, its time to move on to
 
 I’ve struggled for forever to figure out how to provide simple, uniform access to the increasingly rich data that people are syndicating (finally!). Eventually I gave up, and decided that the only solution was to rewrite the parser and make it simple to add per field custom logic. (kind of like the enclosure patch adds custom logic). I never got past the initial sketches.
 
-So I’m **thrilled** that RadGeek has come up with a syntax (and code!) to extend rss\_parser.inc to add support, while staying transparently backwards compatible. I’ve got out a \[dev build\](http://laughingmeme.org/code/magpierss-200511060046.tar.gz) for people to play with, and written up some of the new features.
+So I’m **thrilled** that RadGeek has come up with a syntax (and code!) to extend rss\_parser.inc to add support, while staying transparently backwards compatible. I’ve got out a [dev build](http://laughingmeme.org/code/magpierss-200511060046.tar.gz) for people to play with, and written up some of the new features.
 
 ### Access Repeating Elements
 
@@ -118,7 +118,7 @@ echo $item['guid@ispermalink']
 
 ### Where from here
 
-So give the \[dev build\](http://laughingmeme.org/code/magpierss-200511060046.tar.gz) a spin, kick the tires etc. This is the largest new feature in a while, and would be good to give it a workout. (ps. I’ve affair the normalization methods are throwing `notices` currently.)
+So give the [dev build](http://laughingmeme.org/code/magpierss-200511060046.tar.gz) a spin, kick the tires etc. This is the largest new feature in a while, and would be good to give it a workout. (ps. I’ve affair the normalization methods are throwing `notices` currently.)
 
 Also any show stoppers people might see with this new syntax.
 

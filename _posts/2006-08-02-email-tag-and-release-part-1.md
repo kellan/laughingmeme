@@ -33,14 +33,14 @@ Is is too much to ask in 2006 that I might hope for a desktop application with t
 
 I’ve only been using Thunderbird for a few hours now, but I’ve made some tweaks which make me think this might work.
 
-Following \[these instructions\](http://kb.mozillazine.org/Archiving*your*e-mail), I’ve got the \[Buttons\](http://www.chuonthis.com/extensions/buttons.php) extension, which includes an “Archive” button. From there I assign a default Archive folder, and use \[keyconfig\](http://extensionroom.mozdev.org/more-info/keyconfig) to bind archiving to ‘A’. While I’m in there bind delete to ‘D’. Nirvana!
+Following [these instructions](http://kb.mozillazine.org/Archiving*your*e-mail), I’ve got the [Buttons](http://www.chuonthis.com/extensions/buttons.php) extension, which includes an “Archive” button. From there I assign a default Archive folder, and use [keyconfig](http://extensionroom.mozdev.org/more-info/keyconfig) to bind archiving to ‘A’. While I’m in there bind delete to ‘D’. Nirvana!
 
 ### Non-working Notes on Thunderbird
 
 I describe my email coping strategy as “tag and release”. (it doesn’t work terrible well as my correspondents can tell you, but it keeps me sane). Respond (or not), tag a message, and get it the hell out of my inbox.
 
-So now I’ve got release working, what about tag? Well I had high hopes for \[Tag the Bird\](https://addons.mozilla.org/thunderbird/1832/). Unfortunately its mangling my emails beyond recognizability, and the UI needs a bit of work. I’ve got an email out to the developer so I’m keeping my fingers crossed. Expect updates, and watch the del.icio.us stream for XUL tutorials.
+So now I’ve got release working, what about tag? Well I had high hopes for [Tag the Bird](https://addons.mozilla.org/thunderbird/1832/). Unfortunately its mangling my emails beyond recognizability, and the UI needs a bit of work. I’ve got an email out to the developer so I’m keeping my fingers crossed. Expect updates, and watch the del.icio.us stream for XUL tutorials.
 
 ### On Migrating
 
-Mark’s right, \[emlx sucks, emlxconvert doesn’t work\](http://diveintomark.org/archives/2006/06/16/juggling-oranges). JWZ’s \[exml.pl\](http://jwz.livejournal.com/505711.html) fared better for me. Haven’t spotted obvious problems yet, but I only ran it against a 2 month old account as well. Still this sucks.
+Mark’s right, [emlx sucks, emlxconvert doesn’t work](http://diveintomark.org/archives/2006/06/16/juggling-oranges). JWZ’s [exml.pl](http://jwz.livejournal.com/505711.html) fared better for me. Haven’t spotted obvious problems yet, but I only ran it against a 2 month old account as well. Still this sucks.

@@ -20,4 +20,4 @@ tags:
     - ruby
 ---
 
-After a rather long hiatus, \[Boston.rb\](http://boston.rubygroup.org/) is reasonably likely to meet Feb. 7th. Website seems to experiencing the dreaded 502 Bad Gateway error (umm, yeah, secrets out, Rails hosting is non-trivial), but jump on the \[list\](http://lists.rubygroup.org/mailman/listinfo/boston) for more info. (or at least join in the confusion)
+After a rather long hiatus, [Boston.rb](http://boston.rubygroup.org/) is reasonably likely to meet Feb. 7th. Website seems to experiencing the dreaded 502 Bad Gateway error (umm, yeah, secrets out, Rails hosting is non-trivial), but jump on the [list](http://lists.rubygroup.org/mailman/listinfo/boston) for more info. (or at least join in the confusion)

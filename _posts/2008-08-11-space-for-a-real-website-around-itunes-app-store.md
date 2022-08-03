@@ -19,6 +19,6 @@ tags:
 
 I haven’t poured hours into it, but I have looked around a bit trying to find good iPhone apps, and I find the conversation frustrating and fractured — echoing and empty. And I think Apple’s its-a-webiste-but-not-really iTunes store is the problem. It is definitely a 2nd class web citizen, and one that has rather aggressively not learned the lessons of Web 2.0.
 
-I’d love to see someone do a full on iPhone-apps-as-\[social-objects\](http://www.adaptivepath.com/blog/2008/03/27/conversation-with-matt-jones-co-founderdesigner-dopplr/) site as a translation layer on top of the iTunes store. It would be easy, and it would be awesome. And if Apple weren’t Apple (say if they were Amazon) you could earn a nice affiliate income stream. As it is you’d probably wake up every morning and check your inbox for a C&amp;D, but still it would be great. You should build it.
+I’d love to see someone do a full on iPhone-apps-as-[social-objects](http://www.adaptivepath.com/blog/2008/03/27/conversation-with-matt-jones-co-founderdesigner-dopplr/) site as a translation layer on top of the iTunes store. It would be easy, and it would be awesome. And if Apple weren’t Apple (say if they were Amazon) you could earn a nice affiliate income stream. As it is you’d probably wake up every morning and check your inbox for a C&amp;D, but still it would be great. You should build it.
 
-Photo from \[Paul Hammond\](http://flickr.com/photos/paulhammond/)
+Photo from [Paul Hammond](http://flickr.com/photos/paulhammond/)

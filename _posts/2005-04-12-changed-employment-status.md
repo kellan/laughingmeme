@@ -23,9 +23,9 @@ tags:
 
 Hi all, realized I should clue people in to my changed status.
 
-As may or may not be obvious from my recent posts I am not currently writing PHP for a living. You can \[read the press release\](http://blog.groundspring.org/gs/2005/04/groundspring\_re.html) for background, to which I can add that I’m understandably disappointed.
+As may or may not be obvious from my recent posts I am not currently writing PHP for a living. You can [read the press release](http://blog.groundspring.org/gs/2005/04/groundspring\_re.html) for background, to which I can add that I’m understandably disappointed.
 
-But also excited. Excited about the future open source incarnation of the Groundspring toolset. Excited to be keeping busy brainstorming new ways to make trouble with some of my favorite people (more on that soon), and contracting out as \[RoR\](http://www.rubyonrails.com/) slinger for an \[old friend\](http://anarchogeek.com/).
+But also excited. Excited about the future open source incarnation of the Groundspring toolset. Excited to be keeping busy brainstorming new ways to make trouble with some of my favorite people (more on that soon), and contracting out as [RoR](http://www.rubyonrails.com/) slinger for an [old friend](http://anarchogeek.com/).
 
 And it’s finally Spring in Boston! Life is good. Thats the update.
 

@@ -21,9 +21,9 @@ tags:
     - rss
 ---
 
-Spent a little time with the \[Atom 1.0 spec\](http://www.ietf.org/internet-drafts/draft-ietf-atompub-format-10.txt) last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)
+Spent a little time with the [Atom 1.0 spec](http://www.ietf.org/internet-drafts/draft-ietf-atompub-format-10.txt) last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)
 
-I don’t really have the expertise of having actually upgraded a parser to add support for this entirely new, utterly backwards incompatible to a degree that makes the so called \[7 incompatible versions of RSS\](http://diveintomark.org/archives/2004/02/04/incompatible-rss) look like a fond memory, but a handful of issues that are going to make my life unpleasant jumped out at me. (Maybe I’ll update this list over time)
+I don’t really have the expertise of having actually upgraded a parser to add support for this entirely new, utterly backwards incompatible to a degree that makes the so called [7 incompatible versions of RSS](http://diveintomark.org/archives/2004/02/04/incompatible-rss) look like a fond memory, but a handful of issues that are going to make my life unpleasant jumped out at me. (Maybe I’ll update this list over time)
 
 ### Arbitrary Renaming
 
@@ -57,14 +57,14 @@ vs. RSS 2.0
 
 ```
 
-Never thought I’d call an RSS 2.0 design decision\[ clean and well thought out, but its all relative.
+Never thought I’d call an RSS 2.0 design decision[ clean and well thought out, but its all relative.
 
 ### Content by Reference
 
-One of Atom’s innovations is introducing a standard “link” element, allowing it to leverage and become a first class citizen of this Web thing which seems so popular. (I’ve \[written about this before\](http://laughingmeme.org/archives/002071.html), and mourned Kevin Burton’s mod\_link)
+One of Atom’s innovations is introducing a standard “link” element, allowing it to leverage and become a first class citizen of this Web thing which seems so popular. (I’ve [written about this before](http://laughingmeme.org/archives/002071.html), and mourned Kevin Burton’s mod\_link)
 
 So why does the Atom “content” element now allowing for “content by reference”, with the “src” attribute? Honestly, this seems like a clear case of confusing duplication. <acronym title="There is more then one way to do it">TIMTOWTDI</acronym> is one the key factors people point to when claiming that Perl is an ugly, under designed, confusing mess.
 
-For example, are there now \[two, valid but disparate ways of encoding podcasts in Atom?\](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=48888cc2-0c23-4621-b07c-cef35df8b563)
+For example, are there now [two, valid but disparate ways of encoding podcasts in Atom?](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=48888cc2-0c23-4621-b07c-cef35df8b563)
 
-And should a toolkit parsing Atom 1.0 automagically deference the URL defined in “src” attribute? I mean, if I’m parsing a feed I expect to able to display the contents of the content element. And if so, are we back to those wonderful bygone days (cough “rss2:enclosure” ) of baking dangerous required behaviour into our processing model? (speaking of process model, shouldn’t the \[Atom 1.0 processing model\](http://atompub.org/2005/07/11/draft-ietf-atompub-format-10.html#rfc.section.4.1.3.3) address this?)
+And should a toolkit parsing Atom 1.0 automagically deference the URL defined in “src” attribute? I mean, if I’m parsing a feed I expect to able to display the contents of the content element. And if so, are we back to those wonderful bygone days (cough “rss2:enclosure” ) of baking dangerous required behaviour into our processing model? (speaking of process model, shouldn’t the [Atom 1.0 processing model](http://atompub.org/2005/07/11/draft-ietf-atompub-format-10.html#rfc.section.4.1.3.3) address this?)

@@ -19,9 +19,9 @@ tags:
     - opendb
 ---
 
-“Open databases” is a concept I was kicking around with \[Carl\](http://blogs.onenw.org/carl/) in 2004. The idea was to come up with a set of common practices, and techniques to allow groups of people in low trust relationships to collaboratively build large, public datasets.
+“Open databases” is a concept I was kicking around with [Carl](http://blogs.onenw.org/carl/) in 2004. The idea was to come up with a set of common practices, and techniques to allow groups of people in low trust relationships to collaboratively build large, public datasets.
 
-\[GMT’s\](http://greenmediatoolshed.org/) media contact database was an example, as was the work \[Locative\](http://locative.us) was doing on trying to build open map databases. We even had a cool 2-day sprint/retreat out on \[Bainbridge\](http://en.wikipedia.org/wiki/Bainbridge\_Island) to get it rolling.
+[GMT’s](http://greenmediatoolshed.org/) media contact database was an example, as was the work [Locative](http://locative.us) was doing on trying to build open map databases. We even had a cool 2-day sprint/retreat out on [Bainbridge](http://en.wikipedia.org/wiki/Bainbridge\_Island) to get it rolling.
 
 But I never actually used the domain name, opendb.info
 

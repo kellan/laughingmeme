@@ -22,6 +22,6 @@ tags:
     - st
 ---
 
-Spotted at \[ERC\](http://boston.wifimug.org/index.cgi?EspressoRoyaleOnGainsborough): one man, with pile of books, \[1369\](http://www.1369coffeehouse.com) cup (a coffee shop 3 miles, and a world away), and a metronome.
+Spotted at [ERC](http://boston.wifimug.org/index.cgi?EspressoRoyaleOnGainsborough): one man, with pile of books, [1369](http://www.1369coffeehouse.com) cup (a coffee shop 3 miles, and a world away), and a metronome.
 
 I can’t explain it.

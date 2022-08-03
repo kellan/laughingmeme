@@ -20,4 +20,4 @@ tags:
     - python
 ---
 
-I’m a big believer in Norvig’s “Code is liability” maxim. Which is how I justify my ugly, but functional Flickr API implementation, in 40 lines of PHP (not the most expressive of languages), which I wrote in about 15 minutes one evening, and I now use for all of my Flickr side projects. And all apropos of digging through other folks Flickr API impls, trying to get them working on GAE. Thankfully \[blech is already there\](http://blech.vox.com/library/post/flickrapi-google-app-engine.html).
+I’m a big believer in Norvig’s “Code is liability” maxim. Which is how I justify my ugly, but functional Flickr API implementation, in 40 lines of PHP (not the most expressive of languages), which I wrote in about 15 minutes one evening, and I now use for all of my Flickr side projects. And all apropos of digging through other folks Flickr API impls, trying to get them working on GAE. Thankfully [blech is already there](http://blech.vox.com/library/post/flickrapi-google-app-engine.html).

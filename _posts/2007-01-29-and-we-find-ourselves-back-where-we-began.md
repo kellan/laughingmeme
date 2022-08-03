@@ -13,4 +13,4 @@ tags:
     - meta
 ---
 
-I feel so prescient! Having \[merged my link blog for 2007\](http://laughingmeme.org/2007/01/10/laughing-meme-rebooted/) I find I’m \[part of a movement\](http://www.kottke.org/07/01/some-rss-and-remaindered-links-changes) of \[old skool bloggers\](http://rc3.org/2007/01/why*my*link\_blo.php). I wonder what this says about the evolution of blogging, from links, to narrative, and back to links.
+I feel so prescient! Having [merged my link blog for 2007](http://laughingmeme.org/2007/01/10/laughing-meme-rebooted/) I find I’m [part of a movement](http://www.kottke.org/07/01/some-rss-and-remaindered-links-changes) of [old skool bloggers](http://rc3.org/2007/01/why*my*link\_blo.php). I wonder what this says about the evolution of blogging, from links, to narrative, and back to links.

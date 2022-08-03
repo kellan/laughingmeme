@@ -20,8 +20,8 @@ tags:
     - rails
 ---
 
-Bit slow following up on this one, but thanks all for your comments/emails/whatnots suggesting \[better names for OSCal\](http://laughingmeme.org/articles/2006/09/06/help-please-oscal-needs-a-name).
+Bit slow following up on this one, but thanks all for your comments/emails/whatnots suggesting [better names for OSCal](http://laughingmeme.org/articles/2006/09/06/help-please-oscal-needs-a-name).
 
 Not sure it counts as better, but we went with iCalico. (which means I **really** need to get the ical working properly)
 
-And all props to \[Evan\](http://anarchogeek.com) for getting \[an instance up for EuroOSCON\](http://eurooscon06.icalico.org/). (as is Rails’ wont, more complicated to deploy then it was to write, really)
+And all props to [Evan](http://anarchogeek.com) for getting [an instance up for EuroOSCON](http://eurooscon06.icalico.org/). (as is Rails’ wont, more complicated to deploy then it was to write, really)

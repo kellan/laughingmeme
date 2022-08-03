@@ -21,4 +21,4 @@ tags:
     - personal
 ---
 
-I was supposed to go with them, but I bailed for a weekend of digging through dusty boxes. Hmmmm. When \[Blaine\](http://romeda.org/) gets back from Spain must ask him about the grocery delivery place in Vancouver that included the carbon cost info with their products.
+I was supposed to go with them, but I bailed for a weekend of digging through dusty boxes. Hmmmm. When [Blaine](http://romeda.org/) gets back from Spain must ask him about the grocery delivery place in Vancouver that included the carbon cost info with their products.

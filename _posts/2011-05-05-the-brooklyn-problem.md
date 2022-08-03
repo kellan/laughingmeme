@@ -24,6 +24,6 @@ The slides:
 
 I was personally frustrated with myself as I wasn’t as prepared as I like to be, and I made a number of last minute cuts from the talk that made it feel more disjointed then I liked.
 
-This can be summarized in the \[#protip\](http://search.twitter.com/search?q=protip): When the organizers give you a chance at a dry run to get to know the stage and the equipment, do it!
+This can be summarized in the [#protip](http://search.twitter.com/search?q=protip): When the organizers give you a chance at a dry run to get to know the stage and the equipment, do it!
 
-Additionally I didn’t get to talk about the work of \[Aaron Beppu\](http://www.aaronbeppu.com/) who recently joined our search team tackling relevance ranking, did the bulk of the backend work on this project as his bootcamp project, and whose final implementation is significantly more complex and interesting, or \[Fred Blau\](http://fredblau.com/), who is currently working on our internationalization effort, but who rewrote our auto-complete implementation to use sequence ids instead of timing for a much smoother interface.
+Additionally I didn’t get to talk about the work of [Aaron Beppu](http://www.aaronbeppu.com/) who recently joined our search team tackling relevance ranking, did the bulk of the backend work on this project as his bootcamp project, and whose final implementation is significantly more complex and interesting, or [Fred Blau](http://fredblau.com/), who is currently working on our internationalization effort, but who rewrote our auto-complete implementation to use sequence ids instead of timing for a much smoother interface.

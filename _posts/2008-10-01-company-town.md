@@ -16,4 +16,4 @@ tags:
     - 'real estate'
 ---
 
-> *“\[New York\] is the company town for money”* – \[Richard Lefrak\](http://www.nytimes.com/2008/10/01/nyregion/01develop.html)
+> *“[New York] is the company town for money”* – [Richard Lefrak](http://www.nytimes.com/2008/10/01/nyregion/01develop.html)

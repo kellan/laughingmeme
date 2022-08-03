@@ -16,6 +16,6 @@ raw_content:
     - "<a href=\\\"http://www.buffalonews.com/editorial/20020613/1044164.asp\\\">Because we don\\'t say, \\\"White men shredded those Enron papers.\\\"</a> [via <a href=\\\"http://randomwalks.com\\\">rW</a>]\r\n<p>\r\n( which reminds me, I never blogged: <a href=\\\"http://www.alternet.org/story.html?StoryID=12479\\\">Invisible Whiteness of Beer Riots</a> [via <a href=\\\"http://dru.ca/misnomer\\\">dru</a>] )"
 ---
 
-[Because we don’t say, “White men shredded those Enron papers.”](http://www.buffalonews.com/editorial/20020613/1044164.asp) \[via [rW](http://randomwalks.com)\]
+[Because we don’t say, “White men shredded those Enron papers.”](http://www.buffalonews.com/editorial/20020613/1044164.asp) [via [rW](http://randomwalks.com)]
 
-( which reminds me, I never blogged: [Invisible Whiteness of Beer Riots](http://www.alternet.org/story.html?StoryID=12479) \[via [dru](http://dru.ca/misnomer)\] )
+( which reminds me, I never blogged: [Invisible Whiteness of Beer Riots](http://www.alternet.org/story.html?StoryID=12479) [via [dru](http://dru.ca/misnomer)] )

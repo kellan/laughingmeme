@@ -16,4 +16,4 @@ tags:
     - syndication
 ---
 
-\[waferbaby\](http://waferbaby.com/) has added `Last-Modified` support to Flickr feeds. Yay!
+[waferbaby](http://waferbaby.com/) has added `Last-Modified` support to Flickr feeds. Yay!

@@ -19,4 +19,4 @@ tags:
     - war
 ---
 
-The opportunity cost of the war in Iraq. (\[via\](http://rc3.org))
+The opportunity cost of the war in Iraq. ([via](http://rc3.org))

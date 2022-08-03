@@ -34,7 +34,7 @@ tags:
 
 [Bottoms Up: Designing complex, adaptive systems](http://www.newarchitectmag.com/documents/s=2452/na1202b/), from the co-author of the [Polar Bear book.](http://www.oreilly.com/catalog/infotecture2/)- On: Why Yahoo inspired taxonomy build is a bad idea, that generates unusable results.
 - Says: Facetted classification is about changing questions. In taxonomy based systems the central question is “where do I put this?” but in facetted (bottom up) approch you ask “how do I describe this?”.
-- Facetted classification can also be thought of as a database where ” facets are fields, \[and\] controlled vocabularies are acceptable values.”
+- Facetted classification can also be thought of as a database where ” facets are fields, [and] controlled vocabularies are acceptable values.”
 
 See also - [EmergentArchitecture](http://www.iawiki.net/EmergentArchitecture)
 - [Ontology Development 101](http://www.ksl.stanford.edu/people/dlm/papers/ontology101/ontology101-noy-mcguinness.html)

@@ -18,4 +18,4 @@ tags:
     - twitter
 ---
 
-Dave demonstrating a breath taking sense of entitlement. It took away breath here, and \[we\](http://flickr.com) are **used** to entitled users. <small>(hint: traceroute)</small>
+Dave demonstrating a breath taking sense of entitlement. It took away breath here, and [we](http://flickr.com) are **used** to entitled users. <small>(hint: traceroute)</small>

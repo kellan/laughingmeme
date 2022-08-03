@@ -13,7 +13,7 @@ tags:
     - bujold
 ---
 
-The hardest part about recommending Bujold to folks (\[beyond my tendency to over sell\](http://laughingmeme.org/2007/06/29/bujold-booksmith/)) is figuring out where to tell folks to start. Clearly with the Vorkosigan universe, but where? And whence? This occupied us much on the way home Saturday night, without resolution. And came up again this evening, so I thought I’d externalize the debate.
+The hardest part about recommending Bujold to folks ([beyond my tendency to over sell](http://laughingmeme.org/2007/06/29/bujold-booksmith/)) is figuring out where to tell folks to start. Clearly with the Vorkosigan universe, but where? And whence? This occupied us much on the way home Saturday night, without resolution. And came up again this evening, so I thought I’d externalize the debate.
 
 *Shard’s of Honor/Cordelia’s Honor* is a good place to start. It really is the beginning of the Miles story arc. It features Cordelia, one of my all time favorite literary characters, and *Barrayar* (aka the 2nd half of *Cordelia’s Honor*) floats well above its pulpy genre roots, and truly, distinctively sings.
 

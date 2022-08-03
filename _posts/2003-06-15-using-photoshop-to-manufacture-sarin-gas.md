@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-Faked letter head allows reporter to acquire ingredients + recipe for sarin gas \[think tokyo subways\]
+Faked letter head allows reporter to acquire ingredients + recipe for sarin gas [think tokyo subways]

@@ -33,6 +33,6 @@ That should get you through the weekend, as always, stop by the convergence cent
 
 And under **no circumstances** enter the death trap under North Station being referred to as a “Free Speech Zone”. ([photos](http://boston.indymedia.org/newswire/display/23765/index.php))
 
-> One cannot conceive of other elements \[that could be\] put in place to create a space that’s more of an affront to the idea of free expression than the designated demonstration zone
+> One cannot conceive of other elements [that could be] put in place to create a space that’s more of an affront to the idea of free expression than the designated demonstration zone
 
  – [Judge Woodlock](http://boston.indymedia.org/newswire/display_any/23789)

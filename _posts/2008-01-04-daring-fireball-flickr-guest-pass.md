@@ -14,8 +14,8 @@ tags:
     - guestpass
 ---
 
-John \[just spotted\](http://daringfireball.net/linked/2008/january#thu-03-flickr) one of my favorite features I’ve added to Flickr.
+John [just spotted](http://daringfireball.net/linked/2008/january#thu-03-flickr) one of my favorite features I’ve added to Flickr.
 
 Here is another tip, the “Send to a Friend” links at the bottom of every page will generate a Guest Pass behind the scene if needed.
 
-And if you’re interested in this kind of thing, Flickr’s Guest Pass is the seed of my expanded “Casual Privacy” talk at \[Web 2.0 Expo SF\](http://en.oreilly.com/webexsf2008/public/content/home) this April.
+And if you’re interested in this kind of thing, Flickr’s Guest Pass is the seed of my expanded “Casual Privacy” talk at [Web 2.0 Expo SF](http://en.oreilly.com/webexsf2008/public/content/home) this April.

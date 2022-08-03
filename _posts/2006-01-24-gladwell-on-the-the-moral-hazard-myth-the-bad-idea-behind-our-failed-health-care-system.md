@@ -22,4 +22,4 @@ tags:
     - progressive
 ---
 
-a commenter on the \[HSA\](http://www.prospect.org/weblog/archives/2006/01/index.html#008934) reminded me of this excellent piece.
+a commenter on the [HSA](http://www.prospect.org/weblog/archives/2006/01/index.html#008934) reminded me of this excellent piece.

@@ -10,19 +10,19 @@ categories:
     - Uncategorized
 ---
 
-I don’t do the pundit thing. I don’t claim to already understand everything that \[Facebook’s announcements this week\](http://blog.facebook.com/blog.php?post=383404517130) mean.
+I don’t do the pundit thing. I don’t claim to already understand everything that [Facebook’s announcements this week](http://blog.facebook.com/blog.php?post=383404517130) mean.
 
 They were certainly interesting, and breath taking in potential scope. They also rely heavily on the weight of FB’s 500 million monthly engaged users to make attractive their boil-the-oceans approach to the semantic web. If something were to happen to those engaged users numbers ….
 
-A friend I was with chatting regarding the lack of location/geo announcements at \[F8\](http://apps.facebook.com/feightlive/) said, “Well, they gave \[Foursquare\](http://foursquare.com) a 6 month reprieve.” Which maybe be true, but more interestingly, I’m not sure anyone got more then a 6 months reprieve to figure out what this all means for them.
+A friend I was with chatting regarding the lack of location/geo announcements at [F8](http://apps.facebook.com/feightlive/) said, “Well, they gave [Foursquare](http://foursquare.com) a 6 month reprieve.” Which maybe be true, but more interestingly, I’m not sure anyone got more then a 6 months reprieve to figure out what this all means for them.
 
 A couple of random things I’ve been thinking about. More to come surely.
 
 ### View Source Gets More Interesting
 
-If you view source on \[Open Graph Protocol page\](http://opengraphprotocol.org/) you’ll see the rather tepid sets of fixed descriptors currently available from the centrally planned vocabulary of Facebook’s Open Graph Protocol.
+If you view source on [Open Graph Protocol page](http://opengraphprotocol.org/) you’ll see the rather tepid sets of fixed descriptors currently available from the centrally planned vocabulary of Facebook’s Open Graph Protocol.
 
-You’ll also see an `fb:admins` tag with the value `706023` that we can \[plug into the Graph API\](http://graph.facebook.com/706023).
+You’ll also see an `fb:admins` tag with the value `706023` that we can [plug into the Graph API](http://graph.facebook.com/706023).
 
 ```
 {
@@ -34,17 +34,17 @@ You’ll also see an `fb:admins` tag with the value `706023` that we can \[plug 
 
 ```
 
-\[Authorize\](http://developers.facebook.com/docs/api#authorization), and you get a lot more info. (certainly enough to determine that yes, this is **that** Mark Kinsey, Open Graph’s product manager, so no surprises there!)
+[Authorize](http://developers.facebook.com/docs/api#authorization), and you get a lot more info. (certainly enough to determine that yes, this is **that** Mark Kinsey, Open Graph’s product manager, so no surprises there!)
 
-Thinking about the various attempts to claim ownership of websites over the years, I think the last one that I implemented was \[Technorati’s\](http://technorati.com/) and for the fiddliness of placing a badge on my site, I never got much value.
+Thinking about the various attempts to claim ownership of websites over the years, I think the last one that I implemented was [Technorati’s](http://technorati.com/) and for the fiddliness of placing a badge on my site, I never got much value.
 
-As someone’s who thinks about the role of identity on the Internet, it’s interesting to see these strong identity claims. As a pragmatist it looks like most web pages will be claimed by organizations not individuals. And as a developer on the “Open Web”, I can’t help but compare and contrast this approach versus approaches like \[Web Finger\](http://webfinger.org) and the \[Social Graph API\](http://code.google.com/apis/socialgraph/).
+As someone’s who thinks about the role of identity on the Internet, it’s interesting to see these strong identity claims. As a pragmatist it looks like most web pages will be claimed by organizations not individuals. And as a developer on the “Open Web”, I can’t help but compare and contrast this approach versus approaches like [Web Finger](http://webfinger.org) and the [Social Graph API](http://code.google.com/apis/socialgraph/).
 
-As a publisher it’s mildly interesting right now, a non-intrusive vanity plate that acts as hook into a well thought out API. This changes when the promised “coming soon” update to \[streams.publish\](http://developers.facebook.com/docs/reference/rest/stream.publish) lands, giving me access to the stream of anyone who has a relationship with the objects I own. Changes a lot. At a minimum this is the much discussed, historically elusive, RSS for the masses.
+As a publisher it’s mildly interesting right now, a non-intrusive vanity plate that acts as hook into a well thought out API. This changes when the promised “coming soon” update to [streams.publish](http://developers.facebook.com/docs/reference/rest/stream.publish) lands, giving me access to the stream of anyone who has a relationship with the objects I own. Changes a lot. At a minimum this is the much discussed, historically elusive, RSS for the masses.
 
 ### UGC and Ownership
 
-<acronynm title="User generated content">UGC is one of the uglier acronym ever to take the Yahoo (and the wider Valley) by storm. It’s banned from \[Flickr\](http://flickr.com). At Flickr, we’ve always maintained we don’t have “users” extruding some waste-like byproduct called “content”. Rather we have members and/or photographers who take \[photos\](http://flickr.com/photos/) (and organize photos, annotate photos, collect photos, and comment on photos), and grant us a very limited license to display them.</acronynm>
+<acronynm title="User generated content">UGC is one of the uglier acronym ever to take the Yahoo (and the wider Valley) by storm. It’s banned from [Flickr](http://flickr.com). At Flickr, we’ve always maintained we don’t have “users” extruding some waste-like byproduct called “content”. Rather we have members and/or photographers who take [photos](http://flickr.com/photos/) (and organize photos, annotate photos, collect photos, and comment on photos), and grant us a very limited license to display them.</acronynm>
 
 You see, they’re **their** photos.
 
@@ -52,19 +52,19 @@ Which means my first instinct is of course to publish the photographer’s Faceb
 
 ### Graph API
 
-The \[Graph API\](http://graph.facebook.com) is nice work. Simple, clean, guessable URIs, plain-old-JSON-over-HTTP, graceful degradation for unauthorized experiences, well documented.
+The [Graph API](http://graph.facebook.com) is nice work. Simple, clean, guessable URIs, plain-old-JSON-over-HTTP, graceful degradation for unauthorized experiences, well documented.
 
-The \[introspection\](http://developers.facebook.com/docs/api#introspection) allows for a hypertextual exploration of objects in the system. I’m not sure I’ve **ever** seen a useful, attractive API which also supported hypertext. It might not make the high religion REST acolytes happy, but to my eyes it’s beautiful.
+The [introspection](http://developers.facebook.com/docs/api#introspection) allows for a hypertextual exploration of objects in the system. I’m not sure I’ve **ever** seen a useful, attractive API which also supported hypertext. It might not make the high religion REST acolytes happy, but to my eyes it’s beautiful.
 
 A great compromise of simplicity, power, expressiveness, and future extensibility I’ve ever seen. And it takes the entire Web as it’s potential subject matter. That’s a gift. I, for one, am looking forward to playing with it.
 
-(and I says this as the sometimes eager, sometimes cringing custodian of \[one of the most popular APIs on the Web\](http://flickr.com/services/api/).)
+(and I says this as the sometimes eager, sometimes cringing custodian of [one of the most popular APIs on the Web](http://flickr.com/services/api/).)
 
 ### Why Centrally Managed Unique IDs?
 
 We’ve got a nice REST-ish API that advertises the ability to operate on the World-Wide-Web-Itself-As-A-Social-Object. Yeehah!
 
-One thing I’m genuinely puzzled by though is why the need for a centralized broker of unique IDs? To instantiate an object in the open graph you first need to provision a unique ID for it by calling the \[Graph\](http://graph.facebook.com) endpoint like so:
+One thing I’m genuinely puzzled by though is why the need for a centralized broker of unique IDs? To instantiate an object in the open graph you first need to provision a unique ID for it by calling the [Graph](http://graph.facebook.com) endpoint like so:
 
 [`https://graph.facebook.com/?ids=http://laughingmeme.org/`](https://graph.facebook.com/?ids=http://laughingmeme.org/)
 
@@ -100,13 +100,13 @@ Someone help me out here?
 
 ### Route Your Value Over My Wires
 
-Let’s imagine a future in which network neutrality is a solved issue. In this future the providers of the pipes can either charge you to route traffic over their wires, or they can give it away (or even pay you!) to use them on the theory that they can extract sufficient value from watching the traffic flow by. This is business Google is in right now. This is also \[bit.ly’s\](http://bit.ly) business.
+Let’s imagine a future in which network neutrality is a solved issue. In this future the providers of the pipes can either charge you to route traffic over their wires, or they can give it away (or even pay you!) to use them on the theory that they can extract sufficient value from watching the traffic flow by. This is business Google is in right now. This is also [bit.ly’s](http://bit.ly) business.
 
 And this is the business that Facebook is in a position to own.
 
 Setting aside for now whether Facebook is trying to get into the name broker business (a profitable, but sketchy one), you can imagine being the central ID broker for URLs-which-are-interesting allows for at least **one really neat optimization**. If you want to launch a search engine, for example, you could rack 1+ million machines and snapshot the web daily and try to intuit meaning from what you find. Or you could cheat.
 
-Imagine instead you’ve got curated set of pages which at least *one* person cares about to start your crawl. Did you get a look at that \[insane visualization of Google’s server\](http://gizmodo.com/5517041/googles-insane-number-of-servers-visualized) the other day? If you asked me to build that, I spend a lot of time thinking about how to cheat.
+Imagine instead you’ve got curated set of pages which at least *one* person cares about to start your crawl. Did you get a look at that [insane visualization of Google’s server](http://gizmodo.com/5517041/googles-insane-number-of-servers-visualized) the other day? If you asked me to build that, I spend a lot of time thinking about how to cheat.
 
 ### Central IDs, last thoughts
 
@@ -116,15 +116,15 @@ A comforting thought for years has been that Google can’t really afford to dam
 
 ### Is the Open Graph Open Enough?
 
-Lots of teeth gnashing regarding the openness of the \[Open Graph Protocol\](http://opengraphprotocol.org). It certainly isn’t **less** open then industry collusion like \[XAuth\](http://xauth.org), or even \[Open Like\](http://openlike.org/).
+Lots of teeth gnashing regarding the openness of the [Open Graph Protocol](http://opengraphprotocol.org). It certainly isn’t **less** open then industry collusion like [XAuth](http://xauth.org), or even [Open Like](http://openlike.org/).
 
 For me the openness flounders on the fairly arbitrary and limited range of object types and verbs available. And those centralized IDs which aren’t technically part of the protocol, but do immediately cast a very long, dark shadow over the space where interesting alternatives and an ecosystem could grow.
 
-It will be argued that it only makes sense to launch with a limited vocabulary, and there is of course \[a mailing list\](http://groups.google.com/group/open-graph-protocol) where you are welcome to come and propose, and argue for your unique, snowflake of an extension.
+It will be argued that it only makes sense to launch with a limited vocabulary, and there is of course [a mailing list](http://groups.google.com/group/open-graph-protocol) where you are welcome to come and propose, and argue for your unique, snowflake of an extension.
 
 These Open\* projects always have a mailing list. (or rather a Google Group). And if the value you can extract by prematurely paving cowpaths to your particular mousetrap is high enough I wish you all luck. That still isn’t a model of open. (or perhaps it’s a model of pure openness without any of the culturally evolved techniques for dealing with sociopaths)
 
-The Web **has** a model for openness. Or rather it **is** a model for openness. Why a small set of English-like strings to describe your vocabulary? Why not URIs to describe object-types, and verbs? It can’t be because namespaces are too hard this time. After all Open Graph is using \[RDFa for goodness sakes\](http://twitter.com/kellan/status/1401827568)! (I think that’s my most popular Tweet ever btw) It’s perfectly reasonable to say that Facebook will never consume an object type, or execute a verb that isn’t in their namespace, or on their short whitelist. But if we’re going to argue about whether or not it’s **open**, can we at least look to a working model of openness. One that works so well we ignore it while our conversation flows across it?
+The Web **has** a model for openness. Or rather it **is** a model for openness. Why a small set of English-like strings to describe your vocabulary? Why not URIs to describe object-types, and verbs? It can’t be because namespaces are too hard this time. After all Open Graph is using [RDFa for goodness sakes](http://twitter.com/kellan/status/1401827568)! (I think that’s my most popular Tweet ever btw) It’s perfectly reasonable to say that Facebook will never consume an object type, or execute a verb that isn’t in their namespace, or on their short whitelist. But if we’re going to argue about whether or not it’s **open**, can we at least look to a working model of openness. One that works so well we ignore it while our conversation flows across it?
 
 Which of course begs the question, how did we managed to leave something as valuable as the Open Graph just sitting there so long that eventually someone just **had** to pick it up and try a semi-centralized implementation, just to see what the upside looked like?
 

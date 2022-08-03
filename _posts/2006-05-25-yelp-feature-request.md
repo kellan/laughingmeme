@@ -24,6 +24,6 @@ tags:
     - yelp
 ---
 
-I’d like to be able to filter \[Yelp\](http://yelp.com) reviews to only those by self-identified vegetarians. Yelp could you make this happen please? Or at least allow people to flag themselves as such (I could imagine other categories, like “I keep Kosher”) and perhaps decorate their profile icons with a little glyph.
+I’d like to be able to filter [Yelp](http://yelp.com) reviews to only those by self-identified vegetarians. Yelp could you make this happen please? Or at least allow people to flag themselves as such (I could imagine other categories, like “I keep Kosher”) and perhaps decorate their profile icons with a little glyph.
 
 Please.

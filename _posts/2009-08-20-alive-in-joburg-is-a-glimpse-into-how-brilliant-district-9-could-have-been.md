@@ -18,4 +18,4 @@ tags:
     - 'south africa'
 ---
 
-Textured, balanced, thought provoking, visually distinctive. D9 in contrast was shallow, focused on easy laughs, and gross out gags, and deeply problematic portrayals of apartheid and race. (via \[cal\](http://www.iamcal.com/linklog/1250747036/))
+Textured, balanced, thought provoking, visually distinctive. D9 in contrast was shallow, focused on easy laughs, and gross out gags, and deeply problematic portrayals of apartheid and race. (via [cal](http://www.iamcal.com/linklog/1250747036/))

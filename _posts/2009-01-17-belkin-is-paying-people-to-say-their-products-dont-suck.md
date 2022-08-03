@@ -16,4 +16,4 @@ tags:
     - pr
 ---
 
-I wonder how much they’d pay for me to take down \[this post and the 60+ associated comments\](http://laughingmeme.org/2003/05/02/belkin-sucks/).
+I wonder how much they’d pay for me to take down [this post and the 60+ associated comments](http://laughingmeme.org/2003/05/02/belkin-sucks/).

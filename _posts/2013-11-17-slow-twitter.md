@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 ---
 
-My brother tweeted recently, \[“making sure I have a working implementation of Logo is part of setting up the nursery, right?”\](https://twitter.com/aidanem/status/396333522605969408). I feel the same way about building the just the right photo sharing site and Twitter client. But I’m **RESISTING**. And I’m very proud of myself for it.
+My brother tweeted recently, [“making sure I have a working implementation of Logo is part of setting up the nursery, right?”](https://twitter.com/aidanem/status/396333522605969408). I feel the same way about building the just the right photo sharing site and Twitter client. But I’m **RESISTING**. And I’m very proud of myself for it.
 
 The Twitter client I want (and have wanted for years, but I want it more now) is at least fairly straightforward, and I’m hoping someone has either already built it or will get inspired. I think of it as “Slow Twitter”.
 

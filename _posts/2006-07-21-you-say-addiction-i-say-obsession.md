@@ -21,6 +21,6 @@ tags:
     - seattle
 ---
 
-I’m sitting at \[Ritual\](http://ritualroasters.com/) this morning, contemplating a visit to the \[source\](http://www.stumptowncoffee.com/) (what does it say that SF arguably 2nd best coffee shop is just serving coffee from Portland?) Then I’ll have to hit \[Victrola\](http://www.victrolacoffee.com/) (have standards fallen off?), \[Zoka\](http://www.zokacoffee.com/), and \[Lighthouse\](http://www.lighthouseroasters.com/). Hines is no more, but tonx is \[Stika &amp; Spruce\](http://tonx.org/archives/101) as a stand in. And Splendido for old times sake, and, and and…
+I’m sitting at [Ritual](http://ritualroasters.com/) this morning, contemplating a visit to the [source](http://www.stumptowncoffee.com/) (what does it say that SF arguably 2nd best coffee shop is just serving coffee from Portland?) Then I’ll have to hit [Victrola](http://www.victrolacoffee.com/) (have standards fallen off?), [Zoka](http://www.zokacoffee.com/), and [Lighthouse](http://www.lighthouseroasters.com/). Hines is no more, but tonx is [Stika &amp; Spruce](http://tonx.org/archives/101) as a stand in. And Splendido for old times sake, and, and and…
 
 So much coffe, so little time.

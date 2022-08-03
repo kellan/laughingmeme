@@ -18,4 +18,4 @@ tags:
     - tradition
 ---
 
-We were actually downtown in the week after Xmas, and wondering at the shredded paper everywhere. Wishing I had had a camera. \[via\](http://www.whump.com/moreLikeThis/2006/12/30/the-defenestration-of-2006/)
+We were actually downtown in the week after Xmas, and wondering at the shredded paper everywhere. Wishing I had had a camera. [via](http://www.whump.com/moreLikeThis/2006/12/30/the-defenestration-of-2006/)

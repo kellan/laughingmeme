@@ -23,7 +23,7 @@ tags:
     - rss
 ---
 
-I’ve see a couple of tools recently adding \[automatic unsubscribe features\](http://nick.typepad.com/blog/2005/10/feeddemon*16*au.html), options to unsubscribe from a feed which has gone silent for too many days or weeks.
+I’ve see a couple of tools recently adding [automatic unsubscribe features](http://nick.typepad.com/blog/2005/10/feeddemon*16*au.html), options to unsubscribe from a feed which has gone silent for too many days or weeks.
 
 This seems 100% wrong to me. Almost a betrayal of the bright and shiny promise of RSS.
 
@@ -45,6 +45,6 @@ Please if a feed goes long term 404, 410, 500, etc, sure unsubscribe, rather the
 
 ### Wrong Problem
 
-The real problem is some way to automatically detect feeds which are no longer interesting. And even then I usually hold on against the day they’ll swerve back to what I started reading them for. (usually I enjoy the detours, but sometimes…) One of the beauties of \[del.icio.us\](http://del.icio.us) is it explicitly allows people to be multi-facetted, and I think our aggregator tools need to start being more aware of this.
+The real problem is some way to automatically detect feeds which are no longer interesting. And even then I usually hold on against the day they’ll swerve back to what I started reading them for. (usually I enjoy the detours, but sometimes…) One of the beauties of [del.icio.us](http://del.icio.us) is it explicitly allows people to be multi-facetted, and I think our aggregator tools need to start being more aware of this.
 
-caveat, I haven’t actually **used** \[FeedDemon’s feature\](http://nick.typepad.com/blog/2005/10/feeddemon*16*au.html) (not being a Windows user), it merely reminded me of this worrying, dare I call it wrong headed, trend.
+caveat, I haven’t actually **used** [FeedDemon’s feature](http://nick.typepad.com/blog/2005/10/feeddemon*16*au.html) (not being a Windows user), it merely reminded me of this worrying, dare I call it wrong headed, trend.

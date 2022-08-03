@@ -25,4 +25,4 @@ tags:
     - voip
 ---
 
-Congrats! At the Foocamp VOIP hacking session it became clear that \[Rabble\](http://anarchogeek.com) and \[Lattice\](http://romeda.org) had actually **done** it, not just talked about it.
+Congrats! At the Foocamp VOIP hacking session it became clear that [Rabble](http://anarchogeek.com) and [Lattice](http://romeda.org) had actually **done** it, not just talked about it.

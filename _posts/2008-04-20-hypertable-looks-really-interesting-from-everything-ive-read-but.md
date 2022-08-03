@@ -19,4 +19,4 @@ tags:
     - zvents
 ---
 
-… I can’t get over this nagging question, “Why does \[Zvents\](http://zvents.com) need a distributed, sparse matrix, versioned datastore?” I don’t track the calendaring space as much as I used to, and sometimes innovation is self justifying, but I’d feel a lot better about the project if I knew that answer.
+… I can’t get over this nagging question, “Why does [Zvents](http://zvents.com) need a distributed, sparse matrix, versioned datastore?” I don’t track the calendaring space as much as I used to, and sometimes innovation is self justifying, but I’d feel a lot better about the project if I knew that answer.

@@ -19,6 +19,6 @@ tags:
     - sanfran
 ---
 
-Will be in Santa Cruz this weekend visiting the folks, and then in San Francisco, Mon (May2) – Thurs (May5) hanging out at the \[Odeo\](http://odeo.com) office. A lot of my time is already spoken for, but I always look forward to meeting up with friends and acquaintances (past, future, present, or virtual) when and where possible.
+Will be in Santa Cruz this weekend visiting the folks, and then in San Francisco, Mon (May2) – Thurs (May5) hanging out at the [Odeo](http://odeo.com) office. A lot of my time is already spoken for, but I always look forward to meeting up with friends and acquaintances (past, future, present, or virtual) when and where possible.
 
 *(note: this entry was almost titled “Have PickAxe Will Travel”)*

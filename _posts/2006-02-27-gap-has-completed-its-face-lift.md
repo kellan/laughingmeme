@@ -22,4 +22,4 @@ tags:
     - culture
 ---
 
-And contrary to \[Spike Jonze’s wish fulfillment piece\](http://brandxculture.com/blog/2006/01/spike-jonze-does-it-again.html), the results are predictably predictable. J reviews, plus a note on how to freak out sales people.
+And contrary to [Spike Jonze’s wish fulfillment piece](http://brandxculture.com/blog/2006/01/spike-jonze-does-it-again.html), the results are predictably predictable. J reviews, plus a note on how to freak out sales people.

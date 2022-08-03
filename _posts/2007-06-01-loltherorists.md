@@ -17,4 +17,4 @@ tags:
     - theory
 ---
 
-in ur society, bein teh mysteerious 0thr! Also \[LOLFeeds\](http://lol.ianloic.com/), and \[LOLBots\](http://lolbots.com/) (aka \[robot finds kitten?\](http://robotfindskitten.org))
+in ur society, bein teh mysteerious 0thr! Also [LOLFeeds](http://lol.ianloic.com/), and [LOLBots](http://lolbots.com/) (aka [robot finds kitten?](http://robotfindskitten.org))

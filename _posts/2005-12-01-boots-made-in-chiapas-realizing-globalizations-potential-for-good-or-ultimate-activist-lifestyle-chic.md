@@ -22,4 +22,4 @@ tags:
     - zapatista
 ---
 
-Or both? See this \[short Dominion article\](http://dominionpaper.ca/accounts/2005/12/01/give*them*.html) for more info.
+Or both? See this [short Dominion article](http://dominionpaper.ca/accounts/2005/12/01/give*them*.html) for more info.

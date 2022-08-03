@@ -10,10 +10,10 @@ categories:
     - Uncategorized
 ---
 
-Today is George’s \[first day\](http://george08.blogspot.com/2009/04/new-leaf.html) heading up the \[Open Library project\](http://openlibrary.org/about), a project with a simple goal:
+Today is George’s [first day](http://george08.blogspot.com/2009/04/new-leaf.html) heading up the [Open Library project](http://openlibrary.org/about), a project with a simple goal:
 
 > *“a page on the web for every book ever published”*
 
-Woot! Something I’ve \[wanted for forever\](http://laughingmeme.org/2003/01/04/a-definitive-uri-for-books/).
+Woot! Something I’ve [wanted for forever](http://laughingmeme.org/2003/01/04/a-definitive-uri-for-books/).
 
 And George is a great person to head it up. Congratulations all around

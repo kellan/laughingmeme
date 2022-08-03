@@ -22,7 +22,7 @@ tags:
     - privacy
 ---
 
-The “public by default” nature of blogging, \[Flickr\](http://flickr.com), and \[del.icio.us\](http://del.icio.us) has been key to their success where earlier attempts have failed. Still there is a huge amount of info out there that is sensitive. In particular there is a large swathe of it which is **time sensitive**: research for a present or a presentation, research for a new product or a new job, information which gives away too much information about current intentions or physical location or security vulnerabilities, <insert example="" here="" your="">.</insert>
+The “public by default” nature of blogging, [Flickr](http://flickr.com), and [del.icio.us](http://del.icio.us) has been key to their success where earlier attempts have failed. Still there is a huge amount of info out there that is sensitive. In particular there is a large swathe of it which is **time sensitive**: research for a present or a presentation, research for a new product or a new job, information which gives away too much information about current intentions or physical location or security vulnerabilities, <insert example="" here="" your="">.</insert>
 
 In fact I would argue that there is a significant overlap between the information we’re not yet ready to share, and our best, most in-depth research. **The information we’re most likely to make private is the information that would most likely be useful to others.**
 

@@ -16,4 +16,4 @@ In our 2012, “Most Williamsburg” contest, [Mike White](http://shotzombies.co
 
 > *“This is how I use my Chemex filters. ”*
 
-See also, \[pourover mac and cheese\](http://shotzombies.com/2012/01/29/video-kraft-kommons-pourover-macaroni-and-cheese-technique/), and \[The Awl’s “get off my lawn” defense of NYC’s traditionally terrible coffee\](http://www.theawl.com/2012/01/the-scourge-of-pour-over-coffee).
+See also, [pourover mac and cheese](http://shotzombies.com/2012/01/29/video-kraft-kommons-pourover-macaroni-and-cheese-technique/), and [The Awl’s “get off my lawn” defense of NYC’s traditionally terrible coffee](http://www.theawl.com/2012/01/the-scourge-of-pour-over-coffee).

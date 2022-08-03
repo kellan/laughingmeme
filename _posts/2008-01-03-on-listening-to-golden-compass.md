@@ -16,7 +16,7 @@ tags:
     - 'phillip pullman'
 ---
 
-I read “Golden Compass” 8+ years ago, but I remembered it vividly, or so I thought. Watching the movie was frustrating and disappointing, but hard to pin down exactly why. We picked up the audiobook of “Golden Compass” for \[our drive to Los Angeles\](http://flickr.com/photos/kellan/sets/72157603613465712/), and finished the last disc just as we turned off the engine having made it back to SF. And I’ve got a scattering of mental notes to get down.
+I read “Golden Compass” 8+ years ago, but I remembered it vividly, or so I thought. Watching the movie was frustrating and disappointing, but hard to pin down exactly why. We picked up the audiobook of “Golden Compass” for [our drive to Los Angeles](http://flickr.com/photos/kellan/sets/72157603613465712/), and finished the last disc just as we turned off the engine having made it back to SF. And I’ve got a scattering of mental notes to get down.
 
 - The recording is *excellent*. We’ve been disappointed by a couple of the audiobooks we tried recently, but not this time. The narration is read by the author, with a large cast of voice actors doing the speaking bits. Its really more of an old radio play. Excellent.
 - Except they should have gotten Ian McKellen to do Iorek Bymison, Weitz’s one master stroke.

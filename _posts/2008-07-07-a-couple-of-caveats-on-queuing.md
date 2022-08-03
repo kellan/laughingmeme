@@ -17,9 +17,9 @@ tags:
     - twitter
 ---
 
-Les’ \[“Delight Everyone”\](http://decafbad.com/blog/2008/07/04/queue-everything-and-delight-everyone) post is latest greatest addition to the \[17th letter of the alphabet for savior\](http://randomfoo.net/blog/id/4182) conversation.
+Les’ [“Delight Everyone”](http://decafbad.com/blog/2008/07/04/queue-everything-and-delight-everyone) post is latest greatest addition to the [17th letter of the alphabet for savior](http://randomfoo.net/blog/id/4182) conversation.
 
-And believe me I’m a huge fan, and am busy carving out a night sometime this week to play with the \[RabbitMQ/XMPP bridge\](http://www.lshift.net/blog/2008/07/01/rabbitmq-xmpp-gateway-released) (/waves \[hi Alexis\](http://del.icio.us/alexisrichardson)).
+And believe me I’m a huge fan, and am busy carving out a night sometime this week to play with the [RabbitMQ/XMPP bridge](http://www.lshift.net/blog/2008/07/01/rabbitmq-xmpp-gateway-released) (/waves [hi Alexis](http://del.icio.us/alexisrichardson)).
 
 **But** …. there are a couple of caveats:
 
@@ -39,12 +39,12 @@ Ideally you can add processing boxes in parallel forever but if your dequeuing r
 
 Think about it, if you’re falling behind 1 event per second, processing 1,000,000 events a second, but adding 1,000,001 for example, at the end of the day your 86,400 events in debt and counting. It’s likes losing money on individual sales, but trying to make it up in volume.
 
-Good news: \[Traffic is spiky\](http://radar.oreilly.com/archives/2008/06/the-new-internet-traffic-spike.html) and most sites see daily cycles with quiet times.
+Good news: [Traffic is spiky](http://radar.oreilly.com/archives/2008/06/the-new-internet-traffic-spike.html) and most sites see daily cycles with quiet times.
 
 Bad news: Many highly tuned systems exhibit slow down properties as their backlogs increase. Like a credit card, processing debt can get exponentially unmanageable.
 
-In practice this means that most of the time your queue consumers should be sitting around bored. (see Allspaw’s \[Capacity Planning slides\](http://www.slideshare.net/jallspaw/velocity2008-capacity-management1-484676) for more on that theme.)
+In practice this means that most of the time your queue consumers should be sitting around bored. (see Allspaw’s [Capacity Planning slides](http://www.slideshare.net/jallspaw/velocity2008-capacity-management1-484676) for more on that theme.)
 
 If you can’t guarantee those real time writes for thems that cares, and mostly bored queue consumers the rest of the time then your queues might not delight you after all.
 
-See also: \[Twitter, or Architecture Will Not Save You\](http://laughingmeme.org/2008/05/28/twitter-or-architecture-will-not-save-you/)
+See also: [Twitter, or Architecture Will Not Save You](http://laughingmeme.org/2008/05/28/twitter-or-architecture-will-not-save-you/)

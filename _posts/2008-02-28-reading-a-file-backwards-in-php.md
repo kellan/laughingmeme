@@ -14,7 +14,7 @@ tags:
     - unix
 ---
 
-This morning I needed to read from a file line by line from the bottom. In PHP. Perl, of course, \[has a module to do this\](http://search.cpan.org/dist/File-ReadBackwards/ReadBackwards.pm). A quick view source decided that I didn’t want to get into file seeks before breakfast. Very happy with my solution:
+This morning I needed to read from a file line by line from the bottom. In PHP. Perl, of course, [has a module to do this](http://search.cpan.org/dist/File-ReadBackwards/ReadBackwards.pm). A quick view source decided that I didn’t want to get into file seeks before breakfast. Very happy with my solution:
 
 ```
 $file = popen("tac $filename",'r');

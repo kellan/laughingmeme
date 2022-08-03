@@ -21,7 +21,7 @@ tags:
     - opensource
 ---
 
-I haven’t seen it, but someone has **got** to be working on it, so where is the open source webmail app, that can front-end my IMAP server, and works like Gmail? So calling out to the \[LazyWeb\](http://www.lazyweb.org/) I haven’t seen it, but someone has **got** to be working on it, so where is the open source webmail app, that can front-end my IMAP server, and works like Gmail? So calling out to the \[LazyWeb\](http://www.lazyweb.org/)
+I haven’t seen it, but someone has **got** to be working on it, so where is the open source webmail app, that can front-end my IMAP server, and works like Gmail? So calling out to the [LazyWeb](http://www.lazyweb.org/) I haven’t seen it, but someone has **got** to be working on it, so where is the open source webmail app, that can front-end my IMAP server, and works like Gmail? So calling out to the [LazyWeb](http://www.lazyweb.org/)
 
 Its funny, Gmail just added the one feature that I was missing so much that I was ready to leave, the ability to customize the `From:` field, and yet I’m more ready to leave then ever. Why?
 
@@ -51,4 +51,4 @@ My short list:
 - GPG integration
 - archive this thread (aka conversation) and all future messages to it
 
-That plus client independence with the IMAP backend. There have been a few good comments added to my original \[Gmail IMAP\](http://laughingmeme.org/archives/002531.html) post if anyone is looking for inspiration.
+That plus client independence with the IMAP backend. There have been a few good comments added to my original [Gmail IMAP](http://laughingmeme.org/archives/002531.html) post if anyone is looking for inspiration.

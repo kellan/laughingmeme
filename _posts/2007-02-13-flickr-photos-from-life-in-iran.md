@@ -17,4 +17,4 @@ tags:
     - photos
 ---
 
-Show a different image then our official propaganda. Picnics, family, skiing, snow days. Are we really going invade a country full of Flickr users and bloggers? (Rafe as always, \[says it better\](http://rc3.org/2007/02/spinning\_iran.php))
+Show a different image then our official propaganda. Picnics, family, skiing, snow days. Are we really going invade a country full of Flickr users and bloggers? (Rafe as always, [says it better](http://rc3.org/2007/02/spinning\_iran.php))

@@ -20,6 +20,6 @@ tags:
     - yahoo
 ---
 
-\[Weather over RSS\](http://laughingmeme.org/archives/cat\_weather.html) is something I experimented with a bunch, but I got sick of writing scrapers for the data. Every now and then someone (including the \[NWS\](http://weather.gov)) will launch weather feeds, and I’ll hope the problem has been solved, and I can cross it off my todo list. But alas it never is.
+[Weather over RSS](http://laughingmeme.org/archives/cat\_weather.html) is something I experimented with a bunch, but I got sick of writing scrapers for the data. Every now and then someone (including the [NWS](http://weather.gov)) will launch weather feeds, and I’ll hope the problem has been solved, and I can cross it off my todo list. But alas it never is.
 
-Now \[Yahoo Weather has feeds\](http://weather.yahoo.com/rss), and they’re the best I’ve seen in that the data is actually structured enough to re-use. Problem solved.
+Now [Yahoo Weather has feeds](http://weather.yahoo.com/rss), and they’re the best I’ve seen in that the data is actually structured enough to re-use. Problem solved.

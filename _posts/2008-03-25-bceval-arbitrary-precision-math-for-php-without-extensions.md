@@ -17,7 +17,7 @@ tags:
     - unix
 ---
 
-I needed arbitrary precision math in PHP, and wasn’t willing to rebuild PHP to add the \[bcmath\](http://www.php.net/bc) extensions. All hail backticks.
+I needed arbitrary precision math in PHP, and wasn’t willing to rebuild PHP to add the [bcmath](http://www.php.net/bc) extensions. All hail backticks.
 
 ```
 function bceval($expr) {
@@ -33,4 +33,4 @@ $end = bceval("$start + $batchsize - 1");
 
 ```
 
-\[Wet cat\](http://simonwillison.net/2003/Jun/24/philosophy/) territory.
+[Wet cat](http://simonwillison.net/2003/Jun/24/philosophy/) territory.

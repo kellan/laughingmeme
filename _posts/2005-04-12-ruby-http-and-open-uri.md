@@ -23,9 +23,9 @@ tags:
     - web
 ---
 
-Ruby’s obvious HTTP client library is \[Net::HTTP\](http://www.ruby-doc.org/stdlib/libdoc/net/http/rdoc/index.html) (‘net/http’), however it feels a little bit awkward to use and lacks nice features like following redirects. If you’re coming from LWP you’ll be disappointed.
+Ruby’s obvious HTTP client library is [Net::HTTP](http://www.ruby-doc.org/stdlib/libdoc/net/http/rdoc/index.html) (‘net/http’), however it feels a little bit awkward to use and lacks nice features like following redirects. If you’re coming from LWP you’ll be disappointed.
 
-However there is a nice wrapper, \[open-uri\](http://www.ruby-doc.org/stdlib/libdoc/open-uri/rdoc/index.html) that makes it simple to add custom headers, provides loop aware redirect following, etc. And it provides a super slick drop in replacement for the \[`Kernel#open`\](http://www.ruby-doc.org/core/classes/Kernel.html#M001754) method, so that you can open either a local file, or a remote URL….
+However there is a nice wrapper, [open-uri](http://www.ruby-doc.org/stdlib/libdoc/open-uri/rdoc/index.html) that makes it simple to add custom headers, provides loop aware redirect following, etc. And it provides a super slick drop in replacement for the [`Kernel#open`](http://www.ruby-doc.org/core/classes/Kernel.html#M001754) method, so that you can open either a local file, or a remote URL….
 
 ### Danger Will Robinson! Danger
 

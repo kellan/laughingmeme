@@ -23,8 +23,8 @@ tags:
     - sysadmin
 ---
 
-\[Riseup\](http://riseup.net) \[patches to keep various logging apps like syslog from recording IP addresses\](http://dev.riseup.net/patches/). Also
+[Riseup](http://riseup.net) [patches to keep various logging apps like syslog from recording IP addresses](http://dev.riseup.net/patches/). Also
 
 > Additionally we’ve got a patch to postfix that anonymizes SMTP header lines that are sent through over a SASL authenticated SMTP connection. This is unnecessary information added for no apparant reason by Postfix, and we dont think its a nice thing to do to let everyone know what your home DSL connection is.
 
-Nice! That was one of the few features about me Postfix which really bugged me. More info on \[imc-tech\](http://lists.indymedia.org/pipermail/imc-tech/2005-April/0410-j5.html)
+Nice! That was one of the few features about me Postfix which really bugged me. More info on [imc-tech](http://lists.indymedia.org/pipermail/imc-tech/2005-April/0410-j5.html)

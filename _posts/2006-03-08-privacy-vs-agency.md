@@ -24,4 +24,4 @@ tags:
 
 One of the unfrequently mentioned costs of privacy is that you give up the ability to set your own frame. Or put more plainly, one of the benefits of blogging is taking control of your own story. (assuming you can manage the fairly minor feat of establishing yourself as credible source about you)
 
-We don’t normally think in terms of the **cost** of privacy (other then as the operational cost imposed by one’s threat model), but it came up today, and I was intrigued. (See also \[Documentation in the Age of Google\](http://laughingmeme.org/articles/2004/10/21/documentation-in-the-age-of-google))
+We don’t normally think in terms of the **cost** of privacy (other then as the operational cost imposed by one’s threat model), but it came up today, and I was intrigued. (See also [Documentation in the Age of Google](http://laughingmeme.org/articles/2004/10/21/documentation-in-the-age-of-google))

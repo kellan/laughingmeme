@@ -24,4 +24,4 @@ tags:
     - wp
 ---
 
-Is Matt going to get \[dragged\](http://www.valleywag.com/tech/wordpress/did-wordpress-take-funding-166824.php) out of the \[closet\](http://waxy.org/archive/2005/03/30/wordpres.shtml)? Funny thing is I heard that WP had taken \[Polaris\](http://www.polarisventures.com/) funding last September. Anyone else hearing that this is old news, poorly disclosed?
+Is Matt going to get [dragged](http://www.valleywag.com/tech/wordpress/did-wordpress-take-funding-166824.php) out of the [closet](http://waxy.org/archive/2005/03/30/wordpres.shtml)? Funny thing is I heard that WP had taken [Polaris](http://www.polarisventures.com/) funding last September. Anyone else hearing that this is old news, poorly disclosed?

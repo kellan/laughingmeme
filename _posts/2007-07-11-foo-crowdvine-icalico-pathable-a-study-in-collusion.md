@@ -25,9 +25,9 @@ tags:
 
 I didn’t make it to FOO this year, but I did send software in my stead, and its nice to hear that folks liked it.
 
-We slaved \[iCalico\](http://www.google.com/search?q=icalico) to \[Crowdvine\](http://crowdvine.com) to add a social networking layer, a network that was walked, mapped, and color coded by the \[Pathable\](http://pathable.com/) folks.
+We slaved [iCalico](http://www.google.com/search?q=icalico) to [Crowdvine](http://crowdvine.com) to add a social networking layer, a network that was walked, mapped, and color coded by the [Pathable](http://pathable.com/) folks.
 
-Tony has a nice \[report back on it\](http://www.stubbleblog.com/archives/2007/07/social\_conferen.html), as does \[Shelly from Pathable\](http://wagglelabs.com/2007/7/6/waggle-labs-at-foo-camp) (6 weeks aka a couple of late nights). And Scott Berkun (who owes me a copy of “Art of Project Management”!) said \[super nice things\](http://www.scottberkun.com/blog/2007/more-social-software-crowdvine-pathable/).
+Tony has a nice [report back on it](http://www.stubbleblog.com/archives/2007/07/social\_conferen.html), as does [Shelly from Pathable](http://wagglelabs.com/2007/7/6/waggle-labs-at-foo-camp) (6 weeks aka a couple of late nights). And Scott Berkun (who owes me a copy of “Art of Project Management”!) said [super nice things](http://www.scottberkun.com/blog/2007/more-social-software-crowdvine-pathable/).
 
 ### Collusion Patterns
 

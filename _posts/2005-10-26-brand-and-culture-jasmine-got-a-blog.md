@@ -27,10 +27,10 @@ tags:
 
 So much happened in the last 3 weeks while you’ve been deprived of my piercing insights, its hard to know where to begin catching up.
 
-To me the most exciting news is that Jasmine now has a blog, \[brandxculture\](http://brandxculture.com/blog/) (pronounced \[‘brand and culture’\](http://brandxculture.com/blog/)). Truth be told she has had it for a while, but only recently officially launched it.
+To me the most exciting news is that Jasmine now has a blog, [brandxculture](http://brandxculture.com/blog/) (pronounced [‘brand and culture’](http://brandxculture.com/blog/)). Truth be told she has had it for a while, but only recently officially launched it.
 
 My favorite posts so far are
 
-- \[Perish or Thrive\](http://brandxculture.com/blog/2005/09/perish-or-thrive.html)
-- \[Granny’s revival\](http://brandxculture.com/blog/2005/09/grannys-revival.html)
-- \[Brands are like personalities\](http://brandxculture.com/blog/2005/08/brands-are-like-personalities.html)
+- [Perish or Thrive](http://brandxculture.com/blog/2005/09/perish-or-thrive.html)
+- [Granny’s revival](http://brandxculture.com/blog/2005/09/grannys-revival.html)
+- [Brands are like personalities](http://brandxculture.com/blog/2005/08/brands-are-like-personalities.html)

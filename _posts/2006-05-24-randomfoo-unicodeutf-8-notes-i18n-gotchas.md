@@ -25,4 +25,4 @@ tags:
     - utf8
 ---
 
-Leonard’s note on converting \[Upcoming\](http://upcoming.org), a LAMP melange of PHP, Perl, and Python to native UTF-8.
+Leonard’s note on converting [Upcoming](http://upcoming.org), a LAMP melange of PHP, Perl, and Python to native UTF-8.

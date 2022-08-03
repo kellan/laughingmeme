@@ -14,7 +14,7 @@ I’ve got a short list of things I tell people they need to do to survive being
 
 I’m sure the list isn’t especially unique to being senior management but there are a few things that are unique to being senior management, that makes it particularly relevant:
 
-- it’s a job where your ability to cope with your demons is critical to the success of everyone who works for you. See also Ben Horowitz’s, \[“What’s The Most Difficult CEO Skill? Managing Your Own Psychology”\](http://bhorowitz.com/2011/04/01/what%E2%80%99s-the-most-difficult-ceo-skill-managing-your-own-psychology/)
+- it’s a job where your ability to cope with your demons is critical to the success of everyone who works for you. See also Ben Horowitz’s, [“What’s The Most Difficult CEO Skill? Managing Your Own Psychology”](http://bhorowitz.com/2011/04/01/what%E2%80%99s-the-most-difficult-ceo-skill-managing-your-own-psychology/)
 - most people doing the work (at least in tech) are transitioning from maker to manager, and while a few special people are both good at management and enjoy it (and also a few sociopaths), most of us find it a really difficult transition to feel good about consistently and on an ongoing basis.
 
 It’s a simple list. It shouldn’t surprise. This is the minimum. This is my list from having done the job, managed folks doing the job, hired, promoted, and fired folks doing the job, and perhaps most importantly drank with folks doing the job. Your mileage may vary. (But I’d be kind of surprised.)

@@ -18,4 +18,4 @@ tags:
     - wikipedia
 ---
 
-Found via \[wikinear\](http://wikinear.com)
+Found via [wikinear](http://wikinear.com)

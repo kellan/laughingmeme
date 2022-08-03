@@ -23,4 +23,4 @@ tags:
     - web2.0
 ---
 
-It is an \[embarrassment\](http://www.carsonworkshops.com/summit/).
+It is an [embarrassment](http://www.carsonworkshops.com/summit/).

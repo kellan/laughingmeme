@@ -23,4 +23,4 @@ tags:
     - syndication
 ---
 
-\[Aaron\](http://www.campusactivism.org/akreider/) of \[Campus Activism\](http://www.campusactivism.org/) is providing a feed to image service for easy integration into MySpace (or anywhere else). Using Magpie.
+[Aaron](http://www.campusactivism.org/akreider/) of [Campus Activism](http://www.campusactivism.org/) is providing a feed to image service for easy integration into MySpace (or anywhere else). Using Magpie.

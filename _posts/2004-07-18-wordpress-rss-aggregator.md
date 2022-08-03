@@ -62,7 +62,7 @@ Uses [Magpie](http://magpierss.sf.net) (surprise!), so you get to leverage suppo
 - Option groups, and the postmeta table make it incredibly simple to add new features.
 - PHP5+SQLite support, and a one-click install could make WP the Kwiki of blogging tools.
 
-**update \[2004/10/28\]**: In Boston, but on Seattle time, fill in some extra details. This quick hack is growing faqs, and might need to sprout a page of its own pretty soon. In the mean time there is a [new version](http://laughingmeme.org/code/wp-rss-aggregate.php.txt) which uses a simple config file, and has expanded [del.icio.us](http://del.icio.us) support.
+**update [2004/10/28]**: In Boston, but on Seattle time, fill in some extra details. This quick hack is growing faqs, and might need to sprout a page of its own pretty soon. In the mean time there is a [new version](http://laughingmeme.org/code/wp-rss-aggregate.php.txt) which uses a simple config file, and has expanded [del.icio.us](http://del.icio.us) support.
 
 ### FAQ
 

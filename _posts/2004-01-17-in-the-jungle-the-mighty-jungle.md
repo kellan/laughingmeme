@@ -26,7 +26,7 @@ Expose has not yet entered my work flow, but it seems cool. I also get the feeli
 
 [LaunchBar](http://www.obdev.at/products/launchbar/) has entered my flow, and is critical. Computers aren’t worth using without it, the new 3.3beta3 adds “improved Panther compatibility”, so I installed it.
 
-[XChat-Aqua](http://xchataqua.sourceforge.net/) has a hiccup where the private message alert icon isn’t going away. (ooh, there is a new version \[0.12.0\] I should download)
+[XChat-Aqua](http://xchataqua.sourceforge.net/) has a hiccup where the private message alert icon isn’t going away. (ooh, there is a new version [0.12.0] I should download)
 
 The Cmd-Tab is functional, fast, and beautiful. The crisp, large icons (I’m only running a handful of apps) are very pleasing.
 

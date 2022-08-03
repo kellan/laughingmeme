@@ -21,10 +21,10 @@ tags:
     - social
 ---
 
-Ah yeah! Haven’t played with it in depth yet, but this is the service I’ve wanted forever (and \[Carl\](http://www.google.com/search?q=carl+coryell+martin) and I seriously sat down and threatened to build).
+Ah yeah! Haven’t played with it in depth yet, but this is the service I’ve wanted forever (and [Carl](http://www.google.com/search?q=carl+coryell+martin) and I seriously sat down and threatened to build).
 
-From \[Joi Ito\](http://joi.ito.com/archives/2006/08/07/bookmooch.html)
+From [Joi Ito](http://joi.ito.com/archives/2006/08/07/bookmooch.html)
 
-> It reminds me a bit of BookCrossing, but the approach is different. \[BookMooch\](http://bookmooch.com/) is more systematic. On \[BookMooch\](http://bookmooch.com/), you register your books and others search for books. You use points to get books that you earn by listing books. Unlike many other used book services, they don’t get involved in the shipping and payment. It’s rather peer-to-peer.
+> It reminds me a bit of BookCrossing, but the approach is different. [BookMooch](http://bookmooch.com/) is more systematic. On [BookMooch](http://bookmooch.com/), you register your books and others search for books. You use points to get books that you earn by listing books. Unlike many other used book services, they don’t get involved in the shipping and payment. It’s rather peer-to-peer.
 
-Which is all I know so far, but I’m **so** diving into this tonight. From the creator of \[Magnatune\](http://www.magnatune.com/). (I wonder if they’ve already got selective importing from the \[various book listing services\](http://laughingmeme.org/articles/2005/11/06/on-book-listing-services)
+Which is all I know so far, but I’m **so** diving into this tonight. From the creator of [Magnatune](http://www.magnatune.com/). (I wonder if they’ve already got selective importing from the [various book listing services](http://laughingmeme.org/articles/2005/11/06/on-book-listing-services)

@@ -16,4 +16,4 @@ raw_content:
     - 'I\''ve received 3 email spams, and 2 blog spams quoting [Jack London](http://en.wikipedia.org/wiki/Jack_London) while also shilling penis enlargement.  Very fitting I think. (Maybe I\''m just still bitter, growing up in California you read a **lot** of London over the course of your school career)'
 ---
 
-I’ve received 3 email spams, and 2 blog spams quoting \[Jack London\](http://en.wikipedia.org/wiki/Jack\_London) while also shilling penis enlargement. Very fitting I think. (Maybe I’m just still bitter, growing up in California you read a **lot** of London over the course of your school career)
+I’ve received 3 email spams, and 2 blog spams quoting [Jack London](http://en.wikipedia.org/wiki/Jack\_London) while also shilling penis enlargement. Very fitting I think. (Maybe I’m just still bitter, growing up in California you read a **lot** of London over the course of your school career)

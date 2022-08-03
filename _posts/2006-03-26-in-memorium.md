@@ -21,14 +21,14 @@ tags:
 
 My grandfather passed away last week, and I’ve found myself at an unaccustomed loss of words. So I offer up others’ words
 
-- \[Robert Kingwill Elliott, the official obituary\](http://murraycreek.net/robert/robert*kingwill*elliott.htm)
-- Aidan’s \[Good night, sweet prince. And flights of angels sing thee to thy rest.\](http://sedesdraconis.livejournal.com/107932.html)
-- \[More Magic My Dad Taught Me\](http://murraycreek.net/robert/more*magic*my*dad*taught\_me.htm) by Robert Jr., \[family poet\](http://murraycreek.net/poems.htm). (sequel to \[Magic My Dad Taught Me\](http://murraycreek.net/robert/dad75.htm)
-- Char’s \[“Love you old wizard”\](http://selkie14.livejournal.com/234149.html)
+- [Robert Kingwill Elliott, the official obituary](http://murraycreek.net/robert/robert*kingwill*elliott.htm)
+- Aidan’s [Good night, sweet prince. And flights of angels sing thee to thy rest.](http://sedesdraconis.livejournal.com/107932.html)
+- [More Magic My Dad Taught Me](http://murraycreek.net/robert/more*magic*my*dad*taught\_me.htm) by Robert Jr., [family poet](http://murraycreek.net/poems.htm). (sequel to [Magic My Dad Taught Me](http://murraycreek.net/robert/dad75.htm)
+- Char’s [“Love you old wizard”](http://selkie14.livejournal.com/234149.html)
 
 ### Gospel of Social Justice
 
-His memorial service was on Friday. This summer we’ll do a scattering of the ashes at the \[Labyrinth\](http://murraycreek.net/labyrinth/), but Friday was at Trinity Episcopal Church in Sutter Creek. The Rector welcomed us with a story.
+His memorial service was on Friday. This summer we’ll do a scattering of the ashes at the [Labyrinth](http://murraycreek.net/labyrinth/), but Friday was at Trinity Episcopal Church in Sutter Creek. The Rector welcomed us with a story.
 
 > “20+ years ago, newly arrived in Sutter Creek having just graduated from seminary, I took out a small ad announcing a new Friday night service.”
 > 
@@ -48,7 +48,7 @@ Folks laughed, but it wasn’t really meant to be that funny.
 
 > “When I was kid, maybe 20 years ago, maybe 15, we were up at Yosemite, and Grandpa was telling us about shamanism. He was talking about how tree roots are gateways, you follow the roots down and down and down eventually you find yourself in the Spirit world. Since them I’ve always thought of trees with their roots exposed as gateways.”
 > 
-> “Week before last Murray Creek was hit by a \[100 year storm\](http://www.hollyc.com/murraycreeksnowstorm/index2.html), and walking across the hills, shimmering green for a brief window before being baked back to their more characteristic golden brown, there were dozens, maybe hundreds of trees down everywhere, 100-200 year old live oaks. And everywhere roots, reaching out, and I couldn’t help but think that doors had been thrown open, welcoming Grandpa home.” (as we say in the Irish Methodist tradition of my forebears)
+> “Week before last Murray Creek was hit by a [100 year storm](http://www.hollyc.com/murraycreeksnowstorm/index2.html), and walking across the hills, shimmering green for a brief window before being baked back to their more characteristic golden brown, there were dozens, maybe hundreds of trees down everywhere, 100-200 year old live oaks. And everywhere roots, reaching out, and I couldn’t help but think that doors had been thrown open, welcoming Grandpa home.” (as we say in the Irish Methodist tradition of my forebears)
 
 I got to tell Grandpa that story shortly before he died, he opened his eyes, and smiled.
 
@@ -56,4 +56,4 @@ I got to tell Grandpa that story shortly before he died, he opened his eyes, and
 
 Feels wrong to collapse memory into such a simple representation, but how does one hold onto to people so complex if you don’t simplify?
 
-I also met \[Audrey Michelle Elliott-Heye\](http://hollyc.com/AudreyVisit12-2Gallery/index.html) for the first time this week, who surprisingly in this family doesn’t seem to have her own website or blog yet.
+I also met [Audrey Michelle Elliott-Heye](http://hollyc.com/AudreyVisit12-2Gallery/index.html) for the first time this week, who surprisingly in this family doesn’t seem to have her own website or blog yet.

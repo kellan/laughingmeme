@@ -14,4 +14,4 @@ categories:
 
 [Made in New York](http://vimeo.com/39219306) from [NASDAQ](http://vimeo.com/nasdaq) on [Vimeo](http://vimeo.com).
 
-The two hour interview I did for this piece was a nice culmination of the last 4 years I’ve spent thinking about what makes the New York tech scene different and special. In retrospect editing it down to 7 seconds was even better. In \[the words of the mayor\](https://twitter.com/#!/MikeBloomberg/status/185054909849272320), “NYC is where the best and brightest come to shine”.
+The two hour interview I did for this piece was a nice culmination of the last 4 years I’ve spent thinking about what makes the New York tech scene different and special. In retrospect editing it down to 7 seconds was even better. In [the words of the mayor](https://twitter.com/#!/MikeBloomberg/status/185054909849272320), “NYC is where the best and brightest come to shine”.

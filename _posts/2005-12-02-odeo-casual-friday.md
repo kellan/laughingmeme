@@ -21,4 +21,4 @@ tags:
     - web2.0
 ---
 
-The new \[Odeo\](http://odeo.com) site is up; the one presaged by Evhead’s \[10 Rules\](http://evhead.com/2005/11/ten-rules-for-web-startups.asp) post. It’s not about podcasting (“be different”), its about getting casual. Casual creation, casual sharing.
+The new [Odeo](http://odeo.com) site is up; the one presaged by Evhead’s [10 Rules](http://evhead.com/2005/11/ten-rules-for-web-startups.asp) post. It’s not about podcasting (“be different”), its about getting casual. Casual creation, casual sharing.

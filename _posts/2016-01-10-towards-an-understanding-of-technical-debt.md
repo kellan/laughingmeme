@@ -70,7 +70,7 @@ Hence the paradox: how is it that a team of brilliant senior engineers need 6 mo
 
 It makes no sense, unless you factor in and address the emotional impact of working on certain types of code. (and to be clear different types of code have this impact on different types of people, just another reason to be thinking about having a diverse team)
 
-The other time I see teams struggling with this scared-tired-angry experience is when they’re asked to work on technology that runs counter to their identity politics. I struggle to describe this phenomena with an empathic view point and so I’ll defer, but this recent post on \[contempt culture\](http://blog.aurynn.com/86/contempt-culture) is a good starting point.
+The other time I see teams struggling with this scared-tired-angry experience is when they’re asked to work on technology that runs counter to their identity politics. I struggle to describe this phenomena with an empathic view point and so I’ll defer, but this recent post on [contempt culture](http://blog.aurynn.com/86/contempt-culture) is a good starting point.
 
 ### 5. Dependencies that resist upgrading
 

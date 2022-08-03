@@ -19,4 +19,4 @@ tags:
     - indian
 ---
 
-If you should ever find yourself needing to kill an hour in the environs of RDU (Raleigh-Durham airport), I’d like to heartily recommend \[Tower Restaurant\](http://towerindianrestaurant.com/), as an excellent source for vegetarian, south Indian cuisine. In particular the Gunpowder Masala Dosai is not to be missed.
+If you should ever find yourself needing to kill an hour in the environs of RDU (Raleigh-Durham airport), I’d like to heartily recommend [Tower Restaurant](http://towerindianrestaurant.com/), as an excellent source for vegetarian, south Indian cuisine. In particular the Gunpowder Masala Dosai is not to be missed.

@@ -44,7 +44,7 @@ weather: might include: - sky – a prose description of current conditions
 
 One of the first things you notice with weather is people (ahem, the U.S.) like to use their annoying, region specific measurements. Are temperatures in Fahrenheit or Celsius? Is windspeed miles per hour? kilometers per hour? knots? Sometimes visibility is noted as “10 miles”, other times as “very good”.
 
-To paraphrase [Rich Bowen](http://archive.develooper.com/datetime@perl.org/msg00009.html), “The person who came up with \[this system\] needs to be taken out an beaten with a yardstick”.
+To paraphrase [Rich Bowen](http://archive.develooper.com/datetime@perl.org/msg00009.html), “The person who came up with [this system] needs to be taken out an beaten with a yardstick”.
 
 There are a number of potentially complex solutions we could come up with, involving sub-elements, or attributes, or what not, but I thought the easiest would be to require measurements of temperature and distance to be marked unambiguously. So valid temps are 32F or 5C, and a valid windspeed is 13MPH.
 
@@ -63,6 +63,6 @@ Forecast will generally be simpler as there is rarely much info available, still
 
 I haven’t really thought about the Storm namespace yet. The data hear is most radically different then the other two, and I haven’t spent enough time looking at it to determine if there is an underlying set of structured data we can extract or not. But I think something good can be done. ### Good idea?
 
-What do you think, seem like a good idea? Sound interesting? Did I miss something obvious? **update \[2003/7/2\]:** Phil pointed out a prototype XML weather service for Medford Country, OR. Very high quality of data. [Example output](/weather-rss/nws_weather.xml). Too bad this isn’t more widely available.
+What do you think, seem like a good idea? Sound interesting? Did I miss something obvious? **update [2003/7/2]:** Phil pointed out a prototype XML weather service for Medford Country, OR. Very high quality of data. [Example output](/weather-rss/nws_weather.xml). Too bad this isn’t more widely available.
 
-**update \[2003/7/3\]:** Quicktopic [discussion on mod\_weather](http://www.quicktopic.com/em/H/aZRarGycKBuyE)
+**update [2003/7/3]:** Quicktopic [discussion on mod\_weather](http://www.quicktopic.com/em/H/aZRarGycKBuyE)

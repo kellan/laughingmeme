@@ -19,15 +19,15 @@ tags:
     - technorati
 ---
 
-\[Technorati Tags\]\[tags\] is the latest tag implementation, mixing blog content into the slurry of tagged links and photos. You can either use some special snippets of HTML to signify tag membership to their crawler, or you use the \[“category system” of your RSS/Atom feed\]\[tag help\].
+[Technorati Tags][tags] is the latest tag implementation, mixing blog content into the slurry of tagged links and photos. You can either use some special snippets of HTML to signify tag membership to their crawler, or you use the [“category system” of your RSS/Atom feed][tag help].
 
-While they don’t go into great detail about which “category system” they support, we can hope they support looking in dc:subject, one of the few elements that is explicitly repeatable in an RSS 1.0 item. (and if they don’t, I hope they take this as a hint. Additionally I really wish \[del.icio.us\]\[del\] RSS feeds would stop wodging all the tags for a given link into a single dc:subject, but instead go the multiple dc:subject route)
+While they don’t go into great detail about which “category system” they support, we can hope they support looking in dc:subject, one of the few elements that is explicitly repeatable in an RSS 1.0 item. (and if they don’t, I hope they take this as a hint. Additionally I really wish [del.icio.us][del] RSS feeds would stop wodging all the tags for a given link into a single dc:subject, but instead go the multiple dc:subject route)
 
 ### Making it Work w/ MT
 
-Anyway, that isn’t what I sat down to write about, [plenty of other people](http://del.icio.us/tag/technorati) have chronicled Technorati’s tags sufficiently. I just wanted to offer up a \[trivial little MT plugin\]\[plugin\] that I use to split the keywords field into a list, thereby making the field suitable for use as a low rent tag system. I do this with my \[MLP feed\](http://laughingmeme.org/feed/mlp.rdf) to simulate tagging for import into del.icio.us (being contrary, I go the opposite direction of everyone else, and publish my \[linkblog\](http://laughingmeme.org/mlp) locally, and then submit it to \[del.icio.us\]\[del\])
+Anyway, that isn’t what I sat down to write about, [plenty of other people](http://del.icio.us/tag/technorati) have chronicled Technorati’s tags sufficiently. I just wanted to offer up a [trivial little MT plugin][plugin] that I use to split the keywords field into a list, thereby making the field suitable for use as a low rent tag system. I do this with my [MLP feed](http://laughingmeme.org/feed/mlp.rdf) to simulate tagging for import into del.icio.us (being contrary, I go the opposite direction of everyone else, and publish my [linkblog](http://laughingmeme.org/mlp) locally, and then submit it to [del.icio.us][del])
 
-The \[plugin\]\[plugin\] provides a container tag `MTKeyWordList`, and a content tag `MTKeyWord`, that I use like so in my RSS template:
+The [plugin][plugin] provides a container tag `MTKeyWordList`, and a content tag `MTKeyWord`, that I use like so in my RSS template:
 
 ```
 <item>
@@ -40,7 +40,7 @@ The \[plugin\]\[plugin\] provides a container tag `MTKeyWordList`, and a content
 
 ```
 
-Alternately if you wanted to use keywords to add the \[custom Technorati HTML\]\[tag help\] you could do it like so
+Alternately if you wanted to use keywords to add the [custom Technorati HTML][tag help] you could do it like so
 
 ```
 <MTKeyWordList>
@@ -49,9 +49,9 @@ Alternately if you wanted to use keywords to add the \[custom Technorati HTML\]\
 
 ```
 
-You can grab the \[keyword list plugin here\]\[plugin\].
+You can grab the [keyword list plugin here][plugin].
 
-Btw. I really wanted to use the following link to follow \[TechTags\]\[tags\] discussion, but unfortunately it doesn’t actually work, maybe some day:
+Btw. I really wanted to use the following link to follow [TechTags][tags] discussion, but unfortunately it doesn’t actually work, maybe some day:
 
 http://del.icio.us/tag/technorati+tags|tag|folksonomy
 

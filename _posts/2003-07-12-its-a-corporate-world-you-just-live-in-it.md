@@ -18,4 +18,4 @@ raw_content:
 
 Danny detours from talking about dashboard to [talk about Microsoft’s cultural assumptions.](http://www.oblomovka.com/entries/2003/07/12#1058033040)
 
-> One of my big bones with MS \[software\] is that it always makes me feel like I’m eating out of the trash bins outside a cubicle farm.
+> One of my big bones with MS [software] is that it always makes me feel like I’m eating out of the trash bins outside a cubicle farm.

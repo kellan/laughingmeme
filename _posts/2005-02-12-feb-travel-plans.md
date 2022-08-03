@@ -18,6 +18,6 @@ tags:
     - nyc
 ---
 
-We’ll be down in NYC next weekend, celebrate a birthday, see friends, and probably see \[the Gates\](http://www.the-gates-at-central-park.com). Its a short visit, but if we’ve been trying to coordinate meeting up, get in touch.
+We’ll be down in NYC next weekend, celebrate a birthday, see friends, and probably see [the Gates](http://www.the-gates-at-central-park.com). Its a short visit, but if we’ve been trying to coordinate meeting up, get in touch.
 
 End of Feb. I’ll be back in the Bay Area for 5 days, most of which will be in Santa Cruz celebrating some more birthdays. I’ll be in SF proper on Friday (the 25th) and Tuesday (March 1st). Same note as above applies. See you soon.

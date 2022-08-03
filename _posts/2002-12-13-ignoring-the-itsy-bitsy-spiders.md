@@ -22,4 +22,4 @@ So I came up with this idea, when I run my [analog](http://www.analog.cx) report
 
 `LOGFORMAT (%S %j %u [%d/%M/%Y:%h:%n:%j] "%j %r <b>HTTP/1.1</b>" %c %b "%f" "%B" %j %v)`
 
-**update \[2003/1/25\]** this doesn’t work anymore as [Apple’s Safari](http://www.apple.com/safari) uses HTTP/1.0
+**update [2003/1/25]** this doesn’t work anymore as [Apple’s Safari](http://www.apple.com/safari) uses HTTP/1.0

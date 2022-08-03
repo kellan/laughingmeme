@@ -24,7 +24,7 @@ tags:
     - science
 ---
 
-I’m currently reading \[Mike Davis’ “The Monster At Our Door: Global Threat of Avian Flu”\](http://www.amazon.com/exec/obidos/tg/detail/-/1595580115?v=glance), and finding it very interesting.
+I’m currently reading [Mike Davis’ “The Monster At Our Door: Global Threat of Avian Flu”](http://www.amazon.com/exec/obidos/tg/detail/-/1595580115?v=glance), and finding it very interesting.
 
 In particular I’ve been unexpectedly struck by how much like raving, leftist loonies dedicated moderates sound when they start writing comprehensively about current events. First Jared Diamond with Collapse, and now Mike Davis. (also, unfortunately, I think this book will firmly cement Davis, one of my favorite authors, into the “Prophet of Doom” ghetto)
 

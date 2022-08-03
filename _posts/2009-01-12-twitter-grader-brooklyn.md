@@ -17,4 +17,4 @@ tags:
     - twitter
 ---
 
-Via \[swissmiss\](http://swissmiss.typepad.com/weblog/2009/01/brooklyn-twitter-elite.html), I’m amused to find myself among the “Brooklyn Twitter elite”, not the least because its clearly down to having had dinner once with the \[Grader.com VP of Engineering\](http://yoavshapira.com/). And you thought it was a level playing field 😉
+Via [swissmiss](http://swissmiss.typepad.com/weblog/2009/01/brooklyn-twitter-elite.html), I’m amused to find myself among the “Brooklyn Twitter elite”, not the least because its clearly down to having had dinner once with the [Grader.com VP of Engineering](http://yoavshapira.com/). And you thought it was a level playing field 😉

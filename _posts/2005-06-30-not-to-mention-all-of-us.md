@@ -22,7 +22,7 @@ tags:
     - web2.0
 ---
 
-Joe Kraus’s post \[“It’s a great time to be an entrepreneur”\](http://bnoopy.typepad.com/bnoopy/2005/06/its*a*great\_tim.html) mirrors what I’ve been seeing for the last several years. He makes a lot of good points in the pursuit of explaing why Excite took $3million to go from idea to reality, and JotSpot took $100k. However he fails to mention one of my favorites.
+Joe Kraus’s post [“It’s a great time to be an entrepreneur”](http://bnoopy.typepad.com/bnoopy/2005/06/its*a*great\_tim.html) mirrors what I’ve been seeing for the last several years. He makes a lot of good points in the pursuit of explaing why Excite took $3million to go from idea to reality, and JotSpot took $100k. However he fails to mention one of my favorites.
 
 You see Dot.com 1.0 was probably one of the most expensive, least efficient public education projects in history, but for those of us who lived through it, it was an amazing, free (we called our grants “investments”), world class education in software development, project management, web development, open source, user interaction, and on and on.
 

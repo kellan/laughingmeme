@@ -20,4 +20,4 @@ tags:
     - web
 ---
 
-And it rocked. OMG, yes it did. So sad I’m not arriving at Etech until Monday night and will miss \[Applied Web Heresies\](http://smallthought.com/avi/?p=20).
+And it rocked. OMG, yes it did. So sad I’m not arriving at Etech until Monday night and will miss [Applied Web Heresies](http://smallthought.com/avi/?p=20).

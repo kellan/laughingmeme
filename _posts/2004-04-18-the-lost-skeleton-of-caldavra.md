@@ -22,7 +22,7 @@ tags:
     - standards
 ---
 
-[CalDAV: Calendar Server Extensions for WebDAV](http://www.ietf.org/internet-drafts/draft-dusseault-caldav-01.txt) by [Lisa Dusseault](http://nih.blogspot.com/) of [OSAF/Chandler](http://www.osafoundation.org/) (not to mention [WebDAV](http://www.webdav.org), [XMPP](http://www.ietf.org/html.charters/xmpp-charter.html) \[aka [Jabber](http://www.jabber.org)\], [IMAPext](http://www.ietf.org/html.charters/imapext-charter.html), and who knows what else!) is the most exciting new calendar standard in **years**. It always seemed strange to me that the [Calsch](http://www.calsch.org/) working group chose not to build on top of what is clearly the protocol success story of the last decade and a half, HTTP.
+[CalDAV: Calendar Server Extensions for WebDAV](http://www.ietf.org/internet-drafts/draft-dusseault-caldav-01.txt) by [Lisa Dusseault](http://nih.blogspot.com/) of [OSAF/Chandler](http://www.osafoundation.org/) (not to mention [WebDAV](http://www.webdav.org), [XMPP](http://www.ietf.org/html.charters/xmpp-charter.html) [aka [Jabber](http://www.jabber.org)], [IMAPext](http://www.ietf.org/html.charters/imapext-charter.html), and who knows what else!) is the most exciting new calendar standard in **years**. It always seemed strange to me that the [Calsch](http://www.calsch.org/) working group chose not to build on top of what is clearly the protocol success story of the last decade and a half, HTTP.
 
 > In the five years since WebDAV was standardized, at least three groups have used WebDAV as a basis to provide Internet calendar access with a minimum of development effort…
 

@@ -21,4 +21,4 @@ tags:
 
 A pyschotherapist in Glasgow:
 
-> “Dave confirmed that Guy Fawkes is the badgers’ Special Day. … My \[grandpa\] would say that in shamanistic terms, Dave’s badgers are trickster figures who act as his power animal and enable him to creatively channel power from the Lower World. However, I suspect that Dave prefers not to put ideas into their heads, so he simply refers to them as “sociopaths.”
+> “Dave confirmed that Guy Fawkes is the badgers’ Special Day. … My [grandpa] would say that in shamanistic terms, Dave’s badgers are trickster figures who act as his power animal and enable him to creatively channel power from the Lower World. However, I suspect that Dave prefers not to put ideas into their heads, so he simply refers to them as “sociopaths.”

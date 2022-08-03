@@ -22,4 +22,4 @@ tags:
     - linux
 ---
 
-If i was in Boston I’d so be there. (\[via\](http://www.jsequeira.com/blog/2006/10/16.html#a870))
+If i was in Boston I’d so be there. ([via](http://www.jsequeira.com/blog/2006/10/16.html#a870))

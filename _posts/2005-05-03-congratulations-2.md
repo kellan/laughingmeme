@@ -20,10 +20,10 @@ tags:
     - geo
 ---
 
-Linda and Brian, were joined by \[Owen\](http://linda.protest.net/gallery/Owen) this weekend, their baby boy
+Linda and Brian, were joined by [Owen](http://linda.protest.net/gallery/Owen) this weekend, their baby boy
 
 > Brian and I are doing great – even getting some sleep here and there. He’s a calm baby, w/ big blue eyes…
 
 Calm for now, but we all know he’ll be hell raiser with such a cool mama, though he did just miss begin born on May 1st.
 
-Meanwhile, \[Mapping Hacks\](http://www.oreilly.com/catalog/mappinghks/index.html), \[Schuyler\](http://iconocla.st/) and \[Jo’s\](http://frot.org/devlog/) book for which we’ve also all been waiting at least 9 months, hit \[Safari\](http://safari.oreilly.com/) this morning. (in bookstores this June)
+Meanwhile, [Mapping Hacks](http://www.oreilly.com/catalog/mappinghks/index.html), [Schuyler](http://iconocla.st/) and [Jo’s](http://frot.org/devlog/) book for which we’ve also all been waiting at least 9 months, hit [Safari](http://safari.oreilly.com/) this morning. (in bookstores this June)

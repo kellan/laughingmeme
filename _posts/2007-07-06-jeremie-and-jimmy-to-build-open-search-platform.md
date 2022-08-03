@@ -17,4 +17,4 @@ tags:
     - wiki
 ---
 
-See also \[Jeremie’s post\](http://jeremie.com/blog/index.php?entry=entry070705-151731). Haven’t evaluated it yet. What if any the intersection/overlap with Nutch is.
+See also [Jeremie’s post](http://jeremie.com/blog/index.php?entry=entry070705-151731). Haven’t evaluated it yet. What if any the intersection/overlap with Nutch is.

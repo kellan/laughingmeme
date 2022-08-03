@@ -18,4 +18,4 @@ tags:
     - 'place making'
 ---
 
-Anslem Hook takes a guided walk through my bookshelf, connecting books I didn’t know had a unifying theme into a look at the history and future of civilizatoin and “place making”. (including \[1491\](http://laughingmeme.org/2006/12/18/1491-new-revelations-of-the-americas-before-columbus/), \[Polian\](http://laughingmeme.org/2007/03/21/book-pairings/), Diamond, and Derrick Jensen)
+Anslem Hook takes a guided walk through my bookshelf, connecting books I didn’t know had a unifying theme into a look at the history and future of civilizatoin and “place making”. (including [1491](http://laughingmeme.org/2006/12/18/1491-new-revelations-of-the-americas-before-columbus/), [Polian](http://laughingmeme.org/2007/03/21/book-pairings/), Diamond, and Derrick Jensen)

@@ -31,7 +31,7 @@ Loved this exchange from last night’s episode, discussing education.
 > T: Yeah.  
 > S: From a book  
 > T: What book?  
-> S: \[pause\] A little red book.  
+> S: [pause] A little red book.  
 > T: You think we should quote Mao Tse-Tung?
 
 Makes a certain amount of sense actually, as the Maoists, and their mass culture were some of the first people to take education seriously, a point not addressed by the show. Not a model I would want to emulate however, but interesting, and why I love this show. Doubly interesting as I’m watching it on DVDs shipped from China which, while quite nice, with good picture and sound, have a definite cottage industry feel about them, if you know what I mean. Talk about your free market. But isn’t a “permanent revolution” a Trotskyist ideal?

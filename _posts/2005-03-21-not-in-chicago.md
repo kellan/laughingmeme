@@ -18,4 +18,4 @@ tags:
     - nptech
 ---
 
-Won’t be in Chicago for [NTEN/NTC](http://www.nten.org/ntc). We’re going to be playing in North Carolina at \[Rob’s\](http://hamlets\_dreams.blogs.com/) wedding. If you are going, you owe it to yourself to stick around till Saturday and hit [Penguin Day](http://chicago.penguinday.org/).
+Won’t be in Chicago for [NTEN/NTC](http://www.nten.org/ntc). We’re going to be playing in North Carolina at [Rob’s](http://hamlets\_dreams.blogs.com/) wedding. If you are going, you owe it to yourself to stick around till Saturday and hit [Penguin Day](http://chicago.penguinday.org/).

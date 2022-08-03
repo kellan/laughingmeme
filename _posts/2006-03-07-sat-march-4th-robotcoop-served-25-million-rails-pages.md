@@ -22,4 +22,4 @@ tags:
     - scalability
 ---
 
-And they’ve \[open sourced\](http://dev.robotcoop.com/) key pieces of their scalability architecture
+And they’ve [open sourced](http://dev.robotcoop.com/) key pieces of their scalability architecture

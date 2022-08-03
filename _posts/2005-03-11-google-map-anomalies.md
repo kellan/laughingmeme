@@ -21,8 +21,8 @@ tags:
     - providence
 ---
 
-\[Google Maps\](http://google.com/maps) is very cool, on so many levels, its hard to know where to start (definitely the \[long wake\](http://www.sauria.com/blog/2005/03/10#1241)), but it does have some odd quirks.
+[Google Maps](http://google.com/maps) is very cool, on so many levels, its hard to know where to start (definitely the [long wake](http://www.sauria.com/blog/2005/03/10#1241)), but it does have some odd quirks.
 
-Check out this map of the \[booming metropolis of Roger Williams National Park\](http://google.com/maps?q=providence%2C%20ri&amp;spn=0.205078%2C0.430934&amp;hl=en) between Pawtucket and Cranston. (hint for those who haven’t lived in the Ocean State, Rhode Island seems to have misplaced it’s capitol.)
+Check out this map of the [booming metropolis of Roger Williams National Park](http://google.com/maps?q=providence%2C%20ri&amp;spn=0.205078%2C0.430934&amp;hl=en) between Pawtucket and Cranston. (hint for those who haven’t lived in the Ocean State, Rhode Island seems to have misplaced it’s capitol.)
 
 **update**: you now have to zoom out one notch to see Providence disappear.

@@ -19,4 +19,4 @@ tags:
     - security
 ---
 
-In \[light of my recent experience with the check in\](http://laughingmeme.org/archives/002765.html#002765), I found this article on a \[major security loop hole\](http://slate.msn.com/id/2113157/fr/rss/) very interesting.
+In [light of my recent experience with the check in](http://laughingmeme.org/archives/002765.html#002765), I found this article on a [major security loop hole](http://slate.msn.com/id/2113157/fr/rss/) very interesting.

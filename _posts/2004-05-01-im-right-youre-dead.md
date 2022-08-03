@@ -18,6 +18,6 @@ tags:
     - bbc
 ---
 
-I’ve been listening to Wole Soyinka’s lectures on [the politics of fear](http://www.bbc.co.uk/radio4/reith2004/) these last two nights. They are excellent, both grim and funny, piercing and irreverent (as befits the brilliant if at times ambiguous \[and dreadfully underproduced\] playwright)
+I’ve been listening to Wole Soyinka’s lectures on [the politics of fear](http://www.bbc.co.uk/radio4/reith2004/) these last two nights. They are excellent, both grim and funny, piercing and irreverent (as befits the brilliant if at times ambiguous [and dreadfully underproduced] playwright)
 
 He really shines when exploring the complex and fraught relationship between terrorism and liberation movements. The first 4 are available for [download as MP3s](http://www.bbc.co.uk/radio4/reith2004/mp3.shtml). via [ben](http://www.benhammersley.com/) who survived the [desert](http://www.benhammersley.com/marathondessables.html).

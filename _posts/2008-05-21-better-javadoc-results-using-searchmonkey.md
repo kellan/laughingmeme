@@ -19,4 +19,4 @@ tags:
     - yahoo
 ---
 
-The docs on I found on \[Yahoo’s SearchMonkey\](http://developer.yahoo.com/searchmonkey/) were all arcane XSLT, and strange feed formats ne’er before seen on the Web. But this example from Sam shows how easy it can be – a couple of regexes, and a couple of lines of PHP.
+The docs on I found on [Yahoo’s SearchMonkey](http://developer.yahoo.com/searchmonkey/) were all arcane XSLT, and strange feed formats ne’er before seen on the Web. But this example from Sam shows how easy it can be – a couple of regexes, and a couple of lines of PHP.

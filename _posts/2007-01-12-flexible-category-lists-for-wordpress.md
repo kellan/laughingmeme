@@ -15,11 +15,11 @@ tags:
     - wordpress
 ---
 
-One of the side effect of overloading (perverting?) the \[Wordpress\](http://wordpress.org) category system to do tagging is you end up with over 1000 categories. The posting interface gets unhappy, and the \[`wp_list_cats`\](http://codex.wordpress.org/Template*Tags/wp*list\_cats) template tag becomes pretty much useless.
+One of the side effect of overloading (perverting?) the [Wordpress](http://wordpress.org) category system to do tagging is you end up with over 1000 categories. The posting interface gets unhappy, and the [`wp_list_cats`](http://codex.wordpress.org/Template*Tags/wp*list\_cats) template tag becomes pretty much useless.
 
 (This post is another WordPress meta post, one of several I’ve got queued up in my head, and probably interesting to 3 people in the known universe, but here you go.)
 
-\[`better_cat_lists`\](/code/better*cat*lists.php.txt) is WordPress plugin that adds a couple of more flexible methods.
+[`better_cat_lists`](/code/better*cat*lists.php.txt) is WordPress plugin that adds a couple of more flexible methods.
 
 ### `wp_list_popular_categories`
 

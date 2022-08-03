@@ -23,11 +23,11 @@ tags:
     - upcoming
 ---
 
-Aaron’s released \[upcalendar\](http://www.aaronland.info/weblog/2006/08/04/zebra/#upcalendar), the latest barrage in his Web2.0 on S60 campaign.
+Aaron’s released [upcalendar](http://www.aaronland.info/weblog/2006/08/04/zebra/#upcalendar), the latest barrage in his Web2.0 on S60 campaign.
 
-And 30Boxes has \[m.boxes.com\](http://30boxes.com/blog/index.php/2006/08/09/30boxes-mobile-m30boxescom/).
+And 30Boxes has [m.boxes.com](http://30boxes.com/blog/index.php/2006/08/09/30boxes-mobile-m30boxescom/).
 
-Got to say the \[mobile page\](http://oscal.quxx.info/m) for OSCAL (now defunct as its smart enough to only show upcoming events), was by far my favorite part of the app.
+Got to say the [mobile page](http://oscal.quxx.info/m) for OSCAL (now defunct as its smart enough to only show upcoming events), was by far my favorite part of the app.
 
 Turns out mobile is sexy, useful, and fun but not all that hard. Who knew?
 

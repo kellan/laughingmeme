@@ -29,7 +29,7 @@ end
 
 ```
 
-Last year I wrote a \[SxSW Twitter killbot\](http://laughingmeme.org/2007/03/09/coding-a-twitter-killbot/), but what I really wanted was the above. I almost wrote it, but there were one of two annoying problems, and I figured someone else would write it for me.
+Last year I wrote a [SxSW Twitter killbot](http://laughingmeme.org/2007/03/09/coding-a-twitter-killbot/), but what I really wanted was the above. I almost wrote it, but there were one of two annoying problems, and I figured someone else would write it for me.
 
 Its one year later, I’m starting to realize that I’m about to go into conference mode again, which on top of a sleep deprived delirium, and a certain disconnect form external data sources, also is the only time when I have Twits come to my phone. And I still can’t do the above! What have you people been working on all year! Don’t make me come back there and start a start up.
 

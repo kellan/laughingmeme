@@ -19,4 +19,4 @@ tags:
     - xmpp
 ---
 
-The slides from \[Rabble\](http://anarchogeek.com) and my talk at \[OSCON 08\](http://en.oreilly.com/oscon2008/). This was our XMPP outsiders look at how to hijack XMPP to solve the problems of RSS and polling at “quantum” and “relativistic” scales. (small and rare, or huge fast and raging).
+The slides from [Rabble](http://anarchogeek.com) and my talk at [OSCON 08](http://en.oreilly.com/oscon2008/). This was our XMPP outsiders look at how to hijack XMPP to solve the problems of RSS and polling at “quantum” and “relativistic” scales. (small and rare, or huge fast and raging).

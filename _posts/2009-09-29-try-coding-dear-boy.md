@@ -34,10 +34,10 @@ So I’ve come up with a response that looks something like:
 
 ### Method Acting
 
-But what I want to say, in the spirit of the great \[Laurence Olivier\](http://en.wikipedia.org/wiki/Laurence\_Olivier) on giving advice to Dustin Hoffman, *“My dear boy, why don’t you **try coding**?”.*
+But what I want to say, in the spirit of the great [Laurence Olivier](http://en.wikipedia.org/wiki/Laurence\_Olivier) on giving advice to Dustin Hoffman, *“My dear boy, why don’t you **try coding**?”.*
 
 ### Duct Tape
 
 Which is not to say I mind getting these questions, I love talking about this stuff, it’s why I do it. And it’s often amusing to give the, “This is how we do it at Flickr, no really” talk.
 
-But at the end of the day its 0.1% compsci, 0.9% clever ideas, and 99% \[duct tape\](http://www.joelonsoftware.com/items/2009/09/23.html). (btw Joel’s \[The Duct Tape Programmer\](http://www.joelonsoftware.com/items/2009/09/23.html) is a meditation in similar vein)
+But at the end of the day its 0.1% compsci, 0.9% clever ideas, and 99% [duct tape](http://www.joelonsoftware.com/items/2009/09/23.html). (btw Joel’s [The Duct Tape Programmer](http://www.joelonsoftware.com/items/2009/09/23.html) is a meditation in similar vein)

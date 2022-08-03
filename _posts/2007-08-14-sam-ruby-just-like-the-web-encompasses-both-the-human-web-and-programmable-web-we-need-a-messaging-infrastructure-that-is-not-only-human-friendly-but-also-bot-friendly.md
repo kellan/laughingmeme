@@ -18,4 +18,4 @@ tags:
     - xmpp
 ---
 
-This is exactly what we were getting at with \[Social Software for Robots\](http://laughingmeme.org/2007/05/18/slideshare-social-software-for-robots/)
+This is exactly what we were getting at with [Social Software for Robots](http://laughingmeme.org/2007/05/18/slideshare-social-software-for-robots/)

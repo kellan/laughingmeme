@@ -17,4 +17,4 @@ tags:
     - xslt
 ---
 
-Presented without comment — beyond a little smirking. (\[via\](http://whump.com))
+Presented without comment — beyond a little smirking. ([via](http://whump.com))

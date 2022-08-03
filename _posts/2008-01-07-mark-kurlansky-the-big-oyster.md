@@ -17,4 +17,4 @@ tags:
     - reading
 ---
 
-> “If a fish market in the right Manhattan neighborhood today could get hold of “wild native oysters” and market then as such, because this is how New York operates, it would probably be able to charge outstanding prices and have New York Times readers, after the article on wild oysters came out, gladly paying the price. \[…\] And for all that, they would taste like cultivated ones.” – \[Mark Kurlansky, The Big Oyster\](http://www.amazon.com/Big-Oyster-History-Half-Shell/dp/0345476387)
+> “If a fish market in the right Manhattan neighborhood today could get hold of “wild native oysters” and market then as such, because this is how New York operates, it would probably be able to charge outstanding prices and have New York Times readers, after the article on wild oysters came out, gladly paying the price. […] And for all that, they would taste like cultivated ones.” – [Mark Kurlansky, The Big Oyster](http://www.amazon.com/Big-Oyster-History-Half-Shell/dp/0345476387)

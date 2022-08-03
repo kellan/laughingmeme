@@ -20,4 +20,4 @@ tags:
     - sony
 ---
 
-It wasn’t until I read this \[New York Times article\](http://www.nytimes.com/aponline/technology/AP-Games-Sony-PSP.html?) which is really a thinly disguised Sony ad for the “Mobile PlayStation Portable” and its much hyped (apparently) launch this weekend, its scarcity, its desirability, etc, etc, that I realized that PSP aren’t readily available. All of which gets me wondering what those things that I’ve been seeing on the Orange line for the last few weeks emblazoned with “PSP” are? Some days you really have to admire the efficiency of alternative markets.
+It wasn’t until I read this [New York Times article](http://www.nytimes.com/aponline/technology/AP-Games-Sony-PSP.html?) which is really a thinly disguised Sony ad for the “Mobile PlayStation Portable” and its much hyped (apparently) launch this weekend, its scarcity, its desirability, etc, etc, that I realized that PSP aren’t readily available. All of which gets me wondering what those things that I’ve been seeing on the Orange line for the last few weeks emblazoned with “PSP” are? Some days you really have to admire the efficiency of alternative markets.

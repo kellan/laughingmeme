@@ -22,7 +22,7 @@ I got a bug report against [Magpie](http://magpierss.sf.net) a couple of days ag
 
 I spent a while confirming that [Snoopy](http://snoopy.sf.net) (both the Magpie patched version, and the recently release 1.01) was treating the entire document as if they were HTTP headers, and treating the body as blank. I’ve spent a little while futzing with this tonight, but my motivation/energy on this is running pretty low. Anyone feeling up to a spot of debugging?
 
-**update \[17-jan-04\]:** Thank you [Phil](http://philringnalda.com/blog/2004/01/yay_for_liberal_parsing.php)! The problem was, as I kind of suspected, with the CRLF terminators. Seems the above host was returning “\\n” instead of “\\r\\n”. Having futzed around with trying to get curl, or wget, or lynx to dump the raw headers I was stumped about how to flag the problem.
+**update [17-jan-04]:** Thank you [Phil](http://philringnalda.com/blog/2004/01/yay_for_liberal_parsing.php)! The problem was, as I kind of suspected, with the CRLF terminators. Seems the above host was returning “\\n” instead of “\\r\\n”. Having futzed around with trying to get curl, or wget, or lynx to dump the raw headers I was stumped about how to flag the problem.
 
 Phil used what he describes as, “The most incredibly tacky debugger ever”, but looks great to me:
 

@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 ---
 
-I backed \[Postcards from Erik the Red’s House\](http://www.kickstarter.com/projects/stevanieandlarissa/postcards-from-erik-the-reds-house-0) a while back. I like the small projects on Kickstarter, they make me happy, as does Iceland, as does someone writing their first novel.
+I backed [Postcards from Erik the Red’s House](http://www.kickstarter.com/projects/stevanieandlarissa/postcards-from-erik-the-reds-house-0) a while back. I like the small projects on Kickstarter, they make me happy, as does Iceland, as does someone writing their first novel.
 
 Today my postcard arrived. It was a sunset in Vik. In particular it was of Reynisdrangar, 3 black basalt stacks just west of Vik. I’ve seen Reynisdrangar. In fact I woke up on a black sand beach, surrounded by sheep, looking out at Reynisdrangar.
 

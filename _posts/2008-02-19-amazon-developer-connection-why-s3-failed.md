@@ -20,4 +20,4 @@ tags:
     - transparency
 ---
 
-The authentication cluster was overloaded, and improperly monitored. Complex systems are like that, never know where the problems will arise. Good clear communication, but it should have been on the \[AWS blog\](http://aws.typepad.com).
+The authentication cluster was overloaded, and improperly monitored. Complex systems are like that, never know where the problems will arise. Good clear communication, but it should have been on the [AWS blog](http://aws.typepad.com).

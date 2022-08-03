@@ -23,4 +23,4 @@ tags:
     - travel
 ---
 
-In good news, after being “randomly” flagged for extra screening, on \[every flight I took for 3 years\](http://laughingmeme.org/tag/flying+security) (dozens and dozens), the last few times I’ve breezed on with no more then the usual level of harassment.
+In good news, after being “randomly” flagged for extra screening, on [every flight I took for 3 years](http://laughingmeme.org/tag/flying+security) (dozens and dozens), the last few times I’ve breezed on with no more then the usual level of harassment.

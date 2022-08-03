@@ -18,4 +18,4 @@ tags:
     - sanfran
 ---
 
-I’ll be in SF next week (Feb 21st – 24th), and a couple of days the following week. I’ll be at \[Groupware SF Tech Session\](http://sftechsessions.com/2006/02/groupware/), but won’t be at \[Mashup Camp\](http://www.mashupcamp.com/)(have fun all!) So if we’ve been meaning to catch up, next week looks good.
+I’ll be in SF next week (Feb 21st – 24th), and a couple of days the following week. I’ll be at [Groupware SF Tech Session](http://sftechsessions.com/2006/02/groupware/), but won’t be at [Mashup Camp](http://www.mashupcamp.com/)(have fun all!) So if we’ve been meaning to catch up, next week looks good.

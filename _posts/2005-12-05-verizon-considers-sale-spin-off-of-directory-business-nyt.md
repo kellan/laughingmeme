@@ -24,4 +24,4 @@ tags:
     - web2.0
 ---
 
-Be a hell of way for one of \[plethora “me to”, local business sites\](http://www.techcrunch.com/2005/11/27/intuits-zipingo-joins-local-business-review-sites/) to distinguish itself.
+Be a hell of way for one of [plethora “me to”, local business sites](http://www.techcrunch.com/2005/11/27/intuits-zipingo-joins-local-business-review-sites/) to distinguish itself.

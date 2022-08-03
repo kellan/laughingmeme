@@ -17,6 +17,6 @@ tags:
     - 'washington post'
 ---
 
-> “And Mr. McCain has a special advantage to bring to any such investigation — many of the relevant witnesses are friends or colleagues of his. In fact, he can probably get to the bottom of the whole mess just by cross-examining the people riding on his campaign bus”. – \[Thomas Frank\](http://online.wsj.com/article/SB122221440058969313.html#printMode)
+> “And Mr. McCain has a special advantage to bring to any such investigation — many of the relevant witnesses are friends or colleagues of his. In fact, he can probably get to the bottom of the whole mess just by cross-examining the people riding on his campaign bus”. – [Thomas Frank](http://online.wsj.com/article/SB122221440058969313.html#printMode)
 
-\[via Lhl\](http://randomfoo.net/)
+[via Lhl](http://randomfoo.net/)

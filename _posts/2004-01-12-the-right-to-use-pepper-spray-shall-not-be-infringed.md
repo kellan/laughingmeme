@@ -22,6 +22,6 @@ tags:
 
 Why? Deputy Chief Mike Hillman says protestors are restricting the police’s ability to gain compliance, making them feel powerless and frustrated, and, according to Adena Tessler, public safety deputy for Councilwoman Cindy Miscikowski:
 
-> Officers who are given the power to tell protesters to remove hoods \[and gasmasks\] probably would be less likely to throw bottles or engage in other illegal activities.
+> Officers who are given the power to tell protesters to remove hoods [and gasmasks] probably would be less likely to throw bottles or engage in other illegal activities.
 
 I fully support reducing the number of LAPD bottle throwing incidents. (via [carl](http://mail.onenw.org/carl/)) 

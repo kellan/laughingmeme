@@ -15,12 +15,12 @@ tags:
     - sf
 ---
 
-Bujold is reading at \[Booksmith on Haight tomorrow night at 7pm\](http://upcoming.yahoo.com/event/196248/).
+Bujold is reading at [Booksmith on Haight tomorrow night at 7pm](http://upcoming.yahoo.com/event/196248/).
 
-“Who?”, \[name redacted\] asked.
+“Who?”, [name redacted] asked.
 
 Bujold.
 
 Whose Vorkosigan books are the best long form speculation on the role and future of reproductive technology disguised as military space sci-fi headed by a coded-female male solider protagonist (with incarnated other) over 9 volumes, with apologies to Austen, ever written.
 
-And even \[Larry Wall likes her\](http://www.perl.com/lpt/a/109).
+And even [Larry Wall likes her](http://www.perl.com/lpt/a/109).

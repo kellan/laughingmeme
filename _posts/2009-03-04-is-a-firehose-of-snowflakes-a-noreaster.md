@@ -16,7 +16,7 @@ tags:
     - xmpp
 ---
 
-I tried explaining the title of this blog post to Jasmine this morning. Suffice to say my explanation needed a bit of practice. And more than 140 characters. Or it might just be I’m a bit stir crazy from Winter returning with a vengeance in these here parts. But I wanted to call out a couple of points that might have gotten overshadowed in the good Reverend’s \[recent post on the Flickr Panda APIs\](http://code.flickr.com/blog/2009/03/03/panda-tuesday-the-history-of-the-panda-new-apis-explore-and-you/).
+I tried explaining the title of this blog post to Jasmine this morning. Suffice to say my explanation needed a bit of practice. And more than 140 characters. Or it might just be I’m a bit stir crazy from Winter returning with a vengeance in these here parts. But I wanted to call out a couple of points that might have gotten overshadowed in the good Reverend’s [recent post on the Flickr Panda APIs](http://code.flickr.com/blog/2009/03/03/panda-tuesday-the-history-of-the-panda-new-apis-explore-and-you/).
 
 ### NewsWire API
 
@@ -26,13 +26,13 @@ The [NY Times](http://nytimes.com) at their great [Times Open](http://open.nytim
 
 But they got some flack for it being a [snowflake API](http://www.dehora.net/journal/2009/01/09/snowflake-apis/). From where I sit snowflake APIs look like opening up your data as fast as possible, along any means necessary, and trying not to pre-judge how people will use it, but I’m thankful for the metaphor, as it allowed me to spend the morning envisioning fire hoses of snowflakes.
 
-Still I spent 2007, and 2008 talking about how XMPP was going to be a key piece of \[building firehoses\](http://blog.twitter.com/2008/07/twitter-and-xmpp-drinking-from-fire.html) standardizing and enabling the real time Web, so its a criticism I’m sensitive to. (and I’ve already been skipping conferences in 2009 in the hopes of actually having some time to **build** it, though thankfully minor details like time haven’t stopped my colleagues at Fire Eagle from [launching theirs](http://feblog.yahoo.net/2009/02/19/fire-eagle-location-streams/))
+Still I spent 2007, and 2008 talking about how XMPP was going to be a key piece of [building firehoses](http://blog.twitter.com/2008/07/twitter-and-xmpp-drinking-from-fire.html) standardizing and enabling the real time Web, so its a criticism I’m sensitive to. (and I’ve already been skipping conferences in 2009 in the hopes of actually having some time to **build** it, though thankfully minor details like time haven’t stopped my colleagues at Fire Eagle from [launching theirs](http://feblog.yahoo.net/2009/02/19/fire-eagle-location-streams/))
 
 ### Pandas
 
 [![Flickr Panda!](http://farm4.static.flickr.com/3070/2913831391_7abfb85d94.jpg)](http://www.flickr.com/photos/psd/2913831391/ "Flickr Panda! by psd, on Flickr")
 
-Which is all apropos of saying, \[we\](http://flickr.com) launched our own “snowflake” realtime API yesterday. (though actually its just a slight modification of our standard photo response format). And its \[Panda-shaped\](http://code.flickr.com/blog/2009/03/03/panda-tuesday-the-history-of-the-panda-new-apis-explore-and-you/). And it is awesome.
+Which is all apropos of saying, [we](http://flickr.com) launched our own “snowflake” realtime API yesterday. (though actually its just a slight modification of our standard photo response format). And its [Panda-shaped](http://code.flickr.com/blog/2009/03/03/panda-tuesday-the-history-of-the-panda-new-apis-explore-and-you/). And it is awesome.
 
 ### Near Real-Time, Every Minute, up to 120 Events
 

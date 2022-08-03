@@ -24,6 +24,6 @@ One of the most satisfying pieces of developing web apps is how far from the mac
 
 But somedays the insecurity creeps in, I mean, this isn’t “real” programming. There are no algorithms, no data structures, no balanced red-black trees.
 
-Which is why it’s nice, every now and then, to have call to pick up a book like Doug Lea’s \[“Concurrent Programming”\](http://gee.cs.oswego.edu/dl/cpj/index.html) and flip around a bit looking for answers.
+Which is why it’s nice, every now and then, to have call to pick up a book like Doug Lea’s [“Concurrent Programming”](http://gee.cs.oswego.edu/dl/cpj/index.html) and flip around a bit looking for answers.
 
-**update**: \[Obie\](http://www.jroller.com/comments/obie/Weblog/unabashed*ruby*on*rails*enthusiasm), and \[DHH\](http://www.loudthinking.com/arc/000437.html) are musing on the flip side, which remind me of Ian’s \[Why Web Programming\](http://blog.ianbicking.org/why-web-programming-matters-most.html)
+**update**: [Obie](http://www.jroller.com/comments/obie/Weblog/unabashed*ruby*on*rails*enthusiasm), and [DHH](http://www.loudthinking.com/arc/000437.html) are musing on the flip side, which remind me of Ian’s [Why Web Programming](http://blog.ianbicking.org/why-web-programming-matters-most.html)

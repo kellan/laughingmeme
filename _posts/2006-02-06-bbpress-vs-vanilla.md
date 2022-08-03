@@ -23,8 +23,8 @@ tags:
     - webapp
 ---
 
-I’m not really a web forums type guy, but the light weight interfaces of \[bbPress\](http://bbpress.org/) and \[Vanilla\](http://getvanilla.com/) do a lot to redeem the medium. Anyone got a preference from using them?
+I’m not really a web forums type guy, but the light weight interfaces of [bbPress](http://bbpress.org/) and [Vanilla](http://getvanilla.com/) do a lot to redeem the medium. Anyone got a preference from using them?
 
 Also anyone have a mbox import script for importing old list traffic?
 
-Part of the very slow, long running process of re-launching the Magpie site, and breaking my \[Sourceforge\](http://sourceforge.net) dependency.
+Part of the very slow, long running process of re-launching the Magpie site, and breaking my [Sourceforge](http://sourceforge.net) dependency.

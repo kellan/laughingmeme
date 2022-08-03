@@ -20,4 +20,4 @@ tags:
     - teams
 ---
 
-Throw away line in the Facebook HipHop post gives us the \[Facebook RPE\](http://laughingmeme.org/2010/01/22/counting-things-and-rpes/), 1mil vs Flickr’s 2.5mil.
+Throw away line in the Facebook HipHop post gives us the [Facebook RPE](http://laughingmeme.org/2010/01/22/counting-things-and-rpes/), 1mil vs Flickr’s 2.5mil.

@@ -19,4 +19,4 @@ tags:
     - 'social software'
 ---
 
-Good set of questions for anyone starting to build a distributed social network territory, and \[surprisingly good answers from join diaspora\](http://www.joindiaspora.com/2010/04/30/a-response-to-mr-villa.html).
+Good set of questions for anyone starting to build a distributed social network territory, and [surprisingly good answers from join diaspora](http://www.joindiaspora.com/2010/04/30/a-response-to-mr-villa.html).

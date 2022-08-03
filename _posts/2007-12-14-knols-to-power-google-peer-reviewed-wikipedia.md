@@ -18,4 +18,4 @@ tags:
     - wikipedia
 ---
 
-See also, \[Wikipedia: Gnolls\](http://en.wikipedia.org/wiki/Gnoll)
+See also, [Wikipedia: Gnolls](http://en.wikipedia.org/wiki/Gnoll)

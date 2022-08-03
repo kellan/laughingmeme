@@ -25,11 +25,11 @@ tags:
     - yelp
 ---
 
-\[Yelp\](http://yelp.com) gets \[feeds\](http://yelp.com/rss) just right. I’m not sure I’ve ever said that before about anybody.
+[Yelp](http://yelp.com) gets [feeds](http://yelp.com/rss) just right. I’m not sure I’ve ever said that before about anybody.
 
 They’ve got:
 
-- a feed of my reviews allows me to re-purpose the content I create (\[No RSS, No Content Creation\](http://laughingmeme.org/articles/2005/01/15/a-few-more-thoughts-on-netflix-friends)\],
+- a feed of my reviews allows me to re-purpose the content I create ([No RSS, No Content Creation](http://laughingmeme.org/articles/2005/01/15/a-few-more-thoughts-on-netflix-friends)],
 - a feed of my (as yet non-existent) network’s reviews
 - feeds contain the full content of my review (again my content, I created it, give it to me)
 - rich feeds; they use the geo namespace to embed lat/long

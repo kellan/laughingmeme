@@ -20,5 +20,5 @@ Apple has released [iCal.app](http://www.apple.com/ical), though only for Jaguar
 
 I’m really curious how the publish-subscribe mechanism is being handled and if its really going to be possible to bypass .Mac. So far all we know is:
 
-- [Apple Knowledge Base 61079](http://docs.info.apple.com/article.html?artnum=61709#faq3) saying “…\[p\]ublish one of your calendars to a private WebDAV server. For information on setting up WebDAV on Mac OS X Server, consult the [Mac OS X Administrators guide](http://docs.info.apple.com/article.html?artnum=122015).”
+- [Apple Knowledge Base 61079](http://docs.info.apple.com/article.html?artnum=61709#faq3) saying “…[p]ublish one of your calendars to a private WebDAV server. For information on setting up WebDAV on Mac OS X Server, consult the [Mac OS X Administrators guide](http://docs.info.apple.com/article.html?artnum=122015).”
 - Apple has introduced a new URI scheme, `webcal://`, which you can see in action in the [events library](http://www.apple.com/ical/library).

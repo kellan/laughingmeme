@@ -17,4 +17,4 @@ tags:
     - ruby
 ---
 
-Perfect timing, been meaning to revisit PEGs since \[the other week\](http://twitter.com/stevej/statuses/119364052). Nice DSL for grammar specification.
+Perfect timing, been meaning to revisit PEGs since [the other week](http://twitter.com/stevej/statuses/119364052). Nice DSL for grammar specification.

@@ -19,6 +19,6 @@ tags:
     - Work
 ---
 
-My most recent feature at work \[just went live!\](http://blog.flickr.com/flickrblog/2006/11/triple\_treat.html)
+My most recent feature at work [just went live!](http://blog.flickr.com/flickrblog/2006/11/triple\_treat.html)
 
 Actually lots went live today, it was kind of crazy.

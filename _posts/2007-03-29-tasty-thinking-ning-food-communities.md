@@ -17,4 +17,4 @@ tags:
     - social
 ---
 
-Been spinning stories about what niche food communities might look like, now this is an interesting use \[Ning\](http://ning.org)
+Been spinning stories about what niche food communities might look like, now this is an interesting use [Ning](http://ning.org)

@@ -19,4 +19,4 @@ tags:
     - social
 ---
 
-The inestimable danah’s new \[First Monday article\](http://www.firstmonday.org/issues/issue11*12/boyd/index.html) shines light on one of those oddly modern problem \[we all struggle with\](http://laughingmeme.org/articles/2003/01/26/are-you-my-friend), \[Are you my friend?\](http://www.firstmonday.org/issues/issue11*12/boyd/index.html)
+The inestimable danah’s new [First Monday article](http://www.firstmonday.org/issues/issue11*12/boyd/index.html) shines light on one of those oddly modern problem [we all struggle with](http://laughingmeme.org/articles/2003/01/26/are-you-my-friend), [Are you my friend?](http://www.firstmonday.org/issues/issue11*12/boyd/index.html)

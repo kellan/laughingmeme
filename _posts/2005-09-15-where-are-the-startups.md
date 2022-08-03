@@ -18,7 +18,7 @@ tags:
     - boston
 ---
 
-David asks \[“Where are the European startups?”\](http://www.loudthinking.com/arc/000509.html). I disagree with his conclusions, but combined with my own \[“Where are the Boston startups?”\](http://laughingmeme.org/archives/003004.html), I’ve come up with the following maxim:
+David asks [“Where are the European startups?”](http://www.loudthinking.com/arc/000509.html). I disagree with his conclusions, but combined with my own [“Where are the Boston startups?”](http://laughingmeme.org/archives/003004.html), I’ve come up with the following maxim:
 
 > The number of interesting startups in a region is inversely proportional to its distance from the Bay Area/Silicon Valley.
 

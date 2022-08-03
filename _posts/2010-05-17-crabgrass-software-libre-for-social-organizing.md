@@ -19,4 +19,4 @@ tags:
     - 'social software'
 ---
 
-For folks interested in Diaspora, you should check out Crabgrass, developed by the \[Riseup\](http://riseup.net) tech collective to provide secure, powerful tools for social organizing its already used by a wide range of activists, the UN, and even the CIA (rumor has it).
+For folks interested in Diaspora, you should check out Crabgrass, developed by the [Riseup](http://riseup.net) tech collective to provide secure, powerful tools for social organizing its already used by a wide range of activists, the UN, and even the CIA (rumor has it).

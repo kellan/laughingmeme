@@ -21,4 +21,4 @@ tags:
     - seattle
 ---
 
-Inconceivable! And the \[Vickie blog\](http://victrolacoffee.net) is gone as well.
+Inconceivable! And the [Vickie blog](http://victrolacoffee.net) is gone as well.

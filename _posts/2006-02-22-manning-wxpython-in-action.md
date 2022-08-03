@@ -22,4 +22,4 @@ tags:
     - python
 ---
 
-About time, I was looking for this book \[back in ’03\](http://laughingmeme.org/articles/2003/11/17/wxpython-book)
+About time, I was looking for this book [back in ’03](http://laughingmeme.org/articles/2003/11/17/wxpython-book)

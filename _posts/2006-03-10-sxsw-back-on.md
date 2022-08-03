@@ -19,8 +19,8 @@ tags:
     - sxsw
 ---
 
-With everything going on right now I was going to take a pass on \[Austin\](http://2006.sxsw.com/interactive/) this year, even though I’ve been tightly clutching my tickets and counting days since last Fall.
+With everything going on right now I was going to take a pass on [Austin](http://2006.sxsw.com/interactive/) this year, even though I’ve been tightly clutching my tickets and counting days since last Fall.
 
 Jasmine however is wonderful, and set me straight, and I’m arriving tomorrow morning, perhaps a little discombobulated, and worse for the wear, but excited. See you there! (now I just need to deal with the fact that I already refunded my plane ticket, and hotel res., and I’m out of clean socks)
 
-All of which brings me to the question, what the **hell** is up with the 5pm timeslot on Saturday. Who thought it was a good idea to have \[Kathy Sierra\](http://headrush.typepad.com), \[danah boyd\](http://www.danah.org/), and \[Tantek Celik\](http://tantek.com/log/) cross scheduled. Bah.
+All of which brings me to the question, what the **hell** is up with the 5pm timeslot on Saturday. Who thought it was a good idea to have [Kathy Sierra](http://headrush.typepad.com), [danah boyd](http://www.danah.org/), and [Tantek Celik](http://tantek.com/log/) cross scheduled. Bah.

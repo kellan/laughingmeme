@@ -21,7 +21,7 @@ tags:
     - rss
 ---
 
-\[Scoble\](http://radio.weblogs.com/0001011/2005/05/28.html#a10235) has a really lousy feature request for RSS aggregators
+[Scoble](http://radio.weblogs.com/0001011/2005/05/28.html#a10235) has a really lousy feature request for RSS aggregators
 
 > Feature request for RSS News Aggregators: I want to be able to “clean up” my feed subscription list. I want to remove any RSS feed that hasn’t published in the past XX days (default to 30).
 
@@ -29,7 +29,7 @@ Part of what makes personal publishing work, and what makes RSS such a key piece
 
 You can publish when you have time and something to say confident in the knowledge that your audience is still there, still waiting. In a well designed interface feeds without traffic should be zero cost mentally to all parties involved.
 
-\[Matt Webb\](http://interconnected.org/home/2005/05/27/when*i*used*browser*bookmarks) has a much better suggestion.
+[Matt Webb](http://interconnected.org/home/2005/05/27/when*i*used*browser*bookmarks) has a much better suggestion.
 
 > Here’s a feature I want from my RSS feeder. Every so often it should silently hide one of the feeds. If I notice, and if I remember what it was is that’s been hidden, I should be able to say: Hey, you forgot feed X, give it back!, and the application would say: Okay then, you got me banged to rights, here it is. If I don’t notice or can’t remember, the feed is deleted permanently.
 

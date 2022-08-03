@@ -19,6 +19,6 @@ tags:
     - santacruz
 ---
 
-Did anyone else play the Atari game \[Claim Jumper\](http://www.concentric.net/~ktchang/claimjumper/claimjumper.shtml)? It was awesome. Written by \[Gray Chang\](http://www.concentric.net/~ktchang/bio/bio.shtml), one time \[UC Santa Cruz\](http://www.ucsc.edu/) student. Also wrote \[Dog Daze\](http://www.concentric.net/~ktchang/dog*daze*old/dog*daze*old.shtml) another favorite. Somedays the nostalgia is almost too much to bear, get all teary eyed.
+Did anyone else play the Atari game [Claim Jumper](http://www.concentric.net/~ktchang/claimjumper/claimjumper.shtml)? It was awesome. Written by [Gray Chang](http://www.concentric.net/~ktchang/bio/bio.shtml), one time [UC Santa Cruz](http://www.ucsc.edu/) student. Also wrote [Dog Daze](http://www.concentric.net/~ktchang/dog*daze*old/dog*daze*old.shtml) another favorite. Somedays the nostalgia is almost too much to bear, get all teary eyed.
 
 All off topic really, as this entry is really just me trying to claim my feed [ at Technorati](http://www.technorati.com/claim/6ck4ektgd) and [Feedster](http://feedster.com/claimfeed.php?key=e75bcb5994e72c5cf8405cdef276bf32). (pay no attention to the man behind the curtain)

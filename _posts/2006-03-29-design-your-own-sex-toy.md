@@ -22,4 +22,4 @@ tags:
     - toys
 ---
 
-Babeland is \[running a competition\](http://www.babeland.com/sexinfo/features/sex-toy-design-contest)
+Babeland is [running a competition](http://www.babeland.com/sexinfo/features/sex-toy-design-contest)

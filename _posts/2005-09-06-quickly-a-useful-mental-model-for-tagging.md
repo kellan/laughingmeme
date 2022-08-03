@@ -21,7 +21,7 @@ tags:
     - tags
 ---
 
-Lots has now been written on schemas for storing tags (mostly in relational databases). In fact \[Tag Schema\](http://tagschema.com/) is a blog and mailing list devoted entirely to exploring that space further. (maintained by Nitin Borwankar, working at \[Odeo\](http://odeo.com) these days).
+Lots has now been written on schemas for storing tags (mostly in relational databases). In fact [Tag Schema](http://tagschema.com/) is a blog and mailing list devoted entirely to exploring that space further. (maintained by Nitin Borwankar, working at [Odeo](http://odeo.com) these days).
 
 So what happens when we take off our DBA hat, and put back on our programmer hats? (because really, who has seperate DBAs these days?)
 

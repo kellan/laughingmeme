@@ -18,4 +18,4 @@ tags:
     - voip
 ---
 
-\[Steve’s\](http://www.bloglines.com/blog/StephenSmith) on the telephony/voip conference circuit this month, \[VON\](http://www.von.com/), then \[CITA\](http://www.ctiawireless.com/), and wrapping up with \[Freedom to Connect\](http://freedom-to-connect.net/). His \[report\](http://www.bloglines.com/blog/StephenSmith?id=5) \[backs\](http://www.bloglines.com/blog/StephenSmith?id=6) have been interesting, but I’m really looking forward to hearing about F2C.
+[Steve’s](http://www.bloglines.com/blog/StephenSmith) on the telephony/voip conference circuit this month, [VON](http://www.von.com/), then [CITA](http://www.ctiawireless.com/), and wrapping up with [Freedom to Connect](http://freedom-to-connect.net/). His [report](http://www.bloglines.com/blog/StephenSmith?id=5) [backs](http://www.bloglines.com/blog/StephenSmith?id=6) have been interesting, but I’m really looking forward to hearing about F2C.

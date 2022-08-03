@@ -22,4 +22,4 @@ tags:
     - twitterversy
 ---
 
-it’s great to see a blogger \[“get more cutting post googlization”\](http://diveintomark.org/archives/2007/04/16/dhh-translation#comment-9137), or at least not go all quiet, and fluffy on us. I was starting to think it was something in the water. (and for the record I want an “Orges have layers” shirt!)
+it’s great to see a blogger [“get more cutting post googlization”](http://diveintomark.org/archives/2007/04/16/dhh-translation#comment-9137), or at least not go all quiet, and fluffy on us. I was starting to think it was something in the water. (and for the record I want an “Orges have layers” shirt!)

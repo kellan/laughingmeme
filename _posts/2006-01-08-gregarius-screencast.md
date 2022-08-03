@@ -24,4 +24,4 @@ tags:
     - syndication
 ---
 
-a screencast showing off some features of \[Gregarius\](http://gregarius.net/), the open source, extensible, online feed aggregator of choice. (uses Magpie)
+a screencast showing off some features of [Gregarius](http://gregarius.net/), the open source, extensible, online feed aggregator of choice. (uses Magpie)

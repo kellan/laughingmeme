@@ -17,4 +17,4 @@ tags:
     - 'web 2.0'
 ---
 
-Similar but different then my \[suppressed\](http://laughingmeme.org/2006/02/12/suppressed-an-alternative-to-private/) feature request.
+Similar but different then my [suppressed](http://laughingmeme.org/2006/02/12/suppressed-an-alternative-to-private/) feature request.

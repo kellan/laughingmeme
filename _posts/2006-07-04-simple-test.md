@@ -21,8 +21,8 @@ tags:
     - testing
 ---
 
-Recently started using \[Simple Test\](http://www.lastcraft.com/simple\_test.php) for a couple of projects (even slipped it in at work, but sssh! don’t tell them!). So far I’m very happy with it. Using \[PHPUnit\](http://www.google.com/search?q=PHPUnit) was always a bit of a non-starter, it felt heavy, and even which version (fork?) to use was ambiguous.
+Recently started using [Simple Test](http://www.lastcraft.com/simple\_test.php) for a couple of projects (even slipped it in at work, but sssh! don’t tell them!). So far I’m very happy with it. Using [PHPUnit](http://www.google.com/search?q=PHPUnit) was always a bit of a non-starter, it felt heavy, and even which version (fork?) to use was ambiguous.
 
-Simple Test’s documentation beyond the basics start to trail off, but the code is eminently readable (better then docs any day!), and I found writing a harness to work with the \[feedparser tests\](http://feedparser.org/tests/) pleasantly straightforward.
+Simple Test’s documentation beyond the basics start to trail off, but the code is eminently readable (better then docs any day!), and I found writing a harness to work with the [feedparser tests](http://feedparser.org/tests/) pleasantly straightforward.
 
 Recommended.

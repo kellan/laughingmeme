@@ -15,7 +15,7 @@ tags:
     - travel
 ---
 
-I’m heading out for a whirlwind tour of points ever so slightly south. I’ll be in San Diego for ETech, arriving Monday March 3rd (gulp, thats tomorrow) and leaving Thursday for Austin for SxSW, where I’ll be through next Tuesday night. (despite promises to myself, this is not the year I do the interactive+music marathon, I’m realistic, I’ve watched \[co-workers\](http://hitherto.net) train all year, not an undertaking for amateurs)
+I’m heading out for a whirlwind tour of points ever so slightly south. I’ll be in San Diego for ETech, arriving Monday March 3rd (gulp, thats tomorrow) and leaving Thursday for Austin for SxSW, where I’ll be through next Tuesday night. (despite promises to myself, this is not the year I do the interactive+music marathon, I’m realistic, I’ve watched [co-workers](http://hitherto.net) train all year, not an undertaking for amateurs)
 
 ### ETech
 

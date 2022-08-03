@@ -16,7 +16,7 @@ raw_content:
     - "Casey got roped into doing lights at [Synergenesis](http://synergenesis.org) this weekend. \r\n\r\n> One part trade show, one part art gallery, one part party.\r\n\r\nGoing on all weekend."
 ---
 
-Casey got roped into doing lights at \[Synergenesis\](http://synergenesis.org) this weekend.
+Casey got roped into doing lights at [Synergenesis](http://synergenesis.org) this weekend.
 
 > One part trade show, one part art gallery, one part party.
 

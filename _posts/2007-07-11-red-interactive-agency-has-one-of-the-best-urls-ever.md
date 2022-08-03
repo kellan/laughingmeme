@@ -18,4 +18,4 @@ tags:
     - url
 ---
 
-they also happen to be the firm behind \[ethanhaaswasright\](http://www.ethanhaaswasright.com/)
+they also happen to be the firm behind [ethanhaaswasright](http://www.ethanhaaswasright.com/)

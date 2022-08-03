@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-\[ ..:: wu :: riddles(intro) ::..\]
+[ ..:: wu :: riddles(intro) ::..]

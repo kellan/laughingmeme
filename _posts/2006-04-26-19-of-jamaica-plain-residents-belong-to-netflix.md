@@ -22,4 +22,4 @@ tags:
     - netflix
 ---
 
-Yup, that’s us. Though we’re also \[Video Underground\](http://www.thevideounderground.com/) regulars. (\[via\](http://proactivebusybody.com/2006/04/26/netflix-in-jp/))
+Yup, that’s us. Though we’re also [Video Underground](http://www.thevideounderground.com/) regulars. ([via](http://proactivebusybody.com/2006/04/26/netflix-in-jp/))

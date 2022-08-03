@@ -22,4 +22,4 @@ tags:
     - unicode
 ---
 
-Its been on my todo list \[to port the Mozilla chardet code\](http://del.icio.us/kellan/encoding) to a Unix lib/binary, but now I’ve an excuse to get lazy. Yay Mark!
+Its been on my todo list [to port the Mozilla chardet code](http://del.icio.us/kellan/encoding) to a Unix lib/binary, but now I’ve an excuse to get lazy. Yay Mark!

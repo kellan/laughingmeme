@@ -17,17 +17,17 @@ tags:
     - xmpp
 ---
 
-\[WeeWar\](http://weewar.com) broke in a wave across the office this afternoon. (thankfully late afternoon, or I might have gotten nothing done today). Its a Web-based turn based strategy game, thats very well done. Sort of a “Flickr for Risk”, with a nice value add pro account ($24.95/year), and APIs, social networking features, and a chatty tone.
+[WeeWar](http://weewar.com) broke in a wave across the office this afternoon. (thankfully late afternoon, or I might have gotten nothing done today). Its a Web-based turn based strategy game, thats very well done. Sort of a “Flickr for Risk”, with a nice value add pro account ($24.95/year), and APIs, social networking features, and a chatty tone.
 
 ### XMPP
 
-But I’ve never run into an application that needed an \[XMPP\](http://www.xmpp.org/) interface more.
+But I’ve never run into an application that needed an [XMPP](http://www.xmpp.org/) interface more.
 
 The most fundamental missing functionality is a convenient, light weight way of getting notified that your turn has rolled around again. WeeWar will send you email, but now your inboxes is even more cluttered, and you’re having to check your inbox constantly. (something I try to keep to 1-2 times an hour)
 
 ### Push
 
-A Jabber interface you could trust to push to you the state changes news, and thereby remove the nagging, “Is it my turn?” and the \[variable positive reinforcement\](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html) relationship it sets up with your inbox.
+A Jabber interface you could trust to push to you the state changes news, and thereby remove the nagging, “Is it my turn?” and the [variable positive reinforcement](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html) relationship it sets up with your inbox.
 
 Additionally its a classic app where, if you’re polling, you want to keep the polling time very low, but the actual incident of change is fairly spare, which means WeeWar is going to at some point start resenting their polling based APIs.
 

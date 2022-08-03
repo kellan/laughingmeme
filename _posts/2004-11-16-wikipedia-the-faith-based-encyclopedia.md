@@ -22,4 +22,4 @@ tags:
     - wikipedia
 ---
 
-See: ConflictOfInterest. \[but at least we got the Presidential stamp of approval\]
+See: ConflictOfInterest. [but at least we got the Presidential stamp of approval]

@@ -23,13 +23,13 @@ Spent today at my folks house in Santa Cruz tackling the “junk room” (which 
 
 Anyway found a box of castoff programming books, free to good homes.
 
-- \[Programming Python, 2nd ed.\](http://www.oreilly.com/catalog/python2/index.html)
-- \[Programming Jabber\](http://www.oreilly.com/catalog/jabber/index.html)
+- [Programming Python, 2nd ed.](http://www.oreilly.com/catalog/python2/index.html)
+- [Programming Jabber](http://www.oreilly.com/catalog/jabber/index.html)
 - BBEdit 6.0 User Manual
-- <strike>\[Exim\](http://www.oreilly.com/catalog/exim/index.html)</strike>
-- \[Web Development with JavaServer Pages, 1st ed.\](http://www.manning.com/fields2/)
-- \[The Zope Book\](http://www.amazon.com/gp/product/0735711372/104-8840841-5744769?v=glance&amp;n=283155)
-- <strike>\[Ruby in a Nutshell\](http://www.oreilly.com/catalog/ruby/index.html)</strike>
-- \[Javascript: The Definitive Guide 2nd ed.\](http://www.oreilly.com/catalog/jscript2/index.html) (2 of them!)
+- <strike>[Exim](http://www.oreilly.com/catalog/exim/index.html)</strike>
+- [Web Development with JavaServer Pages, 1st ed.](http://www.manning.com/fields2/)
+- [The Zope Book](http://www.amazon.com/gp/product/0735711372/104-8840841-5744769?v=glance&amp;n=283155)
+- <strike>[Ruby in a Nutshell](http://www.oreilly.com/catalog/ruby/index.html)</strike>
+- [Javascript: The Definitive Guide 2nd ed.](http://www.oreilly.com/catalog/jscript2/index.html) (2 of them!)
 
 Drop me a line, or leave a comment if you’re interested.

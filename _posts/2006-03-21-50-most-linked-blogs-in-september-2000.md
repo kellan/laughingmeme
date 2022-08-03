@@ -24,4 +24,4 @@ tags:
     - weblogs
 ---
 
-Late 2000 is when I started reading blogs. Then I read 17 blogs from the list, currently I read 4. Of those gone defunct, I miss \[Tomalak\](http://www.tomalak.org/) the most.
+Late 2000 is when I started reading blogs. Then I read 17 blogs from the list, currently I read 4. Of those gone defunct, I miss [Tomalak](http://www.tomalak.org/) the most.

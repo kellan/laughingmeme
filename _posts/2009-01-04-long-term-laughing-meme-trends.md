@@ -13,7 +13,7 @@ tags:
     - metrics
 ---
 
-I was thinking about doing one of those my most popular blog posts of 2008 vs my favorite blog posts of 2008 posts (see Sippey for an \[archetype of the genre\](http://sippey.typepad.com/filtered/2008/12/this-is-the-year-in-this-is-sippey.html)). And I noticed that the pickings were kind of sparse: 152 posts in 2008 including MLPs\[1\] and photo posts. Which got me wondering how that stacks up against past years:
+I was thinking about doing one of those my most popular blog posts of 2008 vs my favorite blog posts of 2008 posts (see Sippey for an [archetype of the genre](http://sippey.typepad.com/filtered/2008/12/this-is-the-year-in-this-is-sippey.html)). And I noticed that the pickings were kind of sparse: 152 posts in 2008 including MLPs[1] and photo posts. Which got me wondering how that stacks up against past years:
 
 ```
 
@@ -29,4 +29,4 @@ I was thinking about doing one of those my most popular blog posts of 2008 vs my
 
 Maybe I’ll try to get back to and find those populate and best posts, but right now I’m trying to decide how I feel about the those posting trends.
 
-1. What’s an MLPs: when I had my link blogging separated out as a separate stream, that blog was called MLPs, short for “Mindless Link Propagation”, the \[kuro5hin\](http://www.kuro5hin.org/) \[category\](http://www.kuro5hin.org/section/mlp) for link blogging.
+1. What’s an MLPs: when I had my link blogging separated out as a separate stream, that blog was called MLPs, short for “Mindless Link Propagation”, the [kuro5hin](http://www.kuro5hin.org/) [category](http://www.kuro5hin.org/section/mlp) for link blogging.

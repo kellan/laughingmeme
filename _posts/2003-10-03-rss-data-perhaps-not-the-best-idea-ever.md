@@ -27,7 +27,7 @@ The joy, however, of being behind the curve is someone else has already said it 
 
 ### Whats all that noise?
 
-Les has put together [examples of RSS with namespaces vs. RSS-Data](http://www.decafbad.com/blog/tech/rss_data_versus_namespace.html); examples that I think speak for themselves (the RSS-Data example is so spaghetti, and loose it gives me the willies just looking at it \[or maybe that is my OPML *“we’ll just cram everything in all which way, like, in poorly defined attributes that we make up as we go along”* flashback kicking in\]).  
+Les has put together [examples of RSS with namespaces vs. RSS-Data](http://www.decafbad.com/blog/tech/rss_data_versus_namespace.html); examples that I think speak for themselves (the RSS-Data example is so spaghetti, and loose it gives me the willies just looking at it [or maybe that is my OPML *“we’ll just cram everything in all which way, like, in poorly defined attributes that we make up as we go along”* flashback kicking in]).  
 ### Been Done, Been Done Better, Already Part of RSS
 
 But if they aren’t speaking to you as clearly (and I’ll admit the voices in my head are particularly loud and clear tonight), you might see if Danny’s [Um, we’ve had that for 3 years it’s called RDF, and it works much better](http://dannyayers.com/archives/001908.html), makes it any clearer.  

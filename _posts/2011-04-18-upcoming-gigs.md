@@ -10,8 +10,8 @@ categories:
     - Uncategorized
 ---
 
-I’m speaking Thursday 4/21, at \[Where 2.0\](http://where2conf.com/where2011) in Santa Clara on “The Brooklyn Problem” and better geo experiences through cheap hacks.
+I’m speaking Thursday 4/21, at [Where 2.0](http://where2conf.com/where2011) in Santa Clara on “The Brooklyn Problem” and better geo experiences through cheap hacks.
 
-As part of \[Seven on Seven\](http://rhizome.org/sevenonseven/), I’ll be co-presenting a as yet to be determined collaboration with, \[Cao Fei\](http://www.caofei.com/), May 14th at the \[New Museum\](http://www.newmuseum.org/), New York.
+As part of [Seven on Seven](http://rhizome.org/sevenonseven/), I’ll be co-presenting a as yet to be determined collaboration with, [Cao Fei](http://www.caofei.com/), May 14th at the [New Museum](http://www.newmuseum.org/), New York.
 
-A bit further out, I’m speaking at \[Velocity, June 14-16th\](http://velocityconf.com/velocity2011/) back in Santa Clara, continuing the recent conversation about \[“Moving Fast at Scale”\](http://codeascraft.etsy.com/2011/03/31/live-stream-of-moving-fast-at-scale/), focusing on “Metrics Driven Development”.
+A bit further out, I’m speaking at [Velocity, June 14-16th](http://velocityconf.com/velocity2011/) back in Santa Clara, continuing the recent conversation about [“Moving Fast at Scale”](http://codeascraft.etsy.com/2011/03/31/live-stream-of-moving-fast-at-scale/), focusing on “Metrics Driven Development”.

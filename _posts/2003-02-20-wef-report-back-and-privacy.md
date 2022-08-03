@@ -22,7 +22,7 @@ Interesting excerpt:
 
 > *Al Qaeda, they say, is like a brand which has been heavily franchised.*
 
-The parallels to anti-globalization organization like [Indymedia](http://www.indymedia.org) or [ATTAC](http://www.attac.org/indexen/index.html) are very clear. And bit alarming giving our blossoming security state. This is what [Net War](http://www.rand.org/publications/MR/MR880/) is about. update: read the [Bruce Sterling annotated version](http://www.viridiandesign.org/notes/351-400/00362_the_mood_at_davos.html) of the famous email. \[via [moreLikeThis](http://www.whump.com/moreLikeThis/)\]
+The parallels to anti-globalization organization like [Indymedia](http://www.indymedia.org) or [ATTAC](http://www.attac.org/indexen/index.html) are very clear. And bit alarming giving our blossoming security state. This is what [Net War](http://www.rand.org/publications/MR/MR880/) is about. update: read the [Bruce Sterling annotated version](http://www.viridiandesign.org/notes/351-400/00362_the_mood_at_davos.html) of the famous email. [via [moreLikeThis](http://www.whump.com/moreLikeThis/)]
 
 > *The tipping-point is gonna come when these Seattle ’99 street canaille stop waving their anarchist black flags, and start waving light-blue UN flags, because they are all commercially underwritten by billionaire BINGOs (Big International Non-Governmental Organizations).*
 

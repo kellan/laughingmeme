@@ -18,4 +18,4 @@ tags:
     - twitter
 ---
 
-Twitter has \[#followfriday\](http://twitter.com/#search?q=followfriday). If I were ever to rebuild Flickr from the ground up, I’d collapse the distinction between tags and groups for thematic collaboration. Explicit grouping is useful only when you need to create a sense of place, a trick most easily accomplished in virtual environment by articulating a membership, and a history. Collaboration does not need place, it needs energy.
+Twitter has [#followfriday](http://twitter.com/#search?q=followfriday). If I were ever to rebuild Flickr from the ground up, I’d collapse the distinction between tags and groups for thematic collaboration. Explicit grouping is useful only when you need to create a sense of place, a trick most easily accomplished in virtual environment by articulating a membership, and a history. Collaboration does not need place, it needs energy.

@@ -23,4 +23,4 @@ tags:
     - web2.0
 ---
 
-\[J\](http://brandxculture.com/blog) has a social weather app she wants me to build for her. So much easier to let \[83 °\](http://83degrees.com/) build it.
+[J](http://brandxculture.com/blog) has a social weather app she wants me to build for her. So much easier to let [83 °](http://83degrees.com/) build it.

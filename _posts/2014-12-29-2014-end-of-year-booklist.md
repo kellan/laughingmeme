@@ -10,11 +10,11 @@ categories:
     - Uncategorized
 ---
 
-Read \[Rick’s\](http://rickwebb.tumblr.com/post/106007409729/the-books-i-read-in-2014), \[Rachel’s\](https://medium.com/content-consciousness/books-i-read-in-2014-47f528451836) and \[Diana’s\](http://blog.dianakimball.com/post/106214213693) year end book list, and got inspired to write up my own.
+Read [Rick’s](http://rickwebb.tumblr.com/post/106007409729/the-books-i-read-in-2014), [Rachel’s](https://medium.com/content-consciousness/books-i-read-in-2014-47f528451836) and [Diana’s](http://blog.dianakimball.com/post/106214213693) year end book list, and got inspired to write up my own.
 
 2014 was a year of extenuating circumstances, the most obvious being the arrival of Anwen 9 hours before it began, but numerous others large and small abound. Reading this year was centered around escape, even oblivion, in short doses, and re-reading featured prominently.
 
-(also I finally forwent the urge to build a Kindle exporter as part of this process and just used \[clippings.io\](https://www.clippings.io) which did the job well, though seems to have hit a problem after downloading nearly 2400 highlights)
+(also I finally forwent the urge to build a Kindle exporter as part of this process and just used [clippings.io](https://www.clippings.io) which did the job well, though seems to have hit a problem after downloading nearly 2400 highlights)
 
 Additionally I’ve probably missed a couple which I didn’t highlight anything in (or read exclusively in dead tree)
 

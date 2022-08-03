@@ -16,6 +16,6 @@ raw_content:
     - "At [Peter\\'s](http://prwdot.org) invite, heading to the [Berkman](http://cyber.law.harvard.edu/home/) [Thursday Night meetup](http://blogs.law.harvard.edu/thursdays) this evening.  \n\np.s. we\\'re both Thur. night virgins so this shouldn\\'t be taken as a recommendation or endorsement :)"
 ---
 
-At \[Peter’s\](http://prwdot.org) invite, heading to the \[Berkman\](http://cyber.law.harvard.edu/home/) \[Thursday Night meetup\](http://blogs.law.harvard.edu/thursdays) this evening.
+At [Peter’s](http://prwdot.org) invite, heading to the [Berkman](http://cyber.law.harvard.edu/home/) [Thursday Night meetup](http://blogs.law.harvard.edu/thursdays) this evening.
 
 p.s. we’re both Thur. night virgins so this shouldn’t be taken as a recommendation or endorsement ![:)](http://lm.local/wp-includes/images/smilies/simple-smile.png)

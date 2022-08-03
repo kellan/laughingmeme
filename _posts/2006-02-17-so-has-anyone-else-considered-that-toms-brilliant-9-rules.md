@@ -23,4 +23,4 @@ tags:
     - webapps
 ---
 
-Are just viral marketing for \[9 Rules\](http://9rules.com/)? (I thought at first maybe \[9 Songs\](http://www.imdb.com/title/tt0411705/), but decided to leave that alone)
+Are just viral marketing for [9 Rules](http://9rules.com/)? (I thought at first maybe [9 Songs](http://www.imdb.com/title/tt0411705/), but decided to leave that alone)

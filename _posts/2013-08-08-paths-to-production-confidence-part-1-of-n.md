@@ -24,7 +24,7 @@ The theory is a theory of change, and the philosophy is about finding paths to m
 
 ### A Theory of Change
 
-Etsy is in the change business. As are, definitionally, all startups, nearly all businesses, and most human projects. We’re attempting to add new capacities to the world, and influence behavior around them. And we’re attempting to do it in an uncertain and complex\[1\] environment; we neither know the exact recipe for success, nor we do expect that recipe to stay the same over time. In fact, as a startup, we believe that our ability to respond to a changing environment is the key success factor for our engineering organization. It’s natural to read that sentence and think of change in terms of product changes, but more prosaic examples might include the ability to add new server capacity when the site slows down, or to replace a hard drive when one fails.
+Etsy is in the change business. As are, definitionally, all startups, nearly all businesses, and most human projects. We’re attempting to add new capacities to the world, and influence behavior around them. And we’re attempting to do it in an uncertain and complex[1] environment; we neither know the exact recipe for success, nor we do expect that recipe to stay the same over time. In fact, as a startup, we believe that our ability to respond to a changing environment is the key success factor for our engineering organization. It’s natural to read that sentence and think of change in terms of product changes, but more prosaic examples might include the ability to add new server capacity when the site slows down, or to replace a hard drive when one fails.
 
 But change is risky. This is something most of us believe intuitively, and it’s worth examining the sources of risk in change.
 

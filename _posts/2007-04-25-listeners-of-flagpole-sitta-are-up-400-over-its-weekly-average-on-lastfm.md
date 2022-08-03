@@ -19,4 +19,4 @@ tags:
     - vimeo
 ---
 
-And in case you’re wondering \[why this is interesting\](http://vimeo.com/clip:173714).
+And in case you’re wondering [why this is interesting](http://vimeo.com/clip:173714).

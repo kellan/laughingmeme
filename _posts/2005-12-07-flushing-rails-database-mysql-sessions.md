@@ -23,7 +23,7 @@ tags:
     - typo
 ---
 
-I use Rails’ \[database session backend\](http://wiki.rubyonrails.com/rails/pages/HowtoChangeSessionStore) for \[LM\](http://laughingmeme.org). (for login, as well as \[“flash”\](http://api.rubyonrails.com/classes/ActionController/Flash.html)) Without any sort of built in garbage collection the sessions table gets **very** large, very quickly. Beyond aesthetic issues, this can also cause MySQL’s key buffer to fill up. (which on Debian is by default set quite low)
+I use Rails’ [database session backend](http://wiki.rubyonrails.com/rails/pages/HowtoChangeSessionStore) for [LM](http://laughingmeme.org). (for login, as well as [“flash”](http://api.rubyonrails.com/classes/ActionController/Flash.html)) Without any sort of built in garbage collection the sessions table gets **very** large, very quickly. Beyond aesthetic issues, this can also cause MySQL’s key buffer to fill up. (which on Debian is by default set quite low)
 
 So I wrote up a quick flush method, and saved it in a file `models/session.rb`.
 

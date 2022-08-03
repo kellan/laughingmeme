@@ -28,7 +28,7 @@ But I’m becoming increasingly disenchanted with his novel length work. He keep
 
 ### Glasshouse
 
-I just finished Glasshouse. Nice handling of what a post-Singularity society means for identity, multiplicity, etc. Brilliant to see \[Curious Yellow\](http://blanu.net/curious\_yellow.html) emerge as a plot device. (though oddly nothing by way of acknowledgment of the original, at least that I noticed)
+I just finished Glasshouse. Nice handling of what a post-Singularity society means for identity, multiplicity, etc. Brilliant to see [Curious Yellow](http://blanu.net/curious\_yellow.html) emerge as a plot device. (though oddly nothing by way of acknowledgment of the original, at least that I noticed)
 
 But the implicit promise is that if we read through the somewhat awkward handling of 1950s fasco-dystopia (a 2006 fasco-dystopia would have been more interesting), and the even more awkward handling of “gender issues”, we’re going to find out what the “Censorship Wars” payload was. Maybe I’m too dumb to read between the lines, but by my reckoning the book builds, and builds, and then just fell off a cliff without any resolution, and certainly without delivering on answering that one big question.
 

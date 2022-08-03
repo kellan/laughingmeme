@@ -19,7 +19,7 @@ tags:
     - rss
 ---
 
-I’ve been trying to give away \[XML::RSS\](http://search.cpan.org/dist/XML-RSS) for a long time now. Private emails, comments, etc have gone nowhere. The drive towards a 2.0 version based on libxml2/DOM, and a rich object model stalled. (though I’ve got a nascent version I use privately for scripts like my rss2delicious, and the \[RNC protest infoline\](http://www.anarchogeek.com/archives/000430.html)).
+I’ve been trying to give away [XML::RSS](http://search.cpan.org/dist/XML-RSS) for a long time now. Private emails, comments, etc have gone nowhere. The drive towards a 2.0 version based on libxml2/DOM, and a rich object model stalled. (though I’ve got a nascent version I use privately for scripts like my rss2delicious, and the [RNC protest infoline](http://www.anarchogeek.com/archives/000430.html)).
 
 XML::RSS has a number of fatal flaws that make it hard to grow, and hard to support. Its handling of character encoding will always be fatally flawed (its a hard problem), and its parser model has been evolving over many many years.
 

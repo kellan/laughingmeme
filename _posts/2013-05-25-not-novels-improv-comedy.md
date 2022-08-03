@@ -14,7 +14,7 @@ tags:
     - software
 ---
 
-> So, here’s the insight I’m currently tossing around in my head: The problem is that software isn’t built; it’s written. The final product is not like the Bay Bridge. It’s like a novel. – \[Don’t build. Compose. – Kurt Leafstrand\](https://medium.com/on-startups/305a31ff609)
+> So, here’s the insight I’m currently tossing around in my head: The problem is that software isn’t built; it’s written. The final product is not like the Bay Bridge. It’s like a novel. – [Don’t build. Compose. – Kurt Leafstrand](https://medium.com/on-startups/305a31ff609)
 
 No, that’s not right.
 

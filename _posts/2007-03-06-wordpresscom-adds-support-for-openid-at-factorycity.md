@@ -16,4 +16,4 @@ tags:
     - wp
 ---
 
-More and more interesting \[openid\](http://openid.net) consumers (<acronym title="relying parties">RPs</acronym>) every day. **update** Hmm, \[maybe not\](http://faq.wordpress.com/2007/03/06/what-is-openid/)
+More and more interesting [openid](http://openid.net) consumers (<acronym title="relying parties">RPs</acronym>) every day. **update** Hmm, [maybe not](http://faq.wordpress.com/2007/03/06/what-is-openid/)

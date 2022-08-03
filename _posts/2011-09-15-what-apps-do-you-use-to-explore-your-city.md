@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 ---
 
-It wasn’t really until we were leaving London last week that I figured out that I should have installed the \[London Cycle app\](http://londoncycleapp.com/), a 3rd party app that scrapes up-to-the-minute information about availability of \[Barclays bikes\](http://www.tfl.gov.uk/roadusers/cycling/14808.aspx) (aka “Boris bikes”), and provides maps and routing.
+It wasn’t really until we were leaving London last week that I figured out that I should have installed the [London Cycle app](http://londoncycleapp.com/), a 3rd party app that scrapes up-to-the-minute information about availability of [Barclays bikes](http://www.tfl.gov.uk/roadusers/cycling/14808.aspx) (aka “Boris bikes”), and provides maps and routing.
 
 Nearly every Londoner (or sometimes Londoner) we met had it installed, but none of the varied insipid “top 25 iPhone apps for London” style SEO bait blog posts mentioned anything like it.
 
@@ -25,7 +25,7 @@ To navigate New York I use:
 - GoogleMaps
 - Yelp
 - Foursquare
-- \[TreesNY\](http://www.treesnearyou.com/)
-- \[CityTransit\](http://magnetismstudios.com/CityTransit)
-- \[ExitStrategy\](http://www.exitstrategynyc.com/)
-- \[Ride the City\](http://ridethecity.com/)
+- [TreesNY](http://www.treesnearyou.com/)
+- [CityTransit](http://magnetismstudios.com/CityTransit)
+- [ExitStrategy](http://www.exitstrategynyc.com/)
+- [Ride the City](http://ridethecity.com/)

@@ -18,7 +18,7 @@ tags:
 
 > Dear Amazon.com Customer,
 > 
-> As someone who has expressed interest in books by William Gibson, you might like to know that \[“Religion and the Enlightenment 1600-1800: Conflict and the Rise of Civic Humanism in Taunton by William Gibson (Author)”\](http://www.amazon.com/gp/product/3039109227/ref=pe*snp*227) is now available.
+> As someone who has expressed interest in books by William Gibson, you might like to know that [“Religion and the Enlightenment 1600-1800: Conflict and the Rise of Civic Humanism in Taunton by William Gibson (Author)”](http://www.amazon.com/gp/product/3039109227/ref=pe*snp*227) is now available.
 > 
 > You can order your copy for just $71.95 by following the link below.
 

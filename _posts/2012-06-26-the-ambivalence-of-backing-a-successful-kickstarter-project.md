@@ -10,4 +10,4 @@ categories:
     - Uncategorized
 ---
 
-It’s cool to see a project I backed on Kickstarter, \[Ai Weiwei: Never Sorry\]\[1\] up on the \[Apple trailers page\]\[2\]. But also deeply ambivalent as the promised digital download never arrived, which leaves me feeling used and kind of cheated.
+It’s cool to see a project I backed on Kickstarter, [Ai Weiwei: Never Sorry][1] up on the [Apple trailers page][2]. But also deeply ambivalent as the promised digital download never arrived, which leaves me feeling used and kind of cheated.

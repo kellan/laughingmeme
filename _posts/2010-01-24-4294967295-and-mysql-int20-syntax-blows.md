@@ -16,7 +16,7 @@ tags:
 
 [![Big Numbers 2 by pjern.](http://farm2.static.flickr.com/1156/1339311643_3acb54e40a.jpg)](http://www.flickr.com/photos/pjern/1339311643/)
 
-When you’ve been working with a technology for a long time, it’s difficult not to develop Stockholm syndrome. Not sure when I started using MySQL, but I bought my first license in 1998. I think it wasn’t until mid-to-late ’98 when we had to call \[Monty\](http://monty-says.blogspot.com/) long distance to Sweden to get help with some tricky issues. Which is to say its been a long time since I thought about how confusing MySQL’s CREATE TABLE syntax can be.
+When you’ve been working with a technology for a long time, it’s difficult not to develop Stockholm syndrome. Not sure when I started using MySQL, but I bought my first license in 1998. I think it wasn’t until mid-to-late ’98 when we had to call [Monty](http://monty-says.blogspot.com/) long distance to Sweden to get help with some tricky issues. Which is to say its been a long time since I thought about how confusing MySQL’s CREATE TABLE syntax can be.
 
 Which is not to say that the documentation isn’t clear:
 

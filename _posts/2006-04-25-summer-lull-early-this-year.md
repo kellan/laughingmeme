@@ -22,6 +22,6 @@ tags:
     - personal
 ---
 
-I’ve certainly been quiet (especially of anything of substance), Brian is \[playing hooky\](http://hybernaut.com/playing-hooky), LtU is a \[ghost town\](http://lambda-the-ultimate.org/node/1427). And thats just the people drawing attention to themselves. The blogging Summer lull is a recognized phenomena, but April seems a bit early.
+I’ve certainly been quiet (especially of anything of substance), Brian is [playing hooky](http://hybernaut.com/playing-hooky), LtU is a [ghost town](http://lambda-the-ultimate.org/node/1427). And thats just the people drawing attention to themselves. The blogging Summer lull is a recognized phenomena, but April seems a bit early.
 
 Like Brian, I’ll have some exciting news to announce soon, and hopefully a return to blogging in the near future.

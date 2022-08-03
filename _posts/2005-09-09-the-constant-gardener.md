@@ -20,4 +20,4 @@ tags:
     - travel
 ---
 
-I suppose it is typically perverse to watch \[The Constant Gardener\](http://imdb.com/title/tt0387131/) and be reminded of how much you want to go back to Africa?
+I suppose it is typically perverse to watch [The Constant Gardener](http://imdb.com/title/tt0387131/) and be reminded of how much you want to go back to Africa?

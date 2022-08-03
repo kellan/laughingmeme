@@ -21,7 +21,7 @@ tags:
     - science
 ---
 
-\[Carl Zimmer’s\](http://carlzimmer.com/) \[At the Water’s Edge\](http://carlzimmer.com/water\_1.html) is an excellent introduction to the complexities that lie behind (and support) evolution, a subject too often simplified to the point of trivialization. So it was great to see that \[he has a blog\](http://www.corante.com/loom/), and amusing to see him bring his particular spin to “cat blogging”.
+[Carl Zimmer’s](http://carlzimmer.com/) [At the Water’s Edge](http://carlzimmer.com/water\_1.html) is an excellent introduction to the complexities that lie behind (and support) evolution, a subject too often simplified to the point of trivialization. So it was great to see that [he has a blog](http://www.corante.com/loom/), and amusing to see him bring his particular spin to “cat blogging”.
 
-- \[Cat-Blogging from Deep Time\](http://www.corante.com/loom/archives/2006/01/05/catblogging*from*deep\_time.php)
-- \[Are brain parasites altering the personalities of three billion people?\](http://www.corante.com/loom/archives/2006/01/17/the*return*of*the*puppet\_masters.php)
+- [Cat-Blogging from Deep Time](http://www.corante.com/loom/archives/2006/01/05/catblogging*from*deep\_time.php)
+- [Are brain parasites altering the personalities of three billion people?](http://www.corante.com/loom/archives/2006/01/17/the*return*of*the*puppet\_masters.php)

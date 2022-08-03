@@ -25,10 +25,10 @@ tags:
     - microformats
 ---
 
-\[Fort Point Holiday Sale\](http://www.fortpointarts.org/holidaysale2005.html): Friday, December 9, 11am-7pm, Saturday, December 10, 11am-5pm
+[Fort Point Holiday Sale](http://www.fortpointarts.org/holidaysale2005.html): Friday, December 9, 11am-7pm, Saturday, December 10, 11am-5pm
 
-\[Museum School 25th Annual December Sale\](http://www.smfa.edu/Support*SMFA/December*Sale/Index.asp): Thursday, December 1, 12-8 pm (Opening Celebration: 5-8 pm), Friday, December 2 – Monday, December 5, 12-6 pm
+[Museum School 25th Annual December Sale](http://www.smfa.edu/Support*SMFA/December*Sale/Index.asp): Thursday, December 1, 12-8 pm (Opening Celebration: 5-8 pm), Friday, December 2 – Monday, December 5, 12-6 pm
 
-\[MassArt’s Annual Holiday Sale\](http://www.massart.edu/ca\_main.html): December 5th – 10th; 10am – 7 pm
+[MassArt’s Annual Holiday Sale](http://www.massart.edu/ca\_main.html): December 5th – 10th; 10am – 7 pm
 
-In other news, it really should be easier to add events to \[Upcoming\](http://upcoming.org), and \[Markdown\](http://daringfireball.net/projects/markdown/) needs support for \[microformats\](http://microformats.org)
+In other news, it really should be easier to add events to [Upcoming](http://upcoming.org), and [Markdown](http://daringfireball.net/projects/markdown/) needs support for [microformats](http://microformats.org)

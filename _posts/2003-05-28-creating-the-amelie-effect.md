@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-for those poor fools who don’t have Gimp \[lucky bastards\]
+for those poor fools who don’t have Gimp [lucky bastards]

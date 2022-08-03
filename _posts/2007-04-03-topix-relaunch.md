@@ -18,7 +18,7 @@ tags:
 
 [![](http://laughingmeme.org/img/topix_skyline_crop.png)](http://topix.com)
 
-\[Stone Cottage\](http://stonecottage.com/josh/) pointed to a \[great post by Rick Skrenta\](http://www.skrenta.com/2007/04/what*do*you*do*when*your*succe.html), CEO of Topix (and mad mind behind NewHoo/DMOZ for those who can remember back that far) on the \[Topix\](http://www.topix.com/) re-launch.
+[Stone Cottage](http://stonecottage.com/josh/) pointed to a [great post by Rick Skrenta](http://www.skrenta.com/2007/04/what*do*you*do*when*your*succe.html), CEO of Topix (and mad mind behind NewHoo/DMOZ for those who can remember back that far) on the [Topix](http://www.topix.com/) re-launch.
 
 Lot of really interesting stuff about identifying a brand’s core value and putting it into practice. But also a phenomenal laundry for a problem that has stumped a lot of us, how to make a local news site succeed. Including:
 

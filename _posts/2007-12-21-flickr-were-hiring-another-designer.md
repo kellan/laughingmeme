@@ -16,4 +16,4 @@ tags:
     - jobs
 ---
 
-To come play with us in our SF office. And we need someone to come do vocals for \[Rock Band\](http://www.rockband.com/) as well. But seriously, ignore the crap business language from the listing, its amazing, hard, rewarding place to work, with a ridiculous dedicated focus on results.
+To come play with us in our SF office. And we need someone to come do vocals for [Rock Band](http://www.rockband.com/) as well. But seriously, ignore the crap business language from the listing, its amazing, hard, rewarding place to work, with a ridiculous dedicated focus on results.

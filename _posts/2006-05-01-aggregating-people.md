@@ -21,4 +21,4 @@ tags:
     - social
 ---
 
-Maybe its just splash from Richard \[talking about it\], but I saw a bunch of twitter about \[peoplefeeds\](http://peoplefeeds.com/) today. And I have the same problem I had with SuperGlu, I really don’t need help aggregating my own content, I made it, I shot it, I wrote it, I posted it. I got it already. I wish someone would build a decent DLA of **other** peoples’ content. If you need a spec email me and we can talk. Interestingly enough \[30Boxes\](http://30boxes.com), a calendar, does the best job to date that I’ve seen. (43\* is in a slightly different space)
+Maybe its just splash from Richard [talking about it], but I saw a bunch of twitter about [peoplefeeds](http://peoplefeeds.com/) today. And I have the same problem I had with SuperGlu, I really don’t need help aggregating my own content, I made it, I shot it, I wrote it, I posted it. I got it already. I wish someone would build a decent DLA of **other** peoples’ content. If you need a spec email me and we can talk. Interestingly enough [30Boxes](http://30boxes.com), a calendar, does the best job to date that I’ve seen. (43\* is in a slightly different space)

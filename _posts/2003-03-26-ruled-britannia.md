@@ -63,7 +63,7 @@ Misunderstand me not, I am enjoying the book. William Cecil ( [de Vere’s](http
 
 ### A host of furious fancies
 
-Lastly, [Tom O’ Bedlam](http://www.blarg.net/~efreeman/Basement/TOB.html) (a song who has an fey grip upon my fancy) makes an unexpected, and welcome appearance at one point. Turtledove interprets “knight\[s\] of ghosts and shadows” as being knights of the cross-trade, and the Cecils, fallen nobility moving though the criminal underworld; spinning webs, pulling strings, and occasionally cutting a thread short are just such knights. This interpretation pleases to me to no end.
+Lastly, [Tom O’ Bedlam](http://www.blarg.net/~efreeman/Basement/TOB.html) (a song who has an fey grip upon my fancy) makes an unexpected, and welcome appearance at one point. Turtledove interprets “knight[s] of ghosts and shadows” as being knights of the cross-trade, and the Cecils, fallen nobility moving though the criminal underworld; spinning webs, pulling strings, and occasionally cutting a thread short are just such knights. This interpretation pleases to me to no end.
 
 **update:**
 

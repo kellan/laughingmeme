@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-ThinkGeek :: I’m blogging this. \[so geeky, somebody stop me before I buy this\]
+ThinkGeek :: I’m blogging this. [so geeky, somebody stop me before I buy this]

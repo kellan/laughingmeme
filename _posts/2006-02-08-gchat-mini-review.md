@@ -22,7 +22,7 @@ tags:
     - privacy
 ---
 
-I use the GTalk Jabber network via \[Adium\](http://www.adiumx.com/) and I’ve been very happy with it, especially since they turned on federation. And I practically *live* in Gmail. I should be the \[GChat\](http://www.techcrunch.com/2006/02/06/gmail-chat-to-launch-tomorrow/) target audience. So initial impressions.
+I use the GTalk Jabber network via [Adium](http://www.adiumx.com/) and I’ve been very happy with it, especially since they turned on federation. And I practically *live* in Gmail. I should be the [GChat](http://www.techcrunch.com/2006/02/06/gmail-chat-to-launch-tomorrow/) target audience. So initial impressions.
 
 ### Unresponsive
 
@@ -38,4 +38,4 @@ I’ve got a 12in screen, and when the chat dialogs are up Gmail starts to feel 
 
 ### Unencrypted
 
-\[Gaim\](http://gaim.sourceforge.net/) and \[OTR\](http://www.cypherpunks.ca/otr/) (and by extension Adium) mean that for the first time its trivial to have decent privacy in your messaging, practically for free. I’m not ready to give that up, and I can’t see GChat adding it.
+[Gaim](http://gaim.sourceforge.net/) and [OTR](http://www.cypherpunks.ca/otr/) (and by extension Adium) mean that for the first time its trivial to have decent privacy in your messaging, practically for free. I’m not ready to give that up, and I can’t see GChat adding it.

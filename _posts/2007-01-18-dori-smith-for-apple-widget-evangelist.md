@@ -16,4 +16,4 @@ tags:
     - resume
 ---
 
-And yes, this is what job searches **should** look like. (via \[brent\](http://ranchero.com/), \[rafe\](http://rc3.org))
+And yes, this is what job searches **should** look like. (via [brent](http://ranchero.com/), [rafe](http://rc3.org))

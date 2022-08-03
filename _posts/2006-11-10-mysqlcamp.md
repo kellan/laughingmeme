@@ -16,4 +16,4 @@ raw_content:
     - 'See you at [MySQL Camp](http://mysqlcamp.org) today?'
 ---
 
-See you at \[MySQL Camp\](http://mysqlcamp.org) today?
+See you at [MySQL Camp](http://mysqlcamp.org) today?

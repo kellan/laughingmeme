@@ -18,4 +18,4 @@ categories:
     - Aside
 ---
 
-But I’m just getting used to PB! \[maybe CVS will work\]
+But I’m just getting used to PB! [maybe CVS will work]

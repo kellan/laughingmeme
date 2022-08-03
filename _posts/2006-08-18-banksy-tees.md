@@ -19,4 +19,4 @@ tags:
     - tshirt
 ---
 
-I’ve been threatening to take up the silk screen and make some Banksy tshirts (partially because all known interesting tshirts are already on the display in SF at any given moment). Apparently if I also now have the option of \[plunking down nearly $100 for a Banksy hoodie\](http://chestersblacksmith.myshopify.com/collections/banksy-1/). Ah well. I see this going the way of Obey.
+I’ve been threatening to take up the silk screen and make some Banksy tshirts (partially because all known interesting tshirts are already on the display in SF at any given moment). Apparently if I also now have the option of [plunking down nearly $100 for a Banksy hoodie](http://chestersblacksmith.myshopify.com/collections/banksy-1/). Ah well. I see this going the way of Obey.

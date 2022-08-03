@@ -22,4 +22,4 @@ tags:
     - rtm
 ---
 
-Semi-official GMail API from Mark Pilgrim for use in Greasemonkey. Used to build \[RTM + GMail\](http://blog.rememberthemilk.com/2007/12/rtm-gmail-task-management-goodness.html)
+Semi-official GMail API from Mark Pilgrim for use in Greasemonkey. Used to build [RTM + GMail](http://blog.rememberthemilk.com/2007/12/rtm-gmail-task-management-goodness.html)

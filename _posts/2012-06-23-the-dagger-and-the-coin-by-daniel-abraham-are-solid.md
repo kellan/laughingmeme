@@ -12,7 +12,7 @@ tags:
     - books
 ---
 
-\[Daniel Abraham’s\](http://www.danielabraham.com/) fantasy trilogy \[“The Dagger and the Coin”\](http://www.danielabraham.com/books-by-daniel-abraham/the-dagger-and-the-coin/): \[The Dragon’s Path\]\[1\], \[The King’s Blood\]\[2\], and forthcoming “The Poisoned Sword” are the most satisfying fantasy I’ve read in recent memory.
+[Daniel Abraham’s](http://www.danielabraham.com/) fantasy trilogy [“The Dagger and the Coin”](http://www.danielabraham.com/books-by-daniel-abraham/the-dagger-and-the-coin/): [The Dragon’s Path][1], [The King’s Blood][2], and forthcoming “The Poisoned Sword” are the most satisfying fantasy I’ve read in recent memory.
 
 It’s familiar and unexpected, engaging and unchallenging, swords and sorcery and fallen empires, and deep history, but done well. Economics, and race dynamics, and religion, and archaeology all play roles. Solid multi viewpoint story telling add some novelty to the heroes journeys.
 

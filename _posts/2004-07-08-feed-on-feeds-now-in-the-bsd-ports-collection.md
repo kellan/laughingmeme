@@ -22,4 +22,4 @@ tags:
     - rss
 ---
 
-\[via aaron\] anyone want to make a .deb?
+[via aaron] anyone want to make a .deb?

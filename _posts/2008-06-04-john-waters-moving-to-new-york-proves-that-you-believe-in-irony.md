@@ -17,4 +17,4 @@ tags:
     - quotable
 ---
 
-On New York’s facsimile driven aesthetics. \[via Buzz\](http://twitter.com/buzz/statuses/826647115)
+On New York’s facsimile driven aesthetics. [via Buzz](http://twitter.com/buzz/statuses/826647115)

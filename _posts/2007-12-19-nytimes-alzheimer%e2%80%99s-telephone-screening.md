@@ -20,4 +20,4 @@ tags:
     - 'year in ideas'
 ---
 
-Reading over NYTimes \[Year in Ideas\](http://www.nytimes.com/indexes/2007/12/08/magazine/index.html), I spotted this, and worried that myself and almost everyone I know exhibits the Alzheimer’s early warning signs of “decline in ability to use a telephone, prepare a meal, and manage finances”. Not to mention the “apathy, irritability, and depression.” The modern condition?
+Reading over NYTimes [Year in Ideas](http://www.nytimes.com/indexes/2007/12/08/magazine/index.html), I spotted this, and worried that myself and almost everyone I know exhibits the Alzheimer’s early warning signs of “decline in ability to use a telephone, prepare a meal, and manage finances”. Not to mention the “apathy, irritability, and depression.” The modern condition?

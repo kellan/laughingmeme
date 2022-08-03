@@ -20,9 +20,9 @@ tags:
     - web2.0
 ---
 
-\[Brian\](http://hybernaut.com/), \[Rod\](http://groovymother.com/), and \[glenn\](http://www.furia.com/) have launched the \[Boston Web Technology Forum\](http://bostonwtf.com/), a group blog documenting (and hopefully instigating) innovation in the local Boston web scene.
+[Brian](http://hybernaut.com/), [Rod](http://groovymother.com/), and [glenn](http://www.furia.com/) have launched the [Boston Web Technology Forum](http://bostonwtf.com/), a group blog documenting (and hopefully instigating) innovation in the local Boston web scene.
 
-Their \[initial article is on the relaunch\](http://bostonwtf.com/kiko-2.0) of Ajax calendar startup \[Kiko\](http://kiko.com) (the original!), and how its new features stack up against \[30Boxes\](http://30boxes.net) (the contender). Biggie vs. Tupac style.
+Their [initial article is on the relaunch](http://bostonwtf.com/kiko-2.0) of Ajax calendar startup [Kiko](http://kiko.com) (the original!), and how its new features stack up against [30Boxes](http://30boxes.net) (the contender). Biggie vs. Tupac style.
 
 Looks promising, Brian’s coverage is deeper then the Techcrunch patented drive-by review, and Rod in particular brings the biting insight which is shaping up to be the UK most successful 21st export.
 

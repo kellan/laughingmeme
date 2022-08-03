@@ -17,7 +17,7 @@ tags:
 
 [![NYTimes: Sex & Scandal since 1981](http://farm4.static.flickr.com/3356/3257243248_6418a90f99.jpg)](http://www.flickr.com/photos/blprnt/3257243248/ "NYTimes: Sex & Scandal since 1981 by blprnt_van, on Flickr")
 
-I don’t have much to add that the \[New York Times hasn’t already said about their Article Search API\](http://open.blogs.nytimes.com/2009/02/04/announcing-the-article-search-api/). Its an amazing corpus to be searchable, both in breadth, and scope, and for \[sheer richness of the classification\](http://developer.nytimes.com/docs/article*search*api#h3-data-fields). I can’t think of an remotely comparable dataset with such a rich API.
+I don’t have much to add that the [New York Times hasn’t already said about their Article Search API](http://open.blogs.nytimes.com/2009/02/04/announcing-the-article-search-api/). Its an amazing corpus to be searchable, both in breadth, and scope, and for [sheer richness of the classification](http://developer.nytimes.com/docs/article*search*api#h3-data-fields). I can’t think of an remotely comparable dataset with such a rich API.
 
 Couple of things I noticed that I wanted to call out.
 
@@ -34,7 +34,7 @@ Just make sure to remove the various query string bits that the Times appends, a
 
 ### Expert’s attention information
 
-One of my less comprehensible requests to the \[NYTimes developer team at OSCON last year\](http://en.oreilly.com/oscon2008/public/schedule/topic/BoF) was to make sure their APIs exposed the “attention information of \[their\] editors.” Age of amateur, citizen journalism, and radical decentralization are all awesome, but the NYTimes’ editors job is to think about what is important and interesting full time; and that’s information worth mining.
+One of my less comprehensible requests to the [NYTimes developer team at OSCON last year](http://en.oreilly.com/oscon2008/public/schedule/topic/BoF) was to make sure their APIs exposed the “attention information of [their] editors.” Age of amateur, citizen journalism, and radical decentralization are all awesome, but the NYTimes’ editors job is to think about what is important and interesting full time; and that’s information worth mining.
 
 And they did!
 
@@ -58,4 +58,4 @@ Good stuff:
 
 ### Visualizations
 
-The graphic at the top of this blog post is a “visualization of the frequency of occurrence of the words ‘sex’ and ‘scandal’ in the New York Times, since 1981.”, part of a \[set of visualizations by blprnt*van\](http://flickr.com/photos/blprnt/sets/72157613381549987/) built with the \[article search API\](http://developer.nytimes.com/docs/article*search\_api), and \[Processing\](http://www.processing.org/).
+The graphic at the top of this blog post is a “visualization of the frequency of occurrence of the words ‘sex’ and ‘scandal’ in the New York Times, since 1981.”, part of a [set of visualizations by blprnt*van](http://flickr.com/photos/blprnt/sets/72157613381549987/) built with the [article search API](http://developer.nytimes.com/docs/article*search\_api), and [Processing](http://www.processing.org/).

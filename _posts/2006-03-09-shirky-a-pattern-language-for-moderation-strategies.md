@@ -26,4 +26,4 @@ tags:
     - reputation
 ---
 
-I love pattern languages, and this is an excellent start. E.g. main problems with community can be addressed by \[MakeIdentityValuable\](http://social.itp.nyu.edu/shirky/wiki/?n=Main.MakeIdentityValuable)
+I love pattern languages, and this is an excellent start. E.g. main problems with community can be addressed by [MakeIdentityValuable](http://social.itp.nyu.edu/shirky/wiki/?n=Main.MakeIdentityValuable)

@@ -24,8 +24,8 @@ tags:
     - timezone
 ---
 
-> \[TZInfo\](http://tzinfo.rubyforge.org/) is a Ruby library that uses the standard tz (Olson) database to provide daylight-savings aware transformations between times in different timezones. The tz database is compiled into Ruby classes which are packaged in the release. No external zoneinfo files are required at runtime.
+> [TZInfo](http://tzinfo.rubyforge.org/) is a Ruby library that uses the standard tz (Olson) database to provide daylight-savings aware transformations between times in different timezones. The tz database is compiled into Ruby classes which are packaged in the release. No external zoneinfo files are required at runtime.
 
-Sweet! Another item off the todo list I don’t have to do. And Scott has written an article about \[how to use it as a replacement\](http://lunchroom.lunchboxsoftware.com/pages/tzinfo\_rails) for Rail’s **“so-broken-its-negligent”** \[TimeZone\](http://rails.rubyonrails.com/classes/TimeZone.html) implementation.
+Sweet! Another item off the todo list I don’t have to do. And Scott has written an article about [how to use it as a replacement](http://lunchroom.lunchboxsoftware.com/pages/tzinfo\_rails) for Rail’s **“so-broken-its-negligent”** [TimeZone](http://rails.rubyonrails.com/classes/TimeZone.html) implementation.
 
 As a hacker (is it a universal feeling?) its always an ambiguous feeling to see someone else cross an item off your todo list, a little sense of a loss (I was looking forward to solving that problem) with a bit of glee (Now I get to solve more interesting problems!)

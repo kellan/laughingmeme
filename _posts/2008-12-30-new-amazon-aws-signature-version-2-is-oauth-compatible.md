@@ -23,7 +23,7 @@ tags:
 
 [![Enigma rotors](http://farm2.static.flickr.com/1200/1397852047_3128ce06df.jpg)](http://www.flickr.com/photos/briannegus/1397852047/ "Enigma rotors by Brian Negus, on Flickr")
 
-Spent a couple hours last night writing the core of a stripped down, PHP4 compatible API library for \[Amazon SimpleDB\](http://aws.amazon.com/simpledb/) (in the style of my (http://laughingmeme.org/2008/12/11/my-flickr-api-library-for-php/) library. Just not a fan of abstraction for its own sake). In the process I discovered that Amazon had \[revved the version on their “Signature Method”\](http://developer.amazonwebservices.com/connect/entry.jspa?externalID=1928). Which is good news as SignatureVersion 1 contains a classic crypto-blunder in its design, namely it encourages collisions. (\[more details\](http://www.daemonology.net/blog/2008-12-18-AWS-signature-version-1-is-insecure.html), also \[why you care about collisions\](http://www.phreedom.org/research/rogue-ca/)) To date the solution was use SSL, and wait patiently, very patiently. So yay for Amazon fixing this! And in fairness, first couple of drafts of the OAuth spec contained a similar issue, though it got ironed out quickly. Yay for many eyes and the open web.
+Spent a couple hours last night writing the core of a stripped down, PHP4 compatible API library for [Amazon SimpleDB](http://aws.amazon.com/simpledb/) (in the style of my (http://laughingmeme.org/2008/12/11/my-flickr-api-library-for-php/) library. Just not a fan of abstraction for its own sake). In the process I discovered that Amazon had [revved the version on their “Signature Method”](http://developer.amazonwebservices.com/connect/entry.jspa?externalID=1928). Which is good news as SignatureVersion 1 contains a classic crypto-blunder in its design, namely it encourages collisions. ([more details](http://www.daemonology.net/blog/2008-12-18-AWS-signature-version-1-is-insecure.html), also [why you care about collisions](http://www.phreedom.org/research/rogue-ca/)) To date the solution was use SSL, and wait patiently, very patiently. So yay for Amazon fixing this! And in fairness, first couple of drafts of the OAuth spec contained a similar issue, though it got ironed out quickly. Yay for many eyes and the open web.
 
 ### “OAuth-compatible” signing
 
@@ -34,7 +34,7 @@ Great things are more secure, good news and all, but that isn’t what caught my
 > - You sort the query string parameters using byte ordering
 > - You URL encode the query string parameters and their values before signing the request*
 
-You really have to be an \[OAuth-dork\](http://oauth.net/core/1.0/#anchor1) to find anything special with that paragraph, but if you were, you’d notice that those 4 bullets are an incredibly succinct description of generating an OAuth signature. (in fact a more succinct description then appears anywhere in the \[OAuth documentation\](http://oauth.net/core/1.0/)
+You really have to be an [OAuth-dork](http://oauth.net/core/1.0/#anchor1) to find anything special with that paragraph, but if you were, you’d notice that those 4 bullets are an incredibly succinct description of generating an OAuth signature. (in fact a more succinct description then appears anywhere in the [OAuth documentation](http://oauth.net/core/1.0/)
 
 Which meant that my SimpleDB library can reuse most of the logic from my OAuth library to do the trickiest part of the API call, namely the signing. (Additionally it means that security reviews of both protocols support each other)
 

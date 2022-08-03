@@ -19,4 +19,4 @@ tags:
     - 'web 2.0 expo'
 ---
 
-On \[Advanced OAuth Wrangling\](http://webexny2008.crowdvine.com/talks/show/1054)
+On [Advanced OAuth Wrangling](http://webexny2008.crowdvine.com/talks/show/1054)

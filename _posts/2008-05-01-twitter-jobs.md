@@ -16,4 +16,4 @@ tags:
     - twitter
 ---
 
-Operations Engineer experience with JVM-based application stacks, Systems Engineer code using primarily Java, Ruby, C/C++ and Scala. I blame \[theraflu\](http://twitter.com/jack/statuses/792777706)
+Operations Engineer experience with JVM-based application stacks, Systems Engineer code using primarily Java, Ruby, C/C++ and Scala. I blame [theraflu](http://twitter.com/jack/statuses/792777706)

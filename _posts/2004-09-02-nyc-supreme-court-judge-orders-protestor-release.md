@@ -27,4 +27,4 @@ According to the [Associated Press](http://www.nytimes.com/aponline/national/AP-
 
 Or in the words of [one judge](http://nyc.indymedia.org/newswire/display/115008/index.php)
 
-> I have been here since 5:00 \[2:30 hours\] and only 20 people have been released. What is taking so long?!
+> I have been here since 5:00 [2:30 hours] and only 20 people have been released. What is taking so long?!

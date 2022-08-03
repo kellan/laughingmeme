@@ -23,4 +23,4 @@ One of the most popular accidental [cAts](http://cats.protest.net) skillshare wa
 
 After being installed it can take a while to get your first “sheep” from the sheep server, and can fail behind some firewalls. At geek gatherings we recommend bootstrapping your install by copying someone else’s existing sheep folder (on OS X this is `~/Library/Application Support/ElectricSheep`). If you want to run Electric Sheep as your desktop background, either because you’re a sheep junkie, or because you want maximize your sheep cycles, I found [Backlight](http://freshsqueeze.com/products/freeware/), was a nice freeware app for doing this.
 
-**update \[2004/11/16\]:** Just figured how to vote, and thereby influence the evolution of new sheep. The arrow keys, up arrow for yes, down arrow for no.
+**update [2004/11/16]:** Just figured how to vote, and thereby influence the evolution of new sheep. The arrow keys, up arrow for yes, down arrow for no.

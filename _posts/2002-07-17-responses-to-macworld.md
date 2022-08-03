@@ -30,6 +30,6 @@ Sync is hard, multi-device n-way sync is **really** hard. If Apple can pull it o
 Redevous is so cool. [zeroconf](http://zeroconf.org) has definitely been one of those languishing technologies waiting for someone to push it into greatness. I want an iBook! (on a related note [Matts asks, “Does anyone not want an ibook?”](http://use.perl.org/~Matts/journal/6354)) But whats with the Rendezous icon? Am I the only one seeing the similiarities here?  
 ![Apple's Rendezous Icon](/img/rendezous.gif "Apple's Rendezous Icon")![International Symbol for Biohazard](/img/biohazard2.gif "International Symbol for Biohazard")![International Symbol for Radiation](/img/radiation.gif "International Symbol for Radiation")
 
-**\[updated: 21 jul 02\]** I just had this horrible idea. In 500 years, when people are re-exploring Nevada, they’ll stumble upon Yucca Mountain, and instead of being scared off by the warnings emblazoned on the door, they’ll think that their printers “will just work.” Apple is going to have a lot to answer for.
+**[updated: 21 jul 02]** I just had this horrible idea. In 500 years, when people are re-exploring Nevada, they’ll stumble upon Yucca Mountain, and instead of being scared off by the warnings emblazoned on the door, they’ll think that their printers “will just work.” Apple is going to have a lot to answer for.
 
 And speaking of icons, and OS X, [Symbolizing Accessibility](http://www.joeclark.org/symbolizing.html), proving Apple can get it right it it wants to.

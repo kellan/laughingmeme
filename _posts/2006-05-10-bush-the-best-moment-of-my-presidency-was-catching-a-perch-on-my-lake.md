@@ -22,4 +22,4 @@ tags:
     - quotable
 ---
 
-Like \[Rafe\](http://rc3.org) said, something the President and I can agree upon. Make sure to \[vote in the poll\](http://msnbc.msn.com/id/12684392/)
+Like [Rafe](http://rc3.org) said, something the President and I can agree upon. Make sure to [vote in the poll](http://msnbc.msn.com/id/12684392/)

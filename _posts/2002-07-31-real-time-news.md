@@ -26,6 +26,6 @@ This evening wasn’t as shaking but its amazing how different a community of ne
 
 The press release ends with the imminently practical, and disturbing:
 
-> Because all his computer hardware and files have been seized, David is unable to check email at this time. He can be contacted at. \[and then the address\]
+> Because all his computer hardware and files have been seized, David is unable to check email at this time. He can be contacted at. [and then the address]
 
 I try to imagine what my life would be like tomorrow if the FBI raided my house, and the imagination fails. 

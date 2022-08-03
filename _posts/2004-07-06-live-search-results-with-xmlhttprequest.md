@@ -20,4 +20,4 @@ tags:
     - javascript
 ---
 
-\[via whump\] display search results in place.
+[via whump] display search results in place.

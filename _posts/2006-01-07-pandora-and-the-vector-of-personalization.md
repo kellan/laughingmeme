@@ -22,10 +22,10 @@ tags:
     - participation
 ---
 
-I’m getting good stuff out of \[Pandora\](http://laughingmeme.org) mixing \[Frontier Psychiatrist\](http://www.last.fm/music/The+Avalanches/*/Frontier+Psychiatrist) with \[Feel Good, Inc\](http://www.last.fm/music/Gorillaz/*/Feel+Good+Inc.). What are you mixing?
+I’m getting good stuff out of [Pandora](http://laughingmeme.org) mixing [Frontier Psychiatrist](http://www.last.fm/music/The+Avalanches/*/Frontier+Psychiatrist) with [Feel Good, Inc](http://www.last.fm/music/Gorillaz/*/Feel+Good+Inc.). What are you mixing?
 
 Recommendation cocktails are the way to go.
 
 Most recommendations are either one dimensional (if you liked X you’ll like Y), or, more often, assume that all our little quirks added up describe our one true nature (e.g. Amazon). In fact we’re more complex then that, described by a multitude of often unrelated vectors. Pandora lets you experiment with the dot products.
 
-Thanks \[Rob\](http://hamlets\_dreams.blogs.com/) for pointing out this feature, I had missed it the first time through, and had written off Pandora.
+Thanks [Rob](http://hamlets\_dreams.blogs.com/) for pointing out this feature, I had missed it the first time through, and had written off Pandora.

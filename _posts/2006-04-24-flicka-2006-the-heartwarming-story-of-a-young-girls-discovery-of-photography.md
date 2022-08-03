@@ -22,4 +22,4 @@ tags:
     - web2.0
 ---
 
-Sort of a sequel to \[24 Hours on Craigslist\](http://www.laughingmeme.org/articles/2006/04/14/24-hours-on-craigslist)?
+Sort of a sequel to [24 Hours on Craigslist](http://www.laughingmeme.org/articles/2006/04/14/24-hours-on-craigslist)?

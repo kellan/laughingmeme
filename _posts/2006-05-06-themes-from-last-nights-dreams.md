@@ -19,6 +19,6 @@ tags:
     - personal
 ---
 
-Ruggedized handhelds for beach-based coding, \[intermittent variable reinforcement\](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html), sangria, and anxiety.
+Ruggedized handhelds for beach-based coding, [intermittent variable reinforcement](http://headrush.typepad.com/creating*passionate*users/2006/03/clicker\_trained.html), sangria, and anxiety.
 
 My head was in odd places last night.

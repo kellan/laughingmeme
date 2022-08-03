@@ -23,4 +23,4 @@ tags:
     - text
 ---
 
-I literally finished debugging an HTML entity breaking bug with this same regex 5 minutes ago. Odd convergence. (\[via\](http://simon.incutio.com))
+I literally finished debugging an HTML entity breaking bug with this same regex 5 minutes ago. Odd convergence. ([via](http://simon.incutio.com))

@@ -23,4 +23,4 @@ tags:
     - wp
 ---
 
-Hell yeah! Something I’ve wanted for years, need to make time to play with this. Uses \[YUI\](http://developer.yahoo.com/yui/), via \[Seth\](http://mojodna.net/), technology is finally catching up the point where we can do \[Dru’s\](http://misnomer.dru.ca/) FIP system.
+Hell yeah! Something I’ve wanted for years, need to make time to play with this. Uses [YUI](http://developer.yahoo.com/yui/), via [Seth](http://mojodna.net/), technology is finally catching up the point where we can do [Dru’s](http://misnomer.dru.ca/) FIP system.

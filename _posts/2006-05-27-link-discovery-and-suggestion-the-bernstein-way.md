@@ -21,4 +21,4 @@ tags:
     - related
 ---
 
-Martin collects links to \[Mark Bernstein’s\](http://markbernstein.org) recent (and not so recent) work on link discovery and suggestion.
+Martin collects links to [Mark Bernstein’s](http://markbernstein.org) recent (and not so recent) work on link discovery and suggestion.

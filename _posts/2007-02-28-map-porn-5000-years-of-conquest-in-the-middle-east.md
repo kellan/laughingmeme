@@ -21,4 +21,4 @@ tags:
     - visualization
 ---
 
-5,000 years in 90 seconds. (\[via\](http://www.links.org/?p=198))
+5,000 years in 90 seconds. ([via](http://www.links.org/?p=198))

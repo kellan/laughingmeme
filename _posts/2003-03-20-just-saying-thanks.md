@@ -16,6 +16,6 @@ raw_content:
     - "<p>\r\nBBC: <a href=\\\"http://news.bbc.co.uk/2/hi/business/2867619.stm\\\">US offers Israel billions [more] in aid</a>\r\n</p>\r\n<p>\r\nPresumably by way of saying thanks for killing off that pesky Evergreen student?\r\n</p>"
 ---
 
-BBC: [US offers Israel billions \[more\] in aid](http://news.bbc.co.uk/2/hi/business/2867619.stm)
+BBC: [US offers Israel billions [more] in aid](http://news.bbc.co.uk/2/hi/business/2867619.stm)
 
 Presumably by way of saying thanks for killing off that pesky Evergreen student?

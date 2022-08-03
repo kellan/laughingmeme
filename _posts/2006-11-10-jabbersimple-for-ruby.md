@@ -19,4 +19,4 @@ tags:
     - ruby
 ---
 
-Blaine finally released \[Jabber::Simple\](http://romeda.org/blog/2006/11/announcing-jabbersimple.html)! Jabber::Simple is a straightforward Ruby wrapper for talking XMPP, the perfect for scripted IM interactions, or any other async communication you’ve got in mind. Sweet.
+Blaine finally released [Jabber::Simple](http://romeda.org/blog/2006/11/announcing-jabbersimple.html)! Jabber::Simple is a straightforward Ruby wrapper for talking XMPP, the perfect for scripted IM interactions, or any other async communication you’ve got in mind. Sweet.

@@ -30,7 +30,7 @@ Is this new? Or have I been asleep?
 
 **Update:** Curiouser and curiouser as Alice said. From Jasmine’s house the results don’t include the re-direct script. I’ve tried to re-create this using Anonymizer thinking that perhaps they are only showing this to a small fraction of people, but so far, I’ve gotten nothing.
 
-**update**\[Mar 28 2003\]: Obviously Google didn’t make the switch to tracking every outgoing link, I did recently find the following blurb in [an article about Google](http://www.fastcompany.com/magazine/69/google.html):
+**update**[Mar 28 2003]: Obviously Google didn’t make the switch to tracking every outgoing link, I did recently find the following blurb in [an article about Google](http://www.fastcompany.com/magazine/69/google.html):
 
 > This is where Googlers live, amid semantic, visual, and technical esoterica. Norvig is Google’s director of search quality, charged with continuously improving people’s search results. Google tracks the outcome of a huge sample of the queries that we throw at it. What percentage of users click on the first result that Google delivers? How many users click on something from the first page? Norvig’s team members scour the data, looking for trouble spots. Then they tweak the engine.
 
