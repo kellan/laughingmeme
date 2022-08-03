@@ -31,6 +31,9 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 100
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,12 +43,13 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - vendor
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/

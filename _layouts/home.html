@@ -9,21 +9,26 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {% if site.paginate %}
+  {% assign posts = paginator.posts %}
+  {% else %}
+  {% assign posts = site.posts %}
+  {% endif %}
 
-  {%- for post in site.posts -%}
+  {%- if posts.size > 0 -%}
+  {%- for post in posts -%}
 
-    {% capture year_of_current_post %}
-      {{ post.date | date: "%Y" }}
-    {% endcapture %}
+  {% capture year_of_current_post %}
+  {{ post.date | date: "%Y" }}
+  {% endcapture %}
 
-    {% capture year_of_previous_post %}
-      {{ post.previous.date | date: "%Y" }}
-    {% endcapture %}
+  {% capture year_of_previous_post %}
+  {{ post.previous.date | date: "%Y" }}
+  {% endcapture %}
 
-    {% if forloop.first %}
-    <h2>{{ year_of_current_post }}</h2>
-    <ul>
+  {% if forloop.first %}
+  <h2>{{ year_of_current_post }}</h2>
+  <ul>
     {% endif %}
 
     <li>
@@ -35,20 +40,39 @@ layout: default
       </span>
       <span class="post-date">{{ post.date | date: date_format }}</span>
     </li>
-    
+
     {% if forloop.last %}
+  </ul>
+  {% else %}
+  {% if year_of_current_post != year_of_previous_post %}
+  </ul>
+
+  <h2>{{ year_of_previous_post }}</h2>
+  <ul>
+    {% endif %}
+    {% endif %}
+    {%- endfor -%}
+
+    {% if site.paginate %}
+    <div class="pager">
+      Pages
+      <ul class="pagination">
+        {%- if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page
+            }}</a></li>
+        {%- endif %}
+        <li>
+          <span class="current-page">{{ paginator.page }}</span>
+        </li>
+        {%- if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+
+        {%- endif %}
       </ul>
-    {% else %}
-    {% if year_of_current_post != year_of_previous_post %}
-     </ul>
+    </div>
+    {%- endif %}
 
-      <h2>{{ year_of_previous_post }}</h2>
-      <ul>
-     {% endif %}
-      {% endif %}    
-  {%- endfor -%}
-
-  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
 
 </div>
