@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+
+  {%- for post in site.posts -%}
+
+    {% capture year_of_current_post %}
+      {{ post.date | date: "%Y" }}
+    {% endcapture %}
+
+    {% capture year_of_previous_post %}
+      {{ post.previous.date | date: "%Y" }}
+    {% endcapture %}
+
+    {% if forloop.first %}
+    <h2>{{ year_of_current_post }}</h2>
+    <ul>
+    {% endif %}
+
+    <li>
+      {%- assign date_format = "%b %-d" -%}
+      <span class="post-name">
+        <a class="" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </span>
+      <span class="post-date">{{ post.date | date: date_format }}</span>
+    </li>
+    
+    {% if forloop.last %}
+      </ul>
+    {% else %}
+    {% if year_of_current_post != year_of_previous_post %}
+     </ul>
+
+      <h2>{{ year_of_previous_post }}</h2>
+      <ul>
+     {% endif %}
+      {% endif %}    
+  {%- endfor -%}
+
+  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
