@@ -1,0 +1,75 @@
+---
+id: 1090
+title: 'Latest Book Meme'
+date: '2005-06-01T18:57:00+00:00'
+author: Kellan
+layout: post
+guid: 'http://lm.quxx.info/?p=1090'
+permalink: /2005/06/01/latest-book-meme/
+typo_id:
+    - '1088'
+mt_id:
+    - '2990'
+link_related:
+    - ''
+raw_content:
+    - "New book meme floating around, [Aidan](http://livejournal.com/users/sedesdraconis) [tagged me](http://www.livejournal.com/users/sedesdraconis/65842.html) (as usual).  But reading [Rafe\\'s](http://rc3.org/cgi-bin/less.pl?arg=6995) reminded me.\n### Total number of books owned?\n\nI can\\'t possibly begin to speculate on total number of books owned, I\\'ve got lots at my parents house, and large quantities out roaming the Earth that may one day return to me.  I currently have with me my \\\"travel library\\\", the bare minimum I can\\'t live without, plus whatever I\\'ve bought in the last 6 months.\n\nIn my office (grand term for it), on the bookshelf (which, along with the desk chair dominate the \\\"room\\\"), I\\'ve got:\n\n*  35 books on the mass market paperback shelf (mostly SF).  most of these books I\\'ve read at least 5 times.\n*  44 books on the 2 trade paperback shelves (they don\\'t pack as nicely)\n*  8 assorted hardbacks tucked willy nilly\n*  47 reference books, travel guides, and tech books\n\nPlus 9 books on my desk (of which 6 are library books and don\\'t count)\n\nThere are 63 books in the \\\"book stack\\\" in the living room ([see photo](http://www.flickr.com/photos/kellan/17224815/)), of which 75% are mine, and 25% are Jasmine\\'s.  Plus another 4 on the bedside table.\n\n**204** give or take the odd book tucked by the sofa cushion.\n\n### The last book I bought?\n\n[\\\"Agile Web Development with Rails\\\"](http://www.pragmaticprogrammer.com/titles/rails/index.html), but as that isn\\'t published yet, not sure that counts.  Before that I bought [\\\"redRobe\\\" by Jon Courtenay Grimwood](http://www.amazon.com/exec/obidos/tg/detail/-/0743224124/qid=1117676779/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846) and [\\\"Travel in the Mouth of the Wolf\\\" by Paul Fattaruso](http://www.amazon.com/exec/obidos/tg/detail/-/1932360492/qid=1117676819/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846) on the same outing.\n\n### The last book I read?\n\nI\\'m currently struggling to finish [\\\"Collapse\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/0670033375/qid=1117676878/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846), [\\\"Pragmatic Programmer\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/020161622X/qid=1117676855/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846), and [\\\"Getting Things Done\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/0142000280/qid=1117676898/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846), and alternating between them pretty rapidly.\n\n### Last book I finished?\n\nAidan doesn\\'t have the \\\"Last book I finished\\\" question, but Rafe does.  I just finished [\\\"Jonathan Strange and Mr. Norrell\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/1582344167/qid=1117676917/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846), and I\\'d conditionally recommend it.  I thoroughly enjoyed it as it laid out the mise en scene, but the last two thousand pages or so (really two hundred) dragged a bit.\n\nI finished up [\\\"Never Let Me Go\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/1400043395/qid=1117676956/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846) week before last, and I\\'d unconditionally recommend it (with several caveats, first being that you like slow books, second being you like meditations on melancholy)\n\n### Five books that mean a lot to me\n\nThis is so hard, I\\'m a lousy list maker.  However \\\"mean a lot\\\", wow, thats wide, wide open, and yet allows for an interesting selection, no superlatives there, I think that is rather liberating, we should be asked to make more lists without superlatives.\n\n1. [\\\"Memory\\\" by Bujold](http://www.amazon.com/exec/obidos/tg/detail/-/0671877437/qid=1117676982/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846).  This is the book I read when I\\'m depressed.  I\\'m not sure why.  But I do.\n\n2. [\\\"Ecology of Fear\\\" by Mike Davis](http://www.amazon.com/exec/obidos/tg/detail/-/0375706070/qid=1117677004/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846).  Though I\\'ve taken no steps to make it happen I\\'ve been known to say, \\\"I want to be Mike Davis when I grow up.\\\"  Ecology of Fear uses the tools of contemporary literary analysis to uncover powerful insights into history, culture, and the environment.  Mind blowing.  I recommend reading alongside [Brian Attebery\\'s \\\"Decoding Gender in Science Fiction\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/041593950X/qid=1117677680/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846) for interesting parallels.\n\n3. [\\\"The Brothers Karamazov\\\" by Dostoyevsky, 1991 translation](http://www.amazon.com/exec/obidos/tg/detail/-/0679729259/qid=1117677054/sr=8-9/ref=sr_8_xs_ap_i9_xgl14/103-0306173-7963811?v=glance&s=books&n=507846).  I spent 5 intense months on this book.  At some point it doesn\\'t matter what the books about, when you spend that much time on it, it matters to you. (Also [\\\"Problems of Dostoevsky\\'s Poetics\\\" by Bahktin](http://www.upress.umn.edu/Books/B/bakhtin_problems.html), and [\\\"The Brothers K\\\" by David James Duncan](http://www.amazon.com/exec/obidos/ASIN/055337849X/qid=1117677251/sr=2-1/ref=pd_bbs_b_2_1/103-0306173-7963811))\n\n4. [\\\"Red Mars\\\" by Kim Stanley Robinson](http://www.amazon.com/exec/obidos/ASIN/0553560735/qid=1117677293/sr=2-1/ref=pd_bbs_b_2_1/103-0306173-7963811). KSR is a good writer, and interesting writer, but in this one book I think he reaches a poetic pitch which he never captures before or since. (and very very few others ever achieve)  This is a brilliant book.  The mixing of voices, autobiographical, scientific, mythic, with the interweave of narrators is brilliant, and he sets himself no smaller task then to wonder how we can, rationally and justly govern ourselves.\n\n5. \\\"The First Folio\\\" by Shakespeare.\n\nAdditionally John from [Genehack](http://genehack.org/2005/05/31#book_tag), made me think of two important books I wouldn\\'t have remembered without him:\n\n* [\\\"Soul of a New Machine\\\" by Tracy Kidder](http://www.amazon.com/exec/obidos/tg/detail/-/0679602615/qid=1117677350/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846).  My grandfather gave it to me, it was the first great non-fiction I think I ever read (I was probably 13) and certainly the first book \\\"for work\\\" I ever read. (even back then I think the writing was on the wall about me and computers)\n\n* [\\\"Learning Perl, 2nd edition\\\"](http://www.amazon.com/exec/obidos/tg/detail/-/1565922840/qid=1117677388/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-0306173-7963811?v=glance&s=books&n=507846).  That would probably be the 2nd book I read for work.\n\n### People whose answers I\\'d especially like to see\n\n[attheseams](http://www.livejournal.com/users/attheseams/), [Sheri](http://viriditas.org/), [Dru](http://misnomer.dru.ca/), [Meg](http://www.hmco.com/indexf.html) (no blog?  but really should have one), [Katie](http://egfs.org/), [Kendall](http://monkeyfist.com/), my grandfather (who died in 1995). \n\nI reserve the right to add more."
+tags:
+    - books
+    - meme
+    - st
+---
+
+New book meme floating around, \[Aidan\](http://livejournal.com/users/sedesdraconis) \[tagged me\](http://www.livejournal.com/users/sedesdraconis/65842.html) (as usual). But reading \[Rafe’s\](http://rc3.org/cgi-bin/less.pl?arg=6995) reminded me.
+
+### Total number of books owned?
+
+I can’t possibly begin to speculate on total number of books owned, I’ve got lots at my parents house, and large quantities out roaming the Earth that may one day return to me. I currently have with me my “travel library”, the bare minimum I can’t live without, plus whatever I’ve bought in the last 6 months.
+
+In my office (grand term for it), on the bookshelf (which, along with the desk chair dominate the “room”), I’ve got:
+
+- 35 books on the mass market paperback shelf (mostly SF). most of these books I’ve read at least 5 times.
+- 44 books on the 2 trade paperback shelves (they don’t pack as nicely)
+- 8 assorted hardbacks tucked willy nilly
+- 47 reference books, travel guides, and tech books
+
+Plus 9 books on my desk (of which 6 are library books and don’t count)
+
+There are 63 books in the “book stack” in the living room (\[see photo\](http://www.flickr.com/photos/kellan/17224815/)), of which 75% are mine, and 25% are Jasmine’s. Plus another 4 on the bedside table.
+
+**204** give or take the odd book tucked by the sofa cushion.
+
+### The last book I bought?
+
+\[“Agile Web Development with Rails”\](http://www.pragmaticprogrammer.com/titles/rails/index.html), but as that isn’t published yet, not sure that counts. Before that I bought \[“redRobe” by Jon Courtenay Grimwood\](http://www.amazon.com/exec/obidos/tg/detail/-/0743224124/qid=1117676779/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846) and \[“Travel in the Mouth of the Wolf” by Paul Fattaruso\](http://www.amazon.com/exec/obidos/tg/detail/-/1932360492/qid=1117676819/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846) on the same outing.
+
+### The last book I read?
+
+I’m currently struggling to finish \[“Collapse”\](http://www.amazon.com/exec/obidos/tg/detail/-/0670033375/qid=1117676878/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846), \[“Pragmatic Programmer”\](http://www.amazon.com/exec/obidos/tg/detail/-/020161622X/qid=1117676855/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846), and \[“Getting Things Done”\](http://www.amazon.com/exec/obidos/tg/detail/-/0142000280/qid=1117676898/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846), and alternating between them pretty rapidly.
+
+### Last book I finished?
+
+Aidan doesn’t have the “Last book I finished” question, but Rafe does. I just finished \[“Jonathan Strange and Mr. Norrell”\](http://www.amazon.com/exec/obidos/tg/detail/-/1582344167/qid=1117676917/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846), and I’d conditionally recommend it. I thoroughly enjoyed it as it laid out the mise en scene, but the last two thousand pages or so (really two hundred) dragged a bit.
+
+I finished up \[“Never Let Me Go”\](http://www.amazon.com/exec/obidos/tg/detail/-/1400043395/qid=1117676956/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846) week before last, and I’d unconditionally recommend it (with several caveats, first being that you like slow books, second being you like meditations on melancholy)
+
+### Five books that mean a lot to me
+
+This is so hard, I’m a lousy list maker. However “mean a lot”, wow, thats wide, wide open, and yet allows for an interesting selection, no superlatives there, I think that is rather liberating, we should be asked to make more lists without superlatives.
+
+1. \[“Memory” by Bujold\](http://www.amazon.com/exec/obidos/tg/detail/-/0671877437/qid=1117676982/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846). This is the book I read when I’m depressed. I’m not sure why. But I do.
+2. \[“Ecology of Fear” by Mike Davis\](http://www.amazon.com/exec/obidos/tg/detail/-/0375706070/qid=1117677004/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846). Though I’ve taken no steps to make it happen I’ve been known to say, “I want to be Mike Davis when I grow up.” Ecology of Fear uses the tools of contemporary literary analysis to uncover powerful insights into history, culture, and the environment. Mind blowing. I recommend reading alongside \[Brian Attebery’s “Decoding Gender in Science Fiction”\](http://www.amazon.com/exec/obidos/tg/detail/-/041593950X/qid=1117677680/sr=8-1/ref=sr*8*xs*ap*i1*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846) for interesting parallels.
+3. \[“The Brothers Karamazov” by Dostoyevsky, 1991 translation\](http://www.amazon.com/exec/obidos/tg/detail/-/0679729259/qid=1117677054/sr=8-9/ref=sr*8*xs*ap*i9*xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846). I spent 5 intense months on this book. At some point it doesn’t matter what the books about, when you spend that much time on it, it matters to you. (Also \[“Problems of Dostoevsky’s Poetics” by Bahktin\](http://www.upress.umn.edu/Books/B/bakhtin*problems.html), and \[“The Brothers K” by David James Duncan\](http://www.amazon.com/exec/obidos/ASIN/055337849X/qid=1117677251/sr=2-1/ref=pd*bbs*b*2*1/103-0306173-7963811))
+4. \[“Red Mars” by Kim Stanley Robinson\](http://www.amazon.com/exec/obidos/ASIN/0553560735/qid=1117677293/sr=2-1/ref=pd*bbs*b*2*1/103-0306173-7963811). KSR is a good writer, and interesting writer, but in this one book I think he reaches a poetic pitch which he never captures before or since. (and very very few others ever achieve) This is a brilliant book. The mixing of voices, autobiographical, scientific, mythic, with the interweave of narrators is brilliant, and he sets himself no smaller task then to wonder how we can, rationally and justly govern ourselves.
+5. “The First Folio” by Shakespeare.
+
+Additionally John from \[Genehack\](http://genehack.org/2005/05/31#book\_tag), made me think of two important books I wouldn’t have remembered without him:
+
+- \[“Soul of a New Machine” by Tracy Kidder\](http://www.amazon.com/exec/obidos/tg/detail/-/0679602615/qid=1117677350/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846). My grandfather gave it to me, it was the first great non-fiction I think I ever read (I was probably 13) and certainly the first book “for work” I ever read. (even back then I think the writing was on the wall about me and computers)
+- \[“Learning Perl, 2nd edition”\](http://www.amazon.com/exec/obidos/tg/detail/-/1565922840/qid=1117677388/sr=8-1/ref=sr*8*xs*ap*i1\_xgl14/103-0306173-7963811?v=glance&amp;s=books&amp;n=507846). That would probably be the 2nd book I read for work.
+
+### People whose answers I’d especially like to see
+
+\[attheseams\](http://www.livejournal.com/users/attheseams/), \[Sheri\](http://viriditas.org/), \[Dru\](http://misnomer.dru.ca/), \[Meg\](http://www.hmco.com/indexf.html) (no blog? but really should have one), \[Katie\](http://egfs.org/), \[Kendall\](http://monkeyfist.com/), my grandfather (who died in 1995).
+
+I reserve the right to add more.

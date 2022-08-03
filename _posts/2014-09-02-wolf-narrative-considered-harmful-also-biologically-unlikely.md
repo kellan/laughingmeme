@@ -1,0 +1,24 @@
+---
+id: 5291
+title: '&#8220;Wolf&#8221; narrative considered harmful (also biologically unlikely)'
+date: '2014-09-02T17:57:31+00:00'
+author: Kellan
+layout: post
+guid: 'http://laughingmeme.org/?p=5291'
+permalink: /2014/09/02/wolf-narrative-considered-harmful-also-biologically-unlikely/
+categories:
+    - Uncategorized
+---
+
+Rands’ \[“The Wolf”\](http://randsinrepose.com/archives/the-wolf/) post floated across my Twitters this morning. My immediate reaction was that it was misguided to the point of being potentially harmful. That was 16 long hours ago, but I’m going to see if I can pull the strands of that thought back together.
+
+Michael mentions he’s had the fortune to work with several “wolves” in his career. I’ve worked with a bunch, including teams compromised of nothing but (I guess you’d call that a “pack”). The problem is the post plays into the fantastical narrative of the lone wolf. But here is the secret. No one is a lone wolf. Or at least not completely. “Wolf” is the story that many people want told about them, and that on good days they tell themselves, but in the dark of the soul, we all need help and have doubts. By celebrating the narrative construct rather then reality you perpetuate the dangerous tendency towards isolation that is inherent in this archetype. I’m playing the long game, and in my perspective sooner or later one of two things is going to happen to your isolated “wolf”: either they’re going to run into a hard enough problem that they’re going to need more help then they know how to ask for, or in their bid to maintain their Harvey Keitel-like facade they’ll eventually isolate themselves from new challenges and dead end their usefulness.
+
+So let’s pull back the curtain a bit and understand the archetype:
+
+- they’re passionate about solving hard problems, and generally they have a few favorite problems they like to gnaw on. That deep personal investment in the solution is what pushed them to develop their skills past the point of their peers in the first place, and also where they find the personal clarity they need to opt out of the clarifying bureaucratic structure of the larger org. With that passion can come narrowness, often expressed as hyper rationality. Pro move: keep supplying hard problems off center of their primary focus.
+- they’ve developed a toolkit. A preferred language, set of scripts, investigative processes, checklist, whatever. And they come back to it over and over again. That disproportionate impact they have, it isn’t magic, its craftsmanship. They’ve mastered their tools to the point where the tools are an extension of their hands. They might see everything as a problem to be solved in Lisp, or via experimentation or machine learning or wireshark. They might have written their own text editor that lacks features what you and I consider non-negotiable, but doesn’t seem to impair their progress. The best of these folks literally generate tools, turning their own idiosyncratic but highly effective approach into tools that the wider org can use. Pro move: create a space and a culture that celebrates investing in tools. Everyone should hone their craft, and a few great tool builders makes everyone if not a 10x programmer, maybe an 8.5x.
+- they’re convinced they’re right. Or at least, they’re convinced often enough that they’re right that they appear convinced all the time. A banal outcome of this is hill climbing. The toxic outcome is stagnation with a hugely talented individual stuck because they don’t know how not to be right. You owe your high impact individuals to surround them with people who challenge them. If they’re really a “wolf” they’re likely to try to wriggle out of this. Pro move: they care about impact, so make the road to impact littered with smart challenging people.
+- the “well defined IC track for non-managers” is probably the project I’ve found most elusive and difficult to execute on. Rands gave me my first key insight into it late one night after much tequila: you have to make sure the role comes with super powers. Management comes with super powers by default, you have a team to force multiply you, and by convention, most corporations share information with managers at a greater rate then ICs. I haven’t found a one-size fits all approach to super powers, but a thing we’ve done is make sure that while the “senior eng org” (super powered engineers) have their own discussion space, they can also ease drop on manager discussions if they so choose.
+
+If you’ve been maneuvered into calling someone “a wolf”, then I hypothesize you’ve let someone who could be transformational to your organization off the hook too easily. Imagine instead of a wolf you had a \[Intrinsically Motivated Full Stack Product Hacker\](http://codeascraft.com/2012/06/15/intrinsically-motivated-full-stack-product-hacker/).

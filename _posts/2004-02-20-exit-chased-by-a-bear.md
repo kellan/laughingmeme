@@ -1,0 +1,31 @@
+---
+id: 738
+title: 'Exit, Chased by a Bear'
+date: '2004-02-20T01:31:00+00:00'
+author: Kellan
+layout: post
+guid: 'http://lm.quxx.info/?p=738'
+permalink: /2004/02/20/exit-chased-by-a-bear/
+typo_id:
+    - '736'
+mt_id:
+    - '1760'
+link_related:
+    - ''
+raw_content:
+    - "<p>\r\nSaw <a href=\\\"http://www.seattlepublictheater.org\\\">Seattle Public Theatre\\'s</a> production of <a href=\\\"http://www-tech.mit.edu/Shakespeare/winters_tale/index.html\\\">Winter\\'s Tale</a> with Todd and Sarah this evening.   It was community theater, and enjoyable.  <cite>Winter\\'s Tale</cite>\\'s tragecomic (The Tragedian would have been apalled by the lack of blood) , Greek-infused form is something of an oddity in the folios, and while its been praised for its realism, I\\'ve yet to encounter a production that brought that home for me.\r\n</p>\r\n<p>\r\nWith Shakespeare\\'s more obscure plays you often wonder if there is a reason they are obscure.  Last time I had these thoughts were in the <a href=\\\"http://laughingmeme.org/archives/000067.html#000067\\\">lead up to <acronym title=\\\"Shakespeare Santa Cruz\\\">SSC\\'s</acronym> <cite>Coriolanus</cite></a>, which in the end was one of the most stunning, riveting, inventive productions I\\'ve ever seen bringing out a richness and contemporaneity missing from much of the Bard\\'s more traditional works.  On the other hand <cite>Pericles</cite> is just awful, and I can\\'t imagine why anyone would perform it.  For me the jury is still out on <cite>Winter\\'s Tale</cite>.  This is the second time I\\'ve seen it, and it has yet to be compelling.\r\n</p>\r\n<p>\r\n<h3>A Dying Breed?</h3>\r\nIt did however get me thinking about the nature of the Shakespeare plays, and the nature of the actors we\\'re producing these days.  Heather Hawkins as Hermione was wonderful.  Except for the dramatic denouement in Act III she owned the words and made them hers in that way so essential to bringing Shakespeare to life.  Next to this the actor playing Leontes (missed his name) struggled under the awkward weight of his prosy, melodramatic lines, and at times you squirmed at the sheer flowey-ness of it all.  Hawke was great, but Hermione, while pivotal, is written more to a human scale.  Leontes, like Hamlet, or Lear, needs a specialist, a patrician in old the RSC mold of Olivier and other greats to make the words sing.  Otherwise they go leaden, and lumpy.  \r\n</p>\r\n<p>\r\nI\\'ve had the privilege of watching a few such figures at work, Tony Church in  SSC production of <cite>The Dresser</cite> will always be memorable (a play about the fading patrician as it were), James Edmondson as Lear in Ashland (who is returning this season to direct the sorry king), and merely seeing Gielgud speak was enough to send shivers.  But it seems to be a dieing breed (quite literally), and I wonder if we\\'ll have to see a radical shift in direction in order to keep these works alive.  I\\'m not worried about them becoming un-doable, afterall we have actors who are being asked to carry heavier loads (Hirson\\'s <cite>La Bete\\'s</cite> entire first two acts are a physical, comic soliloquy in verse, and the Homebody of <cite>Homebody/Kabul</cite> must be a harrowing role), but I has my doubts that we\\'re producing a new generation of actors who can stand up, and play these old words straight.\r\n</p>"
+tags:
+    - seattle
+    - shakespeare
+    - theater
+---
+
+Saw [Seattle Public Theatre’s](http://www.seattlepublictheater.org) production of [Winter’s Tale](http://www-tech.mit.edu/Shakespeare/winters_tale/index.html) with Todd and Sarah this evening. It was community theater, and enjoyable. <cite>Winter’s Tale</cite>‘s tragecomic (The Tragedian would have been apalled by the lack of blood) , Greek-infused form is something of an oddity in the folios, and while its been praised for its realism, I’ve yet to encounter a production that brought that home for me.
+
+With Shakespeare’s more obscure plays you often wonder if there is a reason they are obscure. Last time I had these thoughts were in the [lead up to <acronym title="Shakespeare Santa Cruz">SSC’s</acronym> <cite>Coriolanus</cite>](http://laughingmeme.org/archives/000067.html#000067), which in the end was one of the most stunning, riveting, inventive productions I’ve ever seen bringing out a richness and contemporaneity missing from much of the Bard’s more traditional works. On the other hand <cite>Pericles</cite> is just awful, and I can’t imagine why anyone would perform it. For me the jury is still out on <cite>Winter’s Tale</cite>. This is the second time I’ve seen it, and it has yet to be compelling.
+
+### A Dying Breed?
+
+It did however get me thinking about the nature of the Shakespeare plays, and the nature of the actors we’re producing these days. Heather Hawkins as Hermione was wonderful. Except for the dramatic denouement in Act III she owned the words and made them hers in that way so essential to bringing Shakespeare to life. Next to this the actor playing Leontes (missed his name) struggled under the awkward weight of his prosy, melodramatic lines, and at times you squirmed at the sheer flowey-ness of it all. Hawke was great, but Hermione, while pivotal, is written more to a human scale. Leontes, like Hamlet, or Lear, needs a specialist, a patrician in old the RSC mold of Olivier and other greats to make the words sing. Otherwise they go leaden, and lumpy.
+
+I’ve had the privilege of watching a few such figures at work, Tony Church in SSC production of <cite>The Dresser</cite> will always be memorable (a play about the fading patrician as it were), James Edmondson as Lear in Ashland (who is returning this season to direct the sorry king), and merely seeing Gielgud speak was enough to send shivers. But it seems to be a dieing breed (quite literally), and I wonder if we’ll have to see a radical shift in direction in order to keep these works alive. I’m not worried about them becoming un-doable, afterall we have actors who are being asked to carry heavier loads (Hirson’s <cite>La Bete’s</cite> entire first two acts are a physical, comic soliloquy in verse, and the Homebody of <cite>Homebody/Kabul</cite> must be a harrowing role), but I has my doubts that we’re producing a new generation of actors who can stand up, and play these old words straight.

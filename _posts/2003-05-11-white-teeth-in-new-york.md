@@ -1,0 +1,26 @@
+---
+id: 433
+title: 'White Teeth in New York'
+date: '2003-05-11T18:59:30+00:00'
+author: Kellan
+layout: post
+guid: 'http://lm.quxx.info/?p=433'
+permalink: /2003/05/11/white-teeth-in-new-york/
+typo_id:
+    - '431'
+mt_id:
+    - '736'
+link_related:
+    - ''
+raw_content:
+    - "<p>\r\n\\\"That\\'s a good book\\\", \r\n<a href=\\\"http://riseup.net/~micah/nerf/\\\">Micah</a> said. Which confused me, as I wasn\\'t reading,\r\nholding, looking at, or in any other way interacting with a book. \\\"About\r\nactivism, well kind of.\\\"  He was in fact talking about the book the person\r\nsitting behind us was reading.  \r\n<a href=\\\"http://allconsuming.net/item.cgi?isbn=0375703861\\\"><cite>White\r\nTeeth</cite></a> is indeed\r\nturning out to be a good book, though I\r\nfeel like my literary cred is blown a bit not knowing it, perhaps its my\r\nprovincial locale, no longer swept along by the currents of high culture\r\n(keeping up just enough to make fun of people for reading <cite>A Heartbreaking\r\nWork</cite> in public).\r\n</p>\r\n<p>\r\n<h3>The Setting</h3>\r\n We were sitting in a lovely European experience masquerading as a caf&eacute;, one\r\n Doma, 17 Perry St. (a cafe mind you, not a coffee shop, where it\\'s all itty\r\n bitty tables, and spindly chairs, and you can feel that the Czech staff grudgingly\r\n serves an American style coffee, but is much happier if you order an espresso\r\n drink; cell phones are banned always, and laptops on Saturdays [though one\r\n brave soul violated this edict while we were there], but chess games are\r\n allowed to proceed indefinitely [and not be confused with the semi-infamous\r\n Doma in Den Haag]), and now, a week later, and more well versed on\r\n <cite>White Teeth</cite> lore, I can say it was exactly there sort of space one would expect\r\n to find the someone reading the book over their bluefish salad.\r\n </p>\r\n <p>\r\n <h3>Where was I? Oh yes...</h3>\r\n Unfortunately my theory about the provinciality of Providence got a new boost\r\n tonight.  You see the BBC has done a <a\r\n href=\\\"http://nytimes.com/2003/05/11/arts/television/11SMIT.html\\\">television\r\n adaptation</a>[<a\r\n href=\\\"http://nytimes.com/2003/05/09/arts/television/09TVWK.html\\\" title=\\\"I try\r\n to save reviews until after I\\'ve seen a work\\\">review</a>], which is being shown\r\n on PBS tonight, and the second half next Sunday.  Or at least according to the\r\n Times it is.  Here in Providence when my housemate and I sat down to watch the\r\n first half we were first greeted with Simpsons (whoops, an hour too early), and\r\n then, heartbreakingly, Antique Roadshow.  Hello?!?  BBC does one of its famous\r\n adaptations of a great, funny, accessible, relevant book, the PR machine goes\r\n overboard to get 3 photos, and 2 articles in the Sunday New York Times, and\r\n you\\'re showing Antique Roadshow?  Some days this town....\r\n </p>"
+---
+
+“That’s a good book”, [Micah](http://riseup.net/~micah/nerf/) said. Which confused me, as I wasn’t reading, holding, looking at, or in any other way interacting with a book. “About activism, well kind of.” He was in fact talking about the book the person sitting behind us was reading. [<cite>White Teeth</cite>](http://allconsuming.net/item.cgi?isbn=0375703861) is indeed turning out to be a good book, though I feel like my literary cred is blown a bit not knowing it, perhaps its my provincial locale, no longer swept along by the currents of high culture (keeping up just enough to make fun of people for reading <cite>A Heartbreaking Work</cite> in public).
+
+### The Setting
+
+ We were sitting in a lovely European experience masquerading as a café, one Doma, 17 Perry St. (a cafe mind you, not a coffee shop, where it’s all itty bitty tables, and spindly chairs, and you can feel that the Czech staff grudgingly serves an American style coffee, but is much happier if you order an espresso drink; cell phones are banned always, and laptops on Saturdays \[though one brave soul violated this edict while we were there\], but chess games are allowed to proceed indefinitely \[and not be confused with the semi-infamous Doma in Den Haag\]), and now, a week later, and more well versed on <cite>White Teeth</cite> lore, I can say it was exactly there sort of space one would expect to find the someone reading the book over their bluefish salad. ### Where was I? Oh yes…
+
+ Unfortunately my theory about the provinciality of Providence got a new boost tonight. You see the BBC has done a [television adaptation](http://nytimes.com/2003/05/11/arts/television/11SMIT.html)\[[review](http://nytimes.com/2003/05/09/arts/television/09TVWK.html "I try
+ to save reviews until after I've seen a work")\], which is being shown on PBS tonight, and the second half next Sunday. Or at least according to the Times it is. Here in Providence when my housemate and I sat down to watch the first half we were first greeted with Simpsons (whoops, an hour too early), and then, heartbreakingly, Antique Roadshow. Hello?!? BBC does one of its famous adaptations of a great, funny, accessible, relevant book, the PR machine goes overboard to get 3 photos, and 2 articles in the Sunday New York Times, and you’re showing Antique Roadshow? Some days this town…. 

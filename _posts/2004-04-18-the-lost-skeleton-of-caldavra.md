@@ -1,0 +1,53 @@
+---
+id: 799
+title: 'The Lost Skeleton of CalDAVra'
+date: '2004-04-18T02:10:00+00:00'
+author: Kellan
+layout: post
+guid: 'http://lm.quxx.info/?p=799'
+permalink: /2004/04/18/the-lost-skeleton-of-caldavra/
+typo_id:
+    - '797'
+mt_id:
+    - '1957'
+link_related:
+    - ''
+raw_content:
+    - "<p>\r\n<a href=\\\"http://www.ietf.org/internet-drafts/draft-dusseault-caldav-01.txt\\\">CalDAV: Calendar Server Extensions for WebDAV</a> by <a href=\\\"http://nih.blogspot.com/\\\">Lisa Dusseault</a> of <a href=\\\"http://www.osafoundation.org/\\\">OSAF/Chandler</a> (not to mention <a href=\\\"http://www.webdav.org\\\">WebDAV</a>, <a href=\\\"http://www.ietf.org/html.charters/xmpp-charter.html\\\">XMPP</a> [aka <a href=\\\"http://www.jabber.org\\\">Jabber</a>], <a href=\\\"http://www.ietf.org/html.charters/imapext-charter.html\\\">IMAPext</a>, and who knows what else!) is the most exciting new calendar standard in <b>years</b>.  It always seemed strange to me that the <a href=\\\"http://www.calsch.org/\\\">Calsch</a> working group chose not to build on top of what is clearly the protocol success story of the last decade and a half, HTTP.\r\n\r\n<blockquote>\r\nIn the five years since WebDAV was standardized, at least three groups have used WebDAV as a basis to provide Internet calendar access with a minimum of development effort...\r\n</blockquote>\r\n\r\nBecause WebDAV gets you some wonderful things.  Built in synchronization, built in security model (WebDAV ACL + TLS), built in authentication (SASL), high quality, wildly popular, open source, freely available server (<a href=\\\"http://httpd.apache.org\\\">Apache</a>), large number of existing, high quality, freely available libraries (e.g. <a href=\\\"http://www.webdav.org/neon/\\\">neon</a>), large deploy base of WebDAV aware clients (every MacOSX and Windows XP box to start with), graceful degradation to the really ridiculously huge number of clients with a HTTP stack, the list goes on.  Not to mention the space is hopping; lots of people working on improving performance, security and implementations of WebDAV, and high profile projects like <a href=\\\"http://subversion.tigris.org/\\\">Subversion</a> validating the technology.\r\n</p>\r\n<p>\r\nThree groups including <a href=\\\"http://www.apple.com\\\">Apple</a> we might point out, the only company to successfully move calendaring standards forward to date.\r\n</p>\r\n<p>\r\n<h3>How Does It Work?</h3>\r\n\r\nCalDAV proposes a relatively simple solution of nested collections, a calendar collection, for each calendar an event collection, for each event collection, subcollections for the various iCalendar objects (events, todos, freebusy, journals and alarms) plus an additional collection to handle invites (<a href=\\\"http://ietf.org/rfc/rfc2446.txt\\\">iTIP</a>)\r\n</p>\r\n<p>\r\nNow doesn\\'t that sound refreshingly easy and level headed compared to iRIP (prophetically named), and the many year ordeal of <a href=\\\"http://www.ietf.org/internet-drafts/draft-ietf-calsch-cap-12.txt\\\">CAP</a> and its several stalled attempts, and weird technology choices like <a href=\\\"http://beepcore.org\\\">BEEP</a>?  You almost feel like you could sit down and write it in an evening (install mod_dav, make dirs, and go!)  \r\n</p>\r\n<p>\r\n<h3>Some Caveats</h3>\r\n\r\nWell unfortunately its not quite that simple.  There is language in the proposal about handling recurrence calculations which makes sense, and handling fanout which is that same damn tendency to roll scheduling into calendaring which means that nothing ever gets done. (not to mention the weird idea of backchanneling alarms from the web server to the client via XMPP)  I say get a decent calendar store implemented, then talk scheduling.\r\n</p>\r\n<p>\r\nIts also relies on the <a href=\\\"http://www.ietf.org/rfc/rfc3648.txt\\\">ordered collections</a> extension to WebDAV (approved Thursday before last<sup class=\\\"footnote\\\"><a href=\\\"#fn1\\\">1</a></sup>), <a href=\\\"http://www.webdav.org/acl/\\\">WebDAV ACL</a>, and suggests <a href=\\\"http://www.ietf.org/rfc/rfc3253.txt\\\">DeltaV</a>.  All of which adds up to that same feeling of specification creep that we\\'ve seen in the XML world (think XML Schema).  The problem with spec creep is it raises the bar to open source development in favor of corporate solutions, and precludes later creativity.\r\n</p>\r\n<p>\r\nStill at the end of the day you would have a calendar store that supported group collaboration, unique URIs per event and calendar (really a whole RESTful webservice API), offlining, and was easy to integrate with the current crop of clients and server side implementations (at least the open source ones).  And it would probably be equally applicable to the work the <a href=\\\"http://www.w3.org/2002/12/cal/\\\">RDF Calendar Taskforce</a> is doing.\r\n</p>\r\n<p>\r\nI\\'m terribly excited about calendaring for the first time in years (<a href=\\\"http://www.mozilla.org/projects/calendar/\\\">Sunbird</a> is helping as well, have you seen its nifty pub/sub over HTTP feature?)\r\n</p>\r\n<p>\r\n<h3>Why am I mentioning this all now?</h3>\r\n\r\nBecause the specification is set to expire two weeks from now on May 1st, and I\\'m hoping it won\\'t die.\r\n</p>\r\n<p>\r\nupdate:  When I read over the document on more time, I noticed that notifications (aforementioned iTIP and \\\"weird backchanneling\\\") are noted as an optional feature; not all event sources will be calendaring sources.  Right on.\r\n</p>\r\n<p class=\\\"footnote\\\" id=\\\"fn1\\\"><sup>1</sup> Not to be confused with <a href=\\\"http://www.amazon.com/exec/obidos/search-handle-url/index%3Dstripbooks%26field-keywords%3Dthursday%252520next/103-0708183-2653413\\\">Thursday Next</a></p>"
+categories:
+    - Uncategorized
+tags:
+    - caldav
+    - calendaring
+    - standards
+---
+
+[CalDAV: Calendar Server Extensions for WebDAV](http://www.ietf.org/internet-drafts/draft-dusseault-caldav-01.txt) by [Lisa Dusseault](http://nih.blogspot.com/) of [OSAF/Chandler](http://www.osafoundation.org/) (not to mention [WebDAV](http://www.webdav.org), [XMPP](http://www.ietf.org/html.charters/xmpp-charter.html) \[aka [Jabber](http://www.jabber.org)\], [IMAPext](http://www.ietf.org/html.charters/imapext-charter.html), and who knows what else!) is the most exciting new calendar standard in **years**. It always seemed strange to me that the [Calsch](http://www.calsch.org/) working group chose not to build on top of what is clearly the protocol success story of the last decade and a half, HTTP.
+
+> In the five years since WebDAV was standardized, at least three groups have used WebDAV as a basis to provide Internet calendar access with a minimum of development effort…
+
+Because WebDAV gets you some wonderful things. Built in synchronization, built in security model (WebDAV ACL + TLS), built in authentication (SASL), high quality, wildly popular, open source, freely available server ([Apache](http://httpd.apache.org)), large number of existing, high quality, freely available libraries (e.g. [neon](http://www.webdav.org/neon/)), large deploy base of WebDAV aware clients (every MacOSX and Windows XP box to start with), graceful degradation to the really ridiculously huge number of clients with a HTTP stack, the list goes on. Not to mention the space is hopping; lots of people working on improving performance, security and implementations of WebDAV, and high profile projects like [Subversion](http://subversion.tigris.org/) validating the technology. Three groups including [Apple](http://www.apple.com) we might point out, the only company to successfully move calendaring standards forward to date.
+
+### How Does It Work?
+
+CalDAV proposes a relatively simple solution of nested collections, a calendar collection, for each calendar an event collection, for each event collection, subcollections for the various iCalendar objects (events, todos, freebusy, journals and alarms) plus an additional collection to handle invites ([iTIP](http://ietf.org/rfc/rfc2446.txt))
+
+Now doesn’t that sound refreshingly easy and level headed compared to iRIP (prophetically named), and the many year ordeal of [CAP](http://www.ietf.org/internet-drafts/draft-ietf-calsch-cap-12.txt) and its several stalled attempts, and weird technology choices like [BEEP](http://beepcore.org)? You almost feel like you could sit down and write it in an evening (install mod\_dav, make dirs, and go!)
+
+### Some Caveats
+
+Well unfortunately its not quite that simple. There is language in the proposal about handling recurrence calculations which makes sense, and handling fanout which is that same damn tendency to roll scheduling into calendaring which means that nothing ever gets done. (not to mention the weird idea of backchanneling alarms from the web server to the client via XMPP) I say get a decent calendar store implemented, then talk scheduling.
+
+Its also relies on the [ordered collections](http://www.ietf.org/rfc/rfc3648.txt) extension to WebDAV (approved Thursday before last<sup class="footnote">[1](#fn1)</sup>), [WebDAV ACL](http://www.webdav.org/acl/), and suggests [DeltaV](http://www.ietf.org/rfc/rfc3253.txt). All of which adds up to that same feeling of specification creep that we’ve seen in the XML world (think XML Schema). The problem with spec creep is it raises the bar to open source development in favor of corporate solutions, and precludes later creativity.
+
+Still at the end of the day you would have a calendar store that supported group collaboration, unique URIs per event and calendar (really a whole RESTful webservice API), offlining, and was easy to integrate with the current crop of clients and server side implementations (at least the open source ones). And it would probably be equally applicable to the work the [RDF Calendar Taskforce](http://www.w3.org/2002/12/cal/) is doing.
+
+I’m terribly excited about calendaring for the first time in years ([Sunbird](http://www.mozilla.org/projects/calendar/) is helping as well, have you seen its nifty pub/sub over HTTP feature?)
+
+### Why am I mentioning this all now?
+
+Because the specification is set to expire two weeks from now on May 1st, and I’m hoping it won’t die.
+
+update: When I read over the document on more time, I noticed that notifications (aforementioned iTIP and “weird backchanneling”) are noted as an optional feature; not all event sources will be calendaring sources. Right on.
+
+<sup>1</sup> Not to be confused with [Thursday Next](http://www.amazon.com/exec/obidos/search-handle-url/index%3Dstripbooks%26field-keywords%3Dthursday%252520next/103-0708183-2653413)

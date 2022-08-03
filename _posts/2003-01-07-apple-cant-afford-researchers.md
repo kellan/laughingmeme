@@ -1,0 +1,25 @@
+---
+id: 264
+title: 'Apple Can&#8217;t Afford Researchers?'
+date: '2003-01-07T18:40:52+00:00'
+author: Kellan
+layout: post
+guid: 'http://lm.quxx.info/?p=264'
+permalink: /2003/01/07/apple-cant-afford-researchers/
+typo_id:
+    - '262'
+mt_id:
+    - '272'
+link_related:
+    - ''
+raw_content:
+    - "<p>\r\nWhat is Apple\\'s problem?  First iCal, and now \r\n<a href=\\\"http://www.apple.com/safari/\\\" title=\\\"Because the world needed another non-Gecko based browser\\\">\r\nSafari</a>?  Come on people!  Show some originality.  Alright, I\\'ve been on the road for 24 hours, maybe it will look better in the morning.\r\n</p>\r\n<p>\r\n<b>update (next morning):</b> Still grouchy about the name and what seems to be an emerging pattern of snagging good names that are already in high profile use.  Very impressed and a more then a little scared by how well Apple is capitalizing on the open source community.  Safari is built on <a \r\nhref=\\\"http://developer.apple.com/darwin/projects/webcore/\\\">WebCore</a> which is an improved, OSX ready <a href=\\\"http://developer.kde.org/documentation/library/kdeqt/kde3arch/khtml/\\\">KHTML</a> (written in Objective C++, who knew such a thing existed?).  Apple also released  <a href=\\\"http://www.apple.com/macosx/x11/\\\">X11 fo OS X</a> (this one goes to a 11) meaning you longer have to be geeky enough to install <a href=\\\"http://oroborosx.sourceforge.net/\\\">OroborosX</a> to run X apps.  It ain\\'t fair, its not supposed to be that easy, and how is the open source community supposed to stay motivated when someone can pour that kind of resources into things.  Though <a href=\\\"http://www.gnudarwin.org\\\">Gnu-Darwin\\'s</a> recent descision to <a href=\\\"http://sourceforge.net/forum/forum.php?forum_id=237019\\\">drop support for PPC</a> has more to do with Apple\\'s politics and their use of the DMCA.  \r\n</p>\r\n<p>\r\nMost exciting news I\\'m seeing come out of Macworld is <a href=\\\"http://www.google.com/search?q=802.11g\\\">802.11g</a> (aka \r\n<a href=\\\"http://www.apple.com/powerbook/wireless.html\\\">Airport Extreme</a>) support.  New laptops support it, new cards support it, a new base station.  802.11g is the fast one thats backwards compatible, and if there is anything Apple is good at, its king making, pushing standards.  Not sure if anyone else could get wireless up and moving again now that it has such a large install base, but looking at their success with USB, FireWire, zeroconf, iCalendar, and 802.11b, these are the people to do it. (I do think shipping gigabit ethernet standard is overkill though)\r\n</p>\r\n<p>\r\nbtw.  <a href=\\\"http://homepage.mac.com/macdomeeu/dev/current/mod_rendezvous/\\\">mod_rendezvous</a> has arrived, now when are Linux apps going to start supporting it?\r\n</p>"
+---
+
+What is Apple’s problem? First iCal, and now [Safari](http://www.apple.com/safari/ "Because the world needed another non-Gecko based browser")? Come on people! Show some originality. Alright, I’ve been on the road for 24 hours, maybe it will look better in the morning.
+
+**update (next morning):** Still grouchy about the name and what seems to be an emerging pattern of snagging good names that are already in high profile use. Very impressed and a more then a little scared by how well Apple is capitalizing on the open source community. Safari is built on [WebCore](http://developer.apple.com/darwin/projects/webcore/) which is an improved, OSX ready [KHTML](http://developer.kde.org/documentation/library/kdeqt/kde3arch/khtml/) (written in Objective C++, who knew such a thing existed?). Apple also released [X11 fo OS X](http://www.apple.com/macosx/x11/) (this one goes to a 11) meaning you longer have to be geeky enough to install [OroborosX](http://oroborosx.sourceforge.net/) to run X apps. It ain’t fair, its not supposed to be that easy, and how is the open source community supposed to stay motivated when someone can pour that kind of resources into things. Though [Gnu-Darwin’s](http://www.gnudarwin.org) recent descision to [drop support for PPC](http://sourceforge.net/forum/forum.php?forum_id=237019) has more to do with Apple’s politics and their use of the DMCA.
+
+Most exciting news I’m seeing come out of Macworld is [802.11g](http://www.google.com/search?q=802.11g) (aka [Airport Extreme](http://www.apple.com/powerbook/wireless.html)) support. New laptops support it, new cards support it, a new base station. 802.11g is the fast one thats backwards compatible, and if there is anything Apple is good at, its king making, pushing standards. Not sure if anyone else could get wireless up and moving again now that it has such a large install base, but looking at their success with USB, FireWire, zeroconf, iCalendar, and 802.11b, these are the people to do it. (I do think shipping gigabit ethernet standard is overkill though)
+
+btw. [mod\_rendezvous](http://homepage.mac.com/macdomeeu/dev/current/mod_rendezvous/) has arrived, now when are Linux apps going to start supporting it?
