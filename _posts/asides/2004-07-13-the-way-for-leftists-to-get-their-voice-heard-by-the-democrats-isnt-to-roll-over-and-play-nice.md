@@ -1,6 +1,6 @@
 ---
 id: 2383
-title: '&#8220;the way for leftists to get their voice heard by the Democrats isn&#8217;t to roll over and play nice&#8221;'
+title: '"the way for leftists to get their voice heard by the Democrats isnt to roll over and play nice"'
 date: '2004-07-13T14:54:19+00:00'
 author: Kellan
 layout: post

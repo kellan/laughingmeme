@@ -1,6 +1,6 @@
 ---
 id: 3049
-title: 'The level of discourse on #php&#8230;.'
+title: 'The level of discourse on #php....'
 date: '2005-10-12T17:35:39+00:00'
 author: Kellan
 layout: post

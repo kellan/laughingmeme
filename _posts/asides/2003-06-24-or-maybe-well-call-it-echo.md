@@ -1,6 +1,6 @@
 ---
 id: 1555
-title: 'Or maybe we&#8217;ll call it &#8220;echo&#8221;'
+title: 'Or maybe well call it "echo"'
 date: '2003-06-24T22:27:16+00:00'
 author: Kellan
 layout: post

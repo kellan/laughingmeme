@@ -1,6 +1,6 @@
 ---
 id: 4502
-title: 'OAuth Echo &#8211; delegation in identity verification &#8211; mehack'
+title: 'OAuth Echo – delegation in identity verification – mehack'
 date: '2010-02-11T10:35:11+00:00'
 author: Kellan
 layout: post

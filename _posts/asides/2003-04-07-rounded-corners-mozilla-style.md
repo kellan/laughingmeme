@@ -1,6 +1,6 @@
 ---
 id: 1351
-title: 'Rounded Corners &#8211; Mozilla Style'
+title: 'Rounded Corners – Mozilla Style'
 date: '2003-04-07T16:01:49+00:00'
 author: Kellan
 layout: post

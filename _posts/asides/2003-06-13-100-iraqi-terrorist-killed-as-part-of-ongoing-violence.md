@@ -1,6 +1,6 @@
 ---
 id: 1516
-title: '100 Iraqi &#8220;terrorist&#8221; killed as part of ongoing violence'
+title: '100 Iraqi "terrorist" killed as part of ongoing violence'
 date: '2003-06-13T18:02:33+00:00'
 author: Kellan
 layout: post

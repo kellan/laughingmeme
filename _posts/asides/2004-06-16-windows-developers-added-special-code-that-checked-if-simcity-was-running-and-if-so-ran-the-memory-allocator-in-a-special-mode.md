@@ -1,6 +1,6 @@
 ---
 id: 2336
-title: '&#8220;Windows developers added special code that checked if SimCity was running, and if so ran the memory allocator in a special mode.&#8221;'
+title: '"Windows developers added special code that checked if SimCity was running, and if so ran the memory allocator in a special mode."'
 date: '2004-06-16T12:38:14+00:00'
 author: Kellan
 layout: post

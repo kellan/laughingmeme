@@ -1,6 +1,6 @@
 ---
 id: 1176
-title: 'i&#8217;m stepping crud factor down to 8 today'
+title: 'im stepping crud factor down to 8 today'
 date: '2003-01-31T12:49:17+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 267
-title: 'LM doesn&#8217;t display in Safari'
+title: 'LM doesnt display in Safari'
 date: '2003-01-09T10:53:28+00:00'
 author: Kellan
 layout: post

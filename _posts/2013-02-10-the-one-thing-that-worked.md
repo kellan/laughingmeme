@@ -1,6 +1,6 @@
 ---
 id: 5203
-title: 'The one thing that&#8217;s worked so far'
+title: 'The one thing thats worked so far'
 date: '2013-02-10T13:32:56+00:00'
 author: Kellan
 layout: post

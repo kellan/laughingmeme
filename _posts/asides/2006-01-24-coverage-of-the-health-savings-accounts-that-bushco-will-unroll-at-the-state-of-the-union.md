@@ -1,6 +1,6 @@
 ---
 id: 3210
-title: 'Coverage of the &#8220;Health Savings Accounts&#8221; that BushCo will unroll at the State of the Union'
+title: 'Coverage of the "Health Savings Accounts" that BushCo will unroll at the State of the Union'
 date: '2006-01-24T10:34:00+00:00'
 author: Kellan
 layout: post

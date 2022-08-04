@@ -1,6 +1,6 @@
 ---
 id: 3103
-title: 'Bug 26179 &#8211; Mozilla reports existence of phantom text nodes in the DOM'
+title: 'Bug 26179 – Mozilla reports existence of phantom text nodes in the DOM'
 date: '2005-11-11T00:51:00+00:00'
 author: Kellan
 layout: post

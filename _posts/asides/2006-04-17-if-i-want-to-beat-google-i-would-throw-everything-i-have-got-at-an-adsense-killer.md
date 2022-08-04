@@ -1,6 +1,6 @@
 ---
 id: 3328
-title: '&#8220;If I want to beat Google? I would throw everything I have got at an AdSense killer.&#8221;'
+title: '"If I want to beat Google? I would throw everything I have got at an AdSense killer."'
 date: '2006-04-17T10:57:00+00:00'
 author: Kellan
 layout: post

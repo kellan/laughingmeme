@@ -1,6 +1,6 @@
 ---
 id: 27
-title: 'Santa Cruz&#8217;s Erotic Topiary'
+title: 'Santa Cruzs Erotic Topiary'
 date: '2002-05-13T11:29:15+00:00'
 author: Kellan
 layout: post

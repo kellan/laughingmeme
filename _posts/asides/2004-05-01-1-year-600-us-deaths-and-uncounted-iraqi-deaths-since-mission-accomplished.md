@@ -1,6 +1,6 @@
 ---
 id: 2238
-title: '1 year, 600 U.S. deaths, and uncounted Iraqi deaths since &#8220;Mission Accomplished&#8221;.'
+title: '1 year, 600 U.S. deaths, and uncounted Iraqi deaths since "Mission Accomplished".'
 date: '2004-05-01T04:10:57+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2042
-title: 'Ted&#8217;s tips and tricks for OS X'
+title: 'Teds tips and tricks for OS X'
 date: '2004-01-31T02:38:48+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3658
-title: 'Stewart: &#8220;expression of human creativity is one of the things that gives purpose to the universe.&#8221;'
+title: 'Stewart: "expression of human creativity is one of the things that gives purpose to the universe."'
 date: '2007-06-05T14:27:38+00:00'
 author: Kellan
 layout: post

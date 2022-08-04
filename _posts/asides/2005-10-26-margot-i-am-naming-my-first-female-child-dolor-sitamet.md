@@ -1,6 +1,6 @@
 ---
 id: 3055
-title: 'Margot: &#8220;i am naming my first female child Dolor Sitamet&#8221;'
+title: 'Margot: "i am naming my first female child Dolor Sitamet"'
 date: '2005-10-26T00:10:00+00:00'
 author: Kellan
 layout: post

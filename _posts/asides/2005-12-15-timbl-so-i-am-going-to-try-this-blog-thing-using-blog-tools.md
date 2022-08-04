@@ -1,6 +1,6 @@
 ---
 id: 3164
-title: 'TimBL: &#8220;So I am going to try this blog thing using blog tools.&#8221;'
+title: 'TimBL: "So I am going to try this blog thing using blog tools."'
 date: '2005-12-15T07:37:00+00:00'
 author: Kellan
 layout: post

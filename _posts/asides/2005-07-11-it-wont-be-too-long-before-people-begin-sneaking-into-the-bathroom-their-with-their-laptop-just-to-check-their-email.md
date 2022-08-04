@@ -1,6 +1,6 @@
 ---
 id: 2967
-title: '&#8220;It won&#8217;t be too long before people begin sneaking into the bathroom their with their laptop just to check their email.&#8221;'
+title: '"It wont be too long before people begin sneaking into the bathroom their with their laptop just to check their email."'
 date: '2005-07-11T15:41:12+00:00'
 author: Kellan
 layout: post

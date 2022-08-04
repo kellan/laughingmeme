@@ -1,6 +1,6 @@
 ---
 id: 2003
-title: 'The Aviary &#8211; A Site Devoted to Corvidae'
+title: 'The Aviary – A Site Devoted to Corvidae'
 date: '2004-01-15T15:05:06+00:00'
 author: Kellan
 layout: post

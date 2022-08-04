@@ -1,6 +1,6 @@
 ---
 id: 1415
-title: 'coWiki &#8211; the 1st php5 app?'
+title: 'coWiki – the 1st php5 app?'
 date: '2003-05-06T09:20:51+00:00'
 author: Kellan
 layout: post

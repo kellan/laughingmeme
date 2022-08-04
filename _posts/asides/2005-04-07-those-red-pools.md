@@ -1,6 +1,6 @@
 ---
 id: 2901
-title: 'Those red pools&#8230;'
+title: 'Those red pools...'
 date: '2005-04-07T10:41:24+00:00'
 author: Kellan
 layout: post

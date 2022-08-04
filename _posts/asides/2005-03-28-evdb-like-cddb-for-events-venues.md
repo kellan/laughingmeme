@@ -1,6 +1,6 @@
 ---
 id: 2881
-title: '&#8220;EVDB, like CDDB for events &#038; venues.&#8221;'
+title: '"EVDB, like CDDB for events &#038; venues."'
 date: '2005-03-28T11:45:15+00:00'
 author: Kellan
 layout: post

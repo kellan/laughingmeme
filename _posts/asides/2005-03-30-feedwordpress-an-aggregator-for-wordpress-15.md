@@ -1,6 +1,6 @@
 ---
 id: 2889
-title: 'FeedWordPress &#8211; an aggregator for WordPress 1.5'
+title: 'FeedWordPress – an aggregator for WordPress 1.5'
 date: '2005-03-30T11:16:09+00:00'
 author: Kellan
 layout: post

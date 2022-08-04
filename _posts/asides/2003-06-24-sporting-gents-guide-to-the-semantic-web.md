@@ -1,6 +1,6 @@
 ---
 id: 1548
-title: 'Sporting Gent&#8217;s guide to the Semantic Web'
+title: 'Sporting Gents guide to the Semantic Web'
 date: '2003-06-24T09:49:01+00:00'
 author: Kellan
 layout: post

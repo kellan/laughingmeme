@@ -1,6 +1,6 @@
 ---
 id: 3242
-title: 'RasterWeb: MagpieRSS for &#8230; JSP?'
+title: 'RasterWeb: MagpieRSS for ... JSP?'
 date: '2006-02-07T13:22:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3528
-title: 'Best game ever &#8211; an asteroid takes revenge on the tiny vector ships that have been oppressing'
+title: 'Best game ever – an asteroid takes revenge on the tiny vector ships that have been oppressing'
 date: '2006-12-01T14:22:00+00:00'
 author: Kellan
 layout: post

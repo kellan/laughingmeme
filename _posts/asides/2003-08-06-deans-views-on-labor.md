@@ -1,6 +1,6 @@
 ---
 id: 1639
-title: 'Dean&#8217;s views on labor'
+title: 'Deans views on labor'
 date: '2003-08-06T21:11:03+00:00'
 author: Kellan
 layout: post

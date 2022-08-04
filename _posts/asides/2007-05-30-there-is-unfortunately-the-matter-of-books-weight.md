@@ -1,6 +1,6 @@
 ---
 id: 3645
-title: '&#8220;There is, unfortunately, the matter of books&#8217; weight&#8221;'
+title: '"There is, unfortunately, the matter of books weight"'
 date: '2007-05-30T06:58:05+00:00'
 author: Kellan
 layout: post

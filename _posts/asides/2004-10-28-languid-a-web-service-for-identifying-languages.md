@@ -1,6 +1,6 @@
 ---
 id: 2605
-title: 'Languid &#8211; a web service for identifying languages.'
+title: 'Languid – a web service for identifying languages.'
 date: '2004-10-28T16:28:20+00:00'
 author: Kellan
 layout: post

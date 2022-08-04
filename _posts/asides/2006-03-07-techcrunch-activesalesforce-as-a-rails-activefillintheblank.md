@@ -1,6 +1,6 @@
 ---
 id: 3275
-title: 'TechCrunch: ActiveSalesforce (as a Rails&#8217; ActiveFillintheBlank)'
+title: 'TechCrunch: ActiveSalesforce (as a Rails ActiveFillintheBlank)'
 date: '2006-03-07T10:01:00+00:00'
 author: Kellan
 layout: post

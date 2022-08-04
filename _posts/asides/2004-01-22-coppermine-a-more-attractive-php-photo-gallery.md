@@ -1,6 +1,6 @@
 ---
 id: 2022
-title: 'Coppermine  &#8211; A More Attractive PHP Photo Gallery'
+title: 'Coppermine  – A More Attractive PHP Photo Gallery'
 date: '2004-01-22T02:43:06+00:00'
 author: Kellan
 layout: post

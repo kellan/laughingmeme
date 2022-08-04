@@ -1,6 +1,6 @@
 ---
 id: 1418
-title: 'CSS Inheritance and &#8220;over declaration&#8221;'
+title: 'CSS Inheritance and "over declaration"'
 date: '2003-05-06T11:20:57+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1230
-title: 'Caterina&#8217;s Tea Recommendations'
+title: 'Caterinas Tea Recommendations'
 date: '2003-02-19T00:04:27+00:00'
 author: Kellan
 layout: post

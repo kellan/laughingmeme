@@ -1,6 +1,6 @@
 ---
 id: 1795
-title: 'Given the choice, it&#8217;s better to be viewed as a foot soldier for Bush than a spokeswoman for al-Qaeda.'
+title: 'Given the choice, its better to be viewed as a foot soldier for Bush than a spokeswoman for al-Qaeda.'
 date: '2003-10-21T16:18:46+00:00'
 author: Kellan
 layout: post

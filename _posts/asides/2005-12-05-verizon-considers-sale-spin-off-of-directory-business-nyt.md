@@ -1,6 +1,6 @@
 ---
 id: 3138
-title: '&#8220;Verizon Considers Sale, Spin &#8211; Off of Directory Business&#8221; (NYT)'
+title: '"Verizon Considers Sale, Spin – Off of Directory Business" (NYT)'
 date: '2005-12-05T13:46:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 5291
-title: '&#8220;Wolf&#8221; narrative considered harmful (also biologically unlikely)'
+title: '"Wolf" narrative considered harmful (also biologically unlikely)'
 date: '2014-09-02T17:57:31+00:00'
 author: Kellan
 layout: post

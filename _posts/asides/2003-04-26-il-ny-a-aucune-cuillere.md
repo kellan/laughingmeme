@@ -1,6 +1,6 @@
 ---
 id: 1389
-title: 'Il n&#8217;y a aucune cuillÃ¨re.'
+title: 'Il ny a aucune cuillÃ¨re.'
 date: '2003-04-26T17:08:57+00:00'
 author: Kellan
 layout: post

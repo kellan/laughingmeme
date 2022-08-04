@@ -1,6 +1,6 @@
 ---
 id: 1844
-title: 'cvsplot.pl &#8211; graph line and file counts over time'
+title: 'cvsplot.pl – graph line and file counts over time'
 date: '2003-11-12T02:35:50+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3097
-title: 'sux0r &#8211;  A multi-user RSS aggregator with multi-category Bayesian filtering capabilities.'
+title: 'sux0r –  A multi-user RSS aggregator with multi-category Bayesian filtering capabilities.'
 date: '2005-11-09T13:57:00+00:00'
 author: Kellan
 layout: post

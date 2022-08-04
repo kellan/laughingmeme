@@ -1,6 +1,6 @@
 ---
 id: 3353
-title: 'misnomer: If I can&#8217;t misquote, it&#8217;s not my revolution'
+title: 'misnomer: If I cant misquote, its not my revolution'
 date: '2006-05-09T16:03:00+00:00'
 author: Kellan
 layout: post

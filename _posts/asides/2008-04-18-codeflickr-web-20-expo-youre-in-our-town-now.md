@@ -1,6 +1,6 @@
 ---
 id: 3804
-title: 'code.flickr: Web 2.0 Expo, you&#8217;re in our town now'
+title: 'code.flickr: Web 2.0 Expo, youre in our town now'
 date: '2008-04-18T16:32:23+00:00'
 author: Kellan
 layout: post

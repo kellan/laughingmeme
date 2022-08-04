@@ -1,6 +1,6 @@
 ---
 id: 3482
-title: 'Stevey&#8217;s Blog Rants: Good Agile, Bad Agile'
+title: 'Steveys Blog Rants: Good Agile, Bad Agile'
 date: '2006-09-27T13:26:00+00:00'
 author: Kellan
 layout: post

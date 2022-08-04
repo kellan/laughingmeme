@@ -1,6 +1,6 @@
 ---
 id: 1219
-title: 'Richard Dawkins: &#8220;Frankenfoods rock!&#8221;'
+title: 'Richard Dawkins: "Frankenfoods rock!"'
 date: '2003-02-13T13:43:15+00:00'
 author: Kellan
 layout: post

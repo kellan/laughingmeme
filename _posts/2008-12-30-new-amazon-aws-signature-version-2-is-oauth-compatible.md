@@ -1,6 +1,6 @@
 ---
 id: 4138
-title: 'New Amazon AWS Signature Version 2 is  &#8220;OAuth-compatible&#8221;'
+title: 'New Amazon AWS Signature Version 2 is  "OAuth-compatible"'
 date: '2008-12-30T13:10:22+00:00'
 author: Kellan
 layout: post

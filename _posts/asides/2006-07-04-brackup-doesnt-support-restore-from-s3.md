@@ -1,6 +1,6 @@
 ---
 id: 3396
-title: 'Brackup doesn&#8217;t support restore from S3'
+title: 'Brackup doesnt support restore from S3'
 date: '2006-07-04T19:01:00+00:00'
 author: Kellan
 layout: post

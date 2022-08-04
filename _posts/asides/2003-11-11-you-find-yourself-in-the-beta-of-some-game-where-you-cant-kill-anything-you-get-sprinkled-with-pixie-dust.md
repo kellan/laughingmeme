@@ -1,6 +1,6 @@
 ---
 id: 1842
-title: 'You find yourself in the beta of some game where you can&#8217;t kill anything. You get sprinkled with pixie dust.'
+title: 'You find yourself in the beta of some game where you cant kill anything. You get sprinkled with pixie dust.'
 date: '2003-11-11T03:19:25+00:00'
 author: Kellan
 layout: post

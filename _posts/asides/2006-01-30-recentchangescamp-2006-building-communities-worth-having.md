@@ -1,6 +1,6 @@
 ---
 id: 3228
-title: 'RecentChangesCamp 2006 &#8230; &#8220;Building communities worth having!&#8221;'
+title: 'RecentChangesCamp 2006 ... "Building communities worth having!"'
 date: '2006-01-30T13:49:00+00:00'
 author: Kellan
 layout: post

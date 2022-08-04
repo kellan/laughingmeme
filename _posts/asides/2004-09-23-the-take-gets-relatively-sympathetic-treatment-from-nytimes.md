@@ -1,6 +1,6 @@
 ---
 id: 2552
-title: '&#8216;The Take&#8217; gets relatively sympathetic treatment from NYTimes'
+title: 'The Take gets relatively sympathetic treatment from NYTimes'
 date: '2004-09-23T19:27:16+00:00'
 author: Kellan
 layout: post

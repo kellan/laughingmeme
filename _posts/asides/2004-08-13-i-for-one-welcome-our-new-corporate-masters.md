@@ -1,6 +1,6 @@
 ---
 id: 2462
-title: '&#8220;i, for one, welcome our new corporate masters&#8221;'
+title: '"i, for one, welcome our new corporate masters"'
 date: '2004-08-13T20:07:33+00:00'
 author: Kellan
 layout: post

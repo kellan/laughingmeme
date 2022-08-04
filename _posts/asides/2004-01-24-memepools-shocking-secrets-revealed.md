@@ -1,6 +1,6 @@
 ---
 id: 2032
-title: 'memepool&#8217;s shocking secrets revealed!'
+title: 'memepools shocking secrets revealed!'
 date: '2004-01-24T17:42:16+00:00'
 author: Kellan
 layout: post

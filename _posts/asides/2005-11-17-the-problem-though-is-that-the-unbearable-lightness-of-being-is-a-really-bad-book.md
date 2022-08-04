@@ -1,6 +1,6 @@
 ---
 id: 3114
-title: '&#8220;The problem, though, is that the Unbearable Lightness of Being is a really bad book.'
+title: '"The problem, though, is that the Unbearable Lightness of Being is a really bad book.'
 date: '2005-11-17T14:48:00+00:00'
 author: Kellan
 layout: post

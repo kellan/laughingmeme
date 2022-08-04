@@ -1,6 +1,6 @@
 ---
 id: 2452
-title: '&#8220;since every news article I read about something I actually know is completely, utterly, absolutely, factually, wrong&#8230;&#8221;'
+title: '"since every news article I read about something I actually know is completely, utterly, absolutely, factually, wrong..."'
 date: '2004-08-10T12:05:42+00:00'
 author: Kellan
 layout: post

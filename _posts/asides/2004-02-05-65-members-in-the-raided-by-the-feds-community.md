@@ -1,6 +1,6 @@
 ---
 id: 2061
-title: '65 members in the &#8220;Raided by the Feds&#8221; community?'
+title: '65 members in the "Raided by the Feds" community?'
 date: '2004-02-05T00:31:59+00:00'
 author: Kellan
 layout: post

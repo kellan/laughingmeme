@@ -1,6 +1,6 @@
 ---
 id: 3160
-title: 'How to Ship Anything &#8211; Joel on Software'
+title: 'How to Ship Anything – Joel on Software'
 date: '2005-12-14T09:56:00+00:00'
 author: Kellan
 layout: post

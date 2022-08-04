@@ -1,6 +1,6 @@
 ---
 id: 4590
-title: 'Henry Blodget: &#8220;Facebook&#8217;s Approach To Innovation Is The Secret To Its Success&#8221;'
+title: 'Henry Blodget: "Facebooks Approach To Innovation Is The Secret To Its Success"'
 date: '2010-05-17T05:04:39+00:00'
 author: Kellan
 layout: post

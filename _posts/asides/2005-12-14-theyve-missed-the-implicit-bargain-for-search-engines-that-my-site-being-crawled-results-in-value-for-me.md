@@ -1,6 +1,6 @@
 ---
 id: 3163
-title: '&#8220;they&#8217;ve missed the implicit bargain for search engines that my site being crawled results in [value] for me.&#8221;'
+title: '"theyve missed the implicit bargain for search engines that my site being crawled results in [value] for me."'
 date: '2005-12-14T14:08:00+00:00'
 author: Kellan
 layout: post

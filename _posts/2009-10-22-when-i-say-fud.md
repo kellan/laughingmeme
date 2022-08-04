@@ -1,6 +1,6 @@
 ---
 id: 4318
-title: 'When I say &#8220;FUD&#8221; &#8230;'
+title: 'When I say "FUD" ...'
 date: '2009-10-22T09:02:55+00:00'
 author: Kellan
 layout: post

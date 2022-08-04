@@ -1,6 +1,6 @@
 ---
 id: 5287
-title: 'AWS Redshift: &#8220;Missing newline: Unexpected character 0x4f found at location 3&#8221;'
+title: 'AWS Redshift: "Missing newline: Unexpected character 0x4f found at location 3"'
 date: '2014-07-21T08:06:30+00:00'
 author: Kellan
 layout: post

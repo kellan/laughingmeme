@@ -1,6 +1,6 @@
 ---
 id: 3508
-title: 'Valleyspeak: &#8220;vesting in peace&#8221;'
+title: 'Valleyspeak: "vesting in peace"'
 date: '2006-10-25T16:33:00+00:00'
 author: Kellan
 layout: post

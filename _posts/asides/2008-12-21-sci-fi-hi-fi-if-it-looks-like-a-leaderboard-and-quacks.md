@@ -1,6 +1,6 @@
 ---
 id: 4136
-title: 'Sci-Fi Hi-Fi: If it looks like a leaderboard, and quacks&#8230;'
+title: 'Sci-Fi Hi-Fi: If it looks like a leaderboard, and quacks...'
 date: '2008-12-21T21:40:05+00:00'
 author: Kellan
 layout: post

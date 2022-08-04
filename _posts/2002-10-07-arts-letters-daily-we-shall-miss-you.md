@@ -1,6 +1,6 @@
 ---
 id: 179
-title: 'Arts &#038; Letters Daily, We Shall Miss You'
+title: 'Arts & Letters Daily, We Shall Miss You'
 date: '2002-10-07T09:13:33+00:00'
 author: Kellan
 layout: post

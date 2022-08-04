@@ -1,6 +1,6 @@
 ---
 id: 2917
-title: 'PlaceSite &#8211; location specific social network website'
+title: 'PlaceSite – location specific social network website'
 date: '2005-04-17T12:26:04+00:00'
 author: Kellan
 layout: post

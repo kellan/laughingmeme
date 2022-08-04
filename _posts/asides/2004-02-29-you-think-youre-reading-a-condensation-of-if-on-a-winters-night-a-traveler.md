@@ -1,6 +1,6 @@
 ---
 id: 2105
-title: 'You think you&#8217;re reading a condensation of <cite>If On a Winter&#8217;s Night a Traveler</cite>'
+title: 'You think youre reading a condensation of <cite>If On a Winters Night a Traveler</cite>'
 date: '2004-02-29T12:48:45+00:00'
 author: Kellan
 layout: post

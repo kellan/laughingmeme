@@ -1,6 +1,6 @@
 ---
 id: 2044
-title: 'Unskilled and Unaware of It: How Difficulties in Recognizing One&#8217;s Own Incompetence Lead to Inflated Self-Assessments'
+title: 'Unskilled and Unaware of It: How Difficulties in Recognizing Ones Own Incompetence Lead to Inflated Self-Assessments'
 date: '2004-01-31T15:39:10+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2956
-title: 'script.aculo.us &#8211; web 2.0 javascript'
+title: 'script.aculo.us – web 2.0 javascript'
 date: '2005-06-23T08:41:57+00:00'
 author: Kellan
 layout: post

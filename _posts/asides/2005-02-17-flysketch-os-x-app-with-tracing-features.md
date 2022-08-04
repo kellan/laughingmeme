@@ -1,6 +1,6 @@
 ---
 id: 2828
-title: 'FlySketch &#8211; OS X app with tracing features'
+title: 'FlySketch – OS X app with tracing features'
 date: '2005-02-17T10:03:08+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2642
-title: 'Now listening: &#8220;It&#8217;s Sister Jenny&#8217;s Turn to Throw the Bomb&#8221;'
+title: 'Now listening: "Its Sister Jennys Turn to Throw the Bomb"'
 date: '2004-11-15T20:32:29+00:00'
 author: Kellan
 layout: post

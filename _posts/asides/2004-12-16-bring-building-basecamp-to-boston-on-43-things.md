@@ -1,6 +1,6 @@
 ---
 id: 2715
-title: 'Bring &#8220;Building Basecamp&#8221; to Boston [on 43 Things]'
+title: 'Bring "Building Basecamp" to Boston [on 43 Things]'
 date: '2004-12-16T17:04:27+00:00'
 author: Kellan
 layout: post

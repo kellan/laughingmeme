@@ -1,6 +1,6 @@
 ---
 id: 1457
-title: 'Photopal &#8211; good looking web gallery'
+title: 'Photopal – good looking web gallery'
 date: '2003-05-19T23:24:17+00:00'
 author: Kellan
 layout: post

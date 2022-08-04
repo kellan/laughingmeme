@@ -1,6 +1,6 @@
 ---
 id: 2479
-title: '&#8220;In prose, a bad choice like this would have been caught by my editor, or it would by now be way back in the rear view mirror.&#8221;'
+title: '"In prose, a bad choice like this would have been caught by my editor, or it would by now be way back in the rear view mirror."'
 date: '2004-08-23T13:30:13+00:00'
 author: Kellan
 layout: post

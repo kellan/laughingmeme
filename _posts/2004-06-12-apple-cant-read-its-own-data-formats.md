@@ -1,6 +1,6 @@
 ---
 id: 839
-title: 'Apple Can&#8217;t Read Its Own Data Formats'
+title: 'Apple Cant Read Its Own Data Formats'
 date: '2004-06-12T13:34:28+00:00'
 author: Kellan
 layout: post

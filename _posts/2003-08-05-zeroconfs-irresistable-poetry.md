@@ -1,6 +1,6 @@
 ---
 id: 484
-title: 'Zeroconf&#8217;s irresistable poetry'
+title: 'Zeroconfs irresistable poetry'
 date: '2003-08-05T10:13:38+00:00'
 author: Kellan
 layout: post

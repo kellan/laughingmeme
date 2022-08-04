@@ -1,6 +1,6 @@
 ---
 id: 3827
-title: 'Better Javadoc results using &#8220;SearchMonkey&#8221;'
+title: 'Better Javadoc results using "SearchMonkey"'
 date: '2008-05-21T07:19:24+00:00'
 author: Kellan
 layout: post

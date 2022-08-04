@@ -1,6 +1,6 @@
 ---
 id: 1647
-title: 'Lockheed Martin&#8217;s graphic advertising in the Washington Post'
+title: 'Lockheed Martins graphic advertising in the Washington Post'
 date: '2003-08-12T10:30:15+00:00'
 author: Kellan
 layout: post

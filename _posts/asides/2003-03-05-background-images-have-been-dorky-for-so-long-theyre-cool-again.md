@@ -1,6 +1,6 @@
 ---
 id: 1284
-title: '&#8216;background images have been dorky for so long they&#8217;re cool again&#8221;'
+title: 'background images have been dorky for so long theyre cool again"'
 date: '2003-03-05T22:35:36+00:00'
 author: Kellan
 layout: post

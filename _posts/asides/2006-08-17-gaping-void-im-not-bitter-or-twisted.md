@@ -1,6 +1,6 @@
 ---
 id: 3442
-title: 'gaping void:  i&#8217;m not bitter or twisted &#8211;'
+title: 'gaping void:  im not bitter or twisted –'
 date: '2006-08-17T03:17:00+00:00'
 author: Kellan
 layout: post

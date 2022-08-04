@@ -1,6 +1,6 @@
 ---
 id: 241
-title: 'Mailing Lists &#038; Better Webmail'
+title: 'Mailing Lists & Better Webmail'
 date: '2002-12-12T07:50:03+00:00'
 author: Kellan
 layout: post

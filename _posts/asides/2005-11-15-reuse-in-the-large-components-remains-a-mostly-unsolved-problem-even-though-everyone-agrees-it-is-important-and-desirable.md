@@ -1,6 +1,6 @@
 ---
 id: 3110
-title: '&#8220;Reuse-in-the-large (components) remains a mostly unsolved problem, even though everyone agrees it is important and desirable.&#8221;'
+title: '"Reuse-in-the-large (components) remains a mostly unsolved problem, even though everyone agrees it is important and desirable."'
 date: '2005-11-15T13:11:00+00:00'
 author: Kellan
 layout: post

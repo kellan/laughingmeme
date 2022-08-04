@@ -1,6 +1,6 @@
 ---
 id: 2252
-title: 'Google&#8217;s one word blog in broken HTML is more popular than most bloggers will ever be.'
+title: 'Googles one word blog in broken HTML is more popular than most bloggers will ever be.'
 date: '2004-05-04T14:04:53+00:00'
 author: Kellan
 layout: post

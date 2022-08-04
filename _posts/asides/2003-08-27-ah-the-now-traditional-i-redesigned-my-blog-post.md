@@ -1,6 +1,6 @@
 ---
 id: 1684
-title: 'ah, the now traditional &#8220;i redesigned my blog&#8221; post'
+title: 'ah, the now traditional "i redesigned my blog" post'
 date: '2003-08-27T00:34:02+00:00'
 author: Kellan
 layout: post

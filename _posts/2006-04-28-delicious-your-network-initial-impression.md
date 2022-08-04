@@ -1,6 +1,6 @@
 ---
 id: 3342
-title: 'Del.icio.us &#8220;Your Network&#8221;.  Initial Impression.'
+title: 'Del.icio.us "Your Network".  Initial Impression.'
 date: '2006-04-28T12:12:00+00:00'
 author: Kellan
 layout: post

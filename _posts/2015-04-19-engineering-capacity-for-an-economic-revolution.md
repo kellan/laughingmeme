@@ -1,6 +1,6 @@
 ---
 id: 5316
-title: '&#8220;Engineering capacity for an economic revolution&#8221;'
+title: '"Engineering capacity for an economic revolution"'
 date: '2015-04-19T17:06:20+00:00'
 author: Kellan
 layout: post

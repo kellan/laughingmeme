@@ -1,6 +1,6 @@
 ---
 id: 1853
-title: 'Click Maps &#8211; rapid prototyping with Visio'
+title: 'Click Maps – rapid prototyping with Visio'
 date: '2003-11-14T00:56:29+00:00'
 author: Kellan
 layout: post

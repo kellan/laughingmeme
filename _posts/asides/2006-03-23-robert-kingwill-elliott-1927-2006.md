@@ -1,6 +1,6 @@
 ---
 id: 3302
-title: 'Robert Kingwill Elliott, 1927 &#8211; 2006'
+title: 'Robert Kingwill Elliott, 1927 – 2006'
 date: '2006-03-23T11:49:00+00:00'
 author: Kellan
 layout: post

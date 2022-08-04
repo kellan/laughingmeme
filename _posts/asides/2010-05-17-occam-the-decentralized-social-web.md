@@ -1,6 +1,6 @@
 ---
 id: 4606
-title: 'occam: &#8220;Your data should have the same cultural and legal protection as your body.&#8221;'
+title: 'occam: "Your data should have the same cultural and legal protection as your body."'
 date: '2010-05-17T05:39:22+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2919
-title: 'With all this Ruby hacking, I might need to make a visit to Herrell&#8217;s, home of the &#8220;Mix In&#8221;'
+title: 'With all this Ruby hacking, I might need to make a visit to Herrells, home of the "Mix In"'
 date: '2005-04-17T13:54:49+00:00'
 author: Kellan
 layout: post

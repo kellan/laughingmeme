@@ -1,6 +1,6 @@
 ---
 id: 3175
-title: '&#8220;There are only two hard things in Computer Science: cache invalidation and naming things&#8221;'
+title: '"There are only two hard things in Computer Science: cache invalidation and naming things"'
 date: '2005-12-23T15:14:00+00:00'
 author: Kellan
 layout: post

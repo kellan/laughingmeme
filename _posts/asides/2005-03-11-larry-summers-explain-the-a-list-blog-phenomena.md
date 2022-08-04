@@ -1,6 +1,6 @@
 ---
 id: 2860
-title: 'Larry Summers explain the &#8220;A-list&#8221; blog phenomena'
+title: 'Larry Summers explain the "A-list" blog phenomena'
 date: '2005-03-11T18:03:56+00:00'
 author: Kellan
 layout: post

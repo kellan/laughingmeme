@@ -1,6 +1,6 @@
 ---
 id: 2596
-title: '&#8220;We will not stop until every San Franciscan has access to free wireless&#8221;'
+title: '"We will not stop until every San Franciscan has access to free wireless"'
 date: '2004-10-24T14:58:08+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1119
-title: 'Corporate Media&#8217;s Race Bias'
+title: 'Corporate Medias Race Bias'
 date: '2005-08-30T19:46:35+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2397
-title: 'CVS2RSS/Formatter/ViewCVS.pm &#8211; diff &#8211; 1.2'
+title: 'CVS2RSS/Formatter/ViewCVS.pm – diff – 1.2'
 date: '2004-07-18T16:43:20+00:00'
 author: Kellan
 layout: post

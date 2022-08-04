@@ -1,6 +1,6 @@
 ---
 id: 3199
-title: 'Start Small &#8211; a photo from JDD&#8217;s colo'
+title: 'Start Small – a photo from JDDs colo'
 date: '2006-01-19T09:00:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2454
-title: '&#8220;Uppity code is a sure sign that you&#8217;re overdue for time away from the keyboard.&#8221;'
+title: '"Uppity code is a sure sign that youre overdue for time away from the keyboard."'
 date: '2004-08-10T23:34:09+00:00'
 author: Kellan
 layout: post

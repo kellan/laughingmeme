@@ -1,6 +1,6 @@
 ---
 id: 3792
-title: 'Clay Shirky talks about &#8220;Here Comes Everybody&#8221;'
+title: 'Clay Shirky talks about "Here Comes Everybody"'
 date: '2008-03-28T21:42:03+00:00'
 author: Kellan
 layout: post

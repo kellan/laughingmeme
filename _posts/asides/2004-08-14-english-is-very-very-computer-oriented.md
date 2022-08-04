@@ -1,6 +1,6 @@
 ---
 id: 2465
-title: '&#8220;English is very, very computer-oriented.&#8221;'
+title: '"English is very, very computer-oriented."'
 date: '2004-08-14T17:38:47+00:00'
 author: Kellan
 layout: post

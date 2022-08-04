@@ -1,6 +1,6 @@
 ---
 id: 1339
-title: 'O&#8217;Reilly reviews 12in G4'
+title: 'OReilly reviews 12in G4'
 date: '2003-04-01T19:04:41+00:00'
 author: Kellan
 layout: post

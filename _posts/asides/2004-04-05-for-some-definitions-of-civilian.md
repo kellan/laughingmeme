@@ -1,6 +1,6 @@
 ---
 id: 2187
-title: 'For some definitions of &#8220;civilian&#8221;'
+title: 'For some definitions of "civilian"'
 date: '2004-04-05T12:04:02+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 4528
-title: 'SnapGroups: Mark Fletcher&#8217;s Lightweight Discussion'
+title: 'SnapGroups: Mark Fletchers Lightweight Discussion'
 date: '2010-03-08T18:33:25+00:00'
 author: Kellan
 layout: post

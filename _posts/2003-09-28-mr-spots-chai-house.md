@@ -1,6 +1,6 @@
 ---
 id: 604
-title: 'Mr. Spot&#8217;s Chai House'
+title: 'Mr. Spots Chai House'
 date: '2003-09-28T19:24:26+00:00'
 author: Kellan
 layout: post

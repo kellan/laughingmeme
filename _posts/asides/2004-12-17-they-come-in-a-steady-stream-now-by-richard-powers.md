@@ -1,6 +1,6 @@
 ---
 id: 2717
-title: '&#8220;They Come in a Steady Stream Now&#8221; by Richard Powers'
+title: '"They Come in a Steady Stream Now" by Richard Powers'
 date: '2004-12-17T13:13:57+00:00'
 author: Kellan
 layout: post

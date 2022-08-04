@@ -1,6 +1,6 @@
 ---
 id: 3444
-title: 'Kokogiak &#8211; Amazon&#8217;s Digital Video sneak peek: &#8220;Amazon Unbox&#8221;'
+title: 'Kokogiak – Amazons Digital Video sneak peek: "Amazon Unbox"'
 date: '2006-08-17T21:47:00+00:00'
 author: Kellan
 layout: post

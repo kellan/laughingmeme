@@ -1,6 +1,6 @@
 ---
 id: 3511
-title: 'Some intimate details on the Google YouTube Deal &#8211; Blog Maverick'
+title: 'Some intimate details on the Google YouTube Deal – Blog Maverick'
 date: '2006-10-31T11:28:00+00:00'
 author: Kellan
 layout: post

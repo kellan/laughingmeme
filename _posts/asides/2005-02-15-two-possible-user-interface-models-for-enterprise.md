@@ -1,6 +1,6 @@
 ---
 id: 2820
-title: 'Two possible user interface models for &#8220;Enterprise&#8221;'
+title: 'Two possible user interface models for "Enterprise"'
 date: '2005-02-15T15:06:00+00:00'
 author: Kellan
 layout: post

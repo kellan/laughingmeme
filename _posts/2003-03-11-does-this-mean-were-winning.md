@@ -1,6 +1,6 @@
 ---
 id: 356
-title: 'Does this mean we&#8217;re winning?'
+title: 'Does this mean were winning?'
 date: '2003-03-11T07:02:11+00:00'
 author: Kellan
 layout: post

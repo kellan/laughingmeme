@@ -1,6 +1,6 @@
 ---
 id: 1045
-title: 'Hey-la, hey-la, the bubble&#8217;s back'
+title: 'Hey-la, hey-la, the bubbles back'
 date: '2005-03-28T09:07:01+00:00'
 author: Kellan
 layout: post

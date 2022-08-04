@@ -1,6 +1,6 @@
 ---
 id: 3202
-title: '&#8220;the small pieces only join well when there are some established rules&#8221;'
+title: '"the small pieces only join well when there are some established rules"'
 date: '2006-01-21T14:50:00+00:00'
 author: Kellan
 layout: post

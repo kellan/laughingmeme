@@ -1,6 +1,6 @@
 ---
 id: 3593
-title: 'PEAR: No release with state equal to: &#8216;stable&#8217; found for &#8230;'
+title: 'PEAR: No release with state equal to: stable found for ...'
 date: '2004-08-23T21:38:33+00:00'
 author: Kellan
 layout: post

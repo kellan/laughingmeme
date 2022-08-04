@@ -1,6 +1,6 @@
 ---
 id: 3363
-title: 'Laundry Locker :. San Francisco&#8217;s Laundry 2.0'
+title: 'Laundry Locker :. San Franciscos Laundry 2.0'
 date: '2006-05-27T15:33:00+00:00'
 author: Kellan
 layout: post

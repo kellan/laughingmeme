@@ -1,6 +1,6 @@
 ---
 id: 3354
-title: '&#8220;The Lovendar is a calendar aggregator specifically designed for families.'
+title: '"The Lovendar is a calendar aggregator specifically designed for families.'
 date: '2006-05-09T16:54:00+00:00'
 author: Kellan
 layout: post

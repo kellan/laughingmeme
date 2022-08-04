@@ -1,6 +1,6 @@
 ---
 id: 2988
-title: 'rc3.org: Ruby the gateway drug&#8230;. for Java'
+title: 'rc3.org: Ruby the gateway drug.... for Java'
 date: '2005-08-19T13:21:03+00:00'
 author: Kellan
 layout: post

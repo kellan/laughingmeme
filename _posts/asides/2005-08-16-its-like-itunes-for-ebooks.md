@@ -1,6 +1,6 @@
 ---
 id: 2983
-title: '&#8220;It&#8217;s like iTunes for eBooks&#8221;'
+title: '"Its like iTunes for eBooks"'
 date: '2005-08-16T18:52:09+00:00'
 author: Kellan
 layout: post

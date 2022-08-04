@@ -1,6 +1,6 @@
 ---
 id: 3220
-title: 'Fowler adds &#8220;rought cut&#8221; patterns on event collaboration and accounting to PoEAA'
+title: 'Fowler adds "rought cut" patterns on event collaboration and accounting to PoEAA'
 date: '2006-01-26T11:31:00+00:00'
 author: Kellan
 layout: post

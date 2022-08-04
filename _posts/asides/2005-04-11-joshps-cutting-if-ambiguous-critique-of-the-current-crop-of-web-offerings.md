@@ -1,6 +1,6 @@
 ---
 id: 2905
-title: 'JoshP&#8217;s cutting, if ambiguous, critique of the current crop of web offerings'
+title: 'JoshPs cutting, if ambiguous, critique of the current crop of web offerings'
 date: '2005-04-11T12:33:28+00:00'
 author: Kellan
 layout: post

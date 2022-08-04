@@ -1,6 +1,6 @@
 ---
 id: 1691
-title: 'Don&#8217;t Live with Broken Windows'
+title: 'Dont Live with Broken Windows'
 date: '2003-08-28T18:00:48+00:00'
 author: Kellan
 layout: post

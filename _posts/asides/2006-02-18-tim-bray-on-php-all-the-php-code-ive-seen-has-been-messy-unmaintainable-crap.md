@@ -1,6 +1,6 @@
 ---
 id: 3261
-title: 'Tim Bray on PHP:  all the PHP code I&#8217;ve seen has been messy, unmaintainable crap.'
+title: 'Tim Bray on PHP:  all the PHP code Ive seen has been messy, unmaintainable crap.'
 date: '2006-02-18T00:31:00+00:00'
 author: Kellan
 layout: post

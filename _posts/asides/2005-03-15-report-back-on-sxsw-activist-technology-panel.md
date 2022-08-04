@@ -1,6 +1,6 @@
 ---
 id: 2862
-title: 'Report back on &#8220;SXSW: Activist Technology Panel&#8221;'
+title: 'Report back on "SXSW: Activist Technology Panel"'
 date: '2005-03-15T10:39:44+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2974
-title: '&#8220;i was never any good at sports&#8230;&#8221;'
+title: '"i was never any good at sports..."'
 date: '2005-08-02T14:40:01+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3488
-title: 'Was Rome ruined by its own &#8220;war on terror&#8221;?'
+title: 'Was Rome ruined by its own "war on terror"?'
 date: '2006-10-02T15:19:00+00:00'
 author: Kellan
 layout: post

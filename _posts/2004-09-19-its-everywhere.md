@@ -1,6 +1,6 @@
 ---
 id: 911
-title: 'It&#8217;s Everywhere!'
+title: 'Its Everywhere!'
 date: '2004-09-19T13:29:57+00:00'
 author: Kellan
 layout: post

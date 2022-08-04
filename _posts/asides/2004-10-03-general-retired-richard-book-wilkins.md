@@ -1,6 +1,6 @@
 ---
 id: 2574
-title: 'General (Retired) Richard &#8220;Book&#8221; Wilkins'
+title: 'General (Retired) Richard "Book" Wilkins'
 date: '2004-10-03T16:07:30+00:00'
 author: Kellan
 layout: post

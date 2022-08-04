@@ -1,6 +1,6 @@
 ---
 id: 3597
-title: 'Early feedback on PMOG &#8211; Needs Community'
+title: 'Early feedback on PMOG – Needs Community'
 date: '2007-03-14T19:27:42+00:00'
 author: Kellan
 layout: post

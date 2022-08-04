@@ -1,6 +1,6 @@
 ---
 id: 2578
-title: 'Sky Cleaning:  Tuesday 3AM &#8211; 5AM'
+title: 'Sky Cleaning:  Tuesday 3AM – 5AM'
 date: '2004-10-05T14:38:34+00:00'
 author: Kellan
 layout: post

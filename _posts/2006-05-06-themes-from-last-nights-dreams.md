@@ -1,6 +1,6 @@
 ---
 id: 3350
-title: 'Themes from Last Night&#8217;s Dreams'
+title: 'Themes from Last Nights Dreams'
 date: '2006-05-06T13:26:00+00:00'
 author: Kellan
 layout: post

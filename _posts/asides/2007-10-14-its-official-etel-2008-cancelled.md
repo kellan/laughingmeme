@@ -1,6 +1,6 @@
 ---
 id: 3715
-title: 'It&#8217;s official, Etel 2008 cancelled.'
+title: 'Its official, Etel 2008 cancelled.'
 date: '2007-10-14T23:35:20+00:00'
 author: Kellan
 layout: post

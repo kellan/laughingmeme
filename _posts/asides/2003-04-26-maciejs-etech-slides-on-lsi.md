@@ -1,6 +1,6 @@
 ---
 id: 1387
-title: 'Maciej&#8217;s Etech slides on LSI'
+title: 'Maciejs Etech slides on LSI'
 date: '2003-04-26T11:49:47+00:00'
 author: Kellan
 layout: post

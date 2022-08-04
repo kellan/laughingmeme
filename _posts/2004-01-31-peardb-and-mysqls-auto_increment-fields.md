@@ -1,6 +1,6 @@
 ---
 id: 723
-title: 'PEAR::DB and MySQL&#8217;s AUTO_INCREMENT Fields'
+title: 'PEAR::DB and MySQLs AUTO_INCREMENT Fields'
 date: '2004-01-31T16:23:00+00:00'
 author: Kellan
 layout: post

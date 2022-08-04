@@ -1,6 +1,6 @@
 ---
 id: 1594
-title: 'Critiquing the &#8220;Green Revolution&#8221;'
+title: 'Critiquing the "Green Revolution"'
 date: '2003-07-12T13:32:28+00:00'
 author: Kellan
 layout: post

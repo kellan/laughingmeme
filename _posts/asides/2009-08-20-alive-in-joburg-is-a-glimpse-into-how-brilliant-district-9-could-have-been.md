@@ -1,6 +1,6 @@
 ---
 id: 4263
-title: '&#8220;Alive in Joburg&#8221; is a glimpse into how brilliant &#8220;District 9&#8221; could have been'
+title: '"Alive in Joburg" is a glimpse into how brilliant "District 9" could have been'
 date: '2009-08-20T09:32:48+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1872
-title: 'Dos and Don&#8217;ts of Client Authentication on the Web'
+title: 'Dos and Donts of Client Authentication on the Web'
 date: '2003-11-18T20:02:45+00:00'
 author: Kellan
 layout: post

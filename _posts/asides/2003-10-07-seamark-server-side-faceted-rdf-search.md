@@ -1,6 +1,6 @@
 ---
 id: 1774
-title: 'Seamark &#8211; server side faceted RDF search'
+title: 'Seamark – server side faceted RDF search'
 date: '2003-10-07T01:53:55+00:00'
 author: Kellan
 layout: post

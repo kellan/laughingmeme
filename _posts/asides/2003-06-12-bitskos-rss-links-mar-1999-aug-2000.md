@@ -1,6 +1,6 @@
 ---
 id: 1513
-title: 'bitsko&#8217;s RSS links, Mar 1999 &#8211; Aug 2000'
+title: 'bitskos RSS links, Mar 1999 – Aug 2000'
 date: '2003-06-12T11:42:43+00:00'
 author: Kellan
 layout: post

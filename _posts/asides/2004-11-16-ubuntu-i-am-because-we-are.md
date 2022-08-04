@@ -1,6 +1,6 @@
 ---
 id: 2648
-title: 'Ubuntu: &#8220;I am because we are&#8221;'
+title: 'Ubuntu: "I am because we are"'
 date: '2004-11-16T15:18:30+00:00'
 author: Kellan
 layout: post

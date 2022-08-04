@@ -1,6 +1,6 @@
 ---
 id: 2163
-title: 'StableCopy: last version of a wiki page which hasn&#8217;t changed for 24 hours.'
+title: 'StableCopy: last version of a wiki page which hasnt changed for 24 hours.'
 date: '2004-03-22T01:49:59+00:00'
 author: Kellan
 layout: post

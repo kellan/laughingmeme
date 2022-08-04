@@ -1,6 +1,6 @@
 ---
 id: 1669
-title: '&#8220;Open-source software runs counter to the mission of WIPO, which is to promote intellectual-property rights.&#8221;'
+title: '"Open-source software runs counter to the mission of WIPO, which is to promote intellectual-property rights."'
 date: '2003-08-23T00:46:11+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2815
-title: '&#8220;Saving the whales&#8221; is a cover for a global conspiracy of embittered ex-Trots plotting the downfall of the US?'
+title: '"Saving the whales" is a cover for a global conspiracy of embittered ex-Trots plotting the downfall of the US?'
 date: '2005-02-11T14:56:17+00:00'
 author: Kellan
 layout: post

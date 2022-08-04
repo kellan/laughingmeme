@@ -1,6 +1,6 @@
 ---
 id: 2885
-title: 'Currently listening to &#8216;San Andreas Fault&#8217;'
+title: 'Currently listening to San Andreas Fault'
 date: '2005-03-28T14:53:36+00:00'
 author: Kellan
 layout: post

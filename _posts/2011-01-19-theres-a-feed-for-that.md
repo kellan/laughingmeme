@@ -1,6 +1,6 @@
 ---
 id: 4767
-title: 'There&#8217;s a feed for that'
+title: 'Theres a feed for that'
 date: '2011-01-19T07:08:03+00:00'
 author: Kellan
 layout: post

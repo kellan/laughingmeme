@@ -1,6 +1,6 @@
 ---
 id: 1818
-title: 'Excellent overview of the &#8220;MS Exchange replacements&#8221;'
+title: 'Excellent overview of the "MS Exchange replacements"'
 date: '2003-11-05T21:05:13+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2674
-title: '&#8220;Deceiving us has become an industrial process.&#8221;'
+title: '"Deceiving us has become an industrial process."'
 date: '2004-12-03T19:08:51+00:00'
 author: Kellan
 layout: post

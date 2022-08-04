@@ -1,6 +1,6 @@
 ---
 id: 4455
-title: 'Facebook: &#8220;our engineering team is relatively small — there are over one million users to every engineer&#8221;'
+title: 'Facebook: "our engineering team is relatively small — there are over one million users to every engineer"'
 date: '2010-02-02T13:38:58+00:00'
 author: Kellan
 layout: post

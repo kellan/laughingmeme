@@ -1,6 +1,6 @@
 ---
 id: 1797
-title: 'wxPython Obstacle Courses &#8211;  a Socratic dialogue mixed with a tutorial mixed with a scavenger hunt.'
+title: 'wxPython Obstacle Courses –  a Socratic dialogue mixed with a tutorial mixed with a scavenger hunt.'
 date: '2003-10-22T01:39:45+00:00'
 author: Kellan
 layout: post

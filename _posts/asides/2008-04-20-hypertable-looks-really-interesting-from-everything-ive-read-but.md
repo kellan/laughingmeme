@@ -1,6 +1,6 @@
 ---
 id: 3806
-title: 'Hypertable looks really interesting from everything I&#8217;ve read but &#8230;'
+title: 'Hypertable looks really interesting from everything Ive read but ...'
 date: '2008-04-20T12:41:21+00:00'
 author: Kellan
 layout: post

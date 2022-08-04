@@ -1,6 +1,6 @@
 ---
 id: 82
-title: 'I&#8217;m going to read these&#8230;'
+title: 'Im going to read these...'
 date: '2002-07-20T23:05:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2073
-title: '&#8220;It falls along the lines of a personal level of sharing that may not be appropriate for one of [American Airlines] employees to do while on the job.&#8221;'
+title: '"It falls along the lines of a personal level of sharing that may not be appropriate for one of [American Airlines] employees to do while on the job."'
 date: '2004-02-09T12:13:27+00:00'
 author: Kellan
 layout: post

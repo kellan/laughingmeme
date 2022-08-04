@@ -1,6 +1,6 @@
 ---
 id: 553
-title: 'Nutch &#8211; an &#8220;open source&#8221; search engine'
+title: 'Nutch – an "open source" search engine'
 date: '2003-08-14T02:59:18+00:00'
 author: Kellan
 layout: post

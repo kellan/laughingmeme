@@ -1,6 +1,6 @@
 ---
 id: 2872
-title: 'Band websites that don&#8217;t suck'
+title: 'Band websites that dont suck'
 date: '2005-03-20T08:41:50+00:00'
 author: Kellan
 layout: post

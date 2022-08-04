@@ -1,6 +1,6 @@
 ---
 id: 2009
-title: 'Iain &#8220;Spoon&#8221; Truskett passed away.'
+title: 'Iain "Spoon" Truskett passed away.'
 date: '2004-01-18T15:33:02+00:00'
 author: Kellan
 layout: post

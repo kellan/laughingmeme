@@ -1,6 +1,6 @@
 ---
 id: 2742
-title: 'Starbucks to sell Top Pot &#8220;Hand Forged&#8221; Donuts in at least some stores'
+title: 'Starbucks to sell Top Pot "Hand Forged" Donuts in at least some stores'
 date: '2005-01-05T11:46:18+00:00'
 author: Kellan
 layout: post

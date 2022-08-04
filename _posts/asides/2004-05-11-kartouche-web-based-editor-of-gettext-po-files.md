@@ -1,6 +1,6 @@
 ---
 id: 2269
-title: 'Kartouche &#8211; web-based editor of gettext po files.'
+title: 'Kartouche – web-based editor of gettext po files.'
 date: '2004-05-11T16:33:53+00:00'
 author: Kellan
 layout: post

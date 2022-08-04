@@ -1,6 +1,6 @@
 ---
 id: 1873
-title: 'I don&#8217;t know whether to laugh or cry&#8230;'
+title: 'I dont know whether to laugh or cry...'
 date: '2003-11-19T01:08:53+00:00'
 author: Kellan
 layout: post

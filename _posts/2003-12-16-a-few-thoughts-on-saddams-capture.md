@@ -1,6 +1,6 @@
 ---
 id: 685
-title: 'A Few Thoughts on Saddam&#8217;s Capture'
+title: 'A Few Thoughts on Saddams Capture'
 date: '2003-12-16T00:06:00+00:00'
 author: Kellan
 layout: post

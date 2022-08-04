@@ -1,6 +1,6 @@
 ---
 id: 3744
-title: 'Flickr: We&#8217;re hiring another designer!'
+title: 'Flickr: Were hiring another designer!'
 date: '2007-12-21T10:54:11+00:00'
 author: Kellan
 layout: post

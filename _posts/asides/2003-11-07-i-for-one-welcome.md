@@ -1,6 +1,6 @@
 ---
 id: 1830
-title: 'i, for one, welcome&#8230;'
+title: 'i, for one, welcome...'
 date: '2003-11-07T15:19:51+00:00'
 author: Kellan
 layout: post

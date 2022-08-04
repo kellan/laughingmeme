@@ -1,6 +1,6 @@
 ---
 id: 2546
-title: 'Macrina Bakery and Cafe &#8211; cinnamon monkey bread'
+title: 'Macrina Bakery and Cafe – cinnamon monkey bread'
 date: '2004-09-20T16:12:30+00:00'
 author: Kellan
 layout: post

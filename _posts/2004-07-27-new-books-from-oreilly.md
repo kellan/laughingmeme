@@ -1,6 +1,6 @@
 ---
 id: 867
-title: 'New Books from O&#8217;Reilly'
+title: 'New Books from OReilly'
 date: '2004-07-27T10:39:30+00:00'
 author: Kellan
 layout: post

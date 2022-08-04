@@ -1,6 +1,6 @@
 ---
 id: 3078
-title: '&#8220;Most importantly, PHP allows me to feel accomplishment before getting bored&#8221;'
+title: '"Most importantly, PHP allows me to feel accomplishment before getting bored"'
 date: '2005-11-03T07:09:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3583
-title: 'Beth&#8217;s Blog: The NpTech Mashup Meme'
+title: 'Beths Blog: The NpTech Mashup Meme'
 date: '2007-02-15T15:41:04+00:00'
 author: Kellan
 layout: post

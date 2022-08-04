@@ -1,6 +1,6 @@
 ---
 id: 3599
-title: 'Avi&#8217;s &#8220;Web Heresies&#8221; was the session at OSCON with the most presenters in the audience.'
+title: 'Avis "Web Heresies" was the session at OSCON with the most presenters in the audience.'
 date: '2007-03-19T07:22:24+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3023
-title: 'paul martin, &#8220;i don&#8217;t cross picket lines&#8221;.'
+title: 'paul martin, "i dont cross picket lines".'
 date: '2005-09-20T08:17:00+00:00'
 author: Kellan
 layout: post

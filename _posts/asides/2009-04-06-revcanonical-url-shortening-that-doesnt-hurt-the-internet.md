@@ -1,6 +1,6 @@
 ---
 id: 4219
-title: 'rev=canonical: url shortening that doesn&#8217;t hurt the internet'
+title: 'rev=canonical: url shortening that doesnt hurt the internet'
 date: '2009-04-06T09:54:39+00:00'
 author: Kellan
 layout: post

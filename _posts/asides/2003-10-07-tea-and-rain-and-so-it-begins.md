@@ -1,6 +1,6 @@
 ---
 id: 1773
-title: 'tea and rain &#8211; and so it begins'
+title: 'tea and rain – and so it begins'
 date: '2003-10-07T01:39:05+00:00'
 author: Kellan
 layout: post

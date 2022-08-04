@@ -1,6 +1,6 @@
 ---
 id: 2339
-title: 'RSS-Feast &#8211; Simple RSS feed reader plugin for WordPress'
+title: 'RSS-Feast – Simple RSS feed reader plugin for WordPress'
 date: '2004-06-16T20:17:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1767
-title: 'Martin&#8217;s Favorite Seattle Coffee Houses'
+title: 'Martins Favorite Seattle Coffee Houses'
 date: '2003-10-05T13:17:43+00:00'
 author: Kellan
 layout: post

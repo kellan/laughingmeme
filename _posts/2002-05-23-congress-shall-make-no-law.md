@@ -1,6 +1,6 @@
 ---
 id: 34
-title: 'Congress Shall Make No Law&#8230;'
+title: 'Congress Shall Make No Law...'
 date: '2002-05-23T14:28:57+00:00'
 author: Kellan
 layout: post

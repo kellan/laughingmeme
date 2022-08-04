@@ -1,6 +1,6 @@
 ---
 id: 2362
-title: 'Examining the &#8216;SpaceShipOne is trimuphant of capitalism&#8217; meme'
+title: 'Examining the SpaceShipOne is trimuphant of capitalism meme'
 date: '2004-06-23T12:00:51+00:00'
 author: Kellan
 layout: post

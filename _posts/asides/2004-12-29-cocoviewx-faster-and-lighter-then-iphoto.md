@@ -1,6 +1,6 @@
 ---
 id: 2732
-title: 'CocoViewX &#8211; faster and lighter then iPhoto'
+title: 'CocoViewX – faster and lighter then iPhoto'
 date: '2004-12-29T10:26:23+00:00'
 author: Kellan
 layout: post

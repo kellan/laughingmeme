@@ -1,6 +1,6 @@
 ---
 id: 564
-title: 'O&#8217;Reilly on PHP'
+title: 'OReilly on PHP'
 date: '2003-08-19T01:35:59+00:00'
 author: Kellan
 layout: post

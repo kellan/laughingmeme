@@ -1,6 +1,6 @@
 ---
 id: 1216
-title: 'WSJ makes news&#8230;literally!'
+title: 'WSJ makes news...literally!'
 date: '2003-02-12T13:21:53+00:00'
 author: Kellan
 layout: post

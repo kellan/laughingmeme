@@ -1,6 +1,6 @@
 ---
 id: 5096
-title: '&#8220;Where the best and brightest come to shine&#8230;&#8221;'
+title: '"Where the best and brightest come to shine..."'
 date: '2012-04-02T13:12:19+00:00'
 author: Kellan
 layout: post

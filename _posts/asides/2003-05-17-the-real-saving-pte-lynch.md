@@ -1,6 +1,6 @@
 ---
 id: 1452
-title: 'The real &#8216;Saving Pte. Lynch&#8217;'
+title: 'The real Saving Pte. Lynch'
 date: '2003-05-17T23:49:47+00:00'
 author: Kellan
 layout: post

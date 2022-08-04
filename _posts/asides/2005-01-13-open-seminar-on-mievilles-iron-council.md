@@ -1,6 +1,6 @@
 ---
 id: 2759
-title: 'Open seminar on Mieville&#8217;s Iron Council'
+title: 'Open seminar on Mievilles Iron Council'
 date: '2005-01-13T19:37:58+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2918
-title: 'PlaceSite &#8211; Reinventing Wi-Fi Community'
+title: 'PlaceSite – Reinventing Wi-Fi Community'
 date: '2005-04-17T12:34:13+00:00'
 author: Kellan
 layout: post

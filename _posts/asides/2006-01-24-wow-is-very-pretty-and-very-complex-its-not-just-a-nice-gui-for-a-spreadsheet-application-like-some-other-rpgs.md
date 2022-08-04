@@ -1,6 +1,6 @@
 ---
 id: 3215
-title: '&#8220;WoW is very pretty and very complex.  It&#8217;s not just a nice GUI for a spreadsheet application like some other RPGs&#8221;'
+title: '"WoW is very pretty and very complex.  Its not just a nice GUI for a spreadsheet application like some other RPGs"'
 date: '2006-01-24T15:46:00+00:00'
 author: Kellan
 layout: post

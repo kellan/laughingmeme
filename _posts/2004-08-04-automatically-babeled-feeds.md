@@ -1,6 +1,6 @@
 ---
 id: 875
-title: 'Automatically Babel&#8217;ed Feeds'
+title: 'Automatically Babeled Feeds'
 date: '2004-08-04T10:52:00+00:00'
 author: Kellan
 layout: post

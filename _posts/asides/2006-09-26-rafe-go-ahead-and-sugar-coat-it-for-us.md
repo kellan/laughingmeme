@@ -1,6 +1,6 @@
 ---
 id: 3479
-title: 'Rafe: &#8220;Go ahead and sugar coat it for us&#8221;'
+title: 'Rafe: "Go ahead and sugar coat it for us"'
 date: '2006-09-26T12:33:00+00:00'
 author: Kellan
 layout: post

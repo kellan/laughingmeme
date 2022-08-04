@@ -1,6 +1,6 @@
 ---
 id: 4696
-title: 'Fred&#8217;s wrong (or quoted out of context)'
+title: 'Freds wrong (or quoted out of context)'
 date: '2010-07-22T04:25:07+00:00'
 author: Kellan
 layout: post

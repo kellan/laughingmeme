@@ -1,6 +1,6 @@
 ---
 id: 3785
-title: 'Your Email Password: A True Horror Story About Why We Need Authentication Standards &#8211; ReadWriteWeb'
+title: 'Your Email Password: A True Horror Story About Why We Need Authentication Standards – ReadWriteWeb'
 date: '2008-03-09T10:56:34+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 4988
-title: 'Snooping on an iPhone app&#8217;s API usage (aka light weight reverse engineering)'
+title: 'Snooping on an iPhone apps API usage (aka light weight reverse engineering)'
 date: '2011-11-12T14:59:08+00:00'
 author: Kellan
 layout: post

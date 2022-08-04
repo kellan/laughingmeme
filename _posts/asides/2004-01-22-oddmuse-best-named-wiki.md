@@ -1,6 +1,6 @@
 ---
 id: 2024
-title: 'OddMuse &#8211; best named wiki?'
+title: 'OddMuse – best named wiki?'
 date: '2004-01-22T15:26:28+00:00'
 author: Kellan
 layout: post

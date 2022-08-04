@@ -1,6 +1,6 @@
 ---
 id: 3372
-title: 'Eugene has an interesting review up of &#8220;An Inconvient Truth&#8221;'
+title: 'Eugene has an interesting review up of "An Inconvient Truth"'
 date: '2006-06-06T12:24:00+00:00'
 author: Kellan
 layout: post

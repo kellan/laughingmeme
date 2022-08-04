@@ -1,6 +1,6 @@
 ---
 id: 1012
-title: '&#8220;Home is&#8221; +where -heart'
+title: '"Home is" +where -heart'
 date: '2005-02-07T07:12:03+00:00'
 author: Kellan
 layout: post

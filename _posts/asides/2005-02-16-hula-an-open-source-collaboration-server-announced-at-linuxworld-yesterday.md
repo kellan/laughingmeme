@@ -1,6 +1,6 @@
 ---
 id: 2823
-title: 'Hula, an &#8220;open source collaboration server&#8221; announced at LinuxWorld yesterday'
+title: 'Hula, an "open source collaboration server" announced at LinuxWorld yesterday'
 date: '2005-02-16T09:33:14+00:00'
 author: Kellan
 layout: post

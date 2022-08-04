@@ -1,6 +1,6 @@
 ---
 id: 2208
-title: 'The ability to &#8220;tunnel cluepackets&#8221; via Jabber could be its killer app.</a> (<a href="http://aaronland.info/weblog/">via'
+title: 'The ability to "tunnel cluepackets" via Jabber could be its killer app.</a> (<a href="http://aaronland.info/weblog/">via'
 date: '2004-04-13T12:10:03+00:00'
 author: Kellan
 layout: post

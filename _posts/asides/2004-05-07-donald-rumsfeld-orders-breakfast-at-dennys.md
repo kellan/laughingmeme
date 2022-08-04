@@ -1,6 +1,6 @@
 ---
 id: 2261
-title: 'Donald Rumsfeld Orders Breakfast At Denny&#8217;s.'
+title: 'Donald Rumsfeld Orders Breakfast At Dennys.'
 date: '2004-05-07T13:18:26+00:00'
 author: Kellan
 layout: post

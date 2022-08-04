@@ -1,6 +1,6 @@
 ---
 id: 2722
-title: 'MarkB on Curse of Chalion, &#8220;that this book is long and predictable is not a criticism but a genre description.&#8221;'
+title: 'MarkB on Curse of Chalion, "that this book is long and predictable is not a criticism but a genre description."'
 date: '2004-12-21T12:20:16+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 264
-title: 'Apple Can&#8217;t Afford Researchers?'
+title: 'Apple Cant Afford Researchers?'
 date: '2003-01-07T18:40:52+00:00'
 author: Kellan
 layout: post

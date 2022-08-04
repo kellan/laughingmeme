@@ -1,6 +1,6 @@
 ---
 id: 3297
-title: 'piratbyrån: I&#8217;m pro-pirate'
+title: 'piratbyrån: Im pro-pirate'
 date: '2006-03-15T19:05:00+00:00'
 author: Kellan
 layout: post

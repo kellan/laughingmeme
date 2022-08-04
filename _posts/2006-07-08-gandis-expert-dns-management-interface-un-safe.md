@@ -1,6 +1,6 @@
 ---
 id: 3398
-title: 'Gandi&#8217;s expert DNS management interface un-safe'
+title: 'Gandis expert DNS management interface un-safe'
 date: '2006-07-08T00:51:00+00:00'
 author: Kellan
 layout: post

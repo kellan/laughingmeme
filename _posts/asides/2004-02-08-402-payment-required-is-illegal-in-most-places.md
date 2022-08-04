@@ -1,6 +1,6 @@
 ---
 id: 2071
-title: '&#8220;<b>402 Payment Required</b> is illegal in most places.&#8221;'
+title: '"<b>402 Payment Required</b> is illegal in most places."'
 date: '2004-02-08T14:59:25+00:00'
 author: Kellan
 layout: post

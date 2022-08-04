@@ -1,6 +1,6 @@
 ---
 id: 2765
-title: 'Yet more &#8220;Think like Gramsci, talk like Debs&#8221; advice.'
+title: 'Yet more "Think like Gramsci, talk like Debs" advice.'
 date: '2005-01-16T02:14:20+00:00'
 author: Kellan
 layout: post

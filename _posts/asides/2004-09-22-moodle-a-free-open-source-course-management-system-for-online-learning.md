@@ -1,6 +1,6 @@
 ---
 id: 2550
-title: 'Moodle &#8211; A Free, Open Source Course Management System for Online Learning'
+title: 'Moodle – A Free, Open Source Course Management System for Online Learning'
 date: '2004-09-22T21:13:18+00:00'
 author: Kellan
 layout: post

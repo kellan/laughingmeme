@@ -1,6 +1,6 @@
 ---
 id: 3381
-title: 'mnot&#8217;s Web log: Friday Fun: Feed Authentication with Cookies'
+title: 'mnots Web log: Friday Fun: Feed Authentication with Cookies'
 date: '2006-06-14T11:03:00+00:00'
 author: Kellan
 layout: post

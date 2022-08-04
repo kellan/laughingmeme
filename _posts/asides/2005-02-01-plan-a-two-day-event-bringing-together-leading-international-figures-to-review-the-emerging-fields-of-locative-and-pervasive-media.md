@@ -1,6 +1,6 @@
 ---
 id: 2793
-title: '&#8220;PLAN: A two day event bringing together leading international figures to review the emerging fields of locative and pervasive media.&#8221;'
+title: '"PLAN: A two day event bringing together leading international figures to review the emerging fields of locative and pervasive media."'
 date: '2005-02-01T03:31:29+00:00'
 author: Kellan
 layout: post

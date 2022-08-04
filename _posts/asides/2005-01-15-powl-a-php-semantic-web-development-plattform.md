@@ -1,6 +1,6 @@
 ---
 id: 2764
-title: 'pOWL &#8211; a PHP &#8220;Semantic Web Development Plattform&#8221;'
+title: 'pOWL – a PHP "Semantic Web Development Plattform"'
 date: '2005-01-15T20:03:56+00:00'
 author: Kellan
 layout: post

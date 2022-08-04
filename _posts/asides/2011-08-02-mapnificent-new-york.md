@@ -1,6 +1,6 @@
 ---
 id: 4969
-title: 'Mapnificent &#8211; New York'
+title: 'Mapnificent – New York'
 date: '2011-08-02T04:38:55+00:00'
 author: Kellan
 layout: post

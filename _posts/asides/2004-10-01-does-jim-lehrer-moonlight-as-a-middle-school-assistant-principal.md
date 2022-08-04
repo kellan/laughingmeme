@@ -1,6 +1,6 @@
 ---
 id: 2564
-title: '&#8220;Does Jim Lehrer Moonlight as a Middle School Assistant Principal?&#8221;'
+title: '"Does Jim Lehrer Moonlight as a Middle School Assistant Principal?"'
 date: '2004-10-01T16:47:17+00:00'
 author: Kellan
 layout: post

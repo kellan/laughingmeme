@@ -1,6 +1,6 @@
 ---
 id: 3064
-title: 'Google Calendar Blog &#8211; blogging the void?'
+title: 'Google Calendar Blog – blogging the void?'
 date: '2005-10-27T10:27:00+00:00'
 author: Kellan
 layout: post

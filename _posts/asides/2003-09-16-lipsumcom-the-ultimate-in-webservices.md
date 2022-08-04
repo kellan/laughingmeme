@@ -1,6 +1,6 @@
 ---
 id: 1725
-title: 'Lipsum.com &#8211; the ultimate in webservices'
+title: 'Lipsum.com – the ultimate in webservices'
 date: '2003-09-16T13:44:43+00:00'
 author: Kellan
 layout: post

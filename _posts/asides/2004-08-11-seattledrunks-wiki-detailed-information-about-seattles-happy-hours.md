@@ -1,6 +1,6 @@
 ---
 id: 2455
-title: 'SeattleDrunks Wiki, detailed information about Seattle&#8217;s happy hours.'
+title: 'SeattleDrunks Wiki, detailed information about Seattles happy hours.'
 date: '2004-08-11T12:57:38+00:00'
 author: Kellan
 layout: post

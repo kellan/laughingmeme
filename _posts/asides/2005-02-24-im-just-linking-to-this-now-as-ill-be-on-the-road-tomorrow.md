@@ -1,6 +1,6 @@
 ---
 id: 2842
-title: 'I&#8217;m just linking to this now, as I&#8217;ll be on the road tomorrow'
+title: 'Im just linking to this now, as Ill be on the road tomorrow'
 date: '2005-02-24T18:06:44+00:00'
 author: Kellan
 layout: post

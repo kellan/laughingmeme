@@ -1,6 +1,6 @@
 ---
 id: 3122
-title: 'Runt &#8211; Ruby Temporal Expressions'
+title: 'Runt – Ruby Temporal Expressions'
 date: '2005-11-25T21:45:00+00:00'
 author: Kellan
 layout: post

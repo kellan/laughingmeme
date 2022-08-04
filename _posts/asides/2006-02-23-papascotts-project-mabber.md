@@ -1,6 +1,6 @@
 ---
 id: 3264
-title: 'PapaScott&#8217;s project Mabber'
+title: 'PapaScotts project Mabber'
 date: '2006-02-23T09:47:00+00:00'
 author: Kellan
 layout: post

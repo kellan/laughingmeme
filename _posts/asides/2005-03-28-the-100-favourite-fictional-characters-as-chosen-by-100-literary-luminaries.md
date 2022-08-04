@@ -1,6 +1,6 @@
 ---
 id: 2880
-title: 'The 100 favourite fictional characters&#8230; as chosen by 100 literary luminaries'
+title: 'The 100 favourite fictional characters... as chosen by 100 literary luminaries'
 date: '2005-03-28T11:23:59+00:00'
 author: Kellan
 layout: post

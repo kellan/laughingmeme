@@ -1,6 +1,6 @@
 ---
 id: 3637
-title: 'SANTA CLARA, Calif. &#8212; March 28, 2000: &#8220;Smile, You&#8217;re On Yahoo! Photos&#8221;'
+title: 'SANTA CLARA, Calif. &#8212; March 28, 2000: "Smile, Youre On Yahoo! Photos"'
 date: '2007-05-03T23:46:12+00:00'
 author: Kellan
 layout: post

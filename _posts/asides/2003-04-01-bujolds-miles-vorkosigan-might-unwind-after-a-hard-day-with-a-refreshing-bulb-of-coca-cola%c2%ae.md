@@ -1,6 +1,6 @@
 ---
 id: 1344
-title: 'Bujold&#8217;s Miles Vorkosigan might unwind after a hard day with a refreshing bulb of Coca-ColaÂ®.'
+title: 'Bujolds Miles Vorkosigan might unwind after a hard day with a refreshing bulb of Coca-ColaÂ®.'
 date: '2003-04-01T23:34:40+00:00'
 author: Kellan
 layout: post

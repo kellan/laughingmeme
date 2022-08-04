@@ -1,6 +1,6 @@
 ---
 id: 346
-title: 'Conditional GET with LWP &#038; Perl'
+title: 'Conditional GET with LWP & Perl'
 date: '2003-03-01T19:16:00+00:00'
 author: Kellan
 layout: post

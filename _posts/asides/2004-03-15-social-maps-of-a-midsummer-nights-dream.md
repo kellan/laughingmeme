@@ -1,6 +1,6 @@
 ---
 id: 2134
-title: 'Social maps of &#8220;A Midsummer Night&#8217;s Dream'
+title: 'Social maps of "A Midsummer Nights Dream'
 date: '2004-03-15T00:51:44+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 207
-title: 'XML::RSS Patch &#038; Procrastination'
+title: 'XML::RSS Patch & Procrastination'
 date: '2002-11-05T18:51:36+00:00'
 author: Kellan
 layout: post

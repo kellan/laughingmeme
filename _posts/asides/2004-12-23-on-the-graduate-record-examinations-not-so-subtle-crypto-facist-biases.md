@@ -1,6 +1,6 @@
 ---
 id: 2728
-title: 'On the Graduate Record Examination&#8217;s not so subtle crypto-facist biases'
+title: 'On the Graduate Record Examinations not so subtle crypto-facist biases'
 date: '2004-12-23T18:49:40+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2367
-title: 'postgrey: &#8216;greylisting&#8217; for postfix'
+title: 'postgrey: greylisting for postfix'
 date: '2004-07-06T10:25:06+00:00'
 author: Kellan
 layout: post

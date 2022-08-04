@@ -1,6 +1,6 @@
 ---
 id: 3627
-title: 'Listeners of &#8220;Flagpole Sitta&#8221; are up 400% over it&#8217;s weekly average on Last.fm'
+title: 'Listeners of "Flagpole Sitta" are up 400% over its weekly average on Last.fm'
 date: '2007-04-25T16:33:08+00:00'
 author: Kellan
 layout: post

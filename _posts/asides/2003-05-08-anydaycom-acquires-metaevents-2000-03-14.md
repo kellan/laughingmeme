@@ -1,6 +1,6 @@
 ---
 id: 1426
-title: 'AnyDay.com Acquires MetaEvents &#8211; 2000-03-14'
+title: 'AnyDay.com Acquires MetaEvents – 2000-03-14'
 date: '2003-05-08T09:14:29+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3211
-title: 'Gladwell on the &#8220;The Moral-Hazard Myth: The bad idea behind our failed health-care system&#8221;'
+title: 'Gladwell on the "The Moral-Hazard Myth: The bad idea behind our failed health-care system"'
 date: '2006-01-24T10:46:00+00:00'
 author: Kellan
 layout: post

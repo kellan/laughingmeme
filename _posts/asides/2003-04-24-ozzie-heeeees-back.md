@@ -1,6 +1,6 @@
 ---
 id: 1380
-title: 'Ozzie:  Heeeee&#8217;s back'
+title: 'Ozzie:  Heeeees back'
 date: '2003-04-24T16:55:36+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2883
-title: 'Jorn&#8217;s collection of Philip Pullman resources'
+title: 'Jorns collection of Philip Pullman resources'
 date: '2005-03-28T12:41:06+00:00'
 author: Kellan
 layout: post

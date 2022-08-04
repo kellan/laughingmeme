@@ -1,6 +1,6 @@
 ---
 id: 2057
-title: '&#8220;Morality has very little to do with choosing sides.&#8221;'
+title: '"Morality has very little to do with choosing sides."'
 date: '2004-02-04T02:18:14+00:00'
 author: Kellan
 layout: post

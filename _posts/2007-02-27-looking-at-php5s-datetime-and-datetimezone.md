@@ -1,6 +1,6 @@
 ---
 id: 3585
-title: 'Looking at PHP5&#8217;s DateTime and DateTimeZone'
+title: 'Looking at PHP5s DateTime and DateTimeZone'
 date: '2007-02-27T16:47:09+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2608
-title: 'Lynn Cheney dresses granddaughter as &#8216;Grim Reaper&#8217; for campaign stunt'
+title: 'Lynn Cheney dresses granddaughter as Grim Reaper for campaign stunt'
 date: '2004-11-02T13:35:16+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3200
-title: 'Hixie&#8217;s Tag Soup: Crazy parsing adventures'
+title: 'Hixies Tag Soup: Crazy parsing adventures'
 date: '2006-01-20T09:12:00+00:00'
 author: Kellan
 layout: post

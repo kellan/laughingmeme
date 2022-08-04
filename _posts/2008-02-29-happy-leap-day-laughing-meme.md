@@ -1,6 +1,6 @@
 ---
 id: 3781
-title: 'Happy Leap Day &#8211; Laughing Meme'
+title: 'Happy Leap Day – Laughing Meme'
 date: '2008-02-29T19:08:27+00:00'
 author: Kellan
 layout: post

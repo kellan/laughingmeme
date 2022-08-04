@@ -1,6 +1,6 @@
 ---
 id: 1559
-title: 'Jon Udell&#8217;s tells Mr. Safe about Echo'
+title: 'Jon Udells tells Mr. Safe about Echo'
 date: '2003-06-28T09:31:11+00:00'
 author: Kellan
 layout: post

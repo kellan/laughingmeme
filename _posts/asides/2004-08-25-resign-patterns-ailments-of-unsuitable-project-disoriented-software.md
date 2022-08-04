@@ -1,6 +1,6 @@
 ---
 id: 2488
-title: 'Resign Patterns &#8211; Ailments of Unsuitable Project-Disoriented Software'
+title: 'Resign Patterns – Ailments of Unsuitable Project-Disoriented Software'
 date: '2004-08-25T14:02:15+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1648
-title: 'When writing an XML parsing class in PHP, don&#8217;t forget the ampersands'
+title: 'When writing an XML parsing class in PHP, dont forget the ampersands'
 date: '2003-08-13T15:50:20+00:00'
 author: Kellan
 layout: post

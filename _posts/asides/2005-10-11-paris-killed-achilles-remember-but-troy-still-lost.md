@@ -1,6 +1,6 @@
 ---
 id: 3047
-title: '&#8220;Paris killed Achilles, remember, but Troy still lost.&#8221;'
+title: '"Paris killed Achilles, remember, but Troy still lost."'
 date: '2005-10-11T12:48:55+00:00'
 author: Kellan
 layout: post

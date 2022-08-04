@@ -1,6 +1,6 @@
 ---
 id: 1308
-title: 'Rachel&#8217;s letters home'
+title: 'Rachels letters home'
 date: '2003-03-19T11:26:22+00:00'
 author: Kellan
 layout: post

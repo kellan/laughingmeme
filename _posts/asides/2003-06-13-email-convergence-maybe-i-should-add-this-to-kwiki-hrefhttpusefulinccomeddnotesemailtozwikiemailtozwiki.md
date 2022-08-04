@@ -1,6 +1,6 @@
 ---
 id: 1519
-title: 'email convergence.  maybe i should add this to kwiki&#8221; href=&#8221;http://usefulinc.com/edd/notes/EmailToZWiki&#8221;>EmailToZWiki'
+title: 'email convergence.  maybe i should add this to kwiki" href="http://usefulinc.com/edd/notes/EmailToZWiki">EmailToZWiki'
 date: '2003-06-13T20:19:50+00:00'
 author: Kellan
 layout: post

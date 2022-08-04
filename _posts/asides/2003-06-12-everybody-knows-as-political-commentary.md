@@ -1,6 +1,6 @@
 ---
 id: 1512
-title: '&#8220;Everybody Knows&#8221; as political commentary'
+title: '"Everybody Knows" as political commentary'
 date: '2003-06-12T11:28:20+00:00'
 author: Kellan
 layout: post

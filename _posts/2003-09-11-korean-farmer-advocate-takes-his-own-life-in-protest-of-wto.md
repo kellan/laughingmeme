@@ -1,6 +1,6 @@
 ---
 id: 581
-title: 'Korean Farmer &#038; Advocate Takes His Own Life in Protest of WTO'
+title: 'Korean Farmer & Advocate Takes His Own Life in Protest of WTO'
 date: '2003-09-11T20:21:55+00:00'
 author: Kellan
 layout: post

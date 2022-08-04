@@ -1,6 +1,6 @@
 ---
 id: 1953
-title: 'Perl is 16 &#8211; Happy Birthday'
+title: 'Perl is 16 – Happy Birthday'
 date: '2003-12-19T04:33:08+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3704
-title: 'Aidan: &#8220;the increases in human intelligence that have evolved since our split with living relatives have been driven significantly by specific need for social processing skills rather than a drive toward general intelligence.&#8221;'
+title: 'Aidan: "the increases in human intelligence that have evolved since our split with living relatives have been driven significantly by specific need for social processing skills rather than a drive toward general intelligence."'
 date: '2007-09-12T11:11:07+00:00'
 author: Kellan
 layout: post

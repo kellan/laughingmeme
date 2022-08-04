@@ -1,6 +1,6 @@
 ---
 id: 2613
-title: 'Fowler&#8217;s notes on notes on notes on postmodern programming.'
+title: 'Fowlers notes on notes on notes on postmodern programming.'
 date: '2004-11-03T14:03:05+00:00'
 author: Kellan
 layout: post

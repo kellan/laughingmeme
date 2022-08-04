@@ -1,6 +1,6 @@
 ---
 id: 1550
-title: 'Panther &#8216;s Xcode: iTunes meets Project Builder'
+title: 'Panther s Xcode: iTunes meets Project Builder'
 date: '2003-06-24T10:24:40+00:00'
 author: Kellan
 layout: post

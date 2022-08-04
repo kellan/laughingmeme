@@ -1,6 +1,6 @@
 ---
 id: 352
-title: 'CPAN &#038; Reputation'
+title: 'CPAN & Reputation'
 date: '2003-03-05T16:55:00+00:00'
 author: Kellan
 layout: post

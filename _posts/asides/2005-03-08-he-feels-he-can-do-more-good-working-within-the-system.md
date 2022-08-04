@@ -1,6 +1,6 @@
 ---
 id: 2854
-title: '&#8220;He feels he can do more good working within the system&#8221;'
+title: '"He feels he can do more good working within the system"'
 date: '2005-03-08T11:02:52+00:00'
 author: Kellan
 layout: post

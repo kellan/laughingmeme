@@ -1,6 +1,6 @@
 ---
 id: 1823
-title: '9 men stand around smiling as Bush signs &#8220;Partial Birth Abortion&#8221; Ban'
+title: '9 men stand around smiling as Bush signs "Partial Birth Abortion" Ban'
 date: '2003-11-06T13:54:07+00:00'
 author: Kellan
 layout: post

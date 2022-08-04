@@ -1,6 +1,6 @@
 ---
 id: 984
-title: 'MD5&#8217;ing IP Addresses is Security Theater'
+title: 'MD5ing IP Addresses is Security Theater'
 date: '2004-12-21T08:07:25+00:00'
 author: Kellan
 layout: post

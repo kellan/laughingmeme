@@ -1,6 +1,6 @@
 ---
 id: 1799
-title: 'misbehaving.net &#8211; Well-behaved women seldom make history.'
+title: 'misbehaving.net – Well-behaved women seldom make history.'
 date: '2003-10-24T17:04:55+00:00'
 author: Kellan
 layout: post

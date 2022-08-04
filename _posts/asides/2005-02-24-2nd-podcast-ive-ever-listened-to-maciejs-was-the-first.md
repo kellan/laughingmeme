@@ -1,6 +1,6 @@
 ---
 id: 2839
-title: '2nd podcast I&#8217;ve ever listened to. (Maciej&#8217;s was the first)'
+title: '2nd podcast Ive ever listened to. (Maciejs was the first)'
 date: '2005-02-24T10:30:17+00:00'
 author: Kellan
 layout: post

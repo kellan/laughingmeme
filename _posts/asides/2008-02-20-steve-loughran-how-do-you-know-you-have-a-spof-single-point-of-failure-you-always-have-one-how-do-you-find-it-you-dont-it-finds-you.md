@@ -1,6 +1,6 @@
 ---
 id: 3778
-title: 'Steve Loughran:  &#8220;How do you know you have a SPOF (single point of failure)? You always have one. How do you find it? You don&#8217;t: it finds you&#8221;'
+title: 'Steve Loughran:  "How do you know you have a SPOF (single point of failure)? You always have one. How do you find it? You dont: it finds you"'
 date: '2008-02-20T19:26:38+00:00'
 author: Kellan
 layout: post

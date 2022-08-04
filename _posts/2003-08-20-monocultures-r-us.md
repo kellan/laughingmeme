@@ -1,6 +1,6 @@
 ---
 id: 566
-title: 'Monocultures &#8216;R&#8217; Us'
+title: 'Monocultures R Us'
 date: '2003-08-20T14:19:30+00:00'
 author: Kellan
 layout: post

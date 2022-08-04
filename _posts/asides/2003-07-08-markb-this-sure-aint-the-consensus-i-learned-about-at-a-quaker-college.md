@@ -1,6 +1,6 @@
 ---
 id: 1583
-title: 'MarkB: This sure ain&#8217;t the consensus I learned about at a Quaker college.'
+title: 'MarkB: This sure aint the consensus I learned about at a Quaker college.'
 date: '2003-07-08T13:41:41+00:00'
 author: Kellan
 layout: post

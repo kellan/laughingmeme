@@ -1,6 +1,6 @@
 ---
 id: 2219
-title: 'umm&#8230;no blood for oil?'
+title: 'umm...no blood for oil?'
 date: '2004-04-19T12:17:43+00:00'
 author: Kellan
 layout: post

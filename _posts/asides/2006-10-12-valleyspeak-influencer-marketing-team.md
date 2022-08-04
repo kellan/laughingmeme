@@ -1,6 +1,6 @@
 ---
 id: 3499
-title: 'Valleyspeak: &#8220;Influencer Marketing Team&#8221;'
+title: 'Valleyspeak: "Influencer Marketing Team"'
 date: '2006-10-12T14:09:00+00:00'
 author: Kellan
 layout: post

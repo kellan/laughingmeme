@@ -1,6 +1,6 @@
 ---
 id: 2972
-title: 'O&#8217;Reilly Connection: Does the world need yet another social networking site?'
+title: 'OReilly Connection: Does the world need yet another social networking site?'
 date: '2005-08-02T10:13:18+00:00'
 author: Kellan
 layout: post

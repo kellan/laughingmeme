@@ -1,6 +1,6 @@
 ---
 id: 2900
-title: 'Data is the next &#8220;Intel Inside&#8221;: owning a unique, hard-to-replicate data source as a competitive advantage'
+title: 'Data is the next "Intel Inside": owning a unique, hard-to-replicate data source as a competitive advantage'
 date: '2005-04-05T10:50:10+00:00'
 author: Kellan
 layout: post

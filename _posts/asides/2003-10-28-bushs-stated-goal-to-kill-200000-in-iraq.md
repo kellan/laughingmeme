@@ -1,6 +1,6 @@
 ---
 id: 1805
-title: 'Bush&#8217;s stated goal to kill 200,000 in Iraq?'
+title: 'Bushs stated goal to kill 200,000 in Iraq?'
 date: '2003-10-28T12:51:04+00:00'
 author: Kellan
 layout: post

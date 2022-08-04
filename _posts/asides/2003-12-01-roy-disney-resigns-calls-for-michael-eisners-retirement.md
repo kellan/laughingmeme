@@ -1,6 +1,6 @@
 ---
 id: 1898
-title: 'Roy Disney resigns, calls for Michael Eisner&#8217;s retirement'
+title: 'Roy Disney resigns, calls for Michael Eisners retirement'
 date: '2003-12-01T10:40:31+00:00'
 author: Kellan
 layout: post

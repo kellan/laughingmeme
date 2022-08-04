@@ -1,6 +1,6 @@
 ---
 id: 813
-title: 'Disney to Block Distribution of Moore&#8217;s New Film'
+title: 'Disney to Block Distribution of Moores New Film'
 date: '2004-05-05T09:02:47+00:00'
 author: Kellan
 layout: post

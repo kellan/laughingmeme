@@ -1,6 +1,6 @@
 ---
 id: 2845
-title: 'Dave Winer&#8217;s worst nightmare'
+title: 'Dave Winers worst nightmare'
 date: '2005-02-28T22:16:38+00:00'
 author: Kellan
 layout: post

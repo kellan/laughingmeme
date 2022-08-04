@@ -1,6 +1,6 @@
 ---
 id: 3309
-title: 'Seth&#8217;s &#8220;Lucene Eye for the Rails Guy&#8221; talk got accepted for RailsConf'
+title: 'Seths "Lucene Eye for the Rails Guy" talk got accepted for RailsConf'
 date: '2006-03-29T19:45:00+00:00'
 author: Kellan
 layout: post

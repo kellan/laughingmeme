@@ -1,6 +1,6 @@
 ---
 id: 2266
-title: 'Exploring  propitiousness of &#8220;Trojan&#8221; as a name.'
+title: 'Exploring  propitiousness of "Trojan" as a name.'
 date: '2004-05-10T16:41:08+00:00'
 author: Kellan
 layout: post

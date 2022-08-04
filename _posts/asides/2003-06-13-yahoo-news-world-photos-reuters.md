@@ -1,6 +1,6 @@
 ---
 id: 1514
-title: 'Yahoo! News &#8211; World Photos &#8211; Reuters'
+title: 'Yahoo! News – World Photos – Reuters'
 date: '2003-06-13T10:15:28+00:00'
 author: Kellan
 layout: post

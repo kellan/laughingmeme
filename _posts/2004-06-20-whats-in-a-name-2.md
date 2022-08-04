@@ -1,6 +1,6 @@
 ---
 id: 846
-title: 'What&#8217;s in a Name'
+title: 'Whats in a Name'
 date: '2004-06-20T11:32:25+00:00'
 author: Kellan
 layout: post

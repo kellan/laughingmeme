@@ -1,6 +1,6 @@
 ---
 id: 322
-title: 'Only Thing Worse&#8230;'
+title: 'Only Thing Worse...'
 date: '2003-02-17T16:54:45+00:00'
 author: Kellan
 layout: post

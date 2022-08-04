@@ -1,6 +1,6 @@
 ---
 id: 3611
-title: 'Rick Skrenta: What do you do when your success &#8230; sucks?'
+title: 'Rick Skrenta: What do you do when your success ... sucks?'
 date: '2007-04-03T09:02:07+00:00'
 author: Kellan
 layout: post

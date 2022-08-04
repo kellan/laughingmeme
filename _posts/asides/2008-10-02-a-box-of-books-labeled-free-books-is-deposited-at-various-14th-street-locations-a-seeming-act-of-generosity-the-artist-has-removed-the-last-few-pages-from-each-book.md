@@ -1,6 +1,6 @@
 ---
 id: 4065
-title: '&#8220;A box of books labeled &#8220;Free Books&#8221; is deposited at various 14th Street locations. A seeming act of generosity, the artist has removed the last few pages from each book&#8230;&#8221;'
+title: '"A box of books labeled "Free Books" is deposited at various 14th Street locations. A seeming act of generosity, the artist has removed the last few pages from each book..."'
 date: '2008-10-02T14:51:26+00:00'
 author: Kellan
 layout: post

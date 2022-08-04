@@ -1,6 +1,6 @@
 ---
 id: 1745
-title: 'search.cpan.org: Acme::VerySign &#8211; make unused subroutines useful'
+title: 'search.cpan.org: Acme::VerySign – make unused subroutines useful'
 date: '2003-09-26T12:16:28+00:00'
 author: Kellan
 layout: post

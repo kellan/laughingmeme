@@ -1,6 +1,6 @@
 ---
 id: 1860
-title: 'Applying Google&#8217;s lessons to your own database.'
+title: 'Applying Googles lessons to your own database.'
 date: '2003-11-14T19:55:46+00:00'
 author: Kellan
 layout: post

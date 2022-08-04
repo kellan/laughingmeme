@@ -1,6 +1,6 @@
 ---
 id: 1979
-title: 'CardFile.org &#8211; syndicated contact info'
+title: 'CardFile.org – syndicated contact info'
 date: '2004-01-03T16:05:03+00:00'
 author: Kellan
 layout: post

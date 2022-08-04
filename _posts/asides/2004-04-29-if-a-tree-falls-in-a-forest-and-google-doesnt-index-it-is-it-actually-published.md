@@ -1,6 +1,6 @@
 ---
 id: 2234
-title: '&#8220;If a tree falls in a forest and Google doesn&#8217;t index it, is it actually published?&#8221;'
+title: '"If a tree falls in a forest and Google doesnt index it, is it actually published?"'
 date: '2004-04-29T00:04:31+00:00'
 author: Kellan
 layout: post

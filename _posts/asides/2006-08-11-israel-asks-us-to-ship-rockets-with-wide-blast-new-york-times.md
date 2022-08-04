@@ -1,6 +1,6 @@
 ---
 id: 3436
-title: 'Israel Asks U.S. to Ship Rockets With Wide Blast &#8211; New York Times'
+title: 'Israel Asks U.S. to Ship Rockets With Wide Blast – New York Times'
 date: '2006-08-11T13:47:00+00:00'
 author: Kellan
 layout: post

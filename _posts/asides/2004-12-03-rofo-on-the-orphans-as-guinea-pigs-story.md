@@ -1,6 +1,6 @@
 ---
 id: 2673
-title: 'RofO on the &#8220;orphans as guinea pigs&#8221; story.'
+title: 'RofO on the "orphans as guinea pigs" story.'
 date: '2004-12-03T18:27:23+00:00'
 author: Kellan
 layout: post

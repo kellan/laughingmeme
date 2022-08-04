@@ -1,6 +1,6 @@
 ---
 id: 2337
-title: 'it&#8217;s been a long day'
+title: 'its been a long day'
 date: '2004-06-16T12:59:21+00:00'
 author: Kellan
 layout: post

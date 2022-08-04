@@ -1,6 +1,6 @@
 ---
 id: 1527
-title: '&#8220;I am the one who speaks with my machine late at night.&#8221;'
+title: '"I am the one who speaks with my machine late at night."'
 date: '2003-06-17T14:27:57+00:00'
 author: Kellan
 layout: post

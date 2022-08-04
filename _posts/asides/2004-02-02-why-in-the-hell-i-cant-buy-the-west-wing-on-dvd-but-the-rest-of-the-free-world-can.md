@@ -1,6 +1,6 @@
 ---
 id: 2050
-title: '&#8220;why in the hell I can&#8217;t buy the West Wing on DVD but the rest of the free world can?&#8221;'
+title: '"why in the hell I cant buy the West Wing on DVD but the rest of the free world can?"'
 date: '2004-02-02T04:36:05+00:00'
 author: Kellan
 layout: post

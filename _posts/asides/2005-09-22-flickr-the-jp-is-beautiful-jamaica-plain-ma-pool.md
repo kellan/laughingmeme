@@ -1,6 +1,6 @@
 ---
 id: 3028
-title: 'Flickr: The JP is Beautiful! &#8211; Jamaica Plain, MA Pool'
+title: 'Flickr: The JP is Beautiful! – Jamaica Plain, MA Pool'
 date: '2005-09-22T09:53:08+00:00'
 author: Kellan
 layout: post

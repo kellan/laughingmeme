@@ -1,6 +1,6 @@
 ---
 id: 237
-title: 'Consensus &#038; Trust'
+title: 'Consensus & Trust'
 date: '2002-12-11T07:19:09+00:00'
 author: Kellan
 layout: post

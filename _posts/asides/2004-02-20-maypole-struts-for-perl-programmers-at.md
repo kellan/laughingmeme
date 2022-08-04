@@ -1,6 +1,6 @@
 ---
 id: 2089
-title: 'Maypole &#8211; Struts for Perl programmers?</a> (<a href="http://search.cpan.org/~simon/Maypole-1.0/">at'
+title: 'Maypole – Struts for Perl programmers?</a> (<a href="http://search.cpan.org/~simon/Maypole-1.0/">at'
 date: '2004-02-20T19:31:12+00:00'
 author: Kellan
 layout: post

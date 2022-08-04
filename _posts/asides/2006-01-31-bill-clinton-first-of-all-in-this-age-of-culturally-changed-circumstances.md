@@ -1,6 +1,6 @@
 ---
 id: 3231
-title: 'Bill Clinton: &#8220;First of all, in this age of culturally changed circumstances,'
+title: 'Bill Clinton: "First of all, in this age of culturally changed circumstances,'
 date: '2006-01-31T14:13:00+00:00'
 author: Kellan
 layout: post

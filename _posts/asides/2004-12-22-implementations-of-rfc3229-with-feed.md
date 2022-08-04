@@ -1,6 +1,6 @@
 ---
 id: 2724
-title: 'Implementations of RFC3229 with &#8220;feed&#8221;'
+title: 'Implementations of RFC3229 with "feed"'
 date: '2004-12-22T12:02:05+00:00'
 author: Kellan
 layout: post

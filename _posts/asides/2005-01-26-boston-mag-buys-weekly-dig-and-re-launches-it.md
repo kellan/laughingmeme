@@ -1,6 +1,6 @@
 ---
 id: 2788
-title: 'Boston Mag buys Weekly Dig and &#8220;re-launches&#8221; it.'
+title: 'Boston Mag buys Weekly Dig and "re-launches" it.'
 date: '2005-01-26T18:58:36+00:00'
 author: Kellan
 layout: post

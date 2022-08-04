@@ -1,6 +1,6 @@
 ---
 id: 1585
-title: 'You don&#8217;t have to be a black blocker&#8230;'
+title: 'You dont have to be a black blocker...'
 date: '2003-07-08T13:54:43+00:00'
 author: Kellan
 layout: post

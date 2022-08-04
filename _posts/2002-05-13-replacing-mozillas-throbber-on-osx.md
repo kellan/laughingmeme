@@ -1,6 +1,6 @@
 ---
 id: 28
-title: 'Replacing Mozilla&#8217;s Throbber on OSX'
+title: 'Replacing Mozillas Throbber on OSX'
 date: '2002-05-13T12:49:57+00:00'
 author: Kellan
 layout: post

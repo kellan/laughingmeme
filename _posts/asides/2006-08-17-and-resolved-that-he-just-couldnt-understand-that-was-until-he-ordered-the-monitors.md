@@ -1,6 +1,6 @@
 ---
 id: 3441
-title: '&#8220;&#8230;and resolved that he just couldn&#8217;t understand &#8230; that was until he ordered the monitors.&#8221;'
+title: '"...and resolved that he just couldnt understand ... that was until he ordered the monitors."'
 date: '2006-08-17T02:19:00+00:00'
 author: Kellan
 layout: post

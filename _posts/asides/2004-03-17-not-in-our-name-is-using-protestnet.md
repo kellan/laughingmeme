@@ -1,6 +1,6 @@
 ---
 id: 2143
-title: '&#8220;Not in Our Name&#8221; is using protest.net'
+title: '"Not in Our Name" is using protest.net'
 date: '2004-03-17T14:34:12+00:00'
 author: Kellan
 layout: post

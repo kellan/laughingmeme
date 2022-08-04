@@ -1,6 +1,6 @@
 ---
 id: 973
-title: 'Jane Pratt Working for O&#8217;Reilly These Days?'
+title: 'Jane Pratt Working for OReilly These Days?'
 date: '2004-12-08T20:17:43+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3457
-title: 'FlickrBlog: &#8220;Great shot &#8211; where&#8217;d you take that?&#8221;'
+title: 'FlickrBlog: "Great shot – whered you take that?"'
 date: '2006-08-28T14:43:00+00:00'
 author: Kellan
 layout: post

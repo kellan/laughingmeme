@@ -1,6 +1,6 @@
 ---
 id: 3613
-title: '&#8220;It turns out color theory has a way of measuring interestingness: saturation.&#8221;'
+title: '"It turns out color theory has a way of measuring interestingness: saturation."'
 date: '2007-04-04T17:38:48+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1633
-title: 'Time is a social construct&#8230;and its breaking down'
+title: 'Time is a social construct...and its breaking down'
 date: '2003-08-04T14:59:25+00:00'
 author: Kellan
 layout: post

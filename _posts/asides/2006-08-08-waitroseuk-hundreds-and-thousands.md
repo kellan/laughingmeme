@@ -1,6 +1,6 @@
 ---
 id: 3428
-title: 'Waitrose.uk: &#8220;Hundreds and thousands&#8221;'
+title: 'Waitrose.uk: "Hundreds and thousands"'
 date: '2006-08-08T21:15:00+00:00'
 author: Kellan
 layout: post

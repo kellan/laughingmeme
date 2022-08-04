@@ -1,6 +1,6 @@
 ---
 id: 1255
-title: 'Dastardly MT creators inflict &#8220;Some Rights&#8221; on unsuspecting masses.'
+title: 'Dastardly MT creators inflict "Some Rights" on unsuspecting masses.'
 date: '2003-02-25T13:48:31+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2033
-title: 'Gibson: &#8220;It may be that [American politics] has finally become so grotesque and so peculiar that it&#8217;s become part of my territory.&#8221;'
+title: 'Gibson: "It may be that [American politics] has finally become so grotesque and so peculiar that its become part of my territory."'
 date: '2004-01-26T01:58:26+00:00'
 author: Kellan
 layout: post

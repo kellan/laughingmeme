@@ -1,6 +1,6 @@
 ---
 id: 3258
-title: 'Jeremine: &#8220;It feels like it&#8217;s been 10 years now.. and oh wait, it has!  In 1996 I first wrote a perl script web server that did real-time web chat.&#8221;'
+title: 'Jeremine: "It feels like its been 10 years now.. and oh wait, it has!  In 1996 I first wrote a perl script web server that did real-time web chat."'
 date: '2006-02-17T14:48:00+00:00'
 author: Kellan
 layout: post

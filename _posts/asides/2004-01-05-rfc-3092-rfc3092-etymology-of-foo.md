@@ -1,6 +1,6 @@
 ---
 id: 1982
-title: 'RFC 3092 (rfc3092) &#8211; Etymology of &#8220;Foo&#8221;'
+title: 'RFC 3092 (rfc3092) – Etymology of "Foo"'
 date: '2004-01-05T12:09:46+00:00'
 author: Kellan
 layout: post

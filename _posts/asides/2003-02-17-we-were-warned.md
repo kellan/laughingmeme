@@ -1,6 +1,6 @@
 ---
 id: 1224
-title: 'We were warned&#8230;'
+title: 'We were warned...'
 date: '2003-02-17T17:36:36+00:00'
 author: Kellan
 layout: post

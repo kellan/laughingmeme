@@ -1,6 +1,6 @@
 ---
 id: 5384
-title: 'What I&#8217;m up to: tech leadership'
+title: 'What I''m up to: tech leadership'
 date: '2018-11-12T18:34:41+00:00'
 author: Kellan
 layout: post

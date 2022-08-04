@@ -1,6 +1,6 @@
 ---
 id: 4162
-title: 'Belkin is paying people to say their products don&#8217;t suck'
+title: 'Belkin is paying people to say their products dont suck'
 date: '2009-01-17T14:57:46+00:00'
 author: Kellan
 layout: post

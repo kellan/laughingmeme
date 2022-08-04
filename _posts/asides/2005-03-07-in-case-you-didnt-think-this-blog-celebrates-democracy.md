@@ -1,6 +1,6 @@
 ---
 id: 2848
-title: 'In case you didn&#8217;t think this blog celebrates democracy&#8230;'
+title: 'In case you didnt think this blog celebrates democracy...'
 date: '2005-03-07T10:59:39+00:00'
 author: Kellan
 layout: post

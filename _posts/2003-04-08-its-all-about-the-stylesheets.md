@@ -1,6 +1,6 @@
 ---
 id: 393
-title: 'It&#8217;s All About the Stylesheets'
+title: 'Its All About the Stylesheets'
 date: '2003-04-08T15:52:19+00:00'
 author: Kellan
 layout: post

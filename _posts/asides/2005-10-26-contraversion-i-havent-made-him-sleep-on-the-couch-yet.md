@@ -1,6 +1,6 @@
 ---
 id: 3056
-title: 'contraversion: I haven&#8217;t made him sleep on the couch yet.'
+title: 'contraversion: I havent made him sleep on the couch yet.'
 date: '2005-10-26T00:26:00+00:00'
 author: Kellan
 layout: post

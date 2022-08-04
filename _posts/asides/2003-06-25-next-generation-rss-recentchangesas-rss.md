@@ -1,6 +1,6 @@
 ---
 id: 1556
-title: 'Next generation RSS RecentChanges&#8230;as RSS'
+title: 'Next generation RSS RecentChanges...as RSS'
 date: '2003-06-25T11:04:16+00:00'
 author: Kellan
 layout: post

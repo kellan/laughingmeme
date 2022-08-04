@@ -1,6 +1,6 @@
 ---
 id: 2161
-title: 'MoveOn is collecting top 50 &#8220;Bush in 30 seconds&#8221; ads on DVD'
+title: 'MoveOn is collecting top 50 "Bush in 30 seconds" ads on DVD'
 date: '2004-03-21T15:29:32+00:00'
 author: Kellan
 layout: post

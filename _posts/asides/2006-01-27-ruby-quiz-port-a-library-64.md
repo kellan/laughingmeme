@@ -1,6 +1,6 @@
 ---
 id: 3224
-title: 'Ruby Quiz &#8211; Port a Library (#64)'
+title: 'Ruby Quiz – Port a Library (#64)'
 date: '2006-01-27T13:17:00+00:00'
 author: Kellan
 layout: post

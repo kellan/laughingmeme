@@ -1,6 +1,6 @@
 ---
 id: 1724
-title: 'Robyn&#8217;s GMO controversy elevator pitch.'
+title: 'Robyns GMO controversy elevator pitch.'
 date: '2003-09-15T23:58:14+00:00'
 author: Kellan
 layout: post

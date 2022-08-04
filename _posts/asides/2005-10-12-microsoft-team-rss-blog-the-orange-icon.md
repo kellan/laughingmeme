@@ -1,6 +1,6 @@
 ---
 id: 3048
-title: 'Microsoft Team RSS Blog : The orange icon&#8230;'
+title: 'Microsoft Team RSS Blog : The orange icon...'
 date: '2005-10-12T09:59:48+00:00'
 author: Kellan
 layout: post

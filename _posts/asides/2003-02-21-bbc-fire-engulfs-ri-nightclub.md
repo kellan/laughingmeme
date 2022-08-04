@@ -1,6 +1,6 @@
 ---
 id: 1237
-title: 'BBC: &#8220;Fire engulfs RI nightclub&#8221;'
+title: 'BBC: "Fire engulfs RI nightclub"'
 date: '2003-02-21T03:49:00+00:00'
 author: Kellan
 layout: post

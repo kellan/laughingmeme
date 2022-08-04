@@ -1,6 +1,6 @@
 ---
 id: 2456
-title: '&#8220;It is not good, useful or rational to want to strangle a person because they will not accept&#8230;&#8221;'
+title: '"It is not good, useful or rational to want to strangle a person because they will not accept..."'
 date: '2004-08-11T14:59:57+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 4383
-title: 'On a roof top in Brooklyn &#8230;.'
+title: 'On a roof top in Brooklyn ....'
 date: '2009-11-16T12:35:37+00:00'
 author: Kellan
 layout: post

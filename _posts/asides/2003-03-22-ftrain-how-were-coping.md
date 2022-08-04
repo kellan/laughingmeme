@@ -1,6 +1,6 @@
 ---
 id: 1317
-title: 'Ftrain: How We&#8217;re Coping'
+title: 'Ftrain: How Were Coping'
 date: '2003-03-22T09:37:54+00:00'
 author: Kellan
 layout: post

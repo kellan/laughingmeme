@@ -1,6 +1,6 @@
 ---
 id: 2260
-title: 'slurp() is become one of my most used idioms.&#8221; href=&#8221;http://search.cpan.org/dist/IO-All/&#8221;>IO::All &#8211; strangely addictive.'
+title: 'slurp() is become one of my most used idioms." href="http://search.cpan.org/dist/IO-All/">IO::All – strangely addictive.'
 date: '2004-05-07T01:34:31+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1068
-title: '&#8220;Real&#8221; Programming'
+title: '"Real" Programming'
 date: '2005-04-12T06:50:32+00:00'
 author: Kellan
 layout: post

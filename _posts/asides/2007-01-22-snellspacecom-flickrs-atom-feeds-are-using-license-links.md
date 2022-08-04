@@ -1,6 +1,6 @@
 ---
 id: 3560
-title: 'snellspace.com: Flickr&#8217;s Atom feeds are using License links.'
+title: 'snellspace.com: Flickrs Atom feeds are using License links.'
 date: '2007-01-22T14:37:47+00:00'
 author: Kellan
 layout: post

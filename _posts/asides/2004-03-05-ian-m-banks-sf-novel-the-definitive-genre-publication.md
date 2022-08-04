@@ -1,6 +1,6 @@
 ---
 id: 2115
-title: 'Ian M. Banks &#8220;SF Novel&#8221;, *the* definitive genre publication'
+title: 'Ian M. Banks "SF Novel", *the* definitive genre publication'
 date: '2004-03-05T13:33:13+00:00'
 author: Kellan
 layout: post

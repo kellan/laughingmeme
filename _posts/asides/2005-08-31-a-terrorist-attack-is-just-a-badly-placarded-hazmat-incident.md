@@ -1,6 +1,6 @@
 ---
 id: 3004
-title: '&#8220;A terrorist attack is just a badly-placarded HAZMAT incident.&#8221;'
+title: '"A terrorist attack is just a badly-placarded HAZMAT incident."'
 date: '2005-08-31T16:29:40+00:00'
 author: Kellan
 layout: post

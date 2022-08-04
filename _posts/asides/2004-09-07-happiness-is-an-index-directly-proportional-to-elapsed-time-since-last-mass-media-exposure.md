@@ -1,6 +1,6 @@
 ---
 id: 2517
-title: '&#8220;Happiness is an index directly proportional to elapsed time since last mass-media exposure&#8221;'
+title: '"Happiness is an index directly proportional to elapsed time since last mass-media exposure"'
 date: '2004-09-07T00:04:05+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1610
-title: 'No you can&#8217;t shill Coulter on this site'
+title: 'No you cant shill Coulter on this site'
 date: '2003-07-23T13:17:07+00:00'
 author: Kellan
 layout: post

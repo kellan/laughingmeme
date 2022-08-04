@@ -1,6 +1,6 @@
 ---
 id: 38
-title: 'Tech Todos &#8211; Weblog Watcher.'
+title: 'Tech Todos – Weblog Watcher.'
 date: '2002-05-25T15:18:06+00:00'
 author: Kellan
 layout: post

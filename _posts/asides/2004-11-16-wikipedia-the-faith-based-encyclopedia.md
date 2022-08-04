@@ -1,6 +1,6 @@
 ---
 id: 2647
-title: 'Wikipedia the &#8220;faith based encyclopedia&#8221;'
+title: 'Wikipedia the "faith based encyclopedia"'
 date: '2004-11-16T14:03:53+00:00'
 author: Kellan
 layout: post

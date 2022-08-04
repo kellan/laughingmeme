@@ -1,6 +1,6 @@
 ---
 id: 2171
-title: 'Archetypes  &#8211; schema driven rich content types and form generation'
+title: 'Archetypes  – schema driven rich content types and form generation'
 date: '2004-03-25T17:16:04+00:00'
 author: Kellan
 layout: post

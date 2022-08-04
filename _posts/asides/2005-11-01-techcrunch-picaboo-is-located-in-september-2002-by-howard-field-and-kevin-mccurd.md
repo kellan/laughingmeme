@@ -1,6 +1,6 @@
 ---
 id: 3075
-title: 'TechCrunch:  &#8220;Picaboo is located in September 2002 by Howard Field and Kevin McCurd&#8230;&#8221;'
+title: 'TechCrunch:  "Picaboo is located in September 2002 by Howard Field and Kevin McCurd..."'
 date: '2005-11-01T08:53:00+00:00'
 author: Kellan
 layout: post

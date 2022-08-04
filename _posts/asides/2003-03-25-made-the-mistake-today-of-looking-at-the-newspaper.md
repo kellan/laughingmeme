@@ -1,6 +1,6 @@
 ---
 id: 1320
-title: '&#8220;made the mistake today of looking at the newspaper&#8221;'
+title: '"made the mistake today of looking at the newspaper"'
 date: '2003-03-25T23:25:38+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2606
-title: '&#8220;We&#8217;re going on 18 years now, give or take a few&#8221;..since the last election'
+title: '"Were going on 18 years now, give or take a few"..since the last election'
 date: '2004-10-28T16:31:42+00:00'
 author: Kellan
 layout: post

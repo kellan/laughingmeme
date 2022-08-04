@@ -1,6 +1,6 @@
 ---
 id: 3424
-title: 'FeedBurner announced they&#8217;ll be creating a network of curated aggregated feeds.'
+title: 'FeedBurner announced theyll be creating a network of curated aggregated feeds.'
 date: '2006-08-07T12:44:00+00:00'
 author: Kellan
 layout: post

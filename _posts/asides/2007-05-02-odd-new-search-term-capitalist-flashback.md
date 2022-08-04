@@ -1,6 +1,6 @@
 ---
 id: 3635
-title: 'Odd new search term: &#8220;capitalist flashback&#8221;'
+title: 'Odd new search term: "capitalist flashback"'
 date: '2007-05-02T13:28:14+00:00'
 author: Kellan
 layout: post

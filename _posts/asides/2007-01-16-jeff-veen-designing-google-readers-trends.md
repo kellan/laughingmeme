@@ -1,6 +1,6 @@
 ---
 id: 3551
-title: 'Jeff Veen: Designing Google Reader&#8217;s trends'
+title: 'Jeff Veen: Designing Google Readers trends'
 date: '2007-01-16T06:43:50+00:00'
 author: Kellan
 layout: post

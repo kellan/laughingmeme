@@ -1,6 +1,6 @@
 ---
 id: 143
-title: 'Apple&#8217;s iCal out'
+title: 'Apples iCal out'
 date: '2002-09-10T07:31:48+00:00'
 author: Kellan
 layout: post

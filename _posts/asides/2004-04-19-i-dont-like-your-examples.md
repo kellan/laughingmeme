@@ -1,6 +1,6 @@
 ---
 id: 2221
-title: 'I Don&#8217;t Like Your Examples!'
+title: 'I Dont Like Your Examples!'
 date: '2004-04-19T18:58:47+00:00'
 author: Kellan
 layout: post

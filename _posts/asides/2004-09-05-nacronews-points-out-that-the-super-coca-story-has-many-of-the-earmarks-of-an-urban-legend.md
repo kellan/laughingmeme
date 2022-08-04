@@ -1,6 +1,6 @@
 ---
 id: 2514
-title: 'NacroNews points out that the &#8220;Super Coca&#8221; story has many of the earmarks of an urban legend.'
+title: 'NacroNews points out that the "Super Coca" story has many of the earmarks of an urban legend.'
 date: '2004-09-05T17:46:05+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1628
-title: 'Anarchogeek: California Governors Race &#8211; Greens to Elect ex-Conservative?'
+title: 'Anarchogeek: California Governors Race – Greens to Elect ex-Conservative?'
 date: '2003-08-01T12:24:17+00:00'
 author: Kellan
 layout: post

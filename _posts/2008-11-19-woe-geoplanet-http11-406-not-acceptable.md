@@ -1,6 +1,6 @@
 ---
 id: 4087
-title: 'WOE &#8220;GeoPlanet&#8221;: HTTP/1.1 406 Not Acceptable'
+title: 'WOE "GeoPlanet": HTTP/1.1 406 Not Acceptable'
 date: '2008-11-19T16:36:25+00:00'
 author: Kellan
 layout: post

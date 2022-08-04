@@ -1,6 +1,6 @@
 ---
 id: 3336
-title: 'MySpace Feed &#8211; RSS Feed to Image Converter'
+title: 'MySpace Feed – RSS Feed to Image Converter'
 date: '2006-04-25T12:51:00+00:00'
 author: Kellan
 layout: post

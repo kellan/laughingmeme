@@ -1,6 +1,6 @@
 ---
 id: 3094
-title: 'Boston Web Innovators Meetup &#8211; November 8th 2005 @ 6:30pm'
+title: 'Boston Web Innovators Meetup – November 8th 2005 @ 6:30pm'
 date: '2005-11-07T18:34:00+00:00'
 author: Kellan
 layout: post

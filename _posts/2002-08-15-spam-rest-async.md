@@ -1,6 +1,6 @@
 ---
 id: 120
-title: 'Spam, REST &#038; Async'
+title: 'Spam, REST & Async'
 date: '2002-08-15T07:26:45+00:00'
 author: Kellan
 layout: post

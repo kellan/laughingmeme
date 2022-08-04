@@ -1,6 +1,6 @@
 ---
 id: 3603
-title: 'Gmail Browser &#8211; a dedicated app for GMail'
+title: 'Gmail Browser – a dedicated app for GMail'
 date: '2007-03-25T02:10:20+00:00'
 author: Kellan
 layout: post

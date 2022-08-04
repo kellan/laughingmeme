@@ -1,6 +1,6 @@
 ---
 id: 2062
-title: '&#8220;I&#8217;ve got nothing done today.&#8221;'
+title: '"Ive got nothing done today."'
 date: '2004-02-05T19:50:33+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3104
-title: 'Bill O&#8217;Reilly to San Francisco: &#8220;No more federal funds without military recruiting&#8221;'
+title: 'Bill OReilly to San Francisco: "No more federal funds without military recruiting"'
 date: '2005-11-11T21:41:00+00:00'
 author: Kellan
 layout: post

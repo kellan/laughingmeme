@@ -1,6 +1,6 @@
 ---
 id: 1003
-title: 'No One Knows You&#8217;re A 800lb Gorilla'
+title: 'No One Knows Youre A 800lb Gorilla'
 date: '2005-01-19T10:07:36+00:00'
 author: Kellan
 layout: post

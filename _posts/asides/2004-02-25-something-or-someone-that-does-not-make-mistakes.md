@@ -1,6 +1,6 @@
 ---
 id: 2098
-title: '&#8220;something or someone that does not make mistakes.&#8221;'
+title: '"something or someone that does not make mistakes."'
 date: '2004-02-25T14:40:22+00:00'
 author: Kellan
 layout: post

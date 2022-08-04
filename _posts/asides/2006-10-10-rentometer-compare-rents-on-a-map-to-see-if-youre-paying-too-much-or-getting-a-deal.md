@@ -1,6 +1,6 @@
 ---
 id: 3497
-title: 'Rentometer &#8211; compare rents on a map to see if you&#8217;re paying too much or getting a deal.'
+title: 'Rentometer – compare rents on a map to see if youre paying too much or getting a deal.'
 date: '2006-10-10T12:39:00+00:00'
 author: Kellan
 layout: post

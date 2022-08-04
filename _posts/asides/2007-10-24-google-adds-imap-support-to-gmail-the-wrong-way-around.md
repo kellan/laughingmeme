@@ -1,6 +1,6 @@
 ---
 id: 3720
-title: 'Google Adds IMAP Support To GMail &#8230; the wrong way around!'
+title: 'Google Adds IMAP Support To GMail ... the wrong way around!'
 date: '2007-10-24T08:46:19+00:00'
 author: Kellan
 layout: post

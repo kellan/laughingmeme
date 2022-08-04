@@ -1,6 +1,6 @@
 ---
 id: 2440
-title: '&#8220;i kind of like telemarketers. it&#8217;s like getting a suprise present.&#8221;'
+title: '"i kind of like telemarketers. its like getting a suprise present."'
 date: '2004-08-04T18:09:46+00:00'
 author: Kellan
 layout: post

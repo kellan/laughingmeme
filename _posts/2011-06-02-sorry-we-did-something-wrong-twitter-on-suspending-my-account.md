@@ -1,6 +1,6 @@
 ---
 id: 4899
-title: '&#8220;Sorry!  We did something wrong.&#8221; &#8211; Twitter, on suspending my account.'
+title: '"Sorry!  We did something wrong." – Twitter, on suspending my account.'
 date: '2011-06-02T14:44:23+00:00'
 author: Kellan
 layout: post

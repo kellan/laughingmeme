@@ -1,6 +1,6 @@
 ---
 id: 1739
-title: 'JetBlue won&#8217;t comply with CAPS II, again.'
+title: 'JetBlue wont comply with CAPS II, again.'
 date: '2003-09-23T01:54:22+00:00'
 author: Kellan
 layout: post

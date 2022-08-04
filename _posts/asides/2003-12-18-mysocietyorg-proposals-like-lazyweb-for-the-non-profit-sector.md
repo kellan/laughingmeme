@@ -1,6 +1,6 @@
 ---
 id: 1951
-title: 'mySociety.org proposals &#8211; like LazyWeb for the non-profit sector.'
+title: 'mySociety.org proposals – like LazyWeb for the non-profit sector.'
 date: '2003-12-18T04:31:40+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3452
-title: '&#8220;Webthumb Rendering Engine Released&#8221;'
+title: '"Webthumb Rendering Engine Released"'
 date: '2006-08-22T11:18:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2790
-title: '&#8220;at the beginning of the insurgency of leaves&#8221;'
+title: '"at the beginning of the insurgency of leaves"'
 date: '2005-01-28T18:58:38+00:00'
 author: Kellan
 layout: post

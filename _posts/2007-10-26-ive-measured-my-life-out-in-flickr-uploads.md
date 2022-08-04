@@ -1,6 +1,6 @@
 ---
 id: 3722
-title: 'I&#8217;ve measured my life out in flickr uploads'
+title: 'Ive measured my life out in flickr uploads'
 date: '2007-10-26T15:27:04+00:00'
 author: Kellan
 layout: post

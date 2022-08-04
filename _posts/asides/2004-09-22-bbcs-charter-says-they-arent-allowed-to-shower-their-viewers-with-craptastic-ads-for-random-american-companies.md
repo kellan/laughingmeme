@@ -1,6 +1,6 @@
 ---
 id: 2548
-title: '&#8220;BBC&#8217;s charter says they aren&#8217;t allowed to shower their viewers with craptastic ads for random American companies&#8221;'
+title: '"BBCs charter says they arent allowed to shower their viewers with craptastic ads for random American companies"'
 date: '2004-09-22T13:38:30+00:00'
 author: Kellan
 layout: post

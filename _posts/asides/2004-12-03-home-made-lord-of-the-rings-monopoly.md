@@ -1,6 +1,6 @@
 ---
 id: 2676
-title: 'Home made &#8216;Lord of the Rings&#8217; Monopoly'
+title: 'Home made Lord of the Rings Monopoly'
 date: '2004-12-03T21:52:03+00:00'
 author: Kellan
 layout: post

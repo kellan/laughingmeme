@@ -1,6 +1,6 @@
 ---
 id: 2377
-title: 'I&#8217;ve revived the CPAN Recent uploads RSS feed.'
+title: 'Ive revived the CPAN Recent uploads RSS feed.'
 date: '2004-07-09T15:56:28+00:00'
 author: Kellan
 layout: post

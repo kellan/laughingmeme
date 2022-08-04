@@ -1,6 +1,6 @@
 ---
 id: 2078
-title: 'Is Mitt &#8220;Mormon&#8221; Romney&#8217;s defense of marriage really just a 150 years of payback?'
+title: 'Is Mitt "Mormon" Romneys defense of marriage really just a 150 years of payback?'
 date: '2004-02-12T12:31:03+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 201
-title: 'Process &#038; Collaboration'
+title: 'Process & Collaboration'
 date: '2002-11-01T07:16:00+00:00'
 author: Kellan
 layout: post

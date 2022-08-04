@@ -1,6 +1,6 @@
 ---
 id: 4084
-title: 'WordPress: Resetting your password the &#8220;hard&#8221; way.'
+title: 'WordPress: Resetting your password the "hard" way.'
 date: '2008-11-19T16:09:53+00:00'
 author: Kellan
 layout: post

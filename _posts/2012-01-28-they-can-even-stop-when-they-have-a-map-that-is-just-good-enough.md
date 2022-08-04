@@ -1,6 +1,6 @@
 ---
 id: 5026
-title: '&#8220;They can even stop when they have a map that is just good enough.&#8221;'
+title: '"They can even stop when they have a map that is just good enough."'
 date: '2012-01-28T07:04:55+00:00'
 author: Kellan
 layout: post

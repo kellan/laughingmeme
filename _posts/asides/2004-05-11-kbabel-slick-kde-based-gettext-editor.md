@@ -1,6 +1,6 @@
 ---
 id: 2270
-title: 'KBabel &#8211; slick KDE based gettext editor'
+title: 'KBabel – slick KDE based gettext editor'
 date: '2004-05-11T16:35:54+00:00'
 author: Kellan
 layout: post

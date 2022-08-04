@@ -1,6 +1,6 @@
 ---
 id: 209
-title: 'Chandler &#8211; A Modern PIM?'
+title: 'Chandler – A Modern PIM?'
 date: '2002-10-31T22:10:11+00:00'
 author: Kellan
 layout: post

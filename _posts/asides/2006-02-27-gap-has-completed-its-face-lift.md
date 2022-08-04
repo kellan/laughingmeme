@@ -1,6 +1,6 @@
 ---
 id: 3266
-title: 'Gap has completed it&#8217;s &#8220;face lift&#8221;'
+title: 'Gap has completed its "face lift"'
 date: '2006-02-27T18:23:00+00:00'
 author: Kellan
 layout: post

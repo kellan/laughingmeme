@@ -1,6 +1,6 @@
 ---
 id: 2875
-title: '50 people see a candle&#8230;'
+title: '50 people see a candle...'
 date: '2005-03-21T14:53:12+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3527
-title: '&#8220;Building an application on top of Google Calendar'
+title: '"Building an application on top of Google Calendar'
 date: '2006-12-01T14:21:00+00:00'
 author: Kellan
 layout: post

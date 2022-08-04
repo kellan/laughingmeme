@@ -1,6 +1,6 @@
 ---
 id: 3817
-title: 'Ninetynine-Ninetynine: &#8220;The more details are provided, the less likely people are to doubt the larger context.&#8221;'
+title: 'Ninetynine-Ninetynine: "The more details are provided, the less likely people are to doubt the larger context."'
 date: '2008-05-03T08:42:33+00:00'
 author: Kellan
 layout: post

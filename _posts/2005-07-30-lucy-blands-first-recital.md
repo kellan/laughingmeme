@@ -1,6 +1,6 @@
 ---
 id: 1104
-title: 'Lucy Bland&#8217;s First Recital'
+title: 'Lucy Blands First Recital'
 date: '2005-07-30T18:03:28+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2694
-title: 'Blogger and senior sci-fi editor asks his reader, &#8220;What are you reading?&#8221;'
+title: 'Blogger and senior sci-fi editor asks his reader, "What are you reading?"'
 date: '2004-12-07T01:56:12+00:00'
 author: Kellan
 layout: post

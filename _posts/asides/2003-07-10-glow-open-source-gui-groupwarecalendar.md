@@ -1,6 +1,6 @@
 ---
 id: 1591
-title: 'Glow &#8211; open source GUI groupware/calendar'
+title: 'Glow – open source GUI groupware/calendar'
 date: '2003-07-10T23:37:59+00:00'
 author: Kellan
 layout: post

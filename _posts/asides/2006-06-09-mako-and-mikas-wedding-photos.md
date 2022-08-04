@@ -1,6 +1,6 @@
 ---
 id: 3379
-title: 'Mako and Mika&#8217;s wedding photos'
+title: 'Mako and Mikas wedding photos'
 date: '2006-06-09T12:45:00+00:00'
 author: Kellan
 layout: post

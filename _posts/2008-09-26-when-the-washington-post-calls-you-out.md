@@ -1,6 +1,6 @@
 ---
 id: 4039
-title: 'When the Wall St. Journal calls you out&#8230;..'
+title: 'When the Wall St. Journal calls you out.....'
 date: '2008-09-26T10:00:14+00:00'
 author: Kellan
 layout: post

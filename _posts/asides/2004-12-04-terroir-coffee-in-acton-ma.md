@@ -1,6 +1,6 @@
 ---
 id: 2683
-title: '&#8220;terroir &#8221; coffee in Acton, MA'
+title: '"terroir " coffee in Acton, MA'
 date: '2004-12-04T22:18:59+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3699
-title: 'Jakob Nielsen: &#8220;In 1997, I chose to suppress similar findings&#8230;&#8221;'
+title: 'Jakob Nielsen: "In 1997, I chose to suppress similar findings..."'
 date: '2007-08-21T16:31:56+00:00'
 author: Kellan
 layout: post

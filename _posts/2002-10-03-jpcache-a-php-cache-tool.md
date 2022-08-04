@@ -1,6 +1,6 @@
 ---
 id: 175
-title: 'jpcache &#8211; A PHP Cache Tool'
+title: 'jpcache – A PHP Cache Tool'
 date: '2002-10-03T11:18:29+00:00'
 author: Kellan
 layout: post

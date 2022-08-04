@@ -1,6 +1,6 @@
 ---
 id: 2902
-title: 'snippet: &#8220;next gen&#8221; bookmarklet'
+title: 'snippet: "next gen" bookmarklet'
 date: '2005-04-07T13:24:33+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1499
-title: 'I&#8217;m not bright, I&#8217;m Google proficient'
+title: 'Im not bright, Im Google proficient'
 date: '2003-06-05T11:48:17+00:00'
 author: Kellan
 layout: post

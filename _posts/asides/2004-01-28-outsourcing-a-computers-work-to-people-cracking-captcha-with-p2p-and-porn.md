@@ -1,6 +1,6 @@
 ---
 id: 2037
-title: 'Outsourcing a computer&#8217;s work to people?  Cracking captcha with p2p and porn.'
+title: 'Outsourcing a computers work to people?  Cracking captcha with p2p and porn.'
 date: '2004-01-28T01:12:35+00:00'
 author: Kellan
 layout: post

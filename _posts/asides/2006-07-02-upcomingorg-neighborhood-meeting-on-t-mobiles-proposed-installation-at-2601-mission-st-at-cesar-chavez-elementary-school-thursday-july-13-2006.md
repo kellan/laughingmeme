@@ -1,6 +1,6 @@
 ---
 id: 3392
-title: 'Upcoming.org: Neighborhood Meeting: On T-Mobile&#8217;s  proposed installation at 2601 Mission St. at Cesar Chavez Elementary School (Thursday, July 13, 2006)'
+title: 'Upcoming.org: Neighborhood Meeting: On T-Mobiles  proposed installation at 2601 Mission St. at Cesar Chavez Elementary School (Thursday, July 13, 2006)'
 date: '2006-07-02T17:17:00+00:00'
 author: Kellan
 layout: post

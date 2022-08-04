@@ -1,6 +1,6 @@
 ---
 id: 3365
-title: '&#8220;I&#8217;m using Skinnerian behavior modification in order to increase my effectiveness as a Skinner!&#8221;'
+title: '"Im using Skinnerian behavior modification in order to increase my effectiveness as a Skinner!"'
 date: '2006-05-28T01:52:00+00:00'
 author: Kellan
 layout: post

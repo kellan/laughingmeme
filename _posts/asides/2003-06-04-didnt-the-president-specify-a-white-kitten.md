@@ -1,6 +1,6 @@
 ---
 id: 1495
-title: 'didn&#8217;t the president specify a white kitten?'
+title: 'didnt the president specify a white kitten?'
 date: '2003-06-04T12:45:36+00:00'
 author: Kellan
 layout: post

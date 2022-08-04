@@ -1,6 +1,6 @@
 ---
 id: 2343
-title: '&#8220;&#8230;but when the going gets tough, the tough use &#8216;print&#8217;.&#8221;'
+title: '"...but when the going gets tough, the tough use print."'
 date: '2004-06-17T21:43:38+00:00'
 author: Kellan
 layout: post

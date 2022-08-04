@@ -1,6 +1,6 @@
 ---
 id: 3124
-title: 'mike sippey: everything I need to know to run a startup&#8230;'
+title: 'mike sippey: everything I need to know to run a startup...'
 date: '2005-11-30T13:47:00+00:00'
 author: Kellan
 layout: post

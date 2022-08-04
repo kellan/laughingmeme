@@ -1,6 +1,6 @@
 ---
 id: 3899
-title: 'Leonard for Obama &#8217;08'
+title: 'Leonard for Obama 08'
 date: '2008-06-24T10:19:02+00:00'
 author: Kellan
 layout: post

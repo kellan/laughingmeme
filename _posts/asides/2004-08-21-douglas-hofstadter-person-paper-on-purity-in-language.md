@@ -1,6 +1,6 @@
 ---
 id: 2476
-title: 'Douglas Hofstadter &#8211; Person Paper on Purity in Language'
+title: 'Douglas Hofstadter – Person Paper on Purity in Language'
 date: '2004-08-21T11:27:09+00:00'
 author: Kellan
 layout: post

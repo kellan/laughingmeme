@@ -1,6 +1,6 @@
 ---
 id: 3417
-title: 'MySQL DBA &#8211; notes from the flickr database wars'
+title: 'MySQL DBA – notes from the flickr database wars'
 date: '2006-07-31T19:48:00+00:00'
 author: Kellan
 layout: post

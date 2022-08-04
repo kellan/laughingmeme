@@ -1,6 +1,6 @@
 ---
 id: 2051
-title: 'Videolan &#8211; region free DVD playback'
+title: 'Videolan – region free DVD playback'
 date: '2004-02-02T04:43:41+00:00'
 author: Kellan
 layout: post

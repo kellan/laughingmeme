@@ -1,6 +1,6 @@
 ---
 id: 477
-title: 'Wired&#8217;s Last Breath?'
+title: 'Wireds Last Breath?'
 date: '2003-06-16T12:48:09+00:00'
 author: Kellan
 layout: post

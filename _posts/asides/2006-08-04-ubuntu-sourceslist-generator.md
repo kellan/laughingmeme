@@ -1,6 +1,6 @@
 ---
 id: 3422
-title: 'Ubuntu &#8211;  Sources.list generator'
+title: 'Ubuntu –  Sources.list generator'
 date: '2006-08-04T13:40:00+00:00'
 author: Kellan
 layout: post

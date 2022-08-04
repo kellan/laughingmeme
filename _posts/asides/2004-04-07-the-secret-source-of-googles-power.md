@@ -1,6 +1,6 @@
 ---
 id: 2196
-title: 'The Secret Source of Google&#8217;s Power'
+title: 'The Secret Source of Googles Power'
 date: '2004-04-07T10:12:32+00:00'
 author: Kellan
 layout: post

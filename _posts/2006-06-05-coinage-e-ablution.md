@@ -1,6 +1,6 @@
 ---
 id: 3370
-title: 'Coinage: &#8220;e-ablution&#8221;'
+title: 'Coinage: "e-ablution"'
 date: '2006-06-05T10:46:00+00:00'
 author: Kellan
 layout: post

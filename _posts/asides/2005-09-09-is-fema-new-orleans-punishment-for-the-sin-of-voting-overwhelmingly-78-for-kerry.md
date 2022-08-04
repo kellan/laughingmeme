@@ -1,6 +1,6 @@
 ---
 id: 3016
-title: 'Is FEMA New Orlean&#8217;s punishment for the sin of voting overwhelmingly (78%) for Kerry?'
+title: 'Is FEMA New Orleans punishment for the sin of voting overwhelmingly (78%) for Kerry?'
 date: '2005-09-09T17:35:58+00:00'
 author: Kellan
 layout: post

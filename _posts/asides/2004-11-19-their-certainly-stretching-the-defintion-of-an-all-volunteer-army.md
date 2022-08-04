@@ -1,6 +1,6 @@
 ---
 id: 2660
-title: 'Their certainly stretching the defintion of an &#8220;all volunteer army&#8221;.'
+title: 'Their certainly stretching the defintion of an "all volunteer army".'
 date: '2004-11-19T23:25:01+00:00'
 author: Kellan
 layout: post

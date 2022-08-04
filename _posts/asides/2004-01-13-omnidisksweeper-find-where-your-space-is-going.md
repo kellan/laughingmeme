@@ -1,6 +1,6 @@
 ---
 id: 2002
-title: 'OmniDiskSweeper &#8211; find where your space is going.'
+title: 'OmniDiskSweeper – find where your space is going.'
 date: '2004-01-13T23:50:05+00:00'
 author: Kellan
 layout: post

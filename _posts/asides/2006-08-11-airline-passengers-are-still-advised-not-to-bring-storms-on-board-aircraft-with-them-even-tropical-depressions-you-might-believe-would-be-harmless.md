@@ -1,6 +1,6 @@
 ---
 id: 3435
-title: '&#8220;&#8230;airline passengers are still advised not to bring storms on board aircraft with them, even tropical depressions you might believe would be harmless.&#8221;'
+title: '"...airline passengers are still advised not to bring storms on board aircraft with them, even tropical depressions you might believe would be harmless."'
 date: '2006-08-11T12:31:00+00:00'
 author: Kellan
 layout: post

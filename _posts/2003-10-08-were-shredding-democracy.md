@@ -1,6 +1,6 @@
 ---
 id: 622
-title: 'We&#8217;re Shredding Democracy!'
+title: 'Were Shredding Democracy!'
 date: '2003-10-08T00:00:26+00:00'
 author: Kellan
 layout: post

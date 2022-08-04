@@ -1,6 +1,6 @@
 ---
 id: 2047
-title: '&#8220;Screw fines, give us Infinity and Clear Channel&#8217;s transmitters!&#8221;'
+title: '"Screw fines, give us Infinity and Clear Channels transmitters!"'
 date: '2004-02-01T14:53:30+00:00'
 author: Kellan
 layout: post

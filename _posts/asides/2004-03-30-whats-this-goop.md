@@ -1,6 +1,6 @@
 ---
 id: 2182
-title: 'What&#8217;s This Goop?'
+title: 'Whats This Goop?'
 date: '2004-03-30T20:42:15+00:00'
 author: Kellan
 layout: post

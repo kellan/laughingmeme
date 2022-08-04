@@ -1,6 +1,6 @@
 ---
 id: 5381
-title: 'What I&#8217;m up to: researching'
+title: "What I'm up to: researching"
 date: '2018-11-12T18:26:30+00:00'
 author: Kellan
 layout: post

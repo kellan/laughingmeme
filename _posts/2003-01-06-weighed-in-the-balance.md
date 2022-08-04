@@ -1,6 +1,6 @@
 ---
 id: 263
-title: 'Weighed in the Balance&#8230;'
+title: 'Weighed in the Balance...'
 date: '2003-01-06T14:03:59+00:00'
 author: Kellan
 layout: post

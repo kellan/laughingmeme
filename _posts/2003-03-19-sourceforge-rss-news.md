@@ -1,6 +1,6 @@
 ---
 id: 363
-title: 'Sourceforge RSS &#038; News'
+title: 'Sourceforge RSS & News'
 date: '2003-03-19T07:17:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2012
-title: 'Arnold&#8217;s easy platitudes crumble in the face of reality.  Cuts education, health care for poor, and children.  Leaves state facing debt in 2005.</a> (<a href="http://www.nytimes.com/2004/01/18/national/18CALI.html">nyt'
+title: 'Arnolds easy platitudes crumble in the face of reality.  Cuts education, health care for poor, and children.  Leaves state facing debt in 2005.</a> (<a href="http://www.nytimes.com/2004/01/18/national/18CALI.html">nyt'
 date: '2004-01-18T16:38:50+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3002
-title: '&#8230;might suggest this sudden outbreak of rationality has something to do with the fact that Ms. Rice&#8217;s old employer, Chevron, is having its financial balls squeezed hard by Chavez'
+title: '...might suggest this sudden outbreak of rationality has something to do with the fact that Ms. Rices old employer, Chevron, is having its financial balls squeezed hard by Chavez'
 date: '2005-08-30T14:56:18+00:00'
 author: Kellan
 layout: post

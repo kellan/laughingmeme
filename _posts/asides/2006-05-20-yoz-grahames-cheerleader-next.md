@@ -1,6 +1,6 @@
 ---
 id: 3360
-title: 'Yoz Grahame&#8217;s Cheerleader: Next'
+title: 'Yoz Grahames Cheerleader: Next'
 date: '2006-05-20T01:10:00+00:00'
 author: Kellan
 layout: post

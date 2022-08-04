@@ -1,6 +1,6 @@
 ---
 id: 2533
-title: 'the scent of this tea&#8230;'
+title: 'the scent of this tea...'
 date: '2004-09-14T22:57:01+00:00'
 author: Kellan
 layout: post

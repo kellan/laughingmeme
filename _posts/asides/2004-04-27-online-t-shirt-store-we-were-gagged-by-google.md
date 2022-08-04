@@ -1,6 +1,6 @@
 ---
 id: 2231
-title: 'Online t-shirt store: &#8220;we were gagged by Google&#8221;'
+title: 'Online t-shirt store: "we were gagged by Google"'
 date: '2004-04-27T19:23:55+00:00'
 author: Kellan
 layout: post

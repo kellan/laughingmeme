@@ -1,6 +1,6 @@
 ---
 id: 40
-title: 'Tech Todos &#8211; RSS Event feeds from Protest.net calendars'
+title: 'Tech Todos – RSS Event feeds from Protest.net calendars'
 date: '2002-05-25T15:27:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1958
-title: 'DBG &#8211; PHP Debugger and Profiler.'
+title: 'DBG – PHP Debugger and Profiler.'
 date: '2003-12-22T02:43:41+00:00'
 author: Kellan
 layout: post

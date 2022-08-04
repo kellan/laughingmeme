@@ -1,6 +1,6 @@
 ---
 id: 3579
-title: 'Apparently &#8220;Unknown Precipitation&#8221; is falling from the sky in NYC'
+title: 'Apparently "Unknown Precipitation" is falling from the sky in NYC'
 date: '2007-02-14T09:17:09+00:00'
 author: Kellan
 layout: post

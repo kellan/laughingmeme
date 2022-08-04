@@ -1,6 +1,6 @@
 ---
 id: 3450
-title: 'RiniArt.org &#8211; the beautiful line drawing &#8220;activist clipart&#8221; Rini Templeton.'
+title: 'RiniArt.org – the beautiful line drawing "activist clipart" Rini Templeton.'
 date: '2006-08-21T20:09:00+00:00'
 author: Kellan
 layout: post

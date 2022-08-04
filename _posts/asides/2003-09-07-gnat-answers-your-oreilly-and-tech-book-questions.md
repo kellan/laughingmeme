@@ -1,6 +1,6 @@
 ---
 id: 1708
-title: 'Gnat answers your O&#8217;Reilly (and tech book) questions'
+title: 'Gnat answers your OReilly (and tech book) questions'
 date: '2003-09-07T18:15:40+00:00'
 author: Kellan
 layout: post

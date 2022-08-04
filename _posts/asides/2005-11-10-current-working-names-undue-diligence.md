@@ -1,6 +1,6 @@
 ---
 id: 3102
-title: 'Current working names: &#8220;Undue Diligence&#8221;'
+title: 'Current working names: "Undue Diligence"'
 date: '2005-11-10T09:25:00+00:00'
 author: Kellan
 layout: post

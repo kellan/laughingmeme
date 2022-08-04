@@ -1,6 +1,6 @@
 ---
 id: 5117
-title: 'A new (to me) spam type: the &#8220;let me write you a blog post&#8221;'
+title: 'A new (to me) spam type: the "let me write you a blog post"'
 date: '2012-06-26T03:26:39+00:00'
 author: Kellan
 layout: post

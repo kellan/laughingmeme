@@ -1,6 +1,6 @@
 ---
 id: 2499
-title: 'So, here&#8217;s the thing, Danny. We have Nintendo here.'
+title: 'So, heres the thing, Danny. We have Nintendo here.'
 date: '2004-08-31T00:18:56+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1197
-title: 'Picasso&#8217;s horror of war covered for UN press conference'
+title: 'Picassos horror of war covered for UN press conference'
 date: '2003-02-05T11:01:30+00:00'
 author: Kellan
 layout: post

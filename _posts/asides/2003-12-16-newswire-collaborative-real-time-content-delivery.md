@@ -1,6 +1,6 @@
 ---
 id: 1947
-title: 'Newswire &#8211; Collaborative real-time content delivery'
+title: 'Newswire – Collaborative real-time content delivery'
 date: '2003-12-16T15:33:43+00:00'
 author: Kellan
 layout: post

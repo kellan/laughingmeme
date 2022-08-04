@@ -1,6 +1,6 @@
 ---
 id: 3724
-title: 'NYTimes: &#8220;a Greenlandic supermarket is stocking locally grown cauliflower, broccoli and cabbage this year for the first time.&#8221;'
+title: 'NYTimes: "a Greenlandic supermarket is stocking locally grown cauliflower, broccoli and cabbage this year for the first time."'
 date: '2007-10-28T09:55:34+00:00'
 author: Kellan
 layout: post

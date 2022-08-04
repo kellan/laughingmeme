@@ -1,6 +1,6 @@
 ---
 id: 3596
-title: 'That Yak Won&#8217;t Sing'
+title: 'That Yak Wont Sing'
 date: '2007-03-11T17:28:47+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2847
-title: 'BlogMarks.net &#8211; social bookmarking with screenshots'
+title: 'BlogMarks.net – social bookmarking with screenshots'
 date: '2005-03-03T12:48:10+00:00'
 author: Kellan
 layout: post

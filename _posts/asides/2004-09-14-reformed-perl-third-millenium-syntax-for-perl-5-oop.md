@@ -1,6 +1,6 @@
 ---
 id: 2532
-title: 'Reformed Perl &#8211; Third millenium syntax for Perl 5 OOP'
+title: 'Reformed Perl – Third millenium syntax for Perl 5 OOP'
 date: '2004-09-14T19:06:19+00:00'
 author: Kellan
 layout: post

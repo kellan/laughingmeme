@@ -1,6 +1,6 @@
 ---
 id: 5185
-title: 'entrepreneurship, it&#8217;s also not just hacking up a website'
+title: 'entrepreneurship, its also not just hacking up a website'
 date: '2012-12-08T08:01:09+00:00'
 author: Kellan
 layout: post

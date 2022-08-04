@@ -1,6 +1,6 @@
 ---
 id: 1355
-title: 'HttpClient &#8211; a PHP Web Client Class'
+title: 'HttpClient – a PHP Web Client Class'
 date: '2003-04-09T01:27:04+00:00'
 author: Kellan
 layout: post

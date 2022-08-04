@@ -1,6 +1,6 @@
 ---
 id: 1971
-title: 'Feedroll &#8211; remotely hosted RSS parser with configurable output'
+title: 'Feedroll – remotely hosted RSS parser with configurable output'
 date: '2003-12-25T02:31:33+00:00'
 author: Kellan
 layout: post

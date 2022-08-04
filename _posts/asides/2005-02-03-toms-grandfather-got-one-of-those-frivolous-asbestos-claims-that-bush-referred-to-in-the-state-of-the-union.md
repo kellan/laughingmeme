@@ -1,6 +1,6 @@
 ---
 id: 2801
-title: 'Tom&#8217;s grandfather got one of those &#8220;frivolous asbestos claims&#8221; that Bush referred to in the State of the Union'
+title: 'Toms grandfather got one of those "frivolous asbestos claims" that Bush referred to in the State of the Union'
 date: '2005-02-03T14:52:55+00:00'
 author: Kellan
 layout: post

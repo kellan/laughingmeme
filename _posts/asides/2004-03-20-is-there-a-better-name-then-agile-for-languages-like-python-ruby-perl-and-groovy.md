@@ -1,6 +1,6 @@
 ---
 id: 2159
-title: 'Is there a better name then &#8220;agile&#8221; for languages like Python, Ruby, Perl, and Groovy?'
+title: 'Is there a better name then "agile" for languages like Python, Ruby, Perl, and Groovy?'
 date: '2004-03-20T19:14:06+00:00'
 author: Kellan
 layout: post

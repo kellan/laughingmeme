@@ -1,6 +1,6 @@
 ---
 id: 5298
-title: 'Annoyed by &#8220;The Peripheral&#8221;'
+title: 'Annoyed by "The Peripheral"'
 date: '2014-11-11T09:49:34+00:00'
 author: Kellan
 layout: post

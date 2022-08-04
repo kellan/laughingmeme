@@ -1,6 +1,6 @@
 ---
 id: 2120
-title: 'New York Times knows&#8230;'
+title: 'New York Times knows...'
 date: '2004-03-08T18:35:03+00:00'
 author: Kellan
 layout: post

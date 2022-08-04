@@ -1,6 +1,6 @@
 ---
 id: 655
-title: 'One Man&#8217;s Attempt to Support Tech Publishing'
+title: 'One Mans Attempt to Support Tech Publishing'
 date: '2003-11-08T19:23:04+00:00'
 author: Kellan
 layout: post

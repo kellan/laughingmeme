@@ -1,6 +1,6 @@
 ---
 id: 1031
-title: 'Baby&#8217;s First Rails App'
+title: 'Babys First Rails App'
 date: '2005-03-11T06:14:34+00:00'
 author: Kellan
 layout: post

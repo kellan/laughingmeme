@@ -1,6 +1,6 @@
 ---
 id: 3165
-title: 'ExxonMobil: &#8220;Blood for Oil&#8221;'
+title: 'ExxonMobil: "Blood for Oil"'
 date: '2005-12-15T13:22:00+00:00'
 author: Kellan
 layout: post

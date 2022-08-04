@@ -1,6 +1,6 @@
 ---
 id: 2935
-title: 'River: Noah&#8217;s Ark is a problem.'
+title: 'River: Noahs Ark is a problem.'
 date: '2005-05-16T10:22:36+00:00'
 author: Kellan
 layout: post

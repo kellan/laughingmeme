@@ -1,6 +1,6 @@
 ---
 id: 3226
-title: 'BBC: Iraqis &#8216;confirm&#8217; bird flu death'
+title: 'BBC: Iraqis confirm bird flu death'
 date: '2006-01-30T11:41:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3455
-title: 'Ruby Quiz &#8211; DayRange (#92)'
+title: 'Ruby Quiz – DayRange (#92)'
 date: '2006-08-25T13:29:00+00:00'
 author: Kellan
 layout: post

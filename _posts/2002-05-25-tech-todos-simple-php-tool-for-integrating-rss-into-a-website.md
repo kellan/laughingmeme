@@ -1,6 +1,6 @@
 ---
 id: 39
-title: 'Tech Todos &#8211; Simple PHP tool for integrating RSS into a website.'
+title: 'Tech Todos – Simple PHP tool for integrating RSS into a website.'
 date: '2002-05-25T15:22:34+00:00'
 author: Kellan
 layout: post

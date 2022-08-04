@@ -1,6 +1,6 @@
 ---
 id: 2932
-title: '&#8220;The worst pizza in the world is sold at a certain snack counter in Edinburgh.&#8221;'
+title: '"The worst pizza in the world is sold at a certain snack counter in Edinburgh."'
 date: '2005-04-29T15:34:13+00:00'
 author: Kellan
 layout: post

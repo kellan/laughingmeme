@@ -1,6 +1,6 @@
 ---
 id: 3209
-title: 'Nat has been testing &#8220;Bare Bones&#8217; newly accounced data-snippet organizer, Yojimbo, since December&#8221;'
+title: 'Nat has been testing "Bare Bones newly accounced data-snippet organizer, Yojimbo, since December"'
 date: '2006-01-23T17:25:00+00:00'
 author: Kellan
 layout: post

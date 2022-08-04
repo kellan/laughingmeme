@@ -1,6 +1,6 @@
 ---
 id: 1465
-title: 'Fantasy and Revolution &#8211; An Interview With China MiÃ©ville'
+title: 'Fantasy and Revolution – An Interview With China MiÃ©ville'
 date: '2003-05-21T18:54:30+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2819
-title: 'Rafe  recommends &#8220;Head First Design Patterns&#8221;'
+title: 'Rafe  recommends "Head First Design Patterns"'
 date: '2005-02-15T14:23:02+00:00'
 author: Kellan
 layout: post

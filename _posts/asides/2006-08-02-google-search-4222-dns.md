@@ -1,6 +1,6 @@
 ---
 id: 3419
-title: 'Google Search: &#8220;4.2.2.2&#8221; dns'
+title: 'Google Search: "4.2.2.2" dns'
 date: '2006-08-02T18:15:00+00:00'
 author: Kellan
 layout: post

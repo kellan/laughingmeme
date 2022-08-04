@@ -1,6 +1,6 @@
 ---
 id: 2484
-title: '&#8220;Tabs are supposed to be used for <b>rapid switching between alternative views</b> of the same information object.&#8221;'
+title: '"Tabs are supposed to be used for <b>rapid switching between alternative views</b> of the same information object."'
 date: '2004-08-24T18:08:03+00:00'
 author: Kellan
 layout: post

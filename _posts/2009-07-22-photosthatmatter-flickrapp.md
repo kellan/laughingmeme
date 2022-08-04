@@ -1,6 +1,6 @@
 ---
 id: 4254
-title: 'photosthatmatter &#038; FlickrApp'
+title: 'photosthatmatter & FlickrApp'
 date: '2009-07-22T13:27:37+00:00'
 author: Kellan
 layout: post

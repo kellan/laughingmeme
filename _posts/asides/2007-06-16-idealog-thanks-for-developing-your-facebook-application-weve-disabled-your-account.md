@@ -1,6 +1,6 @@
 ---
 id: 3665
-title: 'Idealog: Thanks for developing your Facebook application. We&#8217;ve disabled your account.'
+title: 'Idealog: Thanks for developing your Facebook application. Weve disabled your account.'
 date: '2007-06-16T22:13:50+00:00'
 author: Kellan
 layout: post

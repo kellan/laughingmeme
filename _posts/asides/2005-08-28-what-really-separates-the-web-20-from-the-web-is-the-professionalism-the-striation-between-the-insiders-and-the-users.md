@@ -1,6 +1,6 @@
 ---
 id: 2998
-title: 'What really separates the &#8220;Web 2.0&#8221; from the &#8220;web&#8221; is the professionalism, the striation between the insiders and the users.'
+title: 'What really separates the "Web 2.0" from the "web" is the professionalism, the striation between the insiders and the users.'
 date: '2005-08-28T12:40:25+00:00'
 author: Kellan
 layout: post

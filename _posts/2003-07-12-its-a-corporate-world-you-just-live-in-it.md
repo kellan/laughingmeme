@@ -1,6 +1,6 @@
 ---
 id: 512
-title: 'It&#8217;s A Corporate World, You Just Live In It'
+title: 'Its A Corporate World, You Just Live In It'
 date: '2003-07-12T21:46:17+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3747
-title: 'On Listening to &#8220;Golden Compass&#8221;'
+title: 'On Listening to "Golden Compass"'
 date: '2008-01-03T00:30:45+00:00'
 author: Kellan
 layout: post

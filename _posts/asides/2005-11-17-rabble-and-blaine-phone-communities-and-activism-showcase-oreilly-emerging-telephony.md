@@ -1,6 +1,6 @@
 ---
 id: 3115
-title: 'Rabble and Blaine &#8211; Phone Communities and Activism Showcase  (O&#8217;reilly Emerging Telephony)'
+title: 'Rabble and Blaine – Phone Communities and Activism Showcase  (Oreilly Emerging Telephony)'
 date: '2005-11-17T19:52:00+00:00'
 author: Kellan
 layout: post

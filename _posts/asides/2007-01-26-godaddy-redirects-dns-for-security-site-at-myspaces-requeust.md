@@ -1,6 +1,6 @@
 ---
 id: 3566
-title: 'GoDaddy redirects DNS for security site at MySpace&#8217;s requeust'
+title: 'GoDaddy redirects DNS for security site at MySpaces requeust'
 date: '2007-01-26T10:07:54+00:00'
 author: Kellan
 layout: post

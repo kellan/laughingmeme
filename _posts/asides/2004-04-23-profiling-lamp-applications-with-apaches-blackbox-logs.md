@@ -1,6 +1,6 @@
 ---
 id: 2225
-title: 'Profiling LAMP Applications with Apache&#8217;s Blackbox Logs'
+title: 'Profiling LAMP Applications with Apaches Blackbox Logs'
 date: '2004-04-23T14:08:16+00:00'
 author: Kellan
 layout: post

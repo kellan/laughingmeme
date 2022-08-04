@@ -1,6 +1,6 @@
 ---
 id: 84
-title: 'Emergence &#038; Jacobs'
+title: 'Emergence & Jacobs'
 date: '2002-07-23T10:39:00+00:00'
 author: Kellan
 layout: post

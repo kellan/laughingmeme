@@ -1,6 +1,6 @@
 ---
 id: 620
-title: 'Seattle&#8217;s Free Wireless Coffee Shops: the Wiki'
+title: 'Seattles Free Wireless Coffee Shops: the Wiki'
 date: '2003-10-06T19:10:33+00:00'
 author: Kellan
 layout: post

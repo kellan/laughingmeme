@@ -1,6 +1,6 @@
 ---
 id: 2386
-title: 'Jesus Christ, who wrote this song? The WTO? It&#8217;s like a primer on consumerism.'
+title: 'Jesus Christ, who wrote this song? The WTO? Its like a primer on consumerism.'
 date: '2004-07-14T13:21:33+00:00'
 author: Kellan
 layout: post

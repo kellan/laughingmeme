@@ -1,6 +1,6 @@
 ---
 id: 1071
-title: 'Boston Ruby Tonight at Tosci&#8217;s'
+title: 'Boston Ruby Tonight at Toscis'
 date: '2005-04-14T06:38:00+00:00'
 author: Kellan
 layout: post

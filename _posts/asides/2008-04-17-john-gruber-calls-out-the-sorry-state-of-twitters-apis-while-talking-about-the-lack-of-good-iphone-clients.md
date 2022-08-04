@@ -1,6 +1,6 @@
 ---
 id: 3803
-title: 'John Gruber calls out the sorry state of Twitter&#8217;s APIs (while talking about the lack of good iPhone clients)'
+title: 'John Gruber calls out the sorry state of Twitters APIs (while talking about the lack of good iPhone clients)'
 date: '2008-04-17T10:20:46+00:00'
 author: Kellan
 layout: post

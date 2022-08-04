@@ -1,6 +1,6 @@
 ---
 id: 2432
-title: 'lattice&#8217;s liminal existence'
+title: 'lattices liminal existence'
 date: '2004-08-03T14:26:46+00:00'
 author: Kellan
 layout: post

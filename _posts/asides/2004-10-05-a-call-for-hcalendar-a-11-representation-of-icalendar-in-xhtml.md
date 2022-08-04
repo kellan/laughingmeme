@@ -1,6 +1,6 @@
 ---
 id: 2579
-title: 'a call for hCalendar &#8211; a 1:1 representation of iCalendar in XHTML'
+title: 'a call for hCalendar – a 1:1 representation of iCalendar in XHTML'
 date: '2004-10-05T15:40:33+00:00'
 author: Kellan
 layout: post

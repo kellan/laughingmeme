@@ -1,6 +1,6 @@
 ---
 id: 1382
-title: 'Rabble&#8217;s Peru photos'
+title: 'Rabbles Peru photos'
 date: '2003-04-25T14:56:34+00:00'
 author: Kellan
 layout: post

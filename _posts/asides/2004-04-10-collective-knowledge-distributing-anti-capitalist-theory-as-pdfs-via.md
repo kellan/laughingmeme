@@ -1,6 +1,6 @@
 ---
 id: 2199
-title: 'Collective Knowledge &#8211; distributing anti-capitalist theory as PDFs</a> (<a href="http://anarchogeek.com">via'
+title: 'Collective Knowledge – distributing anti-capitalist theory as PDFs</a> (<a href="http://anarchogeek.com">via'
 date: '2004-04-10T18:52:03+00:00'
 author: Kellan
 layout: post

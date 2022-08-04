@@ -1,6 +1,6 @@
 ---
 id: 1832
-title: 'Gore&#8217;s influence on the Internet'
+title: 'Gores influence on the Internet'
 date: '2003-11-07T21:40:34+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3147
-title: 'Session &#8220;Flash&#8221; in PHP'
+title: 'Session "Flash" in PHP'
 date: '2005-12-07T23:03:00+00:00'
 author: Kellan
 layout: post

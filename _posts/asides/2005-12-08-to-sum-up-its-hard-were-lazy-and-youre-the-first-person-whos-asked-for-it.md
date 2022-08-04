@@ -1,6 +1,6 @@
 ---
 id: 3148
-title: '&#8220;To sum up: its hard, we&#8217;re lazy, and you&#8217;re the first person who&#8217;s asked for it&#8221;'
+title: '"To sum up: its hard, were lazy, and youre the first person whos asked for it"'
 date: '2005-12-08T12:29:00+00:00'
 author: Kellan
 layout: post

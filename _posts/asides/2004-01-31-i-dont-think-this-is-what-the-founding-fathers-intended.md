@@ -1,6 +1,6 @@
 ---
 id: 2045
-title: '&#8220;I don&#8217;t think this is what the Founding Fathers intended.&#8221;'
+title: '"I dont think this is what the Founding Fathers intended."'
 date: '2004-01-31T23:15:02+00:00'
 author: Kellan
 layout: post

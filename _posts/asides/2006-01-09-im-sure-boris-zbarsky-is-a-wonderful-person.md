@@ -1,6 +1,6 @@
 ---
 id: 3182
-title: 'I&#8217;m sure Boris Zbarsky is a wonderful person'
+title: 'Im sure Boris Zbarsky is a wonderful person'
 date: '2006-01-09T12:25:00+00:00'
 author: Kellan
 layout: post

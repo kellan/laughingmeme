@@ -1,6 +1,6 @@
 ---
 id: 2405
-title: 'Now available &#8220;The Spam Letters&#8221; by Jonathan Land'
+title: 'Now available "The Spam Letters" by Jonathan Land'
 date: '2004-07-21T17:36:11+00:00'
 author: Kellan
 layout: post

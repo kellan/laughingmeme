@@ -1,6 +1,6 @@
 ---
 id: 530
-title: 'Apple &#038; Music'
+title: 'Apple & Music'
 date: '2003-07-27T18:15:04+00:00'
 author: Kellan
 layout: post

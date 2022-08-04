@@ -1,6 +1,6 @@
 ---
 id: 3412
-title: 'I want a Cork&#8217;d, but for cheese'
+title: 'I want a Corkd, but for cheese'
 date: '2006-07-30T13:37:00+00:00'
 author: Kellan
 layout: post

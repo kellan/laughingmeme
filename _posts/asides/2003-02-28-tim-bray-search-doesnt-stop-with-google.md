@@ -1,6 +1,6 @@
 ---
 id: 1263
-title: 'Tim Bray:  Search doesn&#8217;t stop with Google'
+title: 'Tim Bray:  Search doesnt stop with Google'
 date: '2003-02-28T11:17:16+00:00'
 author: Kellan
 layout: post

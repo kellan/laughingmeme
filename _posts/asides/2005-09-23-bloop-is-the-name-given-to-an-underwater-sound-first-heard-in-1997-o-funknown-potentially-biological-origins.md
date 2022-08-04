@@ -1,6 +1,6 @@
 ---
 id: 3030
-title: '&#8220;Bloop&#8221; is the name given to an underwater sound, first heard in 1997, of unknown, potentially biological, origins'
+title: '"Bloop" is the name given to an underwater sound, first heard in 1997, of unknown, potentially biological, origins'
 date: '2005-09-23T16:38:41+00:00'
 author: Kellan
 layout: post

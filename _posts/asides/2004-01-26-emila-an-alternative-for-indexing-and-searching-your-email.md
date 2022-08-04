@@ -1,6 +1,6 @@
 ---
 id: 2034
-title: 'emila &#8211; an alternative for indexing and searching your email'
+title: 'emila – an alternative for indexing and searching your email'
 date: '2004-01-26T12:48:50+00:00'
 author: Kellan
 layout: post

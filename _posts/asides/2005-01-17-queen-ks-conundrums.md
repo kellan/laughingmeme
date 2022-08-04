@@ -1,6 +1,6 @@
 ---
 id: 2779
-title: 'Queen K&#8217;s Conundrums'
+title: 'Queen Ks Conundrums'
 date: '2005-01-17T18:44:09+00:00'
 author: Kellan
 layout: post

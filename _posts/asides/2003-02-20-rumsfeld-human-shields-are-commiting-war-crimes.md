@@ -1,6 +1,6 @@
 ---
 id: 1231
-title: 'Rumsfeld: &#8220;Human shields&#8221; are commiting war crimes'
+title: 'Rumsfeld: "Human shields" are commiting war crimes'
 date: '2003-02-20T09:34:01+00:00'
 author: Kellan
 layout: post

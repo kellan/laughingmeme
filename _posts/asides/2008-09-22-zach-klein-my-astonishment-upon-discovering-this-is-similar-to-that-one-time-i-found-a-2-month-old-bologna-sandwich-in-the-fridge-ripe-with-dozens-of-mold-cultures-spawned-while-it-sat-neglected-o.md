@@ -1,6 +1,6 @@
 ---
 id: 4026
-title: 'Zach Klein: &#8220;My astonishment upon discovering this is similar to that one time I found a 2-month old bologna sandwich in the fridge ripe with dozens of mold cultures, spawned while it sat neglected on the dark, bottom shelf.&#8221;'
+title: 'Zach Klein: "My astonishment upon discovering this is similar to that one time I found a 2-month old bologna sandwich in the fridge ripe with dozens of mold cultures, spawned while it sat neglected on the dark, bottom shelf."'
 date: '2008-09-22T13:02:50+00:00'
 author: Kellan
 layout: post

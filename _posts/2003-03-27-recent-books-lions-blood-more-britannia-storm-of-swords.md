@@ -1,6 +1,6 @@
 ---
 id: 378
-title: 'Recent Books:  Lion&#8217;s Blood, More Britannia, Storm of Swords'
+title: 'Recent Books:  Lions Blood, More Britannia, Storm of Swords'
 date: '2003-03-27T18:59:14+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3487
-title: 'I&#8217;m a Puppeteer&#8230;: the yahoo event'
+title: 'Im a Puppeteer...: the yahoo event'
 date: '2006-10-02T14:00:00+00:00'
 author: Kellan
 layout: post

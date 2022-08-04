@@ -1,6 +1,6 @@
 ---
 id: 141
-title: 'Patriot&#8217;s Day'
+title: 'Patriots Day'
 date: '2002-09-09T10:07:48+00:00'
 author: Kellan
 layout: post

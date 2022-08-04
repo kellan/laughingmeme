@@ -1,6 +1,6 @@
 ---
 id: 1137
-title: 'Oops&#8230; GMail Broken'
+title: 'Oops... GMail Broken'
 date: '2005-09-23T11:35:00+00:00'
 author: Kellan
 layout: post

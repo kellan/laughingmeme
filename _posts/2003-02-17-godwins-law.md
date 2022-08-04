@@ -1,6 +1,6 @@
 ---
 id: 320
-title: 'Godwin&#8217;s Law'
+title: 'Godwins Law'
 date: '2003-02-17T13:44:01+00:00'
 author: Kellan
 layout: post

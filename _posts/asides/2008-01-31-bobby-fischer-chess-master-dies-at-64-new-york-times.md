@@ -1,6 +1,6 @@
 ---
 id: 3766
-title: 'Bobby Fischer, Chess Master, Dies at 64 &#8211; New York Times'
+title: 'Bobby Fischer, Chess Master, Dies at 64 – New York Times'
 date: '2008-01-31T08:07:11+00:00'
 author: Kellan
 layout: post

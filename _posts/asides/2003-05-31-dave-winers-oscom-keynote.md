@@ -1,6 +1,6 @@
 ---
 id: 1487
-title: 'Dave Winer&#8217;s OSCOM Keynote'
+title: 'Dave Winers OSCOM Keynote'
 date: '2003-05-31T10:52:10+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2953
-title: 'Using MagpieRSS  and Feedburner &#8220;Feed Awareness API&#8221;'
+title: 'Using MagpieRSS  and Feedburner "Feed Awareness API"'
 date: '2005-06-17T20:34:24+00:00'
 author: Kellan
 layout: post

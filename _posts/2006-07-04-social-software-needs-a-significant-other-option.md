@@ -1,6 +1,6 @@
 ---
 id: 3397
-title: 'Social Software Needs a &#8220;Significant Other&#8221; Option'
+title: 'Social Software Needs a "Significant Other" Option'
 date: '2006-07-04T19:52:00+00:00'
 author: Kellan
 layout: post

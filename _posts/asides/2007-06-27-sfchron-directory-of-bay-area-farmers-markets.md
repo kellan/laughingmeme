@@ -1,6 +1,6 @@
 ---
 id: 3669
-title: 'SFChron: Directory of Bay Area farmers&#8217; markets'
+title: 'SFChron: Directory of Bay Area farmers markets'
 date: '2007-06-27T10:13:43+00:00'
 author: Kellan
 layout: post

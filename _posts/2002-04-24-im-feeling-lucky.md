@@ -1,6 +1,6 @@
 ---
 id: 10
-title: 'I&#8217;m feeling Lucky'
+title: 'Im feeling Lucky'
 date: '2002-04-24T14:27:53+00:00'
 author: Kellan
 layout: post

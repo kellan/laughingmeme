@@ -1,6 +1,6 @@
 ---
 id: 2005
-title: '&#8220;The press is full of dumbasses that are more salesman than factfinder.&#8221;'
+title: '"The press is full of dumbasses that are more salesman than factfinder."'
 date: '2004-01-15T17:44:35+00:00'
 author: Kellan
 layout: post

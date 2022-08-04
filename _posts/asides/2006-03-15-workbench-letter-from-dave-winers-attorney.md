@@ -1,6 +1,6 @@
 ---
 id: 3293
-title: 'Workbench: Letter from Dave Winer&#8217;s Attorney'
+title: 'Workbench: Letter from Dave Winers Attorney'
 date: '2006-03-15T18:01:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1661
-title: 'Postel&#8217;s Law Has No Exceptions'
+title: 'Postels Law Has No Exceptions'
 date: '2003-08-19T01:28:57+00:00'
 author: Kellan
 layout: post

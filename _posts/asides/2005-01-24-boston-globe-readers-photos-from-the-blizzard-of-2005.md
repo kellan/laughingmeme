@@ -1,6 +1,6 @@
 ---
 id: 2785
-title: 'Boston Globe readers&#8217; photos from the blizzard of 2005'
+title: 'Boston Globe readers photos from the blizzard of 2005'
 date: '2005-01-24T19:08:03+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 66
-title: 'XML Books: Perl &#038; PHP'
+title: 'XML Books: Perl & PHP'
 date: '2002-06-23T12:15:41+00:00'
 author: Kellan
 layout: post

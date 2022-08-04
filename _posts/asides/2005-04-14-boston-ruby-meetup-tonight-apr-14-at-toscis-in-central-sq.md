@@ -1,6 +1,6 @@
 ---
 id: 2911
-title: 'Boston Ruby Meetup Tonight (Apr 14) at Tosci&#8217;s in Central Sq.'
+title: 'Boston Ruby Meetup Tonight (Apr 14) at Toscis in Central Sq.'
 date: '2005-04-14T10:56:26+00:00'
 author: Kellan
 layout: post

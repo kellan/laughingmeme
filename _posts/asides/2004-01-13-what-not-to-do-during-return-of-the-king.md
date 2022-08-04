@@ -1,6 +1,6 @@
 ---
 id: 2001
-title: 'What not to do during &#8220;Return of the King&#8221;'
+title: 'What not to do during "Return of the King"'
 date: '2004-01-13T19:22:23+00:00'
 author: Kellan
 layout: post

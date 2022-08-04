@@ -1,6 +1,6 @@
 ---
 id: 1746
-title: 'Dovecot &#8211; shiny new IMAP server'
+title: 'Dovecot – shiny new IMAP server'
 date: '2003-09-26T15:33:45+00:00'
 author: Kellan
 layout: post

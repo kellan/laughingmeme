@@ -1,6 +1,6 @@
 ---
 id: 3621
-title: 'No matter how you might feel about Mark&#8217;s &#8220;translation&#8221;'
+title: 'No matter how you might feel about Marks "translation"'
 date: '2007-04-16T18:55:22+00:00'
 author: Kellan
 layout: post

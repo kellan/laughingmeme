@@ -1,6 +1,6 @@
 ---
 id: 2602
-title: '&#8220;this is why liberals suck worse than conservatives. In their hamfisted attempts to do good, they take all of the fun out of out liberation.&#8221;'
+title: '"this is why liberals suck worse than conservatives. In their hamfisted attempts to do good, they take all of the fun out of out liberation."'
 date: '2004-10-28T15:54:00+00:00'
 author: Kellan
 layout: post

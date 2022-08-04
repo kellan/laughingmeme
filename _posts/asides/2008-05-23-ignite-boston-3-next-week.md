@@ -1,6 +1,6 @@
 ---
 id: 3834
-title: 'Ignite Boston 3 &#8211; Next week'
+title: 'Ignite Boston 3 – Next week'
 date: '2008-05-23T11:16:29+00:00'
 author: Kellan
 layout: post

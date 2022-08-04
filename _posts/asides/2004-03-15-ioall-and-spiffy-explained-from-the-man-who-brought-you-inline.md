@@ -1,6 +1,6 @@
 ---
 id: 2137
-title: 'IO::All and Spiffy &#8220;explained&#8221;.  From the man who brought you Inline::*'
+title: 'IO::All and Spiffy "explained".  From the man who brought you Inline::*'
 date: '2004-03-15T21:03:17+00:00'
 author: Kellan
 layout: post

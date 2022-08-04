@@ -1,6 +1,6 @@
 ---
 id: 2787
-title: 'What does &#8220;pace&#8221; *mean*, anyway?'
+title: 'What does "pace" *mean*, anyway?'
 date: '2005-01-25T20:46:25+00:00'
 author: Kellan
 layout: post

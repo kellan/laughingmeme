@@ -1,6 +1,6 @@
 ---
 id: 2000
-title: '&#8230;first just learn these technologies.'
+title: '...first just learn these technologies.'
 date: '2004-01-13T18:12:51+00:00'
 author: Kellan
 layout: post

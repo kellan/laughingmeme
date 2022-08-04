@@ -1,6 +1,6 @@
 ---
 id: 3632
-title: 'Today&#8217;s Train Ride'
+title: 'Todays Train Ride'
 date: '2007-04-29T18:51:35+00:00'
 author: Kellan
 layout: post

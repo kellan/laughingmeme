@@ -1,6 +1,6 @@
 ---
 id: 3327
-title: 'man.splitbrain.org &#8211; web interface to 45k+ Unix man pages'
+title: 'man.splitbrain.org – web interface to 45k+ Unix man pages'
 date: '2006-04-17T10:00:00+00:00'
 author: Kellan
 layout: post

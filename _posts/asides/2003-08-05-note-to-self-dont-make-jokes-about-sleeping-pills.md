@@ -1,6 +1,6 @@
 ---
 id: 1636
-title: 'Note to self:  don&#8217;t make jokes about sleeping pills'
+title: 'Note to self:  dont make jokes about sleeping pills'
 date: '2003-08-05T00:54:36+00:00'
 author: Kellan
 layout: post

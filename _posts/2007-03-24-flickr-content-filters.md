@@ -1,6 +1,6 @@
 ---
 id: 3602
-title: 'Flickr Content &#8220;Filters&#8221;'
+title: 'Flickr Content "Filters"'
 date: '2007-03-24T20:01:19+00:00'
 author: Kellan
 layout: post

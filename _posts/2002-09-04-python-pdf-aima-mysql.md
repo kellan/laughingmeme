@@ -1,6 +1,6 @@
 ---
 id: 135
-title: 'Python PDF, AIMA, &#038; MySQL'
+title: 'Python PDF, AIMA, & MySQL'
 date: '2002-09-04T08:24:58+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3356
-title: 'Bush: &#8220;The best moment of my presidency was catching a perch on my lake&#8221;'
+title: 'Bush: "The best moment of my presidency was catching a perch on my lake"'
 date: '2006-05-10T09:46:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3036
-title: 'Evan and Gaba&#8217;s van had a bad morning.'
+title: 'Evan and Gabas van had a bad morning.'
 date: '2005-09-27T14:08:00+00:00'
 author: Kellan
 layout: post

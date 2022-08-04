@@ -1,6 +1,6 @@
 ---
 id: 2632
-title: 'Pod coffee and  &#8220;Trouble with Tethering&#8221;'
+title: 'Pod coffee and  "Trouble with Tethering"'
 date: '2004-11-14T13:19:14+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1007
-title: 'Tagging isn&#8217;t Classifying, And Other Uses of Tags'
+title: 'Tagging isnt Classifying, And Other Uses of Tags'
 date: '2005-01-20T19:28:08+00:00'
 author: Kellan
 layout: post

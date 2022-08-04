@@ -1,6 +1,6 @@
 ---
 id: 3438
-title: 'the show with zefrank &#8211; on terrorism'
+title: 'the show with zefrank – on terrorism'
 date: '2006-08-12T00:15:00+00:00'
 author: Kellan
 layout: post

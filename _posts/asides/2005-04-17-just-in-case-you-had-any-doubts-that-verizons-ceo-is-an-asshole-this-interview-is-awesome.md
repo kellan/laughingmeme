@@ -1,6 +1,6 @@
 ---
 id: 2916
-title: 'Just in case you had any doubts that Verizon&#8217;s CEO is an asshole, this interview is awesome'
+title: 'Just in case you had any doubts that Verizons CEO is an asshole, this interview is awesome'
 date: '2005-04-17T11:56:57+00:00'
 author: Kellan
 layout: post

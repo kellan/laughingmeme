@@ -1,6 +1,6 @@
 ---
 id: 3057
-title: '&#8230; you can almost see the American Flag unfurling in the background as  Mal finishes his speech'
+title: '... you can almost see the American Flag unfurling in the background as  Mal finishes his speech'
 date: '2005-10-26T00:52:00+00:00'
 author: Kellan
 layout: post

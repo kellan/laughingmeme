@@ -1,6 +1,6 @@
 ---
 id: 767
-title: 'Dennis Kucinich on the American &#8220;health care&#8221; system.'
+title: 'Dennis Kucinich on the American "health care" system.'
 date: '2004-03-16T11:03:00+00:00'
 author: Kellan
 layout: post

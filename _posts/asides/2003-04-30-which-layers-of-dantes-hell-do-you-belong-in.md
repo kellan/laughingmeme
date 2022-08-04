@@ -1,6 +1,6 @@
 ---
 id: 1409
-title: 'Which layers of Dante&#8217;s Hell do you belong in?'
+title: 'Which layers of Dantes Hell do you belong in?'
 date: '2003-04-30T18:55:21+00:00'
 author: Kellan
 layout: post

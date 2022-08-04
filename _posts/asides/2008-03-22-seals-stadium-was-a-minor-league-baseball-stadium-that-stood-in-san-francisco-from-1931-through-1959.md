@@ -1,6 +1,6 @@
 ---
 id: 3789
-title: '&#8220;Seals Stadium was a minor league baseball stadium that stood in San Francisco from 1931 through 1959&#8230;&#8221;'
+title: '"Seals Stadium was a minor league baseball stadium that stood in San Francisco from 1931 through 1959..."'
 date: '2008-03-22T09:23:16+00:00'
 author: Kellan
 layout: post

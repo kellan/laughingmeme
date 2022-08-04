@@ -1,6 +1,6 @@
 ---
 id: 3453
-title: 'Picture Framer &#8211; Monkey Business Labs'
+title: 'Picture Framer – Monkey Business Labs'
 date: '2006-08-22T18:03:00+00:00'
 author: Kellan
 layout: post

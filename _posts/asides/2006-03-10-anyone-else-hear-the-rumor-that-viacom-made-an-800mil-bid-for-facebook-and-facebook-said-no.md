@@ -1,6 +1,6 @@
 ---
 id: 3287
-title: 'Anyone else hear the rumor that Viacom made an $800mil bid for Facebook, and Facebook said &#8216;No&#8217;?'
+title: 'Anyone else hear the rumor that Viacom made an $800mil bid for Facebook, and Facebook said No?'
 date: '2006-03-10T11:38:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 988
-title: 'When the &#8216;Other&#8217; is a Technology'
+title: 'When the Other is a Technology'
 date: '2005-01-03T09:16:45+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3467
-title: 'Loud Thinking: system( &#8220;/usr/local/bin/convert #{escape(temp)} -resize 48&#215;48! #{escape(target)}&#8221; )'
+title: 'Loud Thinking: system( "/usr/local/bin/convert #{escape(temp)} -resize 48&#215;48! #{escape(target)}" )'
 date: '2006-09-12T22:14:00+00:00'
 author: Kellan
 layout: post

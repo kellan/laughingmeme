@@ -1,6 +1,6 @@
 ---
 id: 3315
-title: 'Photojojo &#8211; like Make/Readymade, but just for your camera'
+title: 'Photojojo – like Make/Readymade, but just for your camera'
 date: '2006-04-05T13:31:00+00:00'
 author: Kellan
 layout: post

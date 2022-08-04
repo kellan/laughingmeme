@@ -1,6 +1,6 @@
 ---
 id: 2965
-title: 'MarkP: &#8220;it appears that iTunes uses a real, draconian, namespace-aware XML parser&#8230; &#8220;'
+title: 'MarkP: "it appears that iTunes uses a real, draconian, namespace-aware XML parser... "'
 date: '2005-07-05T18:38:08+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3432
-title: 'Lots of people ask me what working at Flickr is like&#8230;.'
+title: 'Lots of people ask me what working at Flickr is like....'
 date: '2006-08-10T14:25:00+00:00'
 author: Kellan
 layout: post

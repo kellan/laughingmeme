@@ -1,6 +1,6 @@
 ---
 id: 95
-title: 'Green Anarchy &#038; the Unabomber'
+title: 'Green Anarchy & the Unabomber'
 date: '2002-07-29T12:30:22+00:00'
 author: Kellan
 layout: post

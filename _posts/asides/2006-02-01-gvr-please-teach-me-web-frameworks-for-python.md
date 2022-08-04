@@ -1,6 +1,6 @@
 ---
 id: 3232
-title: 'GvR: &#8220;Please Teach me Web Frameworks for Python!&#8221;'
+title: 'GvR: "Please Teach me Web Frameworks for Python!"'
 date: '2006-02-01T09:43:00+00:00'
 author: Kellan
 layout: post

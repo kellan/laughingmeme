@@ -1,6 +1,6 @@
 ---
 id: 3141
-title: '&#8220;it&#8217;s kind of fitting that one of the few startups in silicon valley to immediately go cash positive is a non-profit;&#8221;'
+title: '"its kind of fitting that one of the few startups in silicon valley to immediately go cash positive is a non-profit;"'
 date: '2005-12-05T17:12:00+00:00'
 author: Kellan
 layout: post

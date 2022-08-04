@@ -1,6 +1,6 @@
 ---
 id: 3254
-title: 'O&#8217;Reilly.com redesigns'
+title: 'OReilly.com redesigns'
 date: '2006-02-14T16:29:00+00:00'
 author: Kellan
 layout: post

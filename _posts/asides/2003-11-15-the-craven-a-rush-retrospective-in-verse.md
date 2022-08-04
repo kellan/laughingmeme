@@ -1,6 +1,6 @@
 ---
 id: 1863
-title: 'The Craven &#8211; a Rush retrospective in verse'
+title: 'The Craven – a Rush retrospective in verse'
 date: '2003-11-15T15:07:36+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1954
-title: 'Wright Brothers &#8211; SCO of the early aviation age.'
+title: 'Wright Brothers – SCO of the early aviation age.'
 date: '2003-12-19T14:05:35+00:00'
 author: Kellan
 layout: post

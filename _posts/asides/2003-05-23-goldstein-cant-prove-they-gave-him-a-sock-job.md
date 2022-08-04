@@ -1,6 +1,6 @@
 ---
 id: 1470
-title: 'Goldstein &#8220;can&#8217;t prove they gave him a sock job&#8221;'
+title: 'Goldstein "cant prove they gave him a sock job"'
 date: '2003-05-23T13:54:09+00:00'
 author: Kellan
 layout: post

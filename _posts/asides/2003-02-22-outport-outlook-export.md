@@ -1,6 +1,6 @@
 ---
 id: 1243
-title: 'Outport &#8211; Outlook export'
+title: 'Outport – Outlook export'
 date: '2003-02-22T13:11:17+00:00'
 author: Kellan
 layout: post

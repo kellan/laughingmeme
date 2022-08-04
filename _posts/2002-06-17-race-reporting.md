@@ -1,6 +1,6 @@
 ---
 id: 60
-title: 'Race &#038; Reporting'
+title: 'Race & Reporting'
 date: '2002-06-17T06:42:16+00:00'
 author: Kellan
 layout: post

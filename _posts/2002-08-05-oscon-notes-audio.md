@@ -1,6 +1,6 @@
 ---
 id: 109
-title: 'OSCON Notes &#038; Audio'
+title: 'OSCON Notes & Audio'
 date: '2002-08-05T14:28:47+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2948
-title: 'Tonx continues to provide the only coverage worth reading of Victrola&#8217;s wifi free weekends.'
+title: 'Tonx continues to provide the only coverage worth reading of Victrolas wifi free weekends.'
 date: '2005-06-04T18:25:09+00:00'
 author: Kellan
 layout: post

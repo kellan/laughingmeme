@@ -1,6 +1,6 @@
 ---
 id: 2040
-title: 'Tim Bray has the clearest explication of VC termsheets I&#8217;ve ever seen.'
+title: 'Tim Bray has the clearest explication of VC termsheets Ive ever seen.'
 date: '2004-01-30T16:54:29+00:00'
 author: Kellan
 layout: post

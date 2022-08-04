@@ -1,6 +1,6 @@
 ---
 id: 1653
-title: 'divmod: a &#8220;conversation server&#8221;, a python port of lucene, a bayesian classifier, and a &#8220;small and fast&#8221; indexer'
+title: 'divmod: a "conversation server", a python port of lucene, a bayesian classifier, and a "small and fast" indexer'
 date: '2003-08-14T11:11:32+00:00'
 author: Kellan
 layout: post

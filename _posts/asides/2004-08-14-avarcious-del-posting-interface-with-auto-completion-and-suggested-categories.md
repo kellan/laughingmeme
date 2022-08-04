@@ -1,6 +1,6 @@
 ---
 id: 2463
-title: 'avarcious &#8211; del posting interface with auto-completion and suggested categories'
+title: 'avarcious – del posting interface with auto-completion and suggested categories'
 date: '2004-08-14T14:29:48+00:00'
 author: Kellan
 layout: post

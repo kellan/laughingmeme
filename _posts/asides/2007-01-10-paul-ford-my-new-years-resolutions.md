@@ -1,6 +1,6 @@
 ---
 id: 3541
-title: 'Paul Ford: My New Year&#8217;s Resolutions'
+title: 'Paul Ford: My New Years Resolutions'
 date: '2007-01-10T23:44:16+00:00'
 author: Kellan
 layout: post

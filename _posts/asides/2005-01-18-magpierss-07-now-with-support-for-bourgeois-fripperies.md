@@ -1,6 +1,6 @@
 ---
 id: 2772
-title: 'MagpieRSS 0.7+ &#8211; now with support for &#8220;bourgeois fripperies&#8221;'
+title: 'MagpieRSS 0.7+ – now with support for "bourgeois fripperies"'
 date: '2005-01-18T19:07:23+00:00'
 author: Kellan
 layout: post

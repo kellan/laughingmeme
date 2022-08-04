@@ -1,6 +1,6 @@
 ---
 id: 2598
-title: '&#8220;sold out their birthright for a mess of portage&#8221;'
+title: '"sold out their birthright for a mess of portage"'
 date: '2004-10-25T00:53:21+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3153
-title: 'I&#8217;ve heard of sharks with briefcases'
+title: 'Ive heard of sharks with briefcases'
 date: '2005-12-10T20:03:00+00:00'
 author: Kellan
 layout: post

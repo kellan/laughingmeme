@@ -1,6 +1,6 @@
 ---
 id: 2631
-title: 'fatwah against &#8220;pod&#8221; coffee'
+title: 'fatwah against "pod" coffee'
 date: '2004-11-14T13:17:38+00:00'
 author: Kellan
 layout: post

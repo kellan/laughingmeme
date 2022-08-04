@@ -1,6 +1,6 @@
 ---
 id: 1337
-title: 'Are Independent Journalists Being &#8216;Executed&#8217; By the Bush Administration?'
+title: 'Are Independent Journalists Being Executed By the Bush Administration?'
 date: '2003-04-01T08:14:24+00:00'
 author: Kellan
 layout: post

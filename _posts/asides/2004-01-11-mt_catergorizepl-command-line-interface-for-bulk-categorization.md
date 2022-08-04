@@ -1,6 +1,6 @@
 ---
 id: 1994
-title: 'mt_catergorize.pl &#8211; command line interface for bulk categorization'
+title: 'mt_catergorize.pl – command line interface for bulk categorization'
 date: '2004-01-11T03:36:40+00:00'
 author: Kellan
 layout: post

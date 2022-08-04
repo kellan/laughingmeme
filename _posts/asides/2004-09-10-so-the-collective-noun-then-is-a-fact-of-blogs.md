@@ -1,6 +1,6 @@
 ---
 id: 2526
-title: '&#8220;So the collective noun, then, is a &#8216;fact&#8217; of blogs.&#8221;'
+title: '"So the collective noun, then, is a fact of blogs."'
 date: '2004-09-10T14:18:02+00:00'
 author: Kellan
 layout: post

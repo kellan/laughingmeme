@@ -1,6 +1,6 @@
 ---
 id: 2439
-title: 'Soekris: &#8220;compact, low-power, low-cost, advanced communication computer&#8221; from Santa Cruz'
+title: 'Soekris: "compact, low-power, low-cost, advanced communication computer" from Santa Cruz'
 date: '2004-08-04T15:20:49+00:00'
 author: Kellan
 layout: post

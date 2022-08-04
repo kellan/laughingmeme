@@ -1,6 +1,6 @@
 ---
 id: 2469
-title: '&#8216;More frigs are bound to occur, resulting in you AddingMoreStuffToTheBaseClass.'
+title: 'More frigs are bound to occur, resulting in you AddingMoreStuffToTheBaseClass.'
 date: '2004-08-17T12:16:43+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 30
-title: 'Poor Sysadmin&#8217;s Guide to Remote Linux Adminstration'
+title: 'Poor Sysadmins Guide to Remote Linux Adminstration'
 date: '2002-05-20T11:13:39+00:00'
 author: Kellan
 layout: post

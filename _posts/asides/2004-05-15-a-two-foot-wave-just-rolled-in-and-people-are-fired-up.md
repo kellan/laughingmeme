@@ -1,6 +1,6 @@
 ---
 id: 2277
-title: '&#8220;A two-foot wave just rolled in and people are fired up.&#8221;'
+title: '"A two-foot wave just rolled in and people are fired up."'
 date: '2004-05-15T18:09:37+00:00'
 author: Kellan
 layout: post

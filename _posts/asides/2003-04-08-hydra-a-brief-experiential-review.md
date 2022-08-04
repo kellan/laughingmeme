@@ -1,6 +1,6 @@
 ---
 id: 1353
-title: 'Hydra &#8211; a brief experiential review&#8230;'
+title: 'Hydra – a brief experiential review...'
 date: '2003-04-08T10:43:50+00:00'
 author: Kellan
 layout: post

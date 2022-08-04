@@ -1,6 +1,6 @@
 ---
 id: 2840
-title: 'If you think Larry Summers&#8217; view on gender are upsetting&#8230;'
+title: 'If you think Larry Summers view on gender are upsetting...'
 date: '2005-02-24T13:03:17+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3079
-title: 'Kevin Burton&#8217;s: Web 2.0 isn&#8217;t a Bubble &#8211; Just an Echo Chamber'
+title: 'Kevin Burtons: Web 2.0 isnt a Bubble – Just an Echo Chamber'
 date: '2005-11-03T12:33:00+00:00'
 author: Kellan
 layout: post

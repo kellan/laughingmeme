@@ -1,6 +1,6 @@
 ---
 id: 842
-title: 'Recycle&#8217;d RSS Items'
+title: 'Recycled RSS Items'
 date: '2004-06-15T09:55:00+00:00'
 author: Kellan
 layout: post

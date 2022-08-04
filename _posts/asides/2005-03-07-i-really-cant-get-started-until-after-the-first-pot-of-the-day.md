@@ -1,6 +1,6 @@
 ---
 id: 2853
-title: 'I really can&#8217;t get started until after the first pot of the day &#8211;'
+title: 'I really cant get started until after the first pot of the day –'
 date: '2005-03-07T17:53:41+00:00'
 author: Kellan
 layout: post

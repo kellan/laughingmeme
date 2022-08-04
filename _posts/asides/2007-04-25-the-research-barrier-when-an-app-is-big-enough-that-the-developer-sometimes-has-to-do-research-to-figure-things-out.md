@@ -1,6 +1,6 @@
 ---
 id: 3628
-title: '&#8220;[the] Research Barrier, when an app is big enough that the developer sometimes has to do research to figure things out.&#8221;'
+title: '"[the] Research Barrier, when an app is big enough that the developer sometimes has to do research to figure things out."'
 date: '2007-04-25T17:33:20+00:00'
 author: Kellan
 layout: post

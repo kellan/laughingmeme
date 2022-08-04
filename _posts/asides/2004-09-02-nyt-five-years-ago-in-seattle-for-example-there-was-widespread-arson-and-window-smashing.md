@@ -1,6 +1,6 @@
 ---
 id: 2505
-title: 'NYT: &#8220;five years ago in Seattle, for example, there was widespread arson and window-smashing&#8221;'
+title: 'NYT: "five years ago in Seattle, for example, there was widespread arson and window-smashing"'
 date: '2004-09-02T21:49:45+00:00'
 author: Kellan
 layout: post

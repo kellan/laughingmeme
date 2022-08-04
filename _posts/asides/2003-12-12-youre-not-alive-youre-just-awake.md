@@ -1,6 +1,6 @@
 ---
 id: 1940
-title: 'You&#8217;re not Alive, You&#8217;re just Awake'
+title: 'Youre not Alive, Youre just Awake'
 date: '2003-12-12T13:43:47+00:00'
 author: Kellan
 layout: post

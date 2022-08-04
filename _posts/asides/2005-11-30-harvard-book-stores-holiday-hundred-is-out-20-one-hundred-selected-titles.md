@@ -1,6 +1,6 @@
 ---
 id: 3128
-title: 'Harvard Book Store&#8217;s Holiday Hundred is out. (20% one hundred selected titles)'
+title: 'Harvard Book Stores Holiday Hundred is out. (20% one hundred selected titles)'
 date: '2005-11-30T16:01:00+00:00'
 author: Kellan
 layout: post

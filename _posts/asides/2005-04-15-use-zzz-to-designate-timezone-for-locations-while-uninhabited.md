@@ -1,6 +1,6 @@
 ---
 id: 2913
-title: 'Use &#8220;zzz&#8221; [to designate timezone] for locations while uninhabited'
+title: 'Use "zzz" [to designate timezone] for locations while uninhabited'
 date: '2005-04-15T10:42:28+00:00'
 author: Kellan
 layout: post

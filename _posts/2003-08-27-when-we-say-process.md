@@ -1,6 +1,6 @@
 ---
 id: 570
-title: 'When we say &#8220;process&#8221;'
+title: 'When we say "process"'
 date: '2003-08-27T11:39:10+00:00'
 author: Kellan
 layout: post

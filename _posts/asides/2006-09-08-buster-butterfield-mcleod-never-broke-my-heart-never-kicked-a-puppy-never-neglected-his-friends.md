@@ -1,6 +1,6 @@
 ---
 id: 3463
-title: 'Buster Butterfield McLeod &#8220;never broke my heart, never kicked a puppy, never neglected his friends&#8221;&#8230;'
+title: 'Buster Butterfield McLeod "never broke my heart, never kicked a puppy, never neglected his friends"...'
 date: '2006-09-08T17:18:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2181
-title: 'Spoon &#8211; Spoon Passed Over Our Network'
+title: 'Spoon – Spoon Passed Over Our Network'
 date: '2004-03-30T19:28:31+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 4814
-title: '&#8220;The internet is too important to outsource &#8220;'
+title: '"The internet is too important to outsource "'
 date: '2011-03-06T16:38:08+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1856
-title: 'Chasing Bush &#8211; Tracking George W. Bush throughout his UK visit'
+title: 'Chasing Bush – Tracking George W. Bush throughout his UK visit'
 date: '2003-11-14T12:50:24+00:00'
 author: Kellan
 layout: post

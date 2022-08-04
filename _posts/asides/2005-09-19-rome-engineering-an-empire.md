@@ -1,6 +1,6 @@
 ---
 id: 3022
-title: 'Rome &#8211; Engineering an Empire'
+title: 'Rome – Engineering an Empire'
 date: '2005-09-19T15:28:21+00:00'
 author: Kellan
 layout: post

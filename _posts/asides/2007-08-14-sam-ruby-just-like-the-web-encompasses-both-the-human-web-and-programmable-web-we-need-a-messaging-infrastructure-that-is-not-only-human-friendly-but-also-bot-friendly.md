@@ -1,6 +1,6 @@
 ---
 id: 3692
-title: 'Sam Ruby: &#8220;just like the web encompasses both the human web and programmable web, we need a messaging infrastructure that is not only human friendly but also bot friendly&#8221;'
+title: 'Sam Ruby: "just like the web encompasses both the human web and programmable web, we need a messaging infrastructure that is not only human friendly but also bot friendly"'
 date: '2007-08-14T18:33:43+00:00'
 author: Kellan
 layout: post

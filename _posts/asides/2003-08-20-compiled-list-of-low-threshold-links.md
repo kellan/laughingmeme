@@ -1,6 +1,6 @@
 ---
 id: 1666
-title: 'compiled list of  &#8220;low threshold links&#8221;'
+title: 'compiled list of  "low threshold links"'
 date: '2003-08-20T23:15:19+00:00'
 author: Kellan
 layout: post

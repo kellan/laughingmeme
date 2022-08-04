@@ -1,6 +1,6 @@
 ---
 id: 3552
-title: 'Inside MySpace: succeeding because they don&#8217;t know no better.'
+title: 'Inside MySpace: succeeding because they dont know no better.'
 date: '2007-01-17T11:30:00+00:00'
 author: Kellan
 layout: post

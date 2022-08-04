@@ -1,6 +1,6 @@
 ---
 id: 2986
-title: 'JavaScript Shell &#8211; an interactive eval environment with access to the current page.'
+title: 'JavaScript Shell – an interactive eval environment with access to the current page.'
 date: '2005-08-18T13:26:04+00:00'
 author: Kellan
 layout: post

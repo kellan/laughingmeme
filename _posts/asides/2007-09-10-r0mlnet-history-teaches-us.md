@@ -1,6 +1,6 @@
 ---
 id: 3702
-title: 'r0ml.net: History teaches us &#8230;'
+title: 'r0ml.net: History teaches us ...'
 date: '2007-09-10T08:19:49+00:00'
 author: Kellan
 layout: post

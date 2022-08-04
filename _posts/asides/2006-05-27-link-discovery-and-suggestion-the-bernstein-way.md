@@ -1,6 +1,6 @@
 ---
 id: 3364
-title: 'Link discovery and suggestion &#8230; the Bernstein way'
+title: 'Link discovery and suggestion ... the Bernstein way'
 date: '2006-05-27T15:36:00+00:00'
 author: Kellan
 layout: post

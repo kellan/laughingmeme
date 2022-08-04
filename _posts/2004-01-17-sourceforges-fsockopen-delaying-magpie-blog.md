@@ -1,6 +1,6 @@
 ---
 id: 709
-title: 'Sourceforge&#8217;s fsockopen() delaying Magpie &#8220;blog&#8221;'
+title: 'Sourceforges fsockopen() delaying Magpie "blog"'
 date: '2004-01-17T22:47:22+00:00'
 author: Kellan
 layout: post

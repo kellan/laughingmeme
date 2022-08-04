@@ -1,6 +1,6 @@
 ---
 id: 3332
-title: 'Brian McCallister: &#8220;So, ruby threads have issues. Multiprocessing, on the other hand, works great.&#8221;'
+title: 'Brian McCallister: "So, ruby threads have issues. Multiprocessing, on the other hand, works great."'
 date: '2006-04-22T15:26:00+00:00'
 author: Kellan
 layout: post

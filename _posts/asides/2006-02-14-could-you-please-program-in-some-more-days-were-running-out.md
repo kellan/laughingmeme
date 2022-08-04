@@ -1,6 +1,6 @@
 ---
 id: 3255
-title: '&#8220;Could you please program in some more days? We&#8217;re running out!&#8221;'
+title: '"Could you please program in some more days? Were running out!"'
 date: '2006-02-14T16:35:00+00:00'
 author: Kellan
 layout: post

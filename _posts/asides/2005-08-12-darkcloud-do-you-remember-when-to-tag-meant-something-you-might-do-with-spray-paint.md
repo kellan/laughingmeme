@@ -1,6 +1,6 @@
 ---
 id: 2979
-title: 'darkcloud: Do you remember when &#8220;to tag&#8221; meant something you might do with spray paint?'
+title: 'darkcloud: Do you remember when "to tag" meant something you might do with spray paint?'
 date: '2005-08-12T16:44:58+00:00'
 author: Kellan
 layout: post

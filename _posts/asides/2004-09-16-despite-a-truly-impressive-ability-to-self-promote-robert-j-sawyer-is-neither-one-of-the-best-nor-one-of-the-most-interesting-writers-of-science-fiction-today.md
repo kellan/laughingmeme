@@ -1,6 +1,6 @@
 ---
 id: 2535
-title: '&#8220;Despite a truly impressive ability to self-promote, Robert J. Sawyer is neither one of the best nor one of the most interesting writers of science fiction today&#8221;'
+title: '"Despite a truly impressive ability to self-promote, Robert J. Sawyer is neither one of the best nor one of the most interesting writers of science fiction today"'
 date: '2004-09-16T22:18:26+00:00'
 author: Kellan
 layout: post

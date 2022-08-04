@@ -1,6 +1,6 @@
 ---
 id: 2662
-title: '&#8220;Modules and namespaces &#8211; from &#8216;dry and uninteresting&#8217; with &#8216;esoteric labels&#8217; to &#8216;really simple&#8217; in just four years.&#8221;'
+title: '"Modules and namespaces – from dry and uninteresting with esoteric labels to really simple in just four years."'
 date: '2004-11-22T13:14:30+00:00'
 author: Kellan
 layout: post

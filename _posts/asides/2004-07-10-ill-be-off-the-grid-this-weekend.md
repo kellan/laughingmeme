@@ -1,6 +1,6 @@
 ---
 id: 2378
-title: 'I&#8217;ll be off the grid this weekend.'
+title: 'Ill be off the grid this weekend.'
 date: '2004-07-10T02:39:17+00:00'
 author: Kellan
 layout: post

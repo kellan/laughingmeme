@@ -1,6 +1,6 @@
 ---
 id: 2817
-title: '&#8220;The photo shown here contains the appropriate color level.&#8221;'
+title: '"The photo shown here contains the appropriate color level."'
 date: '2005-02-13T00:58:43+00:00'
 author: Kellan
 layout: post

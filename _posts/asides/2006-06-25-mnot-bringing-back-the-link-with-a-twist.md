@@ -1,6 +1,6 @@
 ---
 id: 3386
-title: 'mnot: Bringing Back the Link &#8211; With a Twist'
+title: 'mnot: Bringing Back the Link – With a Twist'
 date: '2006-06-25T15:40:00+00:00'
 author: Kellan
 layout: post

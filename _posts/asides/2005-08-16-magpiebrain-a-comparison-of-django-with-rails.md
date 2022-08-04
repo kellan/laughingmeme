@@ -1,6 +1,6 @@
 ---
 id: 2982
-title: 'magpiebrain &#8211; A comparison of Django with Rails'
+title: 'magpiebrain – A comparison of Django with Rails'
 date: '2005-08-16T11:57:41+00:00'
 author: Kellan
 layout: post

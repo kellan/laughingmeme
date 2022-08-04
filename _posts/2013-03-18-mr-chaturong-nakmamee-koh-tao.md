@@ -1,6 +1,6 @@
 ---
 id: 5216
-title: 'Mr Chaturong Nakmamee &#8211; Koh Tao, Thailand'
+title: 'Mr Chaturong Nakmamee – Koh Tao, Thailand'
 date: '2013-03-18T19:38:22+00:00'
 author: Kellan
 layout: post

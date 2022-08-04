@@ -1,6 +1,6 @@
 ---
 id: 2628
-title: 'NYTimes lovely review of &#8216;Polar Express&#8217; and its imagery not usually found in a children&#8217;s movie.'
+title: 'NYTimes lovely review of Polar Express and its imagery not usually found in a childrens movie.'
 date: '2004-11-10T18:34:01+00:00'
 author: Kellan
 layout: post

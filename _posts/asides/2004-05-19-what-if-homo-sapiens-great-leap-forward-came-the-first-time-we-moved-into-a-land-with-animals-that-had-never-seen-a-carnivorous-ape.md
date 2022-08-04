@@ -1,6 +1,6 @@
 ---
 id: 2283
-title: 'What if Homo sapiens&#8217; &#8220;Great Leap Forward&#8221; came the first time we moved into a land with animals that had never seen a carnivorous ape?'
+title: 'What if Homo sapiens "Great Leap Forward" came the first time we moved into a land with animals that had never seen a carnivorous ape?'
 date: '2004-05-19T20:00:12+00:00'
 author: Kellan
 layout: post

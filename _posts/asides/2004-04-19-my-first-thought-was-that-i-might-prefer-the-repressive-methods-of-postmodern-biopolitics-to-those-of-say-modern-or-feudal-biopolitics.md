@@ -1,6 +1,6 @@
 ---
 id: 2220
-title: '&#8220;My first thought was that I might prefer the repressive methods of postmodern biopolitics to those of, say, modern or feudal biopolitics.&#8221;'
+title: '"My first thought was that I might prefer the repressive methods of postmodern biopolitics to those of, say, modern or feudal biopolitics."'
 date: '2004-04-19T18:56:16+00:00'
 author: Kellan
 layout: post

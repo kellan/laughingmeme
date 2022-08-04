@@ -1,6 +1,6 @@
 ---
 id: 2349
-title: 'Roger Ebert has a nice little bit on the myth of objectivity. (as it relates to &#8216;Farenheit 9/11&#8217;)'
+title: 'Roger Ebert has a nice little bit on the myth of objectivity. (as it relates to Farenheit 9/11)'
 date: '2004-06-18T15:00:45+00:00'
 author: Kellan
 layout: post

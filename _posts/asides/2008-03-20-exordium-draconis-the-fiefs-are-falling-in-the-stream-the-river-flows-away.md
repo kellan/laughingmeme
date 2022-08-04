@@ -1,6 +1,6 @@
 ---
 id: 3788
-title: 'Exordium Draconis &#8211; The fiefs are falling in the stream, the River flows away'
+title: 'Exordium Draconis – The fiefs are falling in the stream, the River flows away'
 date: '2008-03-20T15:28:13+00:00'
 author: Kellan
 layout: post

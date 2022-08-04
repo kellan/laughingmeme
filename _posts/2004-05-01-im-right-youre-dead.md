@@ -1,6 +1,6 @@
 ---
 id: 809
-title: 'I&#8217;m Right, You&#8217;re Dead'
+title: 'Im Right, Youre Dead'
 date: '2004-05-01T00:42:00+00:00'
 author: Kellan
 layout: post

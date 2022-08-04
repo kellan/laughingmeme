@@ -1,6 +1,6 @@
 ---
 id: 3684
-title: 'blackbeltjones: &#8220;Continuous-Partial-Apology&#8221;'
+title: 'blackbeltjones: "Continuous-Partial-Apology"'
 date: '2007-07-28T11:28:56+00:00'
 author: Kellan
 layout: post

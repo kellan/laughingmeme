@@ -1,6 +1,6 @@
 ---
 id: 3190
-title: 'Boing Boing: Current TV&#8217;s online storytelling guide launches (with Xeni)'
+title: 'Boing Boing: Current TVs online storytelling guide launches (with Xeni)'
 date: '2006-01-17T09:51:00+00:00'
 author: Kellan
 layout: post

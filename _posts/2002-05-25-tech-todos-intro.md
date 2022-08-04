@@ -1,6 +1,6 @@
 ---
 id: 41
-title: 'Tech Todos &#8211; Intro'
+title: 'Tech Todos – Intro'
 date: '2002-05-25T15:30:51+00:00'
 author: Kellan
 layout: post

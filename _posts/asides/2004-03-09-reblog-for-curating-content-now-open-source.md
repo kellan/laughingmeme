@@ -1,6 +1,6 @@
 ---
 id: 2121
-title: 'reBlog for &#8220;curating content&#8221; now open source.'
+title: 'reBlog for "curating content" now open source.'
 date: '2004-03-09T19:17:03+00:00'
 author: Kellan
 layout: post

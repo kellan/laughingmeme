@@ -1,6 +1,6 @@
 ---
 id: 37
-title: 'Tech Todos &#8211; IMC Filters Project'
+title: 'Tech Todos – IMC Filters Project'
 date: '2002-05-25T15:15:22+00:00'
 author: Kellan
 layout: post

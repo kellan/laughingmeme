@@ -1,6 +1,6 @@
 ---
 id: 2085
-title: 'Rollup &#8211; a hosted community aggregator.'
+title: 'Rollup – a hosted community aggregator.'
 date: '2004-02-19T21:01:50+00:00'
 author: Kellan
 layout: post

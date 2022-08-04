@@ -1,6 +1,6 @@
 ---
 id: 131
-title: 'Bush won&#8217;t rise to Earth Summit Challenge'
+title: 'Bush wont rise to Earth Summit Challenge'
 date: '2002-08-21T08:56:12+00:00'
 author: Kellan
 layout: post

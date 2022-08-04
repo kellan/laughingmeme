@@ -1,6 +1,6 @@
 ---
 id: 1790
-title: 'It seems voting machines aren&#8217;t the only democratic devices in danger of failing.'
+title: 'It seems voting machines arent the only democratic devices in danger of failing.'
 date: '2003-10-17T01:44:41+00:00'
 author: Kellan
 layout: post

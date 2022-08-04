@@ -1,6 +1,6 @@
 ---
 id: 3188
-title: '&#8220;Photocasting&#8221;'
+title: '"Photocasting"'
 date: '2006-01-11T23:36:00+00:00'
 author: Kellan
 layout: post

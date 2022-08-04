@@ -1,6 +1,6 @@
 ---
 id: 2172
-title: 'Isn&#8217;t &#8220;A guy tried to smuggle plutonium from Tajikistan into Afghanistan&#8221; just a fancy way of saying &#8220;Live for the moment?&#8221;'
+title: 'Isnt "A guy tried to smuggle plutonium from Tajikistan into Afghanistan" just a fancy way of saying "Live for the moment?"'
 date: '2004-03-26T11:31:07+00:00'
 author: Kellan
 layout: post

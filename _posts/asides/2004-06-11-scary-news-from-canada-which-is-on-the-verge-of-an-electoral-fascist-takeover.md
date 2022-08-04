@@ -1,6 +1,6 @@
 ---
 id: 2323
-title: '&#8220;Scary news from Canada, which is on the verge of an electoral fascist takeover.&#8221;'
+title: '"Scary news from Canada, which is on the verge of an electoral fascist takeover."'
 date: '2004-06-11T16:34:11+00:00'
 author: Kellan
 layout: post

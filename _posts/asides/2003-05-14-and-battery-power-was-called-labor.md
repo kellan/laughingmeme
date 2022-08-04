@@ -1,6 +1,6 @@
 ---
 id: 1446
-title: '&#8220;&#8230;and battery power was called labor&#8221;'
+title: '"...and battery power was called labor"'
 date: '2003-05-14T21:51:07+00:00'
 author: Kellan
 layout: post

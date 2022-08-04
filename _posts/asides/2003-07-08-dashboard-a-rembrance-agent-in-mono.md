@@ -1,6 +1,6 @@
 ---
 id: 1581
-title: 'dashboard &#8211; a rembrance agent in Mono'
+title: 'dashboard – a rembrance agent in Mono'
 date: '2003-07-08T13:35:38+00:00'
 author: Kellan
 layout: post

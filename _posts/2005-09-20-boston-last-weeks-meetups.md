@@ -1,6 +1,6 @@
 ---
 id: 1134
-title: 'Boston: Last Week&#8217;s Meetups'
+title: 'Boston: Last Weeks Meetups'
 date: '2005-09-20T08:01:20+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3454
-title: 'Amazon EC2:  Still working on the &#8220;elastic&#8221; part?'
+title: 'Amazon EC2:  Still working on the "elastic" part?'
 date: '2006-08-24T12:04:00+00:00'
 author: Kellan
 layout: post

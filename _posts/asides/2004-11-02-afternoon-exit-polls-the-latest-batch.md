@@ -1,6 +1,6 @@
 ---
 id: 2610
-title: 'Afternoon Exit Polls &#8211; The latest batch.'
+title: 'Afternoon Exit Polls – The latest batch.'
 date: '2004-11-02T17:29:24+00:00'
 author: Kellan
 layout: post

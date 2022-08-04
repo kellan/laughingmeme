@@ -1,6 +1,6 @@
 ---
 id: 3687
-title: 'Tim on Etags: &#8220;What you want to do is compute the ETag based on the underlying data resources that actually drive the page creation; the input to that process, not its output.&#8221;'
+title: 'Tim on Etags: "What you want to do is compute the ETag based on the underlying data resources that actually drive the page creation; the input to that process, not its output."'
 date: '2007-08-01T08:41:12+00:00'
 author: Kellan
 layout: post

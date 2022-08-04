@@ -1,6 +1,6 @@
 ---
 id: 1711
-title: 'Erik Benson, Amazon&#8217;s professional fortune-teller'
+title: 'Erik Benson, Amazons professional fortune-teller'
 date: '2003-09-08T20:57:34+00:00'
 author: Kellan
 layout: post

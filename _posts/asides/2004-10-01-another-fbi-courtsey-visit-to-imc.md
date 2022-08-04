@@ -1,6 +1,6 @@
 ---
 id: 2566
-title: 'Another FBI &#8220;courtsey&#8221; visit to IMC'
+title: 'Another FBI "courtsey" visit to IMC'
 date: '2004-10-01T17:42:42+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3475
-title: '&#8220;Bloody stupid useless semicolons.&#8221;'
+title: '"Bloody stupid useless semicolons."'
 date: '2006-09-21T11:07:00+00:00'
 author: Kellan
 layout: post

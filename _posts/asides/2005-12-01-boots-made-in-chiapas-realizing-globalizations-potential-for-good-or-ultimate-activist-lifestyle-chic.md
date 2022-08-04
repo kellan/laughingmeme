@@ -1,6 +1,6 @@
 ---
 id: 3135
-title: 'Boots made in Chiapas: realizing globalization&#8217;s potential for good or ultimate activist lifestyle chic?'
+title: 'Boots made in Chiapas: realizing globalizations potential for good or ultimate activist lifestyle chic?'
 date: '2005-12-01T16:41:00+00:00'
 author: Kellan
 layout: post

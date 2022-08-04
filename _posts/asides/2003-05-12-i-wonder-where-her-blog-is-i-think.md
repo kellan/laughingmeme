@@ -1,6 +1,6 @@
 ---
 id: 1437
-title: '&#8220;I wonder where her blog is?&#8221;, I think.'
+title: '"I wonder where her blog is?", I think.'
 date: '2003-05-12T00:02:32+00:00'
 author: Kellan
 layout: post

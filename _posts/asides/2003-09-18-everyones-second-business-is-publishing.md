@@ -1,6 +1,6 @@
 ---
 id: 1733
-title: 'everyone&#8217;s second business is publishing'
+title: 'everyones second business is publishing'
 date: '2003-09-18T20:30:48+00:00'
 author: Kellan
 layout: post

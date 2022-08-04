@@ -1,6 +1,6 @@
 ---
 id: 2624
-title: 'LiveLines  &#8211; one click Bloglines subscription in Firefox'
+title: 'LiveLines  – one click Bloglines subscription in Firefox'
 date: '2004-11-09T18:30:51+00:00'
 author: Kellan
 layout: post

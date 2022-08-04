@@ -1,6 +1,6 @@
 ---
 id: 3544
-title: 'New San Francisco specialty roaster &#8220;Meth coffee&#8221; seems interesting at first glance'
+title: 'New San Francisco specialty roaster "Meth coffee" seems interesting at first glance'
 date: '2007-01-12T00:55:36+00:00'
 author: Kellan
 layout: post

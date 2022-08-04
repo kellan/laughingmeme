@@ -1,6 +1,6 @@
 ---
 id: 384
-title: 'Matt&#8217;s Script Archive?'
+title: 'Matts Script Archive?'
 date: '2003-04-01T05:04:22+00:00'
 author: Kellan
 layout: post

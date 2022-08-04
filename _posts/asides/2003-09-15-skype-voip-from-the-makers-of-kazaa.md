@@ -1,6 +1,6 @@
 ---
 id: 1722
-title: 'Skype:  VoIP from the maker&#8217;s of Kazaa'
+title: 'Skype:  VoIP from the makers of Kazaa'
 date: '2003-09-15T04:14:19+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3657
-title: 'Making Netflix &#8220;Smarter&#8221;'
+title: 'Making Netflix "Smarter"'
 date: '2007-06-04T00:32:53+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2623
-title: 'kuvert &#8211; automatic encryption for lazy paranoids.'
+title: 'kuvert – automatic encryption for lazy paranoids.'
 date: '2004-11-08T17:45:20+00:00'
 author: Kellan
 layout: post

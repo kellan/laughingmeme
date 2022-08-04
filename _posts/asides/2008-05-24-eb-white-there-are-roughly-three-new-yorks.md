@@ -1,6 +1,6 @@
 ---
 id: 3837
-title: 'E.B. White: &#8220;There are roughly three New Yorks.&#8221;'
+title: 'E.B. White: "There are roughly three New Yorks."'
 date: '2008-05-24T12:08:22+00:00'
 author: Kellan
 layout: post

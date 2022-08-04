@@ -1,6 +1,6 @@
 ---
 id: 2955
-title: 'Monket &#8211; an Ajaxy wall calendar UI'
+title: 'Monket – an Ajaxy wall calendar UI'
 date: '2005-06-21T12:21:11+00:00'
 author: Kellan
 layout: post

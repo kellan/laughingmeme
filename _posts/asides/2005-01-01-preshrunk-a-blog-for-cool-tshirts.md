@@ -1,6 +1,6 @@
 ---
 id: 2736
-title: 'Preshrunk &#8211; a blog for cool tshirts'
+title: 'Preshrunk – a blog for cool tshirts'
 date: '2005-01-01T17:16:40+00:00'
 author: Kellan
 layout: post

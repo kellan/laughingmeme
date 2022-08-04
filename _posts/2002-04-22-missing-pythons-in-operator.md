@@ -1,6 +1,6 @@
 ---
 id: 9
-title: 'Missing Python&#8217;s &#8216;in&#8217; operator'
+title: 'Missing Pythons in operator'
 date: '2002-04-22T20:04:30+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3420
-title: 'Google:  &#8220;one trillion words from public Web pages.&#8221;'
+title: 'Google:  "one trillion words from public Web pages."'
 date: '2006-08-03T20:05:00+00:00'
 author: Kellan
 layout: post

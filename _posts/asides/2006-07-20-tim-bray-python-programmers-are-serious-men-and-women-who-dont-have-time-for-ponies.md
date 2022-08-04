@@ -1,6 +1,6 @@
 ---
 id: 3402
-title: 'Tim Bray: &#8220;Python programmers are Serious Men and Women who Don&#8217;t Have Time For Ponies.&#8221;'
+title: 'Tim Bray: "Python programmers are Serious Men and Women who Dont Have Time For Ponies."'
 date: '2006-07-20T14:28:00+00:00'
 author: Kellan
 layout: post

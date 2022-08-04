@@ -1,6 +1,6 @@
 ---
 id: 129
-title: 'The story so far&#8230;'
+title: 'The story so far...'
 date: '2002-08-21T08:12:27+00:00'
 author: Kellan
 layout: post

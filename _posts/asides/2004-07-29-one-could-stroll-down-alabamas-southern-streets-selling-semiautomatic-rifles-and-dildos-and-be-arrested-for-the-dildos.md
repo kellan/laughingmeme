@@ -1,6 +1,6 @@
 ---
 id: 2416
-title: '&#8220;One could stroll down Alabama&#8217;s southern streets selling semiautomatic rifles and dildos, and be arrested for the dildos.&#8221;'
+title: '"One could stroll down Alabamas southern streets selling semiautomatic rifles and dildos, and be arrested for the dildos."'
 date: '2004-07-29T12:51:48+00:00'
 author: Kellan
 layout: post

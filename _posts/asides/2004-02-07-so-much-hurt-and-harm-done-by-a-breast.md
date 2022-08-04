@@ -1,6 +1,6 @@
 ---
 id: 2069
-title: '&#8220;So much hurt and harm done. By a breast.&#8221;'
+title: '"So much hurt and harm done. By a breast."'
 date: '2004-02-07T02:07:59+00:00'
 author: Kellan
 layout: post

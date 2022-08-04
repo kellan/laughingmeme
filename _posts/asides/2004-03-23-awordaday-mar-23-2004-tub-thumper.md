@@ -1,6 +1,6 @@
 ---
 id: 2164
-title: 'A.Word.A.Day  [Mar 23 2004] &#8211; tub-thumper'
+title: 'A.Word.A.Day  [Mar 23 2004] – tub-thumper'
 date: '2004-03-23T16:18:06+00:00'
 author: Kellan
 layout: post

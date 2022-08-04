@@ -1,6 +1,6 @@
 ---
 id: 2844
-title: 'I find it deeply disturbing that a core member of the IETF Calsch WG doesn&#8217;t know what iCal.app is.'
+title: 'I find it deeply disturbing that a core member of the IETF Calsch WG doesnt know what iCal.app is.'
 date: '2005-02-26T20:29:45+00:00'
 author: Kellan
 layout: post

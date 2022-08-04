@@ -1,6 +1,6 @@
 ---
 id: 4189
-title: 'Is a Firehose of Snowflakes a Nor&#8217;easter?'
+title: 'Is a Firehose of Snowflakes a Noreaster?'
 date: '2009-03-04T11:05:20+00:00'
 author: Kellan
 layout: post

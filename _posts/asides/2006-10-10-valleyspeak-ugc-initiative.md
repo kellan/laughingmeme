@@ -1,6 +1,6 @@
 ---
 id: 3498
-title: 'Valleyspeak: &#8220;ugc initiative&#8221;'
+title: 'Valleyspeak: "ugc initiative"'
 date: '2006-10-10T12:46:00+00:00'
 author: Kellan
 layout: post

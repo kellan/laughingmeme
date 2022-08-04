@@ -1,6 +1,6 @@
 ---
 id: 1461
-title: 'WildList &#8211; viruses seem in the wild'
+title: 'WildList – viruses seem in the wild'
 date: '2003-05-21T13:46:53+00:00'
 author: Kellan
 layout: post

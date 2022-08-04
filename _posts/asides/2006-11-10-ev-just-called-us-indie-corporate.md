@@ -1,6 +1,6 @@
 ---
 id: 3517
-title: 'ev just called us &#8220;indie corporate&#8221;'
+title: 'ev just called us "indie corporate"'
 date: '2006-11-10T17:15:00+00:00'
 author: Kellan
 layout: post

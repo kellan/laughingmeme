@@ -1,6 +1,6 @@
 ---
 id: 3480
-title: 'Dahlia&#8217;s Last.fm identity crisis.'
+title: 'Dahlias Last.fm identity crisis.'
 date: '2006-09-26T17:16:00+00:00'
 author: Kellan
 layout: post

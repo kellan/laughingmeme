@@ -1,6 +1,6 @@
 ---
 id: 1672
-title: 'Tim Bray, about to get swamped with &#8220;use Mutt&#8221; emails'
+title: 'Tim Bray, about to get swamped with "use Mutt" emails'
 date: '2003-08-23T14:40:17+00:00'
 author: Kellan
 layout: post

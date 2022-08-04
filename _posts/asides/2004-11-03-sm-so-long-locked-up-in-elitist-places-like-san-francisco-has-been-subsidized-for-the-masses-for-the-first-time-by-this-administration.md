@@ -1,6 +1,6 @@
 ---
 id: 2612
-title: '&#8220;S&#038;M, so long locked up in elitist places like San Francisco, has been subsidized for the masses for the first time by this administration&#8221;'
+title: '"S&#038;M, so long locked up in elitist places like San Francisco, has been subsidized for the masses for the first time by this administration"'
 date: '2004-11-03T12:32:44+00:00'
 author: Kellan
 layout: post

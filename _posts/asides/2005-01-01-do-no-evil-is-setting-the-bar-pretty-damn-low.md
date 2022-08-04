@@ -1,6 +1,6 @@
 ---
 id: 2735
-title: '&#8220;Do no Evil&#8221; is setting the bar pretty damn low'
+title: '"Do no Evil" is setting the bar pretty damn low'
 date: '2005-01-01T17:12:35+00:00'
 author: Kellan
 layout: post

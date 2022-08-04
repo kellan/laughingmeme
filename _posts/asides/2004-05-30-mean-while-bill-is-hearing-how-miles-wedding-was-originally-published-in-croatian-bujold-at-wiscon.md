@@ -1,6 +1,6 @@
 ---
 id: 2307
-title: 'Mean while Bill is hearing how Miles&#8217; wedding was originally published in Croatian (Bujold at WisCon)'
+title: 'Mean while Bill is hearing how Miles wedding was originally published in Croatian (Bujold at WisCon)'
 date: '2004-05-30T21:06:16+00:00'
 author: Kellan
 layout: post

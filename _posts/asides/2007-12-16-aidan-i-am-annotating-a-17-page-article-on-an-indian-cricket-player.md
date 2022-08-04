@@ -1,6 +1,6 @@
 ---
 id: 3738
-title: 'Aidan:  &#8220;I am annotating a 17 page article on an Indian cricket player.&#8221;'
+title: 'Aidan:  "I am annotating a 17 page article on an Indian cricket player."'
 date: '2007-12-16T08:37:42+00:00'
 author: Kellan
 layout: post

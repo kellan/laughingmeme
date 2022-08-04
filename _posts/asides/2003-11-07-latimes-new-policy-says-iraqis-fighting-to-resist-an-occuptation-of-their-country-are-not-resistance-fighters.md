@@ -1,6 +1,6 @@
 ---
 id: 1831
-title: 'LATimes new policy says Iraqis fighting to resist an occuptation of their country are not &#8220;resistance fighters&#8221;'
+title: 'LATimes new policy says Iraqis fighting to resist an occuptation of their country are not "resistance fighters"'
 date: '2003-11-07T15:44:21+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3305
-title: 'ActiveRDF &#8211; RDF object mapper for Rails'
+title: 'ActiveRDF – RDF object mapper for Rails'
 date: '2006-03-29T13:02:00+00:00'
 author: Kellan
 layout: post

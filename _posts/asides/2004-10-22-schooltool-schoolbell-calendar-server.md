@@ -1,6 +1,6 @@
 ---
 id: 2593
-title: 'SchoolTool &#8211; SchoolBell Calendar Server'
+title: 'SchoolTool – SchoolBell Calendar Server'
 date: '2004-10-22T00:53:58+00:00'
 author: Kellan
 layout: post

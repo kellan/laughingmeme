@@ -1,6 +1,6 @@
 ---
 id: 2744
-title: '&#8220;What happens when you consolidate that much Perl code under one roof?&#8221;'
+title: '"What happens when you consolidate that much Perl code under one roof?"'
 date: '2005-01-05T13:58:49+00:00'
 author: Kellan
 layout: post

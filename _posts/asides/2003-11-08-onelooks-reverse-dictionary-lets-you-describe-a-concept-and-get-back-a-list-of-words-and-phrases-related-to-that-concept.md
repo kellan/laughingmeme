@@ -1,6 +1,6 @@
 ---
 id: 1835
-title: 'OneLook&#8217;s reverse dictionary lets you describe a concept and get back a list of words and phrases related to that concept.'
+title: 'OneLooks reverse dictionary lets you describe a concept and get back a list of words and phrases related to that concept.'
 date: '2003-11-08T19:47:01+00:00'
 author: Kellan
 layout: post

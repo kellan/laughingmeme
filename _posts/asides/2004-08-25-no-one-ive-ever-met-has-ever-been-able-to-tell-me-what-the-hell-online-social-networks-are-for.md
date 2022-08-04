@@ -1,6 +1,6 @@
 ---
 id: 2487
-title: 'No one I&#8217;ve ever met has ever been able to tell me what the hell online social networks are for.'
+title: 'No one Ive ever met has ever been able to tell me what the hell online social networks are for.'
 date: '2004-08-25T11:58:49+00:00'
 author: Kellan
 layout: post

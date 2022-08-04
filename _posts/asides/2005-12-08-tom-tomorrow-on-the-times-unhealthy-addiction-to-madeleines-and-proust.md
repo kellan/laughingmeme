@@ -1,6 +1,6 @@
 ---
 id: 3150
-title: 'Tom Tomorrow on the Times&#8217; unhealthy addiction to madeleines (and Proust)'
+title: 'Tom Tomorrow on the Times unhealthy addiction to madeleines (and Proust)'
 date: '2005-12-08T12:47:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2446
-title: '&#8220;Pillsbury Nazgul&#8221;'
+title: '"Pillsbury Nazgul"'
 date: '2004-08-06T14:28:36+00:00'
 author: Kellan
 layout: post

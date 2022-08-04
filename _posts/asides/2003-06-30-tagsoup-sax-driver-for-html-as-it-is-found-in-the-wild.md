@@ -1,6 +1,6 @@
 ---
 id: 1566
-title: 'TagSoup &#8211; SAX driver for HTML as it is found in the wild'
+title: 'TagSoup – SAX driver for HTML as it is found in the wild'
 date: '2003-06-30T18:42:29+00:00'
 author: Kellan
 layout: post

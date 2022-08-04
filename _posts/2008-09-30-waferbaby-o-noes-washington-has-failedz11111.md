@@ -1,6 +1,6 @@
 ---
 id: 4050
-title: 'waferbaby: &#8220;o noes, washington has failedz11!111 &#8220;'
+title: 'waferbaby: "o noes, washington has failedz11!111 "'
 date: '2008-09-30T05:16:47+00:00'
 author: Kellan
 layout: post

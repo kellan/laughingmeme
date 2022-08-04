@@ -1,6 +1,6 @@
 ---
 id: 2808
-title: 'Currently reading &#8220;Linux Server Security, 2nd Edition&#8221;'
+title: 'Currently reading "Linux Server Security, 2nd Edition"'
 date: '2005-02-08T19:19:09+00:00'
 author: Kellan
 layout: post

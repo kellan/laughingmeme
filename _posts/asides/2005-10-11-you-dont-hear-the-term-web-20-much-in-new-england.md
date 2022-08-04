@@ -1,6 +1,6 @@
 ---
 id: 3046
-title: '&#8221;You don&#8217;t hear the term Web 2.0 much in New England,&#8221;'
+title: '"You dont hear the term Web 2.0 much in New England,"'
 date: '2005-10-11T09:22:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2524
-title: 'if now() &#8211; ifModifiedSince &lt; 15 minutes then return 304'
+title: 'if now() – ifModifiedSince &lt; 15 minutes then return 304'
 date: '2004-09-10T11:56:58+00:00'
 author: Kellan
 layout: post

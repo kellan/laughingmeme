@@ -1,6 +1,6 @@
 ---
 id: 2375
-title: 'Even Firefox has security problems&#8230;. if you run it on Windows.'
+title: 'Even Firefox has security problems.... if you run it on Windows.'
 date: '2004-07-09T04:54:28+00:00'
 author: Kellan
 layout: post

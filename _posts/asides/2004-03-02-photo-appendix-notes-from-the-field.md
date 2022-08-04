@@ -1,6 +1,6 @@
 ---
 id: 2111
-title: 'Photo Appendix &#8211; Notes from the Field'
+title: 'Photo Appendix – Notes from the Field'
 date: '2004-03-02T22:21:17+00:00'
 author: Kellan
 layout: post

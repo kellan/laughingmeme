@@ -1,6 +1,6 @@
 ---
 id: 2846
-title: 'wists &#8211; visual bookmarks'
+title: 'wists – visual bookmarks'
 date: '2005-03-03T10:04:45+00:00'
 author: Kellan
 layout: post

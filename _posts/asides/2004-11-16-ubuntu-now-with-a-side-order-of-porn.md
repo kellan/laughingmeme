@@ -1,6 +1,6 @@
 ---
 id: 2650
-title: '&#8220;Ubuntu, now with a side order of PORN!&#8221;'
+title: '"Ubuntu, now with a side order of PORN!"'
 date: '2004-11-16T17:53:45+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3005
-title: 'Q: What&#8217;s the difference between Iraq and Vietnam?'
+title: 'Q: Whats the difference between Iraq and Vietnam?'
 date: '2005-09-01T19:27:07+00:00'
 author: Kellan
 layout: post

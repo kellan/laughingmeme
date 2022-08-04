@@ -1,6 +1,6 @@
 ---
 id: 2951
-title: '&#8220;That said, am I an Architecture Astronaut when I can&#8217;t get more than 10 minutes into a quick project&#8230;'
+title: '"That said, am I an Architecture Astronaut when I cant get more than 10 minutes into a quick project...'
 date: '2005-06-09T11:07:21+00:00'
 author: Kellan
 layout: post

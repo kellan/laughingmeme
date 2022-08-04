@@ -1,6 +1,6 @@
 ---
 id: 2611
-title: '&#8216;And distantly, from first class, a little patter of cheers.&#8221;'
+title: 'And distantly, from first class, a little patter of cheers."'
 date: '2004-11-03T11:03:27+00:00'
 author: Kellan
 layout: post

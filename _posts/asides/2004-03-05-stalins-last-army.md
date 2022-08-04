@@ -1,6 +1,6 @@
 ---
 id: 2116
-title: 'Stalin&#8217;s last army'
+title: 'Stalins last army'
 date: '2004-03-05T14:57:49+00:00'
 author: Kellan
 layout: post

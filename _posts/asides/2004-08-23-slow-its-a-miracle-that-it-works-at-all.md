@@ -1,6 +1,6 @@
 ---
 id: 2478
-title: 'Slow? It&#8217;s a miracle that it works at all.'
+title: 'Slow? Its a miracle that it works at all.'
 date: '2004-08-23T13:18:54+00:00'
 author: Kellan
 layout: post

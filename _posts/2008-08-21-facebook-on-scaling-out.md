@@ -1,6 +1,6 @@
 ---
 id: 3994
-title: 'Facebook on &#8220;Scaling Out&#8221;'
+title: 'Facebook on "Scaling Out"'
 date: '2008-08-21T08:23:56+00:00'
 author: Kellan
 layout: post

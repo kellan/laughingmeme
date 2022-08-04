@@ -1,6 +1,6 @@
 ---
 id: 4716
-title: 'Paul Graham&#8217;s &#8220;What Happened to Yahoo&#8221; is spot on'
+title: 'Paul Grahams "What Happened to Yahoo" is spot on'
 date: '2010-08-12T04:52:16+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2318
-title: 'Of the world&#8217;s 100 largest economic entities, 51 are now corporations and 49 are countries (2000)'
+title: 'Of the worlds 100 largest economic entities, 51 are now corporations and 49 are countries (2000)'
 date: '2004-06-10T17:14:38+00:00'
 author: Kellan
 layout: post

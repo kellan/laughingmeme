@@ -1,6 +1,6 @@
 ---
 id: 3324
-title: 'Portland has hired &#8216;MetroFI&#8217; to build out a city wide wireless network'
+title: 'Portland has hired MetroFI to build out a city wide wireless network'
 date: '2006-04-13T08:51:00+00:00'
 author: Kellan
 layout: post

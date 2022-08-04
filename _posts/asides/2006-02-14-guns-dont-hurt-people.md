@@ -1,6 +1,6 @@
 ---
 id: 3253
-title: 'guns don&#8217;t hurt people'
+title: 'guns dont hurt people'
 date: '2006-02-14T15:59:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1546
-title: 'Tim summarizes &#8220;Pie&#8221;, the next gen syndication efforts'
+title: 'Tim summarizes "Pie", the next gen syndication efforts'
 date: '2003-06-23T23:25:00+00:00'
 author: Kellan
 layout: post

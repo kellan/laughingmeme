@@ -1,6 +1,6 @@
 ---
 id: 1659
-title: 'America&#8217;s Global Role by George Soros'
+title: 'Americas Global Role by George Soros'
 date: '2003-08-18T23:24:51+00:00'
 author: Kellan
 layout: post

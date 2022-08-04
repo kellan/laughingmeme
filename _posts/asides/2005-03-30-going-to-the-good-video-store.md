@@ -1,6 +1,6 @@
 ---
 id: 2890
-title: '&#8220;Going to the good video store&#8221;'
+title: '"Going to the good video store"'
 date: '2005-03-30T11:52:26+00:00'
 author: Kellan
 layout: post

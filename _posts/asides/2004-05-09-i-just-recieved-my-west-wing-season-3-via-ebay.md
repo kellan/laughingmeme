@@ -1,6 +1,6 @@
 ---
 id: 2265
-title: 'I just recieved my &#8220;West Wing: Season 3&#8221; via eBay.'
+title: 'I just recieved my "West Wing: Season 3" via eBay.'
 date: '2004-05-09T21:36:38+00:00'
 author: Kellan
 layout: post

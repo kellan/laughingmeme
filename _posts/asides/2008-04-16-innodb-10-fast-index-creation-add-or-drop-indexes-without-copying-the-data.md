@@ -1,6 +1,6 @@
 ---
 id: 3801
-title: 'InnoDB 1.0: &#8220;Fast index creation: add or drop indexes without copying the data&#8221;'
+title: 'InnoDB 1.0: "Fast index creation: add or drop indexes without copying the data"'
 date: '2008-04-16T07:57:38+00:00'
 author: Kellan
 layout: post

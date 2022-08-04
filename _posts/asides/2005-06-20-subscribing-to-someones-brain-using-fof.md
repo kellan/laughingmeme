@@ -1,6 +1,6 @@
 ---
 id: 2954
-title: 'Subscribing to someone&#8217;s brain using FoF'
+title: 'Subscribing to someones brain using FoF'
 date: '2005-06-20T15:57:01+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3378
-title: 'Steve&#8217;s Tech Journal: Verizon takes down Broadvoice again (I think)'
+title: 'Steves Tech Journal: Verizon takes down Broadvoice again (I think)'
 date: '2006-06-09T12:32:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2910
-title: '&#8220;President Bush&#8217;s iPod, dubbed iPod One, contains no black artists, no gay artists, no world music, only one woman, no genre less than 25 years old, and no Beatles.&#8221;'
+title: '"President Bushs iPod, dubbed iPod One, contains no black artists, no gay artists, no world music, only one woman, no genre less than 25 years old, and no Beatles."'
 date: '2005-04-13T10:25:39+00:00'
 author: Kellan
 layout: post

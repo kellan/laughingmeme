@@ -1,6 +1,6 @@
 ---
 id: 3195
-title: '&#8220;Everyone wants to go to Baghdad. Real men want to go to Tehran.&#8221;'
+title: '"Everyone wants to go to Baghdad. Real men want to go to Tehran."'
 date: '2006-01-17T10:50:00+00:00'
 author: Kellan
 layout: post

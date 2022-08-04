@@ -1,6 +1,6 @@
 ---
 id: 3166
-title: 'Forthcoming 2nd ed. of &#8220;The Ruby Way&#8221;'
+title: 'Forthcoming 2nd ed. of "The Ruby Way"'
 date: '2005-12-15T21:00:00+00:00'
 author: Kellan
 layout: post

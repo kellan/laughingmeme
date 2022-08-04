@@ -1,6 +1,6 @@
 ---
 id: 2215
-title: 'second-system syndrome <em>n.</em> &#8211; the ballooning complexity that occurs when designing the successor to a relatively small, elegant, and successful system.'
+title: 'second-system syndrome <em>n.</em> – the ballooning complexity that occurs when designing the successor to a relatively small, elegant, and successful system.'
 date: '2004-04-16T23:28:12+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2141
-title: '&#8220;I switched!&#8221; Ex-Microsoft employee falls for OS X'
+title: '"I switched!" Ex-Microsoft employee falls for OS X'
 date: '2004-03-16T13:29:56+00:00'
 author: Kellan
 layout: post

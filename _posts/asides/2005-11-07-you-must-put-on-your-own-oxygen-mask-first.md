@@ -1,6 +1,6 @@
 ---
 id: 3093
-title: '&#8220;you must put on your own oxygen mask first&#8221;'
+title: '"you must put on your own oxygen mask first"'
 date: '2005-11-07T17:58:00+00:00'
 author: Kellan
 layout: post

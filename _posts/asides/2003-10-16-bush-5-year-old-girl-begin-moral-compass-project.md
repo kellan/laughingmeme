@@ -1,6 +1,6 @@
 ---
 id: 1787
-title: 'Bush, 5-Year-Old Girl Begin &#8220;Moral Compass&#8221; Project'
+title: 'Bush, 5-Year-Old Girl Begin "Moral Compass" Project'
 date: '2003-10-16T01:13:33+00:00'
 author: Kellan
 layout: post

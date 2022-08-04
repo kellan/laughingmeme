@@ -1,6 +1,6 @@
 ---
 id: 1618
-title: 'Tom Lehrer&#8217;s elements song, in Flash'
+title: 'Tom Lehrers elements song, in Flash'
 date: '2003-07-28T16:14:35+00:00'
 author: Kellan
 layout: post

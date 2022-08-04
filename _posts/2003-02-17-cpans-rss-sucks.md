@@ -1,6 +1,6 @@
 ---
 id: 321
-title: 'CPAN&#8217;s RSS sucks'
+title: 'CPANs RSS sucks'
 date: '2003-02-17T15:02:00+00:00'
 author: Kellan
 layout: post

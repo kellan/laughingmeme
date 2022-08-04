@@ -1,6 +1,6 @@
 ---
 id: 3510
-title: 'Neil Gaiman: &#8220;When I was four, I was bitten by a radioactive myth.&#8221;'
+title: 'Neil Gaiman: "When I was four, I was bitten by a radioactive myth."'
 date: '2006-10-28T18:10:00+00:00'
 author: Kellan
 layout: post

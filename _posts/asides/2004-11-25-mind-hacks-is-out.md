@@ -1,6 +1,6 @@
 ---
 id: 2666
-title: '&#8220;Mind Hacks&#8221; is out.'
+title: '"Mind Hacks" is out.'
 date: '2004-11-25T02:02:22+00:00'
 author: Kellan
 layout: post

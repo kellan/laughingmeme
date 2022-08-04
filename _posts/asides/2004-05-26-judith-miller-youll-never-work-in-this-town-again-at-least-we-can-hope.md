@@ -1,6 +1,6 @@
 ---
 id: 2300
-title: 'Judith Miller, you&#8217;ll never work in this town again! (at least we can hope)'
+title: 'Judith Miller, youll never work in this town again! (at least we can hope)'
 date: '2004-05-26T13:54:18+00:00'
 author: Kellan
 layout: post

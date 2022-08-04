@@ -1,6 +1,6 @@
 ---
 id: 3018
-title: 'Spun, a web developer&#8217;s notebook'
+title: 'Spun, a web developers notebook'
 date: '2005-09-11T12:29:52+00:00'
 author: Kellan
 layout: post

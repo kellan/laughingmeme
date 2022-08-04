@@ -1,6 +1,6 @@
 ---
 id: 3184
-title: 'Apple &#8211; MacBook Pro'
+title: 'Apple – MacBook Pro'
 date: '2006-01-10T13:57:00+00:00'
 author: Kellan
 layout: post

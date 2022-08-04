@@ -1,6 +1,6 @@
 ---
 id: 3382
-title: 'Merlin&#8217;s search for the perfect apostrophe.  Next up &#8220;Procrastination Hacks&#8221;.'
+title: 'Merlins search for the perfect apostrophe.  Next up "Procrastination Hacks".'
 date: '2006-06-15T16:26:00+00:00'
 author: Kellan
 layout: post

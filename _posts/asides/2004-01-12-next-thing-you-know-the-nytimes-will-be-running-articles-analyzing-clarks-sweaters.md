@@ -1,6 +1,6 @@
 ---
 id: 1996
-title: 'Next thing you know the NYTimes will be running articles analyzing Clark&#8217;s sweaters&#8230;'
+title: 'Next thing you know the NYTimes will be running articles analyzing Clarks sweaters...'
 date: '2004-01-12T14:04:24+00:00'
 author: Kellan
 layout: post

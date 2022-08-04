@@ -1,6 +1,6 @@
 ---
 id: 3767
-title: 'Winer: Twitter should have to go in front of a committee and testify as to &#8220;what&#8217;s going on.&#8221;'
+title: 'Winer: Twitter should have to go in front of a committee and testify as to "whats going on."'
 date: '2008-01-31T13:59:57+00:00'
 author: Kellan
 layout: post

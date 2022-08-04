@@ -1,6 +1,6 @@
 ---
 id: 3282
-title: '&#8220;hey conference organizers, wireless connectivity is part of your marketing budget.&#8221;'
+title: '"hey conference organizers, wireless connectivity is part of your marketing budget."'
 date: '2006-03-08T18:03:00+00:00'
 author: Kellan
 layout: post

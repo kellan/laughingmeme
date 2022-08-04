@@ -1,6 +1,6 @@
 ---
 id: 2442
-title: 'No-Name-Yet: Mark Shuttleworth&#8217;s &#8220;Super Secret Debian Startup&#8221;'
+title: 'No-Name-Yet: Mark Shuttleworths "Super Secret Debian Startup"'
 date: '2004-08-04T19:15:48+00:00'
 author: Kellan
 layout: post

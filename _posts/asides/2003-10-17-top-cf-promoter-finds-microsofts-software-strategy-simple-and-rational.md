@@ -1,6 +1,6 @@
 ---
 id: 1791
-title: 'Top CF promoter finds Microsoft&#8217;s software strategy &#8220;simple and rational&#8221;.'
+title: 'Top CF promoter finds Microsofts software strategy "simple and rational".'
 date: '2003-10-17T21:35:41+00:00'
 author: Kellan
 layout: post

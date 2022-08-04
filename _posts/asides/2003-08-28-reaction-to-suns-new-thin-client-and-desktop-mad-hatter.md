@@ -1,6 +1,6 @@
 ---
 id: 1693
-title: 'Reaction to Sun&#8217;s new thin client, and desktop, Mad Hatter.'
+title: 'Reaction to Suns new thin client, and desktop, Mad Hatter.'
 date: '2003-08-28T22:11:17+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2132
-title: '&#8230;and Gollum&#8217;s Act III showstopper, &#8220;Memorieses&#8221;.'
+title: '...and Gollums Act III showstopper, "Memorieses".'
 date: '2004-03-14T21:58:54+00:00'
 author: Kellan
 layout: post

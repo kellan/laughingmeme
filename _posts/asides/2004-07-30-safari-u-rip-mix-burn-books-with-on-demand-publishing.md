@@ -1,6 +1,6 @@
 ---
 id: 2421
-title: 'Safari U: &#8220;rip, mix, burn&#8221; books, with on demand publishing.'
+title: 'Safari U: "rip, mix, burn" books, with on demand publishing.'
 date: '2004-07-30T11:25:12+00:00'
 author: Kellan
 layout: post

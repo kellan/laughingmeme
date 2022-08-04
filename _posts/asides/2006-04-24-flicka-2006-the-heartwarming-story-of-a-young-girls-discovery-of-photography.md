@@ -1,6 +1,6 @@
 ---
 id: 3334
-title: 'Flicka (2006) &#8211; the heartwarming story of a young girls discovery of photography'
+title: 'Flicka (2006) – the heartwarming story of a young girls discovery of photography'
 date: '2006-04-24T17:23:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1920
-title: 'You can take the ruling class by surprise about once every 20 years. Next time, they&#8217;re prepared.'
+title: 'You can take the ruling class by surprise about once every 20 years. Next time, theyre prepared.'
 date: '2003-12-05T01:57:34+00:00'
 author: Kellan
 layout: post

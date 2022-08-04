@@ -1,6 +1,6 @@
 ---
 id: 2877
-title: '&#8220;What sites are you looking forward to?&#8221;'
+title: '"What sites are you looking forward to?"'
 date: '2005-03-24T13:58:20+00:00'
 author: Kellan
 layout: post

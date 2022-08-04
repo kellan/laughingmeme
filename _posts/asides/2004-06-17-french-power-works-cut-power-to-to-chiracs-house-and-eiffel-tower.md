@@ -1,6 +1,6 @@
 ---
 id: 2346
-title: 'French power works cut power to to Chirac&#8217;s house, and Eiffel Tower'
+title: 'French power works cut power to to Chiracs house, and Eiffel Tower'
 date: '2004-06-17T23:25:26+00:00'
 author: Kellan
 layout: post

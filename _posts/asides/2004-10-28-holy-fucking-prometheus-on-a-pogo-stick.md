@@ -1,6 +1,6 @@
 ---
 id: 2603
-title: '&#8220;Holy Fucking Prometheus on a Pogo Stick&#8221;'
+title: '"Holy Fucking Prometheus on a Pogo Stick"'
 date: '2004-10-28T16:02:44+00:00'
 author: Kellan
 layout: post

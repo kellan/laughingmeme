@@ -1,6 +1,6 @@
 ---
 id: 3240
-title: 'Publishing 2.0:  &#8220;Google should stop picking on poor BMW&#8221;'
+title: 'Publishing 2.0:  "Google should stop picking on poor BMW"'
 date: '2006-02-07T10:00:00+00:00'
 author: Kellan
 layout: post

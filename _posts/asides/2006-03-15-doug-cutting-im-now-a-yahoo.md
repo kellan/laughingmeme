@@ -1,6 +1,6 @@
 ---
 id: 3298
-title: 'Doug Cutting: I&#8217;m now a &#8220;Yahoo!&#8221;.'
+title: 'Doug Cutting: Im now a "Yahoo!".'
 date: '2006-03-15T19:21:00+00:00'
 author: Kellan
 layout: post

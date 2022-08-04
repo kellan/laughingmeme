@@ -1,6 +1,6 @@
 ---
 id: 2099
-title: 'You&#8217;re NOT gonna need it!'
+title: 'Youre NOT gonna need it!'
 date: '2004-02-25T19:35:26+00:00'
 author: Kellan
 layout: post

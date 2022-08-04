@@ -1,6 +1,6 @@
 ---
 id: 2973
-title: 'Public Screening of &#8220;Blogumentary&#8221;, 7pm, at the Berkman'
+title: 'Public Screening of "Blogumentary", 7pm, at the Berkman'
 date: '2005-08-02T14:32:00+00:00'
 author: Kellan
 layout: post

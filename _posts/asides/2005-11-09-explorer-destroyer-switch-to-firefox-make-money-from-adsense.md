@@ -1,6 +1,6 @@
 ---
 id: 3100
-title: 'Explorer Destroyer &#8211; Switch to Firefox, Make money from Adsense'
+title: 'Explorer Destroyer – Switch to Firefox, Make money from Adsense'
 date: '2005-11-09T16:57:00+00:00'
 author: Kellan
 layout: post

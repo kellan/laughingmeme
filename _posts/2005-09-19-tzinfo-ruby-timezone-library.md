@@ -1,6 +1,6 @@
 ---
 id: 1132
-title: 'TZInfo &#8211; Ruby Timezone Library'
+title: 'TZInfo – Ruby Timezone Library'
 date: '2005-09-19T06:43:41+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2798
-title: 'mediageek: Repeat After Me: &#8220;Podcasting is NOT Pirate Radio&#8221;'
+title: 'mediageek: Repeat After Me: "Podcasting is NOT Pirate Radio"'
 date: '2005-02-01T20:40:38+00:00'
 author: Kellan
 layout: post

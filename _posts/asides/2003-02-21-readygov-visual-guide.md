@@ -1,6 +1,6 @@
 ---
 id: 1242
-title: 'Ready.gov &#8211; Visual Guide'
+title: 'Ready.gov – Visual Guide'
 date: '2003-02-21T13:40:07+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 1301
-title: '&#8220;carnivorous Echelon spy computers compiling dossiers of sin&#8221;'
+title: '"carnivorous Echelon spy computers compiling dossiers of sin"'
 date: '2003-03-15T09:15:19+00:00'
 author: Kellan
 layout: post

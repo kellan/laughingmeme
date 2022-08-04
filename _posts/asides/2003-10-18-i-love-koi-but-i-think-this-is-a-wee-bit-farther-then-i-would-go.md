@@ -1,6 +1,6 @@
 ---
 id: 1792
-title: 'I love koi, but I think this is a wee bit farther then I would go&#8230;'
+title: 'I love koi, but I think this is a wee bit farther then I would go...'
 date: '2003-10-18T00:31:13+00:00'
 author: Kellan
 layout: post

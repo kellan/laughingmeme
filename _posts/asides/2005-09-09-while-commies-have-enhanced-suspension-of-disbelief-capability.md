@@ -1,6 +1,6 @@
 ---
 id: 3013
-title: '&#8220;While commies have enhanced suspension-of-disbelief capability&#8230;&#8221;'
+title: '"While commies have enhanced suspension-of-disbelief capability..."'
 date: '2005-09-09T16:59:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3728
-title: 'YouTube &#8211; The Day The Routers Died&#8230;'
+title: 'YouTube – The Day The Routers Died...'
 date: '2007-10-31T20:28:29+00:00'
 author: Kellan
 layout: post

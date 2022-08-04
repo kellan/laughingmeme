@@ -1,6 +1,6 @@
 ---
 id: 2899
-title: 'Mitch Kapor&#8217;: Should Groove Have Gone Open Source?'
+title: 'Mitch Kapor: Should Groove Have Gone Open Source?'
 date: '2005-04-05T10:48:07+00:00'
 author: Kellan
 layout: post

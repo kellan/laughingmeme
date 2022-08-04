@@ -1,6 +1,6 @@
 ---
 id: 2299
-title: '&#8220;Control Room&#8221;, the documentary about Al-Jazeera from the director of Startup.com, in Seattle, at SIFF, June 9th and 10th'
+title: '"Control Room", the documentary about Al-Jazeera from the director of Startup.com, in Seattle, at SIFF, June 9th and 10th'
 date: '2004-05-25T19:01:31+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3032
-title: 'GW  Bush&#8217;s hurricane response compared with previous presidents.'
+title: 'GW  Bushs hurricane response compared with previous presidents.'
 date: '2005-09-25T10:40:38+00:00'
 author: Kellan
 layout: post

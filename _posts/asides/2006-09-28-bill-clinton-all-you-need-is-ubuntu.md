@@ -1,6 +1,6 @@
 ---
 id: 3485
-title: 'Bill Clinton:  &#8220;All you need is ubuntu&#8221;'
+title: 'Bill Clinton:  "All you need is ubuntu"'
 date: '2006-09-28T18:46:00+00:00'
 author: Kellan
 layout: post

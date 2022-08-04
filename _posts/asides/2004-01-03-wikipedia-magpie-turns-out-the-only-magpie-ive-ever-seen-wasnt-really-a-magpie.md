@@ -1,6 +1,6 @@
 ---
 id: 1976
-title: 'Wikipedia: Magpie &#8211; turns out the only magpie I&#8217;ve ever seen wasn&#8217;t really a magpie.'
+title: 'Wikipedia: Magpie – turns out the only magpie Ive ever seen wasnt really a magpie.'
 date: '2004-01-03T14:10:12+00:00'
 author: Kellan
 layout: post

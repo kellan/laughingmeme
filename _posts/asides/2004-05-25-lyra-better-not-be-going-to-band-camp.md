@@ -1,6 +1,6 @@
 ---
 id: 2294
-title: 'Lyra better not be going to &#8216;Band Camp&#8217;'
+title: 'Lyra better not be going to Band Camp'
 date: '2004-05-25T04:10:11+00:00'
 author: Kellan
 layout: post

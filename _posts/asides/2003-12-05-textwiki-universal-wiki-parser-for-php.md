@@ -1,6 +1,6 @@
 ---
 id: 1924
-title: 'Textwiki &#8211; Universal Wiki Parser for PHP'
+title: 'Textwiki – Universal Wiki Parser for PHP'
 date: '2003-12-05T15:56:19+00:00'
 author: Kellan
 layout: post

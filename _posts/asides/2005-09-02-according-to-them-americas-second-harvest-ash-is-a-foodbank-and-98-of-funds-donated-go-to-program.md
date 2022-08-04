@@ -1,6 +1,6 @@
 ---
 id: 3006
-title: '&#8220;According to them, America&#8217;s Second Harvest (ASH) is a foodbank and *98%* of funds donated go to program.&#8221;'
+title: '"According to them, Americas Second Harvest (ASH) is a foodbank and *98%* of funds donated go to program."'
 date: '2005-09-02T14:48:50+00:00'
 author: Kellan
 layout: post

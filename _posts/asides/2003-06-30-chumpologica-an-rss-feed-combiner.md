@@ -1,6 +1,6 @@
 ---
 id: 1567
-title: 'Chumpologica &#8211; an RSS feed combiner'
+title: 'Chumpologica – an RSS feed combiner'
 date: '2003-06-30T18:45:00+00:00'
 author: Kellan
 layout: post

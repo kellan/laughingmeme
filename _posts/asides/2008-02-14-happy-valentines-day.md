@@ -1,6 +1,6 @@
 ---
 id: 3774
-title: 'Happy Valentine&#8217;s Day'
+title: 'Happy Valentines Day'
 date: '2008-02-14T18:42:25+00:00'
 author: Kellan
 layout: post

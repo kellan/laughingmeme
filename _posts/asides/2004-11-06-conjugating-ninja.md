@@ -1,6 +1,6 @@
 ---
 id: 2621
-title: 'conjugating &#8216;ninja&#8217;'
+title: 'conjugating ninja'
 date: '2004-11-06T12:36:55+00:00'
 author: Kellan
 layout: post

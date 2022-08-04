@@ -1,6 +1,6 @@
 ---
 id: 658
-title: 'National Weather Service&#8217;s XML Feeds'
+title: 'National Weather Services XML Feeds'
 date: '2003-11-12T17:57:00+00:00'
 author: Kellan
 layout: post

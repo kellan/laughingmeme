@@ -1,6 +1,6 @@
 ---
 id: 2493
-title: 'The People&#8217;s Guide to the Republican National Convention'
+title: 'The Peoples Guide to the Republican National Convention'
 date: '2004-08-27T17:51:45+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3259
-title: 'So has anyone else considered that Tom&#8217;s brilliant 9 rules'
+title: 'So has anyone else considered that Toms brilliant 9 rules'
 date: '2006-02-17T14:56:00+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 3344
-title: 'Bill de hÓra&#8217;s tech bookshelf'
+title: 'Bill de hÓras tech bookshelf'
 date: '2006-04-30T20:32:00+00:00'
 author: Kellan
 layout: post

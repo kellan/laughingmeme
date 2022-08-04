@@ -1,6 +1,6 @@
 ---
 id: 1447
-title: '&#8220;Already we can see who is going to be privileged by this narrative and who is not.&#8221;'
+title: '"Already we can see who is going to be privileged by this narrative and who is not."'
 date: '2003-05-15T18:35:01+00:00'
 author: Kellan
 layout: post

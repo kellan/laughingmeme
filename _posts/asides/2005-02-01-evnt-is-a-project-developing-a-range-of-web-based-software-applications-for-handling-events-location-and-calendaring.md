@@ -1,6 +1,6 @@
 ---
 id: 2792
-title: '&#8220;evnt is a project developing a range of web based software applications for handling events, location and calendaring.&#8221;'
+title: '"evnt is a project developing a range of web based software applications for handling events, location and calendaring."'
 date: '2005-02-01T03:28:04+00:00'
 author: Kellan
 layout: post

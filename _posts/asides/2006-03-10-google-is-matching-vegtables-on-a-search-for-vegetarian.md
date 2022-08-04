@@ -1,6 +1,6 @@
 ---
 id: 3289
-title: 'Google is matching &#8216;vegtables&#8217; on a search for &#8216;vegetarian&#8217;'
+title: 'Google is matching vegtables on a search for vegetarian'
 date: '2006-03-10T14:54:00+00:00'
 author: Kellan
 layout: post

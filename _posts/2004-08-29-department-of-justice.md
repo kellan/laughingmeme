@@ -1,6 +1,6 @@
 ---
 id: 895
-title: 'Department of &#8220;Justice&#8221;'
+title: 'Department of "Justice"'
 date: '2004-08-29T23:49:23+00:00'
 author: Kellan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 2450
-title: 'Bay Area free wireless hotspots&#8230;on your iPod!'
+title: 'Bay Area free wireless hotspots...on your iPod!'
 date: '2004-08-08T19:33:14+00:00'
 author: Kellan
 layout: post

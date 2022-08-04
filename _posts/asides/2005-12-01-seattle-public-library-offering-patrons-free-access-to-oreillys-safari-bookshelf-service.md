@@ -1,6 +1,6 @@
 ---
 id: 3132
-title: 'Seattle Public Library offering patrons free access to O&#8217;Reilly&#8217;s Safari Bookshelf service,'
+title: 'Seattle Public Library offering patrons free access to OReillys Safari Bookshelf service,'
 date: '2005-12-01T09:32:00+00:00'
 author: Kellan
 layout: post

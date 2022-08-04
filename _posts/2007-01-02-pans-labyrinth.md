@@ -1,6 +1,6 @@
 ---
 id: 3545
-title: 'Pan&#8217;s Labyrinth'
+title: 'Pans Labyrinth'
 date: '2007-01-02T03:00:21+00:00'
 author: Kellan
 layout: post

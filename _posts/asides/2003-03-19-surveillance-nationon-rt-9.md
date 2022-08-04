@@ -1,6 +1,6 @@
 ---
 id: 1307
-title: 'Surveillance Nation&#8230;on Rt. 9'
+title: 'Surveillance Nation...on Rt. 9'
 date: '2003-03-19T10:58:17+00:00'
 author: Kellan
 layout: post

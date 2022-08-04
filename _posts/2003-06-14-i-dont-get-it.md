@@ -1,6 +1,6 @@
 ---
 id: 474
-title: 'I Don&#8217;t Get It'
+title: 'I Dont Get It'
 date: '2003-06-14T23:04:00+00:00'
 author: Kellan
 layout: post

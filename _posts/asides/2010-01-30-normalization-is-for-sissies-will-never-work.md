@@ -1,6 +1,6 @@
 ---
 id: 4449
-title: '&#8220;Normalization is for sissies&#8221; will never work!'
+title: '"Normalization is for sissies" will never work!'
 date: '2010-01-30T21:54:34+00:00'
 author: Kellan
 layout: post

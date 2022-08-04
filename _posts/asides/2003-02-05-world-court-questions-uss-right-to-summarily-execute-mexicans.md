@@ -1,6 +1,6 @@
 ---
 id: 1199
-title: 'World Court questions US&#8217;s right to summarily execute Mexicans'
+title: 'World Court questions USs right to summarily execute Mexicans'
 date: '2003-02-05T20:14:13+00:00'
 author: Kellan
 layout: post

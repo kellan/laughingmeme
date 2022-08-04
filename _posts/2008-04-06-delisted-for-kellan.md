@@ -1,6 +1,6 @@
 ---
 id: 3798
-title: 'Delisted for &#8220;kellan&#8221;'
+title: 'Delisted for "kellan"'
 date: '2008-04-06T22:08:13+00:00'
 author: Kellan
 layout: post

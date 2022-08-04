@@ -1,6 +1,6 @@
 ---
 id: 2784
-title: 'Slashdot on &#8220;folksonomies&#8221;.  Got to love the comments.'
+title: 'Slashdot on "folksonomies".  Got to love the comments.'
 date: '2005-01-24T13:07:56+00:00'
 author: Kellan
 layout: post

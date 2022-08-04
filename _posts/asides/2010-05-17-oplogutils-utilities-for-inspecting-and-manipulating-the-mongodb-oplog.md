@@ -1,6 +1,6 @@
 ---
 id: 4586
-title: 'oplogutils &#8211; Utilities for inspecting and manipulating the MongoDB oplog'
+title: 'oplogutils – Utilities for inspecting and manipulating the MongoDB oplog'
 date: '2010-05-17T04:30:17+00:00'
 author: Kellan
 layout: post

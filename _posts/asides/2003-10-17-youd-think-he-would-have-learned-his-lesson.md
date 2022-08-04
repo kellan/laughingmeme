@@ -1,6 +1,6 @@
 ---
 id: 1145
-title: 'You&#8217;d think he would have learned his lesson'
+title: 'Youd think he would have learned his lesson'
 date: '2003-10-17T00:56:06+00:00'
 author: Kellan
 layout: post

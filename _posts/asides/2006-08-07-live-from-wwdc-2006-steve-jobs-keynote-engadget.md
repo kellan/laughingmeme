@@ -1,6 +1,6 @@
 ---
 id: 3425
-title: 'Live from WWDC 2006: Steve Jobs keynote &#8211; Engadget'
+title: 'Live from WWDC 2006: Steve Jobs keynote – Engadget'
 date: '2006-08-07T14:18:00+00:00'
 author: Kellan
 layout: post

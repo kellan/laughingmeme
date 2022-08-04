@@ -1,6 +1,6 @@
 ---
 id: 2036
-title: 'I&#8217;m getting referer spam from clark04.com'
+title: 'Im getting referer spam from clark04.com'
 date: '2004-01-27T16:13:54+00:00'
 author: Kellan
 layout: post

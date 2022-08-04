@@ -1,6 +1,6 @@
 ---
 id: 3029
-title: 'Neil Gaiman&#8217;s Anansi Boys tour'
+title: 'Neil Gaimans Anansi Boys tour'
 date: '2005-09-22T12:29:03+00:00'
 author: Kellan
 layout: post

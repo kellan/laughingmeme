@@ -1,6 +1,6 @@
 ---
 id: 3717
-title: '&#8220;msg: wow i just wasted lots of time refreshing mtv.com here are the screenshots to spare your time&#8221;'
+title: '"msg: wow i just wasted lots of time refreshing mtv.com here are the screenshots to spare your time"'
 date: '2007-10-16T09:50:54+00:00'
 author: Kellan
 layout: post

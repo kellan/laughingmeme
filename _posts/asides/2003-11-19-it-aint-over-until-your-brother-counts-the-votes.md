@@ -1,6 +1,6 @@
 ---
 id: 1874
-title: 'It ain&#8217;t over until your brother counts the votes.'
+title: 'It aint over until your brother counts the votes.'
 date: '2003-11-19T01:36:45+00:00'
 author: Kellan
 layout: post

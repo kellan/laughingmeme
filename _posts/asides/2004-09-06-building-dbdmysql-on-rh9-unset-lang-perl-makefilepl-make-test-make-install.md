@@ -1,6 +1,6 @@
 ---
 id: 2515
-title: 'Building DBD::mysql on RH9:  &#8220;unset LANG; perl Makefile.PL; make test; make install&#8221;'
+title: 'Building DBD::mysql on RH9:  "unset LANG; perl Makefile.PL; make test; make install"'
 date: '2004-09-06T17:49:03+00:00'
 author: Kellan
 layout: post

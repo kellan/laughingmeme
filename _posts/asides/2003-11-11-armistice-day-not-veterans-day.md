@@ -1,6 +1,6 @@
 ---
 id: 1841
-title: 'Armistice Day, not Veteran&#8217;s Day'
+title: 'Armistice Day, not Veterans Day'
 date: '2003-11-11T02:56:38+00:00'
 author: Kellan
 layout: post

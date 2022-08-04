@@ -1,6 +1,6 @@
 ---
 id: 2087
-title: 'Plucene &#8211; a Perl port of Lucene'
+title: 'Plucene – a Perl port of Lucene'
 date: '2004-02-20T16:57:41+00:00'
 author: Kellan
 layout: post

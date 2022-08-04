@@ -1,6 +1,6 @@
 ---
 id: 2030
-title: '&#8220;&#8230;affirms NOAAâ€™s commitment to continue working with our partners in the private sector&#8230;&#8221;'
+title: '"...affirms NOAAâ€™s commitment to continue working with our partners in the private sector..."'
 date: '2004-01-24T07:11:14+00:00'
 author: Kellan
 layout: post

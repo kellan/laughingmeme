@@ -1,6 +1,6 @@
 ---
 id: 3439
-title: 'Maybe you&#8217;ve seen me at a party recently, you asked &#8220;So how is Yahoo&#8221;, I said, &#8220;Silly&#8221;'
+title: 'Maybe youve seen me at a party recently, you asked "So how is Yahoo", I said, "Silly"'
 date: '2006-08-15T23:41:00+00:00'
 author: Kellan
 layout: post

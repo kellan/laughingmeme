@@ -1,6 +1,6 @@
 ---
 id: 470
-title: 'Wackenhut&#8217;s Bloody Hands'
+title: 'Wackenhuts Bloody Hands'
 date: '2003-06-13T17:11:34+00:00'
 author: Kellan
 layout: post

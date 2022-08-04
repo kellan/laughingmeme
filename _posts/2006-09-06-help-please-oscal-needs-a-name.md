@@ -1,6 +1,6 @@
 ---
 id: 3462
-title: 'Help Please &#8211; OSCal Needs a Name!'
+title: 'Help Please – OSCal Needs a Name!'
 date: '2006-09-06T13:48:00+00:00'
 author: Kellan
 layout: post

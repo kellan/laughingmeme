@@ -1,6 +1,6 @@
 ---
 id: 3192
-title: '&#8220;&#8230;next week and the week after, when it&#8217;s history, all those aggregators will still be checking it, even though it will never again be updated.&#8221;'
+title: '"...next week and the week after, when its history, all those aggregators will still be checking it, even though it will never again be updated."'
 date: '2006-01-17T09:55:00+00:00'
 author: Kellan
 layout: post
