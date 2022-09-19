@@ -1,7 +1,7 @@
 ---
 date: '2022-09-19T04:30:24-05:00'
 layout: post
-title: 'A technie thinking about IRA'
+title: 'A techie thinking about IRA'
 context: 'We Work in the navy yard, '
 ---
 
