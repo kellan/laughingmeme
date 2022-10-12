@@ -4,6 +4,20 @@ layout: post
 title: 'Quick and dirty overview of tasks in Obsidian'
 context: 'At RSC'
 ---
+### updated 10/12
+
+As [Ward Cunningham](https://twitter.com/wardcunningham) says, _"The best way to ask a question is to share what you know, and have people tell you what you got wrong."_
+
+Per [Ishan Puranik](https://twitter.com/whereiscalypso/status/1580057579673161728), [DataView](https://github.com/blacksmithgu/obsidian-dataview) queries are a _much_ better solution. I was planning to hook something up clever with Watchman (as [suggested by Channing](https://twitter.com/channingwalton/status/1579951895191650304)) to re-run the shell script, but one thing I hadn't figured out was how to keep my solution up to date when I made edits on Mobile. DataViews solves all of that with a native solution.  So now my tasks page is just:
+
+    ```dataview
+    TASK FROM "/"
+    ```
+
+Also, if you're playing with Obsidian, join the Discord.
+
+### 10/11
+
 I decided to ditch [Craft](https://www.craft.do/) in part because it didn't have a way to show me all my open todos. Obsidian doesn't have a default solution (as far as I can tell) to show me all the open checklist items. But Obsidian is an open system and you can make your own solution.
  
 The community has a bunch of [offerings for seeing your Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks), but so far all the plugins have felt heavier than I wanted (and didn't match my aesthetics in ways I can't quite articulate).
