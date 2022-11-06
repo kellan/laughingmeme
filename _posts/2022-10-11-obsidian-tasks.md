@@ -8,7 +8,7 @@ context: 'At RSC'
 
 As [Ward Cunningham](https://twitter.com/wardcunningham) says, _"The best way to ask a question is to share what you know, and have people tell you what you got wrong."_
 
-Per [Ishan Puranik](https://twitter.com/whereiscalypso/status/1580057579673161728), [DataView](https://github.com/blacksmithgu/obsidian-dataview) queries are a _much_ better solution. I was planning to hook something up clever with Watchman (as [suggested by Channing](https://twitter.com/channingwalton/status/1579951895191650304)) to re-run the shell script, but one thing I hadn't figured out was how to keep my solution up to date when I made edits on Mobile. DataViews solves all of that with a native solution.  So now my tasks page is just:
+Per [Ishan Puranik](https://twitter.com/whereiscalypso/status/1580057579673161728), [DataView](https://github.com/blacksmithgu/obsidian-dataview) queries are a _much_ better solution. I was planning to hook something up clever with Watchman (as [suggested by Channing](https://twitter.com/channingwalton/status/1579951895191650304)) to re-run the shell script, but one thing I hadn't figured out was how to keep my solution up to date when I made edits on mobile. DataViews solves all of that with a native solution.  So now my tasks page is just:
 
     ```dataview
     TASK FROM "/"
