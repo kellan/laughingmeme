@@ -28,9 +28,9 @@ A small service that you can authenticate to using various OAuth providers to pr
 
 * Make it work for webpages using well known location pattern, ala Google Analytics. 
 * In addition to an API that is "find this person on other services", you also would need a "find me everyone I know from this service on other services" to be useful.
-* OPML, because RSS readers are going to be hip again!
+* OPML, because RSS readers are going to be hip agai n!
 
-### update 1 2022-11-5T21:34Z
+### update 1 2022-11-05T21:34Z
 
 {% twitter https://twitter.com/danlatorre/status/1588991242196905984 omit_script=1 %}
 
@@ -38,6 +38,14 @@ A small service that you can authenticate to using various OAuth providers to pr
 
 {% twitter https://twitter.com/haxor/status/1588997493962203136 omit_script=1 %}
 
-### update 2 2022-11-6T12:13Z 
+### update 2 2022-11-06T12:13Z 
 
 I got asked what I meant by "well known locations". Technically well known locations refers to [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615), but I mean it more loosely in the sense of demonstrating you control a website by changing it in a way a service specificies, e.g. uploading a specific file at a specific URL. Google Analytics list of [ways to demonstrate you own a site](https://support.google.com/webmasters/answer/9008080?hl=en#choose_method), is probably best practices. 
+
+### update 3 2022-11-07T00:10Z 
+
+{% twitter https://twitter.com/terrellrussell/status/1589258018474332161 omit_script=1 %}
+
+{% twitter https://twitter.com/terrellrussell/status/1589279897843027968 omit_script=1 %}
+
+{% twitter https://twitter.com/terrellrussell/status/1589283197824946177 omit_script=1 %}
