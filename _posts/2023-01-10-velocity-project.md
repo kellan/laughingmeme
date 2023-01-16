@@ -1,6 +1,6 @@
 ---
-title: 'Draft: Velocity Project: Setting the stage on discontent'
-date: '2023-01-10T14:26:30+00:00'
+title: 'Software and its Discontents, January 2023, Part 1'
+date: '2023-01-16T12:26:30+00:00'
 layout: post
 hidden: true
 ---
