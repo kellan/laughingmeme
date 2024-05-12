@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Inexplicable Magpie/Snoopy Problem | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Inexplicable Magpie/Snoopy Problem" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I got a bug report against Magpie a couple of days ago. A user was puzzled why the seemingly valid, perfectly ordinary url http://www.dr.dk/nyheder/html/nyheder/rss/ was failing to parse." />
+<meta property="og:description" content="I got a bug report against Magpie a couple of days ago. A user was puzzled why the seemingly valid, perfectly ordinary url http://www.dr.dk/nyheder/html/nyheder/rss/ was failing to parse." />
+<link rel="canonical" href="https://laughingmeme.org//2004/01/16/inexplicable-magpiesnoopy-problem/" />
+<meta property="og:url" content="https://laughingmeme.org//2004/01/16/inexplicable-magpiesnoopy-problem/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2004-01-16T21:15:30+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Inexplicable Magpie/Snoopy Problem" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2004-01-16T21:15:30+00:00","datePublished":"2004-01-16T21:15:30+00:00","description":"I got a bug report against Magpie a couple of days ago. A user was puzzled why the seemingly valid, perfectly ordinary url http://www.dr.dk/nyheder/html/nyheder/rss/ was failing to parse.","headline":"Inexplicable Magpie/Snoopy Problem","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2004/01/16/inexplicable-magpiesnoopy-problem/"},"url":"https://laughingmeme.org//2004/01/16/inexplicable-magpiesnoopy-problem/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Inexplicable Magpie/Snoopy Problem</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2004-01-16T21:15:30+00:00" itemprop="datePublished">Jan 16, 2004
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I got a bug report against <a href="http://magpierss.sf.net">Magpie</a> a couple of days ago. A user was puzzled why the seemingly valid, perfectly ordinary url <a href="http://www.dr.dk/nyheder/html/nyheder/rss/">http://www.dr.dk/nyheder/html/nyheder/rss/</a> was failing to parse.</p>
+
+<p>I spent a while confirming that <a href="http://snoopy.sf.net">Snoopy</a> (both the Magpie patched version, and the recently release 1.01) was treating the entire document as if they were HTTP headers, and treating the body as blank. I’ve spent a little while futzing with this tonight, but my motivation/energy on this is running pretty low. Anyone feeling up to a spot of debugging?</p>
+
+<p><strong>update [17-jan-04]:</strong> Thank you <a href="http://philringnalda.com/blog/2004/01/yay_for_liberal_parsing.php">Phil</a>! The problem was, as I kind of suspected, with the CRLF terminators. Seems the above host was returning “\n” instead of “\r\n”. Having futzed around with trying to get curl, or wget, or lynx to dump the raw headers I was stumped about how to flag the problem.</p>
+
+<p>Phil used what he describes as, “The most incredibly tacky debugger ever”, but looks great to me:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ str&lt;em&gt;replace("\n","|n|",$snoopy-&gt;headers[9]);
+ str&lt;/em&gt;replace("\r","|r|",$snoopy-&gt;headers[9]);
+</code></pre></div></div>
+
+<p>(and it was the middle of the night no less) ### Solution</p>
+
+<p>See comments for discussion, here is the patch: ```</p>
+
+<p>— magpierss-0.5.2/extlib/Snoopy.class.inc     Wed Jun 25 19:34:48 2003
++++ dev/magpierss/extlib/Snoopy.class.inc       Sat Jan 17 10:00:21 2004
+@@ -808,7 +808,8 @@
+                                return false;
+                        }</p>
+
+<p>```</p>
+
+<ul>
+  <li>if($currentHeader == “\r\n”) +// if($currentHeader == “\r\n”)</li>
+  <li>if(preg_match(“/^\r?\n$/”, $currentHeader) ) break;</li>
+</ul>
+
+<p>I’m going back and forth on whether to do a point release with this (and whether to even apply it to Magpie), as it feels wrong to me to make a piece of code less correct. I guess I’m a <a href="http://www.tbray.org/ongoing/When/200x/2004/01/16/DraconianHistory">draconian</a>, not a <a href="http://diveintomark.org/archives/2004/01/16/draconianism">tolerant</a>. (which comes as no surprise to anyone who knows me <img src="http://lm.local/wp-includes/images/smilies/simple-smile.png" alt=":)" /> Opinions? And I’m still considering dumping Snoopy, if anyone wants to give feedback on that.</p>
+
+<p>Thanks again Phil, like I said, it is rare and pleasant surprise to wake up in the morning with less problems then when you went to bed.</p>
+
+<h3 id="snoopy-alternatives-dump-the-beagle">Snoopy Alternatives (Dump the Beagle?)</h3>
+
+<p>I’m really tempted to ditch <a href="http://snoopy.sf.net">Snoopy</a> all together, as its dev cycles is abysmal (and they didn’t apply my patch! pout pout), and it includes a huge amount of HTML parsing code which is inappropriate in an HTTP library.</p>
+
+<p>Other options include:</p>
+
+<ul>
+  <li><a href="http://pear.php.net/package/HTTP_Request">HTTP_Request</a> from PEAR, which looks promising. Support for SSL (using OpenSSL instead of cURL), HTTP Authentication (Basic), gzip encoding, all fresh and out of the box. Looks nice and clean. And my Perl soul wants to support <a href="http://pear.php.net">PEAR</a> on the idea that it’s like CPAN. On the downside it introduces the PEAR dependency cascade which seems to be beyond the ability (either due to experience or hosting limitations) of many if not most of my users (or at least the ones I hear from).</li>
+  <li>The other option which I’ve explored before is <a href="http://scripts.incutio.com/httpclient/index.php">HttpClient</a> from the excellent <a href="http://simon.incutio.com/">Simon Willison</a>. I suppose it’s a false sense of security to say “hey, I like his blog, his code must be good”, but there you have you it. And he is where I cribbed how to add gzip encoding support to Snoopy. But his call syntax is awkward, and no SSL support, and I don’t think it’s an active project. On the up side it is self contained; I could (presumably) drop the file into extlib (which standards for external library btw) in place of Snoopy, and be off to the races.</li>
+</ul>
+
+<p>One option would be to pack the entire PEAR dependency tree into extlib, but I’m unclear on how well that will work, and it will increase the the library size several fold, and probably cause some on version clashes to boot. Another option would be to other two versions of Magpie, with and without dependencies included (MoveableType takes this approach). Or lastly I could figure out how to fix bloody Snoopy. Thoughts?</p>
+
+  </div><a class="u-url" href="/2004/01/16/inexplicable-magpiesnoopy-problem/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

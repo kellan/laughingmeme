@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>A Few Tips for Writing Useful Libraries in PHP | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="A Few Tips for Writing Useful Libraries in PHP" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="(A month or more ago I started writing a blog entry, which became so long I decided to turn it into an article. However life has gotten away from me, and I don’t know when I’ll get around to doing the clean up to write that article, so here it is.)" />
+<meta property="og:description" content="(A month or more ago I started writing a blog entry, which became so long I decided to turn it into an article. However life has gotten away from me, and I don’t know when I’ll get around to doing the clean up to write that article, so here it is.)" />
+<link rel="canonical" href="https://laughingmeme.org//2003/08/05/a-few-tips-for-writing-useful-libraries-in-php/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/08/05/a-few-tips-for-writing-useful-libraries-in-php/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-08-05T21:30:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A Few Tips for Writing Useful Libraries in PHP" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-08-05T21:30:00+00:00","datePublished":"2003-08-05T21:30:00+00:00","description":"(A month or more ago I started writing a blog entry, which became so long I decided to turn it into an article. However life has gotten away from me, and I don’t know when I’ll get around to doing the clean up to write that article, so here it is.)","headline":"A Few Tips for Writing Useful Libraries in PHP","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/08/05/a-few-tips-for-writing-useful-libraries-in-php/"},"url":"https://laughingmeme.org//2003/08/05/a-few-tips-for-writing-useful-libraries-in-php/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">A Few Tips for Writing Useful Libraries in PHP</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-08-05T21:30:00+00:00" itemprop="datePublished">Aug 5, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>(A month or more ago I started writing a blog entry, which became so long I decided to turn it into an article. However life has gotten away from me, and I don’t know when I’ll get around to doing the clean up to write that article, so here it is.)</p>
+
+<p>Zend has an article <a href="http://www.zend.com/zend/tut/tutorial_moran.php">Writing Libraries in PHP</a> (you’ll have to trust me on the title, as their CMS seems to be broken). It is a good article as far as it goes, but I think the title over sells the article. Which is a shame, because of all of PHP’s many faults and quirks, perhaps it’s most telling (and most crippling) is a cultural one, PHP programmers write applications, not libraries. I don’t consider myself a PHP guru, being more comfortable in Perl and Java, but I do consider myself a good software developer, and so I’ll try to capture a few of the lesson I learned when developing <a href="http://magpierss.sf.net">MagpieRSS</a>, my PHP library for parsing RSS.</p>
+
+<p>First, lets identify the problem.</p>
+
+<h3 id="php-its-a-cultural-thang">PHP, its a cultural thang</h3>
+
+<p>Python positions itself as distinct from Perl with the slogan “batteries included.” Whether you feel that is accurate is irrelevant, because PHP is the real “batteries included” language. PHP bend so far in this direction, you’ll find functions like <code class="language-plaintext highlighter-rouge">pfpro_process</code> for talking to the “Versign Payflow Pro” service in the core language. Besides the patent of absurdity of this, its also created a culture that sees only 2 forms of PHP, core language extensions, and applications.</p>
+
+<h3 id="why-is-this-a-problem">Why is this a problem?</h3>
+
+<p>So whats wrong with that? Code written for a particular application is often very difficult to reuse. Code reuse is one of the holy grails of open source, its how you leverage all the vaunted of benefits of “lots of eyes make bugs shallow”, and patches, and shared development. Code reuse also reduces development time, and bugs in applications that reuse the code. Unless of course to reuse your code I’ve had to dig into it, hacking it to suit my purposes, in which case I’ve probably spent more time, and introduced bugs into code I only half understand. I’ll be tempted to throw it away and start over, splitting time and development energy over multiple solutions rather then improving just one.</p>
+
+<h3 id="so-what-is-the-difference-between-an-application-and-a-library">So what is the difference between an application and a library?</h3>
+
+<p>A little over a year ago, I was wanting to syndicate the events from <a href="http://protest.net">Protest.net</a> to a website published with PHP. As we generate <a href="http://protest.net/about_protest_net.html">RSS feeds for our calendars</a> I thought this would be easy. I went looking for a tool to recomend for the website to use, and I came up short. I found many, many, many PHP applications that took an RSS file, and generated HTML, these were applications for displaying RSS as HTML, but they weren’t libraries, they tried to do it all, and therefore couldn’t integrate with this website which had its own way of wanting to use RSS and PHP. A key characteristic of an application versus a library is how many problem it tries to solve; solve too many problems in a single layer and you lose flexibility.</p>
+
+<h3 id="tips-for-writing-php-libraries">Tips for writing PHP libraries</h3>
+
+<p>A few of these tips are theoretical, some are very concrete. Some I’m not thrilled with but they’re are the best solution I have to date. If you disagree, or have suggestions, please add them.</p>
+
+<ol>
+  <li>Do one thing, do it well  You aren’t building a CMS, you aren’t building an interface, you’re trying to support other people in those tasks.</li>
+  <li>Don’t echo or print content, return it!  This is one of the key problems you see in much PHP code. If you echo out the results of some function directly to the web page, when I’m trying to use your code to write the output to a file, or run it in a testing environment I’m going to be frustrated. What if I’m trying to build an internationalized app, and you’re echo’ing out English? Don’t assume you know in what context your code will be run, return objects, or strings. <strong>Don’t print.</strong></li>
+  <li>Return data, strings, or objects, not HTML.  The corollary to the don’t print rule, and abused nearly as often, if not more so, is don’t return formatted HTML. (unless you are writing an HTML widget, in which case that is all you should be doing) If you return the results of your function as a formatted table, it might be pretty and easy to use, but I can’t pass those results to another function to sort them, or integrate it with my pure CSS layout. It is really common to see code like <code class="language-plaintext highlighter-rouge">echo('&amp;lt;font color="red"&amp;gt;$error_msg&amp;lt;/font&amp;gt;');</code>. Don’t do it.</li>
+  <li>Allow intelligent error handling  One of the most common reasons a library will print content directly to the web page is on encountering an error. This makes makes it very difficult for the application using your library to figure out what happened and respond accordingly. Don’t assume your code is the most important part of someone’s application, maybe they don’t care if you failed? Or maybe they care a whole bunch, and want to totally change what they were doing?</li>
+  <li>
+    <p>Use an error() function  I’m still struggling to come up with the best way to do error handling as a library in PHP. Once PHP5 arrives and we have real exceptions, much of this will be irrelevant. In the meantime.</p>
+
+    <p>What I do with Magpie is provide an <code class="language-plaintext highlighter-rouge">error()</code> method for each part of the application.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">error()</code> takes a message, and an optional error level, appends <code class="language-plaintext highlighter-rouge">php&lt;em&gt;errormsg&lt;/em&gt;</code> if <code class="language-plaintext highlighter-rouge">trackerrors</code> is on, prepends a string identifying the library that is throwing the error, sets up a package/class variable with the resulting error, and, if debugging is on, triggers an error message.</p>
+
+    <p>Why is this good? Code using your library has easy way to check for error conditions (<code class="language-plaintext highlighter-rouge">if ($lib-&gt;error) { ... do error handling .. } </code> ), error messages are very complete, and consistently formatted, when someone is developing with your app they can easily find out what went wrong based on their <code class="language-plaintext highlighter-rouge">php.ini</code> settings, and lastly if someone does need to hack or override your chosen behaviour, they only have to do it once.</p>
+  </li>
+  <li>
+    <p>Allow simple configuration  If you don’t provide a way for people to change the behaviour of your library, then you force them to hack on it. If someone has had to go into your code and hack on it, then they’ll be resistant to upgrading as new versions become available, and any changes they make that you want to roll back into the core will be more difficult to apply.</p>
+
+    <p>Configuration can be parameters passed to a class’s constructor, set/get methods called later, or constants defined at a runtime. (more on this later)</p>
+  </li>
+  <li>Choose intelligent defaults  This is true with any application, or library in any environment. It is particular true with PHP where a great number of your users aren’t programmers by profession or choice, but just trying to get something working to support their real work.</li>
+  <li>
+    <p>Break your library into multiple files  One way to simplify your code, and encourage encapsulation and reuse is to split your library into logically sub pieces, and move these pieces into their own files.</p>
+
+    <p>Something I didn’t do with Magpie, but wish I had was store all the files in a lib/ directory. Having all your files in a single directory makes it much easier for people to install your code. (When it came time to bundle an external library, a modified version of Snoopy, I had learned, and put it in extlib/ )</p>
+
+    <p>This tip is really an excuse for the next tip.</p>
+  </li>
+  <li>Don’t assume everyone’s PHP looks like yours.  PHP has a lot of configuration options, runs on dozens of different platforms, and is used in all sorts of different ways. Keep that in mind when writing a library.</li>
+  <li>
+    <p>If you have multiple files, allow your user to define a base dir. (aka don’t make assumptions #1)  This is trick from Smarty that was pointed out to me.</p>
+
+    <p>If you have a core library file (e.g. class.inc) that will be including support files don’t make assumptions about the PHP include path on the various machines where your library will be installed.</p>
+
+    <p>For example assume there is a constant MAGPIE_DIR defined then you can include the support libraries with:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>require_once( MAGPIE_DIR . 'rss_parse.inc' );
+require_once( MAGPIE_DIR . 'rss_cache.inc' );
+    
+</code></pre></div>    </div>
+
+    <p>This allows code that uses your library to inform your code about the local environment, rather then forcing your client code into contortion to match your expectation of how a PHP install should work.</p>
+
+    <p>MAGPIE<em>DIR (or YOUR</em>LIBRARY*DIR) might be set up with code like: ```</p>
+    <pre class="code">
+if (!defined('DIR
+```* SEP')) { define('DIR*SEP', DIRECTORY*SEPARATOR); }
+    
+if (!defined('MAGPIE*DIR')) { define('MAGPIE*DIR', dirname(**FILE**) . DIR\_SEP); }
+    
+Which fill set the MAGPIE\_DIR to the current directory (useful as ‘.’ isn’t always in the include path) unless you override it with a statement like (for example):
+    
+```
+<pre class="code">
+define('MAGPIE_DIR', '../../magpiefiles');
+```
+    
+ ```
+    &lt;/p&gt;
+    <p>
+        (More on using constants for configuration later.) 
+    </p>
+&lt;/li&gt;
+<li>
+    If you're using a semi-obscure PHP extension test that it has been compiled in.  (aka don't make assumptions #2)
+    <p>
+        This <a href="http://laughingmeme.org/archives/000811.html">bit me hard</a> when developing MagpieRSS.  I add supported HTTP gzip encoding, and suddenly for a small number of users Magpie starting failing.  This was a surprisingly difficult bug to track down, I recomend avoiding it all together.  This is what PHP's function_exists() function is for.
+    </p>
+    <p>
+    In code that uses gzinflate I might add a conditional like
+    <pre class="code">
+    
+```
+    
+if ( function*exists(‘gzinflate’) ) { …. } Or at the beginning of the Magpie RSS parser I check to make sure PHP has been built with XML support with ```
+<pre class="code">
+if (!function
+```* exists('xml*parser*create')) { ... trigger error ... }
+</pre></pre></p></li></pre></pre>
+  </li>
+  <li>
+    <p>Don’t pollute the global namespace All functions share a namespace in PHP. What that means is, if I have a parse<em>file() function in my library, and you have a parse</em>file() function in your library PHP has no way of telling them apart, and we’ve got a serious problem. Classes help with this.</p>
+
+    <p>Another option is to prefix the functions in your library with a common string. <a href="http://minutillo.com/steve/weblog/">Steve</a> does this with <a href="http://minutillo.com/steve/feedonfeeds/">Feed on Feeds</a>, prefixing all his functions with fof<em>, e.g. parse</em>file() becomes fof<em>parse</em>file(). Cuts down on conflicts, and increases readability.</p>
+  </li>
+  <li>If you use database tables allow a table prefix. (aka don’t pollute the other global namespace) Most libraries aren’t going to work directly with a database, that is the province of applications usually, but if you are consider allowing the user to configure a table prefix, much like the function prefix from the previous tip. Many users are on low end hosting platforms with only a single MySQL database, this creates another global namespace. If my library has a <code class="language-plaintext highlighter-rouge">user</code> table, and your library has a <code class="language-plaintext highlighter-rouge">user</code> table, and we have different schemas (almost a guarantee) then we’ve got a problem.</li>
+  <li>Provide a well designed, object oriented interface to your library, that follows the above rules.  This is outside the scope of these tips, but see the following corollary.</li>
+  <li>
+    <p>Provide a functional, PHP-like interface that builds on your OO interface.  PHP is not a language for building airy, abstract object hierarchies. It is a quick and dirty language for throwing together webpages with a minimum of fuss. While its important to provide the more elegant interface for your advanced users, and to encourage proper design, the majority of your users are going to want something simpler.</p>
+
+    <p>With Magpie I provide an object oriented RSS parsing class. I also provide a simple, <code class="language-plaintext highlighter-rouge">rss&lt;em&gt;fetch()&lt;/em&gt;</code> one function front-end that is designed to be used directly from within a PHP page.</p>
+
+    <p>My design consideration for <code class="language-plaintext highlighter-rouge">rssfetch</code> were fetching remote files is time consuming, and parsing an XML file can be resource intensive. In most languages/environments you would setup a cron script to run in the background handling these tasks, and spitting out HTML fragments. This is not very PHP-like, and often beyond the technical ability of many PHP users. (or beyond what is offered in their hosting environment). So <code class="language-plaintext highlighter-rouge">rss&lt;em&gt;fetch&lt;/em&gt;</code> transparently uses PHP’s <code class="language-plaintext highlighter-rouge">serialize</code> and <code class="language-plaintext highlighter-rouge">unserialize</code> to cache the results of the time/resource intensive calls, and serve subsequent calls quickly.</p>
+
+    <p>This makes it very easy for the end users to do the right thing, while writing simple, idiomatic PHP. I think this is very important for writing useful PHP libraries, and is one of the challenges that comes with the territory.</p>
+  </li>
+  <li>
+    <p>Configuring the functional interface using defines.  (aside: by functional we means as opposed to object-oriented, not as opposed to non-functional or dysfunctional)</p>
+
+    <p>Choose intelligent defaults, and provide a simple default means our functional interface should “just work” for many people. But when it doesn’t, it should be equally easy to configure without cluttering up the API.</p>
+
+    <p>What I’ve done with Magpie, and its worked well, is extend the technique used in “setting a base dir”.</p>
+
+    <p>Conditionalize your library behaviour on a set of constants (e.g. MAGPIEUSE<em>GZIP, and MAGPIE</em>CACHE*ON). Document these constants. People can now change the behaviour of your library with some simple statements at the top of their PHP, like: ```</p>
+    <pre class="code">
+define('MAGPIE
+```* CACHE*ON', false); // turn off cacheing Then the first thing your function should do is call an `init()` function which sets up those intelligent default we talked about: ```
+<pre class="code">
+function init () {
+    if ( defined('MAGPIE
+```* INITALIZED') ) { return; }
+    
+```
+if ( !defined('MAGPIE_CACHE_ON') ) {
+    define('MAGPIE_CACHE_ON', true);
+}
+... other constants ....
+define('MAGPIE_INITALIZED', true);
+    
+```
+    
+}
+</pre></pre>
+  </li>
+  <li>Provide examples  Always a good idea, but particularly important when distributing PHP libraries. Don’t assume people will read the documentation, or if they do your programmer-esque understanding of your tool will be meaningful to them. What will make sense is example.</li>
+  <li>
+    <p>Provide examples, carefully  Be careful what your examples look like because whatever you do in your example is what 90% of your users will do in their scripts.</p>
+
+    <p>Test your examples or your support queue will fill up with people who cut and pasted your code and it isn’t working for them.</p>
+
+    <p>Make your examples as attractive as you can while still being simple, otherwise you’ll be forced to look at your ugly HTML all over the web.</p>
+
+    <p>Show examples that show proper use of your library, including best practices like error handling. If your examples show how to use a feature it will be used, if they don’t, them most people won’t use them.</p>
+  </li>
+  <li>
+    <p>Document  Document document document. Provide inline document. Provide a README. Provide a FAQ. Provide a website. Provide hints of where to go looking for more info. Hints like “this class is used by rss<em>fetch() you can stop reading now if you just want to use the simple interface” can also be useful. (of course don’t sound too smug about it, as chances are people are there trying to find one of your bugs)</em></p>
+
+    <p>Running code is good documentation.</p>
+
+    <p>If you’re going to provide code snippets make them longer then seems necessary as people will often have different instincts about what should come before and after the line in question. This is again the joy and trouble with providing a PHP library.</p>
+
+    <p>I personally like “cookbooks”, a hybrid of a FAQ and running code samples.</p>
+  </li>
+  <li>
+    <p>Use it Yourself, Use Consistent Names, Plan to Expand  And just to re-iterate a few of Moran’s suggestions</p>
+
+    <p>Until you really use your library you’ll never know how well you’ve succeeded. When you write a library you shouldn’t conceive of yourself as the only user, but certainly one of the users. Also developing good relationship with people who use your library will cause it to improve dramatically.</p>
+
+    <p>If you name half your methods <code class="language-plaintext highlighter-rouge">getRSSFile()</code> and the other half <code class="language-plaintext highlighter-rouge">getcache_dir()</code> your users (and yourself in a few months) will be confused, and your code will look messy.</p>
+
+    <p>Moran says, “Never return a single value when you can return an array. Never return an array when you can return an object.”</p>
+
+    <p>I think that is overstating the case, often you’ll want to return a single value for simplicity sake, but take into account when you might not want to. Often returning an object will make the most sense, as long as your clearly document how to use the object.</p>
+  </li>
+</ol>
+
+<h3 id="php-needs-libraries">PHP needs libraries</h3>
+
+<p>PHP can be a frustrating language to work in, but its also very rewarding. One of the things I find most rewarding about it is the chance to make an impact, and the easiest way to do that if to release well written, well architected libraries. The community is starting pull together and provide some of this in form of PEAR and PECL, but those projects have a long way to go before they are well documented, easy to use and easy to install. In the meantime you can fill a critical need. ### Resisting Temptation, Educating, and Refactoring</p>
+
+<p>Because this lack of libraries is a deep set cultural problem you’ll often find users writing you asking you to add feature X, or feature Y to your library to make it work more like they want their application to work. Remember you’re doing one thing, and doing it well. This is a chance for education. Explain that you’re building a library and the features they’ve asked for are more suited to an application. If you’re feeling like you have the time, or are particularly generous, or if a request comes up over and over consider adding a code sample to your examples to show how to fulfill that particular feature request. Among other things you might find its harder then it should be, and prompt a change in your library. Thanks to <a href="http://minutillo.com/steve/weblog/">Steve</a>, <a href="http://traumwind.de/blog/">Martin</a>, <a href="http://radio.weblogs.com/0103807/">Scott</a>, and <a href="http://anarchogeek.com">Evan</a> for their feedback and suggestions.</p>
+
+  </div><a class="u-url" href="/2003/08/05/a-few-tips-for-writing-useful-libraries-in-php/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

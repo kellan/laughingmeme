@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Delete Comment Spam by Mail | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Delete Comment Spam by Mail" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A particularly profligate spammer (with an odd habit of spamming me with URLs that resolve to 127.0.0.1), plus the growing awareness that I was falling down on my maintenance routines of deleting spam comments and blacklisting URLs, pushed me to write a new script last night, one to which I can forward the ‘New Comment Posted’ notifications for spam comments, and have it blacklist the URLs, delete the comment, and rebuild the entry. (ideally would also blacklist the IP)" />
+<meta property="og:description" content="A particularly profligate spammer (with an odd habit of spamming me with URLs that resolve to 127.0.0.1), plus the growing awareness that I was falling down on my maintenance routines of deleting spam comments and blacklisting URLs, pushed me to write a new script last night, one to which I can forward the ‘New Comment Posted’ notifications for spam comments, and have it blacklist the URLs, delete the comment, and rebuild the entry. (ideally would also blacklist the IP)" />
+<link rel="canonical" href="https://laughingmeme.org//2004/01/09/delete-comment-spam-by-mail/" />
+<meta property="og:url" content="https://laughingmeme.org//2004/01/09/delete-comment-spam-by-mail/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2004-01-09T10:47:01+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Delete Comment Spam by Mail" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2004-01-09T10:47:01+00:00","datePublished":"2004-01-09T10:47:01+00:00","description":"A particularly profligate spammer (with an odd habit of spamming me with URLs that resolve to 127.0.0.1), plus the growing awareness that I was falling down on my maintenance routines of deleting spam comments and blacklisting URLs, pushed me to write a new script last night, one to which I can forward the ‘New Comment Posted’ notifications for spam comments, and have it blacklist the URLs, delete the comment, and rebuild the entry. (ideally would also blacklist the IP)","headline":"Delete Comment Spam by Mail","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2004/01/09/delete-comment-spam-by-mail/"},"url":"https://laughingmeme.org//2004/01/09/delete-comment-spam-by-mail/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Delete Comment Spam by Mail</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2004-01-09T10:47:01+00:00" itemprop="datePublished">Jan 9, 2004
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>A particularly profligate spammer (with an odd habit of spamming me with URLs that resolve to 127.0.0.1), plus the growing awareness that I was falling down on my maintenance routines of deleting spam comments and blacklisting URLs, pushed me to write a new script last night, one to which I can forward the ‘New Comment Posted’ notifications for spam comments, and have it blacklist the URLs, delete the comment, and rebuild the entry. (ideally would also blacklist the IP)</p>
+
+<p>An aside: this was my first time using <a href="http://search.cpan.org/dist/Email-Simple">Email::Simple</a> from the Perl Email Project (no website?) as suggested to me by <a href="http://aaronland.info">Aaron</a> many months ago, and it lived up to its name – it was simple.</p>
+
+<p>That said the rest of this script, while quick and dirty (and sure to be a candidate for Kellan’s First Law of Blogging About Code: <em>When using a sufficiently expressive programming language it should be faster to write the code then explain it in a blog entry.</em>) is not simple install, see MT-Blacklist for that.</p>
+
+<p>The trickiest part was getting the script to run with enough permissions to be able to update the blacklist, and overwrite an individual archive. I wanted to be able to just add a line like <code class="language-plaintext highlighter-rouge">die-spammer: |/path/to/comment-spam.pl</code> to my aliases file, but Postfix, in its wisdom, was running my script as nobody. Then I tried setuid’ing the script (with my sysadmin’s bleary permission, the 3 hour difference means I can hit him with these questions on his way to bed), but Postfix again, in its wisdom, blocked me. So I’m calling it from procmail with the following rule:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+:0f: comment-spam.lock
+* To: die-spammer
+| /path/to/comment-spam.pl
+</code></pre></div></div>
+
+<p>Which is unfortunately a “non-delivering” rule, which means I have to add a second rule to /dev/null the messages. The other slightly annoying problem is <code class="language-plaintext highlighter-rouge">MT::App::Comments::post()</code> is a single monolithic method, with neither methods, nor a template for constructing the notification emails. So to add the comment ID to the notification emails I had to copy over the entire <code class="language-plaintext highlighter-rouge">post()</code> method. (I should check if Jay has a solution to this)</p>
+
+<p>Anyone interested, here is the script: <a href="/comment-spam.pl.txt">comment-spam.pl</a>. Ideally it should probably check the from address, as some sort of safe guard.</p>
+
+<p>And here is the patch to MT::App::Comments:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+*** lib/MT/App/Comments.pm Sun Feb 23 02:25:56 2003
+--- spambad/MT/App/Comments.pm        Tue Jan  6 12:17:58 2004
+
+&lt;hr&gt;&lt;/hr&gt;
+
+&lt;p&gt;*** 146,149 ****
+--- 146,150 ----
+              $body = Text::Wrap::wrap('', '', $body) . "\n$link_url\n\n" .
+                $app-&gt;translate('IP Address:') . ' ' . $comment-&gt;ip . "\n" .
++               $app-&gt;translate('Comment ID:') . ' ' . $comment-&gt;id . "\n" .
+                $app-&gt;translate('Name:') . ' ' . $comment-&gt;author . "\n" .
+                $app-&gt;translate('Email Address:') . ' ' . $comment-&gt;email . "\n" .&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/2004/01/09/delete-comment-spam-by-mail/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

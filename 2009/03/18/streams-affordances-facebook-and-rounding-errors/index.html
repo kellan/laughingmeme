@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Streams, affordances, Facebook, and rounding errors | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Streams, affordances, Facebook, and rounding errors" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’m not really a Facebook user, but it is impossible to be a serious practitioner of the rough craft of building social software without being at least somewhat a Facebook watcher. So indulge me a bit, as I add my own thoughts to the cacophony of folks writing about the Facebook re-design." />
+<meta property="og:description" content="I’m not really a Facebook user, but it is impossible to be a serious practitioner of the rough craft of building social software without being at least somewhat a Facebook watcher. So indulge me a bit, as I add my own thoughts to the cacophony of folks writing about the Facebook re-design." />
+<link rel="canonical" href="https://laughingmeme.org//2009/03/18/streams-affordances-facebook-and-rounding-errors/" />
+<meta property="og:url" content="https://laughingmeme.org//2009/03/18/streams-affordances-facebook-and-rounding-errors/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-03-18T10:07:35+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Streams, affordances, Facebook, and rounding errors" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2009-03-18T10:07:35+00:00","datePublished":"2009-03-18T10:07:35+00:00","description":"I’m not really a Facebook user, but it is impossible to be a serious practitioner of the rough craft of building social software without being at least somewhat a Facebook watcher. So indulge me a bit, as I add my own thoughts to the cacophony of folks writing about the Facebook re-design.","headline":"Streams, affordances, Facebook, and rounding errors","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2009/03/18/streams-affordances-facebook-and-rounding-errors/"},"url":"https://laughingmeme.org//2009/03/18/streams-affordances-facebook-and-rounding-errors/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Streams, affordances, Facebook, and rounding errors</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2009-03-18T10:07:35+00:00" itemprop="datePublished">Mar 18, 2009
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I’m not really a Facebook user, but it is impossible to be a serious practitioner of the rough craft of building social software without being at least somewhat a Facebook watcher. So indulge me a bit, as I add my own thoughts to the cacophony of folks writing about the <a href="http://www.facebook.com/sitetour/homepage\_tour.php">Facebook re-design</a>.</p>
+
+<p>I’ve always thought their status updates design was brilliant. Not because it was usable or attractive, I’ve always thought it was terrible. But because their design didn’t make promises they couldn’t keep.</p>
+
+<p>Think briefly about the platonic ideal of an activity stream, the increasingly common social pattern that makes your traditional <a href="http://en.wikipedia.org/wiki/Create,*read,*update*and*delete">CRUD</a> fronted MySQL install cry at anything remotely resembling scale. All the updates from your social network, quickly listed for your viewing pleasure, in reverse date ordering. No two users of your service will share an activity stream view (unless your service tends towards 100% social graph overlap, in which case why bother?), writes are high volume and need to be committed quickly to preserve ordering, and shared caching is right out.</p>
+
+<p>So you go queue-ish, you de-normalize. And now you’re pushing messages around between services, transactional commit are gone, and you’re dealing with the inevitable skew of distributed systems. But even in queue systems, 100% guaranteed, in order delivery is more fantasy then reality (though you can get close).</p>
+
+<p>But Facebook was smarter then that. They specifically designed a page that was lossy. They said, “You don’t want to see everything, here is a subset of things your friends do we think you’ll be interested in.” And so you knew that you weren’t seeing everything, it wasn’t that they were failing their contract with you, but that they had decided not to show you something for editorial reasons. And you knew that if you wanted to see everything you had to dig, because that was the contract. And that digging was scoped to a user, your wall or your friends wall, data scoped by data owner — super cheap look up.</p>
+
+<p>Contrast this to <a href="http://twitter.com">Twitter</a>.</p>
+
+<p>Twitter is infamous for its bad period of down time as growth went asymptotic. But less well remembered is the teeth gnashing and hair pulling of the bad period right before, where update loss, delivery failure, and out of order delivery where the bugaboos of the day. Twitter promised you would see all your friends updates, always, neatly collated. The promise is implicit in the design, the language, the APIs, the very DNA of the service. (in fact Twitter used to make more audacious claims, I still mourn the death of the “With Friends” feature, that allowed you to see <em>anyone’s</em> public updates in the context of their friend network, not just your own).</p>
+
+<p>One of the best, unattributable quotes from <a href="http://sgfoocamp08.pbwiki.com/">Social Foo</a> last year was the data point that Facebook was at one point losing up to 80% of messages across their update bus. As someone whose expectations are shaped by the five nines style promises of Twitter, its a loss at scale which I can’t possibly fathom. And it wasn’t even an issue in the Facebook community. And when they expire updates out of hot storage to less accessible stores, you don’t notice, because they never offered you the option to page back forever. Contrast again to Twitter whose design (if not content) encourages you to page back forever until you smack up against an arbitrary and surprising limit. (whose exact location has changed over the years)</p>
+
+<p>That is designing with affordances. Don’t let your design make promises you can’t keep.</p>
+
+<p>A much smaller and possibly less well known example is the Flickr activity page, where you can monitor activity on your photos, or photos you’ve expressed interest in. For years this page was framed in the language of “which of these limited time periods are you interested in seeing events in?”, that was the question the page tried to answer. Not, “what has ever happened on my stuff?”. Because that was a much harder, and more expensive question to answer. As part of the Toto launch (new homepage) on Flickr last Fall we explicitly changed our contract with our users. Great photography has a 150 year tradition, and we felt that we could at least try to expose 5 years worth of conversations. (and Flickr usage by our members evolves and changes as their lifes evolve and change, something all good social software should design for, rather then living in the ever present now) Our activity streams go all the way back to the beginning now, but it wasn’t a change undertaken without a lot of thinking, architecture, and engineering.</p>
+
+<p><a href="http://simonwillison.net/">Simon Willison</a> asked this week about best practice for architecting activity streams. And the answer is, “It depends.” Depends on the scope, scale, access patterns, and affordances you’re building — your contract with your users.</p>
+
+<p>Which is a long way of saying think hard about the promises you make to your users, implicitly or explicitly.</p>
+
+<p>And, Facebook, my friend, what the <strong>HELL</strong> are you thinking? You managed to negotiate the best deal in the business, talk about a racket, and you threw it away for a piece of Twitter’s pain? Are you stupid? Well, best of luck with that.</p>
+
+  </div><a class="u-url" href="/2009/03/18/streams-affordances-facebook-and-rounding-errors/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

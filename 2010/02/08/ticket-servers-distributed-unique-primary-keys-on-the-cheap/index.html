@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Ticket Servers: Distributed Unique Primary Keys on the Cheap | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Ticket Servers: Distributed Unique Primary Keys on the Cheap" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="(re-published from the Flickr Code Blog)" />
+<meta property="og:description" content="(re-published from the Flickr Code Blog)" />
+<link rel="canonical" href="https://laughingmeme.org//2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/" />
+<meta property="og:url" content="https://laughingmeme.org//2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-02-08T07:53:39+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ticket Servers: Distributed Unique Primary Keys on the Cheap" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2010-02-08T07:53:39+00:00","datePublished":"2010-02-08T07:53:39+00:00","description":"(re-published from the Flickr Code Blog)","headline":"Ticket Servers: Distributed Unique Primary Keys on the Cheap","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/"},"url":"https://laughingmeme.org//2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Ticket Servers: Distributed Unique Primary Keys on the Cheap</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2010-02-08T07:53:39+00:00" itemprop="datePublished">Feb 8, 2010
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>(re-published from the <a href="http://code.flickr.com/blog">Flickr Code Blog</a>)</p>
+
+<p>This is the first post in the <a href="http://code.flickr.com/blog/2010/02/08/using-abusing-and-scaling-mysql-at-flickr/">Using, Abusing and Scaling MySQL at Flickr</a> series.</p>
+
+<p>Ticket servers aren’t inherently interesting, but they’re an important building block at Flickr. Among other things they are core to topics we’ll be talking about later, like sharding and master-master. Ticket servers give us globally (Flickr-wide) unique integers to serve as primary keys in our distributed setup.</p>
+
+<h3 id="why">Why?</h3>
+
+<p>Sharding (aka <a href="http://en.wikipedia.org/wiki/Partition_(database)">data partioning</a>) is how we scale Flickr’s datastore. Instead of storing all our data on one really big database, we have lots of databases, each with some of the data, and spread the load between them. Sometimes we need to migrate data between databases, so we need our primary keys to be globally unique. Additionally our MySQL shards are built as master-master replicant pairs for resiliency. This means we need to be able to guarantee uniqueness within a shard in order to avoid key collisions. We’d love to go on using MySQL auto-incrementing columns for primary keys like everyone else, but MySQL can’t guarantee uniqueness across physical and logical databases.</p>
+
+<h3 id="guids">GUIDs?</h3>
+
+<p>Given the need for globally unique ids the obvious question is, why not use GUIDs? Mostly because GUIDs are big, and they index badly in MySQL. One of the ways we keep MySQL fast is we index everything we want to query on, and we only query on indexes. So index size is a key consideration. If you can’t keep your indexes in memory, you can’t keep your database fast. Additionally ticket servers give us sequentiality which has some really nice properties including making reporting and debugging more straightforward, and enabling some caching hacks.</p>
+
+<h3 id="consistent-hashing">Consistent Hashing?</h3>
+
+<p>Some projects like <a href="http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html">Amazon’s Dynamo</a> provide a consistent hashing ring on top of the datastore to handle the GUID/sharding issue. This is better suited for write-cheap environments (e.g. <a href="http://portal.acm.org/citation.cfm?id=230826">LSMTs</a>), while MySQL is optimized for fast random reads.</p>
+
+<h3 id="centralizing-auto-increments">Centralizing Auto-Increments</h3>
+
+<p>If we can’t make MySQL auto-increments work across multiple databases, what if we just used one database? If we inserted a new row into this one database every time someone uploaded a photo we could then just use the auto-incrementing ID from that table as the primary key for all of our databases.</p>
+
+<p>Of course at 60+ photos a second that table is going to get pretty big. We can get rid of all the extra data about the photo, and just have the ID in the centralized database. Even then the table gets unmanageably big quickly. And there are comments, and favorites, and group postings, and tags, and so on, and those all need IDs too.</p>
+
+<h3 id="replace-into">REPLACE INTO</h3>
+
+<p>A little over a decade ago MySQL shipped with a non-standard extension to the ANSI SQL spec, <a href="http://dev.mysql.com/doc/refman/5.0/en/replace.html">“REPLACE INTO”</a>. Later <a href="http://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html">“INSERT ON DUPLICATE KEY UPDATE”</a> came along and solved the original problem much better. However REPLACE INTO is still supported.</p>
+
+<blockquote>
+  <p>REPLACE works exactly like INSERT, except that if an old row in the table has the same value as a new row for a PRIMARY KEY or a UNIQUE index, the old row is deleted before the new row is inserted.</p>
+</blockquote>
+
+<p>This allows us to atomically update in a place a single row in a database, and get a new auto-incremented primary ID.</p>
+
+<h3 id="putting-it-all-together">Putting It All Together</h3>
+
+<p>A Flickr ticket server is a dedicated database server, with a single database on it, and in that database there are tables like <code class="language-plaintext highlighter-rouge">Tickets32</code> for 32-bit IDs, and <code class="language-plaintext highlighter-rouge">Tickets64</code> for 64-bit IDs.</p>
+
+<p>The Tickets64 schema looks like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CREATE TABLE `Tickets64` (
+  `id` bigint(20) unsigned NOT NULL auto_increment,
+  `stub` char(1) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `stub` (`stub`)
+) ENGINE=MyISAM
+
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">SELECT * from Tickets64</code> returns a single row that looks something like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-------------------+------+
+| id                | stub |
++-------------------+------+
+| 72157623227190423 |    a |
++-------------------+------+
+
+</code></pre></div></div>
+
+<p>When I need a new globally unique 64-bit ID I issue the following SQL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>REPLACE INTO Tickets64 (stub) VALUES ('a');
+SELECT LAST_INSERT_ID();
+
+</code></pre></div></div>
+
+<h3 id="spofs">SPOFs</h3>
+
+<p>You really really don’t know want provisioning your IDs to be a single point of failure. We achieve “high availability” by running two ticket servers. At this write/update volume replicating between the boxes would be problematic, and locking would kill the performance of the site. We divide responsibility between the two boxes by dividing the ID space down the middle, evens and odds, using:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TicketServer1:
+auto-increment-increment = 2
+auto-increment-offset = 1
+
+TicketServer2:
+auto-increment-increment = 2
+auto-increment-offset = 2
+
+</code></pre></div></div>
+
+<p>We round robin between the two servers to load balance and deal with down time. The sides do drift a bit out of sync, I think we have a few hundred thousand more odd number objects then evenly numbered objects at the moment, but this hurts no one.</p>
+
+<h3 id="more-sequences">More Sequences</h3>
+
+<p>We actually have more tables then just <code class="language-plaintext highlighter-rouge">Tickets32</code> and <code class="language-plaintext highlighter-rouge">Tickets64</code> on the ticket servers. We have a sequences for Photos, for Accounts, for <a href="http://code.flickr.com/blog/2008/09/26/flickr-engineers-do-it-offline/">OfflineTasks</a>, and for Groups, etc. OfflineTasks get their own sequence because we burn through so many of them we don’t want to unnecessarily run up the counts on other things. Groups, and Accounts get their own sequence because we get comparatively so few of them. Photos have their own sequence that we made sure to sync to our old auto-increment table when we cut over because its nice to know how many photos we’ve had uploaded, and we use the ID as a short hand for keeping track.</p>
+
+<h3 id="so-theres-that">So There’s That</h3>
+
+<p>It’s not particularly elegant, but it works shockingly well for us having been in production since Friday the 13th, January 2006, and is a great example of the Flickr engineering <a href="http://laughingmeme.org/2009/09/29/try-coding-dear-boy/">dumbest possible thing that will work</a> design principle.</p>
+
+<p>More soon.</p>
+
+  </div><a class="u-url" href="/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

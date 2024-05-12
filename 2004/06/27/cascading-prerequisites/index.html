@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Cascading Prerequisites | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Cascading Prerequisites" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Having setup a new system with a base Perl several times recently I’ve invented a new game." />
+<meta property="og:description" content="Having setup a new system with a base Perl several times recently I’ve invented a new game." />
+<link rel="canonical" href="https://laughingmeme.org//2004/06/27/cascading-prerequisites/" />
+<meta property="og:url" content="https://laughingmeme.org//2004/06/27/cascading-prerequisites/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2004-06-27T11:47:46+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Cascading Prerequisites" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2004-06-27T11:47:46+00:00","datePublished":"2004-06-27T11:47:46+00:00","description":"Having setup a new system with a base Perl several times recently I’ve invented a new game.","headline":"Cascading Prerequisites","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2004/06/27/cascading-prerequisites/"},"url":"https://laughingmeme.org//2004/06/27/cascading-prerequisites/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Cascading Prerequisites</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2004-06-27T11:47:46+00:00" itemprop="datePublished">Jun 27, 2004
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Having setup a new system with a base Perl several times recently I’ve invented a new game.</p>
+
+<p>It is very frustrating to be offline and find that one of your old standby modules isn’t available, and yet who wants to spend all that time installing modules? So the game is to find the single module with the largest dependency tree, that will bring in the highest number of high quality libraries on a virgin install. So far my candidate is <a href="http://search.cpan.org/dist/Email-Store">Email::Store</a> which I just installed having only previously installed Bundle::CPAN and <a href="http://search.cpan.org/dist/DateTime">DateTime</a>. (btw. this isn’t a criticism, what I love about Perl is how highly leveraged it all is)</p>
+
+<p>In order to get Email::Store to install (and pass its tests, through in retrospect I probably could have ignored Class::DBI::DATA::Schema complaining about needing SQL::Translator, and Cache::File and ended up with a much shorter list) I installed (well CPAN did all the work) the following list of modules</p>
+
+<ol>
+  <li><a href="http://search.cpan.org/dist/MailTools-1.62">MailTools-1.62</a></li>
+  <li><a href="http://search.cpan.org/dist/Email-Valid-0.15">Email-Valid-0.15</a></li>
+  <li><a href="http://search.cpan.org/dist/Email-Simple-1.61">Email-Simple-1.61</a></li>
+  <li><a href="http://search.cpan.org/dist/Text-Glob-0.06">Text-Glob-0.06</a></li>
+  <li><a href="http://search.cpan.org/dist/Number-Compare-0.01">Number-Compare-0.01</a></li>
+  <li><a href="http://search.cpan.org/dist/File-Find-Rule-0.28">File-Find-Rule-0.28</a></li>
+  <li><a href="http://search.cpan.org/dist/Exporter-Lite-0.01">Exporter-Lite-0.01</a></li>
+  <li><a href="http://search.cpan.org/dist/UNIVERSAL-exports-0.03">UNIVERSAL-exports-0.03</a></li>
+  <li><a href="http://search.cpan.org/dist/Module-Pluggable-1.6">Module-Pluggable-1.6</a></li>
+  <li><a href="http://search.cpan.org/dist/Email-Abstract-1.0">Email-Abstract-1.0</a></li>
+  <li><a href="http://search.cpan.org/dist/URI-1.31">URI-1.31</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-ListDetector-0.31">Mail-ListDetector-0.31</a></li>
+  <li><a href="http://search.cpan.org/dist/Module-Pluggable-Ordered-1.0">Module-Pluggable-Ordered-1.0</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-Message-Attachment-Stripper-1.0">Mail-Message-Attachment-Stripper-1.0</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-Box-2.055">Mail-Box-2.055</a></li>
+  <li><a href="http://search.cpan.org/dist/Geography-Countries-1.4">Geography-Countries-1.4</a></li>
+  <li><a href="http://search.cpan.org/dist/User-Identity-0.07">User-Identity-0.07</a></li>
+  <li><a href="http://search.cpan.org/dist/TimeDate-1.16">TimeDate-1.16</a></li>
+  <li><a href="http://search.cpan.org/dist/Scalar-List-Utils-1.14">Scalar-List-Utils-1.14</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-IMAPClient-2.2.9">Mail-IMAPClient-2.2.9</a></li>
+  <li><a href="http://search.cpan.org/dist/MIME-Types-1.13">MIME-Types-1.13</a></li>
+  <li><a href="http://search.cpan.org/dist/IO-stringy-2.109">IO-stringy-2.109</a></li>
+  <li><a href="http://search.cpan.org/dist/MIME-tools-5.411">MIME-tools-5.411</a></li>
+  <li><a href="http://search.cpan.org/dist/HTML-Tagset-3.03">HTML-Tagset-3.03</a></li>
+  <li><a href="http://search.cpan.org/dist/HTML-Parser-3.36">HTML-Parser-3.36</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-SpamAssassin-2.63">Mail-SpamAssassin-2.63</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-Box-Parser-C-3.005">Mail-Box-Parser-C-3.005</a></li>
+  <li><a href="http://search.cpan.org/dist/Digest-SHA1-2.10">Digest-SHA1-2.10</a></li>
+  <li><a href="http://search.cpan.org/dist/Digest-HMAC-1.01">Digest-HMAC-1.01</a></li>
+  <li><a href="http://search.cpan.org/dist/Object-Realize-Later-0.15">Object-Realize-Later-0.15</a></li>
+  <li><a href="http://search.cpan.org/dist/HTML-Tree-3.18">HTML-Tree-3.18</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-Box-2.055">Mail-Box-2.055</a></li>
+  <li><a href="http://search.cpan.org/dist/Mail-Message-Attachment-Stripper-1.0">Mail-Message-Attachment-Stripper-1.0</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-DBI-0.96">Class-DBI-0.96</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-Data-Inheritable-0.02">Class-Data-Inheritable-0.02</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-Trigger-0.08">Class-Trigger-0.08</a></li>
+  <li><a href="http://search.cpan.org/dist/DBI-1.42">DBI-1.42</a></li>
+  <li><a href="http://search.cpan.org/dist/DBIx-ContextualFetch-1.01">DBIx-ContextualFetch-1.01</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-WhiteHole-0.04">Class-WhiteHole-0.04</a></li>
+  <li><a href="http://search.cpan.org/dist/Ima-DBI-0.33">Ima-DBI-0.33</a></li>
+  <li><a href="http://search.cpan.org/dist/UNIVERSAL-moniker-0.07">UNIVERSAL-moniker-0.07</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-Accessor-0.19">Class-Accessor-0.19</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-DBI-DATA-Schema-0.04">Class-DBI-DATA-Schema-0.04</a></li>
+  <li><a href="http://search.cpan.org/dist/DBD-SQLite-0.31">DBD-SQLite-0.31</a></li>
+  <li><a href="http://search.cpan.org/dist/Email-Store-0.05">Email-Store-0.05</a></li>
+  <li><a href="http://search.cpan.org/dist/File-Slurp-9999.04">File-Slurp-9999.04</a></li>
+  <li><a href="http://search.cpan.org/dist/SQL-Translator-0.05">SQL-Translator-0.05</a></li>
+  <li><a href="http://search.cpan.org/dist/GD-2.12">GD-2.12</a></li>
+  <li><a href="http://search.cpan.org/dist/OLE-Storage_Lite-0.12">OLE-Storage_Lite-0.12</a></li>
+  <li><a href="http://search.cpan.org/dist/Spreadsheet-ParseExcel-0.2603">Spreadsheet-ParseExcel-0.2603</a></li>
+  <li><a href="http://search.cpan.org/dist/Algorithm-Diff-1.15">Algorithm-Diff-1.15</a></li>
+  <li><a href="http://search.cpan.org/dist/Text-Diff-0.35">Text-Diff-0.35</a></li>
+  <li><a href="http://search.cpan.org/dist/Test-Differences-0.47">Test-Differences-0.47</a></li>
+  <li><a href="http://search.cpan.org/dist/Sub-Uplevel-0.08">Sub-Uplevel-0.08</a></li>
+  <li><a href="http://search.cpan.org/dist/Test-Builder-Tester-0.09">Test-Builder-Tester-0.09</a></li>
+  <li><a href="http://search.cpan.org/dist/Test-Exception-0.15">Test-Exception-0.15</a></li>
+  <li><a href="http://search.cpan.org/dist/YAML-0.35">YAML-0.35</a></li>
+  <li><a href="http://search.cpan.org/dist/AppConfig-1.56">AppConfig-1.56</a></li>
+  <li><a href="http://search.cpan.org/dist/Template-Toolkit-2.13">Template-Toolkit-2.13</a></li>
+  <li><a href="http://search.cpan.org/dist/XML-Writer-0.510">XML-Writer-0.510</a></li>
+  <li><a href="http://search.cpan.org/dist/XML-XPath-1.13">XML-XPath-1.13</a></li>
+  <li><a href="http://search.cpan.org/dist/Class-Base-0.03">Class-Base-0.03</a></li>
+  <li><a href="http://search.cpan.org/dist/Parse-RecDescent-1.94">Parse-RecDescent-1.94</a></li>
+  <li><a href="http://search.cpan.org/dist/GraphViz-1.8">GraphViz-1.8</a></li>
+  <li><a href="http://search.cpan.org/dist/IPC-Run-0.78">IPC-Run-0.78</a></li>
+  <li><a href="http://search.cpan.org/dist/Math-Bezier-0.01">Math-Bezier-0.01</a></li>
+  <li><a href="http://search.cpan.org/dist/Heap-0.71">Heap-0.71</a></li>
+  <li><a href="http://search.cpan.org/dist/Graph-0.20105">Graph-0.20105</a></li>
+  <li><a href="http://search.cpan.org/dist/GraphViz-1.8">GraphViz-1.8</a></li>
+  <li><a href="http://search.cpan.org/dist/Text-TabularDisplay-1.18">Text-TabularDisplay-1.18</a></li>
+  <li><a href="http://search.cpan.org/dist/Text-RecordParser-0.06">Text-RecordParser-0.06</a></li>
+  <li><a href="http://search.cpan.org/dist/File-NFSLock-1.20">File-NFSLock-1.20</a></li>
+  <li><a href="http://search.cpan.org/dist/IO-String-1.05">IO-String-1.05</a></li>
+  <li><a href="http://search.cpan.org/dist/Cache-2.01">Cache-2.01</a></li>
+</ol>
+
+  </div><a class="u-url" href="/2004/06/27/cascading-prerequisites/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

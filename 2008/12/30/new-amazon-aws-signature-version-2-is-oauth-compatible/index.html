@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>New Amazon AWS Signature Version 2 is “OAuth-compatible” | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="New Amazon AWS Signature Version 2 is “OAuth-compatible”" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<meta property="og:description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<link rel="canonical" href="https://laughingmeme.org//2008/12/30/new-amazon-aws-signature-version-2-is-oauth-compatible/" />
+<meta property="og:url" content="https://laughingmeme.org//2008/12/30/new-amazon-aws-signature-version-2-is-oauth-compatible/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2008-12-30T13:10:22+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="New Amazon AWS Signature Version 2 is “OAuth-compatible”" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2008-12-30T13:10:22+00:00","datePublished":"2008-12-30T13:10:22+00:00","description":"A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999.","headline":"New Amazon AWS Signature Version 2 is “OAuth-compatible”","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2008/12/30/new-amazon-aws-signature-version-2-is-oauth-compatible/"},"url":"https://laughingmeme.org//2008/12/30/new-amazon-aws-signature-version-2-is-oauth-compatible/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">New Amazon AWS Signature Version 2 is  &quot;OAuth-compatible&quot;</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2008-12-30T13:10:22+00:00" itemprop="datePublished">Dec 30, 2008
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://www.flickr.com/photos/briannegus/1397852047/" title="Enigma rotors by Brian Negus, on Flickr"><img src="http://farm2.static.flickr.com/1200/1397852047_3128ce06df.jpg" alt="Enigma rotors" /></a></p>
+
+<p>Spent a couple hours last night writing the core of a stripped down, PHP4 compatible API library for <a href="http://aws.amazon.com/simpledb/">Amazon SimpleDB</a> (in the style of my (http://laughingmeme.org/2008/12/11/my-flickr-api-library-for-php/) library. Just not a fan of abstraction for its own sake). In the process I discovered that Amazon had <a href="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=1928">revved the version on their “Signature Method”</a>. Which is good news as SignatureVersion 1 contains a classic crypto-blunder in its design, namely it encourages collisions. (<a href="http://www.daemonology.net/blog/2008-12-18-AWS-signature-version-1-is-insecure.html">more details</a>, also <a href="http://www.phreedom.org/research/rogue-ca/">why you care about collisions</a>) To date the solution was use SSL, and wait patiently, very patiently. So yay for Amazon fixing this! And in fairness, first couple of drafts of the OAuth spec contained a similar issue, though it got ironed out quickly. Yay for many eyes and the open web.</p>
+
+<h3 id="oauth-compatible-signing">“OAuth-compatible” signing</h3>
+
+<p>Great things are more secure, good news and all, but that isn’t what caught my eye. This block of text did:</p>
+
+<blockquote>
+  <p>*Here is what’s different about forming the string to sign for signature version 2: - You include additional components of the request in the string to sign</p>
+  <ul>
+    <li>You include the query string control parameters (the equals signs and ampersands) in the string to sign</li>
+    <li>You sort the query string parameters using byte ordering</li>
+    <li>You URL encode the query string parameters and their values before signing the request*</li>
+  </ul>
+</blockquote>
+
+<p>You really have to be an <a href="http://oauth.net/core/1.0/#anchor1">OAuth-dork</a> to find anything special with that paragraph, but if you were, you’d notice that those 4 bullets are an incredibly succinct description of generating an OAuth signature. (in fact a more succinct description then appears anywhere in the <a href="http://oauth.net/core/1.0/">OAuth documentation</a></p>
+
+<p>Which meant that my SimpleDB library can reuse most of the logic from my OAuth library to do the trickiest part of the API call, namely the signing. (Additionally it means that security reviews of both protocols support each other)</p>
+
+<p>So my AWS signing method is a approximately a dozen characters different then my OAuth method and as straightforward as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    .....
+
+    $signature = aws_request_signature(AWS_SECRET_KEY, $http_method, AWS_SIMPLEDB_SERVICEURL, $parameters);
+    $parameters['Signature'] = $signature;
+
+    $encoded_params = array();
+
+    foreach ($parameters as $k =&gt; $v){
+        $encoded_params[] = oauth_urlencodeRFC3986($k).'='.oauth_urlencodeRFC3986($v);
+    }
+
+    $request_url = AWS_SIMPLEDB_SERVICEURL . '?' . implode('&amp;', $encoded_params);
+
+    .....
+
+    function aws_request_signature($key, $http_method, $service_url, $parameters) {
+        $base_string = aws_base_string($http_method, $service_url, $parameters);
+        return base64_encode(hash_hmac('sha1', $base_string, $key, true));
+    }
+
+    function aws_base_string($http_method, $service_url, $parameters) {
+        $parsed = parse_url($service_url);
+
+        $host = strtolower($parsed['host']);
+        $path = $parsed['path'] ? $parsed['path'] : '/';
+        $data = array(
+            strtoupper($http_method),
+            $host,
+            $path,
+            oauth_normalized_request_params($parameters)
+        );
+
+        $base_string = join("\n", $data);
+        return $base_string;
+    }
+
+</code></pre></div></div>
+
+<p>(this uses my personal OAuth library, but your library should have similar methods)</p>
+
+<p>Sure made my jobs of implementing a library easier. If you’re going to invent a new crypto protocol, please consider doing like Amazon, and re-using the basic building blocks. (which also happen to be best practices)</p>
+
+  </div><a class="u-url" href="/2008/12/30/new-amazon-aws-signature-version-2-is-oauth-compatible/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

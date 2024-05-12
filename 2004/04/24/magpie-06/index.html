@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Magpie 0.6 | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Magpie 0.6" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="MagpieRSS 0.6 is out. It was a rather long alpha, hopefully that means people tried it, and it worked." />
+<meta property="og:description" content="MagpieRSS 0.6 is out. It was a rather long alpha, hopefully that means people tried it, and it worked." />
+<link rel="canonical" href="https://laughingmeme.org//2004/04/24/magpie-06/" />
+<meta property="og:url" content="https://laughingmeme.org//2004/04/24/magpie-06/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2004-04-24T15:13:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Magpie 0.6" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2004-04-24T15:13:00+00:00","datePublished":"2004-04-24T15:13:00+00:00","description":"MagpieRSS 0.6 is out. It was a rather long alpha, hopefully that means people tried it, and it worked.","headline":"Magpie 0.6","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2004/04/24/magpie-06/"},"url":"https://laughingmeme.org//2004/04/24/magpie-06/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Magpie 0.6</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2004-04-24T15:13:00+00:00" itemprop="datePublished">Apr 24, 2004
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://sourceforge.net/project/showfiles.php?group_id=55691&amp;package_id=50728&amp;release_id=233643">MagpieRSS 0.6</a> is out. It was a rather long alpha, hopefully that means people tried it, and it worked.</p>
+
+<p>Key features are</p>
+
+<ul>
+  <li>support for <a href="http://labs.silverorange.com/archives/2003/july/privaterss">private RSS feeds</a> (via SSL, and HTTP Auth Basic) is working again.</li>
+  <li>refactored the code to support Atom’s <a href="http://www.atomenabled.org/developers/syndication/atom-format-spec.php#rfc.section.3.1">“content constructs”</a>, now supports: <code class="language-plaintext highlighter-rouge">atom:title, atom:tagline, atom:copyright, atom:info, atom:summary</code>, and <code class="language-plaintext highlighter-rouge">atom:content</code>. Thanks to <a href="http://geodog.thebishop.net/">Tim Bishop</a> for feedback and encouragement.</li>
+</ul>
+
+<p><strong>update:</strong> – where “refactor” meant introduced bugs. <a href="http://sourceforge.net/project/showfiles.php?group_id=55691">MagpieRSS 0.61</a> is now out.</p>
+
+<h3 id="atom">Atom</h3>
+
+<p>Quick <a href="http://laughingmeme.org/archives/001676.html">review</a>- Content is normalized. You can access core RSS elements using Atom field names and visa vera.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">atom:content</code> is stored in <code class="language-plaintext highlighter-rouge">$item['atom&lt;em&gt;content']&lt;/em&gt;</code> to avoid clashing with RSS modcontent.</li>
+  <li><a href="http://www.atomenabled.org/developers/syndication/atom-format-spec.php#rfc.section.3.1">content constructs</a> are flattened (as if they were always <code class="language-plaintext highlighter-rouge">mode="escaped"</code>)</li>
+  <li>Everything else is concatted into hierachical namespace.</li>
+  <li>I’ve made no attempt to support base64 encoding</li>
+</ul>
+
+<h3 id="private-rss-and-atom">Private RSS (and Atom)</h3>
+
+<ul>
+  <li>To access a feed via SSL use the <code class="language-plaintext highlighter-rouge">https://</code> scheme, e.g. <code class="language-plaintext highlighter-rouge">https://example.org/index.rdf</code></li>
+  <li>To access a feed behind basic HTTP authentication include the username and password in the URL, e.g. <code class="language-plaintext highlighter-rouge">http://username:password@example.org/index.rdf</code></li>
+  <li>And, no surprises here, you can combine them <code class="language-plaintext highlighter-rouge">https://username:password@example.org/index.rdf</code></li>
+</ul>
+
+<p>It would be useful if someone could step up and maintain a list of aggregators that support private RSS feeds, a matrix of support for SSL, HTTP Basic Auth, and HTTP Digest Auth, like <a href="http://www.sauria.com/blog">Ted</a> has done for <a href="http://www.sauria.com/blog/articles/aggregator-gzip.html">GZIP encoding</a>. (Danny <a href="http://www.ideagraph.net/aggregators/#authentication">started to put together a feature matrix</a> but it looks like that project was stillborn.)</p>
+
+  </div><a class="u-url" href="/2004/04/24/magpie-06/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

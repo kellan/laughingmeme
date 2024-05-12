@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>RSSifying the Mailing List | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="RSSifying the Mailing List" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Lattice asked me about resources for representing a mailing list as an RSS feed. Particularly, he was wanting to put together an alternative(post-email) interface to a Sympa mailing list, with an RSS aggregator for reading the list traffic, and the Sympa web interface for posting. I didn’t have any suggestions for Sympa, but noted that the script mmrss turns Mailman lists into RSS feeds." />
+<meta property="og:description" content="Lattice asked me about resources for representing a mailing list as an RSS feed. Particularly, he was wanting to put together an alternative(post-email) interface to a Sympa mailing list, with an RSS aggregator for reading the list traffic, and the Sympa web interface for posting. I didn’t have any suggestions for Sympa, but noted that the script mmrss turns Mailman lists into RSS feeds." />
+<link rel="canonical" href="https://laughingmeme.org//2002/11/25/rssifying-the-mailing-list/" />
+<meta property="og:url" content="https://laughingmeme.org//2002/11/25/rssifying-the-mailing-list/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2002-11-25T11:59:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="RSSifying the Mailing List" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2002-11-25T11:59:00+00:00","datePublished":"2002-11-25T11:59:00+00:00","description":"Lattice asked me about resources for representing a mailing list as an RSS feed. Particularly, he was wanting to put together an alternative(post-email) interface to a Sympa mailing list, with an RSS aggregator for reading the list traffic, and the Sympa web interface for posting. I didn’t have any suggestions for Sympa, but noted that the script mmrss turns Mailman lists into RSS feeds.","headline":"RSSifying the Mailing List","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2002/11/25/rssifying-the-mailing-list/"},"url":"https://laughingmeme.org//2002/11/25/rssifying-the-mailing-list/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">RSSifying the Mailing List</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2002-11-25T11:59:00+00:00" itemprop="datePublished">Nov 25, 2002
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://resist.ca/~lattice/">Lattice</a> asked me about resources for representing a mailing list as an RSS feed. Particularly, he was wanting to put together an alternative(post-email) interface to a <a href="http://listes.cru.fr/sympa/">Sympa</a> mailing list, with an RSS aggregator for reading the list traffic, and the Sympa web interface for posting. I didn’t have any suggestions for Sympa, but noted that the script <a href="http://taint.org/mmrss/">mmrss</a> turns Mailman lists into RSS feeds.</p>
+
+<h3 id="a-thought">A Thought</h3>
+
+<p>This inspired me to think about tackling the chronic lack of mail list archiving soltuions as multi-step problem. Perhaps if we could get the mailing lists into a suitable inbetween format, with all the assumptions exposed, and codified into XML, then perhaps the archivers simply focus on giving a decent presentation of the complex interactions of a mailing list. And having that format be compatible with the latest crop of desktop clients would allow people to build new and exciting ways of interacting with the lists.</p>
+
+<p>So I compiled an overview of the problems, the challeges, and work that has gone before on building an RSS threading standard.</p>
+
+<h3 id="a-quick-review-of-the-state-of-the-archiver">A Quick Review of the State of the Archiver</h3>
+
+<p><a href="http://mhonarc.org">MHonarc</a> is something of a standard, but I can’t standard the archives it generates, it should be possible to generate something attractive and usable, but I’m still waiting. Current otherings run from the pedestrian <a href="http://www.mail-archive.com/modperl%40apache.org/">Mail Archive</a> to byzantine <a href="http://listes.cru.fr/wws/arc/sympa">Sympa style</a>)</p>
+
+<p><a href="http://list.org">Mailman’s</a> archives ( <a href="http://www.amk.ca/python/unmaintained/pipermail.html">pipermail</a>) are pleasingly <a href="http://lists.indymedia.org/mailman/public/syndication/2002-November/thread.html">straightforward and clean</a>, however their threading algorithm is a little weak, the archives are fragile with slight changes to the mbox changing URLs, and rebuilding the archives for very active, old lists can be incredibly slow. This and pipermail has no clue what to do with attachments.</p>
+
+<p><a href="http://zest.sf.net">Zest</a> is an intriguing alternative I’ve mentioned before, however people I’ve shown it to find it confusing, and while I think they could learn, I hesitate to recommend it as a drop in replacement for MHonarc/Pipermail.</p>
+
+<h3 id="the-problem-with-mmrss">The Problem with MMRSS</h3>
+
+<p>Unfortunately <a href="http://taint.org/mmrss/">mmrss</a> doesn’t solve our problems. It scrapes the existing Mailman archives, and creates <a href="http://taint.org/mmrss/FoRK.rss">very simple RSS 0.91</a>. Because RSS 0.91 isn’t very flexible, there is no way to include most of the interesting information, including the basic meta-data like creator (<code class="language-plaintext highlighter-rouge">From:</code>), and date sent (<code class="language-plaintext highlighter-rouge">Date:</code>) as well as more email specific info (like attachments, user agent, and message id), and the messages threading information (<code class="language-plaintext highlighter-rouge">In-Reply-To:</code>)</p>
+
+<p>This means that while MMRSS could be useful for watching a list (ie. getting notified when it updates) it does not provide a meaningful alternative to reading the list.(this could partially be due to the script started life to generate RSS feeds for <a href="http://xent.com/mailman/listinfo/fork">FoRK</a>, an email based proto-blog with an interesting role in the history of RSS/Email convergence)</p>
+
+<h3 id="what-would-we-want">What would we want?</h3>
+
+<p>On the &lt;channel&gt; definition we’ll want the usual suspect, including:</p>
+
+<ul>
+  <li>the name of the mailing list in the &lt;title&gt;</li>
+  <li>the URL of either the lists webpage if it has one (as all Mailman and Sympa lists do), or the link to the web accessible archives (if for some reason you are using something else, and haven’t setup a webpage)</li>
+  <li>the date of the most recent message to the list in &lt;dc:date&gt;</li>
+  <li>and as much other meta-data as possible including description, and language.</li>
+</ul>
+
+<p>And we’ll want: - the list, and list admin addresses, perhaps in &lt;dc:creator&gt; and &lt;dc:publisher&gt;? or would that be an inappropriate re-use?</p>
+
+<p>On a particular &lt;item&gt; we’ll want:</p>
+
+<ul>
+  <li>the URL to the web archived email</li>
+  <li>the subject of the email in the &lt;title&gt;</li>
+  <li>the contents of the From: field in &lt;dc:creator&gt; (or one of the <a href="http://groups.yahoo.com/group/rss-dev/message/4481">sha1/foaf based email obscuring technologies</a> being discussed on rss-dev)</li>
+  <li>the date the email was sent (or received by the mailing list software) in &lt;dc:date&gt;</li>
+  <li>the full content of the message in the &lt;description&gt; (if you’re serious about providing an alternative interface to the list)</li>
+</ul>
+
+<p>Ideally we would also have:</p>
+
+<ul>
+  <li>information about the messages membership in a thread (see below)</li>
+  <li>links to web archives of any attachments that might have been included in the email</li>
+  <li>a link (or mail address) to reply to this message particular message</li>
+</ul>
+
+<p>There might also be reasons to include:</p>
+
+<ul>
+  <li>Message-ID (perhaps for constructing replies)</li>
+  <li>User-Agent</li>
+  <li>Spam Status (or similar Spam flagging header)</li>
+  <li>CC information</li>
+</ul>
+
+<p>Some of this definitely can’t be shoe horned into the 3 standard RSS 1.0 modules (Dublin Core, Syndication, and Content), and demand extensions, but perhaps a proposed module (or modules) will do. ### Examining the Prior Art in Threading</p>
+
+<p>Not surprisingly, displaying email as RSS, displaying mailing lists as RDF, and building interchange formats for threaded discussion in RSS have all been discussed before. No one change up with exactly the same feature set (surprise!) because everyone had slightly different conceptions of the problem.</p>
+
+<p>The first important insight when considering an implementation (and examining prior art) is to realize that much of what is important to representing a mailing list is important to representing any form of threaded discussion, like the comments from a message board or blog, or the posts from a newsgroup.</p>
+
+<p>There is the proposed <a href="http://purl.org/rss/1.0/modules/threading/">RSS threading module</a>, that adds one tag: &lt;child&gt;. Which is nice and simple, but also kind of awkward as email tends to be linked into threads by referring to a parent.(<code class="language-plaintext highlighter-rouge">In-Reply-To:</code>)</p>
+
+<p><a href="http://www.quicktopic.com/7/H/rhSrjkWgjnvRq?m1=66&amp;mN=66">ThreadML</a> was an interesting initiative of <a href="http://www.quicktopic.com/blog/">Steve Yost</a> of <a href="http://www.quicktopic.com">Quicktopic</a>, partially created in a response to this article on <a href="http://www.hyperorg.com/backissues/joho-jun17-01.html">Joho</a>. It was a standard composed of RSS 1.0, mod<em>content, mod</em>threading to represent parent-to-child, and mod_annotation to represent child-to-parent relations. There was a very active <a href="http://www.quicktopic.com/7/H/rhSrjkWgjnvRq">quicktopic discussing ThreadML</a> for a while, but it seems to have gone quiet. An example <a href="http://www.quicktopic.com/7/H/rhSrjkWgjnvRq.rss">Quicktopic RSS feed</a> to see how it might have looked.</p>
+
+<p>Discussion of <a href="http://groups.yahoo.com/group/rss-dev/message/3102">creating an RSS feed</a> for the W3C’s mailing lists, prompted the proposal of a <a href="http://groups.yahoo.com/group/rss-dev/message/3121">mod_email</a> which might be useful, but doesn’t seem to focus on the commonality between different mediums enough for me.</p>
+
+<p>The PHP mailing lists are available <a href="http://news.php.net/group.php?group=php.dev&amp;format=rss">as RSS feeds</a>, unfortunately here again, they aren’t very useful RSS feeds, with the From information stuck into a &lt;mailto:&gt; tag in the &lt;description&gt; tag. Odd.</p>
+
+<p>Yahoogroups (formerly eGroups) provides RSS feeds for the lists (e.g. RSS-DEV[18] they host, see the <a href="http://www.xent.com/FoRK-archive/april00/0808.html">original announcement on FoRK</a>)</p>
+
+<p>Mail-archive.com makes a simple RSS 0.9 feed available for each list, for example <a href="http://www.mail-archive.com/modperl%40apache.org/maillist.rdf">mod_perl’s RSS</a></p>
+
+<p>Lastly, the <a href="http://www.eyrie.org/~zednenem/2002/web-threads/">Thread Description Language</a> is an interesting attempt to build a rich RDF syntax for talking about all sorts of different threads. Some of its concepts like agreesWith and disagreesWith would be very cool to add to a RSS/RDF feed based on Zest and its inline mark up.</p>
+
+<h3 id="conclusion-and-concerns">Conclusion, and Concerns</h3>
+
+<p>All of that is very interesting, but I don’t feel like any of the above directly maps to the features I mentioned above, it might be possible to assemble something out of the pieces, but a few items (like the url/mailto to respond to a post) is totally missing from any of this.</p>
+
+<p>It might be worth looking at an email&lt;-&gt;NTTP gateway to see what tricks they play, and what they consider necessary.</p>
+
+<p>One problem with marking up email in XML is that it makes it very very easy for spammers to identify email addresses. There is a thread on RSS-DEV about ways to combat this. It seems like it should be possible with the collusion of the list archiver to send out “privatized” emails, where contact information is replaced with some sort of smart URI to confuse harvesters without interrupting communication. Yahoogroups kind of does this.</p>
+
+<p>It would cut down on the complexity immensely to just skip the whole threading thing, but I think threading is an important feature for facilitating a culture of discussion, often discourages in spaces that use “linear threading” (like the traditional display of an email client’s inbox) Might be suitable for a version 1.0</p>
+
+<p>Yet another approach would be to get away from the concept of an individual post, and syndicate conversations (threads). This would map <strong>very</strong> well to Zest’s concept of threads, but would work pretty well for normal archives and threads as well. The one trick would be figuring out distribute threads in such as way as to be useful with the most recent post readily accessible.</p>
+
+<p>Related Posts:</p>
+
+<ul>
+  <li><a href="http://laughingmeme.org/archives/000094.html#000094">Revolutionizing the Mail Archive</a></li>
+</ul>
+
+  </div><a class="u-url" href="/2002/11/25/rssifying-the-mailing-list/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

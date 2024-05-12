@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Maintaining Date/Timezone Sanity with DateTime.pm and Class::DBI | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Maintaining Date/Timezone Sanity with DateTime.pm and Class::DBI" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Calendaring can be a fraught and tricky business. Probably doesn’t compare to building software to do precise robotic control of surgical tools (though I have a friend who worked for a summer putting Windows into operating rooms), or high volume real time transaction management, but its does have its pitfalls and tricks." />
+<meta property="og:description" content="Calendaring can be a fraught and tricky business. Probably doesn’t compare to building software to do precise robotic control of surgical tools (though I have a friend who worked for a summer putting Windows into operating rooms), or high volume real time transaction management, but its does have its pitfalls and tricks." />
+<link rel="canonical" href="https://laughingmeme.org//2003/09/25/maintaining-datetimezone-sanity-with-datetimepm-and-classdbi/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/09/25/maintaining-datetimezone-sanity-with-datetimepm-and-classdbi/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-09-25T15:33:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Maintaining Date/Timezone Sanity with DateTime.pm and Class::DBI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-09-25T15:33:00+00:00","datePublished":"2003-09-25T15:33:00+00:00","description":"Calendaring can be a fraught and tricky business. Probably doesn’t compare to building software to do precise robotic control of surgical tools (though I have a friend who worked for a summer putting Windows into operating rooms), or high volume real time transaction management, but its does have its pitfalls and tricks.","headline":"Maintaining Date/Timezone Sanity with DateTime.pm and Class::DBI","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/09/25/maintaining-datetimezone-sanity-with-datetimepm-and-classdbi/"},"url":"https://laughingmeme.org//2003/09/25/maintaining-datetimezone-sanity-with-datetimepm-and-classdbi/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Maintaining Date/Timezone Sanity with DateTime.pm and Class::DBI</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-09-25T15:33:00+00:00" itemprop="datePublished">Sep 25, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Calendaring can be a fraught and tricky business. Probably doesn’t compare to building software to do precise robotic control of surgical tools (though I have a friend who worked for a summer putting Windows into operating rooms), or high volume real time transaction management, but its does have its pitfalls and tricks.</p>
+
+<h3 id="the-case-of-the-missing-timezone">The Case of the Missing Timezone</h3>
+
+<p>A classic mistake when one sets out to write calendar software, particularly web calendar software, is to ignore timezones. “Now” is treated as the current time on the web server, new events are added to the database without reference to the timezone of their creator. And amazingly, by and large this will work, for a while. Often your first set of users will be in your timezone, or thereabouts, perhaps you aren’t displaying hours, so it’s just a few hours early in the morning, and late at night when people notice your calendar is displaying the wrong date.</p>
+
+<p>Problems start to crop up as your audience becomes more international, or you start trying to add more time sensitive services. So you try to retro-fit timezones, add them on. And now you’re living in a world of pain.</p>
+
+<h3 id="a-not-so-hypothetical-example">A Not So Hypothetical Example</h3>
+
+<p>Say you’re running a web calendar off a server in your closest in Massachusetts, in a timezone affectionately if rather unprecisely known as Eastern time. You have a user in Sydney who has been happily adding events, timezone free. Now if you wanted to display the correct date for a given event to your users in Sydney you need to calculate the offset between the two locations. Simple enough? Is MA observing day light savings? Is Sydney? How about when the event was added? Any one of those questions can be annoying to answer, getting all 3 right, and collated… well trust me, it gets ugly quick.</p>
+
+<h3 id="yet-another-problem">Yet Another Problem</h3>
+
+<p>What happens when you move that server out of your closest to a colo off the coast of England? All of a sudden you’ve switched from adding events in “Eastern” time to some British local time. How do you know how to calculate the offsets now? One solution I’ve seen (when I was working on a website for a certain very large PDA manufacturer who shall rename nameless) was to add a switch into the code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ if (date &lt; kDayWeMovedToColo) { ... } else { ... }
+</code></pre></div></div>
+
+<p>This problem can bite you even if you were clever enough to get your users setup with timezones from day one.</p>
+
+<h3 id="a-simple-solution">A Simple Solution</h3>
+
+<p>After all that hand wringing, and doom saying, you’ll be happy to know that the solution is simple. Store all your dates in UTC (sometimes called GMT, sometimes called Zulu time); a zero offset time that doesn’t observe day light savings. As added bonus a number of languages even support converting to GMT time, though many of them are broken. (PHP’s are, rumor has it so are C#’s, Java got it wrong for its first 3-4 versions)</p>
+
+<h3 id="some-code">Some Code!</h3>
+
+<p>As Perl hackers we’ve got an advantage, we’ve got the best date/time library in any language I’ve ever seen, <a href="http://perl-date-time.sf.net">DateTime.pm</a>, which just happens to have the most complete TimeZone implementation you’ve ever dreamed of. (if you’re a calendar geek, and dream about this stuff)</p>
+
+<p>And we’ve got Class::DBI, which as much as I’ve said some nasty things about it, has a few nice features in the db-to-object mapping sphere.</p>
+
+<p>I use a simple adapter class to handle my conversions to and from GMT, but a more proficient CDBI wizard could probably replace my class with a couple of code refs.</p>
+
+<p>In your Class::DBI definitions you would add some code like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+MyEvent-&gt;has_a(
+   start_date =&gt; 'DateAdapater',
+   inflate =&gt; sub { DateAdapter-&gt;inflate(shift) },
+   deflate =&gt; 'deflate'
+);
+
+</code></pre></div></div>
+
+<p>Where DateApapater looks like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+package DateAdapater;
+use base qw(DateTime);
+# this is a DateTime::Format::DBI
+# which I haven't figured out how to combine with cdbi
+#
+use DateTime::Format::MySQL; 
+
+sub inflate {
+  my ($class, $value) = @_;
+   my $dt = $class-&gt;parse($value);
+   # starts in 'floating' tz
+   $dt-&gt;set_time_zone('UTC');
+   return bless $dt, $class;
+}
+
+sub deflate {
+    my $dt = shift;
+    # convert to UTC
+    $dt-&gt;set_time_zone('UTC');
+    return DateTime::Format::MySQL-&gt;format_datetime($dt);
+}
+
+sub parse {
+    my ($class, $value) = @_;
+    my $dt = eval { return DateTime::Format::MySQL-&gt;parse_datetime($value); };
+    if ($dt) { return $dt; }
+    else {
+       return DateTime-&gt;new(year =&gt; 1970);
+    }
+}
+
+</code></pre></div></div>
+
+<h3 id="a-few-things-to-note">A Few Things to Note</h3>
+
+<p>MySQL’s datetime fields don’t maintain a concept of timezone, so DT creates them with a floating timezone. Therefore casting them to UTC doesn’t change their settings for year, month, hour, etc. DateTime objects coming in will presumably be set in the user’s timezone, therefore casting them to UTC will change their year, month, hour, etc fields, but the object will still refer to the exact same instant in time.</p>
+
+<p>Lastly, you know you’ve been hacking Unix dates too long when you’re idea of an error message is to return some day in 1970.</p>
+
+<p>(Also it’s strikingly odd how much longer it takes to write a blog entry about some code, then to just write the code. Noticed it for both this, and the timezone selector. Need a code to blog adapter.)</p>
+
+  </div><a class="u-url" href="/2003/09/25/maintaining-datetimezone-sanity-with-datetimepm-and-classdbi/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

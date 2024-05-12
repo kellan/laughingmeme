@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>OO::Form, initial release | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="OO::Form, initial release" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Several months ago, inspired as I recall by Kate’s How to Avoid Writing Code article, I started playing with Class::DBI and Template Toolkit as a rapid development environment." />
+<meta property="og:description" content="Several months ago, inspired as I recall by Kate’s How to Avoid Writing Code article, I started playing with Class::DBI and Template Toolkit as a rapid development environment." />
+<link rel="canonical" href="https://laughingmeme.org//2003/11/24/ooform-initial-release/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/11/24/ooform-initial-release/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-11-24T00:42:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="OO::Form, initial release" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-11-24T00:42:00+00:00","datePublished":"2003-11-24T00:42:00+00:00","description":"Several months ago, inspired as I recall by Kate’s How to Avoid Writing Code article, I started playing with Class::DBI and Template Toolkit as a rapid development environment.","headline":"OO::Form, initial release","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/11/24/ooform-initial-release/"},"url":"https://laughingmeme.org//2003/11/24/ooform-initial-release/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">OO::Form, initial release</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-11-24T00:42:00+00:00" itemprop="datePublished">Nov 24, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Several months ago, inspired as I recall by Kate’s <a href="http://www.perl.com/lpt/a/2003/07/15/nocode.html">How to Avoid Writing Code</a> article, I <a href="http://laughingmeme.org/archives/001014.html">started playing with</a> Class::DBI and <a href="http://template-toolkit.org">Template Toolkit</a> as a rapid development environment.</p>
+
+<h3 id="not-so-fast">Not So Fast</h3>
+
+<p>Turns out rapid development isn’t really my style. I’m still futzing around with the earliest stages of functionality of my first app I started developing in this brave new way. Part of the problem is I get distracted into “doing things right”, which is about as antithetical to <acronym application="" development="">RAD</acronym> as one can get. I’ve fallen into a number of these sorts of traps on this project, but a major one was the lack of a form class that integrated nicely into this dev. environment. After all you can’t really say you’re doing rapid web development, and then hand build, and process every form, can you? ### A Better Params Trap</p>
+
+<p><a href="http://formbuilder.org">CGI::FormBuilder</a> is the current standard, and its very impressive in its way, but <a href="http://laughingmeme.org/archives/001196.html">it didn’t meet my needs</a>. In particular it does too much, and therefore plays poorly with other technologies. It was also totally unsubclassable. So with great pleasure I present <a href="http://protest.net/~kellan/OO-Form-0.01a.tar.gz">OO::Form 0.01-alpha-experimental</a>. (which has been kicking around for a week fews, but I finally added some POD)</p>
+
+<h3 id="a-curiosity">A Curiosity</h3>
+
+<p>I don’t really expect anyone to want to use this code yet, but if you’re curious, and/or want to tell me what I’m doing wrong, take a look at it. It is currently incomplete as I’ve been fleshing out the features as needed, but what is in place, is working well (everything documented is working). Also if you’re <strong>really</strong> interested I’ll send you the code I’m working on that uses it, so you can see it in action. (beyond the example in the POD below) ### My Favorite Feature</p>
+
+<p>Besides being all cool, and OO, and integrating well with Class::DBI, and TT2 (and presumably any other template system, but I wouldn’t know), OO::Form allows you to define arbitrary field types. So besides text, password, select, checkbox, and textarea (I’ve been adding the standards as I need them), OO::Form also ships with an OO::Form::Field::date, which does intelligent date, and timezone handling, and while currently displayed as 3 pull down menus, could be easily subclassed (just override the <em>as</em>html method) to display via a totally different widget. ### OO::Form – pod2html</p>
+
+<p><a name="__index__"></a></p>
+
+<ul>
+  <li><a href="#name">NAME</a></li>
+  <li><a href="#synopsis">SYNOPSIS</a></li>
+  <li><a href="#description">DESCRIPTION</a></li>
+  <li><a href="#usage">USAGE</a></li>
+  <li><a href="#field_profile">Field Profile</a></li>
+  <li>
+    <p><a href="#2_error_handling_and_validation">2 Error Handling and Validation</a></p>
+  </li>
+  <li><a href="#methods">METHODS</a></li>
+</ul>
+
+<hr />
+
+<h1 id="name"><a name="name">NAME</a></h1>
+
+<p>OO::Form – an object oriented framework for building, displaying, and processing forms.</p>
+
+<hr />
+
+<h1 id="synopsis"><a name="synopsis">SYNOPSIS</a></h1>
+
+<p>package MyApp::AddWidgetForm;</p>
+
+<p>use base ‘OO::Form’;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  our $FIELD&lt;em&gt;PROFILE = {
+          fields  =&gt; 
+                  [qw(name widget&lt;/em&gt;style note expiration&lt;em&gt;date) ],
+          types   =&gt; { 
+                  widget&lt;/em&gt;style     =&gt; 'select', 
+                  note             =&gt; 'textarea', 
+                  expiration&lt;em&gt;date  =&gt; 'date'
+          },
+          options  =&gt; {
+                  widget&lt;/em&gt;style     =&gt; [qw(blue green chrome)]
+          },
+          required  =&gt; [qw(name widget&lt;em&gt;style)]
+  };&lt;/em&gt;
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  sub new {
+          my $class = shift;
+          my $self = $class-&gt;SUPER::new(@);
+          $self-&gt;add&lt;em&gt;fields($FIELD&lt;/em&gt;PROFILE);
+          $self-&gt;submit&lt;em&gt;field('add&lt;/em&gt;widget');
+          return $self;
+  }
+</code></pre></div></div>
+
+<p>….</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  (else where in your application)
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  my $form = MyApp::AddWidgetForm-&gt;new({query =&gt; $query, ...});
+  if ($form-&gt;is&lt;em&gt;submitted and $form-&gt;validates ) {
+          MyAdd::Widget-&gt;new&lt;/em&gt;widget({
+                  name =&gt; $form-&gt;name-&gt;value,
+                  widget&lt;em&gt;style =&gt; $form-&gt;widget&lt;/em&gt;style-&gt;value,
+                  note =&gt; $form-&gt;note-&gt;value,
+                  expiration-date =&gt; $form-&gt;expiration&lt;em&gt;date-&gt;value&lt;br&gt;&lt;/br&gt;
+          });
+          display&lt;/em&gt;widget&lt;em&gt;added&lt;/em&gt;confirmation();
+  }
+  else {
+          # form hasn't been submitted, or we encountered an error
+          display&lt;em&gt;page($template, { form =&gt; $form } );
+  }&lt;/em&gt;
+</code></pre></div></div>
+
+<p>…,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  (mean while, in a nearby template)
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  [% IF form.errors %]
+  &lt;ul class="errors"&gt;
+    [% FOREACH e = form.errors %]&lt;li&gt;[% e %]&lt;/li&gt;[% END %]
+  &lt;/ul&gt;
+  [% END %]
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  Name:       [% form.name.html(size =&gt; '40') %]&lt;br /&gt;
+  Style:      [% form.widgetstyle.html(default =&gt; 'blue') %] &lt;br /&gt;
+  Expiration: [% form.expiration&lt;em&gt;date.html %]
+  Note: &lt;br /&gt;
+  [% form.note.html(rows =&gt;4, cols=&gt;50) %]&lt;br /&gt;
+  &lt;input type="submit" name="[%form.submit&lt;/em&gt;field%]" value="Add Widget" /&gt;               
+
+&lt;p&gt;...,&lt;/p&gt;
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="description"><a name="description">DESCRIPTION</a></h1>
+
+<p><code class="language-plaintext highlighter-rouge">OO::Form</code> represents an HTML form as a collection of <code class="language-plaintext highlighter-rouge">OO::Form::Field</code> objects, a state (is submitted), and some basic error handling. It was inspired by <code class="language-plaintext highlighter-rouge">CGI::FormBuilder</code>, and by the difficulty I had integrating <code class="language-plaintext highlighter-rouge">CGI::FormBuilder</code> into my application. The <code class="language-plaintext highlighter-rouge">OO::Form</code> was designed to be used in conjuction with the Template Toolkit, and <code class="language-plaintext highlighter-rouge">Class::DBI</code> though they aren’t tightly coupled.</p>
+
+<p>The most straightforward way to use <code class="language-plaintext highlighter-rouge">OO::Form</code> is to create your own subclass of <code class="language-plaintext highlighter-rouge">OO::Form</code> for each form in your application. (though create and update pages can usually re-use the same form object, and for very simple forms, it is probably less useful)</p>
+
+<p>Then pass a ‘fields profile’ to the OO::Form-&gt;<a href="#item_add_fields"><code class="language-plaintext highlighter-rouge">add&lt;em&gt;fields()&lt;/em&gt;</code></a> method which is a factory method for creating object of type OO::Form::Field and its varied subclasses.</p>
+
+<hr />
+
+<h1 id="usage"><a name="usage">USAGE</a></h1>
+
+<h2 id="field-profile"><a name="field_profile">Field Profile</a></h2>
+
+<p>A field profile is a compact form of specifying all the fields in your form. (Alternately you could insantiate <code class="language-plaintext highlighter-rouge">OO::Form:Field::*</code> objects one by one and add each one with $form-&gt;<a href="#item_field"><code class="language-plaintext highlighter-rouge">field($field))</code></a></p>
+
+<p>A field profile is a hashref with 6 fields.</p>
+
+<ul>
+  <li><strong><a name="item_fields">fields</a></strong>
+An arrayref of the names of fields to instantiate. Names must be unique, and they must not have the same name as any method of your form object (as they will be accessed by calling $form-&gt;$fieldname()) - <strong><a name="item_types">types</a></strong>
+A hashref of names mapped to their field types. Any field which is not given a type will be a generic field object, and will be drawn as a text field if their <code class="language-plaintext highlighter-rouge">html()</code> method is called. <code class="language-plaintext highlighter-rouge">OO::Form::Field-</code>factory()&gt; will be called for each field, and be passed its type. The default <code class="language-plaintext highlighter-rouge">factory()</code> method tries to instantiate an object of type <code class="language-plaintext highlighter-rouge">OO::Form::Field::$type</code>. You can subclass <code class="language-plaintext highlighter-rouge">OO::Form::Field</code> to provide a whole set of new field types, or new behaviour for old field types. Additionally if anyone has suggestions for a smarter factory method, I’m interested.</li>
+</ul>
+
+<p>Current types are the basic HTML fields: text, password, checkbox, textarea, select</p>
+
+<p>Also the composite field type: date (represented as 3 pulldowns) is available.</p>
+
+<p>See <code class="language-plaintext highlighter-rouge">OO::Form::Field</code> for more detail</p>
+
+<ul>
+  <li>
+    <p><strong><a name="item_options">options</a></strong>
+For field types with options (selects aka pulldown menus, and radio/checkbox groups) values can be passed with the options field. A hashref of field names pointing to either an arrayref of options (when you want value and text to be the same) or a hashref of value to text mappings.</p>
+  </li>
+  <li>
+    <p><strong><a name="item_values">values</a></strong>
+A hashref of field name to value mappings. If you want your field to start preconfigured with certain values, pass in a values hash. If your values hashref contains a subclass of <code class="language-plaintext highlighter-rouge">Class::Accessor</code> (like a <code class="language-plaintext highlighter-rouge">Class::DBI</code> object) then the objects <code class="language-plaintext highlighter-rouge">get()</code> method will be called, allowing forms to be rapidly populated from a database.</p>
+  </li>
+  <li>
+    <p><strong><a name="item_required">required</a></strong>
+An arrayref of names of the required fields. <code class="language-plaintext highlighter-rouge">OO::Form-</code>validate&gt; will return false (and populate an errors array) if any required fields are missing</p>
+    <h2 id="2-error-handling-and-validation"><a name="2_error_handling_and_validation">2 Error Handling and Validation</a></h2>
+  </li>
+</ul>
+
+<p>There are hooks for a future implementation of a full blown validation framework (probably using <code class="language-plaintext highlighter-rouge">Data::FormValidator</code>).</p>
+
+<p>In the meantime <code class="language-plaintext highlighter-rouge">OO::Form</code> checks that required fields have been filled in, and that none of the various fields through their own error.</p>
+
+<p>Calling the instance method <code class="language-plaintext highlighter-rouge">validate()</code> (validates() is a synonym), returns true or false depending on whether there are any error conditions in the current form. It also populates and errors array, useful for re-displaying the form page with a list of errors.</p>
+
+<p>A useful idiom for calling validates in demonstrated in the synops.</p>
+
+<p>Besides the form wide errors array (accessible at $form-&gt;<code class="language-plaintext highlighter-rouge">errors()</code> ), each field can have their own error (though only one) accessible at $form-&gt;widget<em>style-&gt;error(), this is useful for re-displaying a form, with error messages inlined.</em></p>
+
+<hr />
+
+<h1 id="methods"><a name="methods">METHODS</a></h1>
+
+<p><code class="language-plaintext highlighter-rouge">OO::Form</code> is pretty straightforward, much of the complexity is actually in <code class="language-plaintext highlighter-rouge">OO::Form::Field</code>. Almost all <code class="language-plaintext highlighter-rouge">OO::Form</code> methods accept a hashref of named arguments.</p>
+
+<p>Note this is all experimental.</p>
+
+<ul>
+  <li><strong><a name="item_new"><code class="language-plaintext highlighter-rouge">new($params)</code></a></strong>
+Construct a new form. Often you’ll want to override this with your own constructor. The default constructor looks for (and will supply defaults if it doesn’t find): <code class="language-plaintext highlighter-rouge">query'',</code>submitfield”, “time_zone”. * query is a CGI.pm object, or something else which masquerades as one</li>
+</ul>
+
+<p>* submit<em>field is the name of the button that submits this form (checked by is</em>submitted.</p>
+
+<p>* time_zone is used by <code class="language-plaintext highlighter-rouge">OO::Form::Field::date</code> to do intelligent localization of date/time values</p>
+
+<p>Additionally in the future <code class="language-plaintext highlighter-rouge">OO::Form::new</code> should take a locale.</p>
+
+<ul>
+  <li><strong><a name="item_add_fields"><code class="language-plaintext highlighter-rouge">add&lt;em&gt;fields($field&lt;/em&gt;profile)</code></a></strong>
+Take a field profile (as discussed in the previous section) an populate a form. - <strong><a name="item_field"><code class="language-plaintext highlighter-rouge">field(...)</code></a></strong>
+A field accessor. Can take a hashref (or field object) and passes it to <code class="language-plaintext highlighter-rouge">OO::Form::Field-</code>factory()&gt;, and attach the results to the current form. Otherwise assume a string was passed in, and return the field with that name. (AUTOLOAD will call <a href="#item_field"><code class="language-plaintext highlighter-rouge">field($field_name)</code></a> for unknown methods)</li>
+</ul>
+
+  </div><a class="u-url" href="/2003/11/24/ooform-initial-release/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

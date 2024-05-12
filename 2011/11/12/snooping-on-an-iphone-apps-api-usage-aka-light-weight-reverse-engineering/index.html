@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Snooping on an iPhone apps API usage (aka light weight reverse engineering) | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Snooping on an iPhone apps API usage (aka light weight reverse engineering)" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I don’t much like using sites that don’t offer APIs. (this is one of the reasons I don’t use Quora anymore, they’ve had plenty of time to offer an API in good faith)" />
+<meta property="og:description" content="I don’t much like using sites that don’t offer APIs. (this is one of the reasons I don’t use Quora anymore, they’ve had plenty of time to offer an API in good faith)" />
+<link rel="canonical" href="https://laughingmeme.org//2011/11/12/snooping-on-an-iphone-apps-api-usage-aka-light-weight-reverse-engineering/" />
+<meta property="og:url" content="https://laughingmeme.org//2011/11/12/snooping-on-an-iphone-apps-api-usage-aka-light-weight-reverse-engineering/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-11-12T14:59:08+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Snooping on an iPhone apps API usage (aka light weight reverse engineering)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2011-11-12T14:59:08+00:00","datePublished":"2011-11-12T14:59:08+00:00","description":"I don’t much like using sites that don’t offer APIs. (this is one of the reasons I don’t use Quora anymore, they’ve had plenty of time to offer an API in good faith)","headline":"Snooping on an iPhone apps API usage (aka light weight reverse engineering)","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2011/11/12/snooping-on-an-iphone-apps-api-usage-aka-light-weight-reverse-engineering/"},"url":"https://laughingmeme.org//2011/11/12/snooping-on-an-iphone-apps-api-usage-aka-light-weight-reverse-engineering/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Snooping on an iPhone apps API usage (aka light weight reverse engineering)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2011-11-12T14:59:08+00:00" itemprop="datePublished">Nov 12, 2011
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I don’t much like using sites that don’t offer APIs. (this is one of the reasons I don’t use <a href="http://www.quora.com/">Quora</a> anymore, they’ve had <a href="http://www.quora.com/When-is-Quora-planning-an-Open-API">plenty of time to offer an API in good faith</a>)</p>
+
+<p>But I do like playing with new sites and that means playing with sites that haven’t opened up an API, <strong>yet</strong>. It’s funny I keep getting into conversations with folks about, “We’re not sure how to open an API” or “We’ve got an API, but we think we need to rebuild it (and/or outsource maintenance of it to a 3rd party) before we make it public.” For those folks, please see <a href="https://github.com/straup/flamework-api">flamework-api</a>, an implementation of the Flickr “API framework” for how easy it can be, and then get over your timidity! But my favorite variant on this is, “Well we have an API for the iPhone app, but it isn’t ready yet for public.” Because that means there <em>is</em> an API, and you can use it.</p>
+
+<p>Some quick notes on reverse engineering an API from an iPhone (mostly because I had to scrape all this back out of my lizard brain this week, and while it’s straightforward, there are a few step)</p>
+
+<ol>
+  <li>Grab a proxy, I use <a href="http://www.charlesproxy.com/">Charles</a>, but <a href="http://portswigger.net/burp/proxy.html">Burp</a> works just as well and is free.</li>
+  <li>On a wifi network, fire up the proxy and enable SSL proxying.</li>
+  <li>Connect to a secure site with a browser via the proxy. (Charles will setup proxying for Firefox automatically)</li>
+  <li>Using Firefox, drill into Page Info &gt; Security &gt; View Certificate &gt; Details and export the CA certificate, which will be the intermediate proxy’s root cert. (e.g. with Charles it will be CharlesProxySSLProxying.cer) (YMMV with different proxies, and different browsers)</li>
+  <li>Upload the root cert somewhere you can hit with mobile Safari from your phone</li>
+  <li>Browse there with your phone, and add the cert.</li>
+  <li>Throw your phone into “Airplane Mode”, re-enable wifi, connect to the same network your proxy is running on, in the “Choose a Network” menu, drill down and setup Manual proxying pointing at your laptops IP address, and port 8888 if you’re running Charles or 8080 if you’re running Burp (or whatever else your proxy is running at)</li>
+  <li>Fire up the iPhone app with the API you’re interested in, and sit back and watch the bits flow.</li>
+</ol>
+
+<p>(Reading over this again this morning I noticed I just assumed SSL, my data points suggest that’s a reasonable assumption both as SSL is easy, and as FBOAuth becomes more common, but obviously if the API you’re looking at isn’t running over SSL, skip steps 2-7.)</p>
+
+  </div><a class="u-url" href="/2011/11/12/snooping-on-an-iphone-apps-api-usage-aka-light-weight-reverse-engineering/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

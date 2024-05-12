@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Text Summarization | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Text Summarization" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Well done text summarization is almost as useful (and cool) as machine learning. And Ted has had some great stuff on text summarization lately. We have libots, an open source text summarizer that comes out of the Abiword project, and the OS X summarization service. Followed up by Classifier4J, a Java implementation of Bayesian nets, which also includes a summarization engine. So how do they compare?" />
+<meta property="og:description" content="Well done text summarization is almost as useful (and cool) as machine learning. And Ted has had some great stuff on text summarization lately. We have libots, an open source text summarizer that comes out of the Abiword project, and the OS X summarization service. Followed up by Classifier4J, a Java implementation of Bayesian nets, which also includes a summarization engine. So how do they compare?" />
+<link rel="canonical" href="https://laughingmeme.org//2003/07/28/text-summarization/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/07/28/text-summarization/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-07-28T00:12:34+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Text Summarization" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-07-28T00:12:34+00:00","datePublished":"2003-07-28T00:12:34+00:00","description":"Well done text summarization is almost as useful (and cool) as machine learning. And Ted has had some great stuff on text summarization lately. We have libots, an open source text summarizer that comes out of the Abiword project, and the OS X summarization service. Followed up by Classifier4J, a Java implementation of Bayesian nets, which also includes a summarization engine. So how do they compare?","headline":"Text Summarization","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/07/28/text-summarization/"},"url":"https://laughingmeme.org//2003/07/28/text-summarization/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Text Summarization</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-07-28T00:12:34+00:00" itemprop="datePublished">Jul 28, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Well done text summarization is almost as useful (and cool) as machine learning. And <a href="http://www.sauria.com/blog">Ted</a> has had some <a href="http://www.sauria.com/blog/2003/07/25#407">great</a> <a href="http://www.sauria.com/blog/2003/07/27#410">stuff</a> on text summarization lately. We have <a href="http://libots.sf.net">libots</a>, an open source text summarizer that comes out of the Abiword project, and the <a href="http://docs.info.apple.com/article.html?artnum=61336">OS X summarization service</a>. Followed up by <a href="http://classifier4j.sf.net/">Classifier4J</a>, a Java implementation of Bayesian nets, which also includes a summarization engine. So how do they compare?</p>
+
+<h3 id="classifier4j">Classifier4j</h3>
+
+<p>Nick, author of Classifier4J <a href="http://www.mackmo.com/nick/blog/java/?permalink=TextSummarizing.txt">compares the resulting output</a> of the OS X summarization and that of Classifier4J. C4J compares quite favorably I think, providing better context. In particular I spent a while playing with pasting my own blog entries into TextEdit this afternoon, and the OS X summarization service seems to have some bias against the first sentence of a paragraph, the sentence I was taught to call the “topic sentence” in elementary school.</p>
+
+<h3 id="os-x-summarization">OS X Summarization</h3>
+
+<p>The OS X summarization service is available from TextEdit, Mail.app, or any other Cocoa app. It pops up a neat app containing your selected text, and a slider for length of summary. The summaries are pretty good, but leave a bit to be desired. However the really killer is this useful service doesn’t have an API! Oh sure, we could probably script it will AppleScript, but why not make it available right next the <a href="http://developer.apple.com/documentation/Cocoa/Conceptual/SpellCheck/index.html">spellchecking API</a>? I would be happy to be wrong about this.</p>
+
+<h3 id="open-text-summarizer">Open Text Summarizer</h3>
+
+<p>Interested in how OTS stacked up with these other two (and whether perhaps I wanted to write some Perl bindings for it), I attempted to install it on my laptop. Without success. pkg-info kept complaining that I didn’t have libpopt 1.5 installed, correct, I had 1.6 installed. Futzed with it a bit, I give up, anyone with tips on getting OTS to build on OS X that would be great. I did however install it on my linux server, and here is the output for the <a href="http://www.sauria.com/blog/2003/07/25#407">same blog entry</a> Nick used.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ots -r50 sample.txt</code></p>
+
+<blockquote>
+  <p>John Robb linked to DEVONthink which is a free form information manager for MacOS X. It takes a less structured approach than Chandler is trying to take. It looks like you just dump all your information in there and turn it’s recognizers loose and it sorts it all out for you. One thing that I noticed while reading the pages is that Mac OS X has a text summarization service built in. If one of you MacOS X hackers can confirm this, that would be great.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">ots -r30 sample.txt</code></p>
+
+<blockquote>
+  <p>John Robb linked to DEVONthink which is a free form information manager for MacOS X. It takes a less structured approach than Chandler is trying to take. It looks like you just dump all your information in there and turnit’s recognizers loose and it sorts it all out for you.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">ots -r10 sample.txt</code></p>
+
+<blockquote>
+  <p>John Robb linked to DEVONthink which is a free form information manager for MacOS X. It takes a less structured approach than Chandler is trying to take.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">ots -a sample.txt</code></p>
+
+<blockquote>
+  <p>Article talks about “DEVONThink” “information” and “MacOS”</p>
+</blockquote>
+
+<p>I can’t say I’ll all that impressed by the OTS summaries, it seemed to be simply grabing the first xx% of the article and using that as the summary. Perhaps OTS only works on longer documents? Perhaps its <a href="http://libots.sourceforge.net/howitworks.html">word counting algorithm</a> doesn’t work so well? (when I get around to playing with C4J first hand, I can compare its algorithm, OS X’s however shall remain closed to us, alas). But I do like the online summary feature.</p>
+
+<h3 id="uses">Uses?</h3>
+
+<p>Well I confess, I’m an RSS geek, and the first thing I thought of using a text summarization service for was for better entry/article excerpts to stick in the description field. It would be useful though for almost any CMS/web publishing tool that displays a list of content. An interesting overlap is OTS using word occurrences as the basis for its algo much like the LSI-alike vector space searching I use to generate the similarity listings on this blog. I wonder if they could be driven from the same datastore?</p>
+
+  </div><a class="u-url" href="/2003/07/28/text-summarization/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

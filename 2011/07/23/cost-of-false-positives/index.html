@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Cost of false positives | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Cost of false positives" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<meta property="og:description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<link rel="canonical" href="https://laughingmeme.org//2011/07/23/cost-of-false-positives/" />
+<meta property="og:url" content="https://laughingmeme.org//2011/07/23/cost-of-false-positives/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-07-23T15:55:39+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Cost of false positives" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2011-07-23T15:55:39+00:00","datePublished":"2011-07-23T15:55:39+00:00","description":"A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999.","headline":"Cost of false positives","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2011/07/23/cost-of-false-positives/"},"url":"https://laughingmeme.org//2011/07/23/cost-of-false-positives/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Cost of false positives</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2011-07-23T15:55:39+00:00" itemprop="datePublished">Jul 23, 2011
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://www.flickr.com/photos/mireille/5953336206/in/faves-kellan/"><img src="http://farm7.static.flickr.com/6014/5953336206_428a6250ff_z.jpg" alt="" /></a></p>
+
+<p>I see Twitter getting beaten up a lot for not deleting the spammers faster. Etsy gets beaten up for not deleting the “resellers” faster. Flickr used to get yelled at for not catching the photo stealers or porn spammers faster.</p>
+
+<p><em>“It’s so fucking easy, they’re right over there, here, let me show them to you, what’s your problem?”</em></p>
+
+<p>This comes from not understanding the cost benefit ratio of false positives in identifying abuse of a social site at scale.</p>
+
+<p>Imagine you’ve got a near perfect model for detecting spammers on Twitter. Say, <a href="http://stu.mp">Joe’s</a> perfectly reasonable model of <a href="https://twitter.com/#!/joestump/status/94845660163088384">“20+ tweets that matched ‘^@[\w]+ http://’”</a>. Joe is (presumably hyperbolically) claiming 99% accuracy for his model. And for the moment we’ll imagine he is right. Even at 99% accuracy, that means this algorithm is going to be incorrectly flagging roughly <strong>2 million tweets per day as spam that are actually perfectly legitimate</strong>.</p>
+
+<p>If you’ve never run a social software site (which Joe of course has, but for the folks who haven’t) let me tell you: these kinds of <strong>false positives are expensive</strong>.</p>
+
+<p>They’re really expensive. They burn your most precious resources when running a startup: good will, and time. Your support staff has to address the issues (while people are yelling at them), your engineers are in the database mucking about with columns, until they finally break down about build an unbanning tool which inevitably doesn’t scale to really massive attacks, or new interesting attack vectors, which means you’re either back monkeying with the live databases or you’ve now got a team of engineers dedicated just to building tools to remediate false positives. And now you’re burning engineer cycles, engineering motivation (cleaning up mistakes sucks), staff satisfaction AND community good will. That’s the definition of expensive.</p>
+
+<p>And this is all a TON of work.</p>
+
+<p>And while this is all going down you’ve got another part of your company dedicated to making creating new accounts AS EASY AS HUMANLY POSSIBLE. Which means when you do find and nuke a real spammer, they’re back in minutes. <strong>So now you’re waging asymmetric warfare AGAINST YOURSELF.</strong></p>
+
+<p>Fine, fine, fine whatever. You’ll build a better model. You know, this is a social site, we’ll use social signals. People can click and say “This is spam” and then when, I don’t know, 10 people say a tweet is spam, we’ll delete it and ban that account. But you know, people are fuckwits, and people are confused, and people are unpredictable and the scope of human activity <strong>at scale</strong> is amazingly wide and vast and deep, so <strong>a simple additive, easy to explain, fundamentally fair model isn’t going to work.</strong> (protip: if you’re site is growing quickly, make sure to use variables for those threshold numbers, otherwise you might DOS yourself)</p>
+
+<p>But you’re smart, so now you’ve got a machine learning model, that’s feeding social signals into a real time engine, that’s bubbling up the top 0.01% of suspicious cases (and btw if you’ve gotten this far, you’re really really good, and you’re probably wasting your time on whatever silly sheep poking/nerd herding site you’re working on, so <a href="mailto:kellan@pobox.com">call me</a>, I’ve got something more meaningful for you to do), and in at least Twitter’s case we’re now talking about a mere 200,000 potential spam tweets to be manually reviewed daily.</p>
+
+<p>How many people do you need to review 200k spam tweets per day? How many desks do they need? Are you doing to do that in house or are you going to outsource it? And if you outsource it, how are you going to explain the cultural peculiarities of your community, because while your product might have gone global, you’re still your own funky nation of behavior, and some things that look strange (say, <a href="https://twitter.com/#!/davemcclure">retweeting every mention of your own name</a>) are actual part of your community norm.</p>
+
+<p>And if you don’t explain those peculiarities, how long do you think it is until this small army you’ve assembled to review 200k tweets a day, gets tired, makes a mistake and accidentally deletes one of your social network hub early adopter types (because the sad truth is <strong>early adopters are outliers in the data</strong>, and they look funny).</p>
+
+<p>And what do you think the operational cost of making that mistake is? (see also: <a href="http://www.google.com/search?q=fakesters"><em>fakesters</em></a>)</p>
+
+<p>Also, whats your data recovery strategy look like on a per account basis?</p>
+
+<p>There are solutions. Some of them are straightforward. Many of them aren’t. None of them are as easy as you think they are unless you’ve been there. And I’m happy to talk to you about them over a beer, but just posting them on a blog, well that would be telling other people’s secrets. And they already have a really hard job.</p>
+
+<p>A much more cogent blog post by Bruce Schneier from 2006, on <a href="http://www.schneier.com/blog/archives/2006/03/data*mining*for.html">Data Mining for Terrorists</a> really drills into this problem from a theoretical model. (where “for Terrorists” is to be taken in the “finding Terrorists” sense and not in the “for Dummies” sense) (<strong>update:</strong> via <a href="http://rc3.org/2011/07/24/screening-systems-and-the-base-rate-fallacy/">rafe</a> a good <a href="http://news.bbc.co.uk/2/hi/uk\_news/magazine/8153539.stm">BBC article on base rate fallacy</a>)</p>
+
+<p>The topic has been on my mind lately, as <a href="http://laughingmeme.org/2011/06/02/sorry-we-did-something-wrong-twitter-on-suspending-my-account/">Twitter recently banned my account by accident, along with a number of other very early accounts</a>, but never acknowledged it. And at Etsy last week we had an adaptive process go rogue and ban a tiny number of early adopters, an issue we posted about <a href="http://etsystatus.com/2011/07/20/some-accounts-mistakenly-deactivated/">on our status blog</a>, and <a href="http://www.etsy.com/teams/7716/announcements/discuss/8723148/page/1/">in the forums</a>. In both cases there was a full recovery of all the account data and state.</p>
+
+<p>Photo by: <a href="http://www.superchou.com">Superchou</a></p>
+
+  </div><a class="u-url" href="/2011/07/23/cost-of-false-positives/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

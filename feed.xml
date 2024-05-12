@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2024-05-12T17:49:00+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">What we mean to others</title><link href="https://laughingmeme.org//2024/05/12/what-we-mean-to-others.html" rel="alternate" type="text/html" title="What we mean to others" /><published>2024-05-12T14:05:30+00:00</published><updated>2024-05-12T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/05/12/what-we-mean-to-others</id><content type="html" xml:base="https://laughingmeme.org//2024/05/12/what-we-mean-to-others.html"><![CDATA[<p>Spent some time this weekend at a wedding with a lot of very old friends.</p>
+
+<p>Did we first meet in the 90s providing tech support for tree sitters? Or was it in a muddy field in the Netherlands laying fiber optic cable for a 2001 hackers conference? Or at the Other Side Cafe in Boston debating whether it made sense use RDF as the basis for a syndication format and should it still be called RSS at that point? Oh, it was a Perl conference in Japan, that’s right, I had forgotten about that.</p>
+
+<p>Much like Gen X is sometimes the forgotten generation (or at least we feel that way), the generation of us who grew up with an internet that seemed an unalloyed good fall awkwardly into the middle between those who didn’t grew up with it, and those for whom there has always been the whiff of brimstone, greed, and ruin around the place.</p>
+
+<p>Weddings and their ilk are excellent heritage technologies for reconnecting with community but in mingling it was clear that for so many of us who grew up building our community with the help of prosthestics in the form of social software we find ourselves bereft a bit at the tools slow and then all at once collapse.</p>
+
+<p>Discussion turned as it does in such crowds to whether there is a tool to build (“Does Signal have an API?” “Is email the appropriate technology?”), but for me the key insight was something the officiant (the delightful Yoz Grahame) said during the ceremony.</p>
+
+<blockquote>
+  <p>As we get older, and let’s face it we got old, it’s easy to forget what we mean to other people. - Yoz Grahame</p>
+</blockquote>
+
+<p>My interpretation of that thought, and what I’m going to try to hold on to, is that while I wouldn’t wish the grinding details of my day to day life on anyone, I cherish knowing what’s up with you, with all the obvious inherent the contradiction there in.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Spent some time this weekend at a wedding with a lot of very old friends.]]></summary></entry><entry><title type="html">Software and its Discontents, Part 2: An Explosion of Complexity</title><link href="https://laughingmeme.org//2023/01/23/software-and-its-discontents-part-2-complexity.html" rel="alternate" type="text/html" title="Software and its Discontents, Part 2: An Explosion of Complexity" /><published>2023-01-23T12:26:30+00:00</published><updated>2023-01-23T12:26:30+00:00</updated><id>https://laughingmeme.org//2023/01/23/software-and-its-discontents-part-2-complexity</id><content type="html" xml:base="https://laughingmeme.org//2023/01/23/software-and-its-discontents-part-2-complexity.html"><![CDATA[<p>This is part 2 in my “Software and its Discontents” series. This series is the product of my asking a bunch of folks about the current state of software engineering, the sense that it is not going well, that people are disillusioned and frustrated. In <a href="https://laughingmeme.org/2023/01/16/software-and-its-discontents-part-1.html">part 1</a> I talked a bit about the macro economic trend, namely the end of the decade of cheap money for tech investments, which is driving this conversation, and shaped some of the changes to the industry over the last decade.</p>
+
+<p><a href="https://laughingmeme.org/2023/01/16/software-and-its-discontents-part-1.html">see: Software and its Discontents, January 2023, Part 1</a> for more context and background.</p>
+
+<p>In my conversations I found 4 interdependent trends that have substantially increased the difficulty of building software.</p>
+
+<ul>
+  <li>an explosion in the complexity of software development</li>
+  <li>tech talent becoming significantly more expensive</li>
+  <li>success becoming more elusive than ever, with startups having “lost that magic feeling”</li>
+  <li>conflicts over changing expectations of the work environment</li>
+</ul>
+
+<p>Talking primarily to engineering leaders, but also CEOs, VCs, ICs, and other practitioners, the most common response to the question of “has something substantially changed?” is that software, counter intuitively, has gotten harder to build. This is counter intuitive because the tools are orders of magnitude better, the amount of work you can cheaply outsource is nearly miraculous, computers are so damn fast and cheap these days, the quality of resources, much of it free, is off the charts, and the talent pool has exploded, and shows every sign of being smarter and better educated than ever. But software has gotten harder to build in one very particular and important way: it’s gotten more complex.</p>
+
+<p>In both systems thinking and software the term “complex” is a technical one. It refers to the number of distinct parts in a system, and the connections between them. Complex systems are characterized by nonlinearity, randomness, emergence, and surprise. Complexity is why communication and coordination dominate all other costs when it comes to building software. And complexity has exploded. (thank you to <a href="https://www.kitchensoap.com/">John Allspaw</a> for first introducing me to the concept of complexity as opposed to the merely complicated)</p>
+
+<p>Complexity has not only exploded, it’s exploded in multiple distinct ways that have distinct root causes but interact.  I’ve tried to break up the explosion in complexity into the following categories:</p>
+
+<ol>
+  <li>The complexity of rising standards</li>
+  <li>The complexity of too many choices</li>
+  <li>Complexity and technical decision making in the era of abundance</li>
+  <li>The complexity of large teams and aging code bases</li>
+  <li>Aspirational complexity</li>
+</ol>
+
+<p>Some of this complexity is directly attributable to the decade of cheap money, some is just the natural result of our industry maturing. Some of this complexity will be addressable with better practices, better leadership, and a better understanding of the sources of complexity. Some of the complexity is here to stay, and we’ll need to recalibrate our expectations about how difficult it is to build software.</p>
+
+<h3 id="the-complexity-of-rising-standards">The complexity of rising standards</h3>
+
+<p>We expect more of software than we used to. Some of this is customer preference, some is regulation, and some is professional aesthetics.</p>
+
+<p>Regulatory requirements, e.g. around data privacy and financial controls, are significantly more complex than they used to be. GDPR, AADC, DMA, DSA, HADOPI, FOSTA-SESTA, BITV, etc. But also FedRAMP, HIPAA, SOX, not to mention SOC2, and HITRUST, have become critical much earlier in a company’s life cycle, either to access critical customers, critical resources, or both. The regional and geographic variations can be particularly challenging and undermine a key productivity win that early online businesses enjoyed. Amazon, for example, didn’t even bother collecting sales tax in their early days, a price win for customers, but also a massive reduction in complexity vs a multi-geography brick and mortar business. In the early days, we on the Web, were all playing on regulatory easy mode. That window has largely closed. Especially as startups, searching for new problem spaces to deploy their capital and technology, have moved into highly regulated domains, like health, finance, and civic infrastructure.</p>
+
+<p>The web, at its inception, was a triumph of simplicity. Its rapid rise to dominance was driven in large part by how it reduced the complexity of delivering software to customers. It was a single unified platform. It was open and non-proprietary. It was simple by design, built around a stateless protocol and a simple declarative UI paradigm. It was available over the internet and didn’t require anything to be bundled or shipped. These radical simplifications allowed effective asymmetric competition with established players developing desktop software and delivering it via physical media. Over the intervening decades we’ve largely compromised all these simplifying properties of the web. Even when all we’re doing is delivering software via the internet (and not say scooters out of the back of a fleet of vans) we’re now targeting many different platforms: desktop web, mobile web, and also the two dominant and semi-incompatible mobile walled garden ecosystems. Meanwhile state management has become so complex that it is the primary job we adopt heavy frontend frameworks, like React, to help us address. This complexity has driven the need of a specialized frontend engineering discipline, someone who can wrangle a Typescript type system of modular components populated via React Query talking to Apollo GraphQL backed by a gRPC Envoy proxy to a SOA stack. Similarly machine learning, mobile, infra, and backend, have all specialized with their own unique complexities. With multiple specializations, we now have more distinct “resources’’, each with their own work in progress queues, biases, hiring loops, onboarding, culture, sick days, and needs to coordinate. Explosions of complexity.</p>
+
+<p>Rising standards have benefits as well as costs. Regulatory complexity is often driven by regulators’ concern for customers. More directly however, the raised expectations of what success looks like means that customers who were ignored in the early days of tech can no longer be ignored by a team wishing to be successful. Accessibility and internationalization have both become critical for success. In the early days, when broadband and then mobile adoption were rapidly doubling, you could count not just on new customers being regularly minted, but that the vast majority of those new customers would match the demographics of early adopters: young and wealthy, with many of them living in US cities. Even those early web adopters aren’t that young anymore, and a company that is only able to get adoption among some idealized fantasy model of young, perfectly healthy, US consumers isn’t viable in 2023.  But both accessibility and internationalization require higher coordination of software development across previously unexplored dimensions with adaptive designs and translation. And, perforce, at least some of this work your software team is unlikely to be able to evaluate, complicating your acceptance criteria. Complicated processes are a classic source of complexity.</p>
+
+<p>Similarly even without regulatory pressure you need to be designing for safety, security and anti-abuse from day one. Succeeding at defending against the global legions of the poor, bored or both is a high bar and now required at launch.</p>
+
+<h3 id="the-complexity-of-too-many-choices">The complexity of too many choices</h3>
+
+<p>In many ways we’re living through a golden age of software development: more tools than ever, more affordable than ever. I’m old enough to remember when IDEs cost hundreds if not thousands of dollars, and there was a real ecosystem of people selling third party libraries and widgets (advertised in the back of Dr. Dobbs). Today we have more: more tools, more languages, more frameworks, more databases, and more services. Most of these tools represent real progress in terms of increased capabilities, and outsourcing non-core parts of your business. However the range of choice has real impacts on complexity.</p>
+
+<p>Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks. So does Google PubSub versus some shitty solution we built on top of MySQL, and Launch Darkly can do so much more than anything we might have expressed with a shitty YAML config file. Those home rolled systems of an earlier era lacked both features and documentation, but our current systems are just as unique in their composition. Given the huge number of choices and the configurability of each of these professionally developed and documented components, the odds that you’ve seen this exact combination of technologies, tools, and services configured this particular way before is extremely low.  We’re a long way from the era when everyone configured their LAMP app the same way, and a community of practice grew up around it.</p>
+
+<p>Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts.  At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack.</p>
+
+<h3 id="complexity-and-technical-decision-making-in-the-era-of-abundance">Complexity and technical decision making in the era of abundance</h3>
+
+<p>In the conversations I’ve been having with engineering leaders a huge source of anxiety has been the impact that the explosion of technical choices has had on the quality of technical decision making.</p>
+
+<p>As an engineering leader raising the quality of technical decision making is arguably your most important job after building the team itself. Eight years after I left Etsy I’m still getting new notes from people telling me that, no matter how frustrated they were with me at the time, in subsequent jobs they’ve come to appreciate and desperately miss how well defined the “Etsy Way” of building software was.</p>
+
+<p>Today any team that has been around for more than a minute not only has chosen a unique combination of technologies, they’ve changed their mind about it a couple of times, often in logically inconsistent ways. With so many great technologies out there, and so many of them backed by well funded marketing teams (see: cheap money and marketing), it’s never been harder to keep your stack simple, and logically consistent. Many teams have given up entirely and are leaning into developer empowerment and polyglot infrastructures. We’ve collectively taken on the complexity of targeting multiple stacks, their idiosyncrasies, their need for training, and their upgrade cycles due to raising standards, while we’re simultaneously splitting our resources for managing that complexity by taking on the needed training, upgraded cycles, and idiosyncrasies of these complex polyglot stacks. Not to mention the unique interactions of these technologies, with our previous technology choices, which are still lingering in the stack. The real horror stories these days in infrastructure aren’t the load spikes of days of yore (“getting Slashdotted!”) but those complex interactions: how PHP’s GRPC library interacts with Envoy, how Scala’s JSON library tickles Varnish caching issues, how MySQL’s weird implementation of utf8mb4 is incompatible with storing your data literally anywhere else. There is a reason that tech debt has become the favorite bugbear of teams everywhere.</p>
+
+<p>Without standardization in your company, without a small number of well known tools in which you’re developing expertise as a team, the hope that you can grow your team logarithmically but see exponential results is a fantasy. That discipline is harder than ever to enforce.</p>
+
+<h3 id="the-complexity-of-large-teams-and-aging-code-bases">The complexity of large teams and aging code bases</h3>
+
+<p>There is so much to say on the topic of large teams and aging code bases, and so much of it has been covered well elsewhere. I want to focus on just the important changes we’ve seen related to the other trends we’re discussing in this post.</p>
+
+<p>Cheap money and founder friendly funding in the last decade has led to more founder control and deeper pockets. That control means we’re more likely to see attempts at continuity in companies. That means two decades into the Internet era of tech startups and a decade into cheap money, we’re seeing significantly older codebases. Older codebases compound the explosion of technical choices, and the sometimes poor technical decision making. Older codebases, with a longer history, mean more choices. More choices, and a lack of clarity around which of those choices are load bearing means significantly increased complexity for anyone onboarding to the codebase.</p>
+
+<p>Teams are also getting larger, as we discussed in part 1. As teams get larger, complexity goes up for several reasons. First as we slice up responsibility for developing our software into thinner slices there are fewer people who have touched the whole system and have a coherent view of the whole architecture. Coherence is one of the key characteristics we look for in simple architectures, and its absence drives complexity. Additionally large teams spend more time dealing with coordination and are more likely to reach for architecture and abstractions that they hope will reduce coordination costs, aka if I architect this well enough I don’t have to speak to my colleagues. Microservices, event buses, and schema free databases are all examples of attempts to architect our way around coordination. A decade in we’ve learned that these patterns raise the cost of reasoning about a system, during onboarding, during design, and during incidents and outages. Finally, as teams have grown, and individuals’ scope of responsibility have narrowed, resume and promotion driven design has found increasingly fertile ground. How do you stand out as the 500th person maintaining a system you didn’t build? Build something new! And all of the complexity inherent in it. Google, as with so many of the best and most problematic patterns in this era, is well known as the epicenter of this phenomena, but you see it broadly as teams grow.</p>
+
+<h3 id="aspirational-complexity">Aspirational Complexity</h3>
+
+<p>As an industry we’ve always been enamored with new technology and shiny objects. For years it was almost definitional, otherwise why did you go into this industry? Interestingly, even as the job has mainstreamed, the infatuation with complexity has remained, and even grown.</p>
+
+<p>First, complexity lies at the heart of our industry’s mythologies. New people joining the industry are taught our myths about Google, Facebook, Amazon, and a sense that these companies’ approaches are what software is “supposed to” look like. And fewer and fewer people are in position to have a wide enough scope of responsibility to learn pragmatic counter lessons the hard way.</p>
+
+<p>Second, during the era of abundance, when OpEx was easier to deploy than CapEx, cloud and SaaS exploded. These services come backed with significant marketing budgets whose <em>job</em> is to convince you that you <em>need</em> the complexity. Why deploy a database when you could deploy a non-relational datacluster, why deploy a server, when you could deploy a Kubernetes cluster, why build simple web pages when you could use React. Hacker News in particular has an interesting role in this cycle, being both a community driven by industry mythology, and also the marketing arm of a major source of funding for new developer oriented SaaS offerings.  Now your community is reinforcing the message that good software is complex software, and that last year’s technical choices are out of date, and probably why your productivity is suffering.</p>
+
+<p>And it was easier to raise capital if what you’re doing sounds high tech and complicated. Really it was a flywheel of people being able to raise money by sounding complicated and smart, and then spending that money on people who made them feel like they could help solve a hard problem in a complicated and smart way, with everyone getting paid and emotionally validated along the way.  We’ve developed an aesthetics of complexity: the sense that a good system is a complex one, that you should prefer a SPA over a web page, a distributed system over a simple one, a service over a config file, the idea if you aren’t on the latest technology you’re wasting your time, and potentially damaging your career.</p>
+
+<h3 id="the-more-things-change">The more things change</h3>
+
+<p>The race between improved productivity from better tools and the drag of increased complexity, inherent, accidental, and aspirational, isn’t particularly new for our industry. If you talk to people who worked at Sun, SGI, or Oracle at the end of the 90s they’ll quickly point out to you that much of this is cyclical.  The era of cheap money certainly juiced some of these trends, but without other conflicts in the workplace around outcomes and expectations we wouldn’t be at this inflection point.</p>
+
+<p>In part 3, I’ll contrast how the cost of software engineers has risen significantly at a time when the success for software companies has become more elusive.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[This is part 2 in my “Software and its Discontents” series. This series is the product of my asking a bunch of folks about the current state of software engineering, the sense that it is not going well, that people are disillusioned and frustrated. In part 1 I talked a bit about the macro economic trend, namely the end of the decade of cheap money for tech investments, which is driving this conversation, and shaped some of the changes to the industry over the last decade.]]></summary></entry><entry><title type="html">Software and its Discontents, January 2023, Part 1</title><link href="https://laughingmeme.org//2023/01/16/software-and-its-discontents-part-1.html" rel="alternate" type="text/html" title="Software and its Discontents, January 2023, Part 1" /><published>2023-01-16T12:26:30+00:00</published><updated>2023-01-16T12:26:30+00:00</updated><id>https://laughingmeme.org//2023/01/16/software-and-its-discontents-part-1</id><content type="html" xml:base="https://laughingmeme.org//2023/01/16/software-and-its-discontents-part-1.html"><![CDATA[<p>Over the last few months I’ve been intrigued by a question: where is the frustration and disillusionment, so prevalent currently in the software industry, coming from? And, as an engineering leader, what can I learn from this discontent and how should it shape my practices?</p>
+
+<p>This is not a topic that lends itself to a definitive answer, boundless and changing as the conditions are, but in talking with other engineering leaders, executives, CEOs, VCs, and a wide variety of practitioners, I found some trends that felt informative to me, and hopefully to you. I found in talking with folks not a single cause, but several interdependent causes. This isn’t a simple conversation, e.g. about remote vs hybrid, but a decade long set of trends contributing to why software engineering has gotten less successful, strains on labor relationships more pronounced, why managers are so fervent that their job has gotten harder, and why we’re having this discussion at this exact moment.</p>
+
+<p>In this blog post, part 1 in the series, I’m going to try to set the stage for the next few parts by laying out the discontent I’m seeing, and what are some of the causes and trends. In particular I suggest that over the last decade we’ve seen:</p>
+<ul>
+  <li>an explosion in the complexity of software development</li>
+  <li>tech talent become significantly more expensive</li>
+  <li>success become more elusive than ever, with startups having “lost that magic feeling”</li>
+  <li>conflicts over changing expectations of the work environment</li>
+</ul>
+
+<p>Further I believe that we’re having this conversation at this exact moment because we’re at the tail end of a decade of cheap money. The relative ease of raising capital has both contributed to the trends that have brought us to this point of discontent, and allowed us to put off dealing with the challenges it created. Until now.</p>
+
+<p>In future installments I’ll deep dive into the causes and trends, and share some ideas about how we can evolve our practices. I’m hoping this whole series will be useful for people thinking about the current state of the software industry, managers looking to ease their practice, individuals trying to understand the system that they’re operating in, and for anyone who joined our industry in the last decade and is looking for some perspective.</p>
+
+<p>(And a sincere thank you to everyone who read the draft form of this when it was all one long rambling brain dump blog post. I can’t promise it isn’t still a rambling brain dump, but at least now it’s a rambling brain dump broken into sections and installments!)</p>
+
+<h3 id="no-one-is-impressed">“No one is impressed.”</h3>
+
+<p>The earliest signals that caught my attention that we had a phenomena that wasn’t just local to my own experiences was a sharp rise in discontent among three of the groups I speak with regularly: CEOs (and other executives), managers, and senior ICs (staff, principal, etc). “No one is impressed with their tech team”, was how one senior eng leader I spoke with put it.</p>
+
+<p>CEOs, both in private and some in public, have been increasingly vocal about their skepticism regarding their engineering teams’ effectiveness. In public we’ve seen Sundar and Zuckerberg sharing these opinions, with a number of lesser luminaries following along (this is setting aside the toxic clown show that is Musk’s Twitter, and the sycophant he is inspiring). Layoffs have been one of the largest stories in tech this year. Companies have been quick to explain this trend as due to over-hiring during the pandemic. More quietly some have pointed to a shifting focus on profits over growth. But also privately and sometimes publicly the sentiment is that engineering teams just aren’t as productive as executives expect them to be, that the over-hiring represents bloat not just miscalculated ambition. It’s hard to overstate what a dramatic shift this is from how executives spoke about their engineering teams a decade ago, which piqued my interest.</p>
+
+<p>Senior engineers meanwhile are feeling both frustrated and stuck. There is skepticism about whether early career folks are coming into the industry as well prepared as they used to (or into roles where they can be successful whether or not they’re prepared), but “kids these days” has a long history in our industry not to mention in every other human endeavor. Some of the increased pitch of frustration though is coming from the senior engineers’ own struggle to be effective. They feel “stuck”, with “entire chunks of [the] organization working on problems that feel self-inflicted and deploying skilled generalist engineers to seemingly low-value hyper-focused projects.”</p>
+
+<p>Managers meanwhile experience their jobs as having gotten radically harder, caught in the middle of rising expectation and frustration on all sides.</p>
+
+<h3 id="caveat-a-global-pandemic">Caveat: a global pandemic</h3>
+
+<p>One obvious caveat to call out upfront is we all just lived through a multi-year global pandemic that was filled with many tragedies, private and public, and forced all of us to make radical changes to our lives and work. Our industry was both touched relatively lightly given our comparative ease of working from home, and radically transformed as we stayed at home, and learned to do this work in our bedrooms and living rooms, and over Zoom, something very few of us signed up for. I don’t think that it can be overstated what a toll this has taken on all of us, even if the toll was different for each of us. I do, however, believe the trends I’m seeing are distinct from the pandemic, even if they interact heavily, but it’s reasonable to be skeptical of that conclusion. Even if all the changes we’re experiencing are attributable to living through a pandemic, I’m not sure what we do with that insight, so I’ve kept working on exploring these other avenues of understanding.</p>
+
+<h3 id="so-whats-the-problem">So what’s the problem?</h3>
+
+<p>The dominant macro trend is fairly straightforward: interest rates are up. Interest rates being up creates better investment opportunities than tech, therefore tech stocks are down, and venture capital is harder to raise. This is not inherently interesting if we’re trying to learn about engineering and management practices. Stock prices have only ever loosely correlated with how well a company is executing and so the fluctuations only give us loose information about how companies may or may not need to improve execution.</p>
+
+<p>What is interesting is what was hidden by a decade of cheap money that we find exposed as the tide goes out. As that tide has gone out we’re faced with a number of unique challenges, new conditions, broken practices, and dysfunctions which we’ve been able to avoid talking about by throwing money at the problems. And it is those challenges that can make it a uniquely difficult time for software development teams.</p>
+
+<h3 id="what-were-we-spending-the-cheap-money-on">What were we spending the cheap money on?</h3>
+
+<p>One way to understand what has changed is by looking at what we were spending the cheap money on.</p>
+
+<p>Team sizes are up, creating a tight talent market, driving up salaries, with salaries for folks right out of college and early career rising fastest, compressing the compensation ranges. We also saw practices like annual stock refreshes become much more ubiquitous, and the emergence of other employee-friendly equity practices: like no vesting cliffs. All together the cost of paying an engineering team, especially a large team, is up significantly.</p>
+
+<p>Marketing was another major sink for cheap money. This had several knock on effects on the costs of operating a tech company, and in particular engineering practices and costs. Beyond just the marketing budget, heavy investment in marketing has significantly raised companies’ expectations for the quality, scope, and speed of their analytical infrastructure. This has driven significant investment in data engineering talent and infrastructure, supercharged the MarTech SaaS sector (absorbing more of the limited data engineering talent), and required engineering and marketing to work in close partnership, two teams that have not traditionally been close partners.</p>
+
+<p>Cloud and SaaS were major beneficiaries of cheap money with OpEx being much simpler to deploy quickly than CapEx. This is a key driver in the explosion of services that any single company integrates. Increased marketing budgets were also put behind these SaaS offerings, making a virtue of their adoption.</p>
+
+<p>Cheap money has been used to finance startups that are outside of Silicon Valley’s traditional sweet spot; businesses with near zero marginal costs from growth. Instead we see a crop of businesses with significant marginal costs due to interacting with the physical world, logistical complexity, licensing liabilities, or all of the above and more.</p>
+
+<p>Finally failing is a good way to keep complexity from growing year over year. With cheap money we’ve seen many more companies persisting and pivoting instead of simply folding. This has strained the capabilities of leaders, managers, and software architectures.</p>
+
+<h3 id="a-stage-set">A stage, set</h3>
+
+<p>Thanks for reading part 1 of “Software and its Discontents, January 2023”. If you didn’t already believe we were struggling as an industry, it’s unlikely I’ve convinced you. If you were thinking about it, I hope I provided some systemic perspective on how, why and why now.</p>
+
+<p>In part 2, I’ll be talking about the explosion of complexity we’ve seen in software development over the last decade, and in particular:</p>
+
+<ol>
+  <li>The complexity of rising standards</li>
+  <li>The complexity of too many choices</li>
+  <li>Complexity and technical decision making in the era of abundance</li>
+  <li>The complexity of large teams and aging code bases</li>
+  <li>Aspirational complexity</li>
+</ol>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Over the last few months I’ve been intrigued by a question: where is the frustration and disillusionment, so prevalent currently in the software industry, coming from? And, as an engineering leader, what can I learn from this discontent and how should it shape my practices?]]></summary></entry><entry><title type="html">Full stack</title><link href="https://laughingmeme.org//2022/11/19/full-stack.html" rel="alternate" type="text/html" title="Full stack" /><published>2022-11-19T08:26:30+00:00</published><updated>2022-11-19T08:26:30+00:00</updated><id>https://laughingmeme.org//2022/11/19/full-stack</id><content type="html" xml:base="https://laughingmeme.org//2022/11/19/full-stack.html"><![CDATA[<p><a href="https://xkcd.com/378/"><img src="/img/real_programmers.png" /></a></p>
+
+<p>Apropos of having one of those conversations about how silly the term “full stack”</p>
+
+<p>At my first job in industry you were expected to be full stack, though the term wouldn’t be coined for over a decade.</p>
+
+<p>At the time full stack meant you could:</p>
+
+<ul>
+  <li>walk over to the local OEM</li>
+  <li>choose a case, CPU, drives, network cards, optical drive, etc</li>
+  <li>assemble said pieces into a working server possibly twiddling IRQs as needed</li>
+  <li>format drives, acquire and install an operating system, configure the boot loader, and configure PPP and DHCP to get the box online</li>
+  <li>download and compile a development toolchain</li>
+  <li>compile and configure a web serve and FastCGI</li>
+  <li>compile and configure a database, design the schema, write the SQL</li>
+  <li>write some code that made SELECTs, generated HTML and accepted form encoded POSTs</li>
+  <li>write code that responded to atypical request like dynamically serving images and NPH requests for live updating content</li>
+  <li>check the code into CVS</li>
+  <li>rack the server, connect directly via a local terminal and configure NICs to talk to datacenter’s network</li>
+  <li>configure bind to publish the IP address of the box</li>
+</ul>
+
+<p>A small smattering of the things It did not require you to do included:</p>
+<ul>
+  <li>code collaboratively</li>
+  <li>secure your application, as long as you were more secure than Matt’s Script Archive you were good</li>
+  <li>support any sophisticated analytics or observability beyond tail -f</li>
+  <li>Javascript</li>
+  <li>git</li>
+  <li>work with product management</li>
+  <li>achieve anything resembling scale or uptime - <a href="https://en.wikipedia.org/wiki/C10k_problem">10k concurrent connections was a <em>big deal</em></a></li>
+  <li>deal with Jira or any other ticket system</li>
+</ul>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Boiling water with the lid off</title><link href="https://laughingmeme.org//2022/11/06/boiling-water-with-the-lid-off.html" rel="alternate" type="text/html" title="Boiling water with the lid off" /><published>2022-11-06T22:05:24+00:00</published><updated>2022-11-06T22:05:24+00:00</updated><id>https://laughingmeme.org//2022/11/06/boiling-water-with-the-lid-off</id><content type="html" xml:base="https://laughingmeme.org//2022/11/06/boiling-water-with-the-lid-off.html"><![CDATA[<p>William Gibson once said that he was leaving Twitter (or maybe it was blogging?) because he found it was like <em>“trying to boil water with the lid off”</em>. Good ideas took time to reach their potential and releasing all his ideas early was preventing them from maturing into material for his writing. That line has always stuck with me. (he since seems to have changed his mind, which is great, because <a href="https://twitter.com/GreatDismal">he does good Twitter</a> for however much longer that lasts)</p>
+
+<p>I’ve said it in different ways with each of the posts since I started trying to blog more regularly, but I thought it was worth writing a note dedicated entirely to making the point that this site is explicitly about trying to boil water with the lid off. The project is to publish early, and update, and clean it up as I go, and most importantly as people give me feedback.</p>
+
+<p>As I said in the <a href="/2022/10/11/obsidian-tasks.html">Obsidian tasks post</a>, <em>“The best way to ask a question is to share what you know, and have people tell you what you got wrong.”</em></p>
+
+<p>And I’d encourage you to lower the bar for yourself as well. We’d love to see what you’re thinking about, however unformed. One trick that worked for me to lower the bar was to fork the writing between this site, and very slightly higer bar I hold for myself at <a href="https://kellanem.com/notes/">Notes on engineering leadership</a>. I’m sure I’ll come up with others. (maybe bring back some sort of explicitly shorter form category? or a link blog?)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[William Gibson once said that he was leaving Twitter (or maybe it was blogging?) because he found it was like “trying to boil water with the lid off”. Good ideas took time to reach their potential and releasing all his ideas early was preventing them from maturing into material for his writing. That line has always stuck with me. (he since seems to have changed his mind, which is great, because he does good Twitter for however much longer that lasts)]]></summary></entry><entry><title type="html">ideas.txt: Find Me There</title><link href="https://laughingmeme.org//2022/11/05/find-me-there.html" rel="alternate" type="text/html" title="ideas.txt: Find Me There" /><published>2022-11-05T15:05:24+00:00</published><updated>2022-11-05T15:05:24+00:00</updated><id>https://laughingmeme.org//2022/11/05/find-me-there</id><content type="html" xml:base="https://laughingmeme.org//2022/11/05/find-me-there.html"><![CDATA[<p>From the ideas.txt file.</p>
+
+<p>I’ve had this idea kicking around the ideas.txt in various forms since OAuth got rolling, had it crossed out as “done” during the period Keybase was a happening thing, and had to mark it as “undone” when Keybase kind of went to shit with crypto spam/scam. Took another stab at building over a weekend last April when the Elon craziness was just getting started, but didn’t get very far. So blogging instead. Who knows, maybe I’ll get back to it. But it would be cool if <em>you</em> built it.</p>
+
+<h3 id="idea">Idea</h3>
+
+<p>A small service that you can authenticate to using various OAuth providers to prove that this me on Twitter, is that me on Google, is that me on Wordpress, is that me on Mastodon. Some folks have built this just for Mastodon to Twitter, but I think it would be more interesting as a service that lets people attest to their identity across multiple platforms.</p>
+
+<h3 id="prior-art">Prior art</h3>
+
+<ol>
+  <li>Twitdon and earlier the Twitter Mastdon Friend Finder of some of the more recent examples.</li>
+  <li>Services like Gravatar are spirtually aligned.</li>
+  <li>FriendFeed is probably the earliest incarnation, and points to directions in which you could grow it.</li>
+  <li><a href="https://book.keybase.io/guides/proof-integration-guide">Keybase</a></li>
+  <li><a href="https://webfinger.net/">WebFinger</a></li>
+  <li>For websites, well known location files, e.g. for Google Analytics.</li>
+  <li>Linktree has a lot in common</li>
+  <li>Folks are scrapping Twitter at the moment for mentions of Mastodon in tweets and profiles, which is a classic worse is better solution.</li>
+</ol>
+
+<h3 id="some-more-details">Some more details</h3>
+
+<ul>
+  <li>Make it work for webpages using well known location pattern, ala Google Analytics.</li>
+  <li>In addition to an API that is “find this person on other services”, you also would need a “find me everyone I know from this service on other services” to be useful.</li>
+  <li>OPML, because RSS readers are going to be hip agai n!</li>
+</ul>
+
+<h3 id="update-1-2022-11-05t2134z">update 1 2022-11-05T21:34Z</h3>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Advogato also seems like similar prior art in its way, as much as warning on preventing gaming the system</p>&mdash; Daniel Onren Latorre, @danlatorre@mstdn.social (@danlatorre) <a href="https://twitter.com/danlatorre/status/1588991242196905984?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
+
+</div>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/nLWabBFMW9">https://t.co/nLWabBFMW9</a> uses what you set as XFN - like `a href=&quot;#&quot; rel=&quot;me&quot;` - to do something quite close to that</p>&mdash; Alister (@alister_b) <a href="https://twitter.com/alister_b/status/1588992992228278272?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
+
+</div>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminds me of <a href="https://t.co/4DhmqlmEXv">https://t.co/4DhmqlmEXv</a></p>&mdash; Brett Slatkin (@haxor) <a href="https://twitter.com/haxor/status/1588997493962203136?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
+
+</div>
+
+<h3 id="update-2-2022-11-06t1213z">update 2 2022-11-06T12:13Z</h3>
+
+<p>I got asked what I meant by “well known locations”. Technically well known locations refers to <a href="https://www.rfc-editor.org/rfc/rfc8615">RFC 8615</a>, but I mean it more loosely in the sense of demonstrating you control a website by changing it in a way a service specificies, e.g. uploading a specific file at a specific URL. Google Analytics list of <a href="https://support.google.com/webmasters/answer/9008080?hl=en#choose_method">ways to demonstrate you own a site</a>, is probably best practices.</p>
+
+<h3 id="update-3-2022-11-07t0010z">update 3 2022-11-07T00:10Z</h3>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It’s <a href="https://twitter.com/claimID?ref_src=twsrc%5Etfw">@claimid</a> all over again!<br /><br />cc <a href="https://twitter.com/fstutzman?ref_src=twsrc%5Etfw">@fstutzman</a> <a href="https://t.co/IkQQcMGNSY">https://t.co/IkQQcMGNSY</a></p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589258018474332161?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
+
+</div>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We published a couple papers and eventually life needed to keep moving on…<br /><br />Open verification needs a business model.<a href="https://t.co/p8skGB8ewf">https://t.co/p8skGB8ewf</a></p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589279897843027968?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
+
+</div>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Oh, and more than a year before FriendFeed.    So much vision.  So little cash.</p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589283197824946177?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
+
+</div>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[From the ideas.txt file.]]></summary></entry><entry><title type="html">Twitter Messiness Was A Feature</title><link href="https://laughingmeme.org//2022/11/04/twitter-messiness-was-a-feature.html" rel="alternate" type="text/html" title="Twitter Messiness Was A Feature" /><published>2022-11-04T16:05:24+00:00</published><updated>2022-11-04T16:05:24+00:00</updated><id>https://laughingmeme.org//2022/11/04/twitter-messiness-was-a-feature</id><content type="html" xml:base="https://laughingmeme.org//2022/11/04/twitter-messiness-was-a-feature.html"><![CDATA[<p><img src="/img/seal.jpg" /></p>
+
+<p>I was mostly on vacation last week, though I certainly indulged myself in keeping up on the drama of Musk happening to Twitter. I scribbled down the note: “Twitter’s messiness was a feature”. Mostly as a reminder to myself as we think about what comes next I’m expanding the thoughts while I still remember it.</p>
+
+<p>What makes Twitter so ungovernable was also key to what made it successful. (aka <a href="https://twitter.com/search?q=become%20ungovernable">“become ungovernable”</a>)</p>
+
+<p>Twitter has always been messy. Dan’s <a href="https://slate.com/technology/2022/11/weird-twitter-elon-musk-dril-darth-horseebooks-mayor-emmanuel.html">Weird Twitter</a> post touches on how the white space left by Twitter’s internal challenges was key to much of the innovation that drove the product (and social media at large). Perfection takes no risks, invites no one to play, Twitter, at least early Twitter, never suffered from that problem.</p>
+
+<p>The other messiness that was inherent to Twitter is it wasn’t a forum with a topic, it didn’t cater to one crowd, it wasn’t Google Plus, or any of the multitude of social software over the years that has encouraged people to fracture their personality by interest<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>Put another way, Google+ was famously designed to allow Sergey (or was it Larry?) to talk to solar experts. But solar experts want to interact with reporters. And the reporter wants to interact with the trend setters, who want to interact with celebrities, who want to interact with Beyonce. Everyone has an aspiration, but their participation has the side benefit of allowing us to listen in. I learn a ton from the snarky jokes that climate experts exchange with their colleagues on Twitter, including in particular who they trust and value, as distinct from official power structures.</p>
+
+<p>But mess, at any meaningful scale, has inherent tension, and creates conflict. Boring and scaled is easy, messy and small is a familiar problem we’ve dealt with as humans for millenia. Messy and big may be inherently unstable.</p>
+
+<p>And I’m including this just because I’ve always loved this “become ungovernable” video of Daisy (also in the photo above):</p>
+
+<video controls=""><source src="https://video.twimg.com/ext_tw_video/1571748570012721152/pu/vid/320x568/3eiZLkNOWot5Yy2M.mp4?tag=12" /></video>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>certainly there was some fracturing of identity, most notably in the time honored tradition of having a main and an alt, an organic feature that resisted being dragged into the mainstream official features for so long until Instagram cracked it with the “Close Friends” stories. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Quick and dirty overview of tasks in Obsidian</title><link href="https://laughingmeme.org//2022/10/11/obsidian-tasks.html" rel="alternate" type="text/html" title="Quick and dirty overview of tasks in Obsidian" /><published>2022-10-11T17:05:24+00:00</published><updated>2022-10-11T17:05:24+00:00</updated><id>https://laughingmeme.org//2022/10/11/obsidian-tasks</id><content type="html" xml:base="https://laughingmeme.org//2022/10/11/obsidian-tasks.html"><![CDATA[<h3 id="updated-1012">updated 10/12</h3>
+
+<p>As <a href="https://twitter.com/wardcunningham">Ward Cunningham</a> says, <em>“The best way to ask a question is to share what you know, and have people tell you what you got wrong.”</em></p>
+
+<p>Per <a href="https://twitter.com/whereiscalypso/status/1580057579673161728">Ishan Puranik</a>, <a href="https://github.com/blacksmithgu/obsidian-dataview">DataView</a> queries are a <em>much</em> better solution. I was planning to hook something up clever with Watchman (as <a href="https://twitter.com/channingwalton/status/1579951895191650304">suggested by Channing</a>) to re-run the shell script, but one thing I hadn’t figured out was how to keep my solution up to date when I made edits on mobile. DataViews solves all of that with a native solution.  So now my tasks page is just:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```dataview
+TASK FROM "/"
+```
+</code></pre></div></div>
+
+<p>Also, if you’re playing with Obsidian, join the Discord.</p>
+
+<h3 id="1011">10/11</h3>
+
+<p>I decided to ditch <a href="https://www.craft.do/">Craft</a> in part because it didn’t have a way to show me all my open todos. Obsidian doesn’t have a default solution (as far as I can tell) to show me all the open checklist items. But Obsidian is an open system and you can make your own solution.</p>
+
+<p>The community has a bunch of <a href="https://github.com/obsidian-tasks-group/obsidian-tasks">offerings for seeing your Tasks</a>, but so far all the plugins have felt heavier than I wanted (and didn’t match my aesthetics in ways I can’t quite articulate).</p>
+
+<p>I sat down this afternoon to see if I could solve this problem for myself. I poked around the documentation (which is sparse), trying to figure out if things I saw the community talking about like “queries” were core features or community plugins.</p>
+
+<p>I didn’t find what I was looking for. So with 5 minutes of the 1 hour of yak shaving I allotted myself here is my current solution:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd $your_vault
+grep '\[ \]' * | sed 's/.md:- \[ \] /SEP/' | awk -F'SEP' '{printf "[[%s]] %s\n", $1,$2}' &gt; Tasks.md
+</code></pre></div></div>
+
+<p>This creates a new document named “Tasks” with each of your unchecked todos with a link to their parent document.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[updated 10/12]]></summary></entry><entry><title type="html">Climate and tithing</title><link href="https://laughingmeme.org//2022/09/23/climate-and-tithing.html" rel="alternate" type="text/html" title="Climate and tithing" /><published>2022-09-23T15:30:24+00:00</published><updated>2022-09-23T15:30:24+00:00</updated><id>https://laughingmeme.org//2022/09/23/climate-and-tithing</id><content type="html" xml:base="https://laughingmeme.org//2022/09/23/climate-and-tithing.html"><![CDATA[<p>I wrote some <a href="/2022/09/19/a-techie-thinking-about-ira.html">notes a couple of days ago sharing how techies can think about helping out with the climate supporting the Inflation Reduction Act</a>, but I left out a key capability that we have as an industry, because it didn’t fit the framework of IRA inspired thoughts. But it was bugging me that I cut it, so here it is:</p>
+
+<p>Real change takes resources. Organizations that know that they are supported by their community, and will be supported in an ongoing fashion are able to undertake meaningful change. Organizations that have to go back to funders periodically are going to circumscribed in what they tackle. We’re very aware of this in tech with the dichotony between self funded and venture funded companies. Non-profits have a discourse around the “the revolution will not be funded”. Unions, many churches, many community organizers, and more instead prefer tithing. An ongoing commitment to donate a percentage of your income to provide them with an ongoing revenue stream not dependent on a few key funders.</p>
+
+<p>In tech we are surrounded by people just like us who have made unimaginable wealth. We all have at least one and often many stories about the near miss, the one that got away. It messes with our ideas about our own wealth. We lose sight of the fact that many software engineers straight out of college are being paid at the US 90% percentile.</p>
+
+<p>Tithing: another way you can contribute that you are uniquely qualified to do because you work in tech.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[I wrote some notes a couple of days ago sharing how techies can think about helping out with the climate supporting the Inflation Reduction Act, but I left out a key capability that we have as an industry, because it didn’t fit the framework of IRA inspired thoughts. But it was bugging me that I cut it, so here it is:]]></summary></entry><entry><title type="html">A techie thinking about IRA</title><link href="https://laughingmeme.org//2022/09/19/a-techie-thinking-about-ira.html" rel="alternate" type="text/html" title="A techie thinking about IRA" /><published>2022-09-19T09:30:24+00:00</published><updated>2022-09-19T09:30:24+00:00</updated><id>https://laughingmeme.org//2022/09/19/a-techie-thinking-about-ira</id><content type="html" xml:base="https://laughingmeme.org//2022/09/19/a-techie-thinking-about-ira.html"><![CDATA[<p>Some random thoughts about the Inflation Reduction Act and what a techie and tech might have to offer.  I’ll be updating this post as I think about more things.  This is not a refined and incisive essay, this is just me thinking out loud.</p>
+
+<h3 id="9-19-2022">9-19-2022</h3>
+
+<p>First set of thoughts.</p>
+
+<h3 id="overcoming-a-bias-to-avoid-atoms-in-favor-of-bits">Overcoming a bias to avoid atoms in favor of bits</h3>
+
+<p>That tech valuations are unlocked by prefering bits (software) to atoms (physical things) and the subsequent near zero marginal scaling costs is a truism deeply engrained in many of us in tech. Obviously some people and organizations have unlearned this lesson: Amazon notably, but a number of the companies building health offices, or scooter rentals. Still many companies that seem like they would be atoms companies, e.g. Uber or some of those scooter companies, are actually outsourcing the ownership of the atoms in favor of sticking with the bits. The work of decarbonizing our economy (and the work funded by IRA, and CHIPS) are profoundly physical undertakings. I think that’s going to be hard for many of us coming from tech.</p>
+
+<h3 id="aimlrobots">AI/ML/Robots</h3>
+
+<p>Obviously. Work out in the physical world is going to benefit from the really ridiculous rate of improvement around things like AI/computer vision with robot drones doing things like monitoring the state of the transmission system and deploying repair before things become catastrophic, or ditto pipelines and methane leaks to implement the methane charges from the IRA.</p>
+
+<h3 id="learning-curves">Learning curves</h3>
+
+<p>The standard theory about how you drive down costs, especially for atoms, is economies of scale. That remains true, but the work to decarbonize is often going to be more like the R&amp;D we do in tech than the streamlined manufacturing of established industrial practices. Here we should be thinking about how <a href="https://en.wikipedia.org/wiki/Learning_curve">learning curves</a> drive down cost. The climate industry knows this, as no one can possibly have missed the precipitious decline in the cost of photovolatics and a number of other green energy technologies. That said tech also has a high concentration of people who think about socio-technical systems for innovation and have spent considerable hours contemplating things like how to apply the Toyota Production System to our domain. Feels like we may have something to offer as a source of talent and writing on the topics of continuous learning and improvement, the role human factors play, etc.</p>
+
+<p>The data from industry suggests there are technologies that benefit from learning curves, and technologies that don’t. Technologies that benefit tend to be those being built in a controlled environment, like a factory.  Technologies that don’t tend to be those built in the field (will AI/ML/robots change this?). Given that decarbonization is going to need to happen both in the factory and in the field, I wonder what insights we can share about modular design. (including what to do with the insight that almost all software teams that try to do modular design usually fail for a handful of predictable reasons, mostly around complexity)</p>
+
+<h3 id="topics-on-which-we-may-have-something-to-teach-if-we-are-called-upon">Topics on which we may have something to teach if we are called upon</h3>
+
+<p>A lot of the conversation around knowledge work happens in and around tech for a few different reasons. The system we use to fund technology startups favors self aggrandizement, but also our roots in tech have always included a high degree of collaboration and information sharing. Either way we talk in public about a lot of things that other industries keep behind closed doors.  Some of those topics:</p>
+
+<ul>
+  <li>Dealing with complexity (most of our best material comes via the DoD, but still)</li>
+  <li>The failures of Taylorism and how to actually enable people to do good work using frameworks like mastery-autonomy-purpose.</li>
+  <li>Great employee experiences and hiring.</li>
+  <li>How to deploy lots of money quickly.</li>
+  <li>Burnout.</li>
+  <li>Failure, innovation and moving fast.</li>
+</ul>
+
+<h3 id="failure-innovation-and-moving-fast">Failure, innovation and moving fast</h3>
+
+<p>Much like dealing with complexity (which is an overlapping topic) tech’s foundational understanding of being okay with failure as the way to unlock innovation is learned from our Defense industry origins. That said we’ve added a significant body of practice and tooling around hypothesis, experimentation, risk, data collection and iteration in information rich environments.</p>
+
+<p>More than anything what I worry about most with the climate change legislation is that the $400b dollars all goes to large, slow moving organizations that specialize in slow moving CYA style planning that attempt to boil the ocean with their big centralized plans, but whose actual function is to make sure that no one is accountable for the inevitable failures. If tech has anything to offer it will be how to get comfortable getting started without knowing all the answers, and how small wins create momentum on the way to understanding that our the foundation to big wins.</p>
+
+<p>How to deploy these insights into a world of physical infrastructure and government funding is an interesting and open question, though organizations like Code for America and e.g. their work on CalFresh are interesting data points.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Some random thoughts about the Inflation Reduction Act and what a techie and tech might have to offer. I’ll be updating this post as I think about more things. This is not a refined and incisive essay, this is just me thinking out loud.]]></summary></entry></feed>

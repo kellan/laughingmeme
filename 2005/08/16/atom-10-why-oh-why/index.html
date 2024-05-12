@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Atom 1.0: Why Oh Why? | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Atom 1.0: Why Oh Why?" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Spent a little time with the Atom 1.0 spec last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)" />
+<meta property="og:description" content="Spent a little time with the Atom 1.0 spec last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)" />
+<link rel="canonical" href="https://laughingmeme.org//2005/08/16/atom-10-why-oh-why/" />
+<meta property="og:url" content="https://laughingmeme.org//2005/08/16/atom-10-why-oh-why/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2005-08-16T08:48:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Atom 1.0: Why Oh Why?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2005-08-16T08:48:00+00:00","datePublished":"2005-08-16T08:48:00+00:00","description":"Spent a little time with the Atom 1.0 spec last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)","headline":"Atom 1.0: Why Oh Why?","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2005/08/16/atom-10-why-oh-why/"},"url":"https://laughingmeme.org//2005/08/16/atom-10-why-oh-why/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Atom 1.0: Why Oh Why?</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2005-08-16T08:48:00+00:00" itemprop="datePublished">Aug 16, 2005
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Spent a little time with the <a href="http://www.ietf.org/internet-drafts/draft-ietf-atompub-format-10.txt">Atom 1.0 spec</a> last night on the plane, and I’m coming to the conclusion that it was invented for the sole purpose of making my life difficult. (or perhaps less ego-centrically, making writing feed parsers more challenging)</p>
+
+<p>I don’t really have the expertise of having actually upgraded a parser to add support for this entirely new, utterly backwards incompatible to a degree that makes the so called <a href="http://diveintomark.org/archives/2004/02/04/incompatible-rss">7 incompatible versions of RSS</a> look like a fond memory, but a handful of issues that are going to make my life unpleasant jumped out at me. (Maybe I’ll update this list over time)</p>
+
+<h3 id="arbitrary-renaming">Arbitrary Renaming</h3>
+
+<p>Is “published” really that much better then “issued”? Sure its a small change, but there are literally dozens of seemingly arbitrary word smithing, that makes maintain both a Atom 0.3 and Atom 1.0 parsers in parallel annoyingly cluttered.</p>
+
+<h3 id="updated-nee-modified-now-under-defined">updated (nee modified) now under defined</h3>
+
+<p>In Atom 0.3 the “modified” element was strongly defined, in that it was required to updated with each edit. This is no longer true. And while we’ve all spent the last 5 years developing expertise trying to guess whether an element has been updated with weird hashing/diffing techniques, it would have been nice to start forgetting about such stuff.</p>
+
+<h3 id="i-miss-version">I Miss version</h3>
+
+<p>Sure a namespace is “proper” way to do things, but I miss the pragmatism of the version attribute. (what little pragmatism survived to find its way into Atom 0.3 seems to have been beaten out of Atom 1.0)</p>
+
+<h3 id="dcsubject">dc:subject</h3>
+
+<p>Dublin Core is a noble piece of work. At its heart it is trying to formally define some basic building blocks which can be universal truths in a digital age. Its like running code version of Semantic Web. So why is the use of dc:subject deprecated in favor of an overly complicated “category” element which, while being similar to the RSS 2.0 category element, has a different for the sake of being different feel to it.</p>
+
+<p>The Atom “category” element</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;category term='MSFT' /&gt;
+&lt;category term='MSFT' scheme='http://www.fool.com/cusips' /&gt;
+
+</code></pre></div></div>
+
+<p>vs. RSS 2.0</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;category&gt;MSFT&lt;/category&gt;
+&lt;category domain="http://www.fool.com/cusips"&gt;MSFT&lt;/category&gt;
+
+</code></pre></div></div>
+
+<p>Never thought I’d call an RSS 2.0 design decision[ clean and well thought out, but its all relative.</p>
+
+<h3 id="content-by-reference">Content by Reference</h3>
+
+<p>One of Atom’s innovations is introducing a standard “link” element, allowing it to leverage and become a first class citizen of this Web thing which seems so popular. (I’ve <a href="http://laughingmeme.org/archives/002071.html">written about this before</a>, and mourned Kevin Burton’s mod_link)</p>
+
+<p>So why does the Atom “content” element now allowing for “content by reference”, with the “src” attribute? Honestly, this seems like a clear case of confusing duplication. <acronym title="There is more then one way to do it">TIMTOWTDI</acronym> is one the key factors people point to when claiming that Perl is an ugly, under designed, confusing mess.</p>
+
+<p>For example, are there now <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=48888cc2-0c23-4621-b07c-cef35df8b563">two, valid but disparate ways of encoding podcasts in Atom?</a></p>
+
+<p>And should a toolkit parsing Atom 1.0 automagically deference the URL defined in “src” attribute? I mean, if I’m parsing a feed I expect to able to display the contents of the content element. And if so, are we back to those wonderful bygone days (cough “rss2:enclosure” ) of baking dangerous required behaviour into our processing model? (speaking of process model, shouldn’t the <a href="http://atompub.org/2005/07/11/draft-ietf-atompub-format-10.html#rfc.section.4.1.3.3">Atom 1.0 processing model</a> address this?)</p>
+
+  </div><a class="u-url" href="/2005/08/16/atom-10-why-oh-why/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

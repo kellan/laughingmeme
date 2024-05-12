@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Looking at PHP5s DateTime and DateTimeZone | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Looking at PHP5s DateTime and DateTimeZone" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Looking over the PHP5.2 changelog I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone." />
+<meta property="og:description" content="Looking over the PHP5.2 changelog I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone." />
+<link rel="canonical" href="https://laughingmeme.org//2007/02/27/looking-at-php5s-datetime-and-datetimezone/" />
+<meta property="og:url" content="https://laughingmeme.org//2007/02/27/looking-at-php5s-datetime-and-datetimezone/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2007-02-27T16:47:09+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Looking at PHP5s DateTime and DateTimeZone" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2007-02-27T16:47:09+00:00","datePublished":"2007-02-27T16:47:09+00:00","description":"Looking over the PHP5.2 changelog I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone.","headline":"Looking at PHP5s DateTime and DateTimeZone","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2007/02/27/looking-at-php5s-datetime-and-datetimezone/"},"url":"https://laughingmeme.org//2007/02/27/looking-at-php5s-datetime-and-datetimezone/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Looking at PHP5s DateTime and DateTimeZone</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2007-02-27T16:47:09+00:00" itemprop="datePublished">Feb 27, 2007
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Looking over the <a href="http://www.php.net/ChangeLog-5.php">PHP5.2 changelog</a> I noticed that somewhere along the way PHP5 seems to have picked up a provocatively named pair of classes, DateTime and DateTimeZone.</p>
+
+<p>There is something fundamentally brash, brazen even, to releasing a class named DateTime. As a calendar geek I imagine upon seeing “new DateTime()” I feel something akin to what an old thespian feels when they see a company putting on a production of the Scottish play — it’s a decidedly mixed emotion. But I’m going to bump my way through learning how to use this new DateTime lib, bringing <strong>all my preconceptions</strong> about how it should work. The odds of this being interesting to you is probably nil unless you’re in one or two very small cliques, feel free to read on, or browse away.</p>
+
+<p>I’m primarily working in PHP4 right now, so my first step was to grab a copy of <a href="http://www.mamp.info/en/home.php">MAMP 1.5b</a> getting me a nice PHP5.2 sandbox to play with.</p>
+
+<p>The new objects are <a href="http://www.php.net/manual/en/ref.datetime.php">documented here</a>, apparently there are functional equivalents for each of the object methods, and they use the <a href="http://pecl.php.net/package/timezonedb/">PECL timezomedb</a>.</p>
+
+<p>Hey! timezonedb! First fence cleared! A timezone database compiled into a native format based on Olson is the <em>one true solution</em>, and I can update it independently, the most recent release being based on 2007b. Sweet.</p>
+
+<p><a href="http://php.net/manual/en/function.date-create.php">Constructor</a> takes an initialization string that it passes to <a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a>, and an optional DateTimeZone obj. Defaults to “now”</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date = new DateTime();
+echo $date . "\n";
+&gt; Object of class DateTime could not be converted to string 
+
+</code></pre></div></div>
+
+<p>Oops, no <code class="language-plaintext highlighter-rouge">__toString()</code> method defined. You’ll need to use the <code class="language-plaintext highlighter-rouge">format()</code> instance method. If you end up using the DateTime objects, you’ll be seeing a lot of <code class="language-plaintext highlighter-rouge">format()</code>, more on that in a bit.</p>
+
+<p><code class="language-plaintext highlighter-rouge">format()</code> uses the <a href="http://php.net/manual/en/function.date.php">date() formatting strings</a> (not the <code class="language-plaintext highlighter-rouge">strftime</code> format strings). Also takes a number of useful constants, most usefully your pal and mine RFC3339 (aka W3CDTF aka Dublin Core/Atom date format).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-02-22T15:23:47-05:00
+
+</code></pre></div></div>
+
+<p>Note: thats a constant, if you pass in the string ‘DATE_RFC3339’, and you’ll get odd looking results.</p>
+
+<p>Here we can see the default constructor sets both the time and a timezone — correctly, for the moment, identifying my timezone as <code class="language-plaintext highlighter-rouge">America/New_York</code>. That’s somewhat contentious behaviour, some people will tell you that dates with unspecified timezones should either be in UTC or be “floating”, divorced from any timezone. Why? At least in part because across platforms and boxes timezone guessing is going to be non-deterministic — the script that worked when you ran it locally on your Mac laptop in New York, might fail on your ISP’s servers. You get a hint of this reading over the timezone guessing rules on <a href="http://php.net/date*default*timezone\_get"><code class="language-plaintext highlighter-rouge">date_default_timezone_get</code></a>. There is also the fact that I’m currently moving at about 400mph and will be in a different timezone real soon now. However you can set the default to something reasonable in a script, or in the php.ini. (consider this my recommendation)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>date_default_timezone_set('UTC');
+$date = new DateTime();
+echo $date-&gt;format(DATE_RFC3339);
+&gt; 2007-02-22T20:44:49+00:00
+
+</code></pre></div></div>
+
+<p>Yay, that worked. Okay, but lets display that datetime in the local timezone. (after all the <em>point</em> of this entire exercise will be the ability to work painlessly in multiple timezones).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt;setTimezone('America/New_York');
+&gt; DateTime::setTimezone() expects parameter 1 to be DateTimeZone
+
+</code></pre></div></div>
+
+<p>Siiiigh. Not smart enough to cast strings into TimeZone objects (holds true for the constructor as well, so no <code class="language-plaintext highlighter-rouge">new DateTime('now', 'UTC'))</code>. Now its time to learn how to use DateTimeZone.</p>
+
+<h3 id="working-with-datetimezone-all-hail-olson">Working with DateTimeZone, All Hail Olson</h3>
+
+<p>I mentioned briefly earlier that PHP is now shipping with an extension timezonedb, which is a compiled version of the <a href="http://en.wikipedia.org/wiki/Zoneinfo">Olson database</a>. The Olson database is a massive, largely volunteer effort to catalog the various timezones both in use, and those that have been in the past. Time is a political issue, <a href="http://laughingmeme.org/2005/04/04/daylight-saving-sucks-war-time/">particularly day light savings</a>, and as such the rules governing it are arbitrary, whimsical, and subject to frequent change. (p.s. gotten a panicked memo yet about new daylight savings compliance for March 11th? No? Where did you say you worked?)</p>
+
+<p>Note: Olson also uses a longer form of the zone names then we usually see in the U.S., this is to combat ambiguity. See <a href="http://www.php.net/manual/en/timezones.php">Appendix H</a> for a list of timezone names, including some <a href="http://www.php.net/manual/en/timezones.others.php">handy shortcuts</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$tz = new DateTimeZone('America/New_York');
+$date-&gt;setTimezone($tz);
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-02-22T16:02:55-05:00
+
+</code></pre></div></div>
+
+<p>This is starting to get long winded, but, hey, PHP5 supports object dereferencing on returns. Maybe this will work.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $date-&gt;setTimezone($tz)-&gt;format(DATE_RFC3339) . "\n";
+&gt;  Call to a member function format() on a non-object
+
+</code></pre></div></div>
+
+<p>Nope. Oh well.</p>
+
+<h3 id="date-vs-datetime">Date vs Datetime?</h3>
+
+<p>Say I’ve got a nice platonic date, say November 11th. There is no time element associated with this, so timezones are kind of irrelevant. I mean Nov. 11th <em>starts</em> at different times through out the world, but Nov. 11th is universal. (as long as you’re using the same version of Gregorian as most of the rest of us) Ideally this date would float above timezone issues, but that isn’t how PHP does it, 2007-11-11 is treated internally as midnight on the 11th, which is certainly simpler, but disappointing. You can prove this like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date = new DateTime('2007-11-11');
+$date-&gt;setTimeZone($tz);
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-11-10T19:00:00-05:00
+
+</code></pre></div></div>
+
+<p>The other useful DateTimeZone method is getOffest()</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $tz-&gt;getOffset($date); 
+&gt; -18000
+
+</code></pre></div></div>
+
+<h3 id="daylight-saving-march-11th-and-why-programmers-are-a-grouchy-lot">Daylight Saving, March 11th, and Why Programmers Are a Grouchy Lot</h3>
+
+<p>Note: <code class="language-plaintext highlighter-rouge">getOffset</code>, which returns a timezone’s offset in seconds from UTC, takes a DateTime obj because offsets can be date sensitive due to daylight savings. Really without daylight saving this stuff would all be pretty straightforward. Let’s test to make sure the offsets are correct at the boundary.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $tz_nyc-&gt;getOffset(new DateTime('2007-03-11 1:00')) . "\n";
+echo $tz_nyc-&gt;getOffset(new DateTime('2007-03-11 2:00')) . "\n";
+&gt; -18000
+&gt; -14400
+
+(-18000/(60*60) == -5 hours) 
+(-14400/(60*60) == -4 hours) 
+
+</code></pre></div></div>
+
+<p><strong>Yay!</strong> They got the memo about <a href="http://en.wikipedia.org/wiki/Energy*Policy*Act*of*2005">U.S. Energy Policy Act of 2005</a>.</p>
+
+<h3 id="the-basics-accessors-and-mutators">The Basics: Accessors and Mutators</h3>
+
+<p>So what are some other basic desires?</p>
+
+<p>Get epoch seconds! Except for their kind of limited range epoch seconds are great, and have helped a generation of programmers put off worrying about timezones as long as possible. They’re also the backbone of PHP’s traditional date/time methods.</p>
+
+<p>Alas, there isn’t an accessor method for getting epoch seconds, you’ll have to use <code class="language-plaintext highlighter-rouge">format()</code>.</p>
+
+<p>In fact DateTime doesn’t expose <strong>any</strong> of the accessors you’d expect, so you’ll be using <code class="language-plaintext highlighter-rouge">format</code> a <strong>lot</strong> if you want to access pieces of your date. (for you know, display purposes, or manipulation, or building queries, or pretty much doing anything you’d want to do with a date)</p>
+
+<p>examples of the <code class="language-plaintext highlighter-rouge">format()</code> as all purpose accessor pattern:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>epoch:  $date-&gt;format('U'); // 1173596400
+year:   $date-&gt;format('Y'); // 2007
+month:  $date-&gt;format('n'); // 3
+day:    $date-&gt;format('j'); // 11
+dow:    $date-&gt;format('l'); // Sunday
+
+</code></pre></div></div>
+
+<p>… etc …</p>
+
+<p>So now you have accessors for the full range of <a href="http://php.net/manual/en/function.date.php">date() formatting strings</a>. You just have to jump through a hope.</p>
+
+<p>Pretty much the only accessor is <code class="language-plaintext highlighter-rouge">getTimezone()</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $date-&gt;getTimeZone();   // hope springs eternal!
+&gt; Object of class DateTimeZone could not be converted to string
+echo $date-&gt;getTimeZone()-&gt;getName() . "\n";
+&gt; America/New_York
+
+</code></pre></div></div>
+
+<h3 id="mutators">Mutators</h3>
+
+<p>Speaking of accessors, DateTime is a little sparse on mutators as well: <code class="language-plaintext highlighter-rouge">setTime()</code>, <code class="language-plaintext highlighter-rouge">setDate()</code>, and the mysteriously named <code class="language-plaintext highlighter-rouge">setISODate()</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt;setDate('2007', '1', '1')-&gt;format(DATE_RFC3339);  // who am I kidding?
+&gt; Call to a member function format() on a non-object 
+$date-&gt; setDate('2007', '1', '1');
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-01-01T02:00:00-05:00
+
+</code></pre></div></div>
+
+<p>Now what if I want to set just the day?</p>
+
+<p>Maybe</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt; setDate(null, null, '11');
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; -001-12-11T02:00:00-05:00
+
+</code></pre></div></div>
+
+<p>Nope.</p>
+
+<p>Instead you’ll need to pull out the year and month (using our <code class="language-plaintext highlighter-rouge">format()</code> accessors) and pass those back in just to set the day.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt; setDate('2007', '1', '1');   // jan 1.  
+$date-&gt;setDate($date-&gt;format('Y'), $date-&gt;format('n'), 11);
+echo $date-&gt;format(DATE_RFC3339) . "\n"; 
+
+</code></pre></div></div>
+
+<p>Clunky.</p>
+
+<p><code class="language-plaintext highlighter-rouge">setTime()</code> works the same, but for time.</p>
+
+<p>e.g. Setting just the minutes, 33 minutes past, but keep hours, and seconds constant:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt;setTime($date-&gt;format('G'), 33, $date-&gt;format('s'));
+echo $date-&gt;format(DATE_RFC3339) . "\n"; 
+&gt; 2007-01-11T02:33:00-05:00
+
+</code></pre></div></div>
+
+<p>So what is an ISODate? I’m unclear, and so is PHP’s documentation. The docs show the call signature taking a $year, $week, and optional $day, while the description talks about $year, $month, $day. Looking at the code looks like $week is the proper call, $month is cut and paste error from <code class="language-plaintext highlighter-rouge">setDate()</code>. So I guess this is a method for setting day by the “week of the year” a concept more popular in Europe then in the US. Not sure what ISO has to do with it. So what is our current week of the year?</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $date-&gt;format('N') . "\n";  // 'N' is new in 5.1.0
+&gt; 4 
+
+</code></pre></div></div>
+
+<p>Jan 11th was in the 4th week of the 2007? Go figure.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date-&gt;setISODate(2007, 4, 5);  // fifth day of the 4th week?
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-01-26T02:33:00-05:00
+
+</code></pre></div></div>
+
+<p>Um. You know what? You’re on your own with <code class="language-plaintext highlighter-rouge">setISODate</code>, sorry.</p>
+
+<h3 id="date-math-adding-and-subtracting-deltas-aka-date-modifystr">Date Math: Adding and Subtracting Deltas aka $date-&gt;modify($str)</h3>
+
+<p>PHP5 for better or worse has very limited operator overloading, so no $dt1 + $dt2 * $dt3 / $dt4. Instead the primary method for doing math is <code class="language-plaintext highlighter-rouge">modify()</code></p>
+
+<p>Thankfully PHP’s <code class="language-plaintext highlighter-rouge">strtotime()</code> method is a gem, and one of the things it handles is relative dates. <code class="language-plaintext highlighter-rouge">strtotime()</code> + relative dates is the secret to doing math with PHP5’s DateTime.</p>
+
+<p>Lets get a basic date to start with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$date = new DateTime('today');
+echo $date-&gt;format(DATE_RFC3339) . "\n";
+&gt; 2007-02-22T00:00:00+00:00
+
+</code></pre></div></div>
+
+<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">modify()</code> is destructive. It changes the original datetime object (as the name suggests). You’ll need to jump through some hopes to keep a copy of your original date. More later.</p>
+
+<p>Add/subtract N days:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>foreach (range(1,10) as $n) {
+   $date-&gt;modify("+1 days");
+   echo $date-&gt;format("Y-m-d") . "\n";
+}
+
+&gt; 2007-02-23
+&gt; 2007-02-24
+&gt; 2007-02-25
+&gt; 2007-02-26
+&gt; 2007-02-27
+&gt; 2007-02-28
+&gt; 2007-03-01
+&gt; 2007-03-02
+&gt; 2007-03-03
+&gt; 2007-03-04
+
+$date-&gt;modify("-10 days");
+echo $date-&gt;format("Y-m-d") . "\n";
+
+&gt; 2007-02-22
+
+$date-&gt;modify("-1 month");
+echo $date-&gt;format("Y-m-d") . "\n";
+&gt; 2007-01-22
+// or alternately
+$date-&gt;modify("1 month ago");
+echo $date-&gt;format("Y-m-d") . "\n";
+&gt; 2006-12-22
+
+</code></pre></div></div>
+
+<h3 id="cloning-datetime-objects-to-work-around-modify">Cloning DateTime objects to work around <code class="language-plaintext highlighter-rouge">modify</code></h3>
+
+<p>Of course you <strong>usually</strong> want to keep the original when doing date math, so <code class="language-plaintext highlighter-rouge">modify()</code>‘s lack of idempotentce is annoying. Lets say I’m building a SQL query to select events happening in the next 7 days.</p>
+
+<p>In an <strong>ideal</strong> world the code would like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$start = new DateTime('today');
+$end = $start + 7;
+echo "select between " . $start-&gt;format('Y-m-d') . " and " . $end-&gt;format('Y-m-d') . "\n";
+
+</code></pre></div></div>
+
+<p>The above of course is just a pipe dream. But wouldn’t it be nice?</p>
+
+<p>I’d settle for:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$end = $start-&gt;calc("+7 days");
+
+</code></pre></div></div>
+
+<p>Or even:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$end = $start-&gt;clone-&gt;modify('+7 days');
+
+</code></pre></div></div>
+
+<p>None of the above examples remotely work.</p>
+
+<p>Instead use:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$start = new DateTime('today');
+$end = clone $start;
+$end-&gt;modify('7 days 3 minutes 42 seconds ago');
+
+</code></pre></div></div>
+
+<p>Now format our SQL query for our example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "select between " . $start-&gt;format(DATE_RFC3339) . " and " . $end-&gt;format(DATE_RFC3339) . "\n";
+&gt; select between 2007-02-22T00:00:00+00:00 and 2007-02-14T23:56:18+00:00
+
+</code></pre></div></div>
+
+<p>Awkward, but it gets the job done.</p>
+
+<p>At least the relative date format is super flexible and expressive. As far as I know the closest thing to documentation is from the <a href="http://www.gnu.org/software/tar/manual/html*node/tar*109.html">GNU tar manual on date input formats</a>. (just like CVS) Btw. if you ever want nightmares, take a look at the <code class="language-plaintext highlighter-rouge">scan</code> method in PHP’s parse_date.c and be thankful that isn’t your job to maintain <img src="http://lm.local/wp-includes/images/smilies/simple-smile.png" alt=":)" /></p>
+
+<h3 id="date-math-comparison-and-differences">Date Math: Comparison and Differences</h3>
+
+<p>Beyond adding deltas (“+7 days”), the other common date math is comparing two datetimes, to find out which is more recent, and getting the difference between them. DateTime supports no methods for comparing two datetimes. The simplest solution for doing comparison is to compare epoch seconds.</p>
+
+<p><strong>Note:</strong> This method only works for dates that can be represented by epoch seconds. PHP uses a signed int for epoch seconds, so the range is limited by the size of the max int on your platform. Generally you get approximately 138 years, 1901 to 2038. There are other schemes besides epoch seconds for mapping dates to an easily comparable number; <a href="http://en.wikipedia.org/wiki/Julian\_day">MJDs</a>, and <a href="http://cr.yp.to/proto/utctai.html">Tai time</a> being two. See also <em>Rheingold &amp; Dershowitz 1997</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$d1 = new DateTime("today");
+$d2 = new DateTime("tomorrow");
+if ($d1-&gt;format('U') &lt; $d2-&gt;format('U')) {
+   echo "true\n";
+} 
+&gt; true
+
+</code></pre></div></div>
+
+<p>If you’re going to be comparing a large number of dates you might consider a memoization technique like the <a href="http://en.wikipedia.org/wiki/Schwartzian\_transform">Schwartzian transform</a>.</p>
+
+<p>We can get the difference in seconds using the same hack of casting to epochs.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $d2-&gt;format('U') - $d1-&gt;format('U') . "\n";
+&gt; 86400
+
+</code></pre></div></div>
+
+<p>Ideally we’d then divide the difference seconds to get the difference in hours, days, weeks, or months. However the following naive solution <strong>won’t</strong> work.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$diff / (60*60*24);  // calculate difference in days, **BADLY**
+
+</code></pre></div></div>
+
+<p>Why not? Because days don’t always have 24 hours. Sometimes they have 23 hours, sometimes they have 25. Daylight saving strikes again. (If you want to be even more pedantic, minutes are also not 60 seconds long, sometimes they’re 61 seconds long if we have a leap second)</p>
+
+<p>Basically you need to break yourself of thinking of datetime units as being fungible. You can’t simply calculate minutes from seconds, or days from hours. Just like you can’t divide days by 30 to get an accurate number of months. There are solutions, but they’re a bit beyond this blog post.</p>
+
+<h3 id="new-datetime-from-epoch-seconds">new DateTime from Epoch Seconds</h3>
+
+<p>So, <strong>non-fungible</strong>, remember that.</p>
+
+<p>But sometimes you’ve cast DateTimes down to epochs to do math. And then you’ll want to cast back to a DateTime.</p>
+
+<p>Alas DateTime doesn’t have a constructor that takes an epoch, and passing a epoch to the default constructor will throw an exception, rather you want:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$from_epoch = new DateTime(date('c', '-568080000'));
+echo $from_epoch-&gt;format('Y-m-d') . "\n";
+&gt; 1952-01-01   // expected result
+
+</code></pre></div></div>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>DateTime/DateTimeZone get timezones right, and for solving that hard problem they deserve all possibles accolades.</p>
+
+<p>The rest of the API however is kind of simplistic, awkward to work with, and verbose.</p>
+
+<p>Single most useful change: have DateTime methods actually return the object making it possible to use a slightly more abbreviated calls.</p>
+
+<p>I had thought about writing up a few more recipes, like nth dow of the month, and such. But we were coming in for descent, and it was time to be done. Might happen in the future.</p>
+
+<p>Also if anyone has any power to <strong>enhance</strong> the DateTime object, I hope some of the above can act as a road map for a more expressive and powerful core library. Or ping me, happy to chat.</p>
+
+  </div><a class="u-url" href="/2007/02/27/looking-at-php5s-datetime-and-datetimezone/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

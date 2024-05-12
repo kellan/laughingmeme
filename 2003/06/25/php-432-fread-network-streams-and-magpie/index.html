@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>PHP 4.3.2, fread(), network streams, and Magpie | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="PHP 4.3.2, fread(), network streams, and Magpie" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="At long last we come to the end (hopefully) of the MagpieRSS and PHP 4.3.2 saga, the good guys win, the bad guys unforunatley got away and will live to program again, but for now all is peaceful. Look for MagpieRSS 0.5.2 later this evening." />
+<meta property="og:description" content="At long last we come to the end (hopefully) of the MagpieRSS and PHP 4.3.2 saga, the good guys win, the bad guys unforunatley got away and will live to program again, but for now all is peaceful. Look for MagpieRSS 0.5.2 later this evening." />
+<link rel="canonical" href="https://laughingmeme.org//2003/06/25/php-432-fread-network-streams-and-magpie/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/06/25/php-432-fread-network-streams-and-magpie/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-06-25T21:05:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="PHP 4.3.2, fread(), network streams, and Magpie" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-06-25T21:05:00+00:00","datePublished":"2003-06-25T21:05:00+00:00","description":"At long last we come to the end (hopefully) of the MagpieRSS and PHP 4.3.2 saga, the good guys win, the bad guys unforunatley got away and will live to program again, but for now all is peaceful. Look for MagpieRSS 0.5.2 later this evening.","headline":"PHP 4.3.2, fread(), network streams, and Magpie","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/06/25/php-432-fread-network-streams-and-magpie/"},"url":"https://laughingmeme.org//2003/06/25/php-432-fread-network-streams-and-magpie/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">PHP 4.3.2, fread(), network streams, and Magpie</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-06-25T21:05:00+00:00" itemprop="datePublished">Jun 25, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>At long last we come to the end (hopefully) of the MagpieRSS and PHP 4.3.2 saga, the good guys win, the bad guys unforunatley got away and will live to program again, but for now all is peaceful. Look for MagpieRSS 0.5.2 later this evening.</p>
+
+<h3 id="when-using-fread-on-a-network-stream-it-must-be-called-in-a-loop">When using fread() on a network stream, it must be called in a loop</h3>
+
+<blockquote>
+  <p>When reading from network streams or pipes reading will stop after a packet is available. – <a href="http://www.php.net/fread/">PHP Manual: fread</a></p>
+</blockquote>
+
+<p>The documentation goes on to say, “when reading from network streams or pipes, you should collect the data together in chunks”. There, could it be any clearer!</p>
+
+<h3 id="migration-headache">Migration Headache</h3>
+
+<p>Why yes, yes it could. You see, it didn’t used to be like that. I’m not sure how long the documentation has been changed, but until recently fread() was quite content to read past the end of a packet until you had <strong>all</strong> the information you <strong>asked</strong> for. Migration is complicated by the fact that this new behaviour happens very very quietly, and seemingly sporadically. You would never know anything had changed until your XML started showing up mangled causing <a href="http://laughingmeme.org/archives/000893.html#bug1">only the first item in an RSS feed to show up</a>, or your gzip encoded data was delivered improperly formatted causing <a href="http://laughingmeme.org/archives/000916.html#000916">gzinflate(): buffer errors</a> (to choose 2 hypothetical example).</p>
+
+<p>And then of course there is the, ahem, questionable “example” of using fread() with a network socket one finds in the fread documentation.. (more on that later)</p>
+
+<h3 id="steve-minutillo">Steve Minutillo</h3>
+
+<p>But first, I’d like to go on record and say <a href="http://minutillo.com/steve/weblog/">Steve</a> is the genius, and a very nice person who figured this all out. I was still stuck swearing at expat, and then on a clue from Steve I was swearing at PHP’s bundled zlib. Neither of whom were to blame. It was <a href="http://snoopy.sf.net">Snoopy’s</a> old style fread() usage, compounded by my gzip encoding hack. (Here is a <a href="http://laughingmeme.org/snoopy_php4_3_2.patch">patch</a> to make the upstream Snoopy work with 4.3.2)</p>
+
+<h3 id="now-back-to-trashing-php">Now Back to Trashing PHP</h3>
+
+<p>Okay, what the hell is up with that example in the <a href="http://www.php.net/fread">manual</a>? We’re going to play a game, called “how many really really egregious bugs can you spot in this code”. No, poor style doesn’t count as a bug (but icky C inspired examples are a perfectly valid reason to stake someone over an anthill)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;?php
+$handle = fopen ("http://www.php.net/", "rb");
+$contents = "";
+do {
+    $data = fread ($handle, filesize ($filename));
+    if (strlen($data) == 0) {
+        break;
+    }
+    $contents .= $data;
+}
+fclose ($handle);
+?&gt;
+
+</code></pre></div></div>
+
+<p>I count 2, plus a minor one. And while I’ll be the first to admit PHP is not my best language, can someone tell me what is wrong with the much simpler, or are they just trying to trip people?</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+while ( $data = fread($handle, 10240) ) {
+    $results .= $data;
+
+}
+
+</code></pre></div></div>
+
+<p>So yeah if you’ve upgraded to 4.3.2 and you’re seeing cropped data, make sure you (or the library you depend upon) has been updated for the new, stricter fread regime.</p>
+
+  </div><a class="u-url" href="/2003/06/25/php-432-fread-network-streams-and-magpie/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Paths to Production Confidence, Part 1 of N | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Paths to Production Confidence, Part 1 of N" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<meta property="og:description" content="A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999." />
+<link rel="canonical" href="https://laughingmeme.org//2013/08/08/paths-to-production-confidence-part-1-of-n/" />
+<meta property="og:url" content="https://laughingmeme.org//2013/08/08/paths-to-production-confidence-part-1-of-n/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-08-08T05:23:02+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Paths to Production Confidence, Part 1 of N" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2013-08-08T05:23:02+00:00","datePublished":"2013-08-08T05:23:02+00:00","description":"A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999.","headline":"Paths to Production Confidence, Part 1 of N","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2013/08/08/paths-to-production-confidence-part-1-of-n/"},"url":"https://laughingmeme.org//2013/08/08/paths-to-production-confidence-part-1-of-n/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Paths to Production Confidence, Part 1 of N</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-08-08T05:23:02+00:00" itemprop="datePublished">Aug 8, 2013
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://photos.kellan.io/photos/51035734193@N01/8093795204/"><img src="http://kellanio.photos.s3.amazonaws.com/1/photos/7e/1a/48/78/8093795204_10672eb0c4_z.jpg" alt="" /></a></p>
+
+<p>This started out as a short note explaining the unifying theory behind the Etsy development practices. Then it got out of hand (see also, Mark Twain’s “If I had more time…”). As such I’ve made it “Part 1 of N”, where “Parts 2 .. N” will cover the actual practices and how they relate to the philosophy.</p>
+
+<h3 id="why-write-this">Why Write This?</h3>
+
+<p>We believe in being as open as possible about how we develop and run Etsy — our current best theories, learnings, practices, and tools. Given that openness I often get questions about the hows and whys of given subsets of our engineering practice, e.g. “How do you do testing? How do you know you have enough testing?”. Or monitoring or deployment or what not.</p>
+
+<p>At times, it can be tricky to do the questions and answers justice when taking them piecemeal, because underlying them all is a single shared philosophical premise, that isn’t necessarily obvious. And while I tend to be a pragmatist, favoring the rough and ready over the theoretical, without understanding the theory you can’t reason correctly about trade offs. This post is an attempt to surface that underlying philosophy and the practices it informs.</p>
+
+<p>The theory is a theory of change, and the philosophy is about finding paths to move from risk to confidence.</p>
+
+<h3 id="a-theory-of-change">A Theory of Change</h3>
+
+<p>Etsy is in the change business. As are, definitionally, all startups, nearly all businesses, and most human projects. We’re attempting to add new capacities to the world, and influence behavior around them. And we’re attempting to do it in an uncertain and complex[1] environment; we neither know the exact recipe for success, nor we do expect that recipe to stay the same over time. In fact, as a startup, we believe that our ability to respond to a changing environment is the key success factor for our engineering organization. It’s natural to read that sentence and think of change in terms of product changes, but more prosaic examples might include the ability to add new server capacity when the site slows down, or to replace a hard drive when one fails.</p>
+
+<p>But change is risky. This is something most of us believe intuitively, and it’s worth examining the sources of risk in change.</p>
+
+<h3 id="why-is-change-risky">Why is change risky?</h3>
+
+<p>As humans and practitioners why do we associate change with risk? Doing new things inherently contains the risk of doing the wrong thing.</p>
+
+<p>We may for example have reached a ready state in our project. Through a combination of good luck and planning we find ourselves running a system that we understand sufficiently to keep running indefinitely, while a change would implicitly contain the risk of moving from a state of working to a state of not working. Steady state systems are so rare and so often illusory, it’s almost not worth mentioning except we’re fervently entranced with the possibility. Generally the illusion of steady state simply means the needed changes are non-linear, and often the cost of ignoring them will be high.</p>
+
+<p>More practically, very few of us are employed to maintain systems in a stable environment. Even if we hold the pieces we control constant it’s unlikely that our systems will remain stable forever, at which point action is required. Still change is often associated with surprise in a system that hadn’t previously surprised us, and surprise is definitely risky.</p>
+
+<p>The second reason change is risky has to do with how we think about causality, intention and culpability. While we can agree that the ability to choose not to make a change is an illusion, often fear leads people to approximate avoiding change, by avoiding making choices. If I personally avoid making changes to a system and instead wait for outside pressure to force change, or if I simply play the odds and hope that disastrous failure happens rarely enough that it won’t happen on my watch then I can avoid the personal risk of being labelled the root cause of failure. Forced choices avoid the necessity of stating a hypothesis before acting, thereby reducing significantly the opportunity to be personally wrong.</p>
+
+<p>Software development is a complex system existing as it does at the intersection of people, systems, good intentions, confused and changing goals, and overly literal state machines. Past behavior isn’t always an indication of future behavior, and humans are terrible at reasoning about complex systems. As such we’re unlikely to know or have good visibility into whether we’ve reached a steady state and our hypotheses are likely to be wrong. In this uncertain and complex environment we initiate change only when the cost of not making a change overcomes the fear of making it. (e.g. “The server is down” or “You’ll be fired if this feature isn’t done by April 1st”)</p>
+
+<p>As an industry this means though we’re in the change business, often we aren’t very good at it, and we avoid it out of fear.</p>
+
+<p>Different groups attempt to address this tension by:</p>
+
+<ul>
+  <li>raising the cost of not making change (“you’ll be fired”)</li>
+  <li>distributing those costs broadly (this is one of the key functions bureaucracy and process serve)</li>
+  <li>gaining confidence by addressing the fear</li>
+</ul>
+
+<p>We see Etsy’s engineering practices as spectrum of tools for increasing our confidence in our ability to make change.</p>
+
+<p>Going back to the opening idea of this post, the attempt to answer a question like, “How much testing do you do?”, the answer becomes, “Enough to gain confidence. But testing is just one of the tools we use to gain confidence, so less then a strong testing shop might.” Similarly if someone asks, “How much monitoring is enough?”, the answer is, “We add monitoring until we feel like it gives us confidence, and we’re comfortable striking an 80/20 balance, particularly upfront, because we’re confident if we don’t have the balance right we have other ways of finding out.” In fact how many and how much confidence boosting techniques you need is situational, and depends on how risky your change is. Which speaks to another fundamental piece of our process, small and iterative changes.</p>
+
+<p>Hopefully that starts to explain why, while I think our testing infrastructure (with its try-servers, “Bobs”, static analysis, integration tests, and quality metrics) is awesome, just telling you how we do testing isn’t necessarily going to be useful. Or perhaps it just speaks to my personal penchant for holistic post-modern explanations.</p>
+
+<p>So given a theory(-ish) of risk, change and confidence, what’s the philosophical premise we derive to underly our development practices:</p>
+
+<p>To be able to consistently deliver the kind of resilient and ongoing change the business requires, we deploy a spectrum of confidence gaining techniques.</p>
+
+<p>Or jokingly what we call, “Making failure cheap and easy.”</p>
+
+<p>Before moving on it’s worth calling out that the goal is NOT to be careful. The goal is to be confident. Careful would imply we’re trying to avoid the risk which is fundamental to the change we’re trying to make. Attempting to avoid risk often leads to paralysis, favoring the short term risk avoidance while compromising long term goals. Instead confidence implies you believe to the best of your ability that you understand and have mitigated the risk involved in your change, and are now going to act.</p>
+
+<p>Now, with a little shared theory and philosophy, what does that spectrum of confidence gaining techniques look like?</p>
+
+<h3 id="our-paths-to-confidence">Our Paths to Confidence:</h3>
+
+<ul>
+  <li>Small and Frequent (and Iterative)</li>
+  <li>Testing</li>
+  <li>Ramp Ups</li>
+  <li>Controls</li>
+  <li>Default Access to Open</li>
+  <li>Monitoring, Metrics and Anomaly Detection</li>
+  <li>People / Culture / Brains</li>
+</ul>
+
+<p>Each of which I’ll talk about in subsequent future posts.</p>
+
+<p>1. Complex systems as defined as something that has many diverse, interdependent, adaptive and connected parts points to the uncertainty. Small perturbations can produce large results, and those results could be failures or successes, but in either case: the potential for surprise is high.</p>
+
+  </div><a class="u-url" href="/2013/08/08/paths-to-production-confidence-part-1-of-n/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

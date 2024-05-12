@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Some Rails Tips (Especially for OS X Hackers) | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Some Rails Tips (Especially for OS X Hackers)" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The last thing on earth the web needs right now, is another blog/blog post about another developer stumbling his way up the admittedly short Rails learning curve. Still, here a few tips, especially for the newbie Rails and OS X hackers." />
+<meta property="og:description" content="The last thing on earth the web needs right now, is another blog/blog post about another developer stumbling his way up the admittedly short Rails learning curve. Still, here a few tips, especially for the newbie Rails and OS X hackers." />
+<link rel="canonical" href="https://laughingmeme.org//2005/04/01/some-rails-tips-especially-for-os-x-hackers/" />
+<meta property="og:url" content="https://laughingmeme.org//2005/04/01/some-rails-tips-especially-for-os-x-hackers/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2005-04-01T07:01:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Some Rails Tips (Especially for OS X Hackers)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2005-04-01T07:01:00+00:00","datePublished":"2005-04-01T07:01:00+00:00","description":"The last thing on earth the web needs right now, is another blog/blog post about another developer stumbling his way up the admittedly short Rails learning curve. Still, here a few tips, especially for the newbie Rails and OS X hackers.","headline":"Some Rails Tips (Especially for OS X Hackers)","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2005/04/01/some-rails-tips-especially-for-os-x-hackers/"},"url":"https://laughingmeme.org//2005/04/01/some-rails-tips-especially-for-os-x-hackers/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Some Rails Tips (Especially for OS X Hackers)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2005-04-01T07:01:00+00:00" itemprop="datePublished">Apr 1, 2005
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>The last thing on earth the web needs right now, is another blog/blog post about another developer stumbling his way up the admittedly short Rails learning curve. Still, here a few tips, especially for the newbie Rails and OS X hackers.</p>
+
+<h3 id="use-breakpoint">Use Breakpoint</h3>
+
+<p><a href="http://ruby-breakpoint.rubyforge.org">Breakpointer</a> is great. Took me a little while to figure out how it worked as I was expect something like <code class="language-plaintext highlighter-rouge">gdb</code>, while <code class="language-plaintext highlighter-rouge">breakpointer</code> is really more of a evolutionary punctuated equilibrium from the <a href="http://www.tbray.org/ongoing/When/200x/2004/06/17/DeDebPrint">scattering ‘print’ statements through out the code</a> style of debugging. Instead of</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print "going into crashing_function"
+crashing\_function(var1, var2, var3)
+print "after crashing_function"
+
+</code></pre></div></div>
+
+<p>You say</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>breakpoint "going into crashing_function"
+crashing_function(var1, var2, var3)
+
+</code></pre></div></div>
+
+<p>And when <code class="language-plaintext highlighter-rouge">breakpoint</code> is reached you’re dropped into an <a href="http://www.rubygarden.org/ruby?Irb">irb</a> shell, and can inspect those variables, call methods, and generally re-write your code on the fly.</p>
+
+<p>What you can’t do is step. So if you’re interested in what is going on in crashing_function you’ll need something like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def crashing_function(var1, var2, var3)
+   breakpoint "start of crashing function"
+   ...
+   breakpoint "end of crashing function"
+end
+
+</code></pre></div></div>
+
+<p>But how you ask does a web app bring up an interactive shell? In your Rails <code class="language-plaintext highlighter-rouge">script</code> directory (where <code class="language-plaintext highlighter-rouge">generate</code> and <code class="language-plaintext highlighter-rouge">server</code> are) you’ll find <code class="language-plaintext highlighter-rouge">breakpointer</code>. Simply run it, and it will attempt to connect to a dRB server that Rails in development mode brings up behind the scenes. You’ll see</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No connection to breakpoint service at druby://localhost:42531
+       (DRb::DRbConnError)
+Tries to connect will be made every 2 seconds...
+
+</code></pre></div></div>
+
+<p>Now go hit your web app over on localhost:3000, and when you reach a breakpoint you’ll see your app hang, and the little spinning loading icon go on and on and on. This is your clue to switch back to the terminal where you ran breakpointer</p>
+
+<p>There instead of ‘No connection’ you’ll see</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Executing break point "start of crashing function" at 
+      ./script/../config/..//app/models/crashme.rb:15 in `crashing_function'
+
+</code></pre></div></div>
+
+<p>That is: you’re breakpoint, the file, and the name of the function. From here you can do things like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>puts var1
+var1.inspect
+self.some_state.inspect
+
+</code></pre></div></div>
+
+<p>And <a href="http://ruby-breakpoint.rubyforge.org/wiki/wiki.pl?TipsAndTricks">lots more stuff</a> which I haven’t really started playing with. What you can’t do is <code class="language-plaintext highlighter-rouge">next</code>, <code class="language-plaintext highlighter-rouge">step</code>, <code class="language-plaintext highlighter-rouge">run</code>, etc. When you’re tired of the view from this breakpoint, and are ready to be whisked away to the next one, type</p>
+
+<p>exit</p>
+
+<h3 id="securityerror-insecure-operation-write-at-level-4">SecurityError (Insecure operation ‘write’ at level 4)</h3>
+
+<p>What if all that doesn’t happen. What if your browser doesn’t seem to go into a spinning death spiral but instead promptly pops up the error message like <code class="language-plaintext highlighter-rouge">SecurityError (Insecure operation 'write' at level 4)</code>. The default answer is you need Ruby 1.8.2 instead of Ruby 1.8.1. “But”, I hear you say, “I’ve already got Ruby 1.8.2”. At which all the wise heads on on #rubyonrails will nod sagely, and says, “Yes, grasshopper, but you are a Mac user, and have the wrong 1.8.2.”. Basically the .dmg was silently upgraded, and you’ll need to <a href="http://homepage.mac.com/discord/Ruby/">re-download</a> and re-install it.</p>
+
+<h3 id="living-with-your-model--using-cocoamysql">Living With Your Model / Using CocoaMySQL</h3>
+
+<p>I’ve been using MySQL for 8+ years now, and to say I’m pretty comfortable with the <code class="language-plaintext highlighter-rouge">mysql</code> command line client is an understatement. (though I’ve never <a href="http://jeremy.zawodny.com/blog/archives/002230.html">tricked it out like Jeremy</a>) That said, working with Rails where a significant portion of your applications logic is inferred directly from the database means you spend a <strong>lot</strong> of time living in the database. And so for the first time ever, I went looking for a graphical MySQL client, and found <a href="http://cocoamysql.sourceforge.net/">CocoaMySQL</a>. It works well with a lot of room for improvement, but my one critical tip for you is, if you’re working with a dataset of any size, go to Preferences and make sure to check “Limit results to 100 rows” or you’re going to be dealing with a bad case of the spinnies. (and unlike the breakpointer tip, this is not desirable)</p>
+
+<h3 id="gem_server">gem_server</h3>
+
+<p>How do you get a neat, JavaDoc-y looking document site like <a href="http://rails.rubyonrails.com">rails.rubyonrails.com</a>? As far as I can tell you don’t. But the next best thing is <code class="language-plaintext highlighter-rouge">gem_server</code>. Just run it from the command line, and it will bring up another instance of WEBrick, this one on port 8808, browse to it, and boom, you’ve got docs for all installed <code class="language-plaintext highlighter-rouge">gems</code>. (admittedly all versions of all installed gems, which gets a little ugly)</p>
+
+<p>Thats what I’ve picked up so far, most of it unfolded fairly rapidly, but if I can pass along the accumulated wisdom of a couple of hours, there you go.</p>
+
+<p><strong>update:</strong> a recipe for <a href="http://article.gmane.org/gmane.comp.lang.ruby.rails/6047">generating Rails docs with Rdoc</a></p>
+
+  </div><a class="u-url" href="/2005/04/01/some-rails-tips-especially-for-os-x-hackers/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

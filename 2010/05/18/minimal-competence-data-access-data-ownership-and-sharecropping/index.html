@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Minimal Competence: Data Access, Data Ownership, and Sharecropping. | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Minimal Competence: Data Access, Data Ownership, and Sharecropping." />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A friend (from Google) recently trolled me, asking, “What’s up with the data lock-in at Flickr?”." />
+<meta property="og:description" content="A friend (from Google) recently trolled me, asking, “What’s up with the data lock-in at Flickr?”." />
+<link rel="canonical" href="https://laughingmeme.org//2010/05/18/minimal-competence-data-access-data-ownership-and-sharecropping/" />
+<meta property="og:url" content="https://laughingmeme.org//2010/05/18/minimal-competence-data-access-data-ownership-and-sharecropping/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-05-18T08:59:51+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Minimal Competence: Data Access, Data Ownership, and Sharecropping." />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2010-05-18T08:59:51+00:00","datePublished":"2010-05-18T08:59:51+00:00","description":"A friend (from Google) recently trolled me, asking, “What’s up with the data lock-in at Flickr?”.","headline":"Minimal Competence: Data Access, Data Ownership, and Sharecropping.","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2010/05/18/minimal-competence-data-access-data-ownership-and-sharecropping/"},"url":"https://laughingmeme.org//2010/05/18/minimal-competence-data-access-data-ownership-and-sharecropping/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Minimal Competence: Data Access, Data Ownership, and Sharecropping.</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2010-05-18T08:59:51+00:00" itemprop="datePublished">May 18, 2010
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>A friend (from Google) recently trolled me, asking, “What’s up with the data lock-in at Flickr?”.</p>
+
+<p>Got me thinking about standards. I wrote back a rant to a mailing list of fellow senior hacker, and coders types. Below I’ve included that rant, largely verbatim. I’d been meaning to turn it into a more reasoned blog post, maybe something suitable for posting on a more official outlet, but life is short, and <a href="http://groovymother.com/2010/may/16/importance-api/">Rod’s post about Quora</a> reminded me to get on it.</p>
+
+<p>As software engineers, as <strong>social</strong> software engineers, it’s important to have standards. You can debate the how much of what we do can be called engineering, even charitably, but the code we write determines the rules that govern the spaces more and more people spend time in, and while “First, do no harm” might be reaching, a few standards that you should be embarrassed to not meet seem appropriate.</p>
+
+<p>One of those is around data access, data ownership, and sharecropping. This is something Flickr takes very seriously.</p>
+
+<h3 id="the-minimum">The Minimum</h3>
+
+<p>With Flickr you can get out, <a href="http://www.flickr.com/services/api/">via the API</a>, every single piece of information you put into the system.</p>
+
+<p>Every photo, in every size, plus the completely untouched original. (which we store for you indefinitely, whether or not you pay us) Every tag, every comment, every note, every people tag, every fave. Also your stats, view counts, and referers.</p>
+
+<p>Not the most recent <em>N</em>, not a subset of the data. All of it.</p>
+
+<p>It’s your data, and you’ve granted us a limited license to use it.</p>
+
+<p>Additionally we provide a moderately competently built API that allows you to access your data at rates roughly 500x faster then the rate that will get you banned from Twitter.</p>
+
+<p>Asking people to accept anything else is sharecropping. It’s a bad deal. Flickr helped pioneer “Web 2.0”, and personal data ownership is a key piece of that vision. Just because the wider public hasn’t caught on yet to all the nuances around data access, data privacy, data ownership, and data fidelity, doesn’t mean you shouldn’t be embarrassed to be failing to deliver a quality product.</p>
+
+<p>The ability to get out the data you put in is the bare minimum. All of it, at high fidelity, in a reasonable amount of time.</p>
+
+<p>The bare minimum that you should be building, bare minimum that you should be using, and absolutely the bare minimum you should be looking for in tools you allow and encourage people who aren’t builders to use.</p>
+
+<h3 id="a-reasonable-exchange-of-value">A Reasonable Exchange of Value</h3>
+
+<p>Flickr actually goes a bit farther, not only can you get your data out, but it gets enriched as it passes through the system.</p>
+
+<p>If you use the geotagging feature, you don’t just get the lat/long out you put in, but your photo comes back with a whole hierarchy of geographic descriptors, that are pointers into a publicly available gazetteer (<a href="http://developer.yahoo.com/geo/geoplanet/">Y! GeoPlanet</a>). It would be good if there were pointers into other publicly available gazetteers (if for example Google ever released one) but there isn’t a good concordance service yet (but it’s being worked on)</p>
+
+<p>You get structured access to all the metadata that people have added to your photos, with proper attribution available. (of course there is a <em>working</em> privacy model, so your “friends” aren’t getting data they aren’t supposed to, like your friend requests, and chat logs)</p>
+
+<p>If you used our <a href="http://code.flickr.com/blog/2009/07/06/extraextraextra/">machine tags vocab</a>, you get extra information pulled in from 3rd party APIs like <a href="http://www.flickr.com/photos/tags/osm:*=">Open Street Maps</a>, <a href="http://www.flickr.com/photos/tags/openlibrary:*=">Open Library</a>, <a href="http://www.flickr.com/photos/tags/lastfm:*=">Last.fm</a>, <a href="http://fakesubwayapis.appspot.com/">various transit administrations</a>, and <a href="http://www.flickr.com/photos/tags/foursquare:*=">Foursquare</a>.</p>
+
+<p>Additionally you also have access to the data that was created in aggregate using the data you shared with us, like <a href="http://www.flickr.com/photos/tags/open/clusters/">tag clusters</a>, and the Creative Commons licensed <a href="http://code.flickr.com/blog/2009/05/21/flickr-shapefiles-public-dataset-10/">neighborhood shape boundaries</a>.</p>
+
+<p>This isn’t the exhaustive list, just a few of the things Flickr does to respect, and collaborate with the people who share their time and data with us.</p>
+
+<p>I’d certainly <em>love</em> to get a fraction of this data back from other services I use. Imagine getting access to all the data Google has about you, and everything they’ve learned partially based on observing you. I’ve gotten used to being disappointed by most of my fellow practitioners, but I still dream about using good tools that treat me with respect and want to collaborate.</p>
+
+<p>Thanks go to <a href="http://www.fsck.com/">Jesse Vincent</a>, for the useful <a href="http://www.slideshare.net/IgniteBoston/12-jesse-vincent">sharecropping metaphor</a>.</p>
+
+<p>(and I’ll state the obvious this is my <strong>personal</strong> blog, nothing I post here should be taken as official Flickr or Yahoo communication or policy, unless otherwise noted, that isn’t what they pay me to do.)</p>
+
+  </div><a class="u-url" href="/2010/05/18/minimal-competence-data-access-data-ownership-and-sharecropping/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

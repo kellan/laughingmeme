@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Twitter, or Architecture Will Not Save You | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Twitter, or Architecture Will Not Save You" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="(circa 2006 Twitter maintenance cat)" />
+<meta property="og:description" content="(circa 2006 Twitter maintenance cat)" />
+<link rel="canonical" href="https://laughingmeme.org//2008/05/28/twitter-or-architecture-will-not-save-you/" />
+<meta property="og:url" content="https://laughingmeme.org//2008/05/28/twitter-or-architecture-will-not-save-you/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2008-05-28T13:34:18+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Twitter, or Architecture Will Not Save You" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2008-05-28T13:34:18+00:00","datePublished":"2008-05-28T13:34:18+00:00","description":"(circa 2006 Twitter maintenance cat)","headline":"Twitter, or Architecture Will Not Save You","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2008/05/28/twitter-or-architecture-will-not-save-you/"},"url":"https://laughingmeme.org//2008/05/28/twitter-or-architecture-will-not-save-you/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Twitter, or Architecture Will Not Save You</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2008-05-28T13:34:18+00:00" itemprop="datePublished">May 28, 2008
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://twitter.com"><img src="http://laughingmeme.org/img/maintenance.gif" alt="" /></a><br />
+<small>(circa 2006 Twitter maintenance cat)</small></p>
+
+<p>Along with a whole slew of smart folks, I’ve been playing the current think game de jour, “How would you re-architect Twitter?”. Unlike most I’ve been having this conversation off and on for a couple of years, mostly with <a href="http://romeda.org">Blaine</a>, in my unofficial “Friend of Twitter” capacity. (the same capacity that I wrote the first Twitter bot in, and have on rare occasion logged into their boxes to play “spot the run away performance issue.”)</p>
+
+<p>For my money Leonard’s <a href="http://randomfoo.net/blog/id/4182">Brought to You By the 17th Letter of the Alphabet</a> is probably the best proposed architecture I’ve seen — or at least it matches my own biases when I sat down last month to sketch out <a href="http://laughingmeme.org/2008/04/05/quiet-saturday-thoughts/">how build a Twitter-like thing</a>. But when Leonard and I were chatting last week about this stuff, I was struck what was missing from the larger Blogosphere’s conversation: the issues Twitter is actually facing.</p>
+
+<p>Folks both <a href="http://dev.twitter.com/2008/05/twittering-about-architecture.html">within Twitter</a> and <a href="http://assetbar.wordpress.com/2008/02/08/twitter-proxy-any-interest/">without</a> have framed the conversation as an architectural challenge. Meanwhile the <a href="http://www.techcrunch.com/2008/05/22/twitter-at-scale-will-it-work/">nattering classes</a> have struck on the fundamental challenge of <strong>all</strong> social software (namely the network effects) and are reporting that they’ve gotten confirmation from “an individual who is familiar with the technical probelms at Twitter” that indeed Twitter is a social software site!</p>
+
+<h3 id="living-and-dying-by-the-network">Living and Dying By the Network</h3>
+
+<p>All social software has to deal with the <a href="http://en.wikipedia.org/wiki/Network\_effect">network effect</a>. At scale it’s hard. And all large social software has had to solve it. If you’re looking for the roots of Twitter’s special challenges, you’re going to have to look a bit farther a field.</p>
+
+<p>Though you can hedge your bets with this stuff by making less explicit promises than <a href="http://twitter.com">Twitter</a> does (everything from my friends in a timely fashion is pretty hard promise to keep). <a href="http://flickr.com">Flickr</a> mitigates some of this impact by making promises about <a href="http://flickr.com/photos/me/friends">recent contacts</a>, not recent photos (there are a fewer people than photos), meanwhile Facebook can hide a slew of sins behind the fact that their newsfeeds are “editorialized”, no claims of completeness anywhere in site. (there is a figure floating around that at least at one point Facebook was dropping 80% of their updates on the floor)</p>
+
+<p>So while architectures that strip down Twitter to queues, and logs could be a huge win, and while thinking about new architectures is the sexy, hard problem we all want to fix, Twitter’s problems are really of a more pedestrian hard, plumbing and ditch digging nature. Which is less fun, but reality.</p>
+
+<h3 id="growth">Growth</h3>
+
+<p>Their first problem is growth. Honest to god hockey stick growth is so weird, and wild, and hard, thats it’s hard to imagine and cope with if you haven’t been through it at least once. To <a href="http://randomfoo.net/blog/id/4171">quote Leonard again</a> (this from a <a href="http://www.techcrunch.com/2008/04/23/amateur-hour-over-at-twitter/">few weeks ago</a> back when TC thought they’d figured out that <a href="http://www.techcrunch.com/2008/04/23/amateur-hour-over-at-twitter/">Twitter’s problems were Blaine</a>):</p>
+
+<blockquote>
+  <p>“Even if you’re architecturally sound, you’re dealing with development with extremely tight timelines/pressures, so you have to make decisions to pick things that will work but will probably need to eventually be replaced (e.g. DRb for Twitter) — usually you won’t know when and what component will be the limiting factor since you don’t know what the uses cases will be to begin with. Development from prototype on is a series of compromises against the limited resources of man-hours and equipment. In a perfect world, you’d have perfect capacity planning and infinite resources, but if you’ve ever experienced real-world hockey-stick growth on a startup shoestring, you know that’s not the case. If you have, you understand that scaling is the brick that hits you when you’ve gone far beyond your capacity limits and when your machines hit double or triple digit loads. Architecture doesn’t help you one bit there.”</p>
+</blockquote>
+
+<p>Growth is hard. Dealing with growth is rarely sexy. When your growth goes non-linear you’re tempted to think you’ve stumbled into a whole class of new problems that need wild new thinking. Resist. New ideas should be applied judiciously. Because mostly its plumbing. Tuning your databases, getting your thread buffer sizes right, managing the community, and the abuse.</p>
+
+<h3 id="intelligence-and-monitoring">Intelligence and Monitoring</h3>
+
+<p>Growth compounds the other hard problem that Twitter (and almost every sites I’ve seen) has, thery’re running black boxes. Social software is hard to heartbeat, socially or technically. It’s one of the places where our jobs are actually harder than those real time trading systems, and other five nines style hard computing systems.</p>
+
+<p>And it’s a problem Twitter is still struggling to solve. (really you never stop solving it, your <a href="http://laughingmeme.org/2008/02/20/steve-loughran-how-do-you-know-you-have-a-spof-single-point-of-failure-you-always-have-one-how-do-you-find-it-you-dont-it-finds-you/">next SPOF will always come find you</a>, and then you have something new to monitor) Twitter came late in life to <a href="http://ganglia.info/">Ganglia</a>, and haven’t had the time to really burnish it. And Ganglia doesn’t ship by default with a graph for <a href="http://blog.evanweaver.com/articles/2008/05/21/twitter/">what to do when your site needs its memcache servers <strong>hot</strong></a> to run. And what do you do when Ganglia starts telling you your recent framework upgrade is causing a 10x increase in data returned from your DBs for the same QPS. Or that your URL shortening service is starting to slow down sporadically adding an extra 30ms burn to message handling. (how do you even graph that?)</p>
+
+<h3 id="beyond-lamp-needs-better-intelligence">Beyond LAMP Needs Better Intelligence</h3>
+
+<p>Monitoring and intelligence get even harder as you start to embrace these new architectures. Both because the systems are more complex, but largely because we don’t know what monitoring and resourcing for Web scale queues of data, and distributed hash tables look like. And we don’t yet have the scars from living through the failure scenarios. And we’re rolling our own solutions as it is early days, without the battle hardened tweaks and flags of an Apache or MySQL.</p>
+
+<p>We all know that <a href="http://www.jabber.org/">Jabber</a> has different performance characteristics than the Web (that’s rather the point), but we don’t have the data to quantify what it looks like at network effect impacted scale. (the big IM installs, particularly LJ and Google have talked a bit in public, but their usage patterns tend to be pretty different than stream style APIs. Btw I’ll be <a href="http://en.oreilly.com/oscon2008/public/schedule/detail/4359">talking about this a bit in Portland at OSCON</a> in a few months!)</p>
+
+<h3 id="recommendations">Recommendations</h3>
+
+<p>So I’d add to <a href="http://randomfoo.net/blog/id/4182">Leonard’s architecture</a> (and I know Leonard is thinking about this), and the various other cloud architectures emerging that to make it work you need build monitoring and resourcing in from the ground up, or you’re distributed in the cloud queues are going to fail.</p>
+
+<p>And solve the growth issues, with appropriate solutions for growth, which rarely involves architectural solutions.</p>
+
+  </div><a class="u-url" href="/2008/05/28/twitter-or-architecture-will-not-save-you/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

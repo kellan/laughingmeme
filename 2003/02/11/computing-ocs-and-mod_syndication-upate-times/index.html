@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Computing OCS and mod_syndication upate times | Kellan Elliott-McCrea: Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Computing OCS and mod_syndication upate times" />
+<meta name="author" content="Kellan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="(originally sent as a personal email, but I’m going to post it here as well)" />
+<meta property="og:description" content="(originally sent as a personal email, but I’m going to post it here as well)" />
+<link rel="canonical" href="https://laughingmeme.org//2003/02/11/computing-ocs-and-mod_syndication-upate-times/" />
+<meta property="og:url" content="https://laughingmeme.org//2003/02/11/computing-ocs-and-mod_syndication-upate-times/" />
+<meta property="og:site_name" content="Kellan Elliott-McCrea: Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2003-02-11T21:34:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Computing OCS and mod_syndication upate times" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kellan"},"dateModified":"2003-02-11T21:34:00+00:00","datePublished":"2003-02-11T21:34:00+00:00","description":"(originally sent as a personal email, but I’m going to post it here as well)","headline":"Computing OCS and mod_syndication upate times","mainEntityOfPage":{"@type":"WebPage","@id":"https://laughingmeme.org//2003/02/11/computing-ocs-and-mod_syndication-upate-times/"},"url":"https://laughingmeme.org//2003/02/11/computing-ocs-and-mod_syndication-upate-times/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://laughingmeme.org//feed.xml" title="Kellan Elliott-McCrea: Blog" /><style>
+    .post-date { float: right; }
+  </style>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kellan Elliott-McCrea: Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Computing OCS and mod_syndication upate times</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2003-02-11T21:34:00+00:00" itemprop="datePublished">Feb 11, 2003
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kellan</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>(originally sent as a personal email, but I’m going to post it here as well)</p>
+
+<p><strong>update: got a respone. basically i was attempting to make things too complicated <img src="http://lm.local/wp-includes/images/smilies/frownie.png" alt=":(" /></strong></p>
+
+<p>I was playing with the idea of writing an article about RSS modules, which got me thinking about the <a href="http://purl.org/rss/1.0/modules/syndication/">syndication module</a>, and its relative obscurity.</p>
+
+<p>Its not entirely surprising thats its obscure, weblogs are the RSS playground right now, and in the realm of personal, whimiscal publishing <a href="http://fishbowl.pastiche.org/archives/001132.html">Conditional GETs</a>are probably a much better solution for discovering new content.</p>
+
+<p>However, I also think mod_syndication labours under relative obscurity because it confuses people. And I thought I might do something about that, but now I’ve got a couple of questions about the spec as well.</p>
+
+<p><strong>update: now with <cite>answers</cite></strong>!</p>
+
+<h3 id="optionality">Optionality?</h3>
+
+<p>In the <a href="http://internetalchemy.org/ocs/">OCS format</a> all the fields are optional. In mod<em>syndication it iss ambigous whether updateBase is optional. As updateBase seems to be the most abused field, and adds considerable complexity to calculating update times, it would seem like a good idea to explicit state that is optional, as well as give examples of mod</em>syndication being used without it. (or perhaps it isn’t optional?)</p>
+
+<p><strong>answer: <cite>updateBase is optional, but highly reccomended for accuracy</cite></strong></p>
+
+<h3 id="updatebase">updateBase?</h3>
+
+<p>What is the reccomended best practice with updateBase? Do I stick it at some arbitrary point in the past to calculate against? Or should it be set to the most recent publish?</p>
+
+<p><strong>answer: <cite>this should stay fixed unless you have an erratic publishing schedule</cite></strong></p>
+
+<h3 id="updatefrequency">updateFrequency?</h3>
+
+<p><strong>answer (translated): there are no discrete units, everything can be decomposed to seconds</strong></p>
+
+<p>If my updatePeriod is weekly, and my updateFrequency is 2, then does that mean I’m publishing every 3.5 days? (84 hours?) <br />
+<strong><cite>yes</cite></strong></p>
+
+<p>If for example, I had an updateBase of 2003-02-01T08:00Z, an updatePeriod of Weekly, and an updateFrequency of 2, would this mean, that I’m claiming to publish every Saturday at 8am, and every Wednesday at 8pm? <br />
+<strong><cite>yes</cite></strong></p>
+
+<p>It probably makes sense to calculate the day change, and then ignore the time change. But it should be defined. <br />
+<strong><cite>no, days aren’t discrete</cite></strong></p>
+
+<p>For that matter, is twice a month defined at 15 days? or DAY_IN_MONTH/2? On Feb 28th, should I be checking back in 14 days? on 15.5? <br />
+<strong><cite>DAY_IN_MONTH/2, months are merely composed of days (which are composed of seconds)</cite></strong></p>
+
+<p>It would seem that best practice would dictate using an updateBase for long update frequencies like monthly, or yearly.</p>
+
+<h3 id="whats-a-week">Whats a week?</h3>
+
+<p>Ignoring all the previous weirdness, if someone has the very simple and reasonable updatePeriod:weekly, with no updateBase, and the assumed updateFrequency of 1. Now is that a week? Or 7 days? <strong>answer: <cite>A week is 7 days which is 604800 seconds </cite></strong></p>
+
+<p>For example, its Saturday. Do I come back next Saturday? or do I come back on Monday? or on Sunday? <br />
+<strong><cite>Saturday</cite></strong></p>
+
+<p>In iCalendar if I ask for a weekly repeat, without specifiying a BYDAY, its going to repeat on Monday, and therefore I should come back 2 days from now. <br />
+(<em>note to self, you are a calendar geek</em>)</p>
+
+<p>Either way works, it just needs to be defined.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Do you know of any existing implementations that caculate OCS, or mod_syndication offsets? Code is an excellent way to codify assumptions both explicit and implicity. <strong>update: code is supereasy given the above answers</strong></p>
+
+  </div><a class="u-url" href="/2003/02/11/computing-ocs-and-mod_syndication-upate-times/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kellan Elliott-McCrea</li><li><a class="u-email" href="mailto:kellan@gmail.com">kellan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li>On Mastodon: <a href="https://fiasco.social/@kellan">@kellan</a></li><li><a href="https://www.twitter.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.flickr.com/photos/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://github.com/kellan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kellan</span></a></li><li><a href="https://www.linkedin.com/in/kellanem"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">kellanem</span></a></li><li><a href="https://kellanem.com/notes/">Leadership blog</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog of Kellan Elliott-McCrea. I don&#39;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
