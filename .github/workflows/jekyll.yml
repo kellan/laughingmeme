@@ -30,3 +30,13 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+
+    - name: Deploy site via rsync
+      uses: easingthemes/ssh-deploy@v2.1.5
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+        ARGS: -vrhp --exclude ".*" --delete-after --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r
+      with:
+        source: "./_site/"
+        target: "${{ secrets.SSH_USER }}@${{ secrets.INSTANCE_HOST }}:${{ secrets.REMOTE_WEB_ROOT }}"
+        port: ${{ secrets.SSH_PORT }}
