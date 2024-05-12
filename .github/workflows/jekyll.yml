@@ -33,10 +33,11 @@ jobs:
 
     - name: Deploy site via rsync
       uses: easingthemes/ssh-deploy@v2.1.5
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
-        ARGS: -vrhp --exclude ".*" --delete-after --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r
       with:
-        source: "./_site/"
-        target: "${{ secrets.SSH_USER }}@${{ secrets.INSTANCE_HOST }}:${{ secrets.REMOTE_WEB_ROOT }}"
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        SOURCE: "./_site/"
+        ARGS: '-vrhp --delete-after --exclude ".*" --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r'
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        TARGET: "${{ secrets.REMOTE_WEB_ROOT }}"
         port: ${{ secrets.SSH_PORT }}
