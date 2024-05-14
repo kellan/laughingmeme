@@ -65,3 +65,10 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+page_gen:
+- data: mlp.yaml
+  template:
+  dir: mlp
+  name: 'title'
+  
