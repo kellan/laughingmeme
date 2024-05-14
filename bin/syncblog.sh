@@ -1,6 +1,8 @@
 #!/bin/sh
 
-localjekyll="/Users/kellan/proj/laughingmeme"
+#localjekyll="/Users/kellan/projs/laughingmeme"
+script_dir=$(dirname `readlink -f "$0"`) 
+localjekyll=$(dirname $script_dir)
 remotewebroot="/var/www/laughingmeme"
 instancehost="laughingmeme.org"
 sshuser="root"
