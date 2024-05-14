@@ -83,5 +83,5 @@ And it was easier to raise capital if what you're doing sounds high tech and com
 
 The race between improved productivity from better tools and the drag of increased complexity, inherent, accidental, and aspirational, isn't particularly new for our industry. If you talk to people who worked at Sun, SGI, or Oracle at the end of the 90s they'll quickly point out to you that much of this is cyclical.  The era of cheap money certainly juiced some of these trends, but without other conflicts in the workplace around outcomes and expectations we wouldn't be at this inflection point.
 
-In part 3, I'll contrast how the cost of software engineers has risen significantly at a time when the success for software companies has become more elusive. 
+In [part 3, I'll contrast how the cost of software engineers has risen significantly at a time when the success for software companies has become more elusive](https://laughingmeme.org/2023/01/29/software-and-its-discontents-part-3-the-magic.html). 
 
