@@ -12,3 +12,5 @@ This was my first time ever using Github Actions directly versus vaguely oversee
 Here is [my workflow file that runs my tweaked version of Jekyll on every commit and push it to the gh-pages branch](https://github.com/kellan/laughingmeme/blob/main/.github/workflows/jekyll.yml). At first I thought I'd keep rsync'ing the generated output to the Linode host, and with a bit of poking and prodding I got that working as a GH Actions as well, but in the end it was just easier to host the site on Pages.
 
 Let me know if you notice anything broken.
+
+(Hmmm, seems like something is happening that reverts the custom domain settings periodically, more investigating todo)
