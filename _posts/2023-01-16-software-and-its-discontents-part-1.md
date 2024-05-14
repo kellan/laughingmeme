@@ -58,12 +58,11 @@ Finally failing is a good way to keep complexity from growing year over year. Wi
 
 Thanks for reading part 1 of "Software and its Discontents, January 2023". If you didn't already believe we were struggling as an industry, it's unlikely I've convinced you. If you were thinking about it, I hope I provided some systemic perspective on how, why and why now.
 
-In part 2, I'll be talking about the explosion of complexity we've seen in software development over the last decade, and in particular: 
+In [part 2, I'll be talking about the explosion of complexity we've seen in software development](https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html) over the last decade, and in particular: 
 
 1.  The complexity of rising standards
 2.  The complexity of too many choices
 3.  Complexity and technical decision making in the era of abundance
 4.  The complexity of large teams and aging code bases
 5.  Aspirational complexity
-
 
