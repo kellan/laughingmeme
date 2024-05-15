@@ -13,4 +13,4 @@ Here is [my workflow file that runs my tweaked version of Jekyll on every commit
 
 Let me know if you notice anything broken.
 
-(Hmmm, seems like something is happening that reverts the custom domain settings periodically, more investigating todo)
+(Hmmm, seems like something is happening that reverts the custom domain settings periodically, more investigating todo. [Fixed](https://github.com/kellan/laughingmeme/commit/5ab9f91def40d60bc33db9ce06c63a6953c3448a))
