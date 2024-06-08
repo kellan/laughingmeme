@@ -29,8 +29,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git clone https://https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/kellan/blogmarks.git blogmarks
-    
+        git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/kellan/blogmarks.git blogmarks
+                  
     - name: Copy _site directory from Links repository
       run: |
         rsync -av --progress blogmarks-repo/_site/ _site/links
