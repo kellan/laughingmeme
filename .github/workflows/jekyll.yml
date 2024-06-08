@@ -27,7 +27,7 @@ jobs:
 
     - name: Clone Links repository
       env:
-        PAT: ${{ secrets.PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git clone https://github.com/kellan/blogmarks.git blogmarks
     
