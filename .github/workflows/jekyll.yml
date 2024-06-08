@@ -25,6 +25,16 @@ jobs:
         bundle install
         bundle exec jekyll build
 
+     - name: Clone Links repository
+      env:
+        PAT: ${{ secrets.PAT }}
+      run: |
+        git clone https://github.com/kellan/blogmarks.git blogmarks
+    
+    - name: Copy _site directory from Links repository
+      run: |
+        rsync -av --progress blogmarks-repo/_site/ _site/links
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
