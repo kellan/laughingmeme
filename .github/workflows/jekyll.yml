@@ -9,7 +9,7 @@ on:
       - main  # Set to your default branch
   workflow_dispatch: # Allows manual triggering of the workflow
   schedule:
-    - cron: '0 */2 * * *'  # Runs every 2 hours
+    - cron: '30 */2 * * *'  # Runs every 2 hours
 
 
 jobs:
