@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2024-06-08T23:10:44+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Minor blog updates</title><link href="https://laughingmeme.org//2024/05/14/minor-blog-updates.html" rel="alternate" type="text/html" title="Minor blog updates" /><published>2024-05-14T14:05:30+00:00</published><updated>2024-05-14T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/05/14/minor-blog-updates</id><content type="html" xml:base="https://laughingmeme.org//2024/05/14/minor-blog-updates.html"><![CDATA[<p>Because I use a slightly non-standard Jekyll for this blog I’ve been generating the HTML locally and then rsync’ing that output to a very tiny Linode host versus just letting Github Pages handle the hosting as I do with <a href="https://kellanem.com">kellanem.com</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2024-06-09T00:01:04+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">A Link Blog in the Year 2024</title><link href="https://laughingmeme.org//2024/06/08/a-link-blog-in-2024.html" rel="alternate" type="text/html" title="A Link Blog in the Year 2024" /><published>2024-06-08T14:05:30+00:00</published><updated>2024-06-08T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/06/08/a-link-blog-in-2024</id><content type="html" xml:base="https://laughingmeme.org//2024/06/08/a-link-blog-in-2024.html"><![CDATA[<blockquote>
+  <p>My big fantasy for what I’d do with a little free time is start a link blog. This is probably a sad commentary on a half dozen things simultaneously. - <a href="https://fiasco.social/@kellan/112405142226319707">kellan, May 08, 2024</a></p>
+</blockquote>
+
+<p>Like many people I’ve been dealing with the collapses of the various systems I relied on for information over the previous decades. After 17 of using Twitter daily and 24 years of using Google daily neither really works anymore. And particular with the <a href="https://laughingmeme.org/2024/05/12/what-we-mean-to-others.html">collapse of the social spaces many of us grew up with</a>, I feel called back to earlier forms of the Internet, like blogs, and in particular, starting a link blog.</p>
+
+<p>This is the very definition of something that no one needs. Technology doesn’t work like this, you can’t solve today’s problems by slavish devotion to earlier forms, its one-way doors all the way down. And certainly no one needs <em>my</em> link blog. I don’t really consume that much media from that many varied sources.</p>
+
+<p>But I’m impressed by the folks who never stopped, <a href="https://www.somebits.com/linkblog/">Nelson</a>, <a href="https://simonwillison.net/">Simon</a>, <a href="https://waxy.org/category/links/">Andy</a>, <a href="https://kottke.org/">Jason</a>, and figure that there is value in the doing, for myself if no one else.</p>
+
+<h3 id="colophon">Colophon</h3>
+
+<p>When dinosaurs roamed the Earth we had books printed on paper by a publisher called <a href="https://www.oreilly.com/">O’Reilly</a>, and in the back there were notes about how the books were made, and they called it a colophon. That’s this section of the blog post.</p>
+
+<p>When dinosaurs roamed the Earth there was also a site called <a href="https://en.wikipedia.org/wiki/Memepool">memepool</a> which for all intents and purposes grew up to become <a href="https://en.wikipedia.org/wiki/Delicious_(website)">del.icio.us</a>, and there was <a href="https://en.wikipedia.org/wiki/Kuro5hin">Kuro5hin</a> (a response to Slashdot), which had a section called “Mindless Link Propagation” or MLP. That term has always stuck with me, and all the various attempts to put link blogs on Laughing Meme over the last 20+ years have been called MLP. And while del.icio.us was ground to dust by being acquired by Yahoo, we still have <a href="https://pinboard.in/">Pinboard.in</a> (which thankfully appears to be largely self sustaining because the maintainer seems to have gone quiet – now that’s good engineering).</p>
+
+<p>Kuro5hin is long gone, but it’s creator, <a href="https://www.nytimes.com/2024/04/17/style/today-in-tabs-rusty-foster-media-gossip-maine.html">Rusty Foster</a> is better known these days for <a href="https://www.todayintabs.com/">Today in Tabs</a>, and so there is someone else who never gave up the links game.</p>
+
+<p>So those are the inspirations: it’s called MLP, and it’s powered by Pinboard.</p>
+
+<p>And in the <a href="http://radar.oreilly.com/archives/2007/03/jedi-build-thei.html">grand tradition of those long ago days</a>, the first step was to <a href="https://github.com/kellan/blogmarks">write my own software to do power all of this</a>. I borrowed heavily from Nelson.</p>
+
+<p>A Github Action fetches tags from Pinboard with <a href="https://pinboard.in/u:kellan/t:mlp/">“mlp”</a> and stores it in a local Sqlite db and checks that into the repo. A another action generates the HTML. A third action, over in the main repo for this blog, fetches the generated HTML and combines it with the Jekyll output for this blog and pushes it to Github Pages. Additional metadata is layered into <a href="https://www.flickr.com/groups/51035612836@N01/discuss/72157594497877875/">“machine tags”</a>.</p>
+
+<p>This follows on <a href="https://laughingmeme.org/2024/05/14/minor-blog-updates.html">my post from last month on discovering Github Actions</a> (half a decade after they launched) and deciding to use it as aggregator, lambda, and cron job. It’s a slow debug cycle, and fiddly YAML, and requires you to hold a very specific mental model of a filesystem you never see, and really is in no way superior to the technologies we hewed from stone and wood in the early days of blogging, but I kind of like it. It was a fun puzzle getting it to work. Kind of like when you have one of those tavern puzzles. You can pretend you sat down and looked at the thing to solve it, but really we all just fiddle until the ring slides over the horseshoe.</p>
+
+<p>I’ll be continuing to futz. But if you consume the whole thing with a well formed feed reader you shouldn’t see the thrash.</p>
+
+<h3 id="what-im-thinking-about">What I’m thinking about</h3>
+
+<p>We’ll see. The point of link blogging, for me, is the doing. So I’m looking forward to learning what I’ll blog about.</p>
+
+<p>That said, some of my persistent interests right now are climate optimism, and separating the wheat and chaff of the transformative technologies that are transformers and LLMs from the abusive hype cycle at the heart of Silicon Valley that has latched on to this tech as its latest scam.</p>
+
+<h3 id="links">Links</h3>
+
+<p><a href="https://laughingmeme.org/links/">Mindless Link Propagation</a>, and a <a href="https://laughingmeme.org/links/index.atom">feed</a>.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[My big fantasy for what I’d do with a little free time is start a link blog. This is probably a sad commentary on a half dozen things simultaneously. - kellan, May 08, 2024]]></summary></entry><entry><title type="html">Minor blog updates</title><link href="https://laughingmeme.org//2024/05/14/minor-blog-updates.html" rel="alternate" type="text/html" title="Minor blog updates" /><published>2024-05-14T14:05:30+00:00</published><updated>2024-05-14T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/05/14/minor-blog-updates</id><content type="html" xml:base="https://laughingmeme.org//2024/05/14/minor-blog-updates.html"><![CDATA[<p>Because I use a slightly non-standard Jekyll for this blog I’ve been generating the HTML locally and then rsync’ing that output to a very tiny Linode host versus just letting Github Pages handle the hosting as I do with <a href="https://kellanem.com">kellanem.com</a>.</p>
 
 <p>This weekend I sat down to make it so that HTML generation could run on demand somewhere in the cloud with the rough idea that maybe an AWS Lambda was the answer. In evaluating my options I did what any senior and sophisticated engineering leader would do, I asked ChatGPT. Among the 4 options it suggested was Github Actions, which definitely felt like the most straightforward.</p>
 
@@ -355,31 +391,4 @@
       <p>certainly there was some fracturing of identity, most notably in the time honored tradition of having a main and an alt, an organic feature that resisted being dragged into the mainstream official features for so long until Instagram cracked it with the “Close Friends” stories. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Quick and dirty overview of tasks in Obsidian</title><link href="https://laughingmeme.org//2022/10/11/obsidian-tasks.html" rel="alternate" type="text/html" title="Quick and dirty overview of tasks in Obsidian" /><published>2022-10-11T17:05:24+00:00</published><updated>2022-10-11T17:05:24+00:00</updated><id>https://laughingmeme.org//2022/10/11/obsidian-tasks</id><content type="html" xml:base="https://laughingmeme.org//2022/10/11/obsidian-tasks.html"><![CDATA[<h3 id="updated-1012">updated 10/12</h3>
-
-<p>As <a href="https://twitter.com/wardcunningham">Ward Cunningham</a> says, <em>“The best way to ask a question is to share what you know, and have people tell you what you got wrong.”</em></p>
-
-<p>Per <a href="https://twitter.com/whereiscalypso/status/1580057579673161728">Ishan Puranik</a>, <a href="https://github.com/blacksmithgu/obsidian-dataview">DataView</a> queries are a <em>much</em> better solution. I was planning to hook something up clever with Watchman (as <a href="https://twitter.com/channingwalton/status/1579951895191650304">suggested by Channing</a>) to re-run the shell script, but one thing I hadn’t figured out was how to keep my solution up to date when I made edits on mobile. DataViews solves all of that with a native solution.  So now my tasks page is just:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```dataview
-TASK FROM "/"
-```
-</code></pre></div></div>
-
-<p>Also, if you’re playing with Obsidian, join the Discord.</p>
-
-<h3 id="1011">10/11</h3>
-
-<p>I decided to ditch <a href="https://www.craft.do/">Craft</a> in part because it didn’t have a way to show me all my open todos. Obsidian doesn’t have a default solution (as far as I can tell) to show me all the open checklist items. But Obsidian is an open system and you can make your own solution.</p>
-
-<p>The community has a bunch of <a href="https://github.com/obsidian-tasks-group/obsidian-tasks">offerings for seeing your Tasks</a>, but so far all the plugins have felt heavier than I wanted (and didn’t match my aesthetics in ways I can’t quite articulate).</p>
-
-<p>I sat down this afternoon to see if I could solve this problem for myself. I poked around the documentation (which is sparse), trying to figure out if things I saw the community talking about like “queries” were core features or community plugins.</p>
-
-<p>I didn’t find what I was looking for. So with 5 minutes of the 1 hour of yak shaving I allotted myself here is my current solution:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd $your_vault
-grep '\[ \]' * | sed 's/.md:- \[ \] /SEP/' | awk -F'SEP' '{printf "[[%s]] %s\n", $1,$2}' &gt; Tasks.md
-</code></pre></div></div>
-
-<p>This creates a new document named “Tasks” with each of your unchecked todos with a link to their parent document.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[updated 10/12]]></summary></entry></feed>
+</div>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
