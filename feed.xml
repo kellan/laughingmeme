@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2024-10-05T22:35:26+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Fixed the XML</title><link href="https://laughingmeme.org//2024/08/15/fixed-the-xml.html" rel="alternate" type="text/html" title="Fixed the XML" /><published>2024-08-15T14:05:30+00:00</published><updated>2024-08-15T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/08/15/fixed-the-xml</id><content type="html" xml:base="https://laughingmeme.org//2024/08/15/fixed-the-xml.html"><![CDATA[<p>I broke the XML on my <a href="https://laughingmeme.org/links/index.atom">MLP Atom feed</a> with unescaped HTML. Good times. Retro. Very early this millennia vibe.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2024-10-06T00:13:50+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">GDrive to S3</title><link href="https://laughingmeme.org//2024/10/05/drive-to-s3.html" rel="alternate" type="text/html" title="GDrive to S3" /><published>2024-10-05T14:05:30+00:00</published><updated>2024-10-05T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/10/05/drive-to-s3</id><content type="html" xml:base="https://laughingmeme.org//2024/10/05/drive-to-s3.html"><![CDATA[<p>I have <a href="https://takeout.google.com/?pli=1">Google Takeout</a> setup to periodically export to GDrive as a series of 10Gb .zip files. I’ve been meaning to get these over to S3 for a bit in part for backup purposes, and in part because I wanted to futz with the photos.</p>
+
+<p>I’m quite confident I’m not the first person to want to do something like this. But we’ve reached an awkward and unfortunate moment in the Web’s journey where search just doesn’t work very well anymore. Except search the latent information space of a LLM trained on the entire Web actually works unreasonably well for this sort of thing.</p>
+
+<p>So here’s my script, <a href="https://gist.github.com/kellan/2a8ff0e614ae96034f5592513f9a717a">gdrive-to-s3.py</a>. It use the <a href="https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaIoBaseDownload-class.html">MediaIoBaseDownload</a> API to fetch files in byte ranges from Gdrive and multi-part S3 uploads which in combination remove the need to read any of these 10Gb files directly into memory or store then locally (either of which would rather rules out running the script on a t2.micro) and instead allows you to stream the data from one storage provider to another in manageable chunk sizes.</p>
+
+<p>I used to leave long running jobs hanging around in load bearing screen sessions all the time. Kind of nice to return to my roots.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[I have Google Takeout setup to periodically export to GDrive as a series of 10Gb .zip files. I’ve been meaning to get these over to S3 for a bit in part for backup purposes, and in part because I wanted to futz with the photos.]]></summary></entry><entry><title type="html">Fixed the XML</title><link href="https://laughingmeme.org//2024/08/15/fixed-the-xml.html" rel="alternate" type="text/html" title="Fixed the XML" /><published>2024-08-15T14:05:30+00:00</published><updated>2024-08-15T14:05:30+00:00</updated><id>https://laughingmeme.org//2024/08/15/fixed-the-xml</id><content type="html" xml:base="https://laughingmeme.org//2024/08/15/fixed-the-xml.html"><![CDATA[<p>I broke the XML on my <a href="https://laughingmeme.org/links/index.atom">MLP Atom feed</a> with unescaped HTML. Good times. Retro. Very early this millennia vibe.</p>
 
 <p>I got to visit the <a href="https://validator.w3.org/feed/">W3C Feed Validator</a> which is a time capsule of a site. Confirmed that modern news aggregators for the most part still don’t rely on feeds to be valid XML. Except Slack. Slack’s aggregator apparently does. Got me wondering if it was possibly still <a href="https://github.com/kellan/magpierss">Magpie</a> under the hood as it was in the early days but that seems extremely unlikely.</p>
 
@@ -312,63 +318,4 @@
 
 <p>As I said in the <a href="/2022/10/11/obsidian-tasks.html">Obsidian tasks post</a>, <em>“The best way to ask a question is to share what you know, and have people tell you what you got wrong.”</em></p>
 
-<p>And I’d encourage you to lower the bar for yourself as well. We’d love to see what you’re thinking about, however unformed. One trick that worked for me to lower the bar was to fork the writing between this site, and very slightly higer bar I hold for myself at <a href="https://kellanem.com/notes/">Notes on engineering leadership</a>. I’m sure I’ll come up with others. (maybe bring back some sort of explicitly shorter form category? or a link blog?)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[William Gibson once said that he was leaving Twitter (or maybe it was blogging?) because he found it was like “trying to boil water with the lid off”. Good ideas took time to reach their potential and releasing all his ideas early was preventing them from maturing into material for his writing. That line has always stuck with me. (he since seems to have changed his mind, which is great, because he does good Twitter for however much longer that lasts)]]></summary></entry><entry><title type="html">ideas.txt: Find Me There</title><link href="https://laughingmeme.org//2022/11/05/find-me-there.html" rel="alternate" type="text/html" title="ideas.txt: Find Me There" /><published>2022-11-05T15:05:24+00:00</published><updated>2022-11-05T15:05:24+00:00</updated><id>https://laughingmeme.org//2022/11/05/find-me-there</id><content type="html" xml:base="https://laughingmeme.org//2022/11/05/find-me-there.html"><![CDATA[<p>From the ideas.txt file.</p>
-
-<p>I’ve had this idea kicking around the ideas.txt in various forms since OAuth got rolling, had it crossed out as “done” during the period Keybase was a happening thing, and had to mark it as “undone” when Keybase kind of went to shit with crypto spam/scam. Took another stab at building over a weekend last April when the Elon craziness was just getting started, but didn’t get very far. So blogging instead. Who knows, maybe I’ll get back to it. But it would be cool if <em>you</em> built it.</p>
-
-<h3 id="idea">Idea</h3>
-
-<p>A small service that you can authenticate to using various OAuth providers to prove that this me on Twitter, is that me on Google, is that me on Wordpress, is that me on Mastodon. Some folks have built this just for Mastodon to Twitter, but I think it would be more interesting as a service that lets people attest to their identity across multiple platforms.</p>
-
-<h3 id="prior-art">Prior art</h3>
-
-<ol>
-  <li>Twitdon and earlier the Twitter Mastdon Friend Finder of some of the more recent examples.</li>
-  <li>Services like Gravatar are spirtually aligned.</li>
-  <li>FriendFeed is probably the earliest incarnation, and points to directions in which you could grow it.</li>
-  <li><a href="https://book.keybase.io/guides/proof-integration-guide">Keybase</a></li>
-  <li><a href="https://webfinger.net/">WebFinger</a></li>
-  <li>For websites, well known location files, e.g. for Google Analytics.</li>
-  <li>Linktree has a lot in common</li>
-  <li>Folks are scrapping Twitter at the moment for mentions of Mastodon in tweets and profiles, which is a classic worse is better solution.</li>
-</ol>
-
-<h3 id="some-more-details">Some more details</h3>
-
-<ul>
-  <li>Make it work for webpages using well known location pattern, ala Google Analytics.</li>
-  <li>In addition to an API that is “find this person on other services”, you also would need a “find me everyone I know from this service on other services” to be useful.</li>
-  <li>OPML, because RSS readers are going to be hip agai n!</li>
-</ul>
-
-<h3 id="update-1-2022-11-05t2134z">update 1 2022-11-05T21:34Z</h3>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Advogato also seems like similar prior art in its way, as much as warning on preventing gaming the system</p>&mdash; Daniel Onren Latorre &#39;22/10/28 mostly on LinkedIn (@danlatorre) <a href="https://twitter.com/danlatorre/status/1588991242196905984?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
-
-</div>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/nLWabBFMW9">https://t.co/nLWabBFMW9</a> uses what you set as XFN - like `a href=&quot;#&quot; rel=&quot;me&quot;` - to do something quite close to that</p>&mdash; Alister (@alister_b) <a href="https://twitter.com/alister_b/status/1588992992228278272?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
-
-</div>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminds me of <a href="https://t.co/4DhmqlmEXv">https://t.co/4DhmqlmEXv</a></p>&mdash; Brett Slatkin (@haxor) <a href="https://twitter.com/haxor/status/1588997493962203136?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote>
-
-</div>
-
-<h3 id="update-2-2022-11-06t1213z">update 2 2022-11-06T12:13Z</h3>
-
-<p>I got asked what I meant by “well known locations”. Technically well known locations refers to <a href="https://www.rfc-editor.org/rfc/rfc8615">RFC 8615</a>, but I mean it more loosely in the sense of demonstrating you control a website by changing it in a way a service specificies, e.g. uploading a specific file at a specific URL. Google Analytics list of <a href="https://support.google.com/webmasters/answer/9008080?hl=en#choose_method">ways to demonstrate you own a site</a>, is probably best practices.</p>
-
-<h3 id="update-3-2022-11-07t0010z">update 3 2022-11-07T00:10Z</h3>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It’s <a href="https://twitter.com/claimID?ref_src=twsrc%5Etfw">@claimid</a> all over again!<br /><br />cc <a href="https://twitter.com/fstutzman?ref_src=twsrc%5Etfw">@fstutzman</a> <a href="https://t.co/IkQQcMGNSY">https://t.co/IkQQcMGNSY</a></p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589258018474332161?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
-
-</div>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We published a couple papers and eventually life needed to keep moving on…<br /><br />Open verification needs a business model.<a href="https://t.co/p8skGB8ewf">https://t.co/p8skGB8ewf</a></p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589279897843027968?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
-
-</div>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Oh, and more than a year before FriendFeed.    So much vision.  So little cash.</p>&mdash; Terrell RuSSL ˙ ͜ʟ˙ (@terrellrussell) <a href="https://twitter.com/terrellrussell/status/1589283197824946177?ref_src=twsrc%5Etfw">November 6, 2022</a></blockquote>
-
-</div>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[From the ideas.txt file.]]></summary></entry></feed>
+<p>And I’d encourage you to lower the bar for yourself as well. We’d love to see what you’re thinking about, however unformed. One trick that worked for me to lower the bar was to fork the writing between this site, and very slightly higer bar I hold for myself at <a href="https://kellanem.com/notes/">Notes on engineering leadership</a>. I’m sure I’ll come up with others. (maybe bring back some sort of explicitly shorter form category? or a link blog?)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[William Gibson once said that he was leaving Twitter (or maybe it was blogging?) because he found it was like “trying to boil water with the lid off”. Good ideas took time to reach their potential and releasing all his ideas early was preventing them from maturing into material for his writing. That line has always stuck with me. (he since seems to have changed his mind, which is great, because he does good Twitter for however much longer that lasts)]]></summary></entry></feed>
