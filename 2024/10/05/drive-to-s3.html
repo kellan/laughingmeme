@@ -57,7 +57,7 @@
   <div class="post-content e-content" itemprop="articleBody">
     <p>I have <a href="https://takeout.google.com/?pli=1">Google Takeout</a> setup to periodically export to GDrive as a series of 10Gb .zip files. I’ve been meaning to get these over to S3 for a bit in part for backup purposes, and in part because I wanted to futz with the photos.</p>
 
-<p>I’m quite confident I’m not the first person to want to do something like this. But we’ve reached an awkward and unfortunate moment in the Web’s journey where search just doesn’t work very well anymore. Except search the latent information space of a LLM trained on the entire Web actually works unreasonably well for this sort of thing.</p>
+<p>I’m quite confident I’m not the first person to want to do something like this. But we’ve reached an awkward and unfortunate moment in the Web’s journey where search just doesn’t work very well anymore. Except searching the latent information space of a LLM trained on the entire Web actually works unreasonably well for this sort of thing.</p>
 
 <p>So here’s my script, <a href="https://gist.github.com/kellan/2a8ff0e614ae96034f5592513f9a717a">gdrive-to-s3.py</a>. It use the <a href="https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaIoBaseDownload-class.html">MediaIoBaseDownload</a> API to fetch files in byte ranges from Gdrive and multi-part S3 uploads which in combination remove the need to read any of these 10Gb files directly into memory or store then locally (either of which would rather rules out running the script on a t2.micro) and instead allows you to stream the data from one storage provider to another in manageable chunk sizes.</p>
 
