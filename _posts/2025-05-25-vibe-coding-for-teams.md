@@ -32,4 +32,4 @@ Local, bespoke, unique, noisy, bushy, _big_ codebases seem like the inevitable b
 
 How are you changing your leadership practices in the face of LLMs?
 
-You've spent $0 on LLM APIs reading this blog post. (But I'm pacing roughly equally spending $$ on Claude Code and Powers)
+You've spent $0 on LLM APIs reading this blog post.
