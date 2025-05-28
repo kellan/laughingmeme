@@ -1,0 +1,35 @@
+---
+title: 'Vibe coding for teams, thoughts to date'
+date: '2025-05-25T12:05:30-05:00'
+layout: post
+---
+
+I've got [Claude Code](https://www.anthropic.com/claude-code) running in the background while I tab between writing this, sipping a Powers, and fielding phone calls from a team slightly panicked about the end of quarter QBR. This blog post is being written on May 27th, 2025, things may have changed by the time you read it. It was a toss up whether to post this on [Notes on engineering leadership](https://kellanem.com/notes/), or here, but eventually decided this was too loose for even Notes low standards. You've been warned (or at least given a context window with which to understand the remaining blog post). 
+
+LLMs are without a doubt the most disruptive change to how code gets written I've seen in my career since the introduction of the World Wide Web. As someone who largely _started_ on the web at a time when most people weren't, I remember reading [Dr. Dobb's](https://en.wikipedia.org/wiki/Dr._Dobb%27s_Journal) 30 years ago and seeing all these ads for weird C++ binaries I could pay to include in binaries I shipped on CDs. (Jokes on me as I now work at a [company](https://www.adobe.com/) that has C++ in production that dates to that era). That said, as of today, LLMs don't change some key fundamental physics of writing code as a team. Importantly, as of today, they haven't changed the fundamental calculation that writing code is always easier than understanding code. 
+
+The insight that reading code is harder than writing leads naturally to the insight that [every line of code is tech debt](https://kellanem.com/notes/towards-an-understanding-of-technical-debt). Every line of code encodes your best current understanding of the problem you're trying to solve (for increasingly weird definitions of "you"). Nothing has changed the fact that your current understanding is probably limited, and wrong in several ways.
+
+### Updating your mental model even harder for LLMs than for engineers
+
+If you've ever had the questionable joy of participating in a "technological transformation" (whether or not it was called that) than you've had the specific experience of how challenging it is to convince an engineering team to give up on its current test suite (for extremely variable values of "test suite"). It doesn't matter how much you argue that the test suite is a product of the practices and understanding of the problem you're trying to over turn. And you'll have this same conversation iterated for each historical technical decision (but especially tests). I've gone through the process of convincing a toddler to give up their pacifier, and convincing engineers to give up their tests, and I'd choose reasoning with the 2 year old any day of the week. 
+
+LLMs are more challenging. As soon as you instruct them to start building context from an existing codebase, you're in a battle to change their mind about what's important. From tests, to schemas, to dependencies. Given the lack of explicit tools for operating on their internal model, it's a shockingly similar process to convincing an engineer (I should note the approaches that work with a toddler _do not work_ with LLMs, in particular bribery is largely a failure).
+
+The saving grace for engineers is the handful of folks who through inclination or trauma either believe in a better wold or just want to see the current world burn and are therefore inclined to radical departures. My experimental data suggests telling LLMs they "just want to watch the world burn" does not make them more comfortable deleting obsolete test cases.
+
+### NIH wasn't invented here, but we did perfect it.
+
+Current generations of LLM are very happy to write you a new function for functionality you already have in your codebase. Your tips on incantations to add to CLAUDE.md to change this behavior welcome. Just telling it "DRY" ain't getting the job done. (and honestly, [DRY](https://wiki.c2.com/?DontRepeatYourself) was always problematic advice that lead to premature abstraction, and that was before the nightmare that was dependency injection). Code bases with significant AI contribution are ... bushy. Arguably as long as no humans are required to reason about the codebase we're fine. It does preclude, practically from first principles, those exceptional individuals many of us have encountered in our career who seemed to be able to hold the entire code base in their brains. Arguably that's a net positive. Those individuals were always problematic similar to those folks who are willing to [work 80 hours a week and jump on every incident](https://www.google.com/search?q=heroes+considered+harmful). At a minimum they make the rest of us look bad. But it's still an arms race between the LLM and itself. I may be skeptical of TDD as a human practice, but as a LLM practices it's the gold standard. But if every member of your team has their own bespoke approach to common functionality is your test suite doing its job? At a minimum you're burning a lot of Github Actions CPU. And that's before you ponder what does the response to [Log4Shell](https://nvd.nist.gov/vuln/detail/cve-2021-44228) look like in a world where everyone on your team has their own NIH bespoke logging code?
+
+### A Small Number of Well Known Tools ... if it was opposite day.
+
+Highly productive engineering teams (historically) reach that productivity by building a deep expertise in their tool chain. This is why it is so critical to closely examine introducing new technologies to your stack. An under examined cost of complicated technologies is that the cost of defining the preferred subset of capabilities falls on each development team instead of the industry as a whole. For example think about how every team that uses a "big language" (like Typescript or Scala) defines their own local subset, or paucity of Postgres best practices vs MySQL. [TIMTOWTDI](https://wiki.c2.com/?ThereIsMoreThanOneWayToDoIt) isn't actually a good thing. (["batteries included"](https://peps.python.org/pep-0206/) definitely won that argument) LLMs radically lower the cost of writing code (already the cheapest part of software development). With LLMs it is often easier to code an approach then research one. The exploding ecological diversity in our software environments is breathtaking. 
+
+### Where we're at today
+
+Local, bespoke, unique, noisy, bushy, _big_ codebases seem like the inevitable byproduct of our current tools and models. It's possible that LLMs can be shaped into tools that making code reading and code reasoning more powerful; that help us refactor, refine, and reduce the complexity of our codebases. I'm certainly encouraging my team to experiment with what is possible. Lowering the cost of _writing_ code was the thing that no engineering leader asked for, but it's the thing we got.
+
+How are you changing your leadership practices in the face of LLMs?
+
+You've spent $0 on LLM APIs reading this blog post. (But I'm pacing roughly equally spending $$ on Claude Code and Powers)
