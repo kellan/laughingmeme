@@ -16,7 +16,7 @@ If you've ever had the questionable joy of participating in a "technological tra
 
 LLMs are more challenging. As soon as you instruct them to start building context from an existing codebase, you're in a battle to change their mind about what's important. From tests, to schemas, to dependencies. Given the lack of explicit tools for operating on their internal model, it's a shockingly similar process to convincing an engineer (I should note the approaches that work with a toddler _do not work_ with LLMs, in particular bribery is largely a failure).
 
-The saving grace for engineers is the handful of folks who through inclination or trauma either believe in a better wold or just want to see the current world burn and are therefore inclined to radical departures. My experimental data suggests telling LLMs they "just want to watch the world burn" does not make them more comfortable deleting obsolete test cases.
+The saving grace for engineers is the handful of folks who through inclination or trauma either believe in a better world or just want to see the current world burn and are therefore inclined to radical departures. My experimental data suggests telling LLMs they "just want to watch the world burn" does not make them more comfortable deleting obsolete test cases.
 
 ### NIH wasn't invented here, but we did perfect it.
 
