@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2025-06-01T16:39:05+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Vibe coding for teams, thoughts to date</title><link href="https://laughingmeme.org//2025/05/25/vibe-coding-for-teams.html" rel="alternate" type="text/html" title="Vibe coding for teams, thoughts to date" /><published>2025-05-25T17:05:30+00:00</published><updated>2025-05-25T17:05:30+00:00</updated><id>https://laughingmeme.org//2025/05/25/vibe-coding-for-teams</id><content type="html" xml:base="https://laughingmeme.org//2025/05/25/vibe-coding-for-teams.html"><![CDATA[<p>I’ve got <a href="https://www.anthropic.com/claude-code">Claude Code</a> running in the background while I tab between writing this, sipping a Powers, and fielding phone calls from a team slightly panicked about the end of quarter QBR. This blog post is being written on May 27th, 2025, things may have changed by the time you read it. It was a toss up whether to post this on <a href="https://kellanem.com/notes/">Notes on engineering leadership</a>, or here, but eventually decided this was too loose for even Notes low standards. You’ve been warned (or at least given a context window with which to understand the remaining blog post).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org//" rel="alternate" type="text/html" /><updated>2025-06-01T17:20:00+00:00</updated><id>https://laughingmeme.org//feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Web app for looking up NYC street trees</title><link href="https://laughingmeme.org//2025/06/01/nyc-street-trees.html" rel="alternate" type="text/html" title="Web app for looking up NYC street trees" /><published>2025-06-01T17:05:30+00:00</published><updated>2025-06-01T17:05:30+00:00</updated><id>https://laughingmeme.org//2025/06/01/nyc-street-trees</id><content type="html" xml:base="https://laughingmeme.org//2025/06/01/nyc-street-trees.html"><![CDATA[<p>I spent Thursday at King’s County Court House finding out whether I was going to be called for jury duty. I used the opportunity to reach <em>way back</em> in the spark file for a silly side project, a web app for browsing NYC’s street trees.</p>
+
+<p><img src="/img/spark-trees-near-you.jpg" /></p>
+
+<p>This project has been on my todo list for a long time (probably even before the 2016 date I have written down here). I was inspired by <a href="https://www.treesnearyou.com/">Trees Near You</a>, an awesome hack from <a href="https://www.brettcamper.com/">Brett Camper</a> at a hackathon the city threw to promote its new open data initiatives (back when NYC did that kind of thing). At some point Apple changed some APIs and Brett’s awesome app stopped working and I conceived the nothing to rebuild it for the web.</p>
+
+<p>Now this project is largely pointless, because in the intervening decade <a href="https://tree-map.nycgovparks.org/">NYC Parks has launched an excellent website to serve just this purpose</a>. But it’s a fun, self contained little project, and I’ve picked up a couple of different times to try out new technology. (The React and React Native versions never really worked. A version I tried to build with Claude’s help in 2023 on Svelte mostly worked locally in Chrome, but never on Safari or in production). With Claude Code this time I got further.</p>
+
+<p>So here is a <a href="https://treesnyc.onrender.com/">simple Trees NYC web app</a>. Relatively vanilla Javascript, SQLite backend. Please enjoy New Yorks 650k+ trees.</p>
+
+<p>(and I was dismissed from jury duty, I don’t think the vibe coding was the reason.)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[I spent Thursday at King’s County Court House finding out whether I was going to be called for jury duty. I used the opportunity to reach way back in the spark file for a silly side project, a web app for browsing NYC’s street trees.]]></summary></entry><entry><title type="html">Vibe coding for teams, thoughts to date</title><link href="https://laughingmeme.org//2025/05/25/vibe-coding-for-teams.html" rel="alternate" type="text/html" title="Vibe coding for teams, thoughts to date" /><published>2025-05-25T17:05:30+00:00</published><updated>2025-05-25T17:05:30+00:00</updated><id>https://laughingmeme.org//2025/05/25/vibe-coding-for-teams</id><content type="html" xml:base="https://laughingmeme.org//2025/05/25/vibe-coding-for-teams.html"><![CDATA[<p>I’ve got <a href="https://www.anthropic.com/claude-code">Claude Code</a> running in the background while I tab between writing this, sipping a Powers, and fielding phone calls from a team slightly panicked about the end of quarter QBR. This blog post is being written on May 27th, 2025, things may have changed by the time you read it. It was a toss up whether to post this on <a href="https://kellanem.com/notes/">Notes on engineering leadership</a>, or here, but eventually decided this was too loose for even Notes low standards. You’ve been warned (or at least given a context window with which to understand the remaining blog post).</p>
 
 <p>LLMs are without a doubt the most disruptive change to how code gets written I’ve seen in my career since the introduction of the World Wide Web. As someone who largely <em>started</em> on the web at a time when most people weren’t, I remember reading <a href="https://en.wikipedia.org/wiki/Dr._Dobb%27s_Journal">Dr. Dobb’s</a> 30 years ago and seeing all these ads for weird C++ binaries I could pay to include in binaries I shipped on CDs. (Jokes on me as I now work at a <a href="https://www.adobe.com/">company</a> that has C++ in production that dates to that era). That said, as of today, LLMs don’t change some key fundamental physics of writing code as a team. Importantly, as of today, they haven’t changed the fundamental calculation that writing code is always easier than understanding code.</p>
 
@@ -307,37 +317,4 @@
   <li>Complexity and technical decision making in the era of abundance</li>
   <li>The complexity of large teams and aging code bases</li>
   <li>Aspirational complexity</li>
-</ol>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Over the last few months I’ve been intrigued by a question: where is the frustration and disillusionment, so prevalent currently in the software industry, coming from? And, as an engineering leader, what can I learn from this discontent and how should it shape my practices?]]></summary></entry><entry><title type="html">Full stack</title><link href="https://laughingmeme.org//2022/11/19/full-stack.html" rel="alternate" type="text/html" title="Full stack" /><published>2022-11-19T08:26:30+00:00</published><updated>2022-11-19T08:26:30+00:00</updated><id>https://laughingmeme.org//2022/11/19/full-stack</id><content type="html" xml:base="https://laughingmeme.org//2022/11/19/full-stack.html"><![CDATA[<p><a href="https://xkcd.com/378/"><img src="/img/real_programmers.png" /></a></p>
-
-<p>Apropos of having one of those conversations about how silly the term “full stack”</p>
-
-<p>At my first job in industry you were expected to be full stack, though the term wouldn’t be coined for over a decade.</p>
-
-<p>At the time full stack meant you could:</p>
-
-<ul>
-  <li>walk over to the local OEM</li>
-  <li>choose a case, CPU, drives, network cards, optical drive, etc</li>
-  <li>assemble said pieces into a working server possibly twiddling IRQs as needed</li>
-  <li>format drives, acquire and install an operating system, configure the boot loader, and configure PPP and DHCP to get the box online</li>
-  <li>download and compile a development toolchain</li>
-  <li>compile and configure a web serve and FastCGI</li>
-  <li>compile and configure a database, design the schema, write the SQL</li>
-  <li>write some code that made SELECTs, generated HTML and accepted form encoded POSTs</li>
-  <li>write code that responded to atypical request like dynamically serving images and NPH requests for live updating content</li>
-  <li>check the code into CVS</li>
-  <li>rack the server, connect directly via a local terminal and configure NICs to talk to datacenter’s network</li>
-  <li>configure bind to publish the IP address of the box</li>
-</ul>
-
-<p>A small smattering of the things It did not require you to do included:</p>
-<ul>
-  <li>code collaboratively</li>
-  <li>secure your application, as long as you were more secure than Matt’s Script Archive you were good</li>
-  <li>support any sophisticated analytics or observability beyond tail -f</li>
-  <li>Javascript</li>
-  <li>git</li>
-  <li>work with product management</li>
-  <li>achieve anything resembling scale or uptime - <a href="https://en.wikipedia.org/wiki/C10k_problem">10k concurrent connections was a <em>big deal</em></a></li>
-  <li>deal with Jira or any other ticket system</li>
-</ul>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+</ol>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Over the last few months I’ve been intrigued by a question: where is the frustration and disillusionment, so prevalent currently in the software industry, coming from? And, as an engineering leader, what can I learn from this discontent and how should it shape my practices?]]></summary></entry></feed>
