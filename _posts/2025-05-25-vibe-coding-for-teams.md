@@ -4,7 +4,7 @@ date: '2025-05-25T12:05:30-05:00'
 layout: post
 ---
 
-(note: this is still a _topic_ I'm interested in and thinking about a lot, but this blog post from 8 months ago is so out of date as to be useless)
+(note: this is still a _topic_ I'm interested in and thinking about a lot, but this blog post from 8 months ago is so out of date as to be useless - 2026/02/07)
 
 I've got [Claude Code](https://www.anthropic.com/claude-code) running in the background while I tab between writing this, sipping a Powers, and fielding phone calls from a team slightly panicked about the end of quarter QBR. This blog post is being written on May 27th, 2025, things may have changed by the time you read it. It was a toss up whether to post this on [Notes on engineering leadership](https://kellanem.com/notes/), or here, but eventually decided this was too loose for even Notes low standards. You've been warned (or at least given a context window with which to understand the remaining blog post). 
 
