@@ -11,13 +11,18 @@ We've _always_ had this tension. We've always fetishized the act of writing code
 Said another way, we've known for a _long_ time that code is the easy part. Has arguably _always_ been the easy part, but certainly has been the easiest part of building software for the last several decades.
 
 Yes: this is a genuinely new moment. 
+
 Yes: the last 3-4 months of frontier models, and Claude Code and its ilk are genuinely something new in the world.
+
 Yes: the cost of producing code is going plunge towards something near to zero faster than almost any of us can imagine, and that's going to require a ton of change. 
+
 Yes: it's already breaking social contracts and requiring rethinking about how teams work together. ([Review is _fatiguing_ in a way that creating is not](https://siddhantkhare.com/writing/ai-fatigue-is-real), something else we've known for a while.) 
 
 But code being the easy and cheap part is not new.
 
-Technology changes requiring us to rethink our social contracts and how our teams work is not new. The web, CI/CD, large scale sites, mobile, SPAs, machine learning and data, all of these broke how teams worked and required us to invent new ways of working. 
+Technology changes requiring us to rethink our social contracts and how our teams work is not new.
+
+The web, CI/CD, large scale sites, mobile, SPAs, machine learning and data, all of these broke how teams worked and required us to invent new ways of working. 
 
 I think it's fascinating to [read about running a dark software factory with a team of 3 people](https://simonwillison.net/2026/Feb/7/software-factory/). I think as a leader with a much larger (though comparatively small) team of humans I'm going to need to be equally creative on the right way to incorporate humans rather than exclude them from the process. And honestly those conversations are fun. It's been a _while_ since we've gotten to throw all the pieces up in the air and see what works.
 
