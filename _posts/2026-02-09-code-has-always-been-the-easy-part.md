@@ -18,6 +18,8 @@ Yes: the cost of producing code is going plunge towards something near to zero f
 
 Yes: it's already breaking social contracts and requiring rethinking about how teams work together. ([Review is _fatiguing_ in a way that creating is not](https://siddhantkhare.com/writing/ai-fatigue-is-real), something else we've known for a while.) 
 
+Also yes: I'm feeling the [dissociative awe at the temporal compression of change](https://simonwillison.net/2026/Feb/6/tom-dale/).
+
 But code being the easy and cheap part is not new.
 
 Technology changes requiring us to rethink our social contracts and how our teams work is not new.
