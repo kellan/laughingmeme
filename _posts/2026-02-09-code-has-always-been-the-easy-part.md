@@ -14,7 +14,7 @@ Yes: this is a genuinely new moment.
 
 Yes: the last 3-4 months of frontier models, and Claude Code and its ilk are genuinely something new in the world.
 
-Yes: the cost of producing code is pluging towards something near to zero faster than almost any of us can imagine, and that's going to require a ton of change. 
+Yes: the cost of producing code is plunging towards something near to zero faster than almost any of us can imagine, and that's going to require a ton of change. 
 
 Yes: it's already breaking social contracts and requiring rethinking about how teams work together. ([Review is _fatiguing_ in a way that creating is not](https://siddhantkhare.com/writing/ai-fatigue-is-real), something else we've known for a while.) 
 
