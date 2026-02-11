@@ -262,3 +262,73 @@
     }
   }
 }
+
+
+/**
+ * Home layout with links sidebar
+ */
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-unit;
+}
+
+@media (min-width: 900px) {
+  .page-content > .wrapper:has(.home-layout) {
+    max-width: calc(#{$content-width} + 280px + #{$spacing-unit});
+  }
+
+  .home-layout {
+    grid-template-columns: 1fr 280px;
+  }
+
+  .home-posts {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .recent-links {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 899px) {
+  .recent-links ul li.recent-link-item:nth-child(n+6) {
+    display: none;
+  }
+}
+
+.recent-links {
+  h2 {
+    @include relative-font-size(1.25);
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  li.recent-link-item {
+    margin-bottom: $spacing-unit / 3;
+
+    a {
+      font-weight: 500;
+    }
+  }
+
+  .recent-link-desc {
+    display: block;
+    @include relative-font-size(0.8125);
+    color: $grey-color;
+    line-height: 1.4;
+  }
+
+  .recent-links-more {
+    display: inline-block;
+    margin-top: $spacing-unit / 3;
+    @include relative-font-size(0.875);
+  }
+}

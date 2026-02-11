@@ -18,6 +18,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: Clone Links repository
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/kellan/blogmarks.git blogmarks
+
+    - name: Copy recent links data
+      run: |
+        mkdir -p _data
+        cp blogmarks/_site/recent_links.json _data/recent_links.json
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -29,13 +41,7 @@ jobs:
         bundle install
         bundle exec jekyll build
 
-    - name: Clone Links repository
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/kellan/blogmarks.git blogmarks
-
-    - name: Copy _site directory from Links repository
+    - name: Copy links site
       run: |
         rsync -av blogmarks/_site/ _site/links/
 
@@ -45,4 +51,3 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
         cname: laughingmeme.org
-

@@ -9,67 +9,89 @@ layout: default
 
   {{ content }}
 
-  {% if site.paginate %}
-  {% assign posts = paginator.posts %}
-  {% else %}
-  {% assign posts = site.posts %}
-  {% endif %}
+  <div class="home-layout">
 
-  {%- if posts.size > 0 -%}
-  {%- for post in posts -%}
-
-  {% capture year_of_current_post %}
-  {{ post.date | date: "%Y" }}
-  {% endcapture %}
-
-  {% capture year_of_previous_post %}
-  {{ post.previous.date | date: "%Y" }}
-  {% endcapture %}
-
-  {% if forloop.first %}
-  <h2>{{ year_of_current_post }}</h2>
-  <ul>
-    {% endif %}
-
-    <li>
-      {%- assign date_format = "%b %-d" -%}
-      <span class="post-name">
-        <a class="" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </span>
-      <span class="post-date">{{ post.date | date: date_format }}</span>
-    </li>
-
-    {% if forloop.last %}
-  </ul>
-  {% else %}
-  {% if year_of_current_post != year_of_previous_post %}
-  </ul>
-
-  <h2>{{ year_of_previous_post }}</h2>
-  <ul>
-    {% endif %}
-    {% endif %}
-    {%- endfor -%}
-
-    {% if site.paginate %}
-    <div class="pager">
-      Pages
-      <ul class="pagination">
-        {%- if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">More Recent Posts</a></li>
-        {%- endif %}
-
-        {%- if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Older Posts</a></li>
-
-        {%- endif %}
+    {%- if site.data.recent_links -%}
+    <aside class="recent-links">
+      <h2>Recent Links</h2>
+      <ul>
+        {%- for link in site.data.recent_links -%}
+        <li class="recent-link-item">
+          <a href="{{ link.url }}">{{ link.description }}</a>
+          {%- if link.extended and link.extended != "" -%}
+          <span class="recent-link-desc">{{ link.extended | truncate: 120 }}</span>
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
       </ul>
-    </div>
-    {%- endif %}
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via Atom</a></p>
+      <a href="/links/" class="recent-links-more">more links &rarr;</a>
+    </aside>
     {%- endif -%}
 
+    <div class="home-posts">
+      {% if site.paginate %}
+      {% assign posts = paginator.posts %}
+      {% else %}
+      {% assign posts = site.posts %}
+      {% endif %}
+
+      {%- if posts.size > 0 -%}
+      {%- for post in posts -%}
+
+      {% capture year_of_current_post %}
+      {{ post.date | date: "%Y" }}
+      {% endcapture %}
+
+      {% capture year_of_previous_post %}
+      {{ post.previous.date | date: "%Y" }}
+      {% endcapture %}
+
+      {% if forloop.first %}
+      <h2>{{ year_of_current_post }}</h2>
+      <ul>
+        {% endif %}
+
+        <li>
+          {%- assign date_format = "%b %-d" -%}
+          <span class="post-name">
+            <a class="" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </span>
+          <span class="post-date">{{ post.date | date: date_format }}</span>
+        </li>
+
+        {% if forloop.last %}
+      </ul>
+      {% else %}
+      {% if year_of_current_post != year_of_previous_post %}
+      </ul>
+
+      <h2>{{ year_of_previous_post }}</h2>
+      <ul>
+        {% endif %}
+        {% endif %}
+        {%- endfor -%}
+
+        {% if site.paginate %}
+        <div class="pager">
+          Pages
+          <ul class="pagination">
+            {%- if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">More Recent Posts</a></li>
+            {%- endif %}
+
+            {%- if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Older Posts</a></li>
+
+            {%- endif %}
+          </ul>
+        </div>
+        {%- endif %}
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via Atom</a></p>
+        {%- endif -%}
+    </div>
+
+  </div>
 </div>
