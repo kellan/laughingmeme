@@ -22,3 +22,5 @@ But if our software theories often assumed emotionally and morally stunted autom
   * UML and Rational Rose coming back?
 
 I wonder what else from the scrap heap is worth poking at?
+
+**update:** Big Up Front planning was pointed out to me as a classic technique that worked poorly with humans and is coming back as planning becomes more key
