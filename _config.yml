@@ -24,7 +24,7 @@ email: kellan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog of Kellan Elliott-McCrea. I don't really know what a "laughing meme" is. It sounded cool in 1999.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://laughingmeme.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://laughingmeme.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kellan
 github_username:  kellan
 flickr_username: kellan
