@@ -1,5 +1,5 @@
 ---
-title: 'Ed\'s Software, in a Time of Fear'
+title: "Ed's Software, in a Time of Fear"
 date: '2026-03-01T08:58:18-05:00'
 layout: post
 ---
