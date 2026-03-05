@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org/" rel="alternate" type="text/html" /><updated>2026-03-05T10:46:11+00:00</updated><id>https://laughingmeme.org/feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Ed’s Software, in a Time of Fear</title><link href="https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear.html" rel="alternate" type="text/html" title="Ed’s Software, in a Time of Fear" /><published>2026-03-01T13:58:18+00:00</published><updated>2026-03-01T13:58:18+00:00</updated><id>https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear</id><content type="html" xml:base="https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear.html"><![CDATA[<p>I enjoyed this essay from my friend Ed Lyons, which I think speaks well to <em>my</em> particular state of mind as someone who has been in this industry for 30+ years, a parent, a people leader, a builder.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://laughingmeme.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://laughingmeme.org/" rel="alternate" type="text/html" /><updated>2026-03-05T11:54:46+00:00</updated><id>https://laughingmeme.org/feed.xml</id><title type="html">Kellan Elliott-McCrea: Blog</title><subtitle>A personal blog of Kellan Elliott-McCrea. I don&apos;t really know what a &quot;laughing meme&quot; is. It sounded cool in 1999.</subtitle><author><name>Kellan Elliott-McCrea</name></author><entry><title type="html">Socialize the Plan</title><link href="https://laughingmeme.org/2026/03/05/socialize-the-plan.html" rel="alternate" type="text/html" title="Socialize the Plan" /><published>2026-03-05T11:45:16+00:00</published><updated>2026-03-05T11:45:16+00:00</updated><id>https://laughingmeme.org/2026/03/05/socialize-the-plan</id><content type="html" xml:base="https://laughingmeme.org/2026/03/05/socialize-the-plan.html"><![CDATA[<p>Anyone who tells you they have this current moment in coding figured out is lying to someone (you or themselves). I’m going to keep sharing half formed thoughts, and bits of things I’ve learned.</p>
+
+<p>As the cost of writing code goes to zero new strains and bottle necks appear. This is what we expect when we think about building software as a system. For most teams the first place that strain appears is in code review.</p>
+
+<p><em>No one</em> wants their job to become spending all day carefully reviewing code that someone else had a machine generate in minutes.</p>
+
+<p>Simon wrote yesterday about the anti patterns of <a href="https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#inflicting-unreviewed-code-on-collaborators">Inflicting unreviewed code on collaborators</a>. Also nice to read the recent <a href="https://www.latent.space/p/reviews-dead">How to Kill the Code Review</a>, and see an old friend like the <a href="https://en.wikipedia.org/wiki/Swiss_cheese_model">Swiss cheese model</a>.</p>
+
+<p>Code review is a funny topic.</p>
+
+<p>Most senior engineers and engineering leaders I know have always been quietly skeptical of its value. It’s expensive, and the data data on defect detection doesn’t justify the cost. Meanwhile teams tend to put too much trust in code review while underinvesting in other tools to gain confidence: monitoring, automation, better coding tools and practices, training, etc. (Swiss cheese!)</p>
+
+<p>Code review ubiquity is tied to Github’s (really quite recent I promise you!) rise to ubiquity, a tool designed for open source development, that quickly sublimated into being “conventional wisdom and best practice”. So much to say about how in software, we keep believe we’ve found “normal” and “best practice,” forgetting we’re 50 years into an experiment where we tear up and reinvent best practices every 5–10 years.</p>
+
+<p>As a senior leader you sort of shrug and sigh, and be glad that code review has some nice side benefits like ensuring that information is dispersing through the organization, that people are talking to each other, learning and teaching is happening, all of which are valuable.</p>
+
+<p>But that is all about code review for human written code and so I digress.</p>
+
+<p>On my team we’re not ready (yet?) to get ride of code review, but I got this insightful feedback on the first large AI generated PR I tried to land that has shaped my thinking. </p>
+
+<blockquote>
+  <p>In a manually coded PR, if a reviewer comes in and pushes back on the design, then that’s often a smell that the design wasn’t sufficiently socialized prior to spending time on the implementation. So we have meetings to review designs, we write RFCs, etc, to get consensus about how to do a thing before we commit effort to it. In this case, you went through the planning phase with the agent to determine the approach to take, and then had it churn out the diff.</p>
+</blockquote>
+
+<blockquote>
+  <p>getting design push-back in a manually written PR is annoying because the effort expended to write it was wasted if the design has to shift. But if the agent is able to quickly produce a new diff once a plan is updated to reflect design feedback, then push-back on the plan isn’t a big deal because we can just update the plan and re-run the agent.</p>
+</blockquote>
+
+<p>Anyone working with coding agents regularly knows the planning phase is where a lot of the time is spent not to mention human cognition and creativity is happening (that and designing the verification steps). Plan → save the plan → implement → describe diff → review → verify → fix → possibly update the plan.</p>
+
+<p>Implementation, the generating of code, is really a rather minor and cheap part of the process. Why obsess on getting feedback on that part?</p>
+
+<p>That’s our latest learning as a team: Socialize and get feedback on the plan. Also on the verification steps. And maybe you configure your reviewers.</p>
+
+<p>This is the most human to human high bandwidth work.</p>
+
+<p>I liked a lot of the framing of the problem in Simon’s and Ankit’s posts (and seeing an old friend like Swiss cheese model of remediation). But I think their solutions missed out on a plan for ensuring the continuation of the real value that code review provides: socialization, information dispersal, learning and teaching.</p>
+
+<p>Ankit is right, the human work moves upstream (as it always has).</p>
+
+<p>You can look at the code. But honestly, it’s the human driving the agents’s job to worry about the code, ensure it works, and that meet the standards of the org. We can do something more valuable with our team mates time when we asked them to review our work.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Anyone who tells you they have this current moment in coding figured out is lying to someone (you or themselves). I’m going to keep sharing half formed thoughts, and bits of things I’ve learned.]]></summary></entry><entry><title type="html">Ed’s Software, in a Time of Fear</title><link href="https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear.html" rel="alternate" type="text/html" title="Ed’s Software, in a Time of Fear" /><published>2026-03-01T13:58:18+00:00</published><updated>2026-03-01T13:58:18+00:00</updated><id>https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear</id><content type="html" xml:base="https://laughingmeme.org/2026/03/01/software-in-a-time-of-fear.html"><![CDATA[<p>I enjoyed this essay from my friend Ed Lyons, which I think speaks well to <em>my</em> particular state of mind as someone who has been in this industry for 30+ years, a parent, a people leader, a builder.</p>
 
 <p><a href="https://mysteriousrook.medium.com/software-in-a-time-of-fear-4e5a08ac7c63">Software, in a Time of Fear</a></p>
 
@@ -168,18 +208,4 @@
 
 <p>Let me know if you notice anything broken.</p>
 
-<p>(Hmmm, seems like something is happening that reverts the custom domain settings periodically, more investigating todo. <a href="https://github.com/kellan/laughingmeme/commit/5ab9f91def40d60bc33db9ce06c63a6953c3448a">Fixed</a>)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Because I use a slightly non-standard Jekyll for this blog I’ve been generating the HTML locally and then rsync’ing that output to a very tiny Linode host versus just letting Github Pages handle the hosting as I do with kellanem.com.]]></summary></entry><entry><title type="html">What we mean to others</title><link href="https://laughingmeme.org/2024/05/12/what-we-mean-to-others.html" rel="alternate" type="text/html" title="What we mean to others" /><published>2024-05-12T14:05:30+00:00</published><updated>2024-05-12T14:05:30+00:00</updated><id>https://laughingmeme.org/2024/05/12/what-we-mean-to-others</id><content type="html" xml:base="https://laughingmeme.org/2024/05/12/what-we-mean-to-others.html"><![CDATA[<p>Spent some time this weekend at a wedding with a lot of very old friends.</p>
-
-<p>Did we first meet in the 90s providing tech support for tree sitters? Or was it in a muddy field in the Netherlands laying fiber optic cable for a 2001 hackers conference? Or at the Other Side Cafe in Boston debating whether it made sense use RDF as the basis for a syndication format and should it still be called RSS at that point? Oh, it was a Perl conference in Japan, that’s right, I had forgotten about that.</p>
-
-<p>Much like Gen X is sometimes the forgotten generation (or at least we feel that way), the generation of us who grew up with an internet that seemed an unalloyed good fall awkwardly into the middle between those who didn’t grow up with it, and those for whom there has always been the whiff of brimstone, greed, and ruin around the place.</p>
-
-<p>Weddings and their ilk are excellent heritage technologies for reconnecting with community but in mingling it was clear that for so many of us who grew up building our community with the help of prosthestics in the form of social software we find ourselves bereft a bit as the tools slow and then all at once collapse.</p>
-
-<p>Discussion turned as it does in such crowds to whether there is a tool to build (“Does Signal have an API?” “Is email the appropriate technology?”), but for me the key insight was something the officiant (the delightful Yoz Grahame) said during the ceremony.</p>
-
-<blockquote>
-  <p>As we get older, and let’s face it we got old, it’s easy to forget what we mean to other people. - Yoz Grahame</p>
-</blockquote>
-
-<p>My interpretation of that thought, and what I’m going to try to hold on to, is that while I wouldn’t wish the grinding details of my day to day life on anyone, I cherish knowing what’s up with you, with all the obvious inherent the contradiction therein.</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Spent some time this weekend at a wedding with a lot of very old friends.]]></summary></entry></feed>
+<p>(Hmmm, seems like something is happening that reverts the custom domain settings periodically, more investigating todo. <a href="https://github.com/kellan/laughingmeme/commit/5ab9f91def40d60bc33db9ce06c63a6953c3448a">Fixed</a>)</p>]]></content><author><name>Kellan Elliott-McCrea</name></author><summary type="html"><![CDATA[Because I use a slightly non-standard Jekyll for this blog I’ve been generating the HTML locally and then rsync’ing that output to a very tiny Linode host versus just letting Github Pages handle the hosting as I do with kellanem.com.]]></summary></entry></feed>
