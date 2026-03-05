@@ -34,7 +34,7 @@ Anyone working with coding agents regularly knows the planning phase is where th
 
 Implementation, the generating of code, is really a rather minor and cheap part of the process. Why obsess on getting feedback on that part?
 
-That's our latest learning as a team: Socialize and get feedback on the plan. Also on the verification steps. And maybe on how you configure your reviewers.
+That's our latest learning as a team: **Socialize and get feedback on the plan.** (Also on the verification steps. And maybe on how you configure your reviewers.)
 
 This is the most human to human high bandwidth work.
 
