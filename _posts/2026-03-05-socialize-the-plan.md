@@ -16,7 +16,7 @@ Simon wrote yesterday about the anti patterns of [Inflicting unreviewed code on 
 
 Code review is a funny topic. 
 
-Most senior engineers and engineering leaders I know have always been quietly skeptical of its value. It's expensive, and the data data on defect detection doesn’t justify the cost. Meanwhile teams tend to put too much trust in code review while underinvesting in other tools to gain confidence: monitoring, automation, better coding tools and practices, training, etc. (Swiss cheese!)
+Most senior engineers and engineering leaders I know have always been quietly skeptical of its value. It's expensive, and the data on defect detection doesn’t justify the cost. Meanwhile teams tend to put too much trust in code review while underinvesting in other tools to gain confidence: monitoring, automation, better coding tools and practices, training, etc. (Swiss cheese!)
 
 Code review ubiquity is tied to Github's (really quite recent I promise you!) rise to ubiquity, a tool designed for open source development, that quickly sublimated into being "conventional wisdom and best practice". So much to say about how in software, we keep believing we've found "normal" and “best practice,” forgetting we’re 50 years into an experiment where we tear up and reinvent best practices every 5–10 years.
 
