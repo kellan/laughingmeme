@@ -4,6 +4,8 @@ date: '2026-03-05T06:45:16-05:00'
 layout: post
 ---
 
+On AI and code review.
+
 Anyone who tells you they have this current moment in coding figured out is lying to someone (you or themselves). I'm going to keep sharing half formed thoughts, and bits of things I've learned. 
 
 As the cost of writing code goes to zero new strains and bottlenecks appear. This is what we expect when we think about building software as a system. For most teams the first place that strain appears is in code review. 
