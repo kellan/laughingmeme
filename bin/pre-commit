@@ -1,0 +1,30 @@
+#!/bin/sh
+# ABOUTME: Git pre-commit hook that validates YAML front matter in Jekyll posts.
+# ABOUTME: Uses yq to parse front matter and rejects commits with invalid YAML.
+
+errors=0
+
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep '^_posts/.*\.md$'); do
+    # Extract front matter (between first and second ---)
+    frontmatter=$(awk 'NR==1 && /^---$/{found=1; next} found && /^---$/{exit} found{print}' "$file")
+
+    if [ -z "$frontmatter" ]; then
+        echo "ERROR: $file - missing YAML front matter (must start with ---)"
+        errors=$((errors + 1))
+        continue
+    fi
+
+    # Validate with yq
+    errmsg=$(echo "$frontmatter" | yq '.' 2>&1 >/dev/null)
+    if [ $? -ne 0 ]; then
+        echo "ERROR: $file - invalid YAML front matter:"
+        echo "  $errmsg"
+        errors=$((errors + 1))
+    fi
+done
+
+if [ $errors -gt 0 ]; then
+    echo ""
+    echo "$errors file(s) with invalid YAML front matter. Commit aborted."
+    exit 1
+fi
