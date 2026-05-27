@@ -41,12 +41,12 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="https://kellanem.com/notes/">Leadership notes</a><a class="page-link" href="/about/">About</a><a class="page-link" href="/search/">Search</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" data-pagefind-body data-pagefind-filter="type:post">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Lazy Perl Web Hacking til Sunrise</h1>
@@ -110,7 +110,9 @@ Rather then having to pass my template to the form object, and use it to draw ev
 I’ve got events, calendars, and dates on my mind again, what a surprise. So the “Image Upload” input type was just thrown in there to make it seem like I had thought about this a little more. I want to be able to pass a form element object a [DateTime](http://search.cpan.org/dist/DateTime/) object, and get 3 properly configured pull down menus. Similarly I want to be able to ask <acronym title="CGI::FormBuilder">CFB</acronym> for the value of my date field, and get back a DT object, not ${name}*day, ${name}*month, ${name}\_year. Of course you would probably have to hold on to the values the user submitted in order to re-display the form on an error condition, but tuck it away somewhere I don’t have to see it. Seems like Class::DBI’s inflate/deflate API would be a good model for this. This is where you chime in and tell me you’ve heard my pleas and written the perfect solution, or that its been sitting on CPAN for the last 8 years, its called cgi-lib.pl, and how have I missed it.
 </form>
 
-  </div><a class="u-url" href="/2003/09/13/lazy-perl-web-hacking-til-sunrise/" hidden></a>
+  </div>
+
+  <a class="u-url" href="/2003/09/13/lazy-perl-web-hacking-til-sunrise/" hidden></a>
 </article>
 
       </div>
