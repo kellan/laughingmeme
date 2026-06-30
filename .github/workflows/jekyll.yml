@@ -45,6 +45,16 @@ jobs:
       run: |
         rsync -av blogmarks/_site/ _site/links/
 
+    - name: Annotate link pages for search
+      run: |
+        # Mark link-blog pages as indexable and tag them so pagefind can
+        # filter on type:link.
+        find _site/links -name '*.html' -print0 | xargs -0 sed -i -E \
+          's/<body([^>]*)>/<body data-pagefind-body data-pagefind-filter="type:link"\1>/I'
+
+    - name: Generate search index
+      run: npx -y pagefind@latest --site _site
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:

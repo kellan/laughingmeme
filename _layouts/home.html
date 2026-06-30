@@ -12,7 +12,7 @@ layout: default
   <div class="home-layout">
 
     {%- if site.data.recent_links -%}
-    <aside class="recent-links">
+    <aside class="recent-links" data-pagefind-ignore>
       <h2>Recent Links</h2>
       <ul>
         {%- for link in site.data.recent_links -%}
