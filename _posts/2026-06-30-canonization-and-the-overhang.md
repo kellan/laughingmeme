@@ -4,9 +4,7 @@ date: '2026-06-30T14:43:24-04:00'
 layout: post
 ---
 
-David Bessis's ["The fall of the theorem economy"](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy) is ostensibly about LLMs and the pursuit of pure math, and I found it fascinating in its own right, even while I'm not qualified to evaluate a number of his claims. Worth stopping and reading.
-
-Additionally he names a couple of key trends that will be familiar to any engineering leader in this moment, and gives us two very useful terms.
+David Bessis's ["The fall of the theorem economy"](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy) is ostensibly about LLMs and the pursuit of pure math, and I found it fascinating in its own right, even while I'm not qualified to evaluate a number of his claims. Worth stopping and reading on its own. Additionally he names a couple of key trends that will be familiar to any engineering leader in this moment, and gives us two very useful terms.
 
 > "The product of mathematics is clarity and understanding. Not theorems, by themselves.” — Bill Thurston
 
