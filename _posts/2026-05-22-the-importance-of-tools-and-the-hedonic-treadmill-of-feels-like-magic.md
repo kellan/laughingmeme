@@ -3,6 +3,8 @@ title: 'The Importance of Tools and the Hedonic Treadmill of "Feels like Magic"'
 date: '2026-05-22T08:08:10-04:00'
 layout: post
 ---
+**update 2026-07-06**: Anthropic added Playwright Chromium and an Artifact tool to their hosted environment. Feels more magical. 
+
 Claude Code felt like magic when I used it for the first time (14 months ago?). And then it felt like magic again when the models got good at code at the end of the year.
 
 But then I wanted to be able to [vibe code entirely from my phone, one handed on vacation, while sipping a fruity drink and playing beach soccer with the kiddos](https://laughingmeme.org/2026/03/24/coding-and-blogging-on-vacation.html), which brought me to exe.dev and Shelley. Shelley is great because its batteries included, all the tools you need out of the box to do web development.
