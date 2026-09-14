@@ -8,8 +8,6 @@ As an industry, we like to shout a lot about experiments when we kick them off, 
 
 Recently there has been a loud declaration that management is dead. Organizations should flatten. Managers retrain as ICs or be let go. Etc. Facebook has been one of the loudest advocates of this approach. Six months in, they're asking ICs to move back into management.
 
-<img src="/img/facebook_managers.png">
-
 A different thread running through the industry is [the large number of managers opting out](https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break). There’s a sense that the work has gotten harder and less rewarding at the same time, with a mix of layoffs, tighter budgets, and typical founder psychosis turned to 11 by AI. (And fomo over those generating generational wealth)
 
 These are two sides of the same coin. When organizations don’t understand why we have management, the role is undervalued and underinvested in.
