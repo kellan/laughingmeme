@@ -6,7 +6,7 @@ layout: post
 
 As an industry, we like to shout a lot about experiments when we kick them off, all confident swagger that this time our superior intellects have landed from first principles on the correct reimagining of this or that piece of conventional wisdom. For a long time I had the idea of maintaining a receipts index for tech blogs, “Company X has declared Y is dead, do Z”, two years later, “Z is dead do Alpha!”. So many many examples in our industry it’s hard to choose just one example, but you could do worse than the Spotify management model, which continues to take the industry by storm over a decade later, despite wide acknowledgment that it didn’t work, and was never fully rolled out at Spotify. 
 
-Recently there has been a loud declaration that management is dead. Organizations should flatten. Managers retrain as ICs or be let go. Etc. Facebook has been one of the loudest advocates of this approach. Six months in, they're asking ICs to move back into management.
+Recently there has been a loud declaration that management is dead. Organizations should flatten. Managers retrain as ICs or be let go. Etc. Facebook has been one of the loudest advocates of this approach. Six months in, [they're asking ICs to move back into management](https://laughingmeme.org/img/facebook_managers.png).
 
 A different thread running through the industry is [the large number of managers opting out](https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break). There’s a sense that the work has gotten harder and less rewarding at the same time, with a mix of layoffs, tighter budgets, and typical founder psychosis turned to 11 by AI. (And fomo over those generating generational wealth)
 
