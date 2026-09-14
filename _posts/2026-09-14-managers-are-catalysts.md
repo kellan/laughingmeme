@@ -18,7 +18,7 @@ But now it is.
 
 The point of a technology company is to create change. The point of engineering leadership is to increase your team's capacity to create change. And managers? Managers are catalysts.
 
-Catalyst has a colloquial definition, but it also has a technical one: a catalyst lowers the activation energy necessary for a reaction to occur. That's what good management does.
+"Catalyst" has a colloquial definition, but it also has a technical one: a catalyst lowers the activation energy necessary for a reaction to occur. That's what good management does.
 
 Without a catalyst you can still create change. You add heat and pressure. Mandates. They work some of the time, and damage the system 100% of the time. Sometimes that's the right call. A little damage now, do the expensive repair work later. If you invest in management you have a choice. If you don't, you don't.
 
