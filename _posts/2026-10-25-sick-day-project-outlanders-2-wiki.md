@@ -12,7 +12,7 @@ I used it as an excuse to try two LLM backed work modes I haven't tried much, co
 
 Mining the game's assets by contrast worked better and was easier than I could have possibly imagined. I didn't have to tell it how, or anything about the data formats, or even where the files lived. I didn't even have to sit at my computer. I setup a model running on my laptop with access to the binaries, and then a shared repo and set of issues that I could have a model on my phone task the local model with questions, and way we went.
 
-[3 carrots per full field every 9 days](https://outlanders2wiki.com/buildings/carrot/) btw, but also first pass on the wiki claims it's a "building". That's data mining in a nutshell. (I might fix that)
+[3 carrots per field plot every 9 days](https://outlanders2wiki.com/buildings/carrot/) btw, but also first pass on the wiki claims it's a "building". That's data mining in a nutshell. (I might fix that)
 
 So using the information Sol extracted from the game files, I quickly put together an [Outlanders 2 "wiki"](https://outlanders2wiki.com/). (wiki in the sense that there is a repo that will accept pull requests vs "wiki" in the sense that you can click to edit). ([data repo](https://github.com/kellan/outlanders2-wiki))
 
