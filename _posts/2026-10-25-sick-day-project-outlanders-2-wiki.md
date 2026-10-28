@@ -16,3 +16,6 @@ Mining the game's assets by contrast worked better and was easier than I could h
 
 So using the information Sol extracted from the game files, I quickly put together an [Outlanders 2 "wiki"](https://outlanders2wiki.com/). (wiki in the sense that there is a repo that will accept pull requests vs "wiki" in the sense that you can click to edit). ([data repo](https://github.com/kellan/outlanders2-wiki))
 
+**update Oct 28:** A cold that won’t let go is apparently great for side projects. Switched from working locally, to working primarily on my phone, and using Github issues plus some in repo docs as a RPC to an agent running locally when additional information was needed. 51 pull requests, 580 data records have grown to 871, including all 260 challenge levels with the dates each one runs, a Mechanics section, search, and a look inspired by the game.
+
+Computer use still slow, but works better when I’m not trying to use the laptop at the same time.
