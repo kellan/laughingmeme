@@ -6,11 +6,11 @@ layout: post
 
 **City plan & buildings:** gnomon, clepsydra, caryatid, architrave, entablature, acanthus, spandrel, squinch, machicolation, bartizan, castrum, vicus, cippus, pomerium, propylaeum, hypogeum, tessellated
 
-**Instruments & astronomy:** armillary, orrery, ephemeris, azimuth, theodolite, argosy
+**Instruments & astronomy:** armillary, orrery, ephemeris, azimuth, theodolite
 
 **Stones & materials:** carnelian, marl, cinerary, touchstone, whetstone
 
-**Fabrics & trade:** camlet, samite, baize, sarcenet, arras, bullion, palliasse
+**Fabrics & trade:** camlet, samite, baize, sarcenet, arras, bullion, palliasse, argosy
 
 **Myth & classical religion:** hippocamp, monoceros, catoblepas, simulacrum, lararium, lekythos, kantharos, thiasos, cenotaph, ossuary, threnody
 
