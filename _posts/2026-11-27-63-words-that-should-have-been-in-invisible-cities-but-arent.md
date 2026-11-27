@@ -1,5 +1,5 @@
 ---
-title: '60ish words that should have been in Invisible Cities but aren''t'
+title: '63 words that should have been in Invisible Cities but aren''t'
 date: '2026-11-27T09:55:00-08:00'
 layout: post
 ---
